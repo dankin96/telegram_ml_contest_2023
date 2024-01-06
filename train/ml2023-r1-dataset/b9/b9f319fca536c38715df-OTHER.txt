@@ -1,0 +1,2 @@
+vless://FLCFiS@ft.flcfis.shop:443?type=grpc&serviceName=%40FLCFiS&security=reality&fp=chrome&pbk=Aw1bSWgTU-Qi56DId63rZhjwn25THBKJ_T-3Sk_DYRU&sni=www.zula.ir&sid=d56f86ad&spx=%2F#%40FLCFiS-3125grfq
+

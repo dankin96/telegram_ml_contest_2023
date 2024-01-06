@@ -1,0 +1,11 @@
+def remove_duplicates(lst):
+    unique_lst = []
+    for i in range(len(lst)):
+        if lst[i] not in lst[:i] + lst[i+1:]:
+            unique_lst.append(lst[i])
+    return unique_lst
+
+# Пример использования
+nums = [1, 2, 3, 4, 2, 3, 1, 5]
+unique_nums = remove_duplicates(nums)
+print(unique_nums)  # Выведет: [1, 2, 3, 4, 5]

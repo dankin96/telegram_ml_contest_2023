@@ -1,0 +1,1 @@
+sudo pacman-mirrors --fasttrack 20 && sudo pacman -Syyuu && sudo flatpak update && pamac update

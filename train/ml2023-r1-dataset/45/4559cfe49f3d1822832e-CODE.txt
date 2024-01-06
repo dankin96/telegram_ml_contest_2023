@@ -1,0 +1,10 @@
+  int majorityElement(vector<int> &nums) {
+    std::pair<int, int> major(0, 0);
+    for (int n : nums)
+      major = max(
+          make_pair(n, static_cast<int>(count(nums.begin(), nums.end(), n))),
+          major, [](const auto &lhs, const auto &rhs) {
+            return lhs.second < rhs.second;
+          });
+    return major.first;
+  }

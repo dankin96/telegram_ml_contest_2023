@@ -1,0 +1,7 @@
+$elements = [$productId => []];
+CIBlockElement::GetPropertyValuesArray(
+    $elements,
+    $iblockId,
+    ['ACTIVE' => 'Y'],
+    ['CODE' => $property]
+);

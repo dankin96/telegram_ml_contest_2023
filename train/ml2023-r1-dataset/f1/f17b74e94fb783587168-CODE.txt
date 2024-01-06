@@ -1,0 +1,17 @@
+CREATE TABLE `calls` (
+  `call_datetime` DATETIME NULL DEFAULT NULL,
+  `hashed_phone` VARCHAR(64) NOT NULL COLLATE 'utf8mb4_general_ci',
+  `call_duration` SMALLINT(5) UNSIGNED NOT NULL,
+  `tarif` VARCHAR(35) NOT NULL COLLATE 'utf8mb4_general_ci',
+  `tarif_type` VARCHAR(5) NOT NULL COLLATE 'utf8mb4_general_ci',
+  `id_cabinet` SMALLINT(5) UNSIGNED NOT NULL,
+  `nom_cabinet` VARCHAR(35) NOT NULL COLLATE 'utf8mb4_general_ci',
+  `id_clients_appels` INT(10) UNSIGNED NOT NULL DEFAULT '0',
+  `new_client` TINYINT(3) UNSIGNED NULL DEFAULT NULL,
+  UNIQUE INDEX `id_clients_appels` (`id_clients_appels`) USING BTREE,
+  INDEX `hashed_phone` (`hashed_phone`) USING BTREE,
+  INDEX `call_datetime` (`call_datetime`) USING BTREE
+)
+COLLATE='utf8mb4_general_ci'
+ENGINE=InnoDB
+;

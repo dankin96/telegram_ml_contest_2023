@@ -1,0 +1,5 @@
+[DEFAULT]
+logtarget = SYSLOG
+socket    = /run/fail2ban/socket
+pidfile   = /run/fail2ban/pid
+

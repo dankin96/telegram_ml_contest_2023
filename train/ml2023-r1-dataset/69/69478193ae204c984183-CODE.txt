@@ -1,0 +1,3 @@
+sed -i "s/getNoSubKeyHtml:/getNoSubKeyHtml_:/" /usr/share/javascript/proxmox-widget-toolkit/proxmoxlib.js
+sed -i "s/noSubKeyHtml/noSubKeyHtml_/" /usr/share/pve-manager/touch/pvemanager-mobile.js
+sed -i "s/noSubKeyHtml/noSubKeyHtml_/" /usr/share/pve-manager/js/pvemanagerlib.js

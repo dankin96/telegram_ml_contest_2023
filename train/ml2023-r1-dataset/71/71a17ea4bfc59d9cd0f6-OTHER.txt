@@ -1,0 +1,12 @@
+GLUT - GLUT Coin
+$0.000000000
+Network: ETH
+H|L: 0.00|0.00000000
+1h:  13.7%     🎉       
+24h: -41.0%    💀       
+7d:  0.0%      😏       
+Vol: $93.9 K
+Liq: $10.9 K
+Circ Mcap: 54.8 K
+FDV 54.8 K
+CA: 0xf8906e13243208c78c2f4c962659bf27a9565a34

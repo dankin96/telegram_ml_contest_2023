@@ -1,0 +1,34 @@
+
+class ListaBemLoka(list):
+
+    
+
+    def add(self, val):
+
+        """Soma todos os ítens da lista com val"""
+
+        return ListaBemLoka([x + val for x in self])
+
+    def lshift(self, val):
+
+        """Fazer append na lista usando <<"""
+
+        self.append(val)
+
+    def rshift(self, pos):
+
+        """Remove um item com >>"""
+
+        return self.pop(pos)
+
+    def neg(self):
+
+        return ListaBemLoka(reversed(self))
+
+    def iadd(self, val):
+
+        """Soma todos os ítens da lista com val e manter no obj"""
+
+        ...
+
+ 

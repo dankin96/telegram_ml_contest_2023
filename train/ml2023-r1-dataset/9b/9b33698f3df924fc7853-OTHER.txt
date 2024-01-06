@@ -1,0 +1,5 @@
+Token: BTCUSDT
+Price: $27876.58
+24H High: $28089.98
+24H Low: $27685.64
+24H Volume: 2966.596876 BTC

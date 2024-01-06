@@ -1,0 +1,15 @@
+ 3099974889
+pai: RINEU BONJARDIM
+mae: ANNA MARTINS BONJARDIM
+municipioNasci: SANTA ADELIA - SP
+enderecoMuni: UCHOA - SP
+enderecoLogr: MARECHAL DEODORO
+enderecoNu: 249
+enderecoBa: CENTRO
+enderecoCe: 15.890-000
+rgNumero: 4743448
+rgOrgaoEmi: SSP - SSP - SECRETARIA DE SEGURANCA PUBLICA
+rgUf: SP
+rgDataEmissao: 1216609200000
+cns: 705002216478658
+telefone: 21:2105-0000

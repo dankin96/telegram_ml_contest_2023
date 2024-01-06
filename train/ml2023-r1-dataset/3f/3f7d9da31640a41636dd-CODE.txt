@@ -1,0 +1,6 @@
+class Hotel2 extends Hotel {
+    constructor(name, place, floor, stars, rooms, reserved) {
+        super(name, place, floor, null, stars, rooms);
+        this.reserved = reserved;
+    }
+...

@@ -1,0 +1,11 @@
+[pizza@pizza-desktop ~]$ lsblk
+NAME          MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINTS
+sda             8:0    0 465.8G  0 disk  
+└─sda1          8:1    0 465.8G  0 part  
+  └─cryptlvm  254:0    0 465.7G  0 crypt 
+    ├─VG-swap 254:1    0    16G  0 lvm   [SWAP]
+    ├─VG-root 254:2    0    60G  0 lvm   /
+    └─VG-home 254:3    0 389.7G  0 lvm   /home
+sdb             8:16   1  14.4G  0 disk  
+├─sdb1          8:17   1     4G  0 part  /boot
+└─sdb2          8:18   1  10.4G  0 part  /run/media/pizza/8d04ab0e-63f7-4d49-9cdf-75304d7f0992

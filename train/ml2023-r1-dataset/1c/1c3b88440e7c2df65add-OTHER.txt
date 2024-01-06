@@ -1,0 +1,10 @@
+
+akso                 f1/b2c = v5.20230622.02
+bonilhabooks         f1/b2c = v5.20231004.01
+proseculo
+proseculo.homolog
+redemac
+redemac.sellers
+stoky                f1/b2c = v5.20231005.01
+viainox-sellers
+

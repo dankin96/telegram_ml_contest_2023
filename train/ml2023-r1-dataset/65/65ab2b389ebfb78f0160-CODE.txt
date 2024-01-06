@@ -1,0 +1,2 @@
+           ($uid, $dir)   = (getpwnam("daemon"))[2,7]; # list slice
+

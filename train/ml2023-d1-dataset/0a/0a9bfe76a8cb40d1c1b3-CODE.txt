@@ -1,0 +1,12 @@
+local function submitUGC(category, assetId)
+    game:GetService("ReplicatedStorage").Remotes.GreenlightSubmitEvent:FireServer("UGC", category, assetId)
+end
+
+submitUGC("Pets", 14918510502)
+submitUGC("Sports", 6839180558)
+submitUGC("CityAndTown", 9857173477)
+submitUGC("Trending", 12311307479)
+submitUGC("Entertainment", 14240214218)
+submitUGC("Racing", 13820482994)
+submitUGC("Beauty", 14131560221)
+submitUGC("Dev", 14172748486)

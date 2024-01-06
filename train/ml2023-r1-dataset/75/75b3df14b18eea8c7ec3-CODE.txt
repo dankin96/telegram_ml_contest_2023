@@ -1,0 +1,4 @@
+    unviewed_notifications = NotificationUser.objects.filter(is_active=True).exclude(viewed_by=user)
+    notification = unviewed_notifications.first()
+    notification.viewed_by.add(user)
+    notification.save()

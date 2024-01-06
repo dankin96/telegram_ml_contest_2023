@@ -1,0 +1,6 @@
+with (
+    open(input) as inp,
+    open(output) as out
+):
+  for one, two, three, four in islice(inp, 4):
+    # stmt

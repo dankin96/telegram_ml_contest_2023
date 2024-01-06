@@ -1,0 +1,2 @@
+unknown = iRLords()
+print(dir(unknown))

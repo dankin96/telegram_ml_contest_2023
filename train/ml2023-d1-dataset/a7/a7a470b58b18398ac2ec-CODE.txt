@@ -1,0 +1,2 @@
+
+sudo sipp DOMAIN:PORT -d 100000 -l 1 -aa -nd -r 1  -sf sipp_reg_invite_re-INVITE.xml -inf ./values/REGISTER_INVITE_local.csv -p 5062

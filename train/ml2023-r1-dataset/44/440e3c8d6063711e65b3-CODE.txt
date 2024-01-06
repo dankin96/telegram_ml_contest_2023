@@ -1,0 +1,9 @@
+import com.atlassian.jira.issue.MutableIssue
+
+def issue = issue as MutableIssue
+
+def labels = issue.getLabels().collect({ it.getLabel() })
+def label = "" // значение твоей метки
+if (labels.contains(label)) {
+    // some code
+}

@@ -1,0 +1,12 @@
+automation:
+  - alias: Calendar notification
+    trigger:
+      - platform: calendar
+        event: start
+        entity_id: calendar.personal
+    action:
+      - service: persistent_notification.create
+        data:
+          message: >-
+            Event {{ trigger.calendar_event.summary }} @
+            {{ trigger.calendar_event.start }}

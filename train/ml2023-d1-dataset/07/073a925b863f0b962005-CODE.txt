@@ -1,0 +1,16 @@
+local DataStoreService = game:GetService("DataStoreService")
+local myDataStore = DataStoreService:GetDataStore("MyDataStore")
+
+local function saveData(player)
+    local success, err = pcall(function()
+        myDataStore:SetAsync(tostring(player.UserId), player.leaderstats)
+    end)
+
+    if success then
+        print("Data saved successfully")
+    else
+        print("Failed to save data with error: ", err)
+    end
+end
+
+game.Players.PlayerRemoving:Connect(saveData)

@@ -1,0 +1,15 @@
+import { drizzle } from 'drizzle-orm/node-postgres'
+import { Client } from 'pg'
+
+export async function dbConnection() {
+  const client = new Client({
+    connectionString: 'postgres://user:pass@127.0.0.1:5432/dbname',
+  })
+  try {
+    await client.connect()
+    drizzle(client)
+    return 'ok'
+  } catch (error) {
+    return 'error'
+  }
+}

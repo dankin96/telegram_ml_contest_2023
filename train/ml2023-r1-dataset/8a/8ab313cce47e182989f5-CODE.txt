@@ -1,0 +1,23 @@
+
+import telebot
+import datetime
+import time
+
+API_TOKEN = 'YOUR_API_TOKEN'  # توکن API ربات تلگرام خود
+CHAT_ID = '@YOUR_CHANNEL'  # آیدی کانال مورد نظر
+
+bot = telebot.TeleBot(API_TOKEN)
+
+def send_current_time():
+    now = datetime.datetime.now()
+    current_time = now.strftime("%H:%M:%S")
+    bot.send_message(CHAT_ID, f"Current time: {current_time}")
+
+@bot.message_handler(commands=['start'])
+def start(message):
+    # برای شروع ارسال پیام هر دقیقه
+    while True:
+        send_current_time()
+        time.sleep(60)
+
+bot.polling()

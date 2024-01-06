@@ -1,0 +1,9 @@
+javascript
+const renderItem = ({ item }) => {
+  // Проверяем, если выбран раздел и текущий элемент не принадлежит этому разделу, то не отображаем элемент
+  if (selectedRazdel && item.razdel !== selectedRazdel) {
+    return null;
+  }
+
+  // Ваш код для отображения элемента
+};

@@ -1,0 +1,9 @@
+[TITLE]: 예약메일 발송 실패
+
+[CAUSE]: null
+[DETAILS]:
+domainName: mail.knou.ac.kr
+(user) userUid: 5002982
+(preenment) userUid: 5002982
+mailUid: 11699805
+sendTime: 23. 10. 11. 오후 9:30

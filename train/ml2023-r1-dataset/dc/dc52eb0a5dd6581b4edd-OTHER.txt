@@ -1,0 +1,2 @@
+Sun Oct  8 17:51:19 2023 - access(): Permission denied [plugins/cgi/cgi_plugin.c line 633]
+2023-10-08T15:51:19.356795351Z [pid: 14|app: -1|req: -1/15] 172.23.0.6 () {40 vars in 539 bytes} [Sun Oct  8 17:51:19 2023] GET /shm/pay_systems/freekassa.cgi?status_check=1 => generated 9 bytes in 0 msecs (HTTP/1.0 403) 2 headers in 71 bytes (0 switches on core 19)

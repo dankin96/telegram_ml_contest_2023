@@ -1,0 +1,9 @@
+ParticleSystem ps;　　　这样的主程序是不是显得非常简洁优雅？
+void setup() {
+size(200,200);
+ps = new ParticleSystem();
+}
+void draw() {
+background(255);
+ps.run();
+}

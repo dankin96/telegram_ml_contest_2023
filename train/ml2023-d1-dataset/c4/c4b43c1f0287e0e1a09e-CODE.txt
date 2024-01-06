@@ -1,0 +1,8 @@
+- id: 00008030001158D92639802E
+    os: ios
+    name: iPhone11pro
+    appium_port: 7571
+    adb_port: 7572
+    proxy_port: 7573
+    min_port: 7574
+    max_port: 7580

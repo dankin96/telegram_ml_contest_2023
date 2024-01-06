@@ -1,0 +1,28 @@
+Exchange AMBBTC 1h Binance
+Price:0.00000035|0.00000035|0.00000034
+Vol:   896,794| 291,129|   1,934
+ATR: 0.00000001
+
+❌OBV: -18.7 M| -18.7 M| -19.0 M
+⚪RSI:   53.95|   53.95|   48.63
+⚪MFI:   30.45|   57.41|   37.57
+⚪CCI:   52.24|   52.24|  -38.60
+⚪WR%:   -0.00|   -0.00|   -0.00
+❌ADX:   16.50|   17.58|   18.75
+
+⚪MOM: No Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+✅PSAR: Bullish
+
+Volatility is moderately low
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+🐂Volume: Bullish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

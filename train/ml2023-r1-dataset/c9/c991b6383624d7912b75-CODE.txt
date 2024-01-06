@@ -1,0 +1,13 @@
+{
+  inputs.nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
+  outputs = { self, nixpkgs, ... }:
+  let
+    pkgs = nixpkgs.legacyPackages.x86_64-linux;
+    myJupyter = pkgs.python311.withPackages (p: with p; [ notebook numpy ]);
+  in
+  {
+    packages.x86_64-linux.myJupyter = pkgs.writeShellScriptBin "myJupyterLauncher" ''
+      ${myJupyter}/bin/python -m notebook
+    '';
+  };
+}

@@ -1,0 +1,7 @@
+● host.ip : 211.117.61.87 
+● headers.Host : [u'exchangewebapi.paysservice.com:6443'] 
+● headers.User-Agent : [u'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 WooriCardApp appver=277']
+● remote_address : 117.143.148.77
+● method : post
+● url.full : https://exchangewebapi.paysservice.com:6443/Coupon/CouponCertInfo
+● link : https://pas.paysgift.com/app/kibana#/doc/apm-*/apm-7.5.0-error-000035/doc?id=QAmIBIsBlPPBWJ_7Wo4P

@@ -1,0 +1,7 @@
+Oct 12 23:29:38 orange systemd[1]: openwebrx.service: State 'stop-sigterm' timed out. Killing.
+Oct 12 23:29:38 orange systemd[1]: openwebrx.service: Killing process 6658 (openwebrx) with signal SIGKILL.
+Oct 12 23:29:38 orange systemd[1]: openwebrx.service: Killing process 6705 (openwebrx) with signal SIGKILL.
+Oct 12 23:29:38 orange systemd[1]: openwebrx.service: Killing process 46900 (openwebrx) with signal SIGKILL.
+Oct 12 23:29:38 orange systemd[1]: openwebrx.service: Main process exited, code=killed, status=9/KILL
+Oct 12 23:29:38 orange systemd[1]: openwebrx.service: Failed with result 'timeout'.
+Oct 12 23:29:38 orange systemd[1]: Stopped OpenWebRX WebSDR receiver.

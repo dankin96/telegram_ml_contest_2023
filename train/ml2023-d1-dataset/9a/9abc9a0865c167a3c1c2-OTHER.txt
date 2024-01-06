@@ -1,0 +1,17 @@
+UUID=6eda2f44-c795-477f-b3e3-cc9a73eb5915 /                          btrfs   noatime,space_cache=v2,ssd,discard=async,compress=zstd:1,subvol=@                   0       0                   
+UUID=6eda2f44-c795-477f-b3e3-cc9a73eb5915 /.snapshots                btrfs   noatime,space_cache=v2,ssd,discard=async,compress=zstd:1,subvol=@snapshots          0       0                   
+UUID=6eda2f44-c795-477f-b3e3-cc9a73eb5915 /var/log                   btrfs   noatime,space_cache=v2,ssd,discard=async,compress=zstd:1,subvol=@log                0       0                   
+UUID=6eda2f44-c795-477f-b3e3-cc9a73eb5915 /var/cache                 btrfs   noatime,space_cache=v2,ssd,discard=async,compress=zstd:1,subvol=@cache              0       0                   
+UUID=6eda2f44-c795-477f-b3e3-cc9a73eb5915 /var/crash                 btrfs   noatime,space_cache=v2,ssd,discard=async,compress=zstd:1,subvol=@crash              0       0                   
+UUID=6eda2f44-c795-477f-b3e3-cc9a73eb5915 /var/tmp                   btrfs   noatime,space_cache=v2,ssd,discard=async,compress=zstd:1,subvol=@tmp                0       0                   
+UUID=6eda2f44-c795-477f-b3e3-cc9a73eb5915 /var/spool                 btrfs   noatime,space_cache=v2,ssd,discard=async,compress=zstd:1,subvol=@spool              0       0                   
+UUID=6eda2f44-c795-477f-b3e3-cc9a73eb5915 /var/lib/libvirt/images    btrfs   noatime,space_cache=v2,ssd,discard=async,compress=zstd:1,subvol=@images             0       0                   
+UUID=6eda2f44-c795-477f-b3e3-cc9a73eb5915 /var/lib/containers        btrfs   noatime,space_cache=v2,ssd,discard=async,compress=zstd:1,subvol=@containers         0       0                   
+UUID=6eda2f44-c795-477f-b3e3-cc9a73eb5915 /var/lib/machines          btrfs   noatime,space_cache=v2,ssd,discard=async,compress=zstd:1,subvol=@machines           0       0                   
+UUID=6eda2f44-c795-477f-b3e3-cc9a73eb5915 /var/lib/portables         btrfs   noatime,space_cache=v2,ssd,discard=async,compress=zstd:1,subvol=@portables          0       0                   
+UUID=6eda2f44-c795-477f-b3e3-cc9a73eb5915 /var/lib/AccountsServices  btrfs   noatime,space_cache=v2,ssd,discard=async,compress=zstd:1,subvol=@AccountsServices   0       0
+UUID=6eda2f44-c795-477f-b3e3-cc9a73eb5915 /var/lib/gdm3              btrfs   noatime,space_cache=v2,ssd,discard=async,compress=zstd:1,subvol=@gdm                0       0
+UUID=6eda2f44-c795-477f-b3e3-cc9a73eb5915 /var/www                   btrfs   noatime,space_cache=v2,ssd,discard=async,compress=zstd:1,subvol=@www                0       0
+UUID=6eda2f44-c795-477f-b3e3-cc9a73eb5915 /srv                       btrfs   noatime,space_cache=v2,ssd,discard=async,compress=zstd:1,subvol=@srv                0       0
+UUID=6eda2f44-c795-477f-b3e3-cc9a73eb5915 /opt                       btrfs   noatime,space_cache=v2,ssd,discard=async,compress=zstd:1,subvol=@opt                0       0
+UUID=6eda2f44-c795-477f-b3e3-cc9a73eb5915 /usr/local                 btrfs   noatime,space_cache=v2,ssd,discard=async,compress=zstd:1,subvol=@usrlocal           0       0

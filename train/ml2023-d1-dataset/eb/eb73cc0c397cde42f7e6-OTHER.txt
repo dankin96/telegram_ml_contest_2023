@@ -1,0 +1,8 @@
+👀 SPAM Score detected:
+###
+Жаль парня, не по тому пути пошёл...
+###
+
+Reason: 👮🏻‍♂️ Пресечена попытка вступления в группу. Причина: стоп слова в юзернейме
+Action: banUser
+Bot response: Successful ✅

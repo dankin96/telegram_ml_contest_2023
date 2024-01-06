@@ -1,0 +1,27 @@
+import time
+
+@bot.message_handler(commands=['muabot'])
+def open_link(message):
+    user_id = message.from_user.id
+    link = f'https://t.me/Shopdcb_vn_bot?start={user_id}'
+    chat_id = message.chat.id
+    
+    # Tạo một nút bấm với liên kết
+    keyboard = telebot.types.InlineKeyboardMarkup()
+    button = telebot.types.InlineKeyboardButton(text="[| 🔥 Mua Bot 🔥 |]", url=link)
+    keyboard.add(button)
+
+    bot.send_message(chat_id, '✧══════• ༺༻ •══════✧
+
+┗➤Bán Bot Spam Call + Sms - Api 🔥 
+┗➤ Bán Bot Ddos Web + Medhost Vip ⚔️ 
+┗➤ Bán Bot ChatGpt + Api Hoạt động 🔰 
+
+[| 💸 Mua Vui Lòng Ấn Nút Bên Dưới 💸 |]', reply_markup=keyboard)
+
+while True:
+    try:
+        bot.infinity_polling(timeout=60, long_polling_timeout=1)
+    except Exception as e:
+        print(f"Error: {e}")
+        time.sleep(5)

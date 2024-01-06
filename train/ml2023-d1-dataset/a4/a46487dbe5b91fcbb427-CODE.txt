@@ -1,0 +1,10 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>عنوان الموقع</title>
+</head>
+<body>
+    <!-- محتوى الصفحة هنا -->
+</body>
+</html>

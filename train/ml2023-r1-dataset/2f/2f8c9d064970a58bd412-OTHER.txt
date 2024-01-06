@@ -1,0 +1,5 @@
+Brute - reaching upto 70k+ CPM
+Brute 2 - supports plainproxy - upto 5-30k+ CPM
+Inboxer 
+Inboxer 2 - supports plainproxy
+

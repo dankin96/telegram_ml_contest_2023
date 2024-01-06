@@ -1,0 +1,10 @@
+Last message:
+ - time: 2023-10-11T13:02:30.342Z
+ - number of occurrences: 368
+ - csr: 2
+ - facility: %IKEV2-5-RECV_CONNECTION_REQUEST
+ - message: Received a IKE_INIT_SA request
+ - ip: 
+ - client: 
+
+At least 10 events occurred between 2023-10-11 12:52 UTC and 2023-10-11 13:02 UTC

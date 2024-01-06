@@ -1,0 +1,4 @@
+PermitRootLogin yes
+PubkeyAuthentication yes
+ChallengeResponseAuthentication no
+

@@ -1,0 +1,7 @@
+💵 Saldo DANA                          (kode DNA)        
+💴 Saldo OVO (ADM Rp.1000)             (kode GOVO)          
+💴 Saldo OVO (TANPA ADM))              (kode OVOF)          
+💴 Saldo SHOPEE (ADM Rp.1.000)         (kode SHOPEE) 
+💴 Saldo SHOPEE (TANPA ADM)            (kode SHOPM)    
+💷 Saldo TCASH (ADM Rp.1.000)          (kode LA)      
+

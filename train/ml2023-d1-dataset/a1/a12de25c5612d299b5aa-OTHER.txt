@@ -1,0 +1,1 @@
+ [yii\base\ErrorException] Undefined array key 0 

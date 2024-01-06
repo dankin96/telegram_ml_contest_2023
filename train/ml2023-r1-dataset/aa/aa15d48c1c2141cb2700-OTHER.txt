@@ -1,0 +1,14 @@
+
+[AMAYAK Kazakhstan] SUMMARY 24h
+
+                                                 order_count    perc(%)
+kaz_performer_cancel_flg                                3454     2.5036
+kaz_too_long_to_wait_cancel_reason_flg                  2590     1.8773
+kaz_asked_to_cancel_cancel_reason_flg                    817     0.5922
+kaz_courier_long_trip_flg                                647     0.469
+kaz_eda_performer_cancel_flg                             573     0.4153
+kaz_went_in_wrong_direction_cancel_reason_flg            533     0.3863
+kaz_no_delivery_flg                                      138     0.1
+kaz_rude_courier_flg                                     137     0.0993
+kaz_damaged_package_flg                                   90     0.0652
+kaz_infinite_driving_flg                                  74     0.0536

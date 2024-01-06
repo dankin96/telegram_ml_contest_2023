@@ -1,0 +1,11 @@
+go: inconsistent vendoring in /build/source:
+        github.com/golang-collections/collections@v0.0.0-20130729185459-604e922904d3: is explicitly requ>
+        github.com/karalabe/usb@v0.0.2: is explicitly required in go.mod, but not marked as explicit in >
+        github.com/urfave/cli/v2@v2.25.7: is explicitly required in go.mod, but not marked as explicit i>
+        go.uber.org/atomic@v1.7.0: is explicitly required in go.mod, but not marked as explicit in vendo>
+        github.com/karalabe/usb@v0.0.3-0.20230711191512-61db3e06439c: is marked as explicit in vendor/mo>
+        github.com/urfave/cli/v2@v2.24.1: is marked as explicit in vendor/modules.txt, but not explicitl>
+
+        To ignore the vendor directory, use -mod=readonly or -mod=mod.
+        To sync the vendor directory, run:
+                go mod vendor

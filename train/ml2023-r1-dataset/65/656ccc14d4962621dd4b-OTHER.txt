@@ -1,0 +1,25 @@
+SinaisOB BOT - Checa Lista
+
+04/10 - IQ Option
+
+M1;EURJPY;22:17:00;PUT ✅²
+M1;EURJPY;22:19:00;PUT ✅
+M1;EURJPY;22:21:00;PUT ✅
+M1;EURJPY;22:22:00;PUT ✅
+M1;EURJPY;22:29:00;PUT ✅
+M1;EURJPY;22:32:00;PUT ✅²
+M1;EURJPY;22:38:00;PUT ✅
+M1;EURJPY;22:40:00;PUT ✅¹
+M1;EURJPY;22:41:00;PUT ✅
+M1;EURJPY;22:48:00;PUT ✅
+
+Resultado:
+✅ Sem gale: 7x3 (70,0%)
+✅¹ Com gale 1: 8x2 (80,0%)
+✅² Com gale 2: 10x0 (100,0%)
+
+Compartilhe:
+t.me/SinaisOBOficialBot
+t.me/SinaisOBApp
+
+Visite sinaisob.com

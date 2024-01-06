@@ -1,0 +1,16 @@
+yaml
+sensor:
+  - platform: template
+    sensors:
+      durata_batteria:
+        friendly_name: "Durata Batteria"
+        unit_of_measurement: "ore"
+        value_template: >
+          {% set potenza_istantanea = states('tuo_sensore_potenza') | float %}
+          {% set percentuale_carica = states('tuo_sensore_percentuale') | int %}
+          {% if potenza_istantanea > 0 %}
+            {% set durata_in_ore = (percentuale_carica / 100) * (15000 / potenza_istantanea) %}
+            {{ durata_in_ore | round(1) }}
+          {% else %}
+            N/A
+          {% endif %}

@@ -1,0 +1,27 @@
+const comp = new Composer();
+
+const xd = new WizardScene(
+    'xd',
+    (ctx) => {
+        ctx.reply("enter");
+        ctx.wizard.next(); // Move to the next step
+    },
+    (ctx) => {
+        ctx.reply("fooo0");
+
+        ctx.wizard.next();
+    },
+    (ctx) => {
+        ctx.reply("fooo1");
+
+        ctx.wizard.next();
+    },
+    (ctx) => {
+
+        ctx.reply("fooo2");
+        ctx.scene.leave();
+    }
+);
+const stage = new Stage([xd]);
+comp.use(session());
+comp.use(stage.middleware());

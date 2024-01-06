@@ -1,0 +1,2 @@
+hysteria2://30a850146f8e22a98cae959bcb7d378c@103.247.28.59:443?sni=hy2.hkintl.capoo.xyz
+

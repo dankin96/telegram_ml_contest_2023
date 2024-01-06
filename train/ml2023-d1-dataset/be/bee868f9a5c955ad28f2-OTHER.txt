@@ -1,0 +1,1 @@
+/sendcredits aleo1xxxxxx 50

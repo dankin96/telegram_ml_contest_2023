@@ -1,0 +1,5 @@
+ % !TEX TS-program = XeLaTeX \documentclass{article} \usepackage{fontspec} \setmainfont{Linux Libertine O} %
+ewfontfamily\lmodern{Latin Modern Roman} % If font exists on your system % Optical sizes need to be set up manually using the [SizeFeatures] option % or select the font using the regular font selection methods 
+ewcommand{\lmr}{\fontfamily{lmr}\selectfont} % Latin Modern Roman 
+ewcommand{\lmss}{\fontfamily{lmss}\selectfont} % Latin Modern Sans 
+ewcommand{\lmtt}{\fontfamily{lmtt}\selectfont} % Latin Modern Mono \begin{document} Some text in Linux Libertine. {\lmr Some text in Latin Modern} \end{document}

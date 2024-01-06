@@ -1,0 +1,1 @@
+ Transaction failed. Please check AssetID and balance.

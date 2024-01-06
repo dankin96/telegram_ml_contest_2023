@@ -1,0 +1,5 @@
+    fn pass_func(comptime func: type) !void {}
+
+
+Publisher.pass_func(fn () i32);
+Publisher.pass_func(fn () void)

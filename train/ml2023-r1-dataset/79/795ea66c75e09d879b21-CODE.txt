@@ -1,0 +1,91 @@
+fun ContadorLineas(jumpLined: Int) {
+    var count by remember { mutableStateOf(0) }
+    var textList by remember { mutableStateOf(emptyList<String>()) }
+    var previousCount by remember { mutableStateOf(0) }
+    var numberPrevious by remember { mutableStateOf(0) }
+    Column {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(),
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            if (numberPrevious < jumpLined) {
+                previousCount = count // Guardar el valor actual del contador
+                count++
+                numberPrevious ++
+                textList = textList + "$count"
+
+            } else if (numberPrevious > jumpLined) {
+                textList = textList.dropLast(1) // Eliminar el último elemento de la lista
+                count = previousCount // Restaurar el valor del contador anterior
+                previousCount--
+                numberPrevious --
+            }
+
+
+            LazyColumn {
+                items(textList) { item ->
+                    Text(
+                        text = item,
+                        modifier = Modifier
+                            .padding(start = 5.dp),
+                        fontSize = 15.sp
+                    )
+                }
+            }
+        }
+    }
+}
+
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun CampoTexto() {
+    var inputText by remember { mutableStateOf("") }
+    var translatedText by remember { mutableStateOf<String?>(null) }
+    var lineCount by remember { mutableStateOf(1) } // Contaor de líneas
+    var spaceCount by remember { mutableStateOf(0) } // Contador de espacios
+
+
+    Column(
+        modifier = Modifier
+            .padding(start = 35.dp, end = 4.dp)
+    ) {
+        OutlinedTextField(
+            value = inputText,
+            label = { Text(text = "Tu código", color = Color.Red) },
+            onValueChange = { newValue ->
+                inputText = newValue
+                // Contar las líneas cuando se ingresa el texto
+                lineCount = inputText.count { it == '
+' } + 1
+                // Contar los espacios en blanco
+                spaceCount = inputText.length
+            },
+            colors = TextFieldDefaults.outlinedTextFieldColors(
+                focusedBorderColor = Red,
+                cursorColor = Red,
+                unfocusedBorderColor = Gray
+            ),
+            keyboardOptions = KeyboardOptions.Default.copy(
+                imeAction = ImeAction.Default
+            ),
+            keyboardActions = KeyboardActions(
+                onDone = {
+                    // Llamar a la función de traducción aquí
+                    translatedText = inputText
+                }
+            ),
+            modifier = Modifier
+                .fillMaxWidth()
+                .fillMaxHeight(),
+               // .padding(bottom = 16.dp),
+            textStyle = TextStyle(fontSize = 16.sp)
+        )
+        }
+
+    Box (Modifier.padding(top = 25.dp)){
+        ContadorLineas(jumpLined = lineCount)
+    }
+}

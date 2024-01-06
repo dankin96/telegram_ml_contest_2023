@@ -1,0 +1,7 @@
+🎩  SDB1   15.000  1GB 30 HARI  
+🎩  SDB2   29.000  2GB 30 HARI  
+🎩  SDB3   39.000  3GB 30 HARI  
+🎩  SDB4   49.500  4GB 30 HARI  
+🎩  SDB5   60.500  5GB 30 HARI     
+
+

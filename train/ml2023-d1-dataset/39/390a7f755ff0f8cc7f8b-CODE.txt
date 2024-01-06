@@ -1,0 +1,2 @@
+[sunnatbek@fedora ~]$ sudo virtualbox
+Qt WARNING: QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-root'

@@ -1,0 +1,12 @@
+downloader(){
+wget -q "$1"
+}
+
+while IFS= read -r url
+do
+downloader "$url" &
+done < urls.txt
+
+wait
+echo "Завершено"
+

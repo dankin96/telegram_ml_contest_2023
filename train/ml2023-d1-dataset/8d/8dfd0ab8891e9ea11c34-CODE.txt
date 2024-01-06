@@ -1,0 +1,33 @@
+javascript
+<script>
+    window.addEventListener('load', loadedCallback);
+
+    function loadedCallback() {
+        var widgetId = hcaptcha.render("h-captcha", {
+            sitekey: "392e826d-f511-417b-996c-b98dbb31d32a",
+            size: "normal",
+            callback: "submitToken"
+        });
+    }
+
+    function submitToken(hash) {
+        const elts = document.getElementsByName("h-captcha-response");
+        if (elts.length > 0) elts[0].remove();
+
+        if (window.hcaptcha && typeof window.hcaptcha.getRespKey === "function") {
+            var hash = "JSON::" + JSON.stringify({
+                gRecaptchaResponse: hash,
+                respKey: window.hcaptcha.getRespKey(),
+                pr: true
+            });
+        }
+
+        window.postMessage({
+            type: "proxyGateResult",
+            hash: hash,
+            captchaType: "hcaptcha",
+            taskId: 136040183,
+            sitekey: "392e826d-f511-417b-996c-b98dbb31d32a"
+        }, "*");
+    }
+</script>

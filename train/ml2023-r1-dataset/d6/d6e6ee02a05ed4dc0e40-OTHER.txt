@@ -1,0 +1,7 @@
+    🔔 TRB Resistance 💱 bybit:TRBUSDT ⏱️ 1 Minute
+
+           Closing Price <44.24> entered channel [<44.24>, <46.265>] ✔️
+price      44.24
+symbol     bybit:TRBUSDT
+timeUnit   1 Minute
+timestamp  2023-10-06T00:22:06.449Z

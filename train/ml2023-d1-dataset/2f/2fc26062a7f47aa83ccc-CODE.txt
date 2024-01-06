@@ -1,0 +1,44 @@
+using System.Data;
+using System.IO;
+using OfficeOpenXml;
+
+string filePath = @"";
+string workSheetName = "Лист1";
+int startRow = 1;
+bool includeColNames = true;
+bool createFile = false;
+
+try
+{
+    if (!File.Exists(filePath) && createFile)
+    {
+        using (ExcelPackage package = new ExcelPackage(new FileInfo(filePath)))
+        {
+            package.Workbook.Worksheets.Add(workSheetName);
+            package.Save();
+        }
+    }
+
+    using (ExcelPackage package = new ExcelPackage(new FileInfo(filePath)))
+    {
+        ExcelWorksheet ws = package.Workbook.Worksheets[workSheetName];
+
+        if (includeColNames)
+        {
+            int colInd = 1;
+            foreach (DataColumn col in collection.Columns)
+            {
+                ws.Cells[startRow, colInd].Value = col.ColumnName;
+                colInd++;
+            }
+            startRow++;
+        }
+
+        ws.Cells[startRow, 1].LoadFromDataTable(collection, false);
+        package.Save();
+    }
+}
+catch (Exception ex)
+{
+    Console.WriteLine(ex.Message);
+}

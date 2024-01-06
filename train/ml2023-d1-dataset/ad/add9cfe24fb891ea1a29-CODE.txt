@@ -1,0 +1,1 @@
+fart -q tmp.cmd "package:" "adb shell pm uninstall " >nul

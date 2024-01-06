@@ -1,0 +1,29 @@
+Fitur? 
+V2
+/bd
+/dd
+/wd
+/cd
+/daw
+/bet
+/tax
+/tp
+/pos1
+/pos2
+/w1
+/w2
++auto count reme
++real spin roulette
++auto convert wl to dl
+/ft [fast trash]
+/fd [fast drop]
+/rr [relog]
+/res [respawn]
+/wr1 [fast pull]
+/wr2 [fast kick]
+/wr3 [fast ban]
+/wn [wrench normal]
+/wp [warp]
+
+Magnet
+/magnet [taking item use extrack o snap]

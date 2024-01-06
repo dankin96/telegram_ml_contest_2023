@@ -1,0 +1,18 @@
+SELECT
+    order_id,
+    creation_time,
+    order_price,
+    daily_revenue,
+    round(order_price*100/daily_revenue, 3) as percentage_of_daily_revenue
+from
+    (SELECT 
+        o.order_id,
+        o.creation_time,
+        SUM(p.price) as order_price,
+        sum(SUM(p.price)) over (partition by creation_time::date) as daily_revenue
+    FROM orders o
+    left JOIN products p 
+    ON p.product_id = ANY(o.product_ids)
+    where o.order_id not in (select order_id from user_actions where action = 'cancel_order')
+    group by o.order_id,o.creation_time) t1
+order by creation_time::date desc,order_price*100/daily_revenue desc

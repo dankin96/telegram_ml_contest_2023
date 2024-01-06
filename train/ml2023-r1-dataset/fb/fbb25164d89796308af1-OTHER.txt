@@ -1,0 +1,9 @@
+API Microservice.INFO: Channel: telegram, Request method: POST, Request:  {"update_id":221540206,"channel_post":{"message_id":640358,"sender_chat":{"id":-1001751027264,"title":"Ultainfinity DEVELOP Logger","username":"uggdeveloper","type":"channel"},"chat":{"id":-1001751027264,"title":"Ultainfinity DEVELOP Logger","username":"uggdeveloper","type":"channel"},"date":1696755697,"text":"📌 Application: Instant Creditline API Microservice
+♻️ Environment: staging
+⚠️ Log Level: ERROR
+🕒 Timestamp: 2023-10-08 09:01:37
+✉️ Message:
+
+Creditline API Microservice.ERROR: stream_socket_client(): Unable to connect to tcp://ac40a442eebf611e9be4902d7b7c8fe8-2140289418.us-west-2.elb.amazonaws.com:5672 (php_network_getaddresses: getaddrinfo for ac40a442eebf611e9be4902d7b7c8fe8-2140289418.us-west-2.elb.amazonaws.com failed: Try again) {\"exception\":\"[object] (PhpAmqpLib\\\\Exception\\\\AMQPIOException(code: 0): stream_socket_client(): Unable to connect to tcp://ac40a442eebf611e9be4902d7b7c8fe8-2140289418.us-west-2.elb.amazonaws.com:5672 (php_network_getaddresses: getaddrinfo for ac40a442eebf611e9be4902d7b7c8fe8-2140289418.us-west-2.elb.amazonaws.com failed: Try again) at /var/www/html/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Wire/IO/StreamIO.php:108)\"} []
+🧪 Context:
+{\"exception\":{}}","entities":[{"offset":0,"length":15,"type":"bold"},{"offset":52,"length":15,"type":"bold"},{"offset":76,"length":13,"type":"bold"},{"offset":96,"length":13,"type":"bold"},{"offset":130,"length":11,"type":"bold"},{"offset":143,"length":722,"type":"pre"},{"offset":865,"length":11,"type":"bold"},{"offset":877,"length":16,"type":"code"}]}} []

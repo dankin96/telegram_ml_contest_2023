@@ -1,0 +1,10 @@
+root@satip:/var/log#  astra --analyze 'dvb://#adapter=15&tp=11169:H:35010&type=s2&lnb=9750:10600:11700'
+Oct 08 23:11:48: INFO: Starting Astra 4.4.182
+Oct 08 23:11:49: INFO: Bitrate: 0 Kbit/s
+Oct 08 23:11:49: INFO: [dvb_input 15:0] fe has lock. status:SCVYL signal:81% snr:73% ber:0 unc:0
+Oct 08 23:11:50: INFO: Bitrate: 0 Kbit/s
+Oct 08 23:11:51: INFO: Bitrate: 0 Kbit/s
+Oct 08 23:11:52: INFO: Bitrate: 0 Kbit/s
+Oct 08 23:11:53: INFO: Bitrate: 0 Kbit/s
+Oct 08 23:11:54: INFO: Bitrate: 0 Kbit/s
+^COct 08 23:11:54: INFO: [main] exit

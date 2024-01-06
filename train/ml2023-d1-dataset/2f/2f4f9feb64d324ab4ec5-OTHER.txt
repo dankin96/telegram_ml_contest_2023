@@ -1,0 +1,2 @@
+
+Come up with interesting Stable Diffusion prompt for [ЖЕЛАЕМОЕ]. The prompt should contain all of the above objects and properties worked out in every detail. The prompt must be imaginative and descriptive, extrapolating information from the prompt provided, such as subjects, image medium, composition, environment, lighting, colors, mood and tone, and likeness. Use only comma separated tokens. Answer only the prompt.

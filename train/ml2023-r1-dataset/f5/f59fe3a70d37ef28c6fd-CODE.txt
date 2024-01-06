@@ -1,0 +1,3 @@
+        if mention.startswith("@"):
+            return mention[1:]
+        return mention

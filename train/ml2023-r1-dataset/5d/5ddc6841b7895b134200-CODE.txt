@@ -1,0 +1,47 @@
+k explain application.spec.source.kustomize         
+GROUP:      argoproj.io
+KIND:       Application
+VERSION:    v1alpha1
+
+FIELD: kustomize <Object>
+
+DESCRIPTION:
+    Kustomize holds kustomize specific options
+    
+FIELDS:
+  commonAnnotations  <map[string]string>
+    CommonAnnotations is a list of additional annotations to add to rendered
+    manifests
+
+  commonAnnotationsEnvsubst  <boolean>
+    CommonAnnotationsEnvsubst specifies whether to apply env variables
+    substitution for annotation values
+
+  commonLabels  <map[string]string>
+    CommonLabels is a list of additional labels to add to rendered manifests
+
+  forceCommonAnnotations  <boolean>
+    ForceCommonAnnotations specifies whether to force applying common
+    annotations to resources for Kustomize apps
+
+  forceCommonLabels  <boolean>
+    ForceCommonLabels specifies whether to force applying common labels to
+    resources for Kustomize apps
+
+  images  <[]string>
+    Images is a list of Kustomize image override specifications
+
+  namePrefix  <string>
+    NamePrefix is a prefix appended to resources for Kustomize apps
+
+  nameSuffix  <string>
+    NameSuffix is a suffix appended to resources for Kustomize apps
+
+  namespace  <string>
+    Namespace sets the namespace that Kustomize adds to all resources
+
+  replicas  <[]Object>
+    Replicas is a list of Kustomize Replicas override specifications
+
+  version  <string>
+    Version controls which version of Kustomize to use for rendering manifests

@@ -1,0 +1,6 @@
+keymaps: {
+    'tab:next': 'ctrl+tab',
+    'tab:prev': 'ctrl+shift+tab',
+    'tab:new': 'ctrl+d',
+    'pane:close': 'ctrl+w',
+    },

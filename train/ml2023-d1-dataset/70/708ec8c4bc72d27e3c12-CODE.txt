@@ -1,0 +1,8 @@
+n = input()
+arm = 0
+for N in n:
+    arm = arm + int(N) ** len(n)
+if arm == int(n):
+    print("True")
+else:
+    print("False")

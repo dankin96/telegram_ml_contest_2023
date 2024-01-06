@@ -1,0 +1,29 @@
+java
+import java.math.BigInteger;
+
+public class PaintCombinations {
+    public static int findPaintCombinations(int X, int Y) {
+        BigInteger combinations = factorial(X).divide(factorial(Y).multiply(factorial(X - Y)));
+        BigInteger modValue = new BigInteger("7");
+        combinations = combinations.mod(modValue);
+        return combinations.intValue();
+    }
+
+    public static BigInteger factorial(int n) {
+        if (n == 0) {
+            return BigInteger.ONE;
+        }
+        BigInteger result = BigInteger.ONE;
+        for (int i = 1; i <= n; i++) {
+            result = result.multiply(BigInteger.valueOf(i));
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        int X = 10; // Replace with the actual number of different paints on the palette.
+        int Y = 5;  // Replace with the actual maximum number of different paints he can use.
+        int result = findPaintCombinations(X, Y);
+        System.out.println(result);
+    }
+}

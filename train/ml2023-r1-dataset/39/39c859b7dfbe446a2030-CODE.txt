@@ -1,0 +1,4 @@
+brizy := "denote"
+if brizy == "denote" {
+  fmt.PrintLn("Denote is brizy")
+}

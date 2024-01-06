@@ -1,0 +1,8 @@
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 004: ID 0cf3:e009 Qualcomm Atheros Communications 
+Bus 003 Device 003: ID 05e3:0608 Genesys Logic, Inc. Hub
+Bus 003 Device 002: ID 0bda:5521 Realtek Semiconductor Corp. Integrated_Webcam_HD
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 002: ID 27c6:530c Shenzhen Goodix Technology Co.,Ltd. Fingerprint Reader
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub

@@ -1,0 +1,2 @@
+$ gpg -d SHA256SUMS.asc > SHA256SUMS.striped
+$ sha256sum -c SHA256SUMS.стрипп

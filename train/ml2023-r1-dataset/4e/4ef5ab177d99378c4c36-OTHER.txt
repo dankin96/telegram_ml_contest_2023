@@ -1,0 +1,5 @@
+
+Symbol    Implied Low    Implied High
+--------  -------------  --------------
+BTCUSDT   27484          28378
+ETHUSDT   1620.4         1669.7

@@ -1,0 +1,27 @@
+07/10/2023, 01:53:10 UTC
+
+arbitrum:   $0.09 
+avax:       $0.10 
+bsc:        $0.10 
+bttc:       $0.09 
+cronos:     $0.09 
+elastos:    $0.10 
+ethereum:   $0.09 
+ftm:        $0.10 
+fuse:       $0.09 
+harmony:    $0.09 
+heco:       $0.09 
+hoo:        $0.03 
+iotex:      $0.10 
+kava:       $0.10 
+kcc:        $0.10 
+matic:      $0.10 
+moonriver:  $0.10 
+okex:       $0.09 
+optimism:   $0.09 
+telos:      $0.09 
+------------------
+AVG:        $0.09 
+
+Market Cap:  $1.16M
+Circ Supply:  12.59M

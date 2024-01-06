@@ -1,0 +1,8 @@
+v10.0.4.0 (20330) Play Store uz
+xiaomi Redmi 5 Plus android 8.1.0
+ROM: ZQL1711-vince-build-20191108142512
+Accounts: 3
+Performance: AVERAGE
+Cache: 4,38 GB
+Database: 193,1 MB
+Free: 1,58 GB

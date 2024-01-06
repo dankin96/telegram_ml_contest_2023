@@ -1,0 +1,32 @@
+Exchange RMRKBTC 1h Coinex
+Price:0.00005657|0.00005672|0.00005683
+Vol:        72|      89|      82
+ATR: 0.00000064
+
+❌OBV:  -696.5|  -624.1|  -534.6
+⚪RSI:   44.99|   47.08|   48.62
+⚪MFI:   43.58|   43.30|   43.38
+⚪CCI:  -53.79|  -22.21|   47.96
+❌WR%:  -35.48|  -29.25| -100.00
+❌ADX:   17.18|   16.49|   15.76
+
+⚪MOM: No Momentum
+❌SMA: Price Below SMA Bearish
+❌ADI: -DI > +DI Bearish
+✅MACD: Bullish
+❌PSAR: Bearish
+
+Support And Resistance
+S: 0.00005602
+R: 0.00005769
+
+Volatility is low
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+🐂MFI: Bullish divergence
+⚪FVE: No divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

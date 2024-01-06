@@ -1,0 +1,6 @@
+  let router = await bot.createWebhook({
+    domain: "https://piratron.net",
+    path: "/game_bot",
+    secret_token: crypto.randomBytes(64).toString("hex"),
+  });
+  app.use(router);

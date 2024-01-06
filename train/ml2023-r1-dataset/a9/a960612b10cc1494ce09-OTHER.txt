@@ -1,0 +1,5 @@
+Contract: LOOMUSDT
+Price: $0.166197
+24H High: $0.166197
+24H Low: $0.165687
+24H Volume: 2126502680.0 LOOM

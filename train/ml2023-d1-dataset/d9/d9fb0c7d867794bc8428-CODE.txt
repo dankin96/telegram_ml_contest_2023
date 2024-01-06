@@ -1,0 +1,42 @@
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Форма входа</title>
+</head>
+<body>
+    <form id="loginForm" onsubmit="return validateForm()">
+        <label for="login">Логин:</label>
+        <input type="text" id="login" name="login"><br><br>
+
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <input type="submit" value="Войти">
+    </form>
+
+    <div id="errorMessage" style="color: red;"></div>
+
+    <script>
+        function validateForm() {
+            var login = document.getElementById("login").value;
+            var password = document.getElementById("password").value;
+            var errorMessage = document.getElementById("errorMessage");
+
+            if (login === "" && password === "") {
+                errorMessage.innerHTML = "Заполните поля Логин и Пароль.";
+                return false;
+            } else if (login === "") {
+                errorMessage.innerHTML = "Введите Логин.";
+                return false;
+            } else if (password === "") {
+                errorMessage.innerHTML = "Введите Пароль.";
+                return false;
+            } else {
+                errorMessage.innerHTML = "";
+                return true;
+            }
+        }
+    </script>
+</body>
+</html>

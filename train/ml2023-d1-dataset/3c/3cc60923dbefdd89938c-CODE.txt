@@ -1,0 +1,23 @@
+#include <iostream>
+#include <ctype.h>
+
+
+using namespace std;
+
+int main() {
+
+    char letter;
+    cout << "Biror belgi kiriting :";
+    cin >> letter;
+
+
+    if (islower(letter)) {
+        cout << "Kichik harf!!!" << endl;
+    } else {
+        cout << "Simvol!!!
+";
+    }
+
+    return 0;
+}
+

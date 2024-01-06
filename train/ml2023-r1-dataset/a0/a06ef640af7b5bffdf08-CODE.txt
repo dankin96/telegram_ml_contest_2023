@@ -1,0 +1,39 @@
+{
+ "update_id": 935453228,
+ "message": {
+  "message_id": 6,
+  "from": {
+   "id": 5801538301,
+   "is_bot": false,
+   "first_name": "gh'",
+   "username": "gh1fk"
+  },
+  "chat": {
+   "id": -1001875328415,
+   "title": "MUNDO DAS GG'S",
+   "username": "mundodasgg",
+   "type": "supergroup"
+  },
+  "date": 1696761301,
+  "new_chat_participant": {
+   "id": 285793787,
+   "is_bot": true,
+   "first_name": "Show Json Bot",
+   "username": "ShowJsonBot"
+  },
+  "new_chat_member": {
+   "id": 285793787,
+   "is_bot": true,
+   "first_name": "Show Json Bot",
+   "username": "ShowJsonBot"
+  },
+  "new_chat_members": [
+   {
+    "id": 285793787,
+    "is_bot": true,
+    "first_name": "Show Json Bot",
+    "username": "ShowJsonBot"
+   }
+  ]
+ }
+}

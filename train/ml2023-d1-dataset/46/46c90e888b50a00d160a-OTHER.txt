@@ -1,0 +1,2 @@
+10-10 00:44:21.541     0     0 W init    : Couldn't load property file '/vendor_extra/build.prop': open() failed: No such file or directory: No such file or directory
+10-10 00:44:21.541     0     0 W init    : Overriding previous property 'ro.dalvik.vm.native.bridge':'libndk_translation.so' with new value '0'

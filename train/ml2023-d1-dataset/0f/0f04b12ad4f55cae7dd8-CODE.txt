@@ -1,0 +1,43 @@
+{
+  "update_id": 982731621,
+  "message": {
+    "message_id": 171253,
+    "from": {
+      "id": 1025157631,
+      "is_bot": false,
+      "first_name": "Lil",
+      "last_name": "Sam",
+      "username": "Sammysamm"
+    },
+    "chat": {
+      "id": -1001636994005,
+      "title": "International Students - Australia 2023",
+      "username": "InternationalstudentsofAustralia",
+      "type": "supergroup"
+    },
+    "date": 1696912675,
+    "new_chat_participant": {
+      "id": 1025157631,
+      "is_bot": false,
+      "first_name": "Lil",
+      "last_name": "Sam",
+      "username": "Sammysamm"
+    },
+    "new_chat_member": {
+      "id": 1025157631,
+      "is_bot": false,
+      "first_name": "Lil",
+      "last_name": "Sam",
+      "username": "Sammysamm"
+    },
+    "new_chat_members": [
+      {
+        "id": 1025157631,
+        "is_bot": false,
+        "first_name": "Lil",
+        "last_name": "Sam",
+        "username": "Sammysamm"
+      }
+    ]
+  }
+}

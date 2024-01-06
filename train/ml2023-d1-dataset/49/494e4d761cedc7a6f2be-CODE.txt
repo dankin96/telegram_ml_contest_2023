@@ -1,0 +1,52 @@
+
+
+  st77xx_send_cmd (st77xx_cmd_COLMOD);
+#if (ST77XX_CHIP == 7735)
+  st77xx_send_data (0x05);
+#elif (ST77XX_CHIP == 7789)
+  st77xx_send_data (0x55);
+#endif
+
+#if (ST77XX_CHIP == 7735)
+  st77xx_send_cmd (st77xx_cmd_GMCTRP1);
+  st77xx_send_data (0x02);
+  st77xx_send_data (0x1C);
+  st77xx_send_data (0x07);
+  st77xx_send_data (0x12);
+  st77xx_send_data (0x37);
+  st77xx_send_data (0x32);
+  st77xx_send_data (0x29);
+  st77xx_send_data (0x2D);
+  st77xx_send_data (0x29);
+  st77xx_send_data (0x25);
+  st77xx_send_data (0x2B);
+  st77xx_send_data (0x39);
+  st77xx_send_data (0x00);
+  st77xx_send_data (0x01);
+  st77xx_send_data (0x03);
+  st77xx_send_data (0x10);
+
+  st77xx_send_cmd (st77xx_cmd_GMCTRN1);
+  st77xx_send_data (0x03);
+  st77xx_send_data (0x1D);
+  st77xx_send_data (0x07);
+  st77xx_send_data (0x06);
+  st77xx_send_data (0x2E);
+  st77xx_send_data (0x2C);
+  st77xx_send_data (0x29);
+  st77xx_send_data (0x2D);
+  st77xx_send_data (0x2E);
+  st77xx_send_data (0x2E);
+  st77xx_send_data (0x37);
+  st77xx_send_data (0x3F);
+  st77xx_send_data (0x00);
+  st77xx_send_data (0x00);
+  st77xx_send_data (0x02);
+  st77xx_send_data (0x10);
+#endif
+
+  st77xx_send_cmd (st77xx_cmd_NORON);
+  st77xx_send_cmd (st77xx_cmd_DISPON);
+
+  st77xx_cs_enable (false);
+}

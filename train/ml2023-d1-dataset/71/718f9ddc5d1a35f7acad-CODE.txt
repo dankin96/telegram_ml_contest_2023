@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string>
+
+std::string shiftLetters(const std::string& text, int shift) {
+    std::string shiftedText = text;
+    for (char& c : shiftedText) {
+        if (std::isalpha(c)) {
+            if (std::islower(c)) {
+                c = ((c - 'a' + shift) % 26) + 'a';
+            } else {
+                c = ((c - 'A' + shift) % 26) + 'A';
+            }
+        }
+    }
+    return shiftedText;
+}
+
+int main() {
+    std::string text;
+    int shift;
+
+    std::cout << "Enter the text: ";
+    std::getline(std::cin, text);
+
+    std::cout << "Enter the shift number: ";
+    std::cin >> shift;
+
+    std::string shiftedText = shiftLetters(text, shift);
+
+    std::cout << "Shifted text: " << shiftedText << std::endl;
+
+    return 0;
+}
+
+
+

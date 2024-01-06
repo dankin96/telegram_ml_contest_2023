@@ -1,0 +1,5 @@
+- Creating a legal structure for onchain assets
+- The benefits of financial products onchain
+- Blockchains should be public and transparent
+- The path forward for real-world assets
+

@@ -1,0 +1,17 @@
+trait VecExt<T> {
+    fn ext_push_within_capacity(&mut self, elt: T) -> Result<(), T>;
+}
+
+impl<T> VecExt<T> for Vec<T> {
+    fn ext_push_within_capacity(&mut self, elt: T) -> Result<(), T> {
+        if self.len() >= self.capacity() {
+            return Err(elt);
+        }
+        let len = self.len();
+        unsafe {
+            self.as_mut_ptr().add(len).write(elt);
+            self.set_len(len + 1);
+        }
+        Ok(())
+    }
+}

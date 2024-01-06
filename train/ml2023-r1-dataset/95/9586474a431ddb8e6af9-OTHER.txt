@@ -1,0 +1,1 @@
+MVC works well with apps with many dynamic server views, single-page apps, REST APIs, and AJAX calls. Razor Pages are perfect for simple pages that are read-only or do basic data input.

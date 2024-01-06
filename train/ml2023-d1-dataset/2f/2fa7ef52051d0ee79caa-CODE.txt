@@ -1,0 +1,7 @@
+public static int BinarySearch(int[] array, int target, int left, int right) =>
+    left > right ? -1 : 
+    array[(left + right) / 2] == target ? 
+        (left + right) / 2 : 
+        array[(left + right) / 2] < target ? 
+            BinarySearch(array, target, (left + right) / 2 + 1, right) :
+            BinarySearch(array, target, left, (left + right) / 2 - 1);

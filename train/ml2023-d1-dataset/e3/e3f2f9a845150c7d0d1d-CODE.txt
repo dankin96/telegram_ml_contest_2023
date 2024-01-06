@@ -1,0 +1,35 @@
+import random
+
+n = 4
+x = [1, 2, 3, 4]
+y = [1, 8, 21, 40]
+
+aa = 0.7
+eps = 10
+a = random.uniform(1, 10.5)
+b = random.uniform(1, 10.5)
+
+w1 = round(a, 3)
+w2 = round(b, 3)
+print(a, b)
+print(w1, w2)
+def find_loss(w1, w2):
+    dd = 0
+    for i in range(n):
+        dd += (y[i] -  (w1 * x[i] * x[i] +  w2 * x[i]))**2 / n
+        dd = round(dd, 3)
+        # print(dd)
+    return dd 
+
+loss = find_loss(w1, w2)
+while loss >= eps:
+    print(loss)
+    loss = round(loss, 3)
+    w1 = w1 - aa * loss 
+    w2 = w2 - aa * loss
+    w1 = round(w1, 3)
+    w2 = round(w2, 3)
+    print(w1, w2)
+    loss = find_loss(w1, w2)
+
+print(w1, w2)

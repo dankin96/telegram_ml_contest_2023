@@ -1,0 +1,1 @@
+CANNOT LINK EXECUTABLE "sox": library "libmad.so.0" not found: needed by /data/data/com.termux/files/usr/lib/libsox.so.3.0.0 in namespace (default) 

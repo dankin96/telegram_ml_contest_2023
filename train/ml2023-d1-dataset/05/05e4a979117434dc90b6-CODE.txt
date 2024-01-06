@@ -1,0 +1,7 @@
+```python
+import itertools
+
+nums = [1, 2, 3]
+perms = list(itertools.permutations(nums))
+
+print(perm

@@ -1,0 +1,8 @@
+#define ProccesEvent_Offset 0x57E7DC8
+#define GNames_Offset 0x437A13C
+#define GEngine_Offset 0x849CCC8
+#define GUObject_Offset 0x87C7984
+#define GNativeAndroidApp_Offset 0x84910F8
+#define GetActorArray 0x5C4E990
+#define Actors_Offset 0x70
+

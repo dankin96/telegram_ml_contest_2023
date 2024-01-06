@@ -1,0 +1,11 @@
+To fix the following error each time a game is launched:
+
+"lvl0: VolumeControl::init() - Failed to attach to default card!"
+
+Emulation Station Audio Settings (start -> Audio Settings)
+-> Audio Card: DEFAULT
+-> Audio Device: PCM
+
+And reboot.
+
+No .asoundrc is required.

@@ -1,0 +1,12 @@
+lua
+display.setStatusBar(display.HiddenStatusBar)
+display.setStatusBar(display.TranslucentStatusBar)
+display.setStatusBar(display.HiddenStatusBar)
+
+timer.performWithDelay(system.getInfo 'environment' == 'simulator' and 0 or 100, function()
+    display.setStatusBar(display.HiddenStatusBar)
+    display.setStatusBar(display.TranslucentStatusBar)
+    display.setStatusBar(display.HiddenStatusBar)
+
+    -- your code
+end)

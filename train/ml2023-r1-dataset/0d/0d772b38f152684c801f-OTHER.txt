@@ -1,0 +1,5 @@
+Token: SUIUSDT
+Price: $0.4414
+24H High: $0.442
+24H Low: $0.4331
+24H Volume: 2101864.41 SUI

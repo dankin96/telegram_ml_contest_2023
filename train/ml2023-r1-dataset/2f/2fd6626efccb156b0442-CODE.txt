@@ -1,0 +1,2 @@
+while(USART_GetFlagStatus(USART1, USART_FLAG_RXNE) == RESET)
+while(not USART_GetFlagStatus(USART1, USART_FLAG_RXNE))

@@ -1,0 +1,10 @@
+#include <iostream>
+
+auto someFunc(auto&&... arg, auto&& fn){
+  return std::forward<decltype(fn)>(fn)(std::forward<decltype(arg)>(arg)...);
+}
+int main(){
+   std::cout << someFunc(1, 2, [&](auto arg1, auto arg2){ 
+    return arg1 + arg2; 
+  });
+}

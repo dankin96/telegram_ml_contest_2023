@@ -1,0 +1,6 @@
+File | Changes
+----------------
+1. Gemfile.lock | 4 ++--
+2. LICENSE_GEMS | 2 +-
+3. lib/msf/core/payload/java/meterpreter_loader.rb | 3 +--
+4. metasploit-framework.gemspec | 2 +-

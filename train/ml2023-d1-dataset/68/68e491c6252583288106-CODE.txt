@@ -1,0 +1,5 @@
+EMPTY_BODY {
+  type = "body";
+  map = "file:///tmp/from.map";
+  regexp = true;
+}

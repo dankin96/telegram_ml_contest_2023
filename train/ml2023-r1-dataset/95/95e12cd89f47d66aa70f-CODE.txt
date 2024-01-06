@@ -1,0 +1,3 @@
+raise UnauthorizedError(raw_response.json())
+yookassa.domain.exceptions.unauthorized_error.UnauthorizedError: {'type': 'error', 'id': 'bf6a3f37-6f6f-4134-bfa3-6a3a0154ae37', 'code': 'invalid_credentials', 'description': 'Authentication by given credentials failed', 'parameter': 'Authorization'}
+"

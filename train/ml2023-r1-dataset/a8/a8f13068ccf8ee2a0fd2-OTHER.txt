@@ -1,0 +1,25 @@
+Top 10 users Leaderboard:
+
+1. @iAmTheBlade
+Chips Token: 20.699
+Sent messages: 1.9000000000000004
+Level: 9
+Referred Friends: 0
+
+2. @poit_84
+Chips Token: 10.815
+Sent messages: 6.91
+Level: 6
+Referred Friends: 0
+
+3. @Thechecco1090
+Chips Token: 10.404
+Sent messages: 6.580000000000001
+Level: 4
+Referred Friends: 0
+
+4. @Josephshepard
+Chips Token: 5.715
+Sent messages: 0.9400000000000004
+Level: 2
+Referred Friends: 0

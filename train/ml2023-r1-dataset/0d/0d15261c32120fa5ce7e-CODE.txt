@@ -1,0 +1,64 @@
+csharp
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.Events;
+
+public class SkinChanger : MonoBehaviour
+{
+    [SerializeField] private List<Skin> _skins;
+    [SerializeField] private Skin _defaultSkin;
+
+    [Header("Input Keys")]
+    [SerializeField] private KeyCode _previousSkinKey = KeyCode.Q;
+    [SerializeField] private KeyCode _nextSkinKey = KeyCode.E;
+    [SerializeField] private KeyCode _chooseSkinKey = KeyCode.R;
+
+    private List<Skin> _activeSkins = new List<Skin>(); // Список для хранения активных персонажей
+
+    public event UnityAction<Color> CurrentSkinIndexChanged;
+
+    private void Start()
+    {
+        _activeSkins.Add(_defaultSkin); // Добавляем начального персонажа в список активных
+        _defaultSkin.gameObject.SetActive(true);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(_previousSkinKey))
+        {
+            ChangeSkin(-1);
+        }
+
+        if (Input.GetKeyDown(_nextSkinKey))
+        {
+            ChangeSkin(1);
+        }
+
+        if (Input.GetKeyDown(_chooseSkinKey))
+        {
+            AddNewCharacter();
+        }
+    }
+
+    private void ChangeSkin(int direction)
+    {
+        int newIndex = (_activeSkins.IndexOf(_currentSkin) + direction + _activeSkins.Count) % _activeSkins.Count;
+        SwitchSkin(_activeSkins[newIndex]);
+    }
+
+    private void SwitchSkin(Skin newSkin)
+    {
+        _currentSkin = newSkin;
+        CurrentSkinIndexChanged?.Invoke(_currentSkin.Color);
+    }
+
+    private void AddNewCharacter()
+    {
+        Skin newSkin = Instantiate(_defaultSkin); // Создаем нового персонажа на основе начального
+        _activeSkins.Add(newSkin); // Добавляем его в список активных персонажей
+        newSkin.gameObject.SetActive(true);
+        SwitchSkin(newSkin); // Выбираем нового персонажа
+    }
+}

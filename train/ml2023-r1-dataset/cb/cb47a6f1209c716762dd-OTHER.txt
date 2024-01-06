@@ -1,0 +1,10 @@
+├─system-docker.slice
+│ └─system-docker-postgres_container.slice
+│   └─docker-1c05e296777de6647c5f4eb290a5fe32c54d0d40e1382555f415eb91b3c4a9ec.scope …
+│     ├─44440 postgres
+│     ├─44496 postgres: checkpointer
+│     ├─44497 postgres: background writer
+│     ├─44498 postgres: walwriter
+│     ├─44499 postgres: autovacuum launcher
+│     ├─44500 postgres: stats collector
+│     └─44501 postgres: logical replication launcher

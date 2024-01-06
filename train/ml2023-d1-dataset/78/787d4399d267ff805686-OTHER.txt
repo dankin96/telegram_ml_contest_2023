@@ -1,0 +1,32 @@
+Exchange FXSBTC 1h Binance
+Price:0.00019318|0.00019226|0.00019252
+Vol:         2|      80|     102
+ATR: 0.00000102
+
+✅OBV:   1.4 K|   1.4 K|   1.5 K
+⚪RSI:   60.48|   56.83|   58.24
+⚪MFI:   73.17|   64.53|   69.65
+⚪CCI:   98.31|   82.77|  109.28
+❌WR%:  -31.31|  -64.63|  -39.35
+✅ADX:   26.94|   27.92|   29.49
+
+✅MOM: Bullish Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+❌PSAR: Bearish
+
+Support And Resistance
+S: 0.00018741
+R: 0.00019318
+
+Volatility is moderately high
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

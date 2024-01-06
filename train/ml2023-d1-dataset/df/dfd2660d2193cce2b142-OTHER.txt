@@ -1,0 +1,13 @@
+
+Timeframe: Current Week
+Last update EST: Thursday, October 12, 3:31:AM
+
+| Name | Calls | Convos |DemoCalls|
+|------|-------|--------|---------|
+|Lauren|    145|       4|        0|
+|Isaiah|    167|      10|        0|
+|Kyra  |    250|       6|        1|
+|Mike  |     72|      18|        2|
+|Joe   |     60|      13|        0|
+|Vlad  |     59|       6|        0|
+|Total |    753|      57|        3|

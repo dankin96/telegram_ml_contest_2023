@@ -1,0 +1,35 @@
+import heapq
+
+class Solution:
+    def smallestRange(self, arr, n, k):
+        # Create a min heap
+        heap = []
+        range_start, range_end = 0, float('inf')
+        max_num = float('-inf')
+        
+        # Push the first element of each array into the heap
+        for i in range(k):
+            heapq.heappush(heap, (arr[i][0], i, 0))
+            max_num = max(max_num, arr[i][0])
+            
+        while True:
+            pop_val, row, col = heapq.heappop(heap)
+            
+            # Update the current smallest range
+            if max_num - pop_val < range_end - range_start:
+                range_start = pop_val
+                range_end = max_num
+            
+            # If any list is exhausted, break
+            if col == n - 1:
+                break
+            
+            # Insert the next element from the list into the heap
+            next_val = arr[row][col + 1]
+            heapq.heappush(heap, (next_val, row, col + 1))
+            
+            # Update the current maximum
+            max_num = max(max_num, next_val)
+        
+        return [range_start, range_end]
+

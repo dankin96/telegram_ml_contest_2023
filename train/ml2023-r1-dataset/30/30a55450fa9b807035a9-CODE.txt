@@ -1,0 +1,3 @@
+expr ::= ground_expr op expr
+       | ground_expr
+ground_expr ::= integer

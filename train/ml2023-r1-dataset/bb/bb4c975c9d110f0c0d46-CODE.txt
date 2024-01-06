@@ -1,0 +1,6 @@
+c1 = m.MyFungible(
+        administrator=administrator.address,
+        metadata=metadata,
+        ledger={},
+        token_metadata=[],
+    )

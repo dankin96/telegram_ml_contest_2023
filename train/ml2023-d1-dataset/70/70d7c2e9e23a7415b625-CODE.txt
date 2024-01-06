@@ -1,0 +1,22 @@
+func main() {
+        var res []int
+        var wg sync.WaitGroup
+        var mu sync.Mutex
+
+        f := func(i int) {
+                defer wg.Done()
+                mu.Lock()
+                res = append(res, i)
+                
+        }
+
+        for i := 0; i < 100; i++ {
+                wg.Add(1)
+                go f(i)
+        }
+
+        wg.Wait()
+        sort.Ints(res)
+        fmt.Printf("res: %v
+", res)
+}

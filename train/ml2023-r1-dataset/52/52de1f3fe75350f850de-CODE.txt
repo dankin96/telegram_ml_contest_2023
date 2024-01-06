@@ -1,0 +1,58 @@
+Stage CHATBOT error
+
+At least 1 events occurred between 2023-10-07 21:01 UTC and 2023-10-08 01:01 UTC
+
+@timestamp: 2023-10-08T01:01:04.056Z
+@version: 1
+_id: BUbNDIsBL0jxnycbVM7P
+_index: filebeat-2023.10.08
+_type: _doc
+agent: {
+    "ephemeral_id": "37e01dd6-171e-46d9-b487-f3821bef3036",
+    "hostname": "946d0afeceb0",
+    "id": "735bcec4-3e66-456a-8be7-227b99014eca",
+    "type": "filebeat",
+    "version": "7.6.2"
+}
+ecs: {
+    "version": "1.4.0"
+}
+fields: {
+    "application": "13chats-chatbot-api-service",
+    "env": "stage"
+}
+host: {
+    "name": "946d0afeceb0"
+}
+input: {
+    "type": "log"
+}
+log: {
+    "file": {
+        "path": "/var/www/symfony/var/log/symfony-2023-10-08.json"
+    },
+    "offset": 4292177
+}
+num_hits: 3096
+num_matches: 3096
+payload: {
+    "channel": "app",
+    "context": {
+        "trace": "Utility\\Exception\\CommandRequestException: Task request \"SubscriptionContext\\Infrastructure\\TaskRequest\\RemoveOldUserMessagesTaskRequest\" error: An exception occurred while executing a query: SQLSTATE[HY000]: General error: 7 no connection to the server in /var/www/utility/src/RequestCommand/Task.php:72
+Stack trace:
+#0 /var/www/utility/src/RequestCommand/Task.php(41): Utility\\RequestCommand\\Task->handle('SubscriptionCon...')
+#1 /var/www/utility/src/MessageBroker/TaskManager/Consumer.php(107): Utility\\RequestCommand\\Task->run()
+#2 [internal function]: Utility\\MessageBroker\\TaskManager\\Consumer->Utility\\MessageBroker\\TaskManager\\{closure}(Object(PhpAmqpLib\\Message\\AMQPMessage))
+#3 /var/www/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php(1044): call_user_func(Object(Closure), Object(PhpAmqpLib\\Message\\AMQPMessage))
+#4 [internal function]: PhpAmqpLib\\Channel\\AMQPChannel->basic_deliver(Object(PhpAmqpLib\\Wire\\AMQPReader), Object(PhpAmqpLib\\Message\\AMQPMessage))
+#5 /var/www/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(220): call_user_func(Array, Object(PhpAmqpLib\\Wire\\AMQPReader), Object(PhpAmqpLib\\Message\\AMQPMessage))
+#6 /var/www/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(374): PhpAmqpLib\\Channel\\AbstractChannel->dispatch('60,60', '\\x1Famq.ctag-4hLdT...', Object(PhpAmqpLib\\Message\\AMQPMessage))
+#7 /var/www/utility/src/MessageBroker/TaskManager/Consumer.php(81): PhpAmqpLib\\Channel\\AbstractChannel->wait()
+#8 /var/www/symfony/src/Command/RequestTaskConsumerQueueCommand.php(62): Utility\\MessageBroker\\TaskManager\\Consumer->listen('requestCommands', Object(Utility\\RequestCommand\\Task))
+#9 /var/www/vendor/symfony/console/Command/Command.php(298): App\\Command\\RequestTaskConsumerQueueCommand->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#10 /var/www/vendor/symfony/console/Application.php(1023): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#11 /var/www/vendor/symfony/framework-bundle/Console/Application.php(96): Symfony\\Component\\Console\\Application->doRunCommand(Object(App\\Command\\RequestTaskConsumerQueueCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#12 /var/www/vendor/symfony/console/Application.php(299): Symfony\\Bundle\\FrameworkBundle\\Console\\Application->doRunCommand(Object(App\\Command\\RequestTaskConsumerQueueCommand), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#13 /var/www/vendor/symfony/framework-bundle/Console/Application.php(82): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#14 /var/www/vendor/symfony/console/Application.php(171): Symfony\\Bundle\\FrameworkBundle\\Console\\Application->doRun(Object(Symfon
+⚠ *message was cropped according to telegram limits!* ⚠

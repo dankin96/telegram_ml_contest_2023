@@ -1,0 +1,1 @@
+ Send PaperDoc (id=4968cf4c-2040-4303-a5ef-d90369cdfb5b) because it is in state 'Checked' DocsiWrongStateOperationException C:\BuildAgent\work\6a6a1b6d0a9a763c\DataAccess\Services\PaperDocService.cs 0b8f080a9dea60d855e8ef2cf6d98d42

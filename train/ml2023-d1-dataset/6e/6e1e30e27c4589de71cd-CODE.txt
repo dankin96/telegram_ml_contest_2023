@@ -1,0 +1,11 @@
+fastboot devices
+fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img
+fastboot reboot fastboot
+fastboot delete-logical-partition product_a
+fastboot create-logical-partition product_a 1000
+fastboot erase system
+fastboot flash product product_gsi.img
+fastboot flash system PixelExperience_Plus_arm64-ab-13.0-20230713-UNOFFICIAL.img
+fastboot -w
+fastboot flash boot boot.img
+fastboot reboot

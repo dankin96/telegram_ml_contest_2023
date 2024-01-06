@@ -1,0 +1,13 @@
+$text = "Это пример текста с несколькими совпадениями. Совпадение 1, совпадение 2, совпадение 3.";
+
+$regex = "/совпадение \d+/u";
+
+$matches = [];
+preg_match_all($regex, $text, $matches, PREG_SET_ORDER);
+
+foreach ($matches as $match) {
+  $result = $match[0];
+  echo "Найдено совпадение: $result
+";
+  // здесь может быть ваша обработка найденного совпадения
+}

@@ -1,0 +1,10 @@
+Aktuell haben Node 18 und Node 20 einen Bug, in dem Probleme in Verbindung mit CIFS auftreten.
+Hauptsächlich betroffen sind User, die Backitup in Verbindung mit einem CIFS Mount auf ihr NAS nutzen.
+
+Der Bug ist bereits gemeldet und in der aktuellen LTS Version von Node 18 behoben.
+
+Betroffen sind aktuell folgende Node-Versionen:
+
+Node 18: v18.18.0 (Hier auf die neuste Version 18.18.1 updaten)
+Node 20: > v20.2.0
+Alle die CIFS nutzen, sollten bis zur Fehlerbehebung in Node 20 auf der aktuellen LTS Node 18 bleiben und hier ggfs. auf v18.18.1 updaten.

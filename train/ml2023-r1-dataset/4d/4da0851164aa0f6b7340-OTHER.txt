@@ -1,0 +1,2 @@
+This more or less leads to the conclusion that Apple's Ed25519 is "Ed25519-like", but it is not the algorithm as described
+in the RFC or the FIPS publication.

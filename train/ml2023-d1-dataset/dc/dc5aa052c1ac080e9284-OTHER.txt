@@ -1,0 +1,12 @@
+PSYOP - Psyop
+$0.000406190
+Network: ETH
+H|L: 0.00|0.00036562
+1h:  -0.8%     😕       
+24h: -2.6%     😔       
+7d:  -10.4%    😢       
+Vol: $7.9 K
+Liq: $1.5 K
+Circ Mcap: 223.4 M
+FDV 223.4 M
+CA: 0x3007083eaa95497cd6b2b809fb97b6a30bdf53d3

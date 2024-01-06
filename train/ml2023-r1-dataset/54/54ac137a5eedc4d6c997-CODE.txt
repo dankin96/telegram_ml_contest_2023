@@ -1,0 +1,42 @@
+const { firefox } = require('playwright');
+
+(async () => {
+    // 启动 Firefox 浏览器
+    const browser = await firefox.launch({ headless: false });
+
+    // 打开一个新页面
+    const page = await browser.newPage();
+
+    // 设置浏览器窗口大小
+    await page.setViewportSize({ width: 1280, height: 720 });
+
+    // 希望点击的坐标
+    const targetX = 223;
+    const targetY = 383;
+
+    // 访问网页
+    await page.goto('https://nowsecure.nl'); // 将URL替换为您要访问的网页
+
+    // 等待一些时间，以便网页加载完成或执行其他操作
+    // 等待 10 秒
+    await page.waitForTimeout(10000);
+
+    // 模拟鼠标点击坐标位置
+    await page.mouse.click(targetX, targetY);
+
+    // 等待一段时间，以确保操作完成
+    await page.waitForTimeout(2000);
+
+    // 获取当前页面的 URL
+    const currentUrl = page.url();
+
+    // 判断是否点击了正确的位置
+    if (currentUrl === 'https://nowsecure.nl') {
+        console.log('点击已执行，位于正确的页面');
+    } else {
+        console.log('点击未生效，可能位于错误的页面');
+    }
+
+    // 关闭浏览器
+    // await browser.close();
+})();

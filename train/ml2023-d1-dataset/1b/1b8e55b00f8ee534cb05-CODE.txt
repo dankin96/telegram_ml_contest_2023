@@ -1,0 +1,17 @@
+    public static void main(String[] args) throws Exception {
+        Map<String, Integer> map = new HashMap<>();
+        Stream.of("AaAaAaAa", "AaAaBBBB", "AaAaAaBB", "AaAaBBAa",
+                "BBBBAaAa", "BBBBBBBB", "BBBBAaBB", "BBBBBBAa",
+                "AaBBAaAa", "AaBBBBBB", "AaBBAaBB", "AaBBBBAa",
+                "BBAaAaAa", "BBAaBBBB", "BBAaAaBB", "BBAaBBAa").forEach(s -> {
+          map.put(s, 0);
+        });
+
+        var fld = HashMap.class.getDeclaredField("table");
+        fld.setAccessible(true);
+
+        Object[] bins = (Object[]) fld.get(map);
+
+        long cnt = Arrays.stream(bins).filter(Objects::nonNull).distinct().count();
+        System.out.println(cnt);
+    }

@@ -1,0 +1,12 @@
+ioBroker repository information about STABLE-BRAND-NEW tagging
+
+Your PR has been tagged with label STABLE - BRAND NEW. This indicates that the release requested to be added to the stable rpository seems to be too young for immidiate processing.
+
+Normally a release should be available at LATEST repository for at least one or two weeks without any serious issues detected within this timeframe. Your release seems to be younger than 7 days.Your PR will be kept in evidence and be merged approximatly one week after creation of the release without any further action required by you.
+
+IMPORTANT:
+Of course it is possible to release a new version immidiatly, if it is a hotfix for a serious problem, i.e. some error causing adapter crashes or incompatible api changes of external websites blocking normal usage. In this case, please indicate this fact as a comment and mention mcm1957 and eventually Apollon77 explicitly. Please describe the reason (i.e. by referencing an issue). Hot-fixes should minimize the changes, even dependency updates should be avoided if not releated to the fix. New functionality and major (breaking) updates are most likely never a hotfix.
+
+Please note that ANY (even hot fixes) should be available at latest at least 1 day and have some (few) installations to avoid hot-fixes with serious problems at stable repository. Exceptions to this minimal delay must be discussed individually.
+
+Fell free to contact me (mcm1957) if you have any more questuions.

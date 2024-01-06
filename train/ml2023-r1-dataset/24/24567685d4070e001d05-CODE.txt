@@ -1,0 +1,59 @@
+import React from 'react';
+
+class CharacterAscensionCalculator extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      currentLevel: 1,
+      requiredMaterials: [
+        // Пример массива с требуемыми предметами для каждого уровня возвышения
+        { level: 20, materials: ['Material1', 'Material2', 'Material3'] },
+        { level: 40, materials: ['Material4', 'Material5', 'Material6'] },
+        { level: 50, materials: ['Material7', 'Material8', 'Material9'] },
+        // Добавьте остальные уровни и требуемые материалы в соответствии с игрой
+      ]
+    };
+  }
+
+  handleInputChange = (event) => {
+    const { name, value } = event.target;
+    this.setState({ [name]: parseInt(value, 10) });
+  }
+
+  getRequiredMaterials = () => {
+    const { currentLevel, requiredMaterials } = this.state;
+    let materials = [];
+
+    for (let i = 0; i < requiredMaterials.length; i++) {
+      if (currentLevel >= requiredMaterials[i].level) {
+        materials = requiredMaterials[i].materials;
+      } else {
+        break;
+      }
+    }
+
+    return materials;
+  }
+
+  render() {
+    const { currentLevel } = this.state;
+    const requiredMaterials = this.getRequiredMaterials();
+
+    return (
+      <div>
+        <h1>Character Ascension Calculator</h1>
+        <label>
+          Current Level:
+          <input type="number" name="currentLevel" value={currentLevel} onChange={this.handleInputChange} />
+        </label>
+        <h2>Required Materials for Ascension:</h2>
+        {requiredMaterials.map((material, index) => (
+          <p key={index}>{material}</p>
+        ))}
+      </div>
+    );
+  }
+}
+
+export default CharacterAscensionCalculator;

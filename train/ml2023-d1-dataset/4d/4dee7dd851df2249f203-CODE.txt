@@ -1,0 +1,1 @@
+shell pm grant by4a.setedit22 android.permission.WRITE_SECURE_SETTINGS

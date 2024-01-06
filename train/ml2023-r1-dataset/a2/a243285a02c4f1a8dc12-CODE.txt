@@ -1,0 +1,2 @@
+sed -i 's/Industrial/Venom/' $PKG/etc/lxdm/lxdm.conf
+sed -i 's/Clearlooks/OSX-Arc-Plus/' $PKG/etc/lxdm/lxdm.conf

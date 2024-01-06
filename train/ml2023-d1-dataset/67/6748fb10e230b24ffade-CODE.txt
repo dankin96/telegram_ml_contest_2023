@@ -1,0 +1,1 @@
+cfUsers.Where(c => c.Id == id).Select(p => p.Password).FirstOrDefault();

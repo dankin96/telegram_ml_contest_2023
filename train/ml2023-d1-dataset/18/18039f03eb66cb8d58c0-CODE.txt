@@ -1,0 +1,3 @@
+useEffect(() => {  (data) ?
+      (products.length > 1 && data.data.length == products.length) ? getDataProducts(products.filter((item, index) => {       return item.id != data.data[index].id      })) : getDataProducts(data.data)      :
+      null},[isLoading])

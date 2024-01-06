@@ -1,0 +1,2 @@
+var mystr = newString(len)
+copyMem(addr mystr[0], myptr, len)

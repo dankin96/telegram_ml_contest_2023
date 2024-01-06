@@ -1,0 +1,3 @@
+curl -o /tmp/openSUSE-repos-Leap-20230804.41e41a9-lp155.2.6.1.x86_64.rpm https://download.opensuse.org/update/leap/15.5/oss/x86_64/openSUSE-repos-Leap-20230804.41e41a9-lp155.2.6.1.x86_64.rpm
+
+sudo rpm -Uvh /tmp/openSUSE-repos-Leap-20230804.41e41a9-lp155.2.6.1.x86_64.rpm

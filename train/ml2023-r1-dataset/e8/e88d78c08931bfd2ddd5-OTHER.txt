@@ -1,0 +1,26 @@
+RegistrationDate: 7/30/2022 12:00:00 AM
+SSN: 000000746
+DriverLicenceNumber: 5136676
+LastName: Robbins
+FirstName: Kevin
+Middle: Earl
+Suffix: 
+Telephone: 3017179408
+DateOfBirth: 7/12/1979 12:00:00 AM
+Email: KEVIN_ROBBINS55@YAHOO.COM
+ResHouse: 617
+ResHouseFraction: 
+ResStreet: Parkside PL
+ResApt: 
+ResQuadrant: NE
+ResCity: Washington
+ResState: DC
+ResZip: 20019
+ResZip4: 
+Precinct: 100
+Ward: 7
+ANC: 7D
+SMD: 7D03
+SchoolDistrict: 
+Status: A
+CreatedDate: 10/4/2023 11:30:20 PM

@@ -1,0 +1,1 @@
+systemctl --state=running 2>/dev/null | grep docker- | awk '{print $1}' | sed 's/docker-//; s/.service//;' | sort 

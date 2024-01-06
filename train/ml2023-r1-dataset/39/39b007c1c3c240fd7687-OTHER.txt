@@ -1,0 +1,10 @@
+👀 SPAM Score detected:
+###
+Ну что, полетели? ⚠️
+
+Герань Z
+###
+
+Reason: Наличие ссылок
+Action: deleteMessage
+Bot response: Successful ✅

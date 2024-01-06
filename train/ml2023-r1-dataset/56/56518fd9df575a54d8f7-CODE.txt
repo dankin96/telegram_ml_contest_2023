@@ -1,0 +1,17 @@
+    @Bean
+    public CommandLineRunner commandLineRunner(NotificationService notificationService) {
+        return args -> {
+
+
+            notificationService.sendNotificationToStudent(
+                    NotificationDTO.builder()
+                            .studentId(116L)
+                            .tutorId(119L)
+                            .studentName("Mehdi")
+                            .tutorName("Ali")
+                            .studentPhotoUrl("")
+                            .build()
+            );
+
+        };
+    }

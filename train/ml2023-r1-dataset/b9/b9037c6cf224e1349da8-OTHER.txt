@@ -1,0 +1,4 @@
+Epoch: 439 
+Blocks: 43/46
+Performance: 85%/91%
+Lost slot battles: 148820@N/A 225259@FUND2 412298@POWER

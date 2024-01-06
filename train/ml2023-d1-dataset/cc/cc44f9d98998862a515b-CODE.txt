@@ -1,0 +1,21 @@
+  bool socks5_resolve_local =
+    (conn->socks_proxy.proxytype == CURLPROXY_SOCKS5) ? TRUE : FALSE;
+  const size_t hostname_len = strlen(sx->hostname);
+  ssize_t len = 0;
+  const unsigned char auth = data->set.socks5auth;
+  bool allow_gssapi = FALSE;
+  struct Curl_dns_entry *dns = NULL;
+
+  DEBUGASSERT(auth & (CURLAUTH_BASIC | CURLAUTH_GSSAPI));
+  switch(sx->state) {
+  case CONNECT_SOCKS_INIT:
+    if(conn->bits.httpproxy)
+      infof(data, "SOCKS5: connecting to HTTP proxy %s port %d",
+            sx->hostname, sx->remote_port);
+
+    /* RFC1928 chapter 5 specifies max 255 chars for domain name in packet */
+    if(!socks5_resolve_local && hostname_len > 255) {
+      infof(data, "SOCKS5: server resolving disabled for hostnames of "
+            "length > 255 [actual len=%zu]", hostname_len);
+      socks5_resolve_local = TRUE;
+    }

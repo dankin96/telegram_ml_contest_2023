@@ -1,0 +1,5 @@
+Area => IPV
+Event Type => HEALTH-KO 
+Label => EXTEMPORANEOUS 
+Long Message => ExecuteMessage with id:1713843 assetClass:Equity assetType:Totem Markit service:53 date:20231008 | Execu 
+Short Message => JBOSS is CRITICAL

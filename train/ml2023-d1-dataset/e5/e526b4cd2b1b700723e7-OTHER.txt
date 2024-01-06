@@ -1,0 +1,7 @@
+[hall_filament_width_sensor]
+adc1:
+adc2:
+#   Analog input pins connected to the sensor. These parameters must
+#   be provided.
+#cal_dia1: 1.50
+#cal_dia2: 2.00

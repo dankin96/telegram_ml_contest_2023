@@ -1,0 +1,23 @@
+➜  _o 7z b
+
+7-Zip [64] 17.04 : Copyright (c) 1999-2021 Igor Pavlov : 2017-08-28
+p7zip Version 17.04 (locale=ru_RU.UTF-8,Utf16=on,HugeFiles=on,64 bits,8 CPUs LE)
+
+LE
+CPU Freq: - - - - 128000000 256000000 - - -
+
+RAM size:   32015 MB,  # CPU hardware threads:   8
+RAM usage:   1765 MB,  # Benchmark threads:      8
+
+                       Compressing  |                  Decompressing
+Dict     Speed Usage    R/U Rating  |      Speed Usage    R/U Rating
+         KiB/s     %   MIPS   MIPS  |      KiB/s     %   MIPS   MIPS
+
+22:       8806   650   1317   8567  |     136632   788   1479  11654
+23:       8528   666   1306   8689  |     134295   789   1473  11622
+24:       8448   658   1380   9084  |     131884   790   1465  11575
+25:       8452   660   1462   9651  |     129565   788   1463  11531
+----------------------------------  | ------------------------------
+Avr:             659   1366   8998  |              789   1470  11595
+Tot:             724   1418  10297
+

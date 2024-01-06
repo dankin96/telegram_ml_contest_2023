@@ -1,0 +1,3 @@
+string json = "JSON_ROOT";
+json.serialize(vm.readFile(my_path));
+

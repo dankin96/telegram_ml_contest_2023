@@ -1,0 +1,23 @@
+teraspace@teraspace-ds1:~$ neofetch
+            .-/+oossssoo+/-.               teraspace@teraspace-ds1 
+        `:+ssssssssssssssssss+:`           ----------------------- 
+      -+ssssssssssssssssssyyssss+-         OS: Ubuntu 22.04.2 LTS x86_64 
+    .ossssssssssssssssssdMMMNysssso.       Host: PowerEdge R320 
+   /ssssssssssshdmmNNmmyNMMMMhssssss/      Kernel: 5.15.0-78-generic 
+  +ssssssssshmydMMMMMMMNddddyssssssss+     Uptime: 6 mins 
+ /sssssssshNMMMyhhyyyyhmNMMMNhssssssss/    Packages: 768 (dpkg), 4 (snap) 
+.ssssssssdMMMNhsssssssssshNMMMdssssssss.   Shell: bash 5.1.16 
++sssshhhyNMMNyssssssssssssyNMMMysssssss+   Resolution: 1680x1050 
+ossyNMMMNyMMhsssssssssssssshmmmhssssssso   Terminal: /dev/pts/0 
+ossyNMMMNyMMhsssssssssssssshmmmhssssssso   CPU: Intel Xeon E5-2420 v2 (12) @ 2. 
++sssshhhyNMMNyssssssssssssyNMMMysssssss+   GPU: 06:00.0 Matrox Electronics Syst 
+.ssssssssdMMMNhsssssssssshNMMMdssssssss.   Memory: 364MiB / 64243MiB 
+ /sssssssshNMMMyhhyyyyhdNMMMNhssssssss/
+  +sssssssssdmydMMMMMMMMddddyssssssss+                             
+   /ssssssssssshdmNNNNmyNMMMMhssssss/                              
+    .ossssssssssssssssssdMMMNysssso.
+      -+sssssssssssssssssyyyssss+-
+        `:+ssssssssssssssssss+:`
+            .-/+oossssoo+/-.
+
+teraspace@teraspace-ds1:~$

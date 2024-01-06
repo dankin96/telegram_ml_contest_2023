@@ -1,0 +1,8 @@
+public bool IsSupported(string input) {
+    var supported = new [] { "windows10", "ubuntu", "ios" };
+    input = input.ToLower();
+
+    foreach (var current in supported)
+        if (input == current)
+            return true;
+}

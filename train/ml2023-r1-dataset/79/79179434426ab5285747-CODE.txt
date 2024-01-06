@@ -1,0 +1,1 @@
+(( $+commands[rsync] )) && alias rsync='rsync --partial --info=PROGRESS2'

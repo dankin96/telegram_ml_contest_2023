@@ -1,0 +1,1 @@
+return value < 2 ? value : (calculate(value - 1) + calculate(value - 2))

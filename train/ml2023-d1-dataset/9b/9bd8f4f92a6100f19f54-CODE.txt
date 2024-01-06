@@ -1,0 +1,15 @@
+ $ bitcoin-cli getindexinfo
+{
+  "txindex": {
+    "synced": true,
+    "best_block_height": 811740
+  },
+  "coinstatsindex": {
+    "synced": true,
+    "best_block_height": 811740
+  },
+  "basic block filter index": {
+    "synced": true,
+    "best_block_height": 811740
+  }
+}

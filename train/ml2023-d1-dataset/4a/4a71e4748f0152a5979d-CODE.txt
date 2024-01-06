@@ -1,0 +1,26 @@
+from rest_framework import serializers
+from drf_yasg.utils import swagger_auto_schema
+from rest_framework import viewsets
+
+class MyModelSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = MyModel
+        fields = '__all__'
+
+class MyModelViewSet(viewsets.ModelViewSet):
+    queryset = MyModel.objects.all()
+    serializer_class = MyModelSerializer
+
+    @swagger_auto_schema(
+        manual_parameters=[
+            openapi.Parameter(
+                name="category",
+                in_=openapi.IN_QUERY,
+                type=openapi.TYPE_STRING,
+                description="Select Category Bro",
+                enum=["ctg1", "ctg2", "ctg3"],
+            ),
+        ]
+    )
+    def list(self, request):
+        return super().list(request)

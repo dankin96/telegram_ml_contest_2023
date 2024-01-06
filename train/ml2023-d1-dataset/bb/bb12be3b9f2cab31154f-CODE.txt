@@ -1,0 +1,5 @@
+bot.on('my_chat_member', async (ctx) => {
+    const { status, chat } = ctx.myChatMember
+
+    console.log(`My chat member status changed in chat ${chat.id}. New status: ${status}`)
+})

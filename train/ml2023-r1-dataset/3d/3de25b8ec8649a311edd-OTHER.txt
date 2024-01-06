@@ -1,0 +1,3 @@
+[System]
+Updated Android Security Patch to September 2023. Increased system security.
+

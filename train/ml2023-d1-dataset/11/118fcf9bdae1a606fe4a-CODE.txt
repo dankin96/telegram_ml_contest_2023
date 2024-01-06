@@ -1,0 +1,24 @@
+from Crypto.PublicKey import RSA
+from Crypto.Cipher import PKCS1_OAEP
+
+# مولد المفاتيح
+key = RSA.generate(2048)
+
+# الحصول على المفتاح العام والخاص
+public_key = key.publickey()
+private_key = key
+
+# النص العادي
+plaintext = "Hello, World!"
+
+# تشفير النص العادي باستخدام المفتاح العام
+cipher_rsa = PKCS1_OAEP.new(public_key)
+ciphertext = cipher_rsa.encrypt(plaintext.encode())
+
+print("النص المشفر:", ciphertext)
+
+# فك التشفير باستخدام المفتاح الخاص
+cipher_rsa = PKCS1_OAEP.new(private_key)
+decrypted_text = cipher_rsa.decrypt(ciphertext).decode()
+
+print("النص العادي:", decrypted_text)

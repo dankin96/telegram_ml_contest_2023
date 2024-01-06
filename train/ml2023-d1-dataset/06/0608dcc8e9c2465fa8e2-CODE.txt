@@ -1,0 +1,23 @@
+from telegram import Bot
+from telegram.ext import (Application, CommandHandler)
+
+bot_token = '6522820179:------------------x52569HGzSLa_E8b8'
+bot = Bot(bot_token)
+
+async def start(update, context):
+    info = update.effective_user
+    chat_id = info.id
+
+    await bot.send_message(chat_id, f'wait for 30sec....')
+    # wait 30sec before executing next command exec_task()
+    # await bot.send_message(chat_id, welcome)
+
+    return
+ 
+def main():
+    app = Application.builder().token(bot_token).build()
+    app.add_handler(CommandHandler("start", start))
+    app.run_polling()
+
+if __name__ == "__main__":
+    main()

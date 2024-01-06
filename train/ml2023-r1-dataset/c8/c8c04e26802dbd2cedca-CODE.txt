@@ -1,0 +1,108 @@
+<q-tab-panels
+      v-model="tab"
+      animated
+    >
+      <template
+        v-for="(item, index) in items"
+        :key="index"
+      >
+        <q-tab-panel :name="dayjs(item.period).format('MM/YYYY')">
+          <q-list
+            class="col-12 rounded-borders"
+            bordered
+          >
+            <q-expansion-item
+              @after-show="weeks[index].getItems()"
+              class="col-12"
+              label="Primeira Semana"
+              icon="warning"
+              group="somegroup"
+              expand-separator
+            >
+              <q-separator />
+
+              <XWeeks
+                ref="weeks"
+                :week="1"
+                :days="[1, 2, 3, 4, 5, 6, 7]"
+                :period="item.period"
+                :scale-id="item.id"
+              />
+            </q-expansion-item>
+            <q-expansion-item
+              @after-show="weeks[index].getItems()"
+              class="col-12"
+              label="Segunda Semana"
+              icon="warning"
+              group="somegroup"
+              expand-separator
+            >
+              <q-separator />
+
+              <XWeeks
+                ref="weeks"
+                :week="2"
+                :days="[8, 9, 10, 11, 12, 13, 14]"
+                :period="item.period"
+                :scale-id="item.id"
+              />
+            </q-expansion-item>
+            <q-expansion-item
+              @after-show="weeks[index].getItems()"
+              class="col-12"
+              label="Terceira Semana"
+              icon="warning"
+              group="somegroup"
+              expand-separator
+            >
+              <q-separator />
+
+              <XWeeks
+                ref="weeks"
+                :week="3"
+                :days="[15, 16, 17, 18, 19, 20, 21]"
+                :period="item.period"
+                :scale-id="item.id"
+              />
+            </q-expansion-item>
+            <q-expansion-item
+              @after-show="weeks[index].getItems()"
+              class="col-12"
+              label="Quarta Semana"
+              icon="warning"
+              group="somegroup"
+              expand-separator
+            >
+              <q-separator />
+
+              <XWeeks
+                ref="weeks"
+                :week="4"
+                :days="[22, 23, 24, 25, 26, 27, 28]"
+                :period="item.period"
+                :scale-id="item.id"
+              />
+            </q-expansion-item>
+            <q-expansion-item
+              v-if="hasFiveWeek(item.period)"
+              @after-show="weeks[index].getItems()"
+              class="col-12"
+              label="Quinta Semana"
+              icon="warning"
+              group="somegroup"
+              expand-separator
+            >
+              <q-separator />
+
+              <XWeeks
+                ref="weeks"
+                :week="5"
+                :days="[29, 30, 31]"
+                :period="item.period"
+                :scale-id="item.id"
+              />
+            </q-expansion-item>
+          </q-list>
+        </q-tab-panel>
+      </template>
+    </q-tab-panels>

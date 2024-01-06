@@ -1,0 +1,5 @@
+{
+    "r_type":int,
+    "r_format":str,
+    "user_id":int
+}

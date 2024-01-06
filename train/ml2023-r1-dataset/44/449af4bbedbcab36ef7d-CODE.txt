@@ -1,0 +1,35 @@
+
+import subprocess
+import time
+
+filename = "text.txt"  # Replace with the actual filename
+offset = 1  # Start reading from line 1
+limit = 4  # Read 4 lines at a time
+
+while True:
+    # Construct the command to read 4 lines starting from the current offset
+    command = f"tail -n +{offset} {filename} | head -n {limit}"
+    
+    try:
+        # Execute the command using subprocess
+        output = subprocess.check_output(command, shell=True, text=True)
+        
+        # Split the output into individual lines
+        lines = output.strip().split('
+')
+        
+        # Process the lines as needed (you can print them or perform any other operation)
+        for line in lines:
+            print(line)
+        
+        # Update the offset for the next iteration
+        offset += limit
+        
+        # Check if we have reached the end of the file
+        if len(lines) < limit:
+            break
+        
+    except subprocess.CalledProcessError:
+        # Handle any errors that may occur when executing the command
+        print("Error executing command")
+        break

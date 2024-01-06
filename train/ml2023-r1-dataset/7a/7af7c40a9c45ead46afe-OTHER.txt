@@ -1,0 +1,5 @@
+Contract: BTCUSDT
+Price: $27669.51
+24H High: $27669.51
+24H Low: $27669.05
+24H Volume: 144914.924 BTC

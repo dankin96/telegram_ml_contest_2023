@@ -1,0 +1,8 @@
+import pandas as pd
+df = pd.DataFrame({
+        'string_col': ['1','2','3'],
+        'string_col_mix': ['1','2','abc'],
+        'int_col': [1, 2, 3],
+        'float_col': [1.1, 1.2, 1.3]
+})
+

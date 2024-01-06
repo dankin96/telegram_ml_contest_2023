@@ -1,0 +1,2 @@
+
+[Story[id=1, title=Create an endpoint at Beeceptor., completed=true], Story[id=2, title=Send a request to your new Beeceptor endpoint., completed=true], Story[id=3, title=Create a mocking rule to send dummy data., completed=false], Story[id=4, title=Try out a failure response by sending 500 HTTP status code., completed=false], Story[id=5, title=Use the proxy feature to send a request to a real API. Intercept traffic using Beeceptor., completed=false]]

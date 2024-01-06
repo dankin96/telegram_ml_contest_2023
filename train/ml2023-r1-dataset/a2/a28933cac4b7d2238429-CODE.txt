@@ -1,0 +1,4 @@
+module top (
+    input [7:0] sw,
+    output [2:0] led
+);

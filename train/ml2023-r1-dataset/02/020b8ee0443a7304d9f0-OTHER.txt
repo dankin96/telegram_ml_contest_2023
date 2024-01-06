@@ -1,0 +1,7 @@
+
+
+The Qt framework is dual-licensed, available under both commercial and open-source licenses. The commercial license is recommended option for non-open source projects.
+
+If you consider using Qt under any open source licenses, please read this document carefully.
+
+The primary open-source license is the GNU Lesser General Public License v. 3 (“LGPL”). With the LGPL license option, you can use the essential libraries and some add-on libraries of Qt. This allows for keeping your application source code closed as long as all the requirements of LGPLv3 are met. More details are available below.

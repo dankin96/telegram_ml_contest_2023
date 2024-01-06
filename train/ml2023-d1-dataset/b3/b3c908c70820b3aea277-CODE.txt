@@ -1,0 +1,4 @@
+
+@admin.register(Workflow)
+class WorkflowAdmin(admin.ModelAdmin):
+    filter_horizontal = ['previous', 'next']

@@ -1,0 +1,1 @@
+ - delay: !lambda "return id(idMyLaunchDelay).state*555/666;"

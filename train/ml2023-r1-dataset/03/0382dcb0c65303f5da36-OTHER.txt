@@ -1,0 +1,10 @@
+You're building on Linux
+
+Warning: Cannot display lunch menu.
+
+Note: You can invoke lunch with an explicit target:
+
+  usage: lunch [target]
+
+Which would you like? [aosp_arm-eng]
+Pick from common choices above (e.g. 13) or specify your own (e.g. aosp_barbet-eng):

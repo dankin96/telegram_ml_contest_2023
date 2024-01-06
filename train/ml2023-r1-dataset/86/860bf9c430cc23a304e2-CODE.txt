@@ -1,0 +1,40 @@
+data Rec fields where
+    Rec :: fields => Rec fields
+
+infixr 1 ?
+(?) :: Rec fields -> (fields => r) -> r
+Rec ? e = e
+
+type XY = (?x::Int, ?y::Int)
+
+xy, xy' :: Rec XY
+
+xy = let ?x = 1; ?y = 2 in Rec
+
+xy' = Rec where ?x = 3; ?y = 4
+
+type Z = ?z::Int
+
+z :: Rec Z
+z = Rec where ?z = 42
+
+type XYZ = (XY, Z)
+
+xyz :: Rec XYZ
+xyz = xy ? z ? Rec -- concatenation
+
+type X = ?x::Int
+type Y = ?y::Int
+
+x = Rec :: Rec X where ?x = 42
+y = Rec :: Rec Y where ?y = 24
+
+foo :: Rec XY -> Int
+foo r = r ? ?x + ?y
+
+t1 = foo xy
+t2 = foo (xyz ? Rec) -- subtyping
+t3 = foo (xy ? Rec)
+t4 = foo (x ? y ? Rec) -- concat
+
+t5 = xy ? let ?y = "foo" in Rec :: Rec (?x::Int, ?y::String)

@@ -1,0 +1,1 @@
+ vless://e470a272-4827-4e32-935a-1d1609cab302@erorr.ddns.net:8443?sni=mahdifp.errorconnect.shop&security=tls&type=grpc#%DA%A9%D8%A7%D9%86%D8%A7%D9%84%20@mahdifp1_vpn%E2%9D%A4%E2%9D%A4

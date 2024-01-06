@@ -1,0 +1,5 @@
+array_intervalo = np.arange(25,50)
+array_intervalo = array_intervalo.reshape(5,5)
+
+
+

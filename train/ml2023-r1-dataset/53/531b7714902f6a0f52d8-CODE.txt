@@ -1,0 +1,31 @@
+csharp
+using UnityEngine;
+
+public class CarDeformation : MonoBehaviour
+{
+    public float deformationForce = 1000f; // Сила деформации
+    private Rigidbody carRigidbody;
+
+    private void Start()
+    {
+        carRigidbody = GetComponent<Rigidbody>();
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        // Определите, какая часть машины столкнулась с другим объектом (например, колесо, кузов и т. д.)
+
+        // Вычислите силу столкновения и направление
+        float collisionForce = collision.impulse.magnitude;
+        Vector3 collisionDirection = collision.impulse.normalized;
+
+        // Примените деформацию к части машины
+        ApplyDeformation(collisionDirection, collisionForce);
+    }
+
+    private void ApplyDeformation(Vector3 direction, float force)
+    {
+        // Ваш код здесь: измените форму части машины, измените текстуры и т. д.
+        // Используйте информацию о направлении и силе столкновения для реалистичной деформации
+    }
+}

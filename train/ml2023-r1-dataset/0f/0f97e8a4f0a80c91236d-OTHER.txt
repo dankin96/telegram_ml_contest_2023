@@ -1,0 +1,32 @@
+🚀05.10.2023🚀
+
+⏱TimeZone : UTC/GMT +05:30(India)
+
+⚠️Martingale Step-1 Avoid Trades If Doji Appears
+
+〽️Don't Trade Against The Trend
+
+⚙️Broker -> All Broker
+
+1 MINUTES:-
+
+14:36, GBPUSD, CALL
+14:43, EURUSD, CALL
+15:31, GBPUSD, PUT
+15:35, GBPUSD, PUT
+15:38, EURJPY, CALL
+
+5 MINUTES:-
+
+14:55, USDJPY, CALL
+15:35, EURUSD, CALL
+17:05, USDJPY, CALL
+17:20, EURUSD, PUT
+20:20, GBPUSD, PUT
+
+15 MINUTES:-
+
+16:00, EURUSD, CALL
+16:30, GBPUSD, PUT
+22:15, EURGBP, CALL
+23:30, USDJPY, PUT

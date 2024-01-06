@@ -1,0 +1,1 @@
+go to recovery > apply update from adb > adb sideload <drag and drop magisk zip> If it prompts for signature verification fail just select yes and ignore >  Reboot Post flashing

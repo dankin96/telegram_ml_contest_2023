@@ -1,0 +1,4 @@
+rss. Min: 76.02 MiB. Median: 181.49 MiB. Max: 264.34 MiB
+heapTotal. Min: 51.36 MiB. Median: 116.25 MiB. Max: 199.38 MiB
+heapUsed. Min: 27.27 MiB. Median: 68.38 MiB. Max: 172.52 MiB
+

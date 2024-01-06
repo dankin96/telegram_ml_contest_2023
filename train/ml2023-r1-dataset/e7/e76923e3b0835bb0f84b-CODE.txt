@@ -1,0 +1,2 @@
+justpython = "python"
+print(f"{justpython} is best")

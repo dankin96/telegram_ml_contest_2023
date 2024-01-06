@@ -1,0 +1,12 @@
+import express from 'express';
+const app = express();
+let counter = 0;
+
+app.get('/', (req, res) => {
+  counter++;
+  res.send(counter.toString());
+});
+
+app.listen(3000, () => {
+  console.log('Сервер запущен на порту 3000');
+});

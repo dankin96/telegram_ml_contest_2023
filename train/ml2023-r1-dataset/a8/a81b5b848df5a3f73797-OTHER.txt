@@ -1,0 +1,3 @@
+RobotTribes/o1/robots/tribal/TribalBot.scala:281:24
+value sendToLine is not a member of o1.robots.tribal.TribalBot
+    friends.foreach( _.sendToLine(lineNumber) )

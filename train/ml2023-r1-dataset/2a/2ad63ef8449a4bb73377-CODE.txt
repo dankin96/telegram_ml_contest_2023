@@ -1,0 +1,8 @@
+if(CO2 > SCHWELLE){       digitalWrite(GREENPIN, LOW);
+      digitalWrite(REDPIN, HIGH);
+      delay(100);
+    }else {
+      digitalWrite(REDPIN, LOW);
+      digitalWrite(GREENPIN, HIGH);
+      delay(100);
+    }

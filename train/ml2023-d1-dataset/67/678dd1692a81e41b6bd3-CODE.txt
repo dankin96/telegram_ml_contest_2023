@@ -1,0 +1,33 @@
+import c4d
+# Создаем два объекта куба
+cube1 = c4d.BaseObject(c4d.Ocube)
+cube1.SetName('Куб 1')
+cube2 = c4d.BaseObject(c4d.Ocube)
+cube2.SetName('Куб 2')
+# Добавляем объекты куба в сцену
+doc.InsertObject(cube1)
+doc.InsertObject(cube2)
+
+# Создаем объект GvNodeMaster, который будет представлять собой граф xpresso
+xpresso = c4d.modules.graphview.XPressoTag()
+
+# Вставляем тег xpresso к кубу в начало списка тегов
+cube1.InsertTag(xpresso)
+
+# Получаем нод мастер, через него можно создавать ноды
+NodeMaster = xpresso.GetNodeMaster()
+
+# Создаём ноду, в начало вводим одну и туже хрень, а потом надо ввести id ноды, список вот тут
+# "https://developers.maxon.net/docs/Cinema4DPythonSDK/html/types/gvnodes.html"
+node_1 = NodeMaster.CreateNode(NodeMaster.GetRoot(), c4d.ID_OPERATOR_OBJECT)
+node_2 = NodeMaster.CreateNode(NodeMaster.GetRoot(), c4d.ID_OPERATOR_OBJECT, x=100)
+
+
+node_1.AddPort(c4d.GV_PORT_OUTPUT, 1, c4d.GV_PORT_FLAG_IS_VISIBLE)
+# Тут меняется объект на который ссылается нода, первым аргументов надо вводить тип данных, "GV_ATOM" это
+# родительский класс большинства классов, потом даём ссылку на нужный объект, а потом указываем что сделать,
+# то есть бросаем его в тело
+node_2.OperatorSetData(c4d.GV_ATOM, cube2, c4d.GV_OP_DROP_IN_BODY)
+
+# Обновляем сцену
+c4d.EventAdd()

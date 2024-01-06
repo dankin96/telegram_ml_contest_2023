@@ -1,0 +1,17 @@
+import telebot
+
+API_TOKEN = 'YOUR_API_TOKEN'
+bot = telebot.TeleBot(API_TOKEN)
+
+@bot.message_handler(func=lambda message: '@duongcongbang_chatgpt_bot' in message.text)
+def reply_to_call(message):
+    bot.reply_to(message, 'Bạn đã gọi tôi, vui lòng đặt câu hỏi!')
+    markup = telebot.types.InlineKeyboardMarkup()
+    markup.add(telebot.types.InlineKeyboardButton(text="Cách dùng", callback_data="cachdung"))
+    bot.send_message(message.chat.id, "Nhấn nút để biết cách dùng:", reply_markup=markup)
+
+@bot.callback_query_handler(func=lambda call: call.data == "cachdung")
+def send_cachdung(call):
+    bot.send_message(call.message.chat.id, '/cachdung')
+
+bot.polling()

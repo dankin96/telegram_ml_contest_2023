@@ -1,0 +1,1 @@
+ def f(): pass f.__code__ = code f()

@@ -1,0 +1,9 @@
+import pyttsx3
+
+tts = pyttsx3.init() 
+
+while True:
+  text = input('> ')
+  tts.say(text) 
+  tts.runAndWait() 
+

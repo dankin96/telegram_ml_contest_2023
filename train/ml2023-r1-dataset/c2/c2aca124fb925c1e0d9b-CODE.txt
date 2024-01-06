@@ -1,0 +1,20 @@
+python
+def find_triplets(arr, m):
+    count = 0
+    n = len(arr)
+    
+    for i in range(n-2):
+        for j in range(i+1, n-1):
+            for k in range(j+1, n):
+                if arr[i] * arr[j] * arr[k] == m:
+                    count += 1
+    
+    return count
+
+# Taking input from user
+m = int(input())
+n = int(input())
+arr = list(map(int, input().split()))
+
+# Calling the function and printing the output
+print(find_triplets(arr, m))

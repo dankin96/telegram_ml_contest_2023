@@ -1,0 +1,6 @@
+[CRM | addContact][userId = 8392557]
+Server error: `POST http://3.70.65.247:1405/soa/v1/contacts` resulted in a `504 Gateway Time-out` response:
+
+504 Gateway Time-out
+
+504 Gateway Time-out

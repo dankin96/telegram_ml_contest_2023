@@ -1,0 +1,45 @@
+{
+ "update_id": 935455121,
+ "message": {
+  "message_id": 560,
+  "from": {
+   "id": 1087968824,
+   "is_bot": true,
+   "first_name": "Group",
+   "username": "GroupAnonymousBot"
+  },
+  "sender_chat": {
+   "id": -1001925672602,
+   "title": "User Accounts",
+   "username": "UserbotArmy",
+   "type": "supergroup"
+  },
+  "chat": {
+   "id": -1001925672602,
+   "title": "User Accounts",
+   "username": "UserbotArmy",
+   "type": "supergroup"
+  },
+  "date": 1696781895,
+  "new_chat_participant": {
+   "id": 285793787,
+   "is_bot": true,
+   "first_name": "Show Json Bot",
+   "username": "ShowJsonBot"
+  },
+  "new_chat_member": {
+   "id": 285793787,
+   "is_bot": true,
+   "first_name": "Show Json Bot",
+   "username": "ShowJsonBot"
+  },
+  "new_chat_members": [
+   {
+    "id": 285793787,
+    "is_bot": true,
+    "first_name": "Show Json Bot",
+    "username": "ShowJsonBot"
+   }
+  ]
+ }
+}

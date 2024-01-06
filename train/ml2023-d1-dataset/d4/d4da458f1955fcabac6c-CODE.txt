@@ -1,0 +1,15 @@
+fn foo() {
+    struct X;
+    struct T(PhantomData<X>);
+
+    impl T {
+        pub fn new(value: X) -> Self {
+            // ...
+            Self(PhantomData)
+        }
+    }
+
+    let t1 = T::new(X); // <- OK
+    let t2 = T(PhantomData); // <- Как запретить это?!!!
+}
+

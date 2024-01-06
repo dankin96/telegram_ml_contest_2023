@@ -1,0 +1,1 @@
+Reaching to "./form/form-weight" is not allowed. (eslint import/no-internal-modules)

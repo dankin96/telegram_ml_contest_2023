@@ -1,0 +1,11 @@
+const somethingHappened = useUnit(model.somethingHappened);
+
+return (
+    /* 
+     * Will be correct
+     * <button onClick={() => somethingHappened()}>
+     * */
+    <button onClick={somethingHappened}> 
+        ok 
+    </button>
+);

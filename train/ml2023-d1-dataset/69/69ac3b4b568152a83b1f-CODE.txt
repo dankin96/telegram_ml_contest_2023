@@ -1,0 +1,20 @@
+/* 创建示例数据集 */
+data A;
+  input col1 $ col2 $ col3 $;
+  datalines;
+A B C
+D E F
+G H I
+A J K
+D L M
+;
+
+/* 使用PROC SQL将指定列转换为行 */
+proc sql;
+  create table B as
+  select distinct col1,
+         max(case when col2 is not missing then col2 else '' end) as col2,
+         max(case when col3 is not missing then col3 else '' end) as col3
+  from A
+  group by col1;
+quit;

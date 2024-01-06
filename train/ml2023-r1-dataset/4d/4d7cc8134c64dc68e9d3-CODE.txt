@@ -1,0 +1,72 @@
+const result = document.getElementById('result');
+const keys = document.querySelector('.keys');
+let currentNumber = '';
+let firstNumber = '';
+let operator = '';
+let secondNumber = '';
+
+keys.addEventListener('click', (event) => {
+ const { target } = event;
+ if (!target.matches('button')) {
+  return;
+ }
+
+ if (target.classList.contains('operator')) {
+  operator = target.id;
+  firstNumber = currentNumber;
+  currentNumber = '';
+  return;
+ }
+
+ if (target.id === 'decimal') {
+  if (currentNumber.includes('.')) {
+   return;
+  }
+  currentNumber += '.';
+ }
+
+ if (target.id === 'clear') {
+  currentNumber = '';
+  firstNumber = '';
+  secondNumber = '';
+  operator = '';
+  result.value = '';
+  return;
+ }
+
+ if (target.id === 'backspace') {
+  currentNumber = currentNumber.slice(0, -1);
+  result.value = currentNumber;
+  return;
+ }
+
+ if (target.id === 'equal') {
+  secondNumber = currentNumber;
+  currentNumber = calculate(firstNumber, operator, secondNumber);
+  result.value = currentNumber;
+  firstNumber = '';
+  secondNumber = '';
+  operator = '';
+  return;
+ }
+
+ currentNumber += target.id;
+ result.value = currentNumber;
+});
+
+function calculate(firstNumber, operator, secondNumber) {
+ const num1 = parseFloat(firstNumber);
+ const num2 = parseFloat(secondNumber);
+ if (operator === '+') {
+  return num1 + num2;
+ }
+ if (operator === '-') {
+  return num1 - num2;
+ }
+ if (operator === '*') {
+  return num1 * num2;
+ }
+ if (operator === '/') {
+  return num1 / num2;
+ }
+}

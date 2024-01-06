@@ -1,0 +1,88 @@
+Caro Marco,
+
+le allego in calce alla presente il pre-riconoscimento dei corsi di ingegneria informatica.
+
+Saluti,
+Saverio Giallorenzo (per la commissione piani di studio)
+
+ANALISI MATEMATICA T-1, MAT/05, 9 CFU
++ ANALISI MATEMATICA T-2, MAT/05, 6 CFU
+riconosciuto come
+ANALISI MATEMATICA, MAT/05, 12 CFU
++ 3 CREDITI LIBERI MAT/05
+
+FONDAMENTI DI INFORMATICA T-1, ING-INF/05, 12 CFU
+riconosciuto come
+PROGRAMMAZIONE, INF/01, 12 CFU
+
+GEOMETRIA E ALGEBRA T, MAT/03, 6 CFU
+riconosciuto come
+ALGEBRA E GEOMETRIA, MAT/02, 6 CFU
+
+IDONEITA' LINGUA INGLESE B - 2, L-LIN/12, 6 CFU
+riconosciuto come
+IDONEITA' LINGUA INGLESE B - 1, L-LIN/12, 3 CFU
+* 3 CFU non riconosciuti
+
+FONDAMENTI DI INFORMATICA T-2, ING-INF/05, 12 CFU
+riconosciuto come
+LINGUAGGI DI PROGRAMMAZIONE, INF/01, 12 CFU
+di cui 6 CFU da sostenere tramite esame integrativo con il docente di LINGUAGGI DI PROGRAMMAZIONE
++ 6 CREDITI LIBERI ING-INF/05
+
+RETI LOGICHE T, ING-INF/05, 6 CFU
+riconosciuto come
+ARCHITETTURA DEGLI ELABORATORI, INF/01, 6 CFU
+
+CALCOLATORI ELETTRONICI T, ING-INF/05, 6 CFU
+riconosciuto come
+6 CREDITI LIBERI ING-INF/05
+
+FISICA GENERALE T, FIS/01, 9 CFU
+riconosciuto come
+9 CREDITI LIBERI FIS/01
+
+MATEMATICA APPLICATA T, MAT/07, 6 CFU
+riconosciuto come
+CALCOLO DELLE PROBABILITA' E STATISTICA, MAT/06, 6 CFU
+
+SISTEMI INFORMATIVI T, ING-INF/05, 9 CFU
+riconosciuto come
+BASI DI DATI, INF/01, 9 CFU
+
+FONDAMENTI DI TELECOMUNICAZIONI T, ING-INF/03, 9 CFU
+riconosciuto come
+9 CREDITI LIBERI ING-INF/03
+
+SISTEMI OPERATIVI T, ING-INF/05, 9 CFU
+riconosciuto come
+SISTEMI OPERATIVI, INF/01, 12 CFU
+di cui 3 CFU da sostenere tramite esame integrativo col docente di SISTEMI OPERATIVI
+
+CONTROLLI AUTOMATICI T, ING-INF/04, 9 CFU
+riconosciuto come
+9 CREDITI LIBERI ING-INF/04
+
+ELETTRONICA T, ING-INF/01, 6 CFU
+riconosciuto come
+6 CREDITI LIBERI ING-INF/01
+
+RETI DI CALCOLATORI T, ING-INF/05, 9 CFU
+riconosciuto come
+RETI DI CALCOLATORI, INF/01, 12 CFU
+di cui 3 CFU da sostenere tramite esame integrativo col docente di RETI DI CALCOLATORI
+
+TECNOLOGIE WEB T, ING-INF/05, 9 CFU
+riconosciuto come
+TECNOLOGIE WEB, INF/01, 9 CFU
+
+INGEGNERIA DEL SOFTWARE T, ING-INF/05, 9 CFU
+riconosciuto come
+INGEGNERIA DEL SOFTWARE, INF/01, 9 CFU
+
+Note:
+Si ricorda il tetto massimo di 12 CFU a libera scelta dello studente
+
+Non riconosciuti
+- ECONOMIA E ORGANIZZAZIONE AZIENDALE T, ING-IND/35, 6 CFU
+- ELETTROTECNICA T, ING-IND/31, 6 CFU

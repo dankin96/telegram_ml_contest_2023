@@ -1,0 +1,1 @@
+val plus : (Set<Int>) -> Set<Int> = { a -> a.map{ it+it }.toSet() }

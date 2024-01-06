@@ -1,0 +1,9 @@
+Elaboration latency over threshold for curve USDSOFR. Max: 5040.0 ms
+
+Threshold violation, max:metric.value 5040.0 (min: 0 max : 5000) 
+
+@timestamp: 2023-10-13T01:24:00Z
+metric.name.keyword: USDSOFR
+metric_metric.value_max: 5040.0
+num_hits: 6594
+num_matches: 2

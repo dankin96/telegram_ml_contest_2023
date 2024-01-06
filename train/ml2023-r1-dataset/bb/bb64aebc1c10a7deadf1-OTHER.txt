@@ -1,0 +1,6 @@
+Username (Single) = lmao20069
+Balance (Single) = 0
+Bonus Points (Single) = 0
+Frozen Balance (Single) = 0
+Config By (Single) = @Xcr4ck
+

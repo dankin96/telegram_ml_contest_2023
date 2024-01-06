@@ -1,0 +1,14 @@
+
+withSonarQubeEnv(installationName: 'SonarQube') {            
+      sh """
+                mvn sonar:sonar -s settings.xml \                
+                -Dsonar.projectKey=**** \
+                -Dsonar.c.file.suffixes=- \                
+                -Dsonar.cpp.file.suffixes=- \
+                -Dsonar.objc.file.suffixes=- \                
+                -Dsonar.host.url=${env.SONAR_HOST_URL} \
+                -Dsonar.login=${env.SONAR_AUTH_TOKEN}\                
+                -Dsonar.branch.name=${app.branch} \
+                -Dsonar.exclusions="test/**/*,core/src/test/**/*"         
+          """
+        }

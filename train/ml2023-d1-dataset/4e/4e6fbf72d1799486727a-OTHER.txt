@@ -1,0 +1,1 @@
+Violation of any rule will directly lead to ban/warn/mute. (Depends on type of violation)

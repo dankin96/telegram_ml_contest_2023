@@ -1,0 +1,12 @@
+# установить зависимость в общий список
+poetry add pygame
+# установить зависимость в качестве dev пакета
+poetry add pygame --dev
+либо вручную вписать в toml файл для продакшена в блок [tool.poetry.dependencies]
+
+[tool.poetry.dependencies]
+pygame = "^2.1.0"
+для dev
+
+[tool.poetry.dev-dependencies]
+Pympler = "^0.9"

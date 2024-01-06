@@ -1,0 +1,1 @@
+i=0; while true; do printf '%x' $i | tr '[:lower:]' '[:upper:]' | xargs -I '%' sh -c 'echo -ne \\U%' ; ((i=i+1)); done;

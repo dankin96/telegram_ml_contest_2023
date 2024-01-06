@@ -1,0 +1,3 @@
+warning: collision between `/nix/store/412411phcv3q2skma1ngg180x3j0na0n-fish-3.6.1-doc/share/doc/fish/cmds/exit.html' and `/nix/store/23vbywrw50yhdz743vnib72j74l2xk63-fish-3.6.1-doc/share/doc/fish/cmds/exit.html'
+warning: collision between `/nix/store/412411phcv3q2skma1ngg180x3j0na0n-fish-3.6.1-doc/share/doc/fish/cmds/test.html' and `/nix/store/23vbywrw50yhdz743vnib72j74l2xk63-fish-3.6.1-doc/share/doc/fish/cmds/test.html'
+warning: collision between `/nix/store/412411phcv3q2skma1ngg180x3j0na0n-fish-3.6.1-doc/share/doc/fish/cmds/fish_hg_prompt.html' and `/nix/store/23vbywrw50yhdz743vnib72j74l2xk63-fish-3.6.1-doc/share/doc/fish/cmds/fish_hg_prompt.html'

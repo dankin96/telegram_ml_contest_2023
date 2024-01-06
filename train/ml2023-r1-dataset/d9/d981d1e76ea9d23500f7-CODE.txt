@@ -1,0 +1,19 @@
+pub fn div(x: i32) -> i32 {
+    x / 2
+}
+
+pub fn shift(x: i32) -> i32 {
+    x >> 1
+}
+
+example::div:
+        mov     eax, edi
+        shr     eax, 31
+        add     eax, edi
+        sar     eax
+        ret
+
+example::shift:
+        mov     eax, edi
+        sar     eax
+        ret

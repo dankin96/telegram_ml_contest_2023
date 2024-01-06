@@ -1,0 +1,4 @@
+
+SELECT *
+FROM Students
+WHERE Major = 'IT' AND Level = 2;

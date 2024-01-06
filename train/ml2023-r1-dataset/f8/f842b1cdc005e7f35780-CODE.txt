@@ -1,0 +1,2 @@
+ldr r0, =_estack
+mov sp, r0

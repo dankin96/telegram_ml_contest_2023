@@ -1,0 +1,6 @@
+(etherape:245235): GLib-GIO-DEBUG: 16:47:05.561: _g_io_module_get_default: Found default implementation local (GLocalVfs) for ‘gio-vfs’
+(etherape:245235): GLib-GIO-DEBUG: 16:47:05.602: Using cross-namespace EXTERNAL authentication (this will deadlock if server is GDBus < 2.73.3)
+
+(etherape:245235): Gtk-CRITICAL **: 16:47:05.657: gtk_widget_hide: assertion 'GTK_IS_WIDGET (widget)' failed
+
+(etherape:245235): Gtk-CRITICAL **: 16:47:05.660: gtk_widget_hide: assertion 'GTK_IS_WIDGET (widget)' failed

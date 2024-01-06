@@ -1,0 +1,6 @@
+Note:
+✔️ Tidak menambah masa aktif
+✔️ Tidak ada SN/di larang minta SN
+✔️ Tidak menerima permintaan chip pengirim
+✔️ Bisa di minta replay chip jika dibutuhkan
+

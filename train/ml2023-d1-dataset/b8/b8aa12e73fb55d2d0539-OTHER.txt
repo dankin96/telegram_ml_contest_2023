@@ -1,0 +1,1 @@
+gluster volume top VMS1 read-perf bs 256 count 1 brick gluster1:/mnt/pve/dataglusterfs/vms/ list-cnt 10

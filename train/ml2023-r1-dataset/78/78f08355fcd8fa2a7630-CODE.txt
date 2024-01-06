@@ -1,0 +1,8 @@
+
+<script type="module">
+  import nodeApiJs from 'https://cdn.jsdelivr.net/npm/@waves/node-api-js@1.3.0/+esm';
+  
+ let api = nodeApiJs.create("https://nodes.wavesnodes.com");
+  
+  console.log(await api.blocks.fetchHeadersLast());
+</script>

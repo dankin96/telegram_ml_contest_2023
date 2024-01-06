@@ -1,0 +1,2 @@
+        colors = [C.red, C.green, C.blue, C.gold, C.yellow, C.brown]
+        c = randint(0, len(colors)-1)

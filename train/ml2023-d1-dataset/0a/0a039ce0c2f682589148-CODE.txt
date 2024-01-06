@@ -1,0 +1,30 @@
+{
+  "update_id": 256248144,
+  "message": {
+    "message_id": 5558,
+    "from": {
+      "id": 233653652,
+      "is_bot": false,
+      "first_name": "David",
+      "last_name": "Blue",
+      "username": "DavidBlue",
+      "language_code": "en",
+      "is_premium": true
+    },
+    "chat": {
+      "id": -1001629426000,
+      "title": "Infinite Flight",
+      "username": "ifusers",
+      "is_forum": true,
+      "type": "supergroup"
+    },
+    "date": 1697181631,
+    "document": {
+      "file_name": "infiniteflight-20231013064237839.replay",
+      "mime_type": "application/octet-stream",
+      "file_id": "BQACAgEAAx0CYR8RUAACFbZlKO-_t-ogZ5C6TjzkMYWZf6PoUAACzgMAAuw7SUXiPT3ch6qO2DAE",
+      "file_unique_id": "AgADzgMAAuw7SUU",
+      "file_size": 1108128
+    }
+  }
+}

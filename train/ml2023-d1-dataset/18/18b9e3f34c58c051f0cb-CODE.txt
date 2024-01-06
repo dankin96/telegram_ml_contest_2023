@@ -1,0 +1,47 @@
+<?php
+
+$access_token = "YOUR_ACCESS_TOKEN";
+$url = "https://graph.facebook.com/me/accounts?access_token=" . $access_token;
+
+while (true) {
+    $curl = curl_init();
+    curl_setopt($curl, CURLOPT_URL, $url);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+    
+    $result = curl_exec($curl);
+    curl_close($curl);
+    
+    $data = json_decode($result, true);
+    
+    // Xử lý dữ liệu ở đây
+    // Ví dụ: In ra tất cả các thông tin trả về
+    echo "Dữ liệu trả về từ API:
+";
+    echo "--------------------
+";
+    foreach($data as $key => $value) {
+        if (is_array($value)) {
+            echo "{$key}:
+";
+            foreach($value as $item) {
+                foreach($item as $itemKey => $itemValue) {
+                    echo "  {$itemKey}: {$itemValue}
+";
+                }
+                echo "--------------------
+";
+            }
+        } else {
+            echo "{$key}: {$value}
+";
+        }
+    }
+    
+    // Nếu không có trang kế tiếp, thoát khỏi vòng lặp
+    if (!isset($data['paging']['next'])) {
+        break;
+    }
+    
+    // Lấy URL của trang kế tiếp
+    $url = $data['paging']['next'];
+}

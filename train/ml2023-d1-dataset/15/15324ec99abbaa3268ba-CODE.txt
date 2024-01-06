@@ -1,0 +1,15 @@
+#include <iostream>
+#include <string>
+
+std::string getUserNickname() {
+    std::string nickname;
+    std::cout << "Enter your nickname: ";
+    std::getline(std::cin, nickname);
+    return nickname;
+}
+
+int main() {
+    std::string nickname = getUserNickname();
+    std::cout << "Your nickname is: " << nickname << std::endl;
+    return 0;
+}

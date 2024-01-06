@@ -1,0 +1,9 @@
+def Scrape(): void
+  var url = getline('.')
+  tabnew +set\ buftype=nofile Scraped
+  call append(0, systemlist('w3m -dump ' . url))
+  normal! gg
+enddef
+
+command! ScrapeCommand call Scrape()
+nnoremap <F6> :ScrapeCommand<CR>

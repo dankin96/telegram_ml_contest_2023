@@ -1,0 +1,3 @@
+
+go tool covdata textfmt -i=somedata -o prodcoverage.txt
+go tool cover -html=prodcoverage.txt

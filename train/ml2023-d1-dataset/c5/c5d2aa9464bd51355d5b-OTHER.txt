@@ -1,0 +1,1 @@
+[1 of 1] Compiling Main ( main.hs, main.o )main.hs:3:18: error: • Expected kind ‘* -> *’, but ‘Movie’ has kind ‘*’ • In the first argument of ‘Functor’, namely ‘Movie’ In the instance declaration for ‘Functor Movie’ |3 | instance Functor Movie where | ^^^^^

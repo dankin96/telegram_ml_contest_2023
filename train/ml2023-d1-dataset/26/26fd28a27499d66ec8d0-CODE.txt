@@ -1,0 +1,9 @@
+SELECT 
+  date_bookings,
+  bookings,
+  company_name,
+  sales_team,
+  {%- for column in columns -%} 
+  '{{ column }}' || 
+  {%- endfor -%} ''
+FROM sales.b2b_lead

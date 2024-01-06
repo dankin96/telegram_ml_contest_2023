@@ -1,0 +1,16 @@
+//
+// один файл, например Foo.ts
+//
+// import ???
+//
+export namespace Project.Service {
+    export class Foo {
+       public bar : Bar;
+
+       public constructor(server : Bar)
+       {
+           this.bar = server;
+       }
+
+    }
+}

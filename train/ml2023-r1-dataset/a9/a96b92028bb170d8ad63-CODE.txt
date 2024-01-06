@@ -1,0 +1,16 @@
+
+CREATE TABLE datalab.vacancies_vacancies_raw
+(
+    `id` String,
+    `source` String,
+    `name` String,
+    `published_at` DateTime,
+    `description` String,
+    `country` String,
+    `region` String,
+    `raw` Object('json'),
+    `extracted_at` DateTime DEFAULT now()
+)
+ENGINE = ReplacingMergeTree(published_at)
+ORDER BY (id, source)
+SETTINGS index_granularity = 8192

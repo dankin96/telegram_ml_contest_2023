@@ -1,0 +1,24 @@
+Outgoing message: {
+  "task" : {
+    "executionId" : "bda0f1dc-5d37-11ee-82d1-e2974cf60d19",
+    "methodName" : "searchFlecsApplications"
+  },
+  "variables" : { },
+  "error" : {
+    "time" : "2023-09-27T16:14:08.136032432+03:00",
+    "traceId" : "8af499fdba30db88",
+    "spanId" : "62f79dae40f4a5d6",
+    "code" : "500",
+    "message" : "Сервиса, отвечающего за метод searchFlecsApplications не найдено",
+    "description" : "java.util.NoSuchElementException: Сервиса, отвечающего за метод searchFlecsApplications не найдено
+
+at ru.alfabank.fenix.service.bpm.task.executor.service.ExternalTaskServiceProvider.lambda$getServiceForMethod$0(ExternalTaskServiceProvider.java:21)
+
+at ...
+/java.lang.Thread.run(Unknown Source)",
+    "faultSource" : {
+      "code" : "search-loans-service",
+      "description" : "Сервис управления поиском существующих заявок клиента в Fenix, FLECS и вторичных предложений клиента в OCRM"
+    }
+  }
+}

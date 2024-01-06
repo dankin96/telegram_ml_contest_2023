@@ -1,0 +1,7 @@
+v9.6.5.1 (20180)  uz
+samsung SM-J260F android 8.1.0
+ROM: M1AJB.J260FXXSAAVK1
+Performance: LOW
+Cache: 460,9 MB
+Database: 22,6 MB
+Free: 2,53 GB

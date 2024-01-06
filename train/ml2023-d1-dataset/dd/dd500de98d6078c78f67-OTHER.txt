@@ -1,0 +1,32 @@
+Exchange OGBTC 1h Binance
+Price:0.00015540|0.00015570|0.00015640
+Vol:        54|     705|   1,887
+ATR: 0.00000186
+
+✅OBV:  11.3 K|  11.4 K|  12.1 K
+⚪RSI:   48.82|   50.20|   53.49
+⚪MFI:   61.29|   61.66|   66.74
+⚪CCI:    8.26|   41.52|   99.19
+❌WR%: -100.00|  -94.67|  -79.01
+✅ADX:   31.58|   29.91|   28.04
+
+⚪MOM: No Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+❌PSAR: Bearish
+
+Support And Resistance
+S: 0.00015270
+R: 0.00015710
+
+Volatility is very high
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

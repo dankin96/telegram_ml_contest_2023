@@ -1,0 +1,5 @@
+return {
+ boom = "assets/sounds/boom.ogg",
+ pickup = "assets/sounds/pickup.ogg",
+ ...
+}

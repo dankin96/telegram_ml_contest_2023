@@ -1,0 +1,13 @@
+VPN.lat is a vpn service for Android with servers in 68 countries, it does not keep logs and allows you to browse the internet safely.
+
+· Proxy servers in 68 countries.
+· No time or speed limit.
+· Improve ping on games.
+· Unlimited bandwidth.
+· No record of any user is saved.
+· No registration or login required.
+· Does not require credit cards.
+· Protect your security and privacy
+· No additional permissions required
+· Exclude apps from VPN with our Split Tunneling feature.
+

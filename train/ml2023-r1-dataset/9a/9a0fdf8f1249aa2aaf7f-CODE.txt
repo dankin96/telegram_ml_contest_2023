@@ -1,0 +1,2 @@
+built_in_func($obj)->non_existing_property
+

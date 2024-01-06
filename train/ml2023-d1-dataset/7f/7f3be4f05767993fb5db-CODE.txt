@@ -1,0 +1,12 @@
+export default function Header() {
+  return (
+    <header>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <Image src="/public/Phone.svg" width={16} height={16} />
+        <p style={{ margin: 0, marginLeft: '5px' }}>
+          г. Москва, Электролитный проезд 3Б стр 6
+        </p>
+      </div>
+    </header>
+  );
+}

@@ -1,0 +1,2 @@
+0:00:04.888556177 76242 0x7f7ec4000e30 WARN                 basesrc gstbasesrc.c:3132:gst_base_src_loop:<mysrc> error: Internal data stream error.
+0:00:04.888600426 76242 0x7f7ec4000e30 WARN                 basesrc gstbasesrc.c:3132:gst_base_src_loop:<mysrc> error: streaming stopped, reason not-linked (-1)

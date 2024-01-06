@@ -1,0 +1,5 @@
+build:
+  @./variables.sh
+  @ls -lah
+  @echo ${CI_PROJECT_DIR}/.env
+  @include ${CI_PROJECT_DIR}/.env

@@ -1,0 +1,4 @@
+
+INFO: Updating walk [Current version: 1.6.2]
+ERROR: No 'latest-release-tag' found (https://api.github.com/repos/antonmedv/walk/releases/latest).
+Try using 'newest-tag'.

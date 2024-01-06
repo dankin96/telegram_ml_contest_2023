@@ -1,0 +1,4 @@
+curl -X POST https://matrix.{chncs.de/_matrix/client/v3/register?kind=guest -d '{
+  "initial_device_display_name": "test: Chrome on Windows"
+}'
+{"errcode":"M_UNKNOWN","error":"Guest access is disabled"}

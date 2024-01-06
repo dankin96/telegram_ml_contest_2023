@@ -1,0 +1,10 @@
+🎮 SSGM60    |   11.570| Sausage Man   60 Candies
+🎮 SSGM180   |   35.070| Sausage Man  180 Candies
+🎮 SSGM316   |   58.670| Sausage Man  316 Candies
+🎮 SSGM718   |  117.315| Sausage Man  718 Candies
+🎮 SSGM1368  |  234.800| Sausage Man 1368 Candies
+🎮 SSGM2118  |  350.200| Sausage Man 2118 Candies
+🎮 SSGM3548  |  585.250| Sausage Man 3548 Candies
+🎮 SSGM7048  |1.172.650| Sausage Man 7048 Candies
+
+

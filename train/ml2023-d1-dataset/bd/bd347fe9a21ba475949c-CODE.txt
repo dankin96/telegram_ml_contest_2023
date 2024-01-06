@@ -1,0 +1,3 @@
+cd testnet-contract/tools/
+nano increase-operator-stake.ts
+

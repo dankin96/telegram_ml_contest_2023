@@ -1,0 +1,35 @@
+{
+ "update_id": 935499147,
+ "message": {
+  "message_id": 632,
+  "from": {
+   "id": 5928184541,
+   "is_bot": false,
+   "first_name": "accounyv"
+  },
+  "chat": {
+   "id": -1001925672602,
+   "title": "User Accounts",
+   "username": "UserbotArmy",
+   "type": "supergroup"
+  },
+  "date": 1697201262,
+  "new_chat_participant": {
+   "id": 5928184541,
+   "is_bot": false,
+   "first_name": "accounyv"
+  },
+  "new_chat_member": {
+   "id": 5928184541,
+   "is_bot": false,
+   "first_name": "accounyv"
+  },
+  "new_chat_members": [
+   {
+    "id": 5928184541,
+    "is_bot": false,
+    "first_name": "accounyv"
+   }
+  ]
+ }
+}

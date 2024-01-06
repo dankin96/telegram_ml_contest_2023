@@ -1,0 +1,14 @@
+WinGo 5 minute
+NO.180 Bet:Big    1
+NO.180 Bet:Big    1
+NO.180 Bet:Big    1
+
+WinGo 5 minute
+NO.181 Bet:Small  3
+NO.181 Bet:Small  3
+NO.181 Bet:Small  3
+
+WinGo 5 minute
+NO.182 Bet:Small  8
+NO.182 Bet:Small  8
+NO.182 Bet:Small  8

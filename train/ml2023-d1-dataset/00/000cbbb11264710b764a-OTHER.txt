@@ -1,0 +1,6 @@
+What's new in our contract??
+
+- Our smart contract maintains chart stability and we have tested it.
+
+- Holders will never decrease. Every purchase and sale will create 3 new wallets randomly to be distributed.
+

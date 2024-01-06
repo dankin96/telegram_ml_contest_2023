@@ -1,0 +1,1 @@
+dd if=/external_sd/vendor.img of=/dev/block/mapper/vendor

@@ -1,0 +1,17 @@
+
+service: climate.set_fan_mode
+data_template:
+  entity_id: climate.bedroom_breezer
+  fan_mode: >
+    {% set co2 = states('sensor.bedroom_co2') | int %}
+    {% if co2 <= 650 %}
+      "0"
+    {% elif co2 <= 700 %}
+      "2"
+    {% elif co2 <= 800 %}
+      "4"
+    {% elif co2 <= 1000 %}
+      "5"
+    {% else %}
+      "6"
+    {% endif %}

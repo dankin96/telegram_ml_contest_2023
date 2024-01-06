@@ -1,0 +1,7 @@
+🌵 TRD2  |  16.450 | TRI AON 2.5GB 
+🌵 TRD3  |  20.650 | TRI AON 3.5GB 
+🌵 TRD6  |  29.100 | TRI AON 6GB 
+🌵 TRD9  |  40.025 | TRI AON 9GB  
+🌵 TRD12 |  54.275 | TRI AON 12GB 
+🌵 TRD40 | 101.940 | TRI AON 40GB 
+

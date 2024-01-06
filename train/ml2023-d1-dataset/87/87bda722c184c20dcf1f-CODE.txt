@@ -1,0 +1,1 @@
+<meta name="go-import" content="tailscale.com git https://github.com/tailscale/tailscale">

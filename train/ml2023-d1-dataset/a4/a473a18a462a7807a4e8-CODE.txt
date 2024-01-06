@@ -1,0 +1,7 @@
+function applyAttr( saveElementProps, blockType, attributes ) {
+ const { dataAttr } = attributes;
+ if ( allowedBlocks.includes( blockType.name ) ) {
+  Object.assign(saveElementProps, { "data-bs-toggle": dataAttr });
+ }
+ return saveElementProps;
+}

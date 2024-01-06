@@ -1,0 +1,6 @@
+we.f=(co, ret)=>co.nt=()=>{switch(co.i){
+  0:setTimeout(co.nt, 1000); co.i++
+  1:wait(1,co.nt); co.i++
+  2:alert('2s'); ret(like,coIsPromise)
+}}
+

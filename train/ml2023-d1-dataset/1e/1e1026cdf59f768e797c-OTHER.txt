@@ -1,0 +1,41 @@
+[INFO] 10-Oct-23 06:03:43 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 06:03:44 - Uploading file of 37315 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 06:10:33 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 06:10:34 - Uploading file of 12689 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 06:10:51 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 06:10:52 - Uploading file of 10839 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 06:19:43 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 06:19:44 - Uploading file of 42453 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 06:22:32 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 06:22:32 - Uploading file of 55182 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 06:40:43 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 06:40:44 - Uploading file of 75043 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 06:45:44 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 06:45:44 - Uploading file of 31424 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 06:50:44 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 06:50:45 - Uploading file of 32737 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 07:02:44 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 07:02:45 - Uploading file of 55569 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 07:07:44 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 07:07:45 - Uploading file of 53729 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 07:08:44 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 07:08:45 - Uploading file of 25469 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 07:12:42 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 07:12:43 - Uploading file of 37652 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 08:26:46 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 08:26:47 - Uploading file of 35697 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 08:44:47 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 08:44:48 - Uploading file of 11996 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 08:46:21 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 08:46:22 - Uploading file of 234303 bytes in 2 chunks of 131072
+[INFO] 10-Oct-23 08:51:38 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 08:51:38 - Uploading file of 93565 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 08:53:47 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 08:53:48 - Uploading file of 36241 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 08:54:47 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 08:54:48 - Uploading file of 62663 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 09:02:09 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 09:02:10 - Uploading file of 20138 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 09:03:47 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 10-Oct-23 09:03:48 - Uploading file of 86137 bytes in 1 chunks of 131072
+[INFO] 10-Oct-23 09:06:47 - Starting direct file download in chunks of 131072 at 0, stride 131072

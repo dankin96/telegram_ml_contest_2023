@@ -1,0 +1,22 @@
+- - - - - - - - - - - - - - - - - - - 
+
+GIWM     BLESSING WELKIN MOON
+
+GI60              60 CRYSTALS
+GI330         300+30 CRYSTALS
+GI1090       980+110 CRYSTALS
+GI2240      1980+260 CRYSTALS
+GI3880      3280+600 CRYSTALS
+GI8080     6480+1600 CRYSTALS
+
+- - - - - - - - - - - - - - - - - - - 
+FORMAT PENGISIAN 
+= SERVER + UID
+= 002 + 987654321
+= 002987654321
+
+LIST SERVER = 001 : ASIA
+              002 : AMERIKA
+              003 : EUROPE
+              004 : TW_HK_MO   
+- - - - - - - - - - - - - - - - - - -

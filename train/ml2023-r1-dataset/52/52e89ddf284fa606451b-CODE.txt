@@ -1,0 +1,4 @@
+ <input
+                    type="checkbox"
+                    className="appearance-none w-5 h-5 rounded-md border border-primary-600 bg-primary-50 accent-primary-600 cursor-pointer"
+                  />

@@ -1,0 +1,4 @@
+shell
+
+router ospf [ospf-process-id]
+redistribute eigrp [eigrp-as-number] subnets

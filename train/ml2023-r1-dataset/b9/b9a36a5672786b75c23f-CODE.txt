@@ -1,0 +1,12 @@
+import { defineStore } from "pinia";
+
+export const useStore = defineStore('main', {
+  state: () => {
+    return {
+      msg: 'hello world hhhh',
+      Number: 1
+    }
+  },
+  getters: {},
+  actions: {}
+})

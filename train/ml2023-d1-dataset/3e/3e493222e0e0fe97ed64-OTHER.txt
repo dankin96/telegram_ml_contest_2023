@@ -1,0 +1,6 @@
+ RPCError: 401: AUTH_KEY_UNREGISTERED (caused by users.GetUsers)
+    at RPCMessageToError (/app/node_modules/telegram/errors/index.js:28:12)
+    at MTProtoSender._handleRPCResult (/app/node_modules/telegram/network/MTProtoSender.js:534:58)
+    at MTProtoSender._processMessage (/app/node_modules/telegram/network/MTProtoSender.js:464:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async MTProtoSender._recvLoop (/app/node_modules/telegram/network/MTProtoSender.js:415:17)

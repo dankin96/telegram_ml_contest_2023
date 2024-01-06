@@ -1,0 +1,3 @@
+let duck = new Bird("Donald");
+duck.hasOwnProperty("name");
+

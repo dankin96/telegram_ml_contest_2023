@@ -1,0 +1,2 @@
+    price = models.DecimalField('Цена ', max_digits=10, decimal_places=2)
+    old_price = models.DecimalField('Старая цена', max_digits=10, decimal_places=2, default=Decimal('0.00'))

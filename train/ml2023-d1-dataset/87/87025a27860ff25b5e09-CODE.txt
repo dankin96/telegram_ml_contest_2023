@@ -1,0 +1,7 @@
+…
+    private void Start()
+    {
+        Rigidbody body = GetComponent<Rigidbody>();
+        if (body != null)
+            body.freezeRotation = true;
+    }

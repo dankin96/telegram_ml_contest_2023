@@ -1,0 +1,4 @@
+systemd[1]: Activating swap /swap/swapfile...
+kernel: Adding 262140k swap on /swap/swapfile.  Priority:-2 extents:10 across:15242088k FS
+systemd[1]: Activated swap /swap/swapfile.
+

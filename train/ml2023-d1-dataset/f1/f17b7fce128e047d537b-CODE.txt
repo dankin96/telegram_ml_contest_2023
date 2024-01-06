@@ -1,0 +1,1 @@
+select user_id, count(1) from kx.client_events group by user_id order by user_id;

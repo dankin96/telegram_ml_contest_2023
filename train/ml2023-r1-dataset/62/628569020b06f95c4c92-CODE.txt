@@ -1,0 +1,28 @@
+const {getChallengeVerification} = require('./challenges')
+
+// NOTE: publishing challenge pubsub message and waiting for challenge answer message go inside the getChallengeAnswers callback
+// because they are sometimes skipped
+const getChallengeAnswers = async (challenges) => {
+  // ...get challenge answers from user. e.g.:
+  // step 1. subplebbit publishes challenge pubsub message with `challenges` provided in argument of `getChallengeAnswers``
+  // step 2. subplebbit waits for challenge answer pubsub message with `challengeAnswers` and then returns `challengeAnswers``
+  return challengeAnswers
+}
+
+// NOTE: we try to get challenge verification immediately after receiving challenge request
+// because some challenges are automatic and skip the challenge message
+let challengeVerification
+try {
+  challengeVerification = await getChallengeVerification(challengeRequest, subplebbit, getChallengeAnswers)
+}
+// getChallengeVerification will throw if one of the getChallenge function throws, which indicates a bug with the challenge script
+catch (e) {
+  // notify the sub owner that that one of his challenge is misconfigured via an error event
+  subplebbit.emit('error', e.message)
+
+  // notify the author that his publication wasn't published because the subplebbit is misconfigured
+  challengeVerification = {
+    challengeSuccess: false,
+    reason: `One of the subplebbit challenges is misconfigured: ${e.message}`
+  }
+}

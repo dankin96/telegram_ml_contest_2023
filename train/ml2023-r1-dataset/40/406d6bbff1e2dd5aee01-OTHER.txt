@@ -1,0 +1,15 @@
+Background:      Green
+Body:            Charged
+Head:            Plastic
+Buttons:         Industrial
+1-1:             None
+Headset:         NES
+Bottom:          Stars
+Sides:           Alien
+Left Symbol:     Clover
+Center Symbol:   Skull
+Right Symbol:    Pacman
+Hacked:          false
+Reentries Used:  0
+
+Rank: 1579

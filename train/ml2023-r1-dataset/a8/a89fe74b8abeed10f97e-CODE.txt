@@ -1,0 +1,3 @@
+let appearance = UITabBarAppearance()
+appearance.shadowColor = .clear // должно сработать
+UITabBar.appearance().<какой-то аппеаранс> = appearance

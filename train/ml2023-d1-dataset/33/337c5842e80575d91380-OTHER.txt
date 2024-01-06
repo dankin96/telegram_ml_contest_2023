@@ -1,0 +1,8 @@
+$ gamescope            
+wlserver: [backend/headless/backend.c:68] Creating headless backend
+vulkan: physical device 10de:1401 compute queue doesn't support presenting on our surface, using graphics queue
+vulkan: selecting physical device 'NVIDIA GeForce GTX 960': queue family 0 (general queue family 0)
+vulkan: physical device supports DRM format modifiers
+vkCreateDevice failed with a high-priority queue (general + compute). Falling back to regular priority (general).
+vkCreateDevice failed with a high-priority queue (compute). Falling back to regular priority (all).
+[1]    7138 segmentation fault (core dumped)  gamescope

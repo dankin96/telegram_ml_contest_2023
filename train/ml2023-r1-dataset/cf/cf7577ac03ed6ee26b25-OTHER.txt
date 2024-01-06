@@ -1,0 +1,19 @@
+LONG SHORT
+BTC: 98% 2%
+Long: 94,707 BTC 
+Short: 1,484 BTC
+
+XMR: 76% 24%
+EOS: 94% 6%
+ETH: 96% 4%
+LTC: 97% 3%
+ZEC: 82% 18%
+ETC: 93% 7%
+DSH: 77% 23%
+BCH: 50% 50%
+NEO: 50% 50%
+XRP: 50% 50%
+XTZ: 50% 50%
+BSV: 50% 50%
+
+Updated 9 minutes ago

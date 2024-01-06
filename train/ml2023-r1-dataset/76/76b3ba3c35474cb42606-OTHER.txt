@@ -1,0 +1,2 @@
+trojan://faL7S2Hkt2@wishva.darkevil.buzz:5/?security=tls&type=tcp&sni=docs.google.com#airtel
+

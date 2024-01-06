@@ -1,0 +1,8 @@
+# /usr/bin/phosh-session 
+libEGL warning: egl: failed to create dri2 screen
+
+(phoc:1114): phoc-wlroots-CRITICAL **: 09:51:03.319: [EGL] command: eglInitialize, error: EGL_NOT_INITIALIZED (0x3001), message: "DRI2: failed to create screen"
+libEGL warning: NEEDS EXTENSION: falling back to kms_swrast
+
+(phoc:1114): phoc-server-WARNING **: 09:51:03.375: Unable to open wayland socket: No such file or directory
+Segmentation fault

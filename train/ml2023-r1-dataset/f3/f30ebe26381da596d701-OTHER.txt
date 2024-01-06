@@ -1,0 +1,21 @@
+⚡️ L7 ⚡️
+Statistics end
+
+⬇️The statistics are as follows⬇️
+Total requests: 37997
+Total IP: 505
+IP Region (show top 10):
+印度尼西亚：84
+巴西：37
+印度：35
+亚太地区：31
+孟加拉：30
+美国：28
+哥伦比亚：25
+俄罗斯：21
+中国：17
+墨西哥：16
+
+
+You are not currently in an invisible state, the statistics will be displayed in the leaderboard according to the ranking of the data
+Thanks for using this service

@@ -1,0 +1,2 @@
+vless://eb7a49fb-cf86-4647-9ae7-f432dfa1e907@5.42.74.186:2096?mode=gun&security=reality&encryption=none&pbk=q6mipXXWnd7oIPEAmq1kHVQ3xTmOnvCn-13ebf7_ERc&fp=chrome&spx=%2F&type=grpc&serviceName=TELEGRAM:@ZEDMODEON,TELEGRAM:@ZEDMODEON,TELEGRAM:@ZEDMODEON,TELEGRAM:@ZEDMODEON&sni=www.discord.com&sid=b9b365cd#998🔆💎🇸🇪
+

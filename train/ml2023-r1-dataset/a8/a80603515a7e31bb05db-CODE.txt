@@ -1,0 +1,16 @@
+int linear= A0; //declaramos variable para guardar datos del sensor
+float porcentaje; //declaramos una variable para convertir a porcentaje
+void setup(){
+digitalWrite(linear, HIGH); sensor en alto (encendido)
+Serial.begin(9600);inicializamos la comunicación con el puerto serie a 9600 baudios / segundo
+}
+
+void loop(){
+int linear = analogRead(linear);
+float porcentaje=((linear*100.0) / 1023.0);
+Serial.print("ADC :");
+Serial.println(linear);
+Serial.print("porcentaje :");
+Serial.println(porcentaje);
+delay(250);
+}

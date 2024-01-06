@@ -1,0 +1,2 @@
+
+GuzzleHttp\Exception\ClientException: Client error: `POST https://cloud.somedomain,ru/standalone-signaling/api/v1/room/g7hncgaw` resulted in a `403 Forbidden` response: Authentication check failed

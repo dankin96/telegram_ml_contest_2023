@@ -1,0 +1,16 @@
+"use strict";
+
+const camelCase = function (str) {
+  const capitalize = str.split(`-`).map((word) => {
+    const result = word.toUpperCase()[0] + word.slice(1);
+    console.log(result);
+    return result;
+  });
+
+  return capitalize[0][0].toLowerCase() + capitalize.join(``).slice(1);
+};
+
+camelCase(`dash-words-are-ugly`);
+console.log(camelCase(`camel-case`));
+console.log(camelCase(`test-s`));
+console.log(camelCase(`test-sa-sad`));

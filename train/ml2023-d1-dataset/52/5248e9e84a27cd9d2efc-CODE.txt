@@ -1,0 +1,18 @@
+#[derive(Debug, Deserialize, Serialize, PartialEq, Eq)]
+struct AppConfig {
+    path_1: String,
+    path_2: String,
+}
+
+fn load_config() -> Result<AppConfig, ConfigError> {
+    if !Path::new(CONFIG_PATH).exists() {
+        let dir = fs::create_dir_all(CONFIG_DIR);
+        let file = File::create(CONFIG_PATH);
+    }
+    let config = Config::builder().add_source(config::File::new(CONFIG_PATH, FileFormat::Yaml)).build()?;
+    let settings: AppConfig = match config.try_deserialize() {
+        Ok(s) => s,
+        Err(e) => AppConfig::default(),
+    };
+    Ok(settings)
+}

@@ -1,0 +1,32 @@
+python
+import subprocess
+import time
+
+def connect_wifi(ssid, password):
+    # 打开WiFi设置页面
+    subprocess.run(["adb", "shell", "am", "start", "-a", "android.intent.action.MAIN",
+                    "-n", "com.android.settings/.wifi.WifiSettings"])
+
+    # 等待WiFi设置页面打开
+    time.sleep(2)
+
+    # 输入WiFi名称
+    subprocess.run(["adb", "shell", "input", "text", ssid])
+
+    # 等待输入完成
+    time.sleep(1)
+
+    # 进入密码输入框
+    subprocess.run(["adb", "shell", "input", "keyevent", "61"])
+
+    # 输入WiFi密码
+    subprocess.run(["adb", "shell", "input", "text", password])
+
+    # 等待输入完成
+    time.sleep(1)
+
+    # 连接WiFi网络
+    subprocess.run(["adb", "shell", "input", "keyevent", "66"])
+
+# 测试连接WiFi
+connect_wifi("your_wifi_ssid_here","your_wifi_password_here")

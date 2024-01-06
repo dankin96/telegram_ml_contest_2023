@@ -1,0 +1,5 @@
+
+INFO Starting looking for IP in topic esphome/discover/test
+INFO Connected to MQTT broker!
+INFO Send discover via MQTT broker topic: esphome/ping/test
+ERROR Failed to find IP via MQTT

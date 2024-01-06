@@ -1,0 +1,1 @@
+ kubectl --context mycontext  -n mynamespace  exec -it ubuntu-shell -- /bin/bash -C “pg_dump -U <username> -W -F p <db_name> -h <hostname> -p 5432 -v > staging.sql”

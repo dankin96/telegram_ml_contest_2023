@@ -1,0 +1,27 @@
+import { boot } from 'quasar/wrappers'
+import { createApi } from 'src/composables/api'
+import { useAuthStore } from 'src/store/auth'
+
+export default boot(({ store }) => {
+  const api = createApi(store)
+
+  const authStore = useAuthStore(store)
+  function beforeRequest(config) {
+    if (appStore.isLogged()) {
+      config.headers.Authorization = `Bearer ${appStore.token}`;
+    }
+    return config;
+  }
+  function onFailure(err) {
+    const res = error.response;
+    switch (res.status) {
+      case 401:
+        await authStore.refresh()
+        return api(err.config)
+    }
+    return Promise.reject(error);
+  }
+
+  api.interceptors.request.use(beforeRequest, (error) => Promise.reject(error));
+  api.interceptors.response.use(response => response, onFailure);
+})

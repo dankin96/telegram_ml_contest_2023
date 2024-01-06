@@ -1,0 +1,24 @@
+
+#include <stdio.h>
+
+int main() {
+    int number;
+    int count = 0;
+    
+    printf("عدد را وارد کنید: ");
+    scanf("%d", &number);
+    
+    // شمارش تعداد ارقام عدد
+    int temp = number;
+    while(temp != 0) {
+        count++;
+        temp /= 10;
+    }
+
+    // چاپ 'O' به تعداد ارقام
+    for(int i = 0; i < count; i++) {
+        printf("O");
+    }
+    
+    return 0;
+}

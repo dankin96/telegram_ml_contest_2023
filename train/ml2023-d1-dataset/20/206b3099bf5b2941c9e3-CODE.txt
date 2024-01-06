@@ -1,0 +1,1 @@
+curl -X POST "https://api.telegram.org/bot6324242457:AAHGL1TqgYN54-TUKqH1JT48SNSOzHcNS18/sendMessage" -d $'chat_id=-1001515092775&text=/aggregatelinks'

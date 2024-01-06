@@ -1,0 +1,7 @@
+(官网|探针)===text=↓注意:备用地址均需要CAPTCHA
+&&btns=主官网$$https://2c.lol$$
+备用官网$$https://zero.76898102.xyz$$
+备用官网2$$https://freefly.pp.ua$$$
+服务器探针$$https://status.2c.lol$$
+服务器备用探针$$https://status.66666654.xyz
+&&del=y=45

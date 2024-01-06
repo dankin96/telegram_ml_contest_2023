@@ -1,0 +1,11 @@
+   <channel>
+       ...
+       <item>
+           <title>Judul Entri</title>
+           <link>Tautan Ke Entri</link>
+           <description>Deskripsi Entri</description>
+           <pubDate>Tanggal Publikasi Entri</pubDate>
+           ...
+       </item>
+   </channel>
+   

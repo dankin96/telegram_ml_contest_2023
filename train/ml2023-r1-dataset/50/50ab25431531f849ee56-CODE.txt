@@ -1,0 +1,14 @@
+providers: [
+    {
+      provide: APP_INTERCEPTOR,
+      useClass: TimeoutInterceptor,
+    },
+    {
+      provide: BaseType.GLOBAL_DB_CONTEXT,
+      useClass: GlobalDatabaseContext,
+    },
+    {
+      provide: UseCaseType.GET_HELLO,
+      useClass: GetHelloUseCase,
+    },
+  ],

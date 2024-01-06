@@ -1,0 +1,10 @@
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+
+
+async def start_menu():
+    btn = ReplyKeyboardMarkup()
+    btn.row("Eats")
+    btn.row("Drink")
+    btn.row("Desert")
+    
+    return btn

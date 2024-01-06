@@ -1,0 +1,34 @@
++----------------------------+------------+------------+
+|         Games Loss         | 2023-10-04 | 2023-10-03 |
++----------------------------+------------+------------+
+| Galaxy Attack: Shoot (ios) |  -7479.72  |  8120.46   |
+| Take Off: Nuts & Bol (and) |  -1243.54  |  -648.21   |
+| Haircut prank, air h (and) |  -986.15   |   -27.26   |
+| Hide And Seek: Who i (and) |   -389.5   |   -315.9   |
+| Word Office: Docx Re (and) |  -303.38   |  -145.54   |
+|    Skubydy Series (and)    |   -302.4   |  -251.35   |
+|     Ball Escape (and)      |  -281.98   |    3.46    |
+| Survival City - Idle (and) |  -231.08   |  -257.68   |
+| Screw Master: Pin Pu (and) |  -191.45   |  -596.95   |
+| com.find.em.cat_ios_ (ios) |  -181.87   |  -288.76   |
+| Bros World: Run Game (and) |  -151.21   |   -99.95   |
+|     Yoga Workout (and)     |  -151.11   |   -845.8   |
+| Galaxy Shooter: Air  (and) |  -122.81   |   -67.85   |
+| Extreme Car Sounds S (and) |   -111.5   |  -158.76   |
+| Toilet Monster Craft (and) |  -108.29   |  -118.37   |
+| PhotoArt: AI Remove  (ios) |  -106.87   |   -80.05   |
+| Merge Cannon - Idle  (and) |   -99.6    |   -51.99   |
+| DIY Makeover: ASMR M (and) |   -83.45   |  -178.48   |
+| Galaxy Attack: Shoot (and) |   -80.76   |  9061.23   |
+| Going Up! 3D Parkour (and) |   -72.66   |   15.75    |
+| Tile Cat 3 - Puzzle  (and) |   -64.82   |   -81.72   |
+| Skibd Shooter: Toile (and) |   -63.69   |   -48.27   |
+| Taser Gun Prank Simu (and) |   -61.01   |  -121.32   |
+| Brain Test: Fruit St (and) |   -41.54   |    0.05    |
+| Sushi Cat Cafe: Idle (and) |   -40.34   |    0.05    |
+| Mix Toilet Monster M (and) |   -39.65   |   -49.22   |
+| Chat Master: Prank S (ios) |   -38.97   |   23.98    |
+| Toilet Monster Mix T (and) |   -35.41   |   -94.75   |
+| com.abi.take.off.nut (ios) |   -25.95   |   -97.11   |
+| Fly Thief: Draw A Li (and) |   -23.89   |   -59.78   |
++----------------------------+------------+------------+

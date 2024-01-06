@@ -1,0 +1,2 @@
+/usr/i686-linux-gnu/include/c++/12/i686-linux-gnu/x32/bits/stdc++.h   libstdc++-12-dev-i386-cross
+/usr/include/aarch64-linux-gnu/c++/11/bits/stdc++.h

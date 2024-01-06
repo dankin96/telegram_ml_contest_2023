@@ -1,0 +1,1 @@
+RewriteRule ^/en/wp-content/uploads/ru/(.*)$ /wp-content/uploads/en/$1 [L,R=301]

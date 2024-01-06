@@ -1,0 +1,2 @@
+Missing MTProto Entity: Please, make sure to add TL definition for ID 0
+

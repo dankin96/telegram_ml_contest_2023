@@ -1,0 +1,35 @@
+{
+  "update_id": 438255253,
+  "message": {
+    "message_id": 283,
+    "from": {
+      "id": 961933367,
+      "is_bot": false,
+      "first_name": "Arun"
+    },
+    "chat": {
+      "id": -1001855149611,
+      "title": "Kochi Vibes❤️",
+      "is_forum": true,
+      "type": "supergroup"
+    },
+    "date": 1697214942,
+    "new_chat_participant": {
+      "id": 961933367,
+      "is_bot": false,
+      "first_name": "Arun"
+    },
+    "new_chat_member": {
+      "id": 961933367,
+      "is_bot": false,
+      "first_name": "Arun"
+    },
+    "new_chat_members": [
+      {
+        "id": 961933367,
+        "is_bot": false,
+        "first_name": "Arun"
+      }
+    ]
+  }
+}

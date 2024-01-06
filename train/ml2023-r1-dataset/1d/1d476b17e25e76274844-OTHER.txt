@@ -1,0 +1,6 @@
+Zeph:ZephUSD=400:100       zeph冻结，有奖励
+
+Zeph:ZephUSD=(401-799):100 可zeph换rsv，有奖励
+
+Zeph:ZephUSD=800:100       不可zeph换rsv，无奖励
+

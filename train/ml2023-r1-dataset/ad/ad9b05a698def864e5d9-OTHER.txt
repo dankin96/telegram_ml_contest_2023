@@ -1,0 +1,12 @@
+AIKEK - AlphaKEK.AI
+$0.000351483
+Network: ETH
+H|L: 0.00|0.00035184
+1h:  -0.8%     😕       
+24h: -0.1%     😕       
+7d:  -4.4%     😅       
+Vol: $141.0
+Liq: $20.8 K
+Circ Mcap: 90.0 K
+FDV 90.0 K
+CA: 0x8dce83eca4af45dbe618da1779f9aaca43201084

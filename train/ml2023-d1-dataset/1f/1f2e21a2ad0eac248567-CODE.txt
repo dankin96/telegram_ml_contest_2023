@@ -1,0 +1,24 @@
+local function saveLattice( table, filename ) -- The Save Function
+    local fullFilePath = SaveDir .. filename
+    local file = io.open( fullFilePath, "w+" )
+    for x = 1, #table, 1 do
+        file:write( table[x] .. "
+" )
+    end
+    io.close(file)
+end
+
+
+
+local function loadLattice( filename ) -- The Load Function -- code by stack overflow.. probably make it more usable later
+    local arr = {}
+    local fullFilePath = SaveDir .. filename
+    local handle  = assert( io.open( fullFilePath, "r" ) )
+    local value = handle:read( "*line" )
+    while value do
+        table.insert( arr, value )
+        value = handle:read( "*line" )
+    end
+    handle:close()
+    return arr
+end

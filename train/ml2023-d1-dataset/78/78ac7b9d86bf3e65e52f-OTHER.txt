@@ -1,0 +1,7 @@
+v10.1.1.1 (20470) Play Store uz
+samsung SM-A415F android 12
+ROM: SP1A.210812.016.A415FXXU3DWD2
+Performance: AVERAGE
+Cache: 2,08 GB
+Database: 231,8 MB
+Free: 14,97 GB

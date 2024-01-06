@@ -1,0 +1,1 @@
+<!DOCTYPE html><html> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" /> <style> /* All langs are invisible by default. */ [lang] { display: none; } /* Dark mode support. */ :root { color-scheme: light dark; --primary-color: black; --secondary-color: #555555; --link-color: #1e96f0; --background-color: white;

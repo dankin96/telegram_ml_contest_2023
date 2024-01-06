@@ -1,0 +1,27 @@
+data CTerm α where
+  CFun :: (CTerm α -> CTerm β) -> CTerm (α -> β)
+  CConst :: α -> CTerm α -- CConst invariant: α is not a function type
+
+instance Applicable CTerm where
+  CFun f $$ x = f x
+  CConst _ $$ _ = error "CConst should never contain a function!"
+
+compile :: BTerm α -> CTerm α
+compile (BApp b1 b2) = compile b1 $$ compile b2
+compile (BConst c) = compileConst c
+
+compileConst :: Const α -> CTerm α
+compileConst = \case
+  (CInt i) -> CConst i
+  CIf      -> CFun $ \(CConst b) -> CFun $ 
+ -> CFun $ \e -> if b then t else e
+  CAdd     -> binary (+)
+  CGt      -> binary (>)
+  K        -> CFun $ \x -> CFun $ \_ -> x
+  S        -> CFun $ \f -> CFun $ \g -> CFun $ \x -> f $$ x $$ (g $$ x)
+  I        -> CFun id
+  B        -> CFun $ \f -> CFun $ \g -> CFun $ \x -> f $$ (g $$ x)
+  C        -> CFun $ \f -> CFun $ \x -> CFun $ \y -> f $$ y $$ x
+
+binary :: (α -> b -> c) -> CTerm (α -> b -> c)
+binary op = CFun $ \(CConst x) -> CFun $ \(CConst y) -> CConst (op x y)

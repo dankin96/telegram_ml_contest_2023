@@ -1,0 +1,8 @@
+(deframaop my-filter [*v]  
+  (<<if *v
+    (:>)))
+
+(?<-
+  (ops/range> 0 5 :> *v)
+  (my-filter (even? *v))
+  (println *v))

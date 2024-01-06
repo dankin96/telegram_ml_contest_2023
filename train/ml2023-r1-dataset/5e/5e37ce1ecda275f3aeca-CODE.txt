@@ -1,0 +1,34 @@
+// FOR LONG ENTRY
+
+var counter = 0
+
+initial_cond = bullish_reversal
+
+if initial_cond 
+    counter := 50    // Set counter to value of n + 1 of how much you want to delay
+
+counter -= 1 // Subtracts 1 from counter every candle
+
+Buy_Signal = counter == 0 //When counter = 0, Buy_Signal is TRUE
+
+if Buy_Signal
+    strategy.entry('Long', strategy.long)
+
+
+
+
+//FOR SHORT ENTRY
+
+var counter2 = 0
+
+initial_cond2 = bearish_reversal
+
+if initial_cond2 
+    counter2 := 50    // Set counter to value of n + 1 of how much you want to delay
+
+counter2 -= 1 // Subtracts 1 from counter every candle
+
+sell_Signal = counter2 == 0 //When counter = 0, Buy_Signal is TRUE
+
+if  sell_Signal
+    strategy.entry('short', strategy.short)

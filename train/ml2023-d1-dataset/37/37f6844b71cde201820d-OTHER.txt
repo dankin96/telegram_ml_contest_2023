@@ -1,0 +1,4 @@
+Sending sparse 'product_b' 2/5 (262128 KB)         FAILED (Error reading sparse file)
+fastboot: error: Command failed
+Rebooting into bootloader                          FAILED (Status read failed (Protocol error))
+fastboot: error: Command failed

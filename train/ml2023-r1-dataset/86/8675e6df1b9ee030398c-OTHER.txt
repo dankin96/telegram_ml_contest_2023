@@ -1,0 +1,6 @@
+Hit:19 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Reading package lists... Done                        
+E: The repository 'cdrom://Ubuntu 22.04.2 LTS _Jammy Jellyfish_ - Release amd64 (20230223) jammy Release' does not have a Release file.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+W: https://repo.mongodb.org/apt/ubuntu/dists/bionic/mongodb-org/4.2/Release.gpg: Key is stored in legacy trusted.gpg keyring (/etc/apt/trusted.gpg), see the DEPRECATION section in apt-key(8) for details.

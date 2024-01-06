@@ -1,0 +1,4 @@
+define( 'WP_REDIS_DATABASE', 1 );
+define('WP_CACHE_KEY_SALT', 'my-doamin');
+define( 'WP_REDIS_TIMEOUT', 60 );
+define( 'WP_REDIS_READ_TIMEOUT', 60 );

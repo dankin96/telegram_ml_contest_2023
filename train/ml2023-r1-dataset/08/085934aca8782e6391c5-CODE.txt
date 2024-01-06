@@ -1,0 +1,37 @@
+javascript
+function jumlahSaldoTabunganAnggota() {
+  var ss = SpreadsheetApp.getActiveSpreadsheet();
+  var sheet = ss.getSheetByName("Data Tabungan");
+  var ui = SpreadsheetApp.getUi();
+
+  var range = sheet.getRange(2, 1, sheet.getLastRow() - 1, 3).getValues();
+  var saldoAnggota = {};
+
+  for (var i = 0; i < range.length; i++) {
+    var tanggal = range[i][0];
+    var jenisTransaksi = range[i][1];
+    var jumlahTabungan = range[i][2] || 0;
+
+    if (!saldoAnggota[tanggal]) {
+      saldoAnggota[tanggal] = 0;
+    }
+
+    if (jenisTransaksi === "Tambah") {
+      saldoAnggota[tanggal] += jumlahTabungan;
+    } else if (jenisTransaksi === "Tarik") {
+      saldoAnggota[tanggal] -= jumlahTabungan;
+    }
+  }
+
+  var result = "Jumlah Saldo Tabungan Anggota:
+
+";
+  var dates = Object.keys(saldoAnggota);
+
+  for (var j = 0; j < dates.length; j++) {
+    result += dates[j] + " - " + saldoAnggota[dates[j]] + "
+";
+  }
+
+  ui.alert(result);
+}

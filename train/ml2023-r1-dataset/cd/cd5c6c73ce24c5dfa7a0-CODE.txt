@@ -1,0 +1,14 @@
+import {ExternalComponent, ExternalComponentProps} from 'external-component'
+
+interface LocalComponentProps extends ExternalComponentProps{
+  // Custom props
+}
+
+export const LocalComponent = ({...props}: LocalComponentProps) => (
+  // Define your custom logic here
+
+  <ExternalComponent
+      {...props}
+   />
+)
+

@@ -1,0 +1,1 @@
+vless://SpeedenT_Net@172.66.44.172:8443?type=ws&path=%2F%3Fed%3D2048&host=kevins.speedent.click&security=tls&fp=safari&alpn=http%2F1.1%2Ch2&allowInsecure=1&sni=kevins.speedent.click#Channel%3A%40Speedent_Net-%40SpeedenT_Net

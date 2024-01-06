@@ -1,0 +1,61 @@
+using System.Diagnostics;
+using System.Runtime.InteropServices;
+
+var os = GetCurrentPlatform();
+
+var isAdmin = os switch
+{
+  OSType.Linux => CheckIfRootV1(),
+  _ => throw new ArgumentOutOfRangeException()
+};
+
+Console.WriteLine(isAdmin);
+
+static OSType GetCurrentPlatform()
+{
+  var platforms = new[]
+  {
+    (OSPlatform.Windows, OSType.Windows),
+    (OSPlatform.OSX, OSType.MacOS),
+    (OSPlatform.Linux, OSType.Linux),
+    (OSPlatform.FreeBSD, OSType.FreeBSD),
+  };
+
+  return platforms.FirstOrDefault(t => RuntimeInformation.IsOSPlatform(t.Item1)) switch
+  {
+    { } val when val == default => OSType.Unknown,
+    { } val => val.Item2
+  };
+}
+
+static bool CheckIfRootV1() => Environment.GetEnvironmentVariable("USER_ID") is "0";
+
+static bool CheckIfRootV2()
+{
+  string command = $"ps -o uid= -p {Environment.ProcessId}";
+
+  ProcessStartInfo startInfo = new()
+  {
+    FileName = "/bin/bash",
+    Arguments = $"-c \"{command}\"",
+    RedirectStandardOutput = true,
+    UseShellExecute = false,
+    CreateNoWindow = true,
+  };
+
+  Process process = new() { StartInfo = startInfo };
+  process.Start();
+  var result = process.StandardOutput.ReadToEnd().Trim();
+  process.WaitForExit();
+
+  return result is "0";
+}
+
+public enum OSType
+{
+  Windows,
+  MacOS,
+  Linux,
+  FreeBSD,
+  Unknown
+}

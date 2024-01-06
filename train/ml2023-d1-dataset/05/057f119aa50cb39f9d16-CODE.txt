@@ -1,0 +1,31 @@
+{
+    "code-runner.runInTerminal": true,
+    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "liveServer.settings.donotVerifyTags": true,
+    "editor.unicodeHighlight.allowedCharacters": {},
+    "editor.unicodeHighlight.nonBasicASCII": true,
+    "editor.accessibilitySupport": "on",
+    "emulator.androidColdBoot": true,
+    "workbench.colorCustomizations": {},
+    "cmake.configureOnOpen": true,
+    "liveServer.settings.CustomBrowser": "chrome",
+    "tabnine.experimentalAutoImports": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.quickSuggestions": {
+        "other": "inline",
+        "comments": "inline",
+        "strings": "inline"
+    },
+    "window.zoomLevel": -1,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "files.associations": {
+        "html": "html"
+    },
+    "editor.tabCompletion": "on",
+    "javascript.suggest.autoImports": true
+}

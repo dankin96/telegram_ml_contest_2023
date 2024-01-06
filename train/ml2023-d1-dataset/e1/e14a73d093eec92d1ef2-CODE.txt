@@ -1,0 +1,25 @@
+use Bitrix\Crm\Service;
+use Bitrix\Crm\Service\Container;
+\Bitrix\Main\Loader::includeModule('crm');
+
+$rootActivity = $this->GetRootActivity();
+$myContact = $rootActivity->GetVariable("contact_id");
+$now = new DateTime();
+//123 - id типа смарт-процесса
+$fabrika = Container::getInstance()->getFactory(123);
+//фильтр по полю "Контакт" в элементе смарт-процесса
+$res = $fabrika->getItems([
+'filter' => ['=UF_CRM_4_1650372561' => $myContact,
+                  '>BEGINDATE' => $now->modify('-180 day')->format('d.m.Y H:i:s'),],
+'select' => ['ID'],
+'order' => ['ID' => 'ASC'],
+'limit'=>1000,
+'offset' =>0
+ ]);
+
+$counter = 0;
+foreach ($res as $item)
+ $counter++;
+
+$deal_count = $counter;
+

@@ -1,0 +1,14 @@
+
+            Date: 14-10-2023
+            Time: 06h00
+            Flight: 
+            Pickup: Vessel / Immigration
+            Drop-Off: Airport
+            Client: Shinc
+            Remarks: 1 Pax Off Signer
+            Port: Undefined
+            Berth: Undefined
+            Logs Received: Undefined
+            Passport Received: Undefined
+            Seamans Received: Undefined
+            Permissions Received: Undefined

@@ -1,0 +1,11 @@
+Tiempo del centro de México
+   Fecha:  2023-10-04   hora:  19:34:07
+   Fecha:  2023-10-04
+   Hora:  19:34:07
+   Magnitud:  4.0
+   Epicentro
+   Latitud, longitud:  16.12°, -97.62°
+   Latitud:  16.12°
+   Longitud:  -97.62°
+   Localización:  23 km al NOROESTE de  RIO GRANDE, OAXACA
+   Profundidad:  16.1 km

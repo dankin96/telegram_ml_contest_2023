@@ -1,0 +1,57 @@
+// 设备接口
+class Device {
+public:
+    virtual void connect() = 0;
+    virtual void sendData(const QString& data) = 0;
+};
+
+// 设备工厂
+class DeviceFactory {
+public:
+    static Device* createDevice(const QString& type);
+};
+
+// 设备实现
+class SerialDevice : public Device {
+public:
+    void connect() override;
+    void sendData(const QString& data) override;
+};
+
+class USBDevice : public Device {
+public:
+    void connect() override;
+    void sendData(const QString& data) override;
+};
+
+// 数据处理策略接口
+class DataStrategy {
+public:
+    virtual void parseData(const QString& data) = 0;
+};
+
+// 数据处理策略实现
+class SerialDataStrategy : public DataStrategy {
+public:
+    void parseData(const QString& data) override;
+};
+
+class USBDataStrategy : public DataStrategy {
+public:
+    void parseData(const QString& data) override;
+};
+
+// 主程序
+int main(int argc, char *argv[]) {
+    // 创建设备对象
+    Device* device = DeviceFactory::createDevice("serial");
+    // 连接设备
+    device->connect();
+    // 发送数据
+    device->sendData("hello world");
+
+    // 创建数据处理策略对象
+    DataStrategy* strategy = new SerialDataStrategy();
+    // 解析数据
+    strategy->parseData("data from serial device");
+}

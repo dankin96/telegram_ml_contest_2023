@@ -1,0 +1,6 @@
+File | Changes
+----------------
+1. Gemfile.lock | 2 +-
+2. LICENSE_GEMS | 160 +++++++++++++-------------
+3. lib/metasploit/framework/version.rb | 2 +-
+4. modules/post/windows/gather/enum_computers.rb | 117 +++++++++++--------

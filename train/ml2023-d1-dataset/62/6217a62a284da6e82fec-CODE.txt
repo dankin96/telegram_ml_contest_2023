@@ -1,0 +1,2 @@
+ffmpegcmd = f'ffmpeg -hide_banner -stats -allowed_extensions ALL -i {self.temp_folder}/dump.m3u8 -n -c:v libx264 -crf 28 -preset fast -c:a aac -b:a 128k "{self.save_path}"'
+

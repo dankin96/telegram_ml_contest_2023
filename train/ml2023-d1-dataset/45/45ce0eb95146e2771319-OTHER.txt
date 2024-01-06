@@ -1,0 +1,3 @@
+In StrictSync mode, application I/O operations are sent in parallel to primary and secondary storage
+systems. If the I/O to the secondary storage system does not complete for any reason (ONTAP,
+storage, network, and so on), then the application I/O fails, and synchronous replication is terminated

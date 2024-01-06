@@ -1,0 +1,12 @@
+Louisville, KY
+ssid:ARRIS-E3D2
+bssid:00:1D:CE:26:E3:D0 
+psk:D15FF00BA77ED569
+gps:38.27372360, -85.49588013
+
+
+Lincolnton, NC
+ssid:Wireless
+bssid:00:26:F2:61:6E:E7
+psk:11111111
+gps:35.49346161, -81.24724579

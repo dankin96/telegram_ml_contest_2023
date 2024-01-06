@@ -1,0 +1,2 @@
+
+Error: Broadcasting transaction failed with code 2 (codespace: sdk). Log: unable to resolve type URL stakeibc/RedeemStake: tx parse error

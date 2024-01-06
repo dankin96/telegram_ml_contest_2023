@@ -1,0 +1,37 @@
+#include <iostream>
+class Some_class
+{
+public:
+    void some_function() {
+        std::cout<< i << std::endl;
+    }
+    void set(int _i)
+    {
+        i=_i;
+    }
+    int i=0;
+};
+
+int main(int argc, char *argv[])
+{
+    Some_class sc;
+    sc.set(4);
+    typedef void (Some_class::*Some_fnc_ptr)();
+    Some_fnc_ptr fnc_ptr = &Some_class::some_function;
+
+     typedef void (*noKlassFuncPtr)();
+
+
+
+    auto f = [&sc]() { sc.some_function(); };
+
+
+    void* pPtr = reinterpret_cast<void*&>(f);
+    void (*myFuncPtr)()=noKlassFuncPtr(pPtr);
+
+    (*myFuncPtr)();
+
+    int cc=3;
+    return 0;
+}
+

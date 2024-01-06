@@ -1,0 +1,26 @@
+java
+@ReactMethod
+public void exportToExcel(String jsonData, String fileName, String filePath, Promise promise) {
+  try {
+    // Create a new workbook
+    Workbook workbook = new XSSFWorkbook();
+
+    // Create a new sheet
+    Sheet sheet = workbook.createSheet("Отчет");
+
+    // Convert the JSON data to a JSONArray
+    JSONArray data = new JSONArray(jsonData);
+
+    // Add code here to create and export data to the Excel file
+    // Use libraries for working with Excel, such as Apache POI
+    // Export the data and save the Excel file to the specified path
+
+    FileOutputStream fileOut = new FileOutputStream(filePath);
+    workbook.write(fileOut);
+    fileOut.close();
+
+    promise.resolve("Success");
+  } catch (Exception e) {
+    promise.reject("EXPORT_ERROR", e.getMessage());
+  }
+}

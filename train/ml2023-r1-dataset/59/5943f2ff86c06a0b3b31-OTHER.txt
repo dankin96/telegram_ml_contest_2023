@@ -1,0 +1,10 @@
+Last message:
+ - time: 2023-10-07T00:08:48.724Z
+ - number of occurrences: 376
+ - csr: 3
+ - facility: %IKEV2-5-SA_DOWN
+ - message: SA DOWN
+ - ip: 
+ - client: 
+
+At least 10 events occurred between 2023-10-06 23:58 UTC and 2023-10-07 00:08 UTC

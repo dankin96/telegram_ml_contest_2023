@@ -1,0 +1,5 @@
+Contract: ETHUSDT
+Price: $1558.61
+24H High: $1558.8
+24H Low: $1557.88
+24H Volume: 655919.43 ETH

@@ -1,0 +1,4 @@
+gles-renderer: renderer_set_buffer0
+ANGLE Info:Debug.cpp:490 (insertMessage): EGL ERROR: eglCreateImageKHR: Sampling from AHardwareBuffer externalFormat 0x5 is unsupported
+gles-renderer: Xlorie: egl error on line 264: Invalid argument
+gles-renderer: Binding AHardwareBuffer to an EGLImage failed.

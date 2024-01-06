@@ -1,0 +1,4 @@
+ find_package(Qt5 REQUIRED COMPONENTS Core Network SerialPort)
+
+add_executable(simple_example ${SOURCE_FILES})
+target_link_libraries(simple_example Qt5::Core Qt5::Network Qt5::SerialPort) 

@@ -1,0 +1,23 @@
+
+# Update the package manager
+pkg update
+
+# Upgrade any existing packages
+pkg upgrade
+
+# Install the vi editor
+pkg install vim
+
+# Verify that the installation was successful
+vim --version
+
+# Start the vi editor
+vim
+
+# Open a file to edit
+vim myfile.txt
+
+# Edit the file
+
+# Save the file and exit the vi editor
+:wq

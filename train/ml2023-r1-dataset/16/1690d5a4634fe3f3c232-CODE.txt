@@ -1,0 +1,24 @@
+
+import { defineConfig } from '@playwright/test';
+
+export default defineConfig({
+  use: {
+    // Emulates `'prefers-colors-scheme'` media feature.
+    colorScheme: 'dark',
+
+    // Context geolocation.
+    geolocation: { longitude: 12.492507, latitude: 41.889938 },
+
+    // Emulates the user locale.
+    locale: 'en-GB',
+
+    // Grants specified permissions to the browser context.
+    permissions: ['geolocation'],
+
+    // Emulates the user timezone.
+    timezoneId: 'Europe/Paris',
+
+    // Viewport used for all pages in the context.
+    viewport: { width: 1280, height: 720 },
+  },
+});

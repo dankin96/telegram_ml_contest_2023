@@ -1,0 +1,3 @@
+10 PRINT "hoo"
+20 SAVE "hoo"
+30 GO TO 10

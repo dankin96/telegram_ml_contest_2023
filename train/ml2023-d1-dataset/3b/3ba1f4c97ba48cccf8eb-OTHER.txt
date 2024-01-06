@@ -1,0 +1,6 @@
+Total supply  : 21,039,122,872 KAS
+Unmined supply : 7,660,877,128 KAS
+
+===============
+Max supply ~      : 28,700,000,000 KAS
+Percent mined       : 73.31%

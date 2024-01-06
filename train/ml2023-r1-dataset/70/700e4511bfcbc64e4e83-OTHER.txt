@@ -1,0 +1,7 @@
+Rave9 - UpdateLog - v1.1 - Releasing Shortly
+-> Added subject filtering in inboxer
+-> Added RegionCapture (Brute 1)
+-> Added VM Module (Reg)
+-> Patched Bugs
+-> Added Dynamic Output for inboxer
+-> Added TelegramStats (you run tool - you can't access rdp ,  enable this and get a DM with stats every X amount ofminutes)

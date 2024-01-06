@@ -1,0 +1,19 @@
+class BookingGuests extends Component
+{
+    public BookingEngineForm $form;
+
+    public function increaseAdults(): void
+    {
+        $this->form->adults++;
+        $this->form->bookingItems->add(new BookingItemData);
+    }
+
+    public function decreaseAdults(): void
+    {
+        if ($this->form->adults > 0) {
+            $this->form->adults--;
+            $this->form->bookingItems->forget($this->form->bookingItems->count() - 1);
+        }
+    }
+...
+}

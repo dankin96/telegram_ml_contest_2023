@@ -1,0 +1,10 @@
+from geopy.geocoders import Nominatim
+
+# ساخت شیء geocoder
+geolocator = Nominatim(user_agent="my_app")
+
+# دریافت مکان بر اساس آدرس
+location = geolocator.geocode("تهران، ایران")
+
+# نمایش مکان
+print((location.latitude, location.longitude))

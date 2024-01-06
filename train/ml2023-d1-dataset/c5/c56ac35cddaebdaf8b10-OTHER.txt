@@ -1,0 +1,1 @@
+vless://e28bb3f8-e64a-4419-9496-33c46220354b@172.67.194.57:443?encryption=none&security=tls&sni=sdgf.bdfstt.sbs&type=ws&host=sdgf.bdfstt.sbs&path=%2F%3Fed%3D2048#%40vistav2ray%2B%D8%A8%DB%8C%D8%A7%2B%D8%AA%D9%88%2B%DA%A9%D8%A7%D9%86%D8%A7%D9%84

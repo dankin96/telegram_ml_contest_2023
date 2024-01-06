@@ -1,0 +1,21 @@
+db1 = orm.Database("sqlite", ...)
+db2 = orm.Database("postgres", ...)
+db3 = orm.Database("mysql", ...)
+
+
+def define_entities(db):
+    class TestEntity(db.Entity):
+        name = orm.Required(str)
+
+
+    db.generate_mapping(...)
+
+
+define_entities(db1)
+define_entities(db2)
+define_entities(db3)
+
+
+def get_by_name(db, name):
+    with orm.db_session:
+        return db.TestEntity.get(name=name)

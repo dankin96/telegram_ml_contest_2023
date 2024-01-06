@@ -1,0 +1,9 @@
+2023-10-11 20:33:50.782 ERROR (MainThread) [homeassistant.helpers.entity] Failed to set state, fall back to unknown
+2023-10-11 20:35:19.851 ERROR (MainThread) [homeassistant.helpers.entity] Failed to set state, fall back to unknown
+2023-10-11 20:35:50.965 ERROR (MainThread) [homeassistant.helpers.entity] Failed to set state, fall back to unknown
+2023-10-11 20:35:58.165 ERROR (MainThread) [homeassistant.helpers.entity] Failed to set state, fall back to unknown
+2023-10-11 20:37:51.165 ERROR (MainThread) [homeassistant.helpers.entity] Failed to set state, fall back to unknown
+2023-10-11 20:39:20.303 ERROR (MainThread) [homeassistant.helpers.entity] Failed to set state, fall back to unknown
+2023-10-11 20:39:51.356 ERROR (MainThread) [homeassistant.helpers.entity] Failed to set state, fall back to unknown
+2023-10-11 20:39:58.513 ERROR (MainThread) [homeassistant.helpers.entity] Failed to set state, fall back to unknown
+2023-10-11 20:41:20.504 ERROR (MainThread) [homeassistant.helpers.entity] Failed to set state, fall back to unknown

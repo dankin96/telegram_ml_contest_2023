@@ -1,0 +1,10 @@
+pitch_qa_error
+
+@timestamp: 2023-10-09T08:35:33
+_id: IOmlEYsB_ZVUsBjra-og
+_index: filebeat-sri-pitch-log-2023.10.09
+message: [2023-10-09 08:35:30,006] [ERROR o.h.e.jdbc.spi.SqlExceptionHelper scheduling-1] Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+num_hits: 3
+num_matches: 3

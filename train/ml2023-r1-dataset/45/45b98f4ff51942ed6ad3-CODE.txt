@@ -1,0 +1,9 @@
+&LTtemplate>
+  &LTdiv>HelloWorld&LT/div>
+  &LTdiv>{{store.msg}}&LT/div>
+&LT/template>
+
+&LTscript setup lang="ts">
+import { useStore } from "../index";
+const store = useStore()
+&LT/script>

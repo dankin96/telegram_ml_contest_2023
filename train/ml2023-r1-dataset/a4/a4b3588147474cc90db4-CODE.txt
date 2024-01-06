@@ -1,0 +1,2 @@
+const swap = (string) =>
+  string.replace(/[aeiou]/g, (vowel) => vowel.toUpperCase());

@@ -1,0 +1,24 @@
+U SELL U GAY - 0x080e6a26f97f7fb999a12f33a7dadd518b5196c9
+This Token Looks Safe! ✅
+
+ Price          │ 0.000046300499702417635 
+ MCAP           │ $46.3k                  
+ Liquidity      │ $8.45k                  
+ MCAP/Liquidity │ 5:1                     
+ Buy Tax        │ 1%                      
+ Sell Tax       │ 0.981%                  
+ Age            │ 16 hours                
+
+      │  Volume │  Trades 
+──────┼─────────┼─────────
+ 1h   │  $5.31k │      33 
+ 4h   │ $30.28k │     192 
+ 12h  │ $156... │     773 
+ 24h  │ $574... │   2.29k 
+
+      │    Buys │   Sells 
+──────┼─────────┼─────────
+ 1h   │      19 │      14 
+ 4h   │     100 │      92 
+ 12h  │     401 │     372 
+ 24h  │    1.3k │     994

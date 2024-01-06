@@ -1,0 +1,1 @@
+cbcEncrypt k iv x = [ encrypt x i iv k | i <- [0..n] ] where encrypt x 0 iv k = add (add (x !! 0) iv) k encrypt x i iv k = add (add (x !! i) (encrypt x (i - 1) iv k)) k n = length x - 1

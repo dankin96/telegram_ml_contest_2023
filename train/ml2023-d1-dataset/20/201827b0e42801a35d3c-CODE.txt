@@ -1,0 +1,28 @@
+<suite name="StarterUserClasses" verbose="1">
+
+    <listeners>
+        <listener class-name="com.proj.testClasses.RetryAnnotationTransformer" />
+    </listeners>
+
+    <test name="StarterUserClasses">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="user" value="starterUser"></parameter>
+        <classes>
+            <class name="com.proj.testClasses.pageBuilderTests.commonTests.AttributesModuleTests"></class>
+        </classes>
+    </test>
+</suite>
+
+<suite name="FreeUserClasses" verbose="1">
+    <listeners>
+        <listener class-name="com.proj.testClasses.RetryAnnotationTransformer" />
+    </listeners>
+
+    <test name="StarterUserClasses">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="user" value="starterUser"></parameter>
+        <classes>
+            <class name="com.proj.testClasses.pageBuilderTests.commonTests.AttributesModuleTests"></class>
+        </classes>
+    </test>
+</suite>

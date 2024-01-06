@@ -1,0 +1,26 @@
+struct Meow {
+    num: u8,
+}
+
+impl Drop for Meow {
+    fn drop(&mut self) {
+        println!("Dropping Meow with num {}", self.num);
+    }
+}
+
+impl Meow {
+    fn say(&self) {
+        println!("Kiska says {}", self.num);
+    }
+}
+
+fn main() {
+    let tuple = (Meow { num: 0 }, Meow { num: 1 }, Meow { num: 2 });
+    
+    {
+        let kiska = tuple.0;
+        kiska.say();
+    }
+    
+    tuple.1.say();
+}

@@ -1,0 +1,10 @@
+… while evaluating attribute 'outputHashes' of derivation 'helix-vendor.tar.gz'
+
+         at /nix/store/x4c7yx00jyy13yv45dl37q55g2xs7xfw-source/modules/users/helix.nix:27:7:
+
+           26|       outputHash = "sha256-47zmArS5CJYJGTchzl4rkx6VJuzF4mH+gc6B088EE/8=";
+           27|       outputHashes."treesitter-0.20" = "";
+             |       ^
+           28|     });
+
+       error: cannot coerce a set to a string

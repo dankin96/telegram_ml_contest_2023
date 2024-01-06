@@ -1,0 +1,1 @@
+Error: 400: Bad Request: not enough rights to restrict/unrestrict chat member

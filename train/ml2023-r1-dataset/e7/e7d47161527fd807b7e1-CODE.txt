@@ -1,0 +1,1 @@
+0==balance&&(deposit.init(!![]))

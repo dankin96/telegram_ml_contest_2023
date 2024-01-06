@@ -1,0 +1,39 @@
+{
+ "update_id": 935427051,
+ "message": {
+  "message_id": 8,
+  "from": {
+   "id": 6277672769,
+   "is_bot": false,
+   "first_name": "David Case",
+   "username": "muchandoften68"
+  },
+  "chat": {
+   "id": -1001920761219,
+   "title": "Помощница Александры",
+   "username": "sprositualex",
+   "type": "supergroup"
+  },
+  "date": 1696510141,
+  "new_chat_participant": {
+   "id": 285793787,
+   "is_bot": true,
+   "first_name": "Show Json Bot",
+   "username": "ShowJsonBot"
+  },
+  "new_chat_member": {
+   "id": 285793787,
+   "is_bot": true,
+   "first_name": "Show Json Bot",
+   "username": "ShowJsonBot"
+  },
+  "new_chat_members": [
+   {
+    "id": 285793787,
+    "is_bot": true,
+    "first_name": "Show Json Bot",
+    "username": "ShowJsonBot"
+   }
+  ]
+ }
+}

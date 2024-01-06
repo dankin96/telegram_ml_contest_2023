@@ -1,0 +1,23 @@
+
+function Row(props: RowProps) {
+  const { events, lineHeight } = props;
+  return (
+    <Instances position={[0, lineHeight, 0]} limit={events.length}>
+      <planeGeometry />
+      <meshBasicMaterial />
+      {events.map((event, i) => {
+        return (
+          <Rectangle
+            key={i}
+            color={event.color}
+            position={event.position}
+            scale={event.scale}
+            data={{
+              ...event,
+            }}
+          />
+        );
+      })}
+    </Instances>
+  );
+}

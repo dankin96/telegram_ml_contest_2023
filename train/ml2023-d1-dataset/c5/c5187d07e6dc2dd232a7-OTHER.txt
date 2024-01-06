@@ -1,0 +1,6 @@
+- gmail.com,
+- knu.ua,
+- kneu.ua,
+- kneu.edu.ua,
+- kpi.ua,
+- stud.nau.edu.ua

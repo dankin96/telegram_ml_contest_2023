@@ -1,0 +1,10 @@
+
+Traceback (most recent call last):
+  File "/app/Hiroko/modules/eval.py", line 53, in executor
+    await aexec(cmd, client, message)
+  File "/app/Hiroko/modules/eval.py", line 14, in aexec
+    exec(
+  File "", line 6
+    From Hiroko import Hiroko 
+         ^^^^^^
+SyntaxError: invalid syntax

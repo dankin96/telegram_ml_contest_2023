@@ -1,0 +1,3 @@
+
+clang -c -o /Users/pronvis/arduino/TMCStepper/src/TMCStepper.o /Users/pronvis/arduino/TMCStepper/src/source/TMCStepper.cpp
+/Users/pronvis/arduino/TMCStepper/src/source/TMCStepper.cpp:1:10: fatal error: 'TMCStepper.h' file not found 

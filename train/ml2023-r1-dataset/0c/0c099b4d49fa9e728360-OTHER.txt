@@ -1,0 +1,9 @@
+🐩 INF4 [6GB] 4GB+2GB(01-06)+5Mnt ALL + Bebas Tlp Isat Tri      32.113
+
+🐩 INF8 [10GB] 7GB+3GB(01-06)+10Mnt ALL + Bebas Tlp Isat Tri    42.948
+
+🐩 INF14 [20GB] 15GB+5GB(01-06)+15Mnt ALL + Bebas Tlp Isat Tri  64.730
+
+🐩 INF20 [30GB] 23GB+7GB(01-06)+20Mnt ALL + Bebas Tlp Isat Tri  85.795
+
+

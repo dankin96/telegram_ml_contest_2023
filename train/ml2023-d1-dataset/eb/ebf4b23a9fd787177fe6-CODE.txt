@@ -1,0 +1,2 @@
+type MyFunction = (props: SomeProps) => void | (props: AnotherProps) => number  | (props: OneMore) => string
+

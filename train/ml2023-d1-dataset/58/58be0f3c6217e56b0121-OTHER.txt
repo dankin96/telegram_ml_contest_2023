@@ -1,0 +1,5 @@
+For external hard disks this problem could be resolved by,
+
+Right Click on the folder and select Move to Trash
+Empty the Trash
+It worked for me even if rm -rf didn't work.

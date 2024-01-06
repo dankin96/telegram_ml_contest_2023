@@ -1,0 +1,37 @@
+def f
+  yield
+  puts "rescued"
+rescue
+  puts "unrescued"
+end
+
+f do
+  begin
+    throw :_
+  rescue
+    puts "A"
+  end
+end
+
+f do
+  catch :_ do
+    begin
+      throw :_
+    rescue
+      puts "B"
+    end
+  end
+end
+
+E = Class.new RuntimeError
+f do
+  begin
+    begin
+      raise E
+    rescue
+      puts "C"
+    end
+  rescue E
+    puts "D"
+  end
+end

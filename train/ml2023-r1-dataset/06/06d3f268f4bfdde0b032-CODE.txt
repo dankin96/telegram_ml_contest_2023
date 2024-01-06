@@ -1,0 +1,9 @@
+fun main() {
+    printType<String>()    // String
+    printType<Int>()       // Int
+}
+
+private inline fun <reified T> printType() {
+    println(T::class.simpleName)
+}
+

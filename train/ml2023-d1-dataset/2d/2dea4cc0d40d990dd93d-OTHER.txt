@@ -1,0 +1,8 @@
+**Sinyal Biru Test Signal**
+Gold SELL Now (Just Test Not True) 
+Range Price : 1875.220 - 1879.220 
+TP1 : 1873.22
+TP2 : 1870.22
+TP3 : 1865.22
+SL  : 1884.22
+**Jaga MM, Ingat Lots Size dan Set BEP**

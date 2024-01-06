@@ -1,0 +1,6 @@
+
+class MyComponent : Component<Event> {
+     override fun update(ev:Event): boolean {
+      }
+     override fun render(...) {..}
+}

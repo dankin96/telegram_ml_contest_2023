@@ -1,0 +1,6 @@
+fastboot oem get-product-model
+fastboot oem get-build-number
+fastboot oem oeminforead-CUSTOM_VERSION
+fastboot oem oeminforead-BASE_VERSION
+fastboot oem oeminforead-PRELOAD_VERSION
+fastboot getvar vendorcountry

@@ -1,0 +1,24 @@
+csharp
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class JoystickController : MonoBehaviour
+{
+    public Transform objectToControl;
+    public float moveSpeed = 5f;
+
+    Vector2 joystickInput;
+
+    void Update()
+    {
+        joystickInput.x = Input.GetAxis("Horizontal");
+        joystickInput.y = Input.GetAxis("Vertical");
+    }
+
+    void FixedUpdate()
+    {
+        Vector3 moveDirection = new Vector3(joystickInput.x, 0, joystickInput.y).normalized;
+        objectToControl.Translate(moveDirection * moveSpeed * Time.fixedDeltaTime);
+    }
+}

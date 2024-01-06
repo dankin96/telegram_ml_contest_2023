@@ -1,0 +1,13 @@
+
+[AMAYAK Israel] SUMMARY 24h
+
+                                          order_count    perc(%)
+isr_performer_cancel_flg                          184     3.3497
+isr_not_enough_time_on_the_slot_flg                14     0.2549
+isr_infinite_driving_flg                           13     0.2367
+isr_last_cancelation_flg                            9     0.1638
+isr_too_long_to_wait_cancel_reason_flg              8     0.1456
+isr_courier_long_trip_flg                           4     0.0728
+isr_asked_to_cancel_cancel_reason_flg               3     0.0546
+isr_didnt_attend_flg                                3     0.0546
+isr_no_delivery_flg                                 1     0.0182

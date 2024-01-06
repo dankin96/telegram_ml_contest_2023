@@ -1,0 +1,2 @@
+vless://d15ad6a4-ab60-4d77-d743-b6dbaf1b1d74@new.bahambuy.cfd:36947?type=grpc&serviceName=#%40Vpnstore5
+

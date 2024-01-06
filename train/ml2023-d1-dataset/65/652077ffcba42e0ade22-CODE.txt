@@ -1,0 +1,1 @@
+isHash(val, 'md5')

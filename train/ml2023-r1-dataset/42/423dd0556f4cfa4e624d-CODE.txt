@@ -1,0 +1,8 @@
+R
+library(AER)
+
+# Specify the tobit model
+model <- tobit(dependent_var ~ independent_vars, data = your_data, left = 0)
+
+# Print the model summary
+summary(model)

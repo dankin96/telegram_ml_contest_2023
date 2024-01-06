@@ -1,0 +1,2 @@
+
+Produksi = Penjualan + Persediaan awal - Persediaan akhir

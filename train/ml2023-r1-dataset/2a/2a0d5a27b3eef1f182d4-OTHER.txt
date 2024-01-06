@@ -1,0 +1,7 @@
+Sorry, you have used up your quota for today. Note that your quota refreshes daily at 00:00 UTC.
+
+If you would like to increase your account’s daily quota, please consider making a donation. We appreciate your support.🙏
+
+To donate, open private chat with @SangMata_BOT or @SangMata_beta_bot and send "donate <amount>" text to bot (without /).
+
+Any question or need more info? Go to our channel @sang_inc and join the support group.

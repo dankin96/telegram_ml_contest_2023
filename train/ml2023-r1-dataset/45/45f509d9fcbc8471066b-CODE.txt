@@ -1,0 +1,5 @@
+extern string             Iema = "== Moving Average Setup ==";  // ————————————
+extern int                maPeriod = 20;                            // Period
+extern int                maShift = 0;                             // Ma Shift
+extern ENUM_MA_METHOD     maMethod = MODE_EMA;                      // Method
+extern ENUM_APPLIED_PRICE maAppliedPrice = PRICE_CLOSE;                   // Applied Price

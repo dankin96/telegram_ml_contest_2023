@@ -1,0 +1,11 @@
+import timeit
+
+x = 4
+# Test performance of '5 >= x'
+time1 = timeit.timeit(lambda: 5 >= x, number=100000)
+
+# Test performance of '(5+1) > x'
+time2 = timeit.timeit(lambda: (5+1) > x, number=100000)
+
+print(f"Time for '5 >= x': {time1}")
+print(f"Time for '(5+1) > x': {time2}")

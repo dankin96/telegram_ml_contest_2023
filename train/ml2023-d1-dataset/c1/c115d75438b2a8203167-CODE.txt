@@ -1,0 +1,42 @@
+class Node:
+    def __init__(self,data):
+        self.data = data
+        self.next = None
+        self.arb = None
+class Solution:
+    
+    def copyList(self, head):
+        if not head:
+            return None
+    
+        # Step 1: Clone each node and insert it next to the original node
+        current = head
+        while current:
+            new_node = Node(current.data)
+            new_node.next = current.next
+            current.next = new_node
+            current = new_node.next
+    
+        # Step 2: Update the arb pointers for cloned nodes
+        current = head
+        while current:
+            if current.arb:
+                current.next.arb = current.arb.next
+            current = current.next.next
+    
+        # Step 3: Split original and cloned linked lists
+        original = head
+        clone = head.next
+        temp = clone
+    
+        while original and clone:
+            original.next = (original.next).next
+            if clone.next:
+                clone.next = (clone.next).next
+            original = original.next
+            clone = clone.next
+    
+        return temp
+
+    
+

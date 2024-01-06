@@ -1,0 +1,35 @@
+Exchange VRAUSDT 6h Okex
+Price:    0.01|    0.01|    0.01
+Vol:  46,844,245|28,904,114|54,159,272
+ATR: 0.0003
+
+✅OBV: 203.6 M| 250.5 M| 279.4 M
+⚪RSI:   41.30|   42.84|   44.48
+⚪MFI:   54.26|   59.85|   53.84
+⚪CCI: -107.55| -104.94|  -93.44
+❌WR%:  -92.21|  -90.51|  -80.16
+✅ADX:   25.05|   26.36|   28.14
+
+❌MOM: Bearish Momentum
+❌SMA: Price Below SMA Bearish
+❌ADI: -DI > +DI Bearish
+❌MACD: Bearish
+❌PSAR: Bearish
+
+Support And Resistance
+R: $0.005
+R: $0.005
+R: $0.006
+R: $0.006
+R: $0.006
+
+Volatility is moderately high
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+🐂FVE: Bullish divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

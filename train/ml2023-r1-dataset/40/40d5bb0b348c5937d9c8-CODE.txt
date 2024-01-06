@@ -1,0 +1,9 @@
+abstract class MyTask : JavaExec {
+    init {
+        args(это добавится в начало списка)
+    }
+}
+
+val myTask by tasks.registering(MyTask::class) {
+    args(это добавится в конец списка)
+}

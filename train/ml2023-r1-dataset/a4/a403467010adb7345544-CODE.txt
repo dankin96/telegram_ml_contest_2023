@@ -1,0 +1,22 @@
+# 'NameOfClass' nomli klassni yaratamiz
+class NameOfClass:
+    # Klassning konstruktor metodi. Har bir obyekt yaratilganda ishga tushiriladi.
+    def __init__(self, name, age):
+        # Obyektning xususiyatlarini belgilaymiz
+        self.name = f"My name is {name}"
+        self.age = f"I am {age} years old"
+
+    # Obyektning ma'lumotlarini bitta matn sifatida qaytaruvchi metod
+    def info(self):
+        return f"{self.name}, and  {self.age}"
+
+# Foydalanuvchilar ro'yxati
+users = [{"name": "John", "age": 25}, {"name": "Emily", "age": 30}]
+
+# Yangi 'NameOfClass' obyektini yaratib, uning 'info' metodini chaqiruvchi funksiya
+def getInfo(name_, age_):
+    return NameOfClass(name=name_, age=age_).info()
+
+# Har bir foydalanuvchi uchun 'getInfo' funksiyasini chaqirib, natijani konsolga chiqaramiz
+for user in users:
+    print((getInfo(name_=user["name"], age_=user["age"])))

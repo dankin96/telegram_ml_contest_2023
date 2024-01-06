@@ -1,0 +1,4 @@
+{% if order.deliveryType.code != null%}
+{{order.deliveryType.name}} {{order.deliveryCost}}
+{% endif %}
+

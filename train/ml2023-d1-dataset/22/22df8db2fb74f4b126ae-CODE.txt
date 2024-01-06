@@ -1,0 +1,49 @@
+enum KindEnum {
+  undefined
+  null
+  number
+  string
+  array
+  object
+}
+
+class JsonValue {
+  id: BIGSERIAL
+  kind: KindEnum
+  bool: Boolean
+  number: Double
+  string: String
+  array: FK<JsonArray>
+  object: FK<JsonObject>
+}
+
+class JsonArray {
+  id: BIGSERIAL
+}
+
+class JsonArrayEntry {
+  id: BIGSERIAL
+  of: FK<JsonArray>
+  sequence: Integer
+  data: FK<JsonValue>
+}
+
+class JsonObject {
+  id: BIGSERIAL
+}
+
+class JsonObjectEntry {
+  id: SERIAL
+  of: FK<JsonObject>
+  sequence: Integer
+  key: String
+  data: FK<JsonValue>
+}
+
+JsonValue::kind --> KindEnum
+JsonValue::array --> JsonArray::id
+JsonValue::object --> JsonObject::id
+JsonArrayEntry::data --> JsonValue::id
+JsonObjectEntry::data --> JsonValue::id
+JsonArrayEntry::of --> JsonArray::id
+JsonObjectEntry::of --> JsonObject::id

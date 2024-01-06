@@ -1,0 +1,12 @@
+entity prueba_uart is
+    Port ( clk : in STD_LOGIC;
+           reset : in STD_LOGIC;
+           seleccion_baudios : in STD_LOGIC_VECTOR (3 downto 0);
+           reloj_tx : out std_logic;
+           reloj_rx : out std_logic;
+           tx_out      : out std_logic;
+           rx_out      : out std_logic;
+           rx : in STD_LOGIC;
+           tx : out STD_LOGIC
+           );
+end prueba_uart;

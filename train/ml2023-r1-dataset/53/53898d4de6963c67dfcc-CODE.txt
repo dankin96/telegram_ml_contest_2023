@@ -1,0 +1,6 @@
+local args = {
+    [1] = workspace:WaitForChild("urusername"),
+    [2] = 14983187313
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Packages"):WaitForChild("Knit"):WaitForChild("Services"):WaitForChild("OutfitViewerService"):WaitForChild("RF"):WaitForChild("WearItem"):InvokeServer(unpack(args))

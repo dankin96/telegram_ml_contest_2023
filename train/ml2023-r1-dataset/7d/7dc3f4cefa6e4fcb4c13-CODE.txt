@@ -1,0 +1,7 @@
+python
+def _update_screen(self):
+    # Add indentation to the block of code underneath
+    # ...
+    # More code here
+    # ...
+    # End of the indented block of code

@@ -1,0 +1,1 @@
+RESPOND PREFIX=tg_send_image MSG="path=['/home/pi/printer_data/config/adxl_results/belts/belts_*.png'], message='Тест' "

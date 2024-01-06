@@ -1,0 +1,4 @@
+vector<bool> f(m, 0); //(c0,..., c(m-1)) - хар-й мн-н
+  for (int i = 0; i < m; i++) {
+    cin >> f[i];
+  }

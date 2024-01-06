@@ -1,0 +1,28 @@
+      int cpu_eax, cpu_ebx, cpu_ecx, cpu_edx;
+      cpu_eax = 0xb;
+      asm (
+        "mov %%eax, %0
+
+"
+        "cpuid
+
+"
+        "mov %0, %%eax
+
+"
+        "mov %1, %%ebx
+
+"
+        "mov %2, %%ecx
+
+"
+        "mov %3, %%edx
+
+"
+        : "=r" (cpu_eax), "=r" (cpu_ebx), "=r" (cpu_ecx), "=r" (cpu_edx)
+        : "0" (cpu_eax)
+      );
+      
+      int apic_id = cpu_edx;
+      printf ("Thread 3 - %x
+", apic_id);

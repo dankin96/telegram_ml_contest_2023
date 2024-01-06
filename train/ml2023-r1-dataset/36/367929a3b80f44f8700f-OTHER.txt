@@ -1,0 +1,1 @@
+Access to XMLHttpRequest at 'https://jb55.com/.well-known/lnurlp/jb55' from origin 'https://yakihonne.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.

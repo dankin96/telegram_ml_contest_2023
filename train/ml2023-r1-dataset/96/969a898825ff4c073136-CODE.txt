@@ -1,0 +1,4 @@
+python
+task = Task.objects.get(id=1)
+task.is_completed = True
+task.save()

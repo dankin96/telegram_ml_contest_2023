@@ -1,0 +1,48 @@
+stages:
+  - build
+  - tests
+  - deploy
+
+build:
+  stage: build
+  rules:
+    <...>
+  script:
+    <...>
+
+config-dev:
+  stage: tests
+  needs: [build]
+  rules:
+    <...>
+    - when: on_success
+  script:
+    <...>
+
+config-stage:
+  stage: tests
+  needs: [build]
+  rules:
+    <...>
+    - when: on_success
+  script:
+    <...>
+
+deploy-dev:
+  stage: deploy
+  needs: [config-dev]
+  rules:
+    <...>
+    - when: manual
+  script:
+    <...>
+
+deploy-stage:
+  stage: deploy
+  needs: [config-stage]
+  rules:
+    <...>
+    - when: manual
+  script:
+    <...>
+

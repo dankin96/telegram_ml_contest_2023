@@ -1,0 +1,5 @@
+vk.updates.on('message', async (context, next) => {
+if (context.subTypes[0]!=='message_reply' || context.adminAuthorId == undefined) return next() //клиент
+//админ часть со стороны группы
+})
+

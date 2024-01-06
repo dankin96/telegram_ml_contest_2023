@@ -1,0 +1,20 @@
+type CustomStruct struct {
+  FormDataStruct
+  PostUpdateTime string         `json:"-"`
+  Location       *time.Location `json:"-"`
+}
+
+func (customStruct *CustomStruct) UnmarshalJSON(data []byte) error {
+  var temp struct {
+    FormDataStruct
+    PostUpdateTime string `json:"post_update_time"`
+  }
+
+  if err := json.Unmarshal(data, &temp); err != nil {
+    return err
+  }
+
+  customStruct.FormDataStruct = temp.FormDataStruct
+  customStruct.PostUpdateTime = temp.FormDataStruct.PostUpdateTime.In(customStruct.Location).Format(consts.FMT_DATETIME_SHORT)
+  return nil
+}

@@ -1,0 +1,5 @@
+Trade  | ▼ SHORT 10x 
+Market | BTCUSDT   
+Entry  | 27737.07
+Size % | 18.80% of total
+PnL %  | 24.35%

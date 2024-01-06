@@ -1,0 +1,12 @@
+        fn list(self: *Self, it: *Iterator) DecodingError!BencodeResult {
+            var items_list = std.ArrayListUnmanaged(BencodeResult).initCapacity(self.allocator, 10) catch return DecodingError.ArrayInitError;
+            while (true) {
+                const next_item = try self.next(it);
+                items_list.append(self.allocator, next_item) catch return DecodingError.ArrayAppendError;
+                const next_index = it.index;
+                if (self.buf[next_index - 1] == data_end) {
+                    break;
+                }
+            }
+            return .{ .List = items_list };
+        }

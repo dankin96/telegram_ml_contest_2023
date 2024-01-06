@@ -1,0 +1,3 @@
+Sorry,
+you rolled 17 with bet OVER 30.
+New pool size: 30880.961847 USDL

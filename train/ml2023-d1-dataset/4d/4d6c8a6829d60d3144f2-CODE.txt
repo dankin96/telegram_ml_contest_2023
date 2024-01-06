@@ -1,0 +1,44 @@
+class Node:
+    def __init__(self, val):
+        self.left = None
+        self.right = None
+        self.data = val
+
+class Solution:
+    
+    def KDistanceNodes(self, root, target, K):
+        res = []
+        
+        def findTarget(node, k):
+            if not node:
+                return -1
+            if node.data == target:
+                printKDistanceNodeDown(node, k)
+                return k - 1
+            left, right = findTarget(node.left, k), findTarget(node.right, k)
+            if left >= 0:
+                if left == 0:
+                    res.append(node.data)
+                else:
+                    printKDistanceNodeDown(node.right, left - 1)
+                return left - 1
+            if right >= 0:
+                if right == 0:
+                    res.append(node.data)
+                else:
+                    printKDistanceNodeDown(node.left, right - 1)
+                return right - 1
+            return -1
+    
+        def printKDistanceNodeDown(node, k):
+            if not node or k < 0:
+                return
+            if k == 0:
+                res.append(node.data)
+                return
+            printKDistanceNodeDown(node.left, k - 1)
+            printKDistanceNodeDown(node.right, k - 1)
+    
+        findTarget(root, K)
+        return sorted(res)
+

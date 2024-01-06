@@ -1,0 +1,5 @@
+cpp
+   bool x = true;
+   bool y = false;
+   bool result = x && y; // result will be false
+   

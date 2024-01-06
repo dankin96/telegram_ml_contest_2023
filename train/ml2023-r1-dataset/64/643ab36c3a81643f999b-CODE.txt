@@ -1,0 +1,48 @@
+use bumpalo::{boxed::Box, Bump};
+
+#[derive(Debug)]
+enum List<'a, T> {
+    Empty,
+    More(T, &'a List<'a, T>),
+}
+
+fn make_list<'l>(bump: &'l Bump) -> List<'l, Box<'l, HeapAllocString>> {
+    let empty = List::Empty;
+    let l0 = List::More(
+        Box::new_in(HeapAllocString::new("lol"), bump),
+        bump.alloc(empty),
+    );
+
+    let l1 = List::More(
+        Box::new_in(HeapAllocString::new("kek"), bump),
+        bump.alloc(l0),
+    );
+
+    let l2 = List::More(
+        Box::new_in(HeapAllocString::new("foo"), bump),
+        bump.alloc(l1),
+    );
+
+    l2
+}
+
+#[derive(Debug)]
+struct HeapAllocString(String);
+
+impl HeapAllocString {
+    fn new(s: &str) -> Self {
+        Self(String::from(s))
+    }
+}
+
+impl Drop for HeapAllocString {
+    fn drop(&mut self) {
+        println!("free the memory ({}) :klass:", &self.0);
+    }
+}
+
+fn main() {
+    let bump = Bump::new();
+    let ls = make_list(&bump);
+    println!("{ls:?}");
+}

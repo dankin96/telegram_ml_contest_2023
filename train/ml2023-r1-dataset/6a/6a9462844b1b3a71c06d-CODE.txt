@@ -1,0 +1,6 @@
+    from _locale import (
+        # This is dependent on `libintl.h` which is a part of `gettext`
+        # system dependency. These functions might be missing.
+        # But, we always say that they are present.
+        gettext as gettext,
+    )

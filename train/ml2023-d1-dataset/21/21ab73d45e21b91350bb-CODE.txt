@@ -1,0 +1,6 @@
+SELECT
+  id
+FROM
+  prof_planejamento
+WHERE
+  idano = '3';

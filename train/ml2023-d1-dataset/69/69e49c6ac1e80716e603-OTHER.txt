@@ -1,0 +1,10 @@
+[Interface]
+PrivateKey = 
+Address = 10.0.0.1/24
+LitenPort = 51820
+
+[Peer]
+PublicKey =
+AllowedIPs = 
+[Peer]
+PublicKey =

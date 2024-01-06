@@ -1,0 +1,10 @@
+autohotkey
+#IfWinActive, ahk_exe WINWORD.EXE
+
+^!a::
+    Send, !t
+    Sleep, 100
+    Send, {Down}{Enter}
+Return
+
+#IfWinActive

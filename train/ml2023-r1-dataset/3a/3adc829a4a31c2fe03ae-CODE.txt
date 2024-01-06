@@ -1,0 +1,33 @@
+Message:
+  chat: Channel:
+    access_hash: -3357955268214545818
+    default_banned_rights: ChatBannedRights:
+      change_info: True
+      invite_users: True
+      pin_messages: True
+      until_date: 2038-01-19 03:14:07
+    has_link: True
+    megagroup: True
+    photo: ChatPhoto:
+      dc_id: 1
+      photo_id: 5179335340836628807
+    title: 'Test supergroup!'
+    username: 'asjkdhasjkdhaskjdhkajs'
+  chat_id: -1001432293767
+  date: 2023-10-06 00:35:29
+  from_id: PeerUser: user_id: 1748216193
+  id: 1501
+  input_chat: InputPeerChannel: channel_id: 1432293767
+  input_sender: InputPeerUser: user_id: 1748216193
+  is_channel: True
+  is_group: True
+  message: 'cock'
+  peer_id: PeerChannel:
+  raw_text: 'cock'
+  sender: User:
+    apply_min_photo: True
+    first_name: 'алина?'
+    status: UserStatusRecently:
+  sender_id: 1748216193
+  text: 'cock'
+  to_id: PeerChannel:

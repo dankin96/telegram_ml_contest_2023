@@ -1,0 +1,16 @@
+"Uptime Kuma" is a self-hosted monitoring tool that allows users to keep track of the uptime of their services. When you see a setting for "allow proxy headers", it typically pertains to how Uptime Kuma interacts with reverse proxy setups.
+
+Here's a breakdown:
+
+Proxy Headers: When you run a service behind a reverse proxy (like Nginx or Apache), the proxy can add additional headers to the request before forwarding it to the service. These headers often provide useful information, such as the original IP address of the client, the original protocol used (http or https), and the original requested host.
+
+Common proxy headers include:
+
+X-Real-IP: The original IP address of the client making the request.
+X-Forwarded-For: A list of IP addresses representing all the nodes the request has traversed, including the client.
+X-Forwarded-Proto: The protocol used by the client, typically http or https.
+Why Allow Proxy Headers: If Uptime Kuma is running behind a reverse proxy, it might be beneficial to recognize these proxy headers to get accurate information about the original request. For example, to determine the actual IP address of clients or to correctly detect if the connection was secure.
+
+Why Not Allow Proxy Headers: If you're not using a reverse proxy, or if you're concerned about potential security issues, you might want to disable the use of proxy headers. This is because, in untrusted environments, malicious clients can try to spoof these headers. If Uptime Kuma (or any other service) blindly trusts these headers without proper configuration on the reverse proxy side, it might lead to incorrect behavior or even security vulnerabilities.
+
+In summary, if you're using Uptime Kuma behind a properly configured reverse proxy, enabling "allow proxy headers" might be beneficial. Otherwise, if you're unsure or if you're not using a proxy, it's safer to leave it disabled.

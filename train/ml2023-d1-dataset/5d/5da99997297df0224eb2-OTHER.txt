@@ -1,0 +1,5 @@
+           24H Return 7D Return 6H Return
+Token name                               
+long              28%        0%        1%
+hello-labs        12%       17%       -2%
+

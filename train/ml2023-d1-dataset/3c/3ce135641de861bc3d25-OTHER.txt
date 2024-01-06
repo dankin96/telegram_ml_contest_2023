@@ -1,0 +1,2 @@
+vless://788bb22f-e032-49f5-9f3f-204a719e9945@newsno.fastas.cloud:443?type=tcp&security=reality&fp=chrome&pbk=W5AXzErghlkA9KNlpSIettcZ5NQmAtXCmdg_fM4vtVw&sni=google.com&sid=3df2436f&spx=%2F#reality443-momo-5mhp1qum
+

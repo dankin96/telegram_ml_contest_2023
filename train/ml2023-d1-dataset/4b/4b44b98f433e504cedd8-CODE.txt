@@ -1,0 +1,11 @@
+value = 5
+
+def fun_1():
+    value = 3
+
+    def fun_2():
+        global value
+        value -= 1
+    return fun_2() or value
+
+print(fun_1() or value)

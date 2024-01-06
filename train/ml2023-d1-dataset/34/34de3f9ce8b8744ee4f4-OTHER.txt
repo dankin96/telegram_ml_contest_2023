@@ -1,0 +1,3 @@
+Notes to test miners 2
+test cost. From Alpha, You can use cheaper Digital ocean servers to run TEA Node in previous epochs because we want to lower down the
+Nitro servers. AWS You HAVE TO run TEA nodes on we environment as Mainnet. need to test in the same hardware

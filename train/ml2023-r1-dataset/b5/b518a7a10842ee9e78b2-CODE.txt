@@ -1,0 +1,6 @@
+{
+  "chain": "eth",
+  "from": "0x1c6d2e5bd68d3a144d9671206bf1b9a086b6eebe",
+  "contract": "0x340e8bfc9cc1807bd2b3cf21538ba26dd9b4c1e3",
+  "hash": "0xf313345813c54bd4b6033d07e975f54a95443b751c9497a0c2bb19c2df8c6fd0"
+}

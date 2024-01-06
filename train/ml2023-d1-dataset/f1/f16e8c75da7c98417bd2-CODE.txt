@@ -1,0 +1,4 @@
+import random
+
+года = 2
+назад = random.choice(['+', '-'])

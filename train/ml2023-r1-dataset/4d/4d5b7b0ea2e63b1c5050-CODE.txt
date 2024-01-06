@@ -1,0 +1,3 @@
+dataview 
+TABLE without id map(file.outlinks, "[[" + meta(link).path + "]]") AS "Исходящие",
+map(file.inlinks, "[[" + meta(link).path + "]]") AS "Входящие" WHERE file.name = this.file.name

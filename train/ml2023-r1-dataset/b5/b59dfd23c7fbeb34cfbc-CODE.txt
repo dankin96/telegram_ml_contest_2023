@@ -1,0 +1,18 @@
+ Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        int count = 0;
+        for (int i = 2; i <= n ; i++) {
+            if (n<=1){
+                System.out.println("Tub son emas ");
+                return;
+            }
+            if ( n % i == 0){
+                count++;
+            }
+            count++;
+        }
+        if (count == 2){
+            System.out.println("Tub son");
+        }else {
+            System.out.println("Tub son emas");
+        }

@@ -1,0 +1,5 @@
+NodeApiError: UNKNOWN ERROR - check the detailed error for more information
+    at Object.execute (/usr/local/lib/node_modules/n8n/node_modules/n8n-nodes-base/dist/nodes/HttpRequest/V1/HttpRequestV1.node.js:845:27)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at Workflow.runNode (/usr/local/lib/node_modules/n8n/node_modules/n8n-workflow/dist/Workflow.js:653:28)
+    at /usr/local/lib/node_modules/n8n/node_modules/n8n-core/dist/WorkflowExecute.js:590:53

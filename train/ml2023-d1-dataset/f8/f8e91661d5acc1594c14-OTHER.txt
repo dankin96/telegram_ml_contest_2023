@@ -1,0 +1,54 @@
+u34689@8c9b0e42-155d-4652-b6b0-c8c137887652 
+------------------------------------------- 
+OS: Ubuntu 22.04.3 LTS x86_64 
+Kernel: 5.15.0-1047-aws 
+Uptime: 2 days, 8 hours, 58 mins 
+Packages: 833 (dpkg) 
+Shell: bash 
+CPU: Intel Xeon Platinum 8375C (8) @ 2.899GHz 
+GPU: 00:03.0 Amazon.com, Inc. Device 1111 
+Memory: 25262MiB / 63276MiB 
+
+
+CPU
+Cores        : 4
+Logical      : 8
+Frequency    : 2975
+[□□□□□□□□□□] 0.5%
+
+RAM 
+Terpakai     : 24.64GB
+Tersedia     : 36.44GB
+Total        : 61.79GB
+[■■■■□□□□□□] 41.0%
+
+Penyimpanan 
+Terpakai     : 82.89GB
+Tersedia     : 268.26GB
+Total        : 370.02GB
+[■■□□□□□□□□] 23.6%
+
+Jaringan
+Total Unduh  : 9.90GB
+Total Unggah : 9.21GB
+
+Versi
+Aria2c       : v1.36.0
+FFMPEG       : v4.4.2
+Google Api   : v2.103.0
+MegaSDK      : v4.8.0
+P7Zip        : v16.02
+Pyro         : v2.3.8
+Rclone       : v1.64.0
+Qbittorrent  : v4.5.5
+YT-DLP       : v2023.10.07
+
+Lainnya
+Username     : @ngi_singbot
+Waktu Bot    : 5h19m
+Waktu Mesin  : 2d8h58m16s
+Diperbarui   : 2023-10-12 From 5 hours ago
+
+Quotes       : 
+"I got this."
+=>  Sons of Anarchy

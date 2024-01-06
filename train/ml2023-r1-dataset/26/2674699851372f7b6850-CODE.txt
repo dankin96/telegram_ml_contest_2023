@@ -1,0 +1,8 @@
+for A in range(0, 1000): #диапазон для А
+    Flag = 1
+    for x in range(0, 1000): #диапазон для X
+        if not Flag: break #ускорение программы
+        Flag *= (x & 25 != 0) <= ((x & 17 == 0) <= (x & A != 0))
+    if Flag:
+        print(A)
+        break # выводит только наименьший А

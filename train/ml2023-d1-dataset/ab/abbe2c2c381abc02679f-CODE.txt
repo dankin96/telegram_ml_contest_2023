@@ -1,0 +1,70 @@
+import random, time
+
+wins = 0
+losses = 0
+ties = 0
+
+while True: 
+  while True: 
+    print('{} Побед, {} Поражений, {} Ничьи'.format(wins, losses, ties))
+    print('Выберите ваш ход: Камень(К) Бумага(Б) Ножницы(Н)')
+    playerMove = input('> ').upper()
+    if playerMove == 'К' or playerMove == 'Б' or playerMove == 'Н':
+      break
+    else:
+      print('Выберите - К, Б, Н.')
+  if playerMove == 'К':
+    print('Камень против...')
+    playerMove = 'Камень'
+
+  elif playerMove == 'Б':
+    print('Бумага против...')
+    playerMove = 'Бумага'
+
+  elif playerMove == 'Н':
+    print('Ножницы против...')
+    playerMove = 'Ножницы'
+
+  time.sleep(0.5)
+  print('1...')
+  time.sleep(0.25)
+  print('2...')
+  time.sleep(0.25)
+  print('3...')
+  time.sleep(0.25)
+  randomNumber = random.randint(1, 3)
+
+  if randomNumber == 1:
+    computerMove = 'Камень'
+
+  elif randomNumber == 2:
+    computerMove = 'Бумага'
+
+  elif randomNumber == 3:
+    computerMove = 'Ножницы'
+  print(computerMove)
+  time.sleep(0.5)
+  if playerMove == computerMove:
+
+    print('Ничья.')
+    ties = ties + 1
+  elif playerMove == 'Камень' and computerMove == 'Ножницы':
+
+    print('Вы выиграли!')
+    wins = wins + 1
+  elif playerMove == 'Бумага' and computerMove == 'Камень':
+
+    print('Вы выиграли!')
+    wins = wins + 1
+  elif playerMove == 'Ножницы' and computerMove == 'Бумага':
+
+    print('Вы выиграли!')
+    wins = wins + 1
+  elif playerMove == 'Камень' and computerMove == 'Бумага':
+
+    print('Вы проиграли!')
+    losses = losses + 1
+  elif playerMove == 'Бумага' and computerMove == 'Ножницы':
+
+    print('Вы проиграли!')
+    losses = losses + 1

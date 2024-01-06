@@ -1,0 +1,14 @@
+<template>
+  <div class="flex flex-col">
+    <div class="sticky top-0 z-10 bg-white flex space-x-2">
+      <div class="btn" @click="scrollTo(topDOM)">up</div>
+      <div class="btn" @click="scrollTo(bottomDOM)">down</div>
+    </div>
+
+    <div class="content" ref="topDOM">
+          .......
+     </div>
+
+    <div ref="bottomDOM"></div>
+  </div>
+</template>

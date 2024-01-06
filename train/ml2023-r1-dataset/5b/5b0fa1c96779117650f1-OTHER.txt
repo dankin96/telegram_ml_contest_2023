@@ -1,0 +1,2 @@
+Management zone: AAA_CENTER
+Tags: [Environment]hybris, SAPCM:blackout

@@ -1,0 +1,9 @@
+curl (7.74.0-1.3+deb11u10) bullseye-security; urgency=high
+
+  * Add patches to fix CVE-2023-38545 and CVE-2023-38546
+  * d/rules: 
+    - dh_auto_test: 
+      ~ Only run non-flaky tests and enable verbose mode
+      ~ Respect nocheck build profile
+
+ -- Samuel Henrique <samueloph@debian.org>  Thu, 05 Oct 2023 22:51:40 +0100

@@ -1,0 +1,5 @@
+Token: MCTUSDT
+Price: $0.01482
+24H High: $0.01489
+24H Low: $0.01481
+24H Volume: 3407.41 MCT

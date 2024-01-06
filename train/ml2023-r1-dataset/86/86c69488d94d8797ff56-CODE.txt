@@ -1,0 +1,2 @@
+ip addr
+cat /etc/network/interfaces

@@ -1,0 +1,3 @@
+vless://aaaaaaaa-0000-0000-0000-aaaaaaaaaaaa@37.123.198.116:54544?encryption=none&security=tls&type=ws&host=hy2.xmsl.us&path=%2Faaa#hk
+
+vless://aaaaaaaa-0000-0000-0000-aaaaaaaaaaaa@120.241.47.41:10005?encryption=none&security=tls&type=ws&host=hy2.xmsl.us&path=%2Faaa#hk

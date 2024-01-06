@@ -1,0 +1,4 @@
+data: list[dict] = response.json()
+
+for entry in data:
+    entry. # pop(), clear(), copy()

@@ -1,0 +1,13 @@
+array:1 [▼
+  0 => array:2 [▼
+    0 => array:2 [▼
+      "text" => "Принять"
+      "callback_data" => "{"status":"1","id":2729}"
+    ]
+    1 => array:2 [▼
+      "text" => "Отказать"
+      "callback_data" => "{"status":"2","id":2729}"
+    ]
+  ]
+]
+

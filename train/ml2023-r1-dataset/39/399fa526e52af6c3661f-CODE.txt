@@ -1,0 +1,5 @@
+curl \
+    -X GET \
+    -H "Content-Type: application/json" \
+    -H "x-cosmos-block-height: 15511049" \
+    https://rest.bd.evmos.org:1317/cosmos/slashing/v1beta1/signing_infos/evmosvalcons12wcad3ccjz8s60vnemrkcvecuenxrrfc8072wk

@@ -1,0 +1,5 @@
+type TRowWithSide<R> = R & {side: number}
+
+export function sideColorFormatter<R>(value: unknown, record: R) {
+(record as TRowWithSide<R>).side ...
+}

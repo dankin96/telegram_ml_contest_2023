@@ -1,0 +1,6 @@
+def print_even_numbers(n, max_num=10):
+    if n <= max_num:
+        print(n)
+        next_even = n + 2
+        print_even_numbers(next_even)
+

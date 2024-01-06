@@ -1,0 +1,2 @@
+var complicated complexSingleGostruct
+mygormconn.Raw("select complicated from stuff where a = ?", myaVal).Scan(&complicated)

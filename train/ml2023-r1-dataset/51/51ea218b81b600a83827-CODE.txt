@@ -1,0 +1,1 @@
+curl -H "Authorization: ТУТ ВАШ ТОКЕН" -G "https://suppliers-api.wildberries.ru/public/api/v1/info" --data-urlencode "quantity=1"

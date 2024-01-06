@@ -1,0 +1,16 @@
+
+import re
+
+# Example Facebook link
+link = "https://www.facebook.com/username"
+
+# Regular expression pattern
+pattern = r"(?i)(?:http(?:s)?:\/\/)?(?:www\.)?(?:facebook|fb)\.(?:com|me)\/(?:(?:\w)*#!\/)?(?:pages\/)?(?:[?\w\-]*\/)*([\w\-]*)"
+
+# Matching the pattern in the link
+match = re.match(pattern, link)
+
+# Extracting the username from the link
+if match:
+    username = match.group(1)
+    print(username)  # Output: username

@@ -1,0 +1,1 @@
+let tuples: Vec<(T, T, T, T, T)> = contract.call_array().await?

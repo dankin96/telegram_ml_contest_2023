@@ -1,0 +1,6 @@
+✅ 06:35 • 🇪🇺 EUR/AUD 🇦🇺 • ACIMA
+✅ 07:30 • 🇬🇧 GBP/CHF 🇨🇭 • ABAIXO
+✅ 08:30 • 🇨🇭 CHF/JPY 🇯🇵 • ACIMA
+✅ 09:30 • 🇬🇧 GBP/USD 🇺🇸 OTC • ACIMA
+✅ 10:30 • 🇦🇺 AUD/CHF 🇨🇭 OTC • ACIMA
+✅ 11:30 • 🇬🇧 GBP/JPY 🇯🇵 • ABAIXO

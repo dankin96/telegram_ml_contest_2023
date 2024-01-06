@@ -1,0 +1,58 @@
+const puppeteer = require('puppeteer-extra')
+const StealthPlugin = require('puppeteer-extra-plugin-stealth')
+puppeteer.use(StealthPlugin())
+const {executablePath} = require('puppeteer')
+
+puppeteer.launch({
+    // args: ['--auto-open-devtools-for-tabs'],
+    args: ['--no-sandbox'],
+//    headless: true,
+    executablePath: executablePath(),
+    targetFilter: (target) => !!target.url(), // 使用 targetFilter 过滤目标
+    headless: "new",
+    // 设置日志级别为 'info' 或 'debug'
+    logLevel: 'debug', // 或 'debug'
+}).then(async browser => {
+    console.log('Running tests..')
+    const page = await browser.newPage()
+//    let page = (await browser.pages())[0]; // Instead of using browser.newPage()
+//        await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36')
+
+
+//    await page.goto('https://nowsecure.nl')
+    try {
+        await page.goto('https://nowsecure.nl')
+    } catch (error) {
+        console.error('Failed to navigate:', error)
+    }
+
+    await page.waitForTimeout(15000)
+
+    //add
+    //await page.waitForTimeout(5000)
+
+    // 点击页面空白内容
+    await page.click('body')
+
+    await page.waitForTimeout(1000)
+
+    // 模拟按 Tab 键多次，直到焦点达到复选框
+    await page.keyboard.press('Tab')
+    // await page.keyboard.press('Tab')
+
+    await page.waitForTimeout(1000)
+
+    // 模拟按 Space 键选择复选框
+    await page.keyboard.press('Space')
+
+    // 等待一段时间，可以根据需要调整
+    await page.waitForTimeout(15000)
+    //end
+
+    await page.screenshot({
+        path: 'stealth_test__headless-false.png',
+        fullPage: true
+    })
+    // await browser.close()
+    console.log(`All done, check the screenshot`)
+})

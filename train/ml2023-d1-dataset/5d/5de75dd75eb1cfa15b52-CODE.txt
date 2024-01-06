@@ -1,0 +1,25 @@
+import pychrome
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+from time import sleep
+
+serv = Service(ChromeDriverManager().install())
+chrome_options = Options()
+chrome_options.add_argument('--remote-debugging-port=8000')
+driver = webdriver.Chrome(service=serv, options=chrome_options)
+
+dev_tools = pychrome.Browser(url='http://localhost:8000')
+tab = dev_tools.list_tab()[0]  # окно по умолчанию
+tab.start()
+
+tab.call_method('Network.emulateNetworkConditions',
+                offline=False,
+                latency=100,
+                downloadThroughput=93750,
+                uploadThroughput=31250,
+                connectionType='none')
+
+driver.get('https://google.com/')
+sleep(10)

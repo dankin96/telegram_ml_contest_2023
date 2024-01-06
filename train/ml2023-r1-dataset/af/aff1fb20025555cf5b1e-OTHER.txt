@@ -1,0 +1,30 @@
+Tanggal  : 02 Dec 22
+Investor : Treasure Global Investments
+Previous : 30.000.000.000 (8.72%)
+Buy/Sell : 0 (-0.64%) OBLIGASI KONVERSI
+Now      : 30.000.000.000 (8.08%)
+----------------------------
+Tanggal  : 02 Dec 22
+Investor : Mach Energy
+Previous : 170.000.000.000 (49.44%)
+Buy/Sell : 0 (-3.66%) OBLIGASI KONVERSI
+Now      : 170.000.000.000 (45.78%)
+----------------------------
+Tanggal  : 02 Dec 22
+Investor : Chengdong Investment Corp-Self
+Previous : 0 (0%)
+Buy/Sell : +39.653.936.330 (+10.68%) OBLIGASI KONVERSI
+Now      : 39.653.936.330 (10.68%)
+----------------------------
+Tanggal  : 18 Oct 22
+Investor : Mach Energy
+Previous : 0 (0%)
+Buy/Sell : +170.000.000.000 (+49.44%)
+Now      : 170.000.000.000 (49.44%)
+----------------------------
+Tanggal  : 18 Oct 22
+Investor : Treasure Global Investments
+Previous : 0 (0%)
+Buy/Sell : +30.000.000.000 (+8.72%)
+Now      : 30.000.000.000 (8.72%)
+----------------------------

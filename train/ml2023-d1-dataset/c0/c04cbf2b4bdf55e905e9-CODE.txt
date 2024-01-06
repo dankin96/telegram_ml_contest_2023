@@ -1,0 +1,13 @@
+def find_best(value):
+    best_multiplier = 0
+    min_mistaking = 10**10
+
+    for i in range(1, 1000_001):
+        if abs(round(value * i) - value * i) < min_mistaking:
+            min_mistaking = abs(round(value * i) - value * i)
+            best_multiplier = i
+
+    return best_multiplier, min_mistaking
+
+
+print(find_best(float(input())))

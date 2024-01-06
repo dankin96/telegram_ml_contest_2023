@@ -1,0 +1,8 @@
+use Yiisoft\Validator\Rule\Integer;
+use Yiisoft\Hydrator\Validator\Attribute\Validate;
+
+class MyObject {
+  #[Validate(new Required())]
+  #[Integer(min: 18)]
+  private ?int $age = null;
+

@@ -1,0 +1,30 @@
+import aiohttp
+import asyncio
+
+async def send_async_request(url):
+    try:
+        async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=False)) as session:
+            async with session.get(url) as response:
+                return await response.text()
+    except aiohttp.ClientError as e:
+        return f"An error occurred: {e}"
+    except Exception as e:
+        return f"An error occurred: {e}"
+
+async def main():
+    url = "https://jsonplaceholder.typicode.com/comments"
+    response = await send_async_request(url)
+    return response
+
+if __name__ == '__main__':
+    asyncio.run(main())
+
+class Node:
+    def __init__(self, value , next = None):
+        self.value = value
+        self.next = next
+        
+temp = Node(asyncio.run(main()))
+while temp:
+    print(temp.value)
+    temp=temp.next

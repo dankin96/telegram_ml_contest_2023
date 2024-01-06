@@ -1,0 +1,2 @@
+grep user2 /etc/passwd
+su -s /bin/bash - user2

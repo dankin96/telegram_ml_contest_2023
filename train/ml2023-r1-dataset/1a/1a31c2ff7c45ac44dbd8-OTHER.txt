@@ -1,0 +1,3 @@
+numas13@yukari:~/dev/bench$ l++ -O4 main.cpp && ./a.out
+121971 ms                                                                                             
+0 100

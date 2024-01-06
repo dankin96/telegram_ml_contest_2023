@@ -1,0 +1,5 @@
+var dates2 = findDates(
+  LocalDate.parse("2023-09-28"),
+  LocalDate.parse("2023-10-05"),
+  2); // return every 2nd date
+System.out.println(dates2);

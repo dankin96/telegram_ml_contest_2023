@@ -1,0 +1,9 @@
+from stem.control import Controller
+from stem import Signal
+
+with Controller.from_port(port=9051) as controller:
+  controller.authenticate()
+  controller.signal(Signal.NEWNYM)
+  socks_port = controller.get_conf('SocksPort')
+
+print(f'Connected to Tor SOCKS proxy on port {socks_port}')

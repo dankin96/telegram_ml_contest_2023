@@ -1,0 +1,76 @@
+class Node {
+    constructor(val) {
+        this.val = val;
+        this.next = null;
+    }
+}
+
+class LinkedList {
+    constructor(head = null) {
+        this.head = head;
+    }
+    size() {
+        let count = 0;
+        let node = this.head;
+        while (node) {
+            count++;
+            node = node.next;
+        }
+        return count;
+    }
+
+    add(node) {
+        let root = this.head;
+        while (root.next) {
+            root = root.next;
+        }
+        root.next = node;
+    }
+
+    clear() {
+        this.head = null;
+    }
+
+    getLast() {
+        let node = this.head;
+        let last;
+        while (node) {
+            last = node;
+            node = node.next;
+        }
+        return last;
+    }
+
+    getFirst() {
+        return this.head;
+    }
+
+    print() {
+        let root = this.head;
+        while (root) {
+            console.log(root.val);
+            root = root.next;
+        }
+    }
+}
+
+
+let listNode = new Node(1);
+let listNode1 = new Node(2);
+let listNode2 = new Node(3);
+let listNode3 = new Node(4);
+
+listNode.next = listNode1;
+listNode1.next = listNode2;
+listNode2.next = listNode3;
+
+let list = new LinkedList(listNode);
+
+let head = list.head;
+
+
+list.add(new Node(9));
+
+list.print();
+
+

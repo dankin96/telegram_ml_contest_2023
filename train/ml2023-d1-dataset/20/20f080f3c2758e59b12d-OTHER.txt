@@ -1,0 +1,1 @@
+A role is an AWS identity with permission policies that define what the identity can do. It can be assumed by anyone who needs permissions.

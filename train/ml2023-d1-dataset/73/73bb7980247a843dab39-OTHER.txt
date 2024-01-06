@@ -1,0 +1,12 @@
+XAUT - Tether Gold
+$1,871.97
+Network: ETH
+H|L: 1,874.76|1,851.55
+1h:  0.0%      😏       
+24h: 1.1%      😄       
+7d:  2.4%      😀       
+Vol: $122.5 K
+Liq: $17.4 K
+Circ Mcap: 461.5 M
+FDV 461.5 M
+CA: 0x68749665ff8d2d112fa859aa293f07a622782f38

@@ -1,0 +1,8 @@
+__nrgstaker energi3__
+Block Height: 1886452
+Connections: 31
+Staking Status: Enabled
+Masternode Status: Enabled
+Upgrade Required: No
+PID: 278434
+Uptime: 29 days 17 hr 35 min 52 sec

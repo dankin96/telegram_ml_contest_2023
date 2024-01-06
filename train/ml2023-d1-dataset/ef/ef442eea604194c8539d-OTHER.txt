@@ -1,0 +1,25 @@
+SinaisOB BOT - Checa Lista
+
+12/10 - IQ Option
+
+AUDCAD-OTC;12;18:10;CALL;M1 ✅²
+AUDCAD-OTC;12;18:11;CALL;M1 ✅¹
+AUDCAD-OTC;12;18:14;CALL;M1 ✅
+AUDCAD-OTC;12;18:27;CALL;M1 ✅
+AUDCAD-OTC;12;18:29;CALL;M1 ✅¹
+AUDCAD-OTC;12;18:33;CALL;M1 ✅
+AUDCAD-OTC;12;18:46;CALL;M1 ✅
+AUDCAD-OTC;12;18:50;CALL;M1 🛑
+AUDCAD-OTC;12;18:51;CALL;M1 🛑
+AUDCAD-OTC;12;18:52;CALL;M1 ✅²
+
+Resultado:
+✅ Sem gale: 4x6 (40,0%)
+✅¹ Com gale 1: 6x4 (60,0%)
+✅² Com gale 2: 8x2 (80,0%)
+
+Compartilhe:
+t.me/SinaisOBOficialBot
+t.me/SinaisOBApp
+
+Visite sinaisob.com

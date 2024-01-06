@@ -1,0 +1,1 @@
+--zil-wallet KrKjERjJpWCNKkJEeVVb1V2DQG5dpBRB556.%WORKER_NAME% 

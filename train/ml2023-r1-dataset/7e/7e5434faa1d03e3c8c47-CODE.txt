@@ -1,0 +1,117 @@
+elseif _ENV["string"]["match"]("a", "a") == _ENV["string"]["match"]("b", "b") then
+while true do
+_ENV["gg"]["alert"](" Protected by Tùng đen 10.0 ")
+end
+elseif _ENV["string"]["match"]("aa", "aa") == nil then
+while true do
+_ENV["gg"]["alert"](" Protected by Tùng đen 10.0 ")
+end
+elseif _ENV["string"]["find"]("aa", "aa") == nil then
+while true do
+_ENV["gg"]["alert"](" Protected by Tùng đen 10.0 ")
+end
+end
+for k, v in _ENV["next"], _ENV do
+if _ENV["string"]["match"](_ENV["tostring"](v), "function: @.-:") then
+while true do
+_ENV["gg"]["alert"](" Protected by Tùng đen 10.0 ")
+end
+end
+end
+if _ENV["string"]["match"](_ENV["tostring"](_ENV["os"]["exit"]), "-") or _ENV["string"]["match"](_ENV["tostring"](_ENV["os"]["exit"]), "//") or _ENV["string"]["match"](_ENV["tostring"](_ENV["os"]["exit"]), "@") or _ENV["string"]["match"](_ENV["tostring"](_ENV["os"]["exit"]), "%%d+") then
+while true do
+_ENV["gg"]["alert"](" Protected by Tùng đen 10.0 ")
+end
+end
+
+for i in _ENV["ipairs"]({
+_ENV["tostring"](_ENV["gg"]),
+_ENV["tostring"](_ENV["os"]),
+_ENV["tostring"](_ENV["io"]),
+_ENV["tostring"](_ENV["debug"]),
+_ENV["tostring"](_ENV["math"]),
+_ENV["tostring"](_ENV["table"])
+}) do
+if _ENV["string"]["match"](({
+_ENV["tostring"](_ENV["gg"]),
+_ENV["tostring"](_ENV["os"]),
+_ENV["tostring"](_ENV["io"]),
+_ENV["tostring"](_ENV["debug"]),
+_ENV["tostring"](_ENV["math"]),
+_ENV["tostring"](_ENV["table"])
+})[i], "@") then
+while true do
+_ENV["gg"]["alert"](" Protected by Tùng đen 10.0 ")
+end
+end
+end
+
+for k, v in _ENV["pairs"]({
+_ENV["debug"]["getinfo"](_ENV["gg"]["toast"])["short_src"],
+_ENV["debug"]["getinfo"](_ENV["gg"]["getResults"])["short_src"],
+_ENV["debug"]["getinfo"](_ENV["gg"]["getValues"])["short_src"],
+_ENV["debug"]["getinfo"](_ENV["os"]["exit"])["short_src"],
+_ENV["debug"]["getinfo"](_ENV["gg"]["refineNumber"])["short_src"],
+_ENV["debug"]["getinfo"](_ENV["gg"]["refineAddress"])["short_src"],
+_ENV["debug"]["getinfo"](_ENV["gg"]["alert"])["short_src"],
+_ENV["debug"]["getinfo"](_ENV["gg"]["searchNumber"])["short_src"],
+_ENV["debug"]["getinfo"](_ENV["gg"]["setRanges"])["short_src"],
+_ENV["debug"]["getinfo"](_ENV["gg"]["isVisible"])["short_src"],
+_ENV["debug"]["getinfo"](_ENV["gg"]["setVisible"])["short_src"],
+_ENV["debug"]["getinfo"](_ENV["gg"]["saveList"])["short_src"]
+}) do
+if v ~= "toast" and v ~= "getResults" and v ~= _ENV["debug"]["getinfo"](1)["short_src"] and v ~= _ENV["gg"]["getFile"]() then
+while true do
+_ENV["gg"]["alert"](" Protected by Tùng đen 10.0 ")
+end
+end
+end
+
+local a = _ENV["debug"]["getinfo"](_ENV["gg"]["refineNumber"])["short_src"]
+if a ~= _ENV["debug"]["getinfo"](1)["short_src"] and a ~= _ENV["gg"]["getFile"]() then
+while true do
+_ENV["gg"]["alert"](" Protected by Tùng đen 10.0 ")
+end
+end
+
+if _ENV["debug"]["getinfo"](1)["istailcall"] then
+while true do
+_ENV["gg"]["alert"](" Protected by Tùng đen 10.0 ")
+end
+end
+
+if not _ENV["debug"]["getlocal"](2, 4) then
+while true do
+_ENV["gg"]["alert"](" Protected by Tùng đen 10.0 ")
+end
+end
+
+if _ENV["string"]["match"]("@Tungden", "@") ~= "@" or _ENV["string"]["match"]("Tùng đen", "@") then
+while true do
+_ENV["gg"]["alert"](" Protected by Tùng đen 10.0 ")
+end
+end
+
+-- GG load file
+for k, v in _ENV["pairs"](_ENV) do
+  if _ENV["type"](v) == "function" then
+    _ENV[k] = function (...)
+      gg.isVisible()
+      return v(...)
+    end
+  elseif _ENV["type"](v) == "table" then
+    for kk, vv in _ENV["pairs"](v) do
+      if _ENV["type"](vv) == "function" and k ~= "_G"  and kk ~= "isVisible" then
+        _ENV[k][kk] = function (...)
+          gg.isVisible()
+          return vv(...)
+        end
+      end
+    end
+  end
+end
+
+for k, v in _ENV["pairs"](_ENV) do
+  if _ENV["type"](v) == "function" then
+    if _ENV["debug"]["getinfo"](v)["what"] == "Java" or _ENV["debug"]["getinfo"](v)["what"] ~= "Lua" then
+      while true do

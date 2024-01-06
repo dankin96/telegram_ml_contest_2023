@@ -1,0 +1,44 @@
+section .data
+    array db 5, 2, 8, 1, 3
+    length equ $ - array
+
+section .text
+    global _start
+
+_start:
+    mov ecx, length
+    dec ecx
+
+loop_outer:
+    mov eax, ecx
+    xor ebx, ebx
+    
+loop_inner:
+    mov dl, [array + ebx]
+    cmp dl, [array + ebx + 1]
+    jle skip_swap
+    
+    mov dh, [array + ebx + 1]
+    mov [array + ebx + 1], dl
+    mov [array + ebx], dh
+    
+skip_swap:
+    inc ebx
+    cmp ebx, eax
+    jl loop_inner
+
+    dec ecx
+    cmp ecx, 0
+    jg loop_outer
+    
+    ; Print the sorted array
+    mov edx, length
+    mov ecx, array
+    mov ebx, 1
+    mov eax, 4
+    int 0x80
+
+exit:
+    mov eax, 1
+    xor ebx, ebx
+    int 0x80

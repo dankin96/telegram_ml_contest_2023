@@ -1,0 +1,32 @@
+Exchange WLDBTC 1h Binance
+Price:0.00005906|0.00005883|0.00005846
+Vol:       944|   6,652|   9,091
+ATR: 0.00000065
+
+✅OBV:  89.7 K|  88.7 K|  82.1 K
+⚪RSI:   58.85|   56.74|   53.15
+⚪MFI:   23.80|   21.15|   17.71
+⚪CCI:   54.61|   28.08|  -30.96
+⚪WR%:   -0.00|  -10.85|  -22.00
+✅ADX:   36.25|   36.19|   36.24
+
+⚪MOM: No Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+❌MACD: Bearish
+✅PSAR: Bullish
+
+Support And Resistance
+S: 0.00005792
+R: 0.00005955
+
+Volatility is average
+
+EXPERIMENTAL 🧪
+🐂RSI: Bullish divergence
+⚪MFI:No divergence
+⚪FVE: No divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

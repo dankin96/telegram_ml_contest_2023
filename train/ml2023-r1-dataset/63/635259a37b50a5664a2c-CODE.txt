@@ -1,0 +1,8 @@
+ CustomEntity {
+  property name: String(128) {
+    // 添加最小长度验证规则
+    if name.length < 5 {
+      validationError(\"Name must have at least 5 characters.\")
+    }
+  }
+}

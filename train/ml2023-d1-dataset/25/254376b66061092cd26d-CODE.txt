@@ -1,0 +1,21 @@
+#include <iostream>
+#include <string>
+
+int main() {
+  std::string text = "One
+Two
+Three
+Four
+";
+  // Let's add an '!' where we find newlines
+  for (auto it = text.begin(); it != text.end(); ++it) {
+    if (*it == '
+') {
+      // it =
+      text.insert(it, '!') + 1;
+      // Without updating the iterator this program has
+      // undefined behavior and will likely crash
+    }
+  }
+  std::cout << text;
+}

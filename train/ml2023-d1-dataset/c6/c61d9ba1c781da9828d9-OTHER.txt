@@ -1,0 +1,1 @@
+jdhcpd: DH_SVC_SENDMSG_FAILURE: sendmsg() from 0.0.0.0 to port 67 at 255.255.255.255 via interface 5 and routing instance default failed: Network is down

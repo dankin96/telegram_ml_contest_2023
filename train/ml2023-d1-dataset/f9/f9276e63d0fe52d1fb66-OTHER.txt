@@ -1,0 +1,40 @@
+╔══════════════════════╗
+║ HKrA_v2.4 / Komutlar;
+╠══════════════════════╣
+║ /sorgu -tc *
+║ /sorgu -isim *
+║ /sorgu -isim2 *
+║ /sorgu -isim3 *
+║ /sorgu -soyisim *
+║ /sorgu -dogumtarih *
+║ /sorgu -nufusil *
+║ /sorgu -nufusilce *
+║ /sorgu -anneisim *
+║ /sorgu -annetc *
+║ /sorgu -babaisim *
+║ /sorgu -babatc *
+╠══════════════════════╣
+║ /aile -tc *
+╠══════════════════════╣
+║ /gsmn -tc *
+║ /gsmn -gsm *
+╠══════════════════════╣
+║ /whois -ip *
+╠══════════════════════╣
+║ /iban -no *
+╠══════════════════════╣
+║ /sms -gsm *
+║ /sms -adet *
+║ /sms -zaman *
+╠══════════════════════╣
+║ /rand
+╠══════════════════════╣
+║ HKrA'yı kullanırken;
+║ * Simgeli yerlere, 
+║ bulmak istediğiniz
+║ kişi hakkında geçerli 
+║ herhangi bir bilgiyi,
+║ girmeniz gereklidir.
+╠══════════════════════╣
+║ /sorgu -tc 12345678901
+╚══════════════════════╝

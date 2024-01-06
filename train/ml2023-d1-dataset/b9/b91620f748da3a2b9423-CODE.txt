@@ -1,0 +1,1 @@
+'тройник НР'.toLowerCase().split(' ').every(it => rowValue.includes(it))

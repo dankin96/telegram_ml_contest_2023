@@ -1,0 +1,1 @@
+A: ARRAY [0..5] of MyType;

@@ -1,0 +1,3 @@
+javascript
+const str = "Salom";
+console.log(str.length); // 5

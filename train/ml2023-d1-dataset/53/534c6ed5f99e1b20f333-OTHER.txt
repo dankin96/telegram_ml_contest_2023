@@ -1,0 +1,7 @@
+v10.1.1.1 (20470) Play Store en
+samsung SM-A536E android 13
+ROM: TP1A.220624.014.A536EXXU4BVK1
+Performance: HIGH
+Cache: 325.4 MB
+Database: 317.6 MB
+Free: 143.65 G

@@ -1,0 +1,5 @@
+QRegularExpression macRegex;
+QString str;
+macRegex.setPattern("^([0-9a-fA-F]{2}[:]){5}([0-9a-fA-F]{2})$");
+...
+bool x = str.contains(macRegex);

@@ -1,0 +1,6 @@
+local args = {
+    [1] = 15035836285,
+    [2] = false
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BloxbizRemotes"):WaitForChild("CatalogOnPromptPurchase"):InvokeServer(unpack(args))

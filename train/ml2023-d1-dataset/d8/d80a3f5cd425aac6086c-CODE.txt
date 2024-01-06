@@ -1,0 +1,31 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(void) {
+ // Lets make an integer array containing some values
+ int intArray[5] = { 1, 2, 3, 4, 5 };
+ // define a node struct
+ typedef struct node {
+  // define previous and next pointer
+  struct node *previous;
+  struct node *next;
+  int value;
+ } node;
+ // set list to null
+ node *list = NULL;
+ for (i = 0; i < 5; i++) {
+  // Allocate mem address
+  node *ptr = malloc(sizeof(node));
+  // DO not even 
+  if (ptr == NULL) {
+   return 1;
+  }
+  // if memory allocation success then
+  ptr->value = intArray[i];
+  // now lets copy current pointers address to the list
+  ptr->previous = list;
+  if (i != 0) {
+   list->next = ptr;
+  }
+  list = ptr;
+ }
+}

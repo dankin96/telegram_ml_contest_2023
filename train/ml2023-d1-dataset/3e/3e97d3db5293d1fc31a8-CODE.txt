@@ -1,0 +1,87 @@
+import time
+from telethon.sync import TelegramClient
+from termcolor import colored
+
+# Аккаунты
+accounts = [
+    {
+        "api_hash": "38bd7b20ca0b22550a14cf17dcdd94f8",
+        "api_id": 22451632,
+        "phone_number": "+79277060949",
+    },
+    {
+        "api_hash": "dcb6f6d3a53a7577746df64be15138ed",
+        "api_id": 29325508,
+        "phone_number": "+79966223356",
+    }
+]
+
+def send_message_with_retry(client, chat, message):
+    while True:
+        try:
+            client.send_message(chat, message)
+            return True
+        except Exception as e:
+            error_message = str(e)
+            if "не на нашей стороне" in error_message or "ошибка" in error_message:
+                time.sleep(60)
+            elif "дневного лимита" in error_message:
+                return False
+            else:
+                raise e
+
+def process_text(client, chat, bot, text):
+    chat_name = "https://t.me/jrkdpwpxmmtpepe"
+    chat = client.get_entity(chat_name)
+
+    group_messages = client.get_messages(chat, limit=1)
+    text = group_messages[0].text
+
+    bot_username = "@EdyaAIrobot"
+    bot = client.get_entity(bot_username)
+    formatted_text = f"**Раздели на абзацы**, **выдели главные слова жирным шрифтом** и **обозначив их в двойных звездочках** (**)**,
+**исправь ошмбки**
+
+{text}"
+    client.send_message(bot, formatted_text, parse_mode="markdown")
+
+    while True:
+        time.sleep(45)
+        bot_messages = client.get_messages(bot, limit=1)
+        
+        if bot_messages:
+            bot_text = bot_messages[0].text
+            if bot_text != "Навожу магию, секунду 🪄":
+                send_message_with_retry(client, chat, bot_text)
+
+with TelegramClient("session_name1", accounts[0]["api_id"], accounts[0]["api_hash"]) as client1:
+    if not client1.is_user_authorized():
+        client1.send_code_request(accounts[0]["phone_number"])
+        client1.sign_in(accounts[0]["phone_number"], input("Enter the code for **ААА**: "))
+
+    print(colored("Вход на аккаунт **ААА** выполнен", "green"))
+
+    with TelegramClient("session_name2", accounts[1]["api_id"], accounts[1]["api_hash"]) as client2:
+        if not client2.is_user_authorized():
+            client2.send_code_request(accounts[1]["phone_number"])
+            client2.sign_in(accounts[1]["phone_number"], input("Enter the code for **ККК**: "))
+
+        print(colored("Вход на аккаунт **ККК** выполнен", "green"))
+
+        chat_name = "https://t.me/jrkdpwpxmmtpepe"
+        chat = client1.get_entity(chat_name)
+
+        bot_username = "@EdyaAIrobot"
+        bot = client1.get_entity(bot_username)
+
+        processed_messages = set()
+
+        while True:
+            time.sleep(45)
+
+            group_messages = client1.get_messages(chat, limit=1)
+            text = group_messages[0].text
+
+            if text not in processed_messages:
+                process_text(client1, chat, bot, text)
+                processed_messages.add(text)

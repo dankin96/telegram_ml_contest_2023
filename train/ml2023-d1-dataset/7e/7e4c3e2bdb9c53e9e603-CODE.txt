@@ -1,0 +1,10 @@
+
+type Report = {
+  info: {
+    reportNumber: '2' | '3' | '4';
+  };
+  result: 
+    | RepTwo 
+    | RepThree 
+    | RepFour;
+}

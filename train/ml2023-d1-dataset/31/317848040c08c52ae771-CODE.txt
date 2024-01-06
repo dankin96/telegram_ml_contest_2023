@@ -1,0 +1,5 @@
+const object = { name: "Xurshid", yoshi: 22 };
+
+delete object.name;
+
+console.log(object);

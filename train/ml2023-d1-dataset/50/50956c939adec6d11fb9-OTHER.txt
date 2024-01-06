@@ -1,0 +1,10 @@
+
+defaults: &defaults
+  sites:
+    - www.foo.com
+    - www.bar.com
+     
+setup1:
+  <<: *defaults
+  sites+:
+    - www.baz.com

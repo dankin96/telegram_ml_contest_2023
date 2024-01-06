@@ -1,0 +1,15 @@
+[
+    {
+       "title": "Classic",
+       "description": "Default visual config",
+       "media": "/media_optimized/V952.jpg",
+       "author": "V952",
+       "steamurl": "",
+       "contributerole": "v952",
+       "downloadid": "1",
+       "tabstyle": "v952__tabstyle",
+       "colorstyle": "v952__color",
+       "tag": ""
+    }
+]
+

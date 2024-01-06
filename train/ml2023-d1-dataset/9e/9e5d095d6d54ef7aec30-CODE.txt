@@ -1,0 +1,12 @@
+// Define table columns
+    function get_columns()
+    {
+        $columns = array(
+                'cb'            => '<input type="checkbox" />',
+                'name'          => __('Name', 'supporthost-cookie-consent'),
+                'description'         => __('Description', 'supporthost-cookie-consent'),
+                'status'   => __('Status', 'supporthost-cookie-consent'),
+                'order'        => __('Order', 'supporthost-cookie-consent')
+        );
+        return $columns;
+    }

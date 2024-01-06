@@ -1,0 +1,4 @@
+{ "<C-l>", "<cmd>BufferLineCycleNext<cr>", "Next Tab" },
+{ "<C-h>", "<cmd>BufferLineCyclePrev<cr>", "Previous Tab" },
+{ "<C-b>", "<cmd>BufferLinePick<cr>", "Pick Tab" },
+{ "<leader>b", "<cmd>BufferLinePickClose<cr>", "Pick Tab to Close" },

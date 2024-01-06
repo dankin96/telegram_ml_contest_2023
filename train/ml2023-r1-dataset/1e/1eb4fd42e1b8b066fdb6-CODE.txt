@@ -1,0 +1,5 @@
+kql
+DeviceTvmSoftwareInventory 
+| where SoftwareType == "Update"
+| where ProductName contains "Windows" 
+| project DeviceId, SoftwareName, InstalledVersion

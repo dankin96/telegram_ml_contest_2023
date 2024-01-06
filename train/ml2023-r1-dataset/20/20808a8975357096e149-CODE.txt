@@ -1,0 +1,13 @@
+[dnsserver]
+windns ansible_host=192.168.57.137
+
+[dnsserver:vars]
+# ansible_user= "Administrator"
+#### ====== user's Domain name must be in uppercase============
+ansible_user= "ansible-dns-user@EXAMPLE.COM"
+## ansible_password= "SecretPassword"
+ansible_port= "5986"
+ansible_connection= "winrm"
+ansible_winrm_transport= "kerberos"
+# ansible_winrm_transport= "basic"
+ansible_winrm_server_cert_validation= ignore

@@ -1,0 +1,9 @@
+Market Capitalization $:     1.09T 
+24h Volume            $:    26.26B 
+BTC Dominance          :    49.80% 
+ETH Dominance          :    18.06% 
+
+Stablecoin Market Cap $:   121.27B 
+Stablecoin Volume     $:    24.52B 
+DeFi Market Cap       $:    41.57B 
+DeFi Volume           $:     2.43B 

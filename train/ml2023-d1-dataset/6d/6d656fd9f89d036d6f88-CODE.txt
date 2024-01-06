@@ -1,0 +1,21 @@
+Console.WriteLine(TimeZoneInfo.Local.StandardName);
+
+var currentTime = new DateTime(2023, 10, 6, 0, 0, 0, DateTimeKind.Local);
+AddMonthsAndShowAsOffset(currentTime, 1);
+AddMonthsAndShowAsOffset(currentTime, 6);
+
+static void AddMonthsAndShowAsOffset(DateTime currentTime, int months)
+{
+    var time1 = currentTime.AddMonths(months);
+    var timeOffset1 = (DateTimeOffset)time1;
+    Console.WriteLine(timeOffset1);
+
+    var time2 = currentTime;
+    var timeOffset2 = (DateTimeOffset)time2;
+    timeOffset2 = timeOffset2.AddMonths(months);
+    Console.WriteLine(timeOffset2);
+}
+
+
+
+

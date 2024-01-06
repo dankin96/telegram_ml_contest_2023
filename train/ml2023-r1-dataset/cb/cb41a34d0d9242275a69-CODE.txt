@@ -1,0 +1,45 @@
+def is_prime(number):
+    """
+    Функция для проверки, является ли число простым.
+
+    Аргументы:
+    number (int): Проверяемое число.
+
+    Возвращает:
+    bool: True, если число простое, и False в противном случае.
+    """
+    if number <= 1:
+        return False
+    elif number <= 3:
+        return True
+    elif number % 2 == 0 or number % 3 == 0:
+        return False
+    i = 5
+    while i * i <= number:
+        if number % i == 0 or number % (i + 2) == 0:
+            return False
+        i += 6
+    return True
+
+def generate_primes(limit):
+    """
+    Генератор простых чисел до указанного лимита.
+
+    Аргументы:
+    limit (int): Верхний предел для генерации простых чисел.
+
+    Возвращает:
+    list: Список простых чисел.
+    """
+    primes = [2, 3]  # Начальные простые числа
+    prime = 3
+    while prime < limit:
+        prime += 2  # Переходим к следующему нечётному числу
+        if is_prime(prime):
+            primes.append(prime)
+    return primes
+
+# Пример использования генератора:
+limit = 50  # Задаем верхний предел
+prime_list = generate_primes(limit)
+print(prime_list)

@@ -1,0 +1,16 @@
+ID L/S    Pair             Since    Profit (USD)     # Entries
+--------  ---------------  -------  ---------------  -----------
+97 S      ADA/USDT:USDT    30 min   -16.53% (-4.13)  5/21
+101 S     CRV/USDT:USDT    19 min   -10.00% (-1.00)  2/21
+102 S     STMX/USDT:USDT   18 min   -2.29% (-0.11)   1/21
+103 S     BNT/USDT:USDT*   18 min   -36.52% (-9.10)  5/21
+106 S     OP/USDT:USDT     11 min   0.57% (0.08)     3/21
+107 S     DOT/USDT:USDT    8 min    -3.17% (-0.48)   3/21
+108 S     ETH/USDT:USDT    8 min    -4.86% (-0.97)   4/21
+111 S     HIFI/USDT:USDT   4 min    -1.20% (-0.06)   1/21
+112 S     APE/USDT:USDT    4 min    -4.00% (-0.20)   1/21
+115 S     RNDR/USDT:USDT   1 min    1.22% (0.06)     1/21
+116 S     MATIC/USDT:USDT  1 min    -4.00% (-0.20)   1/21
+117 S     LINK/USDT:USDT*  1 min    0.00 (0.00)      0/21
+--------  ---------------  -------  ---------------  -----------
+Total                               -16.10 USD

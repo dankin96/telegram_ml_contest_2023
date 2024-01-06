@@ -1,0 +1,7 @@
+local password = io.read() -- Nhập mật khẩu từ người dùng
+
+if password == "admin" then -- Kiểm tra mật khẩu có phải là "admin" hay không
+    print("Đăng nhập thành công!") -- Nếu đúng thì in ra thông báo thành công
+else
+    print("Đăng nhập thất bại! Vui lòng thử lại.") -- Nếu sai thì in ra thông báo thất bại
+end

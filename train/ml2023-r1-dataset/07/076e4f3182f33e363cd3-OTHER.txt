@@ -1,0 +1,18 @@
+        5118  66% + redisplay_internal (C function)
+         988  12%   Automatic GC
+         965  12% + ac-handle-post-command
+         235   3% + command-execute
+         160   2% + jit-lock--antiblink-post-command
+         133   1% + timer-event-handler
+          75   0% + ac-handle-pre-command
+          17   0% + evil-repeat-pre-hook
+           8   0% + global-hl-line-highlight
+           6   0%   clear-minibuffer-message
+           5   0% + undo-auto--add-boundary
+           5   0% + dimmer-command-handler
+           4   0%   internal-echo-keystrokes-prefix
+           4   0% + evil--jump-hook
+           3   0% + internal-timer-start-idle
+           1   0%   tooltip-hide
+           1   0%   evil--jump-handle-buffer-crossing
+           0   0%   ...

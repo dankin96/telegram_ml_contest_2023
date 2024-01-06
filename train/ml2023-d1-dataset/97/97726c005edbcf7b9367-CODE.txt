@@ -1,0 +1,2 @@
+ALTER TABLE `obj_item_preco`
+  ADD COLUMN `short_url_id` INT(11) UNSIGNED NULL DEFAULT NULL AFTER `obj_loja_id`;

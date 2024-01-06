@@ -1,0 +1,17 @@
+
+const cssModuleHMR = () => {
+  return {
+    enforce: 'post',
+    name: 'css-module-hmr',
+    apply: 'serve',
+    handleHotUpdate(context) {
+      const { modules } = context
+
+      modules.forEach((module) => {
+        if (module.id.includes('.module.scss')) {
+          module.isSelfAccepting = true
+        }
+      })
+    }
+  }
+}

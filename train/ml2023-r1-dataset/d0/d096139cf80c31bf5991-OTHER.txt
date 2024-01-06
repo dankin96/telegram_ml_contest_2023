@@ -1,0 +1,2 @@
+— Various UI improvements
+This minor update is almost completely done by Dmitry. Huge kudos to comrade!

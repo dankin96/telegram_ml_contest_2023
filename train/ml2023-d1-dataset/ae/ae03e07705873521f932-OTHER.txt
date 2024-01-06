@@ -1,0 +1,6 @@
+Host:     monitaz.com
+Alias:    monitaz.com
+Address:  123.30.186.227
+Service:  ids.monitaz.com
+Event:    OK -> CRIT
+Output:   (Service Check Timed Out)

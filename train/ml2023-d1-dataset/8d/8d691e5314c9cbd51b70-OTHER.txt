@@ -1,0 +1,1 @@
+Matching Engine: The core of an exchange is its matching engine — the technology that matches a buy order and a sell order against a bid and ask price to generate a trade. This trade price (LTP) and open orders are streamed to brokers who use this to feed their trading platforms (marketwatch, charts, etc.).

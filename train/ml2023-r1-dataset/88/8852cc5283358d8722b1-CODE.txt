@@ -1,0 +1,16 @@
+
+query {
+  transactions(
+    tags: [
+      {name: "Description", values: ["Test"]},
+    ]
+  ) {
+    pageInfo {hasNextPage}
+    count
+       edges {
+            node {
+                id
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "text": "Интеллектуальные способности Карины Багирян",
+    "ai_result": {
+        "flagged": false,
+        "categories": {
+            "sexual": false,
+            "hate": false,
+            "harassment": false,
+            "self-harm": false,
+            "sexual\/minors": false,
+            "hate\/threatening": false,
+            "violence\/graphic": false,
+            "self-harm\/intent": false,
+            "self-harm\/instructions": false,
+            "harassment\/threatening": false,
+            "violence": false
+        },
+        "category_scores": {
+            "sexual": 0.00036492908839136362,
+            "hate": 0.00079418421955779195,
+            "harassment": 0.0012884499737992883,
+            "self-harm": 2.2548083506990224e-6,
+            "sexual\/minors": 2.7035635866923258e-5,
+            "hate\/threatening": 8.9272427430842072e-5,
+            "violence\/graphic": 8.0253457781509496e-6,
+            "self-harm\/intent": 2.8676626584456244e-7,
+            "self-harm\/instructions": 4.5963206503074616e-6,
+            "harassment\/threatening": 5.7040215324377641e-5,
+            "violence": 0.00015523676120210439
+        }
+    },
+    "time_stamp": "2023-10-10 16:45:01"
+}

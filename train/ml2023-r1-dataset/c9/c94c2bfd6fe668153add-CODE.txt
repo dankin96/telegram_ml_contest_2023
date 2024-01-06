@@ -1,0 +1,1 @@
+{"payTypes":["Advcash"],"amountavailable":1000}

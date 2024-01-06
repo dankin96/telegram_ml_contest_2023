@@ -1,0 +1,38 @@
+abstract class BaseViewModel<State, Event, Effect>(initialState: State) : ViewModel() {
+
+    private val _state = mutableStateOf(initialState)
+    val state: androidx.compose.runtime.State<State> get() = _state
+
+    private val _effect: Channel<Effect> = Channel()
+    val effect = _effect.receiveAsFlow()
+
+    private val _event = MutableSharedFlow<Event>()
+
+    init {
+        viewModelScope.launch { _event.collect(::handleEvents) }
+    }
+
+    private val mutex: Mutex = Mutex()
+
+    protected suspend fun setState(reducer: State.() -> State) {
+        mutex.withLock {
+            _state.value = state.value.reducer()
+            Log.d(
+                "SET_STATE", "${reducer.javaClass.name}
+" +
+                        _state.value.toString()
+            )
+        }
+    }
+
+
+    fun setEvent(event: Event) {
+        viewModelScope.launch { _event.emit(event) }
+    }
+
+    abstract fun handleEvents(event: Event)
+
+    protected fun setEffect(builder: () -> Effect) {
+        viewModelScope.launch { _effect.send(builder()) }
+    }
+}

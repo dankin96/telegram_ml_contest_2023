@@ -1,0 +1,47 @@
+$(document).on('click', '#showMore', function () {
+      var btn = $(this);
+      var url = btn.data('url');
+      var page = parseInt(btn.attr('data-page'));
+      var pageTotal = parseInt(btn.attr('data-pageTotal'));
+      var items =
+        $('.l-orders').length > 0
+          ? $('.orders-tab.orders-tab--active')
+          : $('.listing');
+
+      btn.hide();
+      $spinnerBubble.appendTo(btn.parent());
+      $.post(
+        url,
+        { page: page },
+        function (data) {
+          var paginationButton = $('.pagination__page').find(
+            '[data-page="' + page + '"]'
+          );
+
+          if (window.checkHost()) {
+            history.pushState(
+              { page: page },
+              '',
+              location.pathname + '?ajaxPage=' + page
+            );
+          }
+
+          $(items).append(data);
+          window.lazyLoad && window.lazyLoad.update();
+          if (page !== pageTotal) {
+            btn.show();
+          } else {
+            $('.pagination__arrow--right').hide();
+          }
+          document.getElementById('showMore').dataset.page = page + 1;
+          if (paginationButton) {
+            paginationButton.parent('li').addClass('current disabled');
+            paginationButton.parent('li').html('<span>' + page + '</span>');
+          }
+          $spinnerBubble.remove();
+        },
+        'html'
+      ).then(() => {
+        window.porductMobileList();
+      });
+    });

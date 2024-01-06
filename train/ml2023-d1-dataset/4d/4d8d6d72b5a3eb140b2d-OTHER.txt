@@ -1,0 +1,5 @@
+When they register:                   ⁨1 ETB⁩
+When they play their first bet:       ⁨1 ETB⁩
+When they make their first deposit:  ⁨5 ETB⁩
+
+

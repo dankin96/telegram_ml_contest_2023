@@ -1,0 +1,28 @@
+Exchange IDEXBTC 1h Binance
+Price:0.00000167|0.00000166|0.00000166
+Vol:    19,007|   2,163|   1,043
+ATR: 0.00000001
+
+✅OBV: 315.8 K| 296.8 K| 296.8 K
+⚪RSI:   56.17|   48.76|   48.76
+⚪MFI:   62.22|   61.73|   45.02
+⚪CCI:  132.51|   25.23|   30.30
+⚪WR%:   -0.00|   -0.00|   -0.00
+⚪ADX:    22.57|   23.84|   23.93
+
+⚪MOM: No Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+✅PSAR: Bullish
+
+Volatility is average
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

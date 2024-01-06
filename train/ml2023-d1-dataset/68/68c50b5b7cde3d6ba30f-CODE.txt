@@ -1,0 +1,2 @@
+type TDayTime = (dMorning, dDay, dEvening, dNight);
+const Names : array [TDayTime] of string = ('Morning', 'Day', 'Evening', 'Night');

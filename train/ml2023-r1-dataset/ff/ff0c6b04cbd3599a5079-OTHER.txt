@@ -1,0 +1,4 @@
+<<<IDENTIFIER
+String content
+IDENTIFIER;
+

@@ -1,0 +1,4 @@
+| Ticker   | SPY    |
+| Price    | 421.52 |
+| Action   | sell   |
+| Position | short  |

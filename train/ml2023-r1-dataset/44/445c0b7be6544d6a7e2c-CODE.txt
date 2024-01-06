@@ -1,0 +1,10 @@
+
+class Bot(CustomStr, models.Model):
+    name = models.CharField(max_length=255, verbose_name='Название бота',
+                            help_text='Используется только Вами, пользователи его не видят')
+    token = models.CharField(max_length=255, verbose_name='Token', help_text='Токен из BotFather')
+    status = models.BooleanField(default=False, verbose_name='Включен')
+
+    class Meta:
+        verbose_name = 'Бот'
+        verbose_name_plural = 'Боты'

@@ -1,0 +1,5 @@
+Status: Unable to connect
+Error reason: Failed DNS Lookup Check
+Error code: CF_DNS_LOOKUP_FAILURE
+Error description: Could not connect because of DNS lookup failure.
+Learn more: https://cfl.re/CF_DNS_LOOKUP_FAILURE

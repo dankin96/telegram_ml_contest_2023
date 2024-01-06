@@ -1,0 +1,7 @@
+👀 SPAM Score detected:
+###
+
+###
+
+Reason: Причина: спам
+Action: Warns

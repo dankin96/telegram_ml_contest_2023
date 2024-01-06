@@ -1,0 +1,2 @@
+ByteBody, _ := ioutil.ReadAll(c.Request.Body)
+c.Request.Body = ioutil.NopCloser(bytes.NewBuffer(ByteBody))

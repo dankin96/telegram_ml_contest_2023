@@ -1,0 +1,16 @@
+def contact(request):
+    if request.POST:
+        data = UserMessageForms(request.POST)
+        if data.is_valid():
+            name = request.POST.get('user_name')
+            email = request.POST.get('email')
+            text = request.POST.get('message')
+            phone_num = request.POST.get('phone_num')
+            if name and email and text:
+                message = f"👤 Name: {name}
+📥 Email: {email}
+💬  Phone: {phone_num} Text: {text}"                send_message(1038185913, message)
+
+            data.save()
+        return redirect('index')
+    return render(request, 'contact.html')

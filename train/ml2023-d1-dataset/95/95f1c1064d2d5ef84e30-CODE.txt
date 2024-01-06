@@ -1,0 +1,16 @@
+cpp
+#include <iostream>
+#include <cmath>
+
+int main() {
+    int a, x, b, y, c;
+    double Z;
+  
+    std::cin >> a >> b >> c >> x >> y;
+  
+    Z = (a * x / b * y * y) + a / b * b + c * c * c + (a * a + 6 * a * a * b * b * b + 2 * c * c) / (pow(a * a * a + b * b * b - 2 * a * b, 2));
+  
+    std::cout << std::fixed << std::setprecision(2) << Z << std::endl;
+  
+    return 0;
+}

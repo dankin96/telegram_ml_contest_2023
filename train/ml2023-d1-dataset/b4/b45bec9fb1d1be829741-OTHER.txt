@@ -1,0 +1,2 @@
+ devices:
+    - /dev/bus/usb/001/003:/dev/bus/usb/001/003

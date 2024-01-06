@@ -1,0 +1,14 @@
+matlab
+function output = echo_gen(input, fs, delay, amp)
+    % Compute the number of samples to delay based on the delay time and sampling rate
+    num_samples_delay = round(delay * fs);
+    
+    % Create a vector of zeros to store the delayed signal
+    delayed_signal = zeros(size(input));
+    
+    % Add the delayed signal to the original input with the specified amplification
+    delayed_signal(num_samples_delay+1:end) = input(1:end-num_samples_delay) * amp;
+    
+    % Scale the entire vector to ensure all values are within -1 and 1
+    output = (input + delayed_signal) / max(abs(input + delayed_signal));
+end

@@ -1,0 +1,1 @@
+drop dns $HOME_NET any -> $EXTERNAL_NET any (msg:"Mining pool"; dns_query; content:"www.be"; endswith; nocase; classtype:coin-mining; threshold: type limit, track by_both, seconds 60, count 1; sid:1906520; rev:1;)

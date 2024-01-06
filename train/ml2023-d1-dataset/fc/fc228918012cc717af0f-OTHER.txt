@@ -1,0 +1,60 @@
+🚜 GOJEKD10      10.100
+Top Up Driver Go-jek   10.000
+🚜 GOJEKD15      15.100
+Top Up Driver Go-jek   15.000
+🚜 GOJEKD20      20.100
+Top Up Driver Go-jek   20.000
+🚜 GOJEKD25      25.100
+Top Up Driver Go-jek   25.000
+🚜 GOJEKD30      30.100
+Top Up Driver Go-jek   30.000
+🚜 GOJEKD35      35.100
+Top Up Driver Go-jek   35.000
+🚜 GOJEKD40      40.100
+Top Up Driver Go-jek   40.000
+🚜 GOJEKD45      45.100
+Top Up Driver Go-jek   45.000
+🚜 GOJEKD50      50.100
+Top Up Driver Go-jek   50.000
+🚜 GOJEKD55      55.100
+Top Up Driver Go-jek   55.000
+🚜 GOJEKD60      60.100
+Top Up Driver Go-jek   60.000
+🚜 GOJEKD65      65.100
+Top Up Driver Go-jek   65.000
+🚜 GOJEKD70      70.100
+Top Up Driver Go-jek   70.000
+🚜 GOJEKD75      75.100
+Top Up Driver Go-jek   75.000
+🚜 GOJEKD80      80.100
+Top Up Driver Go-jek   80.000
+🚜 GOJEKD85      85.100
+Top Up Driver Go-jek   85.000
+🚜 GOJEKD90      90.100
+Top Up Driver Go-jek   90.000
+🚜 GOJEKD95      95.100
+Top Up Driver Go-jek   95.000
+🚜 GOJEKD100    100.100
+Top Up Driver Go-jek  100.000
+🚜 GOJEKD150    150.100
+Top Up Driver Go-jek  150.000
+🚜 GOJEKD200    200.100
+Top Up Driver Go-jek  200.000
+🚜 GOJEKD250    250.100
+Top Up Driver Go-jek  250.000
+🚜 GOJEKD300    300.100
+Top Up Driver Go-jek  300.000
+🚜 GOJEKD500    500.100
+Top Up Driver Go-jek  500.000
+🚜 GOJEKD600    600.100
+Top Up Driver Go-jek  600.000
+🚜 GOJEKD700    700.100
+Top Up Driver Go-jek  700.000
+🚜 GOJEKD800    800.100
+Top Up Driver Go-jek  800.000
+🚜 GOJEKD900    900.100
+Top Up Driver Go-jek  900.000
+🚜 GOJEKD1000 1.000.100
+Top Up Driver Go-jek 1.000.000
+
+

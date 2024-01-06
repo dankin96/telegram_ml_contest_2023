@@ -1,0 +1,5 @@
+Contract: BLZUSDT
+Price: $0.1357
+24H High: $0.13576
+24H Low: $0.13537
+24H Volume: 96530433.0 BLZ

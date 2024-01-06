@@ -1,0 +1,7 @@
+jail_app1()
+{
+        ip4_addr="DHCP"
+        host_hostname="${jname}.my.domain"
+        pkg_bootstrap=1
+        ver="13.2"
+}

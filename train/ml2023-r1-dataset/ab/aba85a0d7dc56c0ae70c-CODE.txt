@@ -1,0 +1,7 @@
+POST  /scripts/{id}/execute
+POST  /scripts/{id}:execute
+POST  /scripts/{id}/executions/execute
+// здесь и ниже пытаемся уйти от использования глагола
+POST  /scripts/{id}?action=execute     
+POST  /executed-scripts/{id}
+

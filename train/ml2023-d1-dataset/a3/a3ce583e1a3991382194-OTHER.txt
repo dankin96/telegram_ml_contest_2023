@@ -1,0 +1,3 @@
+root@openipc-t31:~# majestic
+Error relocating /usr/lib/libalog.so: __ctype_tolower: symbol not found
+Error relocating /usr/lib/libalog.so: __ctype_b: symbol not found

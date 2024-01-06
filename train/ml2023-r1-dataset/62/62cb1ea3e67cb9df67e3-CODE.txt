@@ -1,0 +1,9 @@
+sudo() { command sudo "$@"; }
+unsudo() { 
+  if alias sudo >/dev/null 2>&1; then
+    declare -rg PS1="WARNING: $(alias sudo)
+$PS1"
+    declare -rg PS0= PS2= PS3= PS4=
+    unalias sudo
+  fi
+}

@@ -1,0 +1,8 @@
+
+
+*timestamp:2023-10-11 11:15:25,219
+*log-level:ERROR
+*classpath: j.c.g.error.GlobalExceptionHandler http-nio-8083-exec-7
+*exception: handleBusinessException
+*multilineException: jumpit.db.entity.user.exceptions.ResumeNotFoundException: member:172731is not found
+*service: user1.jumpit.host

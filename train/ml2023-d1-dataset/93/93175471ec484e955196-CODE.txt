@@ -1,0 +1,16 @@
+if password is not None:
+            if not isinstance(password, str) or len(password) > 512:
+                raise SynapseError(400, "Invalid password")
+            self.password_policy_handler.validate_password(password)
+
+        if "initial_device_display_name" in body and password is None:
+            # ignore 'initial_device_display_name' if sent without
+            # a password to work around a client bug where it sent
+            # the 'initial_device_display_name' param alone, wiping out
+            # the original registration params
+            logger.warning("Ignoring initial_device_display_name without password")
+            del body["initial_device_display_name"]
+
+        session_id = self.auth_handler.get_session_id(body)
+        registered_user_id = None
+        password_hash = None

@@ -1,0 +1,8 @@
+http://apps.moh.gov.ps/phc3/ajax/chronic/ncdnursingdetailedreport.php?phcid=&patientid=&name=&from=10/10/2023&to=10/10/2023&step=export
+http://apps.moh.gov.ps/phc3/ajax/chronic/chronicpatientreport.php?districtid=&phcid=&patientid=&name=&diagnosis=&complications=&drugid=&risk=&openfilefrom=&openfileto=&dateoperation=&lastvisitdate=&step=export
+http://apps.moh.gov.ps/phc3/ajax/mental/mentalscreeningdetailedreport.php?phcid=&patientid=&name=&from=09/10/2000&to=09/10/2023&step=export
+http://apps.moh.gov.ps/phc3/ajax/child/hgbreport.php?districtid=undefined&phcid=&patientid=&name=&from=09/10/2022&to=09/10/2023&step=export
+http://apps.moh.gov.ps/phc3/ajax/chronic/screeningdetailedreport.php?phcid=&visittype=&patientid=&name=&from=09/06/2023&to=09/10/2023&step=export
+http://apps.moh.gov.ps/phc3/pages/nursing/nursingmonthlyrptprint.php?phccenter=&phcname=&from=09/10/2010&to=09/10/2023
+http://apps.moh.gov.ps/phc3/ajax/nursing/emergencydetailedreport.php?phcid=&nursingservice=&patientid=&name=&from=09/10/2010&to=09/10/2023&step=export
+http://apps.moh.gov.ps/phc3/ajax/nursing/nursingdetailedreport.php?phcid=&nursingservice=&route=&patientid=&name=&from=09/10/2010&to=09/10/2023&step=export

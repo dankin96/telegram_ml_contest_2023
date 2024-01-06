@@ -1,0 +1,6 @@
+const BencodeResult = union(enum) {
+    Int: i32,
+    Bytes: []const u8,
+    List: std.ArrayListUnmanaged(BencodeResult),
+    Dict: std.StringHashMapUnmanaged(BencodeResult),
+};

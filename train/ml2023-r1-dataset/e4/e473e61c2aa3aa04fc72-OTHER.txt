@@ -1,0 +1,2 @@
+> hyprland-git-0.30.0.r59.3d1a1679-1-x86_64.pkg.tar.zst
+> hyprland-git-0.30.0.r59.3d1a1679-1-x86_64.pkg.tar.zst.sig

@@ -1,0 +1,10 @@
+        var scope = application.Services.CreateScope();
+        var dataContext = scope.ServiceProvider.GetService<StatDataContext>();
+        if (dataContext is null)
+        {
+            Log.Error("Data Context not found");
+            Environment.Exit(1);
+        }
+
+        await dataContext?.Database.MigrateAsync()!;
+        scope.Dispose();

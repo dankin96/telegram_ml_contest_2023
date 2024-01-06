@@ -1,0 +1,3 @@
+ Low:  15 Gwei
+ Avg:  15 Gwei
+ Fast: 18 Gwei

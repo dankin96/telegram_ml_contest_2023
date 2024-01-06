@@ -1,0 +1,8 @@
+Uncaught ReflectionException: Class "view" does not exist in /var/www/app/vendor/laravel/framework/src/Illuminate/Container/Container.php:889
+Stack trace:
+#0 /var/www/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(889): ReflectionClass->__construct('view')
+#1 /var/www/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(770): Illuminate\Container\Container->build('view')
+#2 /var/www/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(856): Illuminate\Container\Container->resolve('view', Array, true)
+#3 /var/www/app/vendor/laravel/framework/src/Illuminate/Container/Container.php(706): Illuminate\Foundation\Application->resolve('view', Array)
+#4 /var/www/app/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(841): Illuminate\Container\Container->make('view', Array)
+#5 /var/www/app/vendor/laravel/framework/src/Illuminate/Container/Cont...

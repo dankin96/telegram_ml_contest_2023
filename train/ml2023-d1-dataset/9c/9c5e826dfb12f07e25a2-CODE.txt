@@ -1,0 +1,1 @@
+COMPILE_TIME_ASSERT( sizeof(long) == sizeof(int) );

@@ -1,0 +1,3 @@
+var img_path = note.mother_dir + "/images/" + note.title + ".png"
+if img_path.exists:
+  print("![[img_path]]")

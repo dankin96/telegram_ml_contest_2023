@@ -1,0 +1,32 @@
+
+# ---> lr.w/d.aq?.rl? rd, (rs1)
+sd scratch1, [scratch_1_slot]
+fence rl?
+ld rd, 0(rs1)
+fence aq?
+sd rs1, [tls_lrsc_addr]
+li scratch1, SIZE
+sd scratch1, [tls_lrsc_size]
+sd rd, [tls_lrsc_value]
+ld scratch1, [scratch_1_slot]
+
+
+# ---> sc.w/d.aq?.rl? rd, rs2, (rs1)
+sd scratch1, [scratch_1_slot]
+sd scratch2, [scratch_2_slot]
+ld scratch1, [tls_lrsc_addr]
+bne scratch1, rs1, fail
+ld scratch1, [tls_lrsc_size]
+li scratch2, SIZE
+bne scratch1, scratch2, fail
+amoswap.aq?.rl? rd, rs2, (rs1)
+sne rd, rd, value
+j finally
+fail:
+fence aq?rl?
+li rd, 1
+finally:
+li scratch1, -1
+sd scratch1, [tls_lrsc_addr]
+ld scratch1, [scratch_1_slot]
+ld scratch2, [scratch_2_slot]

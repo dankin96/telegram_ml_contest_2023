@@ -1,0 +1,5 @@
+
+Fast-forward
+ PyroUbot/config.py              | 4 ++--
+ PyroUbot/core/helpers/client.py | 2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)

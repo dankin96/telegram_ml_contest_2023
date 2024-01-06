@@ -1,0 +1,2 @@
+multiplier :: Int
+multiplier = if execute userInt == 3 then 3 else 3

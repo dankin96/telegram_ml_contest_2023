@@ -1,0 +1,3 @@
+SyntaxError: "[object Object]" is not valid JSON
+    at JSON.parse (<anonymous>)
+    at eval (userModule.js:35:1)

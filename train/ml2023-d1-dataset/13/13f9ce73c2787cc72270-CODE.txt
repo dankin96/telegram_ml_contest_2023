@@ -1,0 +1,25 @@
+from concurrent.futures import ThreadPoolExecutor
+from tqdm.contrib.concurrent import thread_map
+import tqdm
+import time
+
+# Функция, которую вы хотите выполнить в каждом потоке
+def your_function(item):
+    # Ваш код здесь
+    time.sleep(1)  # Пример задержки для наглядности
+    return item
+
+# Список элементов, которые вы хотите обработать
+items = range(10)
+
+# Создание tqdm бара с указанием общего количества итераций
+total_iterations = len(items)
+with tqdm.tqdm(total=total_iterations, desc='Processing') as pbar:
+    # Использование ThreadPoolExecutor для запуска функции в нескольких потоках
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        # Использование thread_map для выполнения функции в потоках с отображением tqdm бара
+        results = list(thread_map(your_function, items, executor=executor, desc='Thread', total=total_iterations))
+        pbar.update(total_iterations)  # Обновление tqdm бара по завершении выполнения всех потоков
+
+# Результаты обработки будут содержаться в списке results
+print(results)

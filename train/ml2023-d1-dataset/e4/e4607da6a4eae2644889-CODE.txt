@@ -1,0 +1,25 @@
+
+import telegram
+from telegram import ChatAction
+from telegram.ext import Updater, CommandHandler
+
+# 定义一个删除聊天记录的处理函数
+def delete_chat(update, context):
+    chat_id = update.effective_chat.id
+    context.bot.send_chat_action(chat_id=chat_id, action=ChatAction.TYPING)
+    context.bot.delete_message(chat_id=chat_id, message_id=update.message.message_id)
+
+# 创建一个Updater实例
+updater = Updater("YOUR_BOT_TOKEN", use_context=True)
+
+# 获取Dispatcher实例
+dispatcher = updater.dispatcher
+
+# 创建一个CommandHandler，处理/delete_chat命令
+delete_chat_handler = CommandHandler('delete_chat', delete_chat)
+
+# 为Dispatcher注册CommandHandler
+dispatcher.add_handler(delete_chat_handler)
+
+# 启动Bot
+updater.start_polling()

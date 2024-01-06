@@ -1,0 +1,26 @@
+ADDRESS:      0xdFbb2FA2BD9b1f128761580FE05581CEf26C0e2B
+PAIR:         0xe5Bb96e3baCEA73612F4D4E7489980B6a864bfd1
+NAME:         COBSON
+SYMBOL:       COB
+SUPPLY:       1000000000
+PRICE:        $0.00000616109308615
+LIQUIDITY:    $2,869
+24H CHANGE:   234%
+24H VOLUME:   $1,340
+INITIAL MC:   $1,844
+CURRENT MC:   $6,698
+ATH MC:       $6,181
+BUY TAX:      15%
+SELL TAX:     70%
+RENOUNCED:    ❌
+LP LOCKED:    ✅ Unicrypt: 100% 60.7 days
+VERIFIED:     ✅
+WHALES:       21.0392%, 2.4376%, 1.6983%, 1.6983%, 1.6983%
+
+❌❌❌❌❌ FAILED ❌❌❌❌❌
+NOT RENOUNCED
+
+🤗🤗🤗🤗🤗 SOCIALS 🤗🤗🤗🤗🤗
+https://t.me/Cobson_ERC
+https://twitter.com/COBSON_ERC
+http://Cobsonerc.xyz

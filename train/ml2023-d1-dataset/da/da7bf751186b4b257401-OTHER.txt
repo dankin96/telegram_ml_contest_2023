@@ -1,0 +1,8 @@
+Transmuter is a CosmWasm contract that allows 1:1 conversion of one asset to another by establishing a new CosmWasm pool type. 
+Transmuter V2 adds to the functionality of these pools by adding key updates: 
+
+Shares of the pool are tokenized as “Alloyed Assets”.
+Rate limits for the change in the quantity of contained assets.
+
+Pool Function
+Once instantiated with two assets, the contract functions a...

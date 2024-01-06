@@ -1,0 +1,19 @@
+import time
+
+
+class Block:
+    def __init__(self, index, timestamp, data, previous_hash):
+        self.index = index
+        self.timestamp = timestamp
+        self.data = data
+        self.previous_hash = previous_hash
+        self.hash = self.hash_block()
+ # Example
+ # index = 0
+ # timestamp = time.time()
+ # data = 'Alex'
+ # previous_hash = '4f04cb3e61f53d4d31ddd3e64af73d88db9c1518c5a7fb3b68442c00eb4346f6'
+    def hash_block(self):
+        sha = hashlib.sha256()
+        sha.update((str(self.index) + str(self.timestamp) + str(self.data) + str(self.previous_hash)).encode('utf-8'))
+        return sha.hexdigest()

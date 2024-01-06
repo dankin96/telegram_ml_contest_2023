@@ -1,0 +1,11 @@
+Background:       Dark Knight
+Skin:             Dark Knight
+Weapon:           Dark Knight
+Top:              Dark Knight
+Bottom:           Dark Knight
+Side:             Dark Knight
+Bottom Sidecart:  Dark Knight
+Side Sidecart:    Dark Knight
+1-1:              Dark Knight
+
+Rank: 5

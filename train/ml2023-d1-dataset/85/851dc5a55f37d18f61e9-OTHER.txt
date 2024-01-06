@@ -1,0 +1,2 @@
+Android divides all permissions into four protection level categories:
+

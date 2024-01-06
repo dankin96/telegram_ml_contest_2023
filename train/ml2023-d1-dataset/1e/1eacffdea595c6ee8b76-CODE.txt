@@ -1,0 +1,23 @@
+ть контролы вручную
+
+  private patchForm(form: Form, data: Data): void {
+    form.patchValue(data);
+    if (data.tags.length) {
+      data.tags.forEach((tag) => this.addTag(form.controls.tags, tag));
+    }
+    if (data.things.list.length) {
+      data.things.list.forEach((listItem, i) => {
+        const listControl = form.controls.things.controls.list;
+        this.addListItem(listControl, listItem);
+
+        const sublistControl = listControl.at(i);
+
+        if (listItem.sublist.length && sublistControl) {
+          listItem.sublist.forEach((subListItem) => {
+            this.addSublistItem(sublistControl, subListItem);
+          });
+        }
+      });
+    }
+  }
+

@@ -1,0 +1,11 @@
+ * 
+ote The memory pointed to by the returned values is owned by the
+ * database. The caller MUST not dispose of the memory, and MUST not modify it
+ * in any way regardless in a read-only nor read-write transactions!
+ * For case a database opened without the \ref MDBX_WRITEMAP modification
+ * attempts likely will cause a `SIGSEGV`. However, when a database opened with
+ * the \ref MDBX_WRITEMAP or in case values returned inside read-write
+ * transaction are located on a "dirty" (modified and pending to commit) pages,
+ * such modification will silently accepted and likely will lead to DB and/or
+ * data corruption.
+

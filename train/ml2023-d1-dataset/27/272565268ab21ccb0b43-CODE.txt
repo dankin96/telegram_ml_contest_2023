@@ -1,0 +1,4 @@
+function rollback(event) {
+    const paymentId = event.target.value;
+    confirm("Вы уверены что хотите выполнить операцию?");
+}

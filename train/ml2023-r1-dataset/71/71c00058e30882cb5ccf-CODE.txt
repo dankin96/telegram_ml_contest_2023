@@ -1,0 +1,4 @@
+$products_array = ['a' => 'aaa', 'b' => 'bbb', 'c' => 'ccc'];
+$products_string = implode(', ', $products_array);
+echo $products_string;
+//

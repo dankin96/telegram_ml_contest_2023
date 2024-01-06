@@ -1,0 +1,49 @@
+#!/bin/bash
+
+# author: pavelmc@gmail.com, CO7WT/6Y
+
+# Your serial device, you can tweak it to be a link using udev
+device=/dev/ttyUSB0
+
+# Notice
+LOG=~/.rigctld.log
+echo "===> $(date)" >> $LOG
+
+# starting rigctld for the FT-100D; do nothing if it's started
+if [ -e $device ]; then
+    echo "Interface detected!" >> $LOG
+
+    # it´ s runnig already?
+    R=$(/usr/bin/pidof rigctld)
+
+    # kill it if runnig
+    if [ "$R" ]; then
+        echo "Found runnig instance, checking if reliable..." >> $LOG
+
+        timeout -k9 5 rigctl -m 2 -r 127.0.0.1:4532 f
+        S=$?
+
+        if [ $S -ne 0 ] ; then
+            # non functional
+            echo "Instance found but not functitonal, killing it" >> $LOG
+            /usr/bin/kill -9 $R
+            R=""
+            sleep 1
+        fi
+    fi
+
+    if [ -z "$R" ] ; then
+
+        echo "Starting Rig CTL Daemon" >> $LOG
+
+        # if a diferent radio tweak this
+        /usr/bin/rigctld -vvv \
+            -m 1021 \
+            -r $device \
+            -C rts_state=Unset,dtr_state=Unset,ptt_type=DTR \
+            -T 127.0.0.1 \
+            -t 4532 >> $LOG.dev 2>&1 &
+    fi
+else
+    echo "No $device device detected" >> $LOG
+fi

@@ -1,0 +1,15 @@
+🔸 TFI10  = Indosat Transfer  10.000
+🔸 TFI15  = Indosat Transfer  15.000
+🔸 TFI20  = Indosat Transfer  20.000
+🔸 TFI25  = Indosat Transfer  25.000
+🔸 TFI30  = Indosat Transfer  30.000
+🔸 TFI40  = Indosat Transfer  40.000
+🔸 TFI50  = Indosat Transfer  50.000
+🔸 TFI60  = Indosat Transfer  60.000
+🔸 TFI70  = Indosat Transfer  70.000
+🔸 TFI80  = Indosat Transfer  80.000
+🔸 TFI90  = Indosat Transfer  90.000
+🔸 TFI100 = Indosat Transfer 100.000
+🔸 TFI150 = Indosat Transfer 150.000
+🔸 TFI200 = Indosat Transfer 200.000
+

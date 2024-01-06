@@ -1,0 +1,9 @@
+TIME : 2023-10-12T06:56:27.210Z
+DOMAIN : skycityghub.com
+UUID: f68a1def9c4f9475475d431ce0c8eb8e
+RAYID: 814d71622c866d6b-KUL
+IP: 113.211.253.173
+STATUS : 200
+URI: /op/user/betting/history?edate=2023-10-12+23%3A59%3A59&loadRefreshStatus=OFF&sdate=2023-10-12+00%3A00%3A00&size=100
+METHOD: GET
+REFFERER: https://skycityghub.com/op/user/betting/history?loadRefreshStatus=OFF&sdate=2023-10-12+00%3A00%3A00&edate=2023-10-12+23%3A59%3A59&size=100

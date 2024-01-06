@@ -1,0 +1,1 @@
+O nome da coluna 'Observação' no esquema 'ADITIVO_Schema' refere-se ao ReferencedTableName 'CONTRATO'. Essa tabela ou fatia usa RowNumber como uma chave que não é uma chave estável.

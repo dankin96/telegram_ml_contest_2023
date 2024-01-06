@@ -1,0 +1,29 @@
+import functools
+import datetime
+
+
+def profiler(func):  # type: ignore
+
+    def reset() -> None:
+        wrapper.rdepth = 0
+        wrapper.calls = 0
+
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):  # type: ignore
+        if wrapper.depth == 0:
+            reset()
+        wrapper.depth += 1
+        wrapper.calls += 1
+        wrapper.rdepth = max(wrapper.rdepth, wrapper.depth)
+        start_time = datetime.datetime.now()
+        try:
+            res = func(*args, **kwargs)
+            time_end = (datetime.datetime.now() - start_time).total_seconds()
+            wrapper.last_time_taken = time_end
+            return res
+        finally:
+            wrapper.depth -= 1
+
+    wrapper.depth = 0
+    reset()
+    return wrapper

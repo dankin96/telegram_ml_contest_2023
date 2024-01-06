@@ -1,0 +1,60 @@
+Production GATEWAY error
+
+At least 1 events occurred between 2023-10-05 04:59 UTC and 2023-10-05 08:59 UTC
+
+@timestamp: 2023-10-05T08:59:13.741Z
+@version: 1
+_id: Od4Q_4oBL0jxnycbA-FV
+_index: filebeat-2023.10.05
+_type: _doc
+agent: {
+    "ephemeral_id": "068e5c2c-57a7-4511-aafa-63fe01d8f177",
+    "hostname": "a40c1354553d",
+    "id": "b0a8a735-eeb9-44a0-98ff-eb375f64753c",
+    "type": "filebeat",
+    "version": "7.6.2"
+}
+context: {
+    "body": {
+        "maessage": "Too many requests per second"
+    },
+    "code": 500,
+    "filter_tags": [],
+    "headers": {
+        "Content-Type": [
+            "application/json"
+        ]
+    },
+    "method": "POST",
+    "url": "https://app.13chats.com/schema"
+}
+datetime: 2023-10-05 08:59:05.169723746 +0000 UTC
+ecs: {
+    "version": "1.4.0"
+}
+extra: []
+fields: {
+    "application": "13chats-gateway",
+    "env": "production",
+    "type": "response_error"
+}
+host: {
+    "name": "a40c1354553d"
+}
+input: {
+    "type": "log"
+}
+level: 500
+log: {
+    "file": {
+        "path": "/app/log/response_error_log_2023-10-05.json"
+    },
+    "offset": 2927
+}
+message: Response
+num_hits: 1
+num_matches: 1
+tags: [
+    "json_log",
+    "beats_input_codec_plain_applied"
+]

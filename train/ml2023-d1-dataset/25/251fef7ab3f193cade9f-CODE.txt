@@ -1,0 +1,1 @@
+<action application="set" data="hold_music=file_string:///foo1!{timeout=20000}local_stream://moh!file_string:///foo2!local_stream://moh"/>

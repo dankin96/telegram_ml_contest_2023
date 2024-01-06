@@ -1,0 +1,33 @@
+{
+    "text": "Какие романтическая чувства будут у Андрея Шкуратова к Карине Багирян после первой встречи?",
+    "ai_result": {
+        "flagged": false,
+        "categories": {
+            "sexual": false,
+            "hate": false,
+            "harassment": false,
+            "self-harm": false,
+            "sexual\/minors": false,
+            "hate\/threatening": false,
+            "violence\/graphic": false,
+            "self-harm\/intent": false,
+            "self-harm\/instructions": false,
+            "harassment\/threatening": false,
+            "violence": false
+        },
+        "category_scores": {
+            "sexual": 0.0034094916190952063,
+            "hate": 0.00012794729263987392,
+            "harassment": 4.7112687752814963e-5,
+            "self-harm": 2.200110316152859e-7,
+            "sexual\/minors": 0.001164622139185667,
+            "hate\/threatening": 1.9768674519582419e-6,
+            "violence\/graphic": 3.4610620787134394e-6,
+            "self-harm\/intent": 1.8563177661690133e-8,
+            "self-harm\/instructions": 4.6150265831101933e-8,
+            "harassment\/threatening": 2.8980384740862064e-6,
+            "violence": 1.5156861991272308e-5
+        }
+    },
+    "time_stamp": "2023-10-12 15:35:57"
+}

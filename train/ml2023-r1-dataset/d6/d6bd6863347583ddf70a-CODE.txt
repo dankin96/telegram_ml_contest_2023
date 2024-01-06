@@ -1,0 +1,8 @@
+ const saveImage = async (image: string) => {
+    if (!uploading) {
+      setUploading(true);
+      const imageUrl = await uploadContentImage(image);
+      setUploading(false);
+      alert(imageUrl);
+    }
+  };

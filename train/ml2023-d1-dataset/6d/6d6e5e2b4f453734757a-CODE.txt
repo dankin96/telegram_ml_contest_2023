@@ -1,0 +1,2 @@
+file = open(sytemd_path.format(file_name = name), 'w')
+file.write("""Nimadi""")

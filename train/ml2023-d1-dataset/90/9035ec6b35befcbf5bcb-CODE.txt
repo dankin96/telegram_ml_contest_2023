@@ -1,0 +1,7 @@
+expiry = 1698393600000
+strike = 28000
+calc_time = 1697100960127
+underlying_price = 26830.72
+mark_iv = 31.66 / 100
+mark_price = 0.0535
+print(mark_price * underlying_price)

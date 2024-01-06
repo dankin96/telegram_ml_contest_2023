@@ -1,0 +1,6 @@
+local from, to = rendercam.screen_to_world_ray(action.screen_x, action.screen_y, false)
+        local result = physics.raycast(from, to, { hash("default") }, { all = false })
+        if result ~= nil then
+            local r = result[1]
+            print("click:", r.id)
+        end

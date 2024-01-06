@@ -1,0 +1,1 @@
+mock_repo.tags = [MagicMock(name=tag) for tag in tags]

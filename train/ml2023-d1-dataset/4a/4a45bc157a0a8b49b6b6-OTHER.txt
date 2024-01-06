@@ -1,0 +1,5 @@
+Token: ICPUSDT
+Price: $2.9692
+24H High: $2.9783
+24H Low: $2.9178
+24H Volume: 28950.92 ICP

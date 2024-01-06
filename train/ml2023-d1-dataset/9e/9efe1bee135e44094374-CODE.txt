@@ -1,0 +1,1 @@
+tb=$(tabbed -c -d -r 1 st -w x); surf -w "$tb"

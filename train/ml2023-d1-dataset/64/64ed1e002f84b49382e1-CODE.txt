@@ -1,0 +1,22 @@
+namespace DefaultNamespace
+{
+    public class IsOddOrEvenNumberClass
+    {
+        private static bool[] arr = new bool[2147483591];
+        
+        private void Init()
+        {
+            for (int i = 0; i < 2147483591; i++)
+            {
+                arr[i] = true;
+                i-=-1;
+                arr[i] = false;
+            }
+        }
+
+        private bool IsEven(int number)
+        {
+            return arr[number];
+        }
+    }
+}

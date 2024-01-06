@@ -1,0 +1,12 @@
+SAITO - SAITO
+$0.007083949
+Network: ETH
+H|L: 0.01|0.00697261
+1h:  0.0%      😏       
+24h: 1.6%      😄       
+7d:  -5.5%     😰       
+Vol: $2.6 K
+Liq: $317.7 K
+Circ Mcap: 15.4 M
+FDV 21.3 M
+CA: 0xfa14fa6958401314851a17d6c5360ca29f74b57b

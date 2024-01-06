@@ -1,0 +1,14 @@
+╔══════════════════════╗
+║ HKrA_v2.4 / Komutlar;
+╠══════════════════════╣
+║ /whois -ip *
+╠══════════════════════╣
+║ HKrA'yı kullanırken;
+║ * Simgeli yerlere, 
+║ bulmak istediğiniz
+║ Host hakkında geçerli 
+║ herhangi bir IP/Host,
+║ girmeniz gereklidir.
+╠══════════════════════╣
+║ /WhoIs -ip 1.2.3.4
+╚══════════════════════╝

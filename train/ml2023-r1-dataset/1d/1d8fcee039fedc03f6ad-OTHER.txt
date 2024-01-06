@@ -1,0 +1,6 @@
+This doesn’t seem to fix the problem that made OpenBSD’s spamd unusable: it doesn’t check SPF records and attribute connections to valid sending domains, it uses IPs. This means that, when a GMail user sends you an email, you reject it with temporary failure and allow one of Google’s outbound IPs. Then, a bit later, Google tries to resend it from another of their IPs. You reject it, allow that IP, and repeat. Eventually one of two things happens:
+
+    Google decides that it’s seen enough temporary failures to assume the failure is permanent and bounces the mail back to the sender.
+    Google happens to hit one of the IP addresses that you’ve allowed and manages to deliver the mail.
+
+There’s a script floating around that fetches SPF records from the big email providers and adds their outbound IPs to the allow list table in pf, but I don’t really like exempting the big providers like this (especially since having multiple outbound IPs is perfectly acceptable for any medium-sized mail provider and making it easy for Google and hard for FooCorp to send me email is far from my goal when self hosting email).

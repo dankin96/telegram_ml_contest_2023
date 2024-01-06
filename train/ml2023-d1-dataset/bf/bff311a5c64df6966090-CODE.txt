@@ -1,0 +1,32 @@
+[AttributeUsage(AttributeTargets.Property, AllowMultiple = false)]
+public class ApiKeyAttribute : ValidationAttribute
+{
+  private readonly ApplicationDbContext _context;
+
+  public ApiKeyAttribute(IServiceScopeFactory factory)
+  {
+    _context = factory.CreateScope().ServiceProvider.GetService<ApplicationDbContext>();
+  }
+
+  protected override ValidationResult IsValid(object? value, ValidationContext validationContext)
+  {
+    if (value == null)
+      return ValidationResult.Success; // Пропускаем валидацию для null
+    
+    if (Guid.TryParse(value.ToString(), out var guidValue))
+    {
+      var financialInstitutions = _context.FinancialInstitutions.Select(i => i.ApiKey).OfType<Guid>().ToArray();
+
+      if (financialInstitutions.Any(u => u == guidValue))
+      {
+        return new ValidationResult($"Значение {value} не уникальное");
+      }
+    }
+    else
+    {
+      return new ValidationResult($"Неверный {value} ");
+    }
+
+    return ValidationResult.Success;
+  }
+}

@@ -1,0 +1,16 @@
+python
+ for line in lines:
+            header_match = re.match(r"^#+\s", line)
+            if header_match:
+                if current_header is not None:
+                    if current_text == "" or None:
+                        continue
+                    markdown_tups = self.tups_chunk_append(markdown_tups, current_header, current_text)
+
+                current_header = line
+                current_text = ""
+            else:
+                current_text += line + "
+"
+        markdown_tups = self.tups_chunk_append(markdown_tups, current_header, current_text)
+

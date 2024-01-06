@@ -1,0 +1,8 @@
+v10.1.1.1 (20470) Play Store en
+Redmi Redmi Note 8 Pro android 10
+ROM: QP1A.190711.020
+Accounts: 9
+Performance: AVERAGE
+Cache: 138.3 MB
+Database: 12.6 MB
+Free: 46.10 GB

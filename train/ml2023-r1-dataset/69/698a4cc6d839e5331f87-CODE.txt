@@ -1,0 +1,1 @@
+let response = reqwest::get(&endpoint).await?.json::<GeoResponse>().await?;

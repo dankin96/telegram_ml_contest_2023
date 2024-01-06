@@ -1,0 +1,12 @@
+
+
+2023-10-10T10:00:13 에 HTTP 4xx 응답 발생 
+ * URL : http://saram.in/s/ (get)  
+ * 서버 : shorturl-api-0 
+ * UserAgent Name : Android, 
+ * UserAgent OS/Device : Android (Motorola Droid), 
+ * Referrer : [''], 
+ * ResponseLocation : <MISSING VALUE>, 
+ * Full UserAgent : Mozilla/5.0 (Linux; U; Android 2.0; en-us; Droid Build/ESD20) AppleWebKit/530.17 (KHTML, like Gecko) Version/4.0 Mobile Safari/530.17 
+ 생성자 : <MISSING VALUE> 
+ 생성일 : <MISSING VALUE>

@@ -1,0 +1,47 @@
+const { Address, beginCell, toNano } = require('ton-core')
+const { BOC } = require('ton3-core')
+const { sendTransactions } = require('./core/ton3')
+
+const destinationAddress = Address.parse("EQCwHyzOrKP1lBHbvMrFHChifc1TLgeJVpKgHpL9sluHU-gV")
+const walletAddress = Address.parse("EQD8k45cthxRNMFReg5A31wlsECNu51bIMye1Ompvb4WN7-X")
+const nftAddress = Address.parse("EQAN30KTG_Z2CLdbXHxa52tt06Ga9RZjnS4WWEYtWZJjfwH_")
+
+const forwardPayload = beginCell().
+storeUint(0, 32).
+storeStringTail("Hello, TON!").
+endCell()
+
+const transferNftBody = beginCell().
+storeUint(0x5fcc3d14, 32). // Opcode for NFT transfer
+  storeUint(0, 64). // query_id
+  storeAddress(destinationAddress). // new_owner
+  storeAddress(walletAddress). // response_destination for excesses
+  storeBit(0). // we do not have custom_payload
+  storeCoins(toNano("0.10")). // forward_amount
+  storeBit(1). // we store forward_payload as a reference
+  storeRef(forwardPayload). // store forward_payload as a reference
+  endCell()
+
+const internalMessage = beginCell().
+storeUint(0x18, 6). // bounce
+  storeAddress(nftAddress).
+  storeCoins(toNano("0.05")).
+  storeUint(1, 1 + 4 + 4 + 64 + 32 + 1 + 1). // We store 1 that means we have body as a reference
+  storeRef(transferNftBody).
+  endCell()
+
+const payload = BOC.from(transferNftBody.toBoc({ idx: true }).toString('hex')).root[0]
+
+const transactionsInfo = [
+  {
+    targetAddress: nftAddress,
+    amount: 0.1,
+    body: payload,
+    mode: 3,
+    bounce: true
+  }
+]
+void (async () => {
+  const result = await sendTransactions(transactionsInfo)
+  console.log(result)
+})()

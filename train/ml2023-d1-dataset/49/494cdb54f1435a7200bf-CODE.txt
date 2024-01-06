@@ -1,0 +1,33 @@
+def find_subsets(numbers, target_sum):
+    subsets = []
+    n = len(numbers)
+
+    # Функция для поиска всех подмножеств сумма которых равна target_sum
+    def backtrack(curr_subset, curr_sum, start):
+        if curr_sum == target_sum:
+            subsets.append(curr_subset[:])
+        elif curr_sum > target_sum:
+            return
+        else:
+            for i in range(start, n):
+                curr_subset.append(numbers[i])
+                backtrack(curr_subset, curr_sum + numbers[i], i + 1)
+                curr_subset.pop()
+
+    backtrack([], 0, 0)
+
+    return subsets
+
+
+# Пример использования
+numbers = [1, 2, 3, 4, 5]
+target_sum = 7
+
+result = find_subsets(numbers, target_sum)
+
+if len(result) > 0:
+    print(f"Подмножества с суммой {target_sum}:")
+    for subset in result:
+        print(subset)
+else:
+    print(f"Нет подмножеств с суммой {target_sum}")

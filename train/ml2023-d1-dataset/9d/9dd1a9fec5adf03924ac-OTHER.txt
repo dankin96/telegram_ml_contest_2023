@@ -1,0 +1,113 @@
+ACEH       800  Bank Aceh
+ALADINS    800  Bank Aladin Syariah
+ALLO       800  Bank ALLO
+ALTO       800  Alto Pay
+ALTOCSH    800  Alto Cash
+ALTOREMIT  800  ALTO REMIT
+AMAR       800  Amar Bank
+ANTAR      800  Bank Antar Daerah
+ANZ        800  BANK ANZ INDONESIA
+ARTHA      800  Bank ARTHA
+ATMB       800  ATMB Plus
+ATMPRIMA   800  ATM Prima
+BALI       800  BPD Bali
+BANTEN     800  Bank Banten
+BCA        800  BANK BCA
+BCAD       800  BANK BCA DIGITAL
+BCAS       800  BANK BCA SYARI'AH
+BJB        800  Bank BJB
+BJBS       800  Bank BJB Syariah
+BNI        800  BANK BNI
+BOCI       800  Bank of China Indonesia (BOCI)
+BPRKS      800  BPR KS
+BPRSUPRA   800  BPR SUPRA
+BRI        800  BANK BRI
+BSG        800  Bank BSG
+BSI        800  BANK BSI
+BTN        800  BANK BTN
+BTPN       800  Bank BTPN
+BTPNS      800  Bank BTPN Syariah
+BUKOPIN    800  BANK BUKOPIN
+BUKOPINS   800  Bank Bukopin Syariah
+BUMI       800  Bank Bumi Arta Indonesia
+CCB        800  BANK CCB INDONESIA
+CIMB       800  BANK CIMB NIAGA
+CITI       800  BANK CITIBANK INDONESIA
+CTBC       800  Bank CTBC Indonesia
+DANAMON    800  BANK DANAMON
+DBS        800  DBS
+DIY        800  BPD DIY
+DKI        800  Bank DKI
+EKA        800  Bank EKA
+FINNET     800  FINNET
+GANESHA    800  Bank Ganesha
+HANA       800  Bank Hana
+HSBC       800  BANK HSBC INDONESIA
+IBK        800  Bank IBK
+ICBC       800  Bank ICBC
+IMKAS      800  IMKAS
+INA        800  BANK INA PERDANA
+INDEX      800  BANK INDEX SELINDO
+INDIA      800  Bank India (Swadesi)
+INTIDANA   800  KOP Intidana
+ISO        800  ISO Remit
+JAGO       800  BANK JAGO
+JAKARTA    800  Bank Jasa Jakarta
+JAMBI      800  Bank Jambi
+JATENG     800  Bank Jateng
+JATIM      800  Bank Jawa Timur
+JATNIKA    800  BPR Jatnika
+JTRUST     800  Bank JTrust
+KALBAR     800  Bank Kalimantan Barat
+KALSEL     800  Bank Kalsel
+KALTENG    800  Bank Kalteng
+KALTIMTARA 800  Bank Kaltimtara
+KRYJATNIKA 800  BPR KRYJATNIKA SDY
+LAMPUNG    800  Bank Lampung
+LINKAJA    800  LINKAJA
+MALUKU     800  Bank Maluku
+MANDIRI    800  BANK MANDIRI
+MANDIRIT   800  BANK MANDIRI TASPEN
+MASPION    800  Bank Maspion
+MAYAPDA    800  Bank Mayapada
+MAYBANK    800  BANK MAYBANK
+MAYORA     800  BANK MAYORA
+MEGA       800  BANK MEGA
+MEGAS      800  BANK MEGA SYARI'AH
+MESTIKA    800  Bank Mestika Dharma
+MNC        800  Bank MNC
+MUAMALAT   800  Bank Muamalat
+MUFG       800  BANK MUFG BANK
+MULTIARTA  800  Bank Multiarta Sentosa
+NAGARI     800  Bank Nagari
+NC         800  Bank Neo Commerce
+NEO        800  Bank Neo Commerce
+NOBU       800  Bank Nobu
+NTB        800  Bank NTB
+NTT        800  Bank NTT
+OCBC       800  BANK OCBC NISP
+OKE        800  OKE Bank
+PANIN      800  BANK PANIN
+PANINS     800  Bank Panin Dubai Syariah
+PAPUA      800  Bank Papua
+PDS        800  Bank Panin Dubai Syariah
+PERMATA    800  BANK PERMATA
+PRIMA      800  Bank Prima Master
+QNB        800  Bank QNB Indonesia
+RAYA       800  BANK RAYA Indonesia
+RIAU       800  Bank Riau
+SAHABAT    800  Bank Sahabat Sampoerna
+SBI        800  BANK SBI INDONESIA
+SEABANK    800  BANK SeaBank
+SGOD       800  SGOD Pay
+SHINHAN    800  Bank Shinhan
+SINARMAS   800  Bank Sinarmas
+STANDARD   800  Standard Chartered
+SULSELBAR  800  Bank Sulselbar
+SULTENG    800  Bank Sulteng
+SULTRA     800  Bank Sultra
+SUMUT      800  Bank Sumatra Utara
+SUPRA      800  Bank BPR Supra
+TOKYO      800  Bank of Tokyo - MItsubishi
+UOB        800  BANK UOB
+

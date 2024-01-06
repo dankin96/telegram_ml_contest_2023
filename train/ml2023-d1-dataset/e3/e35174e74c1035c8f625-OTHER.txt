@@ -1,0 +1,13 @@
+        
+In years gone by, only large enterprises needed to be concerned with cybercrime. For cybercriminals, small to medium-sized businesses (SMBs) weren't worth attacking; the few individuals capable of pulling off a successful cyberattack were only interested in reeling in the big fish.
+
+However, Cybercrime-as-a-Service (CaaS) offerings have essentially democratized cybercrime. Budding cybercriminals now only need a rudimentary understanding of cybersecurity, access to the internet, and a few dollars in their pocket to initiate an attack. As such, cybercrime has become indiscriminate, with cybercriminals attacking any organization, regardless of its size.
+
+In this blog post, we’ll explore what CaaS
+[…]
+
+This article has been indexed from  Thales CPL Blog Feed
+
+Read the original article:
+
+Protect Your Organization from Cybercrime-as-a-Service Attacks

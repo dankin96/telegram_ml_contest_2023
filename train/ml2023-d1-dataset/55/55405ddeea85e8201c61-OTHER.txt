@@ -1,0 +1,1 @@
+vless://5a59a67e-f55c-45dc-aeb4-388497bcfa48@gtexbridge.site:443?security=reality&type=tcp&host=&headerType=&flow=xtls-rprx-vision&path=&sni=www.iplocation.net&fp=chrome&pbk=VxgJC_C0GKYYIMyqjsv7w575vcGf-dfA5kR2afdOVDY&sid=&spx=#%F0%9F%87%A6%F0%9F%87%B9%20GTex%20%7C%2020071402

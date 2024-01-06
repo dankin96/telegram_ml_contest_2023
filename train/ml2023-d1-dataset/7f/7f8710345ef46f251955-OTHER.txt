@@ -1,0 +1,4 @@
+C:\Users\Allan César>ping x.com
+
+Disparando x.com [2606:4700:4400::6812:250e] com 32 bytes de dados
+

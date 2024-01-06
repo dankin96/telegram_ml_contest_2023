@@ -1,0 +1,3 @@
+ BAJAMAR  0.65  20:00 05-oct.
+ PLEAMAR  1.10  01:00 06-oct.
+ BAJAMAR  0.10  09:30 06-oct.

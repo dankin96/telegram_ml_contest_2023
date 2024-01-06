@@ -1,0 +1,10 @@
+id tele:
+usn ig: 
+folls hasil apa:
+folls bekas apa:
+tahun brp:
+bind apk/ga:
+price: 
+nett: 
+pw:
+no dana:

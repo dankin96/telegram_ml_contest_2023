@@ -1,0 +1,10 @@
+
+＊cluster:sri
+＊group:resume-apply
+＊topic:resume-apply
+＊partition:3
+＊lag:106
+＊status:［REWIND］
+
+＊time:2023-10-10T09:51:30
+＊num_hits:1

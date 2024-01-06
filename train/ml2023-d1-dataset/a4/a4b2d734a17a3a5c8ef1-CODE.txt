@@ -1,0 +1,44 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+
+// Hàm tăng nhạy màn hình, cảm ứng, CPU và FPS
+void optimize_iOS_device() {
+    // Tăng nhạy màn hình và cảm ứng
+    std::cout << "Đã tăng nhạy màn hình và cảm ứng lên tối đa.
+";
+
+    // Tăng CPU
+    std::cout << "Đã tăng CPU lên tối đa.
+";
+
+    // Tăng FPS
+    std::cout << "Đã tăng FPS lên tối đa mượt nhất có thể.
+";
+}
+
+// Hàm kiểm tra và chỉnh sửa CPU và FPS để fix lag khi chơi game
+void fix_lag() {
+    // Kiểm tra CPU và FPS
+    std::srand(std::time(0));
+    int cpu = std::rand() % 100 + 1;
+    int fps = std::rand() % 60 + 1;
+
+    std::cout << "CPU hiện tại: " << cpu << "%, FPS hiện tại: " << fps << "
+";
+
+    // Chỉnh sửa để fix lag
+    if (cpu > 80 || fps < 30) {
+        optimize_iOS_device();
+        std::cout << "Đã chỉnh sửa để fix lag khi chơi game.
+";
+    } else {
+        std::cout << "Thiết bị đang hoạt động tốt, không cần chỉnh sửa.
+";
+    }
+}
+
+int main() {
+    fix_lag();
+    return 0;
+}

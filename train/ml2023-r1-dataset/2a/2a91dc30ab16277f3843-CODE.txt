@@ -1,0 +1,10 @@
+char uidstr[12];
+
+// Arrange 12 bytes of UID into uidstr[]
+uint32_t uid = LL_GetUID_Word0 ();
+memcpy (&uidstr[8], &uid, 4);
+uid = LL_GetUID_Word1 ();
+memcpy (&uidstr[4], &uid, 4);
+uid = LL_GetUID_Word2 ();
+memcpy (&uidstr[0], &uid, 4);
+

@@ -1,0 +1,20 @@
+public TreeNode constructMaximumBinaryTree(int[] nums) {
+    int n = nums.length;
+    return createNode(0, n-1, nums);
+}
+
+private TreeNode createNode(int l, int r, int[] nums){
+    System.out.println(l+" "+r);
+    if(l>r) return null;
+    int maxIndex = l;
+    int maxValue = nums[l];
+    for(int i=l; i<=r; i++){
+        if(nums[i]>maxValue){
+            maxIndex = i;
+            maxValue = nums[i];
+        }
+    }
+    TreeNode left = createNode(l, maxIndex-1, nums);
+    TreeNode right = createNode(maxIndex+1, r, nums);
+    return new TreeNode(nums[maxIndex], left, right);
+}

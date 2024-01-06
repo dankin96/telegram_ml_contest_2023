@@ -1,0 +1,12 @@
+python
+import random
+
+class Slapper(commands.Converter):
+    async def convert(self, ctx, argument):
+        to_slap = random.choice(ctx.guild.members)
+        return f'{ctx.author} slapped {to_slap} because *{argument}*'
+
+@bot.command()
+async def slap(ctx, *, reason: Slapper):
+    await ctx.send(reason)
+

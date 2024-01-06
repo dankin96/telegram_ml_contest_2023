@@ -1,0 +1,5 @@
+for i = 1, 98 do
+    game.ReplicatedStorage.SkipStage:FireServer()
+end
+
+#farm

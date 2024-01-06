@@ -1,0 +1,7 @@
+Added adreno boost
+Added maple and zen io
+Enable NFS and cifs
+Disable gfs
+slimbus Improve audio
+Add min brightness control
+And many 

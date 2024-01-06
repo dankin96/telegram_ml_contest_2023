@@ -1,0 +1,4 @@
+git clone https://github.com/fagci/uv-k5-firmware-fagci-mod
+cd uv-k5-firmware-fagci-mod
+git submodule update --init --recursive --depth=1
+make

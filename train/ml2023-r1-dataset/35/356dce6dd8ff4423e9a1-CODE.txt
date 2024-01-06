@@ -1,0 +1,41 @@
+.fctbNone{ color:#000000; }
+.fctbStyle3{ color:#000000; }
+.fctbStyle6{ color:#8b0000; }
+.fctbStyle4{ color:#000000; }
+.fctbStyle2{ color:#000000; }
+.fctbStyle5{ color:#000000; }
+.fctbStyle7{ color:#0000ff; }
+.fctbStyle3Style7{ color:#000000;color:#0000ff; }
+
+(
+      CLOSE   =   HIGH   
+    AND   OPEN   =   LOW   
+    AND   CLOSE   >=   REF(CLOSE, -1)   
+)
+OR 
+(
+      OPEN   =   LOW   
+    AND   CLOSE   >   REF(CLOSE, -1)   
+    AND   CLOSE   >   OPEN   
+    AND ABS(  CLOSE   -   OPEN   ) > 
+    (
+          HIGH   -   LOW   
+    )
+    / 2 
+)
+OR 
+(
+      CLOSE   >   REF(CLOSE, -1)   
+    AND   CLOSE   =   HIGH   
+    AND   CLOSE   >   OPEN   
+    AND ABS(  CLOSE   -   OPEN   ) > 
+    (
+          HIGH   -   LOW   
+    )
+    / 2 
+)
+OR 
+(
+      CLOSE   >= MAX(  REF(CLOSE, -1)   ,   REF(OPEN, -1)   ) 
+    AND   OPEN   <= MIN(  REF(CLOSE, -1)   ,   REF(OPEN, -1)   ) 
+)

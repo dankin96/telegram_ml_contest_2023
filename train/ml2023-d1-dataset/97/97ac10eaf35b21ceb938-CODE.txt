@@ -1,0 +1,71 @@
+  // Search or Request Event Listeners, it's a *bit* messy here lol
+  htmlSearchLinkInput.addEventListener('keydown', event => {
+    if (event.key === 'Enter') {
+      initializeSearchOrRequest("Search");
+    }
+  });
+  htmlRequestLinkInput.addEventListener('keydown', event => {
+    if (event.key === 'Enter') {
+      initializeSearchOrRequest("Request");
+    }
+  });
+
+  htmlSearchLinkButton.addEventListener('click', () => {
+    initializeSearchOrRequest("Search");
+  });
+  htmlRequestLinkButton.addEventListener('click', () => {
+    initializeSearchOrRequest("Request");
+  });
+
+  htmlOverlayCloseButton.addEventListener('click', () => {
+    hideOverlay();
+  });
+
+  // Close the overlay when clicking outside of the content area
+  htmlOverlayContainer.addEventListener("click", event => {
+    if (event.target === htmlOverlayContainer) {
+      hideOverlay();
+    }
+  });
+
+  // Close the overlay when the "Escape" key is pressed
+  document.addEventListener("keydown", event => {
+    if (event.key === "Escape") {
+      hideOverlay();
+    }
+  });
+
+  // Clear input Event Listeners
+  htmlSearchLinkInput.addEventListener("input", () => {
+    htmlClearSearchLinkInput.style.display = htmlSearchLinkInput.value === "" ? "none" : "block";
+  });
+  htmlRequestLinkInput.addEventListener("input", () => {
+    htmlClearRequestLinkInput.style.display = htmlRequestLinkInput.value === "" ? "none" : "block";
+  });
+
+  htmlSearchLinkInput.addEventListener("focusin", () => {
+    htmlClearSearchLinkInput.style.display = htmlSearchLinkInput.value === "" ? "none" : "block";
+  });
+  htmlRequestLinkInput.addEventListener("focusin", () => {
+    htmlClearRequestLinkInput.style.display = htmlRequestLinkInput.value === "" ? "none" : "block";
+  });
+
+  htmlSearchLinkInput.addEventListener("focusout", () => {
+    htmlClearSearchLinkInput.style.display = "none";
+  });
+  htmlRequestLinkInput.addEventListener("focusout", () => {
+    htmlClearRequestLinkInput.style.display = "none";
+  });
+
+  htmlClearSearchLinkInput.addEventListener('mousedown', () => {
+    htmlSearchLinkInput.value = "";
+    setTimeout(() => {
+      htmlSearchLinkInput.focus();
+    }, 0);
+  });
+  htmlClearRequestLinkInput.addEventListener('mousedown', () => {
+    htmlRequestLinkInput.value = "";
+    setTimeout(() => {
+      htmlRequestLinkInput.focus();
+    }, 0);
+  });

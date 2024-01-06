@@ -1,0 +1,6 @@
+__STATIC_INLINE __ASM void __set_mode(uint32_t mode)
+{
+  MOV  r1, lr
+  MSR  CPSR_C, r0
+  BX   r1
+}

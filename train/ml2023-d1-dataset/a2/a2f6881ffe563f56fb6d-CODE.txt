@@ -1,0 +1,8 @@
+ N = 'Чек'product = str(input())
+price = int(input())weight = int(input())
+money = int(input())wp = f"{weight} * {price}руб / кг"
+total = weight * price
+print(f"{N: = ^ 35}")print(f"Товар:{product: > 29}")
+print(f"Цена:{wp: >3 0}")print(f"Итого:{total: > 26}руб")
+print(f"Внесено:{money: > 24}руб")print(f"Сдача:{money-total: > 26}руб")
+print(f"{'=' * 35}")

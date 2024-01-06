@@ -1,0 +1,2 @@
+background-image: url("../../media/examples/star.png"),
+                  url("../../media/examples/lizard.png");

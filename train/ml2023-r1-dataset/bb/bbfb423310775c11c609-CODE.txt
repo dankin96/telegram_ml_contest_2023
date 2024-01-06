@@ -1,0 +1,1 @@
+public static $a = MyEmum::MyValue;

@@ -1,0 +1,10 @@
+select 
+  G.IDX
+  , CAST('' as char(32))
+  , CAST('asdasdasd' as char(32000))
+  --, CAST('asdasdasd' as char(32000))
+  --, CAST('a;sdkj;asjd;ajd' as char(32000))
+FROM GENERATE_SERIAL(1000) G
+ORDER BY G.IDX
+
+

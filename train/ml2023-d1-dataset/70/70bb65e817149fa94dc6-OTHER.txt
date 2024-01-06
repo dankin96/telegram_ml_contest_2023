@@ -1,0 +1,1 @@
+vless://3b522323-93e7-4289-b207-842c2340276d@mci-maznet.ddns.net:2087?mode=gun&security=tls&encryption=none&alpn=http/1.1,h2&type=grpc&serviceName=@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet--@Maznet&sni=telegram.maznet.cfd#t.me/meysamtech010

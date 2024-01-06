@@ -1,0 +1,4 @@
+ MAC   : B4:C0:F5:28:C7:CB
+ IP    : 192.168.142.191
+ Name  : android-d275d36ca7b84135
+ Bound : 1

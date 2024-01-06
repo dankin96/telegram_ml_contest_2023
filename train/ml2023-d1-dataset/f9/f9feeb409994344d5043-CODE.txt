@@ -1,0 +1,17 @@
+class Time {
+   // ...
+ 
+public:
+   Time operator + (int s) const {
+       return Time(hours, minutes, seconds + s);
+   }
+};
+Проверяем:
+
+int main() {
+    Time t(13, 30, 0);
+    t += 40;  // теперь в t записано время 13:30:40
+ 
+    Time t2 = t + 20;  // объект t не изменился, а в t2 записано 13:31:00
+}
+

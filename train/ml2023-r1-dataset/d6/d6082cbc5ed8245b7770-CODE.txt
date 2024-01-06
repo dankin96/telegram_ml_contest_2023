@@ -1,0 +1,10 @@
+import aiohttp
+import io
+
+async def TikTok(self, url: str, captions: str):
+    async with aiohttp.ClientSession() as session:
+        async with session.get(url) as response:
+            video_data = await response.read()
+
+    path = io.BytesIO(video_data)
+    # Resto do código...

@@ -1,0 +1,5 @@
+<form>
+  <input type="radio" name="option" value="option1"> Option 1<br>
+  <input type="radio" name="option" value="option2"> Option 2<br>
+  <input type="radio" name="option" value="option3"> Option 3<br>
+</form>

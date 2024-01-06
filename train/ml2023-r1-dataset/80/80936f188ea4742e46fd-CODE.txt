@@ -1,0 +1,8 @@
+// Данные для записи.
+$data      = 'Привет, мир!';
+$context   = [ 'source' => 'myplugin' ];
+$logger    = wc_get_logger();
+
+$logger->log( 'debug', wc_print_r( $data, true ), $context );
+
+

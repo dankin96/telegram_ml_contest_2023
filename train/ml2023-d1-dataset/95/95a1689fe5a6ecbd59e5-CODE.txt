@@ -1,0 +1,5 @@
+struct T {
+  int8_t x; 
+  alignas(64) int64_t i;
+};
+static_assert(alignof(T) == 64);

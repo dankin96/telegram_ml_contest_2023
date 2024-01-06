@@ -1,0 +1,2 @@
+vless://eb205663-59c4-41d6-9117-a68adae98eeb@bia-to-channel.komak-online.fun:443?mode=gun&security=reality&encryption=none&pbk=LfgBV263BZBVPfmtH13NhI2CDuyxoHrS4ZeFsvxVqSw&fp=chrome&type=grpc&serviceName=xyz&sni=debian.org&sid=2eb986795859a47a#%F0%9F%87%AB%F0%9F%87%AE+%F0%9F%9A%80-+%DA%A9%D8%A7%D9%86%D8%A7%D9%84+%D9%85%D8%A7+%3A++%28%40komak_onlinevpn%29
+

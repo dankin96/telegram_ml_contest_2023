@@ -1,0 +1,1 @@
+pm grant com.porg.batt android.permission.BATTERY_STATS

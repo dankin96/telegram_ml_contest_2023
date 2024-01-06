@@ -1,0 +1,14 @@
+[
+    {
+        "term_id": 5,
+        "name": "Живая музыка",
+        "slug": "live-music",
+        "term_group": 0,
+        "term_taxonomy_id": 5,
+        "taxonomy": "case_type",
+        "description": "",
+        "parent": 0,
+        "count": 183,
+        "filter": "raw"
+    }
+]

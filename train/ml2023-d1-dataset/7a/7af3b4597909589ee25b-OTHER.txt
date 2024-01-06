@@ -1,0 +1,8 @@
+" autopair mappings
+inoremap ' ''<left>
+inoremap " ""<left>
+inoremap \ \"\"<left>
+inoremap ( ()<left>
+inoremap [ []<left>
+inoremap { {}<left>
+inoremap < <><left>

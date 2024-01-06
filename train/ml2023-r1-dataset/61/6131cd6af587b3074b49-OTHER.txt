@@ -1,0 +1,1 @@
+This will create the AKT-MNTA, INJ-MNTA, AXL-MNTA, wETH-MNTA pools on BOW. The market maker's config is the target one for non-stable pools

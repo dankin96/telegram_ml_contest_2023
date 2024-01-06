@@ -1,0 +1,1 @@
+if (unit !== null && unit !== void 0 && unit.shortName) {

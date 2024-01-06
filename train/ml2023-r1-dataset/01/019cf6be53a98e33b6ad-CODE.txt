@@ -1,0 +1,31 @@
+update = {
+  "update_id": 681889603,
+  "edited_message": {
+    "chat": {
+      "id": -1001332479353,
+      "type": "supergroup",
+      "username": "osint_flood",
+      "title": "OSINT Флудильня"
+    },
+    "group_chat_created": false,
+    "edit_date": 1696464726,
+    "message_id": 51515,
+    "delete_chat_photo": false,
+    "voice": {
+      "duration": 22,
+      "mime_type": "audio/ogg",
+      "file_id": "AwACAgQAAx0CT2wFeQACyTtlHf9RyxtbYRpNbu9xi5lxrT2ACgACGxgAArMZ8VAQ7-WAWAZRozAE",
+      "file_size": 468873,
+      "file_unique_id": "AgADGxgAArMZ8VA"
+    },
+    "date": 1696461827,
+    "supergroup_chat_created": false,
+    "channel_chat_created": false,
+    "from": {
+      "is_bot": false,
+      "first_name": "Гликодин",
+      "id": 5958251870,
+      "is_premium": true
+    }
+  }
+}

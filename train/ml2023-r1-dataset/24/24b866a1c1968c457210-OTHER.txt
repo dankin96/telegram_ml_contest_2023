@@ -1,0 +1,7 @@
+v10.1.1.1 (20470) Play Store uz
+vivo vivo 2015 android 10
+ROM: QP1A.190711.020 release-keys
+Performance: LOW
+Cache: 833,6 MB
+Database: 128,7 MB
+Free: 4,88 GB

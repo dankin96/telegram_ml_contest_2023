@@ -1,0 +1,14 @@
+#if 18
+#include<iostream>
+using namespace std;
+int main()
+{
+  int a, b, c;
+  cout << "a = "; cin >> a;
+  cout << "b = "; cin >> b;
+  cout << "c = "; cin >> c;
+  if(a == b) cout << "3 - son";
+  else if(a == c) cout << "2 - son";
+  else if(b == c) cout << "1 - son";
+  else cout << "bu sonlar bir-biriga teng emas"; 
+}

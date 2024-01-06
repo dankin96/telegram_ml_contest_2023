@@ -1,0 +1,43 @@
+{
+  "update_id": 982731585,
+  "message": {
+    "message_id": 80169,
+    "from": {
+      "id": 1274797093,
+      "is_bot": false,
+      "first_name": "Jean-Baptiste",
+      "last_name": "Immigration consultant",
+      "username": "JBaptiste01"
+    },
+    "chat": {
+      "id": -1001613691130,
+      "title": "International Students - U.K 2023",
+      "username": "InternationalstudentsofUK",
+      "type": "supergroup"
+    },
+    "date": 1696569080,
+    "new_chat_participant": {
+      "id": 1274797093,
+      "is_bot": false,
+      "first_name": "Jean-Baptiste",
+      "last_name": "Immigration consultant",
+      "username": "JBaptiste01"
+    },
+    "new_chat_member": {
+      "id": 1274797093,
+      "is_bot": false,
+      "first_name": "Jean-Baptiste",
+      "last_name": "Immigration consultant",
+      "username": "JBaptiste01"
+    },
+    "new_chat_members": [
+      {
+        "id": 1274797093,
+        "is_bot": false,
+        "first_name": "Jean-Baptiste",
+        "last_name": "Immigration consultant",
+        "username": "JBaptiste01"
+      }
+    ]
+  }
+}

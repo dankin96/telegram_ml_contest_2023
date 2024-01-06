@@ -1,0 +1,3 @@
+docker build -t test-app:v1.0.0 .
+docker save --output test-app-v1.0.0.tar test-app:v1.0.0
+sudo k3s ctr images import /home/ubuntu/test-app-v1.0.0.tar

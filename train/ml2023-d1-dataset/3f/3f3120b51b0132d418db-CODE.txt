@@ -1,0 +1,34 @@
+from __future__ import annotations
+
+from typing import Callable, Concatenate, Generic, ParamSpec, TypeVar
+from typing import TYPE_CHECKING
+
+
+Params = ParamSpec("Params")
+HeadInject = TypeVar("HeadInject")
+Return = TypeVar("Return")
+
+
+class sexy_function(Generic[Params, HeadInject, Return], Callable[Concatenate[HeadInject, Params], Return]):
+    def __init__(self, fn: Callable[Concatenate[HeadInject, Params], Return]) -> None:
+        self._fn = fn
+
+    def __call__(self, head: HeadInject, *args: Params.args, **kwargs: Params.kwargs) -> Return:
+        return self._fn(head, *args, **kwargs)
+
+    def with_head_param(self, head: HeadInject):
+        def wrapped(*args: Params.args, **kwargs: Params.kwargs) -> Return:
+            return self._fn(head, *args, **kwargs)
+
+        return sexy_function(wrapped)
+
+
+@sexy_function
+def bob(a: int, b: str, c: bytes) -> None:
+    pass
+
+
+res = bob.with_head_param(1).with_head_param("")(b"")
+if TYPE_CHECKING:
+    reveal_type(bob.with_head_param(1))
+    reveal_type(res)

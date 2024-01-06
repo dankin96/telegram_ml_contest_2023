@@ -1,0 +1,1 @@
+$memberLevel = $user->isLaravelGroupMember() ? "svip" : $user->getLevel();

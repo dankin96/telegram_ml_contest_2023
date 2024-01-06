@@ -1,0 +1,33 @@
+─────────────────────────────────
+/ - steady growing
+\ - steady decreasing
+⇒ - horizontal range
+^ - break ASC-to-DESC
+v - break DESC-to-ASC
+╛ - range exit upward
+╕ - range exit down
+< - expanding range
+> - narrowing range
+⇗ - growing range
+⇘ - decreasing range
+? - cannot determine
+E - error
+
+D - last 24h (day)
+W - last week
+M - last 30d (month)
+Q - last 3 months
+Y - last 360d (year)
+
+Price - 24h AVG price
+Δ/D   - Ratio of current
+        AVG price to
+        prev. day AVG price
+Δ/M   - Ratio of current
+        AVG price to
+        prev. month AVG price
+
+* - newbie on the market,
+    a coin that has been trading
+    for less than a year
+─────────────────────────────────

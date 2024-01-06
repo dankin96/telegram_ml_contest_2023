@@ -1,0 +1,4 @@
+~ $ cat file.py 
+import numpy as np 
+~ $ python file.py 
+no error 

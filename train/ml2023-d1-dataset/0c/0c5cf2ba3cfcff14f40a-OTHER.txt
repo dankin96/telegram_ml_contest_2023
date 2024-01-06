@@ -1,0 +1,6 @@
+     Pair  Price  Funding
+  CVCUSDT 0.0733     0.01
+ LINKBUSD 7.2921     0.01
+  GMTBUSD 0.1430     0.01
+FRONTUSDT 0.3063     0.01
+  MAVUSDT 0.2223     0.01

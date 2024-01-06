@@ -1,0 +1,1 @@
+vkGetDescriptorEXT(): type is VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER, but pUniformBuffer is NULL and the nullDescriptor feature is not enabled. The Vulkan spec states: If VkDescriptorGetInfoEXT:type is VK_DESCRIPTOR_TYPE_UNIFORM_BUFFER, and the nullDescriptor feature is not enabled, pUniformBuffer must not be NULL

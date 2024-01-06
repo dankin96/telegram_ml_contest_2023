@@ -1,0 +1,2 @@
+Fictious platform demake form Amiga's great title Disposable Hero never released on Speccy.
+Engine would be tough to create, I have Turrican on my mind where the scrolling is due to colourness done by whole 8x8 px blocks.

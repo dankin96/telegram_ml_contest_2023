@@ -1,0 +1,7 @@
+{
+  networkMode: false,
+  broker: 'Binance',
+  pair: 'BICOUSDT',
+  timeFrame: '5m',
+  customRange: [ 1695904200000, 1696325340000 ]
+}

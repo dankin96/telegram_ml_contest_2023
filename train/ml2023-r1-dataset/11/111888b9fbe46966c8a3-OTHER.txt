@@ -1,0 +1,5 @@
+     Fajr     |  5:33
+     Dhuhr    |  12:54
+     Asr      |  4:04
+     Maghrib  |  6:56
+     Isha     |  8:05

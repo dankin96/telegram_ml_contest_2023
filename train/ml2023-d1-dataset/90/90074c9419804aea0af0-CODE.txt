@@ -1,0 +1,6 @@
+if (myObject && myObject.itemHeight) {
+  // Access the itemHeight property
+  console.log(myObject.itemHeight);
+} else {
+  console.log("myObject is undefined or itemHeight is not defined");
+}

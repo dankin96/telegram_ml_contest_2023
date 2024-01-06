@@ -1,0 +1,12 @@
+BTC - Bitcoin | btcbr.info
+$1,019.61
+Network: BSC
+H|L: 15,259.45|1,019.61
+1h:  0.0%      😏       
+24h: -93.3%    ⚓       
+7d:  -95.3%    ⚓       
+Vol: $76.0 M
+Liq: $122.0 K
+Circ Mcap: 21.4 B
+FDV 21.4 B
+CA: 0x2a94e135b72d6b45ed8813b62108e2655b5a5b80

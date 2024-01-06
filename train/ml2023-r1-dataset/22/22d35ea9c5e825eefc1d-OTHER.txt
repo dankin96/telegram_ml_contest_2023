@@ -1,0 +1,2 @@
+
+tobit dependent_var independent_vars, [options]

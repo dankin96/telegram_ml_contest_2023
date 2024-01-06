@@ -1,0 +1,18 @@
+$custom = File::get('~theme/js/custom.js') ?? '';
+
+        if ($customjs && $custom && is_file($custom)) {
+          //defer on head
+          if (!$loadcustomjs && !$placecustomjs) {
+            $metadata->set('script:theme-custom', ['src' => $custom, 'version' => $ver, 'defer' => true]);
+            //$wa->registerAndUseScript('theme-custom', JURI::root() . 'templates/yootheme' . ($child ? "_" . $child : "") . '/js/custom.js', [], ['defer' => true]);
+            //$metadata->del('script:theme-custom', ['src' => $custom]);
+          }
+          //async on head
+          elseif ($loadcustomjs && !$placecustomjs) {
+            $metadata->set('script:theme-custom', ['src' => $custom, 'version' => $ver, 'async' => true]);
+          }
+          //load on footer - remove from the head
+          elseif ($placecustomjs) {
+            $metadata->del('script:theme-custom', ['src' => $custom]);
+          }
+        }

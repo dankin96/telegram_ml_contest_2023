@@ -1,0 +1,4 @@
+2023-09-27 22:09:43 +0800 Wake                Wake from Deep Idle [CDNVA] : due to EC.RTC/UserActivity Assertion Using BATT (Charge:100%)
+2023-09-27 22:10:33 +0800 Sleep               Entering Sleep state due to 'Clamshell Sleep':TCPKeepAlive=disabled Using Batt (Charge:100%) 38374 secs
+2023-09-28 08:50:07 +0800 Wake                Wake from Deep Idle [CDNVA] : due to EC.RTC/UserActivity Assertion Using BATT (Charge:100%)
+2023-09-28 08:51:00 +0800 Sleep               Entering Sleep state due to 'Clamshell Sleep':TCPKeepAlive=disabled Using Batt (Charge:28%) 344 secs

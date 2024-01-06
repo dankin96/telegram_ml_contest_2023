@@ -1,0 +1,2 @@
+- A compatible control board: Creality 4.2.2, 4.2.3, 4.2.7, V24S1_301F1, V24S1_301F4 or SKR Mini E3_V3 for Ender series printers with a STM32 SoC.
+- A DWIN, DACAI, SYNWIT or TJC color screen with encoder knob. Touch screens and old monochrome screens are not supported.

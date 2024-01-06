@@ -1,0 +1,11 @@
+ 476384354
+pai: SEM INFORMAÇ?O
+mae: MARIA CELIA LOPES ESTEVES
+municipioNasci: INVALIDO
+enderecoMuni: FORTALEZA - CE
+enderecoLogr: WALTER SA
+enderecoNu: 277
+enderecoBa: JOQUEI CLUBE
+enderecoCe: 60.510-130
+cns: 700004617551101
+telefone: 21:2105-0000

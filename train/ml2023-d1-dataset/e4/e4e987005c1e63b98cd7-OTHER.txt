@@ -1,0 +1,2 @@
+"Applied AI is about the use of ML and other AI techniques to solve real-world problems, while Industrializing ML refers to the process of making machine learning scalable and reliable enough to be used in production environments. And they are often complementary to each other."
+

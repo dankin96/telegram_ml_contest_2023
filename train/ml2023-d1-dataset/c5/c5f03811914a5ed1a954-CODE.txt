@@ -1,0 +1,23 @@
+x1,y1,x2,y2 = input().split()
+x1, y1, x2, y2 = int(x1), int(y1), int(x2), int(y2)
+
+hedefler = []
+
+# 2 X X X
+# 1 X S X
+# 0 X X X
+#   0 1 2
+# S - şah. X - mövqelər
+# x koordinatı [x1-1:x1+1] və ya [x1-1:x1+2) arasında dəyişir.
+# y koordinatı [y1-1:y1+1] və ya [y1-1:y1+2) arasında dəyişir.
+
+for xana_x in range(x1-1, x1+2): # [x1-1:x1+2)
+    for xana_y in range(y1-1, y1+2): # [y1-1:y1+2)
+        hedefler.append( [xana_x, xana_y] )
+
+ikincinin_koordinati = [x2, y2]
+
+if hedefler.count(ikincinin_koordinati) != 0:
+    print("YES")
+else:
+    print("NO")

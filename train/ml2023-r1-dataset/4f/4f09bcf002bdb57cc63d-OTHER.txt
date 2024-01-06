@@ -1,0 +1,2 @@
+Changes detected in configuration. Updating the server image.
+Unknown option: '/opt/keycloak/kc.sh'

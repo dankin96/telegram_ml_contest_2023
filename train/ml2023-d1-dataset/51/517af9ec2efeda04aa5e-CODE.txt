@@ -1,0 +1,9 @@
+
+
+  this.eventEmitter.on('**', (r) => console.log(r))
+
+ EventEmitterModule.forRoot({
+      wildcard: true,
+      delimiter: '.',
+      verboseMemoryLeak: true,
+    }),

@@ -1,0 +1,46 @@
+c++
+#include <iostream>
+
+using namespace std;
+
+int factorial(int n) {
+  if (n == 0) {
+    return 1;
+  } else {
+    return n * factorial(n - 1);
+  }
+}
+
+int power(int x, int y) {
+  if (y == 0) {
+    return 1;
+  } else if (y % 2 == 0) {
+    return power(x * x, y / 2);
+  } else {
+    return x * power(x, y - 1);
+  }
+}
+
+int main() {
+  int x, y;
+  cout << "Enter the base: ";
+  cin >> x;
+  cout << "Enter the power: ";
+  cin >> y;
+
+  if (y % 2 == 0) {
+    cout << "The power of " << x << " to the power of " << y << " is " << power(x, y) << endl;
+  } else {
+    cout << "The power of " << x << " to the power of " << y << " is not even." << endl;
+  }
+
+  // Find the factorial of 5 to 1
+  int factorial_of_5_to_1 = 1;
+  for (int i = 5; i >= 1; i--) {
+    factorial_of_5_to_1 *= i;
+  }
+
+  cout << "The factorial of 5 to 1 is " << factorial_of_5_to_1 << endl;
+
+  return 0;
+}

@@ -1,0 +1,36 @@
+ <div>
+   <p>
+     В ходе выполнения программы вам будет предложено указать расстояние:
+   </p>
+   <p>
+     <samp>
+       Введите значение для переменной <var>Distance</var>:
+     </samp>
+   </p>
+ </div>
+
+ <div>
+   <p>
+     Следующая команда выведет в консоли браузера результат сложения
+     двух чисел:
+   </p>
+   <pre>
+   <code>console.log(2.3 + 2.4)</code>
+   <samp>4.699999999999999</samp></pre>
+ </div>
+
+ <div>
+   <p>
+     Неправильно введённая команда не будет выполнена и в консоли отобразится
+     ошибка:
+   </p>
+   <samp>
+     <span class="console-name">user@machine:~$</span> <kbd>ckear</kbd>
+     <br>
+     ckear: The term 'ckear' unidentified as a name of a cmdlet, function,
+     script file, or executable program.
+     <br>
+     <span class="console-name">user@machine:~$</span>
+     <span class="console-cursor">_</span>
+   </samp>
+ </div>

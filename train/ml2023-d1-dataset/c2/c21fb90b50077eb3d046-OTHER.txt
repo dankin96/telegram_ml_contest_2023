@@ -1,0 +1,8 @@
+pitch_qa_error
+
+@timestamp: 2023-10-12T08:30:04
+_id: MxwTIYsBQB6yy9oIfRkX
+_index: filebeat-sri-pitch-log-2023.10.12
+message: [2023-10-12 08:30:02,129] [ERROR o.h.e.jdbc.spi.SqlExceptionHelper scheduling-1] Server shutdown in progress
+num_hits: 9
+num_matches: 9

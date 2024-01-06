@@ -1,0 +1,5 @@
+Contract: ADAUSDT
+Price: $0.2632
+24H High: $0.2632
+24H Low: $0.2631
+24H Volume: 105584149.0 ADA

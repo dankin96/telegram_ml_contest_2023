@@ -1,0 +1,15 @@
+$serveur = "localhost";
+$nomUtilisateur = "votre_nom_utilisateur";
+$motDePasse = "kahume";
+$nomBaseDeDonnees = "carnet";
+
+try {
+   $connexion = new PDO("mysql:host=$serveur;dbname=$nomBaseDeDonnees", $nomUtilisateur, $motDePasse);
+   $connexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+   // Reste du code pour l'exécution des requêtes...
+   
+   $connexion = null;
+} catch (PDOException $e) {
+   echo "Erreur de connexion à la base de données : " . $e->getMessage();
+}

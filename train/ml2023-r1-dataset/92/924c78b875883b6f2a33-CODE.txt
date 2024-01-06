@@ -1,0 +1,28 @@
+def pc_info(company, model, rang):
+    "kampyuter haqida malumot"
+    pc = {
+        'kompaniya':company,
+        'rang':rang,
+        'model':model,
+    }
+    return pc
+
+def pc_kirit():
+    'kampyuter haqida malumot'
+    kampyuterlar = []
+    while True:
+        print('
+ quyidagi malumotlarni kiriting')
+        kompaniya=input('ishlab chiqaruvchi:')
+        model=input('model:')
+        rang=input('rang:')
+        kampyuterlar.append(pc_info(kompaniya, model, rang))
+        javob=input('yana malumot kerakmi(yes/no)')
+        if javob == 'no':
+            break
+        return kampyuterlar
+    
+def info_print(pc_info):
+    'malumot chiqarish uchun'
+    print(f'{pc_info[''].title()} {pc_info[kompaniya].upper()}'
+    f'{pc_info[model].upper()}')

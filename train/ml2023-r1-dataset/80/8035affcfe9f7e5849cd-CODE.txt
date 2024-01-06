@@ -1,0 +1,20 @@
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=14
+TEQUILA_VERSION=uno-20231007-2220-EXPERIMENTAL-zeus
+PRODUCT_INCLUDE_TAGS=com.android.mainline
+TARGET_PRODUCT=tequila_zeus
+TARGET_BUILD_VARIANT=userdebug
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a-branchprot
+TARGET_CPU_VARIANT=generic
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv8-2a
+TARGET_2ND_CPU_VARIANT=generic
+HOST_OS=linux
+HOST_OS_EXTRA=Linux-6.5.3-zen1-1-zen-x86_64-Arch-Linux
+HOST_CROSS_OS=windows
+BUILD_ID=UP1A.231005.007.A1
+OUT_DIR=out
+PRODUCT_SOONG_NAMESPACES=vendor/xiaomi/sm8450-common device/xiaomi/sm8450-common hardware/xiaomi vendor/xiaomi/zeus device/xiaomi/zeus hardware/qcom-caf/sm8450 vendor/qcom/opensource/commonsys/display vendor/qcom/opensource/commonsys-intf/display vendor/qcom/opensource/data-ipa-cfg-mgr vendor/qcom/opensource/dataservices
+============================================

@@ -1,0 +1,12 @@
+           parent::__construct($this->value);
+        }else{
+           throw new SomeDomainException('Invalid ticket number');
+        }
+    }
+
+    public function value(): string
+    {
+        return $this->value;
+    }
+
+}

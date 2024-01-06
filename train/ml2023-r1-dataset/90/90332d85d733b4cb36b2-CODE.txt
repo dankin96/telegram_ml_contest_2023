@@ -1,0 +1,1 @@
+position_size = math.abs(strategy.position_size * 1.2)

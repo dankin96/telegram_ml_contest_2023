@@ -1,0 +1,8 @@
+ hi : ho
+
+sup : bro
+oh : well
+🍗 : TENDY
+🍺 : ICYPEE
+
+/setkvp lol  :  /tip 0.025 ICYPEE

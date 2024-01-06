@@ -1,0 +1,8 @@
+a = PlunderLazyContainer(session)
+
+# weg 1
+a.sell_plunder("Stifte", 10)
+
+# weg 2
+stifte = a["Stifte"]
+stifte.sell(10)

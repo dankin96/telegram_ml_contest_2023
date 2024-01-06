@@ -1,0 +1,1 @@
+/storage/emulated/0/Android/data/net.osmand.plus/files/voice/en-tts/en_tts.js

@@ -1,0 +1,18 @@
+`const selectedImagesList = document.querySelector('#selected-images');
+
+fileInput.addEventListener('change', function(e) {
+  // Get the selected files.
+  const files = e.target.files;
+
+  // Clear the selected images list.
+  selectedImagesList.innerHTML = '';
+
+  // Add the names of the selected images to the list.
+  for (let i = 0; i < files.length; i++) {
+    const li = document.createElement('li');
+    li.textContent = files[i].name;
+    selectedImagesList.appendChild(li);
+  }
+});`
+
+

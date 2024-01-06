@@ -1,0 +1,5 @@
+Debe Hacer KYC cambios de nombres incoherentes y sin alias para confundir a los usuarios:
+Fecha               Nombre                        
+===============================
+05/10/23, 17:21      Eliandi La Rosa               
+07/10/23, 16:08      Elianys La Rosa

@@ -1,0 +1,6 @@
+Problem started at 01:02:10 on 2023.10.05
+Problem name: Load average is too high (per CPU load over 1.5 for 5m)
+Host: Zabbix server
+Severity: Average
+Operational data: Load averages(1m 5m 15m): (5.13 4.91 4.53), # of CPUs: 3
+Original problem ID: 199641

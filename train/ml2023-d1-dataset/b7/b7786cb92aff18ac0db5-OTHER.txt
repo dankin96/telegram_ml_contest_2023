@@ -1,0 +1,2 @@
+
+CatBoostError: /src/catboost/catboost/private/libs/options/runtime_text_options.cpp:140: No options for tokenizerId Space

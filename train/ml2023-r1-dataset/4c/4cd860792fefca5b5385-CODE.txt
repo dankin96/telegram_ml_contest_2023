@@ -1,0 +1,6 @@
+cd /opt
+mkdir tpcli
+docker run -it --rm --name tpcli --mount type=bind,source=/opt/tpcli,target=/opt/tpcli thepowerio/tpnode /bin/bash
+cd /opt/tpcli/
+tp  --genkey --ed25519
+exit

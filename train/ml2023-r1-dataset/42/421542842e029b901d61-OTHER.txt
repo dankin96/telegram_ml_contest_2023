@@ -1,0 +1,7 @@
+● host.ip : 211.117.61.42 
+● headers.Host : [u'privilege.paysgift.com'] 
+● headers.User-Agent : [u'Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1']
+● remote_address : 113.211.106.150
+● method : post
+● url.full : https://privilege.paysgift.com/Promotion/JoinAction
+● link : https://pas.paysgift.com/app/kibana#/doc/apm-*/apm-7.5.0-error-000035/doc?id=ZVLLCYsBlPPBWJ_7jf2f

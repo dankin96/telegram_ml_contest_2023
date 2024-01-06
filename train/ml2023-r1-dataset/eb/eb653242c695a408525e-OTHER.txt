@@ -1,0 +1,55 @@
+root@20ae981af2d3 
+----------------- 
+OS: Ubuntu 22.04.3 LTS x86_64 
+Host: Virtual Machine Hyper-V UEFI Release v4.1 
+Kernel: 5.15.0-1045-azure 
+Uptime: 17 hours, 36 mins 
+Packages: 833 (dpkg) 
+Shell: bash 
+Resolution: 1024x768 
+CPU: Intel Xeon Platinum 8272CL (4) @ 2.593GHz 
+Memory: 1624MiB / 15940MiB 
+
+
+CPU
+Cores        : 2
+Logical      : 4
+Frequency    : 2594
+[□□□□□□□□□□] 2.5%
+
+RAM 
+Terpakai     : 1.58GB
+Tersedia     : 13.64GB
+Total        : 15.57GB
+[■□□□□□□□□□] 12.4%
+
+Penyimpanan 
+Terpakai     : 256.89GB
+Tersedia     : 239.12GB
+Total        : 496.03GB
+[■■■■■□□□□□] 51.8%
+
+Jaringan
+Total Unduh  : 462.81GB
+Total Unggah : 1.26TB
+
+Versi
+Aria2c       : v1.36.0
+FFMPEG       : v4.4.2
+Google Api   : v2.102.0
+MegaSDK      : v4.8.0
+P7Zip        : v16.02
+Pyro         : v2.3.6.post3
+Rclone       : v1.64.0
+Qbittorrent  : v4.5.5
+YT-DLP       : v2023.09.24
+
+Lainnya
+Username     : @nusantara_mirorbot
+Waktu Bot    : 17h6m48s
+Waktu Mesin  : 17h36m7s
+Diperbarui   : 2023-10-02 From 4 days ago
+
+Quotes       : 
+"Little pig, little pig ... let me in."
+=>  The Walking Dead

@@ -1,0 +1,15 @@
+python
+# Creating a tuple
+my_tuple = (1, 2, 3, 'hello', True)
+
+# Accessing elements in a tuple
+print(my_tuple[0])  # Output: 1
+print(my_tuple[3])  # Output: 'hello'
+
+# Tuples are immutable, so you can't change individual elements
+# This will result in an error:
+# my_tuple[0] = 5
+
+# You can, however, create a new tuple with modified elements
+new_tuple = my_tuple + (4, 5)
+print(new_tuple)  # Output: (1, 2, 3, 'hello', True, 4, 5)

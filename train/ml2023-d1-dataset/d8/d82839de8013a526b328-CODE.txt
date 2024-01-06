@@ -1,0 +1,19 @@
+$browser = Browsershot::url('')
+            ->newHeadless()
+            ->waitUntilNetworkIdle()
+            ->setChromePath('/usr/bin/chromium')
+            ->userAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36');
+
+        Crawler::create([RequestOptions::ALLOW_REDIRECTS => true, RequestOptions::TIMEOUT => 30])
+            ->setBrowsershot($browser)
+            ->executeJavaScript()
+            ->acceptNofollowLinks()
+            ->ignoreRobots()
+            ->setCrawlObserver(new CustomCrawlerObserver())
+            ->setCrawlProfile(new CrawlInternalUrls(''))
+            ->setMaximumResponseSize(1024 * 1024 * 100)
+            ->setTotalCrawlLimit(100)
+            ->setDelayBetweenRequests(100)
+            ->startCrawling('');
+
+        return true;

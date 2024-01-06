@@ -1,0 +1,3 @@
+    copyTradingV1PrivateGetSwapTraceCurrentTrack
+    copyTradingV1PrivatePostSwapTraceCloseTrackOrder
+    copyTradingV1PrivatePostSwapTraceSetTPSL

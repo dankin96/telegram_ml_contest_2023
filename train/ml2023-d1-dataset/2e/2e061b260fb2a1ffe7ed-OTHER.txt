@@ -1,0 +1,2 @@
+splitscreen_mode 2 
+

@@ -1,0 +1,2 @@
+gst-launch-1.0 v4l2src device=/dev/video0 do-timestamp=true ! image/jpeg, width=1920, height=1080, framerate=30/1 ! jpegparse ! v4l2jpegdec ! v4l2h264enc ! watchdog timeout=5000 ! rtspclientsink location=rtsp://localhost:8554/hdmi
+

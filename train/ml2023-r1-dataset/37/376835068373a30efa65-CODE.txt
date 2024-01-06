@@ -1,0 +1,4 @@
+
+<script>
+  export let staff_respon = "lipsi hi";
+</script>

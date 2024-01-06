@@ -1,0 +1,7 @@
+function toTokenAddress(address) {
+    const addressInfo  = decodeCashAddress(address);
+    const pkhPayoutBin = addressInfo.payload;
+    const prefix = network === "mainnet"? 'bitcoincash' : 'bchtest';
+    const tokenAddress = encodeCashAddress(prefix, "p2shWithTokens", pkhPayoutBin);
+    return tokenAddress;
+  }

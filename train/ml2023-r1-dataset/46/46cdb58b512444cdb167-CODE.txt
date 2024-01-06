@@ -1,0 +1,7 @@
+const [userID, setUserId] = useState(0);
+
+setUserId(fetchedUser.id);
+
+console.log("UserID: " + fetchedUser.id);
+console.log("Usestate: " + userID);
+

@@ -1,0 +1,1 @@
+The term rockstar is often used to describe those talented programmers who seem to work faster and better than everyone else, much like a composer who seems to effortlessly churn out fantastic music. However, just as the spontaneity of masterful music is a fantasy, so is the development of exceptional code.

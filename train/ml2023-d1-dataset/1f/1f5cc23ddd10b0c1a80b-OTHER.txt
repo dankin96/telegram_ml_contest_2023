@@ -1,0 +1,32 @@
+Exchange POLYXBTC 1h Binance
+Price:0.00000435|0.00000437|0.00000435
+Vol:       685|   3,274|   1,529
+ATR: 0.00000003
+
+✅OBV:  74.6 K|  75.3 K|  72.0 K
+⚪RSI:   47.81|   51.29|   47.76
+⚪MFI:   42.30|   55.39|   49.55
+⚪CCI:  -12.50|   45.83|  -16.09
+❌WR%:  -33.33|  -14.29|  -42.86
+❌ADX:   10.56|   10.63|   10.71
+
+❌MOM: Bearish Momentum
+✅SMA: Price is Above SMA Bullish
+❌ADI: -DI > +DI Bearish
+✅MACD: Bullish
+✅PSAR: Bullish
+
+Support And Resistance
+S: 0.00000430
+R: 0.00000439
+
+Volatility is low
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+🐻Volume: Bearish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

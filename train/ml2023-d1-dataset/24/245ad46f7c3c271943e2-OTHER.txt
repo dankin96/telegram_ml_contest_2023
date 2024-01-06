@@ -1,0 +1,10 @@
+Timeframe M5 - Majors
+AUDUSD call 55% / put 44% 
+EURCHF call 47% / put 50% ⚪ 
+EURGBP call 50% / put 47% ⚪ 
+EURJPY call 51% / put 48% 
+EURUSD call 52% / put 43% 
+GBPJPY call 45% / put 55% 
+GBPUSD call 56% / put 43% 
+GBPCHF call 48% / put 50% ⚪ 
+NZDUSD call 55% / put 45%

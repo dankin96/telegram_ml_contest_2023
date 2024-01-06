@@ -1,0 +1,3 @@
+Greetings, Tezos Agora Community! 
+We are thrilled to announce the latest release of Taqueria, v0.42.0, from the dedicated team at Pinnacle Labs. This release, fondly dubbed the ‘Homebrew Edition’, brings a host of exciting updates and improvements that we believe will enhance your Taqueria experience. 
+In this release, we’ve introduced a much-anticipated feature: the Homebrew Package for macOS. T...

@@ -1,0 +1,8 @@
+  <app-selected-photo
+    class="selected-on"
+    *ngIf="continueListPhotos && continueListPhotos.length"
+    [fileList]="continueListPhotos"
+    (close)="closeSelected($event)"
+    (clear)="clearMetadataFn($event)"
+  >
+  </app-selected-photo>

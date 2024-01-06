@@ -1,0 +1,1 @@
+/send_wxnetwork_dcc [waves address]

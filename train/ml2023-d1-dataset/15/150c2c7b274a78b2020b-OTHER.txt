@@ -1,0 +1,1 @@
+ Cannot use empty array elements in arrays /app/Lib/History/ParagraphHistory.php /api/app/question_paragraph

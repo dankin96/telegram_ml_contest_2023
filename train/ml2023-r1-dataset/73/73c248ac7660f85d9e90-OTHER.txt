@@ -1,0 +1,1 @@
+org.quartz.SchedulerException: Job threw an unhandled exception. [See nested exception: ru.yandex.inside.yt.kosher.impl.common.YtException: Operation: 15ae6ec4-68f59291-3fe03e8-3e06e407, status: FAILED]

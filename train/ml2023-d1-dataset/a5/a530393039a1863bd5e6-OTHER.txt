@@ -1,0 +1,5 @@
+Hashrate: 2.09G
+Height: 286855
+Next Reward: 140.75
+Difficulty : 251.72G
+Tx_count: 652611

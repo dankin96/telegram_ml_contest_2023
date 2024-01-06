@@ -1,0 +1,28 @@
+SinaisOB BOT - Checa Lista
+
+11/10 - IQ Option
+
+M1;USOUSD;12:32;PUT ✅
+M1;USOUSD;12:34;PUT ✅²
+M1;AUDUSD;12:35;PUT ✅¹
+M1;USOUSD;12:36;PUT ✅
+M1;AUDUSD;12:40;PUT ✅
+M1;USOUSD;12:40;PUT ✖️
+M1;USOUSD;12:42;PUT ✅¹
+M1;USOUSD;12:43;PUT ✅
+M1;USOUSD;12:44;PUT ✅
+M1;USOUSD;12:46;PUT ✅
+M1;AUDUSD;12:48;PUT ✅
+M1;USOUSD;12:54;PUT ✅¹
+M1;USOUSD;12:56;PUT ✅¹
+
+Resultado:
+✅ Sem gale: 7x6 (53,85%)
+✅¹ Com gale 1: 11x2 (84,62%)
+✅² Com gale 2: 12x1 (92,31%)
+
+Compartilhe:
+t.me/SinaisOBOficialBot
+t.me/SinaisOBApp
+
+Visite sinaisob.com

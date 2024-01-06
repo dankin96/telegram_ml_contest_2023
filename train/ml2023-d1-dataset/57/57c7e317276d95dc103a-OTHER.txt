@@ -1,0 +1,5 @@
+  "720000023103001": "A gift from the Sephiroth Battle Challenge Campaign.",
+  "720000023103002": "Day of VII Official X Campaign Gift.",
+  "720000023103003": "\"Best Mobile Game\" award commemorative gift.",
+  "720000023103004": "A celebratory gift for 150,000 followers on Japanese X (Formerly Twitter) account.",
+  "720000023103005": "A gift commemorating high-difficulty stage: Sephiroth.",

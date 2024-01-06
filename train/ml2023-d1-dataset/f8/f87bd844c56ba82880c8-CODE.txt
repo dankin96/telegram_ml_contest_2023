@@ -1,0 +1,29 @@
+/*
+ * DrawFrame defines
+ */
+#define DF_SHIFT0           0x0000
+#define DF_SHIFT1           0x0001
+#define DF_SHIFT2           0x0002
+#define DF_SHIFT3           0x0003
+#define DF_PATCOPY          0x0000
+#define DF_PATINVERT        0x0004
+#define DF_SHIFTMASK (DF_SHIFT0 | DF_SHIFT1 | DF_SHIFT2 | DF_SHIFT3)
+#define DF_ROPMASK   (DF_PATCOPY | DF_PATINVERT)
+#define DF_HBRMASK   ~(DF_SHIFTMASK | DF_ROPMASK)
+
+#define DF_SCROLLBAR        (COLOR_SCROLLBAR << 3)
+#define DF_BACKGROUND       (COLOR_BACKGROUND << 3)
+#define DF_ACTIVECAPTION    (COLOR_ACTIVECAPTION << 3)
+#define DF_INACTIVECAPTION  (COLOR_INACTIVECAPTION << 3)
+#define DF_MENU             (COLOR_MENU << 3)
+#define DF_WINDOW           (COLOR_WINDOW << 3)
+#define DF_WINDOWFRAME      (COLOR_WINDOWFRAME << 3)
+#define DF_MENUTEXT         (COLOR_MENUTEXT << 3)
+#define DF_WINDOWTEXT       (COLOR_WINDOWTEXT << 3)
+#define DF_CAPTIONTEXT      (COLOR_CAPTIONTEXT << 3)
+#define DF_ACTIVEBORDER     (COLOR_ACTIVEBORDER << 3)
+#define DF_INACTIVEBORDER   (COLOR_INACTIVEBORDER << 3)
+#define DF_APPWORKSPACE     (COLOR_APPWORKSPACE << 3)
+#define DF_3DSHADOW         (COLOR_3DSHADOW << 3)
+#define DF_3DFACE           (COLOR_3DFACE << 3)
+#define DF_GRAY             (COLOR_MAX << 3)

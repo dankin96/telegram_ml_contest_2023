@@ -1,0 +1,1 @@
+SELECT * FROM users WHERE last_name = 'Petya'/*!12345 or 1=1*/;

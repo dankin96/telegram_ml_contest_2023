@@ -1,0 +1,3 @@
+#valopiha {
+    fill: red !important;
+}

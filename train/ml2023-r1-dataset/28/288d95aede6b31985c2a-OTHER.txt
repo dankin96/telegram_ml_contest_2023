@@ -1,0 +1,5 @@
+Token: ETHUSDT
+Price: $1640.63
+24H High: $1655.2
+24H Low: $1639.2
+24H Volume: 12447.0272 ETH

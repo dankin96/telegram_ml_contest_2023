@@ -1,0 +1,8 @@
+
+const nodes = await figma.currentPage.findAllWithCriteria({
+      types: ['TEXT']
+    })
+    
+      let textNode = nodes[0] as TextNode
+
+      postMessage(textNode)

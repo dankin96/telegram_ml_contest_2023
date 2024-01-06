@@ -1,0 +1,2 @@
+fsck /dev/your_device
+

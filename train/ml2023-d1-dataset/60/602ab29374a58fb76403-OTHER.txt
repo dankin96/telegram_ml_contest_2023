@@ -1,0 +1,34 @@
+
+|      Geez Pyro Plugins      |
++---------------+-------------+
+| admin         | admin misc  |
+| adzan         | afk         |
+| alive         | animation   |
+| antipm        | asupan      |
+| autoscroll    | broadcast   |
+| carbon        | clone       |
+| colong        | convert     |
+| create        | deepfry     |
+| directmessage | emoji       |
+| fakeadmin     | filter      |
+| font          | git         |
+| globals       | google      |
+| heroku        | info        |
+| invite        | joinleave   |
+| limit         | locks       |
+| logo          | logs        |
+| lyrics        | misc        |
+| notes         | openAI      |
+| pamer         | paste       |
+| ping          | profile     |
+| purge         | quotly      |
+| ram           | salam       |
+| sangmata      | sosmed      |
+| spam          | stats       |
+| sticker       | sticker fun |
+| sudo          | system      |
+| tagall        | telegraph   |
+| translate     | update      |
+| vctools       | voice       |
+| weather       | youtube     |
++---------------+-------------+

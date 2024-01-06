@@ -1,0 +1,13 @@
+
+{
+   "jsonrpc":"2.0",
+   "method":"getPricingERC20",
+   "params":[
+      {
+         "baseToken":"0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+         "quoteToken":"0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+         "expiry":"1692199064"
+      }
+   ],
+   "id":"1"
+}

@@ -1,0 +1,23 @@
+using SolidWorks.Interop.sldworks;
+using SolidWorks.Interop.swcostanalysis;
+
+// Get the active document
+ModelDoc2 swModel = (ModelDoc2)swApp.ActiveDoc;
+
+// Get the Cost Analysis feature
+Feature swCostAnalysisFeature = swModel.FeatureManager.GetFeatureByName("Cost Analysis");
+
+// Get the Cost Analysis interface
+ICostAnalysis swCostAnalysis = (ICostAnalysis)swCostAnalysisFeature.GetSpecificFeature2();
+
+// Set the machining margins
+swCostAnalysis.SetMachiningMargins(1.0, 2.0, 3.0, 4.0);
+
+// Update the Cost Analysis feature
+swModel.EditRebuild3();
+
+// Refresh the Cost Analysis
+swCostAnalysis.RefreshAnalysis();
+
+// Save the changes
+swModel.Save();

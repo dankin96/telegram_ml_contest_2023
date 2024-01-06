@@ -1,0 +1,15 @@
+    mounts:
+    - block_available: 1486824
+      block_size: 4096
+      block_total: 1985394
+      block_used: 498570
+      device: /dev/root
+      fstype: ext4
+      inode_available: 956766
+      inode_total: 1032192
+      inode_used: 75426
+      mount: /
+      options: rw,relatime,discard
+      size_available: 6090031104
+      size_total: 8132173824
+      uuid: f4ee2e7a-c122-4211-82ae-7805f948042e

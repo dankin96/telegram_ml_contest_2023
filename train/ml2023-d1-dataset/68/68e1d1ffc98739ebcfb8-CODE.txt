@@ -1,0 +1,10 @@
+let cutAggressionByReduction = ((value, ct) => {
+    let newval = value;
+    const base = Math.floor(ct / 4) * 4;
+    const mod = ct % 4;
+    for (let i = 0; i < base / 4; i++) {
+        newval /= 2;
+    }
+    const step = (newval / 2 / 4) * mod;
+    return newval - step;
+});

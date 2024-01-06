@@ -1,0 +1,7 @@
+ARCHIVOS_OPENSHF="master_openshift.qcow2 node_openshift.qcow2 node2_openshift.qcow2 infra-node1.qcow2 infra-node2.qcow2"
+for x in ${ARCHIVOS_OPENSHF}; do
+  virt-filesystems --long -h --all -a $x
+  mv $x $x.old
+  qemu-img create -f qcow2 -o preallocation=metadata $x 120G
+  virt-resize --expand /dev/sda1 $x.old $x
+done

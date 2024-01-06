@@ -1,0 +1,4 @@
+окт 10 16:15:46 iamkirkezz dbus-daemon[473]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service' requested by ':1.95' (uid=1000 pid=235237 comm="/usr/lib/firefox/firefox")
+окт 10 16:15:46 iamkirkezz systemd[1]: Starting Daemon for power management...
+окт 10 16:15:46 iamkirkezz dbus-daemon[473]: [system] Successfully activated service 'org.freedesktop.UPower'
+окт 10 16:15:46 iamkirkezz systemd[1]: Started Daemon for power management.

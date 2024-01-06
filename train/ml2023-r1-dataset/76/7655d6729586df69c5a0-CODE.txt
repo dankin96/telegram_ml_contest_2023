@@ -1,0 +1,7 @@
+# Copie os diretórios e arquivos necessários para o contêiner
+COPY ihx_acces_pro /ihx_access_pro
+COPY zzz-apache_ihx_access_pro.conf /etc/apache2/sites-available/zzz-apache_ihx_access_pro.conf
+
+# Copie os diretórios para os locais temporários especificados
+COPY ihx_acces_pro/app /tmp/app
+COPY ihx_acces_pro/ihx /tmp/ihx

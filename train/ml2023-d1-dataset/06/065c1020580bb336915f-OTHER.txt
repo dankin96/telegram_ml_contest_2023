@@ -1,0 +1,28 @@
+
+| PyroYoo-UserBot Modules |
++------------+------------+
+| admin      | afk        |
+| alive      | asupan     |
+| broadcast  | carbon     |
+| clone      | create     |
+| fakeaction | globals    |
+| google     | heroku     |
+| info       | invite     |
+| joinleave  | locks      |
+| log        | memes      |
+| memify     | misc       |
+| parse      | paste      |
+| ping       | pmpermit   |
+| profile    | purge      |
+| quotly     | reverse    |
+| salam      | sangmata   |
+| sosmed     | spam       |
+| speedtest  | start      |
+| stats      | sticker    |
+| system     | tag        |
+| tagall     | telegraph  |
+| tiny       | toxic      |
+| translate  | update     |
+| vctools    | voice      |
+| webshot    | None       |
++------------+------------+

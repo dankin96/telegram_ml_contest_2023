@@ -1,0 +1,3 @@
+Schema::table('tablename', function (Blueprint $table) {
+    $table->string('mobile_phone')->nullable();
+});

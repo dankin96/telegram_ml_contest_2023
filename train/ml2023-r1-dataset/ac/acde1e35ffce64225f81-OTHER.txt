@@ -1,0 +1,8 @@
+you might have meant to use the associated type: `Self::Relation`rustcE0412
+user.rs(3, 39): original diagnostic
+cannot find type `Relation` in this scoperustcClick for full compiler diagnostic
+user.rs(3, 39): you might have meant to use the associated type: `Self::Relation`
+user.rs(1, 1): consider importing this enum: `use crate::post::Relation;
+`
+the trait bound `user::ActiveModel: sea_orm::ActiveModelBehavior` is not satisfied
+the trait `sea_orm::ActiveModelBehavior` is implemented for `post::ActiveModel`rustcClick for full compiler diagnostic

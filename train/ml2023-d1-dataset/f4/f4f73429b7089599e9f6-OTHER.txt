@@ -1,0 +1,13 @@
+📆11/10/2023
+até ✅²
+
+M5 AUDUSD 08:35 CALL ✅²
+M5 CADCHF 09:55 PUT  ✅
+M5 GBPUSD 10:30 CALL ✅¹
+M5 NZDUSD 11:45 PUT  ✅
+M5 AUDNZD 12:40 PUT  ✅
+
+✅ Apurado: 5 de 5 sinais
+🔰 Placar: 5x0
+🎯 Assertividade: 100.0%
+

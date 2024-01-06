@@ -1,0 +1,23 @@
+    public sealed class GuidScanner : IScanner
+    {
+
+        public GuidScanner()
+        {
+            Subscribe(ScanInternal);
+        }
+
+        public event EventHandler<Guid>? Scanned;
+
+        private void ScanInternal(string value)
+        {
+            if (!Guid.TryParse(value, out var id))
+                return;
+
+            var handler = Scanned;
+            handler?.Invoke(this, id);
+        }
+
+        [DllImport("BarCodeCore", CallingConvention = CallingConvention.StdCall)]
+        private static extern UIntPtr Subscribe([MarshalAs(UnmanagedType.FunctionPtr)] IScanner.ScanGuid scan);
+
+    }

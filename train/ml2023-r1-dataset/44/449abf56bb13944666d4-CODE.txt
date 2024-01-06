@@ -1,0 +1,3 @@
+ "payment_mode": "empty_string", 
+ "payment_method": "card", 
+ "processing": "Yandex.Money New Card API"

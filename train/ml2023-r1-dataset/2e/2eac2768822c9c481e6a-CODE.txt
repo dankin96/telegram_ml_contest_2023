@@ -1,0 +1,21 @@
+export const useRequest = (url) => {
+  const loading = ref(false);
+  const data = ref({});
+  const error = ref(null);
+  const request = async () => {
+    try {
+      loading.value = true;
+      data.value = await axios.get(url);
+    } catch (e) {
+      error.value = e;
+    }
+    loading.value = false;
+  }
+  onMounted(request);
+
+  return {
+    loading,
+    data,
+    error
+  };
+}

@@ -1,0 +1,1 @@
+Olá, alguém sabe se o kernel Su é usado para ocultar root em aplicações bancárias?

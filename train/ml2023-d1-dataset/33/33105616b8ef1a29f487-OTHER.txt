@@ -1,0 +1,6 @@
+Format laporan
+Usn + name ::
+id penipu + idc
+Ditipu apa ::
+Ceritakan kronologi ::
+

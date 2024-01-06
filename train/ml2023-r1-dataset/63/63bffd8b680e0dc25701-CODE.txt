@@ -1,0 +1,9 @@
+sm unmount public:179,1
+cd /data/local/tmp
+./*mroot
+./magisk-start.sh -1
+./magisk-start.sh -2
+./magisk-start.sh -3
+exit
+sleep 0.5
+su -c stop && su -c start

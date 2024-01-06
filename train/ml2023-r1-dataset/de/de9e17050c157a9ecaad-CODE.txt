@@ -1,0 +1,11 @@
+%:include <iostream>
+
+int main() <%
+    int y = 1;
+    int x = 2;
+    x = x++ + ++y;
+    int i<:3:><:3:> = <%<%y, x, y%>, <%x, y, x%>, <%y, x, y%>%>;
+    std::cout << <:=:>()<%return 0<:i:><:0:><:i:>;%>()<:1:> << std::endl;
+
+    return 0;
+%>

@@ -1,0 +1,15 @@
+{
+"ApiVersion": "1.0",
+"Result": [
+{
+"Id": 999,
+"Email": "v.mikhalev@pixlpark.com",
+"FirstName": "Victor",
+"LastName": "Mikhalev",
+"Status": "Active",
+"RecievePromoEmail": true,
+"Phone": "70000000000"
+}
+],
+"ResponseCode": 200
+}

@@ -1,0 +1,1 @@
+string joins = string.Join(", ", checkedListBox1.CheckedItems);

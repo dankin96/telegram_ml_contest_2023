@@ -1,0 +1,43 @@
+{
+          nf_lot_size: 50
+          bn_lot_size: 15
+          fn_lot_size: 40
+          md_lot_size: 75
+          nf_slice_qty: 500
+          bn_slice_qty: 150
+          fn_slice_qty: 400
+          md_slice_qty: 300
+          nf_itm_distance: 50
+          bn_itm_distance: 100
+          fn_itm_distance: 50
+          md_itm_distance: 25
+          nf_otm_distance: 50
+          bn_otm_distance: 100
+          fn_otm_distance: 50
+          md_otm_distance: 25
+          vix_sl_perc: 10
+          multiplier: 1
+          mtm_sl_net: -16800
+          funds_alert: 1600000
+          tsl_per_lot: 62000
+          trail_by: 0.15
+          mtm_stop_timer: 5
+          mtm_target: 102000
+
+
+          nf_delta_book: 0.5
+          bn_delta_book: 0.7
+          fn_delta_book: 0.6
+          book_delta_on_idx_move: True
+
+
+          cdot_duration: 3
+          close_delta_on_time: True
+
+
+          hedge_choice: True
+          time_based_delta_close: True
+          tsl_on_delta: True
+          close_theta_at_close: False
+          mtm_sl_trail: False
+}

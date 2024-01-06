@@ -1,0 +1,41 @@
+Merge branch 'preprod' into 'master'
+Merge branch 'RM-50073' into 'test'
+Merge branch 'RM-50077' into 'RM-50073'
+Merge branch 'RM-52615' into test
+Merge branch 'RM-56422' into 'test'
+Merge branch 'RM-57375' into 'RM-50073'
+Merge branch 'RM-57375-migrations-2' into 'test'
+Merge branch 'RM-61272' into test
+Merge branch 'RM-63146' into 'test'
+Merge branch 'RM-63221' into 'preprod'
+Merge branch 'RM-63224' into test
+Merge branch 'RM-63380' into 'test'
+Merge branch 'RM-63395' into 'preprod'
+Merge branch 'RM-63405' into 'preprod'
+Merge branch 'RM-63405' into test
+Merge branch 'RM-63419' into 'preprod'
+Merge branch 'RM-63419' into test
+Merge branch 'RM-63445' into 'test'
+Merge remote-tracking branch 'origin/master' into RM-61272
+RM-50077 - Неправильная сортировка объектов закупки на форме подачи заявки
+RM-50077 - правка лишних нулей при выводе concreteValue
+RM-52615 - правки функциональности отдачи характеристик КТРУ
+RM-56422 - Реализация задачи
+RM-57375 - Доработка полей для больших чисел
+RM-57375 - тесты для обработки новых тегов (Лекарства)
+RM-57375 - удаление миграции для теста
+RM-61272 - Дополнил лог.
+RM-61272 - Правка лога.
+RM-63146 - правка проблемы с массивом индикаторов
+RM-63224 дата и время подачи заявки
+RM-63380 - Добавил мок на XmlIntegrationService
+RM-63380 - Добавление в генерируемые извещения флага isStructuredForm = false
+RM-63380 - Навесил мок на MemCache
+RM-63380 - Написание теста на создание закупки через эмулятор
+RM-63380 - Получение контента clientResponse
+RM-63380 - Правка
+RM-63380 - Правки
+RM-63405 - обновление неймспейсов для ЕРУЗ контрактора
+RM-63419 - добавил условие для выгрузки актуальных версий процедур
+RM-63445 - Правка уведомлений
+RM-63484 - Отсутствует разделение на разряды для количественного значения характеристики (диапазон)

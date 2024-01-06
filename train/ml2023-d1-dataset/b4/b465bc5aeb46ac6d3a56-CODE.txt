@@ -1,0 +1,5 @@
+[f=(x)=>Excel.CurrentWorkbook(){[Name=x]}[Content],
+    g=(x)=>x[Sum of Sales]/x[Point of Sales],
+    lst={"City", "Chain name"},
+    tbl=Table.Join(f("Таблица3"),lst,f("Таблица2"),lst),
+    to=Table.AddColumn(tbl,"среднее",g)][to]

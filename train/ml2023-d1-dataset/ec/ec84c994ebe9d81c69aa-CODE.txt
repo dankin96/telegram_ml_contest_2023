@@ -1,0 +1,34 @@
+{
+ "update_id": 935482199,
+ "message": {
+  "message_id": 25510,
+  "from": {
+   "id": 1044753221,
+   "is_bot": false,
+   "first_name": "Азизбек",
+   "last_name": "Қозоқов",
+   "username": "azizbekqozoqov",
+   "language_code": "uz",
+   "is_premium": true
+  },
+  "chat": {
+   "id": -1001255928160,
+   "title": "Ji",
+   "username": "UnutmagulmGrj",
+   "type": "supergroup"
+  },
+  "date": 1697038093,
+  "left_chat_participant": {
+   "id": 983000232,
+   "is_bot": true,
+   "first_name": "Quiz Bot",
+   "username": "QuizBot"
+  },
+  "left_chat_member": {
+   "id": 983000232,
+   "is_bot": true,
+   "first_name": "Quiz Bot",
+   "username": "QuizBot"
+  }
+ }
+}

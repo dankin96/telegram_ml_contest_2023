@@ -1,0 +1,5 @@
+OK: SMG-2016-Chelyabinsk-MTS has just been restarted
+Host: SMG-2016-Chelyabinsk-MTS 92.43.190.163 - time 09:41:39
+Trigger: SMG-2016-Chelyabinsk-MTS has just been restarted
+Trigger status: OK
+Trigger severity: High

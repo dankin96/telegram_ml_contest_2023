@@ -1,0 +1,14 @@
+count = 0
+while True:
+    try:
+        num = int(input())
+        count += 1
+        if num > 100:
+            print("larger than expected")
+        elif num < 100:
+            print("less than expected")
+        else:
+            print("you have tried", count, "times, you win")
+            break
+    except ValueError:
+        print("input error")

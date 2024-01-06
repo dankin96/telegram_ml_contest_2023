@@ -1,0 +1,3 @@
+gcloud beta resource-config bulk-export \
+  --project=PROJECT_ID \
+  --resource-format=terraform

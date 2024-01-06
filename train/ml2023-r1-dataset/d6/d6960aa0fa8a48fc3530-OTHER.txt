@@ -1,0 +1,5 @@
+pyspark.sql.utils.AnalysisException:
+The user-specified schema doesn't match the actual schema:
+user-specified: created TIMESTAMP,solution_id STRING,transaction_id STRING, actual: solution_id STRING,transaction_id STRING,created TIMESTAMP. If you're using
+DataFrameReader.schema API or creating a table, please do not specify the schema.
+Or if you're scanning an existed table, please drop it and re-create it.

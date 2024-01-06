@@ -1,0 +1,28 @@
+const targetNumber = Math.floor(Math.random() * 10) + 1;
+let attempts = 3;
+
+function playGame() {
+  while (attempts > 0) {
+    const guess = parseInt(prompt(`Enter a number between 1 and 10 (Attempts left: ${attempts}):`));
+
+    if (isNaN(guess) || guess < 1 || guess > 10) {
+      alert('Please enter a valid number between 1 and 10.');
+      continue;
+    }
+
+    if (guess === targetNumber) {
+      alert('Congratulations! You guessed the correct number!');
+      return;
+    } else if (guess < targetNumber) {
+      alert('Too low! Try again.');
+    } else {
+      alert('Too high! Try again.');
+    }
+
+    attempts--;
+  }
+
+  alert(`Out of attempts. The correct number was ${targetNumber}. Try again later!`);
+}
+
+playGame();

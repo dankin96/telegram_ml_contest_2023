@@ -1,0 +1,45 @@
+{
+ "update_id": 935485749,
+ "message": {
+  "message_id": 82,
+  "from": {
+   "id": 1087968824,
+   "is_bot": true,
+   "first_name": "Group",
+   "username": "GroupAnonymousBot"
+  },
+  "sender_chat": {
+   "id": -1001875328415,
+   "title": "Coders7 #Oficial",
+   "username": "codersoficial",
+   "type": "supergroup"
+  },
+  "chat": {
+   "id": -1001875328415,
+   "title": "Coders7 #Oficial",
+   "username": "codersoficial",
+   "type": "supergroup"
+  },
+  "date": 1697073182,
+  "new_chat_participant": {
+   "id": 285793787,
+   "is_bot": true,
+   "first_name": "Show Json Bot",
+   "username": "ShowJsonBot"
+  },
+  "new_chat_member": {
+   "id": 285793787,
+   "is_bot": true,
+   "first_name": "Show Json Bot",
+   "username": "ShowJsonBot"
+  },
+  "new_chat_members": [
+   {
+    "id": 285793787,
+    "is_bot": true,
+    "first_name": "Show Json Bot",
+    "username": "ShowJsonBot"
+   }
+  ]
+ }
+}

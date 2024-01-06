@@ -1,0 +1,10 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Charmander",
+  "description": "Charmander is a Fire-type Pokémon",
+  "category": "Pokémon",
+  "image": "https://example.com/charmander.jpg",
+  "additionalType": "https://pokeapi.co/api/v2/pokemon/4",
+  "sameAs": "https://bulbapedia.bulbagarden.net/wiki/Charmander_(Pok%C3%A9mon)"
+}

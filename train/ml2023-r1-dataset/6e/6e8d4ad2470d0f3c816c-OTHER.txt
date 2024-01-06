@@ -1,0 +1,3 @@
+https://domain;username:password@sub.example.com/resource 
+https://domain;username@sub.example.com/resource 
+https://username:password@sub.example.com/resource 

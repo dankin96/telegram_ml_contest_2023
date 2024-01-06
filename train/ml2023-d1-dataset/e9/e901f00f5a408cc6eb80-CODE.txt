@@ -1,0 +1,7 @@
+WHILE (true) {
+  ...
+  if (KEYPRESSED()) {
+    key = GETCHH();
+    if (key == ...) { ... }
+  }
+}

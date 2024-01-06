@@ -1,0 +1,8 @@
+OS: Arch Linux ARM aarch64 
+Host: Raspberry Pi 4 Model B Rev 1.2 
+Kernel: 6.1.53~e+ 
+Uptime: 12 days, 23 hours, 40 mins 
+Packages: 406 (pacman) 
+Shell: bash 5.1.16 
+CPU: BCM2835 (4) @ 1.500GHz 
+Memory: 471MiB / 3816MiB

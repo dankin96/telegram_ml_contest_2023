@@ -1,0 +1,1 @@
+SELECT u.id, u.username FROM users u WHERE u.status = 'педор'

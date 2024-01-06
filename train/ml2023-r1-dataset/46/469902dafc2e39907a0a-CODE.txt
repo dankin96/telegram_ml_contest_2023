@@ -1,0 +1,6 @@
+callcPercent = (val) => {
+return console.log(`25/25% = ${Math.ceil(val*0.25)} ГРН.
+20/20% = ${Math.ceil(val*0.2)} ГРН.
+10% = ${Math.ceil(val*0.1)} ГРН.
+`)
+}

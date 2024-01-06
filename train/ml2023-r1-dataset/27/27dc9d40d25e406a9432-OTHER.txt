@@ -1,0 +1,2 @@
+[ 66% 2/3] analyzing Android.bp files and generating ninja file at /home/beru/evox/out/soong/build.ninja
+   62:59 analyzing Android.bp files and generating ninja file at /home/beru/evox/out/soong/build.ninja

@@ -1,0 +1,2 @@
+kernel-modules-rtl88x2bu-std-def
+kernel-modules-rtl88x2bu-un-def

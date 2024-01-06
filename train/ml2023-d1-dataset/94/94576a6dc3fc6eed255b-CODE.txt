@@ -1,0 +1,29 @@
+n = int(input("n="))
+s = ''
+
+if n > 1000:
+    m = n // 1000
+    n %= 1000
+    s = f'1000*{m} '
+
+for a in range(1):
+    for b in range(2):
+        for c in range(5):
+            for d in range(10):
+                for e in range(20):
+                    if 1000*a+500*b+200*c+100*d+50*e == n:
+                        if a != 0:
+                            s += f'1000*{a} '
+                        if b != 0:
+                            s += f'500*{b} '
+                        if c != 0:
+                            s += f'200*{c} '
+                        if d != 0:
+                            s += f'100*{d} '
+                        if e != 0:
+                            s += f'50*{e}'
+                        print(s)
+                        s = ''
+
+# 50, 100, 200, 500, 1000
+# 700

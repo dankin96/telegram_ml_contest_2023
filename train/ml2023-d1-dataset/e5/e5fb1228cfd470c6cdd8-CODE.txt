@@ -1,0 +1,9 @@
+object? GetDefaultValue(Type t)
+{
+  if (t.IsValueType)
+    return RuntimeHelpers
+     .GetUninitializedObject(t);
+
+  return null;
+}
+

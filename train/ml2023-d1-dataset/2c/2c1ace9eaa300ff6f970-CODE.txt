@@ -1,0 +1,2 @@
+
+@bonus_schema_key = BonusSchemaIssue.where(bonus_issue_id: resource.id).pluck(:key).last

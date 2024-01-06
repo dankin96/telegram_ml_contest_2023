@@ -1,0 +1,1 @@
+{"payTypes":["TinkoffNew"],"amountavailable":1000}

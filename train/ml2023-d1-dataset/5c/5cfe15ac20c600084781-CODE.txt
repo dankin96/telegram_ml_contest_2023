@@ -1,0 +1,6 @@
+
+// incDay.js
+function getIncrementDay(incDay) {
+                                // 10           + 10 = 20
+  return new Date().getDate() + incDay
+}

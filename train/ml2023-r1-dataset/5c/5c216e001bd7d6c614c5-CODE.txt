@@ -1,0 +1,1 @@
+nmap('K', vim.lsp.buf.hover, 'Hover Documentation')

@@ -1,0 +1,1 @@
+mysql -u root -pXXXXX -e "SET PASSWORD for 'root'@'localhost' = ''"

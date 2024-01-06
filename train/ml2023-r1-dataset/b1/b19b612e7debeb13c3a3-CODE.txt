@@ -1,0 +1,2 @@
+select * from table t
+left join MemDataSetCars c on t.id_car = c.id

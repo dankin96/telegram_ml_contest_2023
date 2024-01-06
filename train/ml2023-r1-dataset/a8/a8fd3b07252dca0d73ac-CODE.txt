@@ -1,0 +1,1 @@
+fastboot flash recovery_a fox.img

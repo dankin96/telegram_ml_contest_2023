@@ -1,0 +1,9 @@
+FORMAT NOKOS
+
+Nama +usn :
+take brp nokos :
+jenis nokos : fns/nfns
+payment :
+total :
+qr / tidak ::
+Send ke @xndasmu

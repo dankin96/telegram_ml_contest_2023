@@ -1,0 +1,10 @@
+Amount: NGN 37,000.00 
+Transaction Ref: V195873515725918
+Sender: RAVEN-
+Account: XXXXXX2705
+Bank: Moniepoint MFB
+Poll: Face Of JK STYLES
+Contestant: 780E2A4B5D - Chibueze (FOJKS-0099)
+Current Votes: 1007
+
+MEMO: 1017432705/8284788515/VOTES/CHIBUEZE

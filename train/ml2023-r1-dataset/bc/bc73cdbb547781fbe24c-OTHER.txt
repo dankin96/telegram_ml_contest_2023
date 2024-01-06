@@ -1,0 +1,2 @@
+vless://1f3bb6e4-8ec3-4f40-94f8-45a29f61db77@134.122.97.236:20572?type=grpc&serviceName=telegram:@proxyforopeta+telegram:@proxyforopeta+telegram:@proxyforopeta+telegram:@proxyforopeta+telegram:@proxyforopeta+telegram:@proxyforopeta+telegram:@proxyforopeta&security=reality&fp=firefox&pbk=sZo-JnWaXg7f939DQzSVITz1JD_31mZM1z22WE9gXjE&sni=discord.com&sid=021d2e20&spx=%2F#S1%20%7C%202%20%7C%20be%20nam%20edalat
+

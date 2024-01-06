@@ -1,0 +1,12 @@
+function on_message(self, message_id, message, sender)
+    -- check for the message
+    if message_id == hash("trigger_response") then
+        if message.enter then
+            -- take action for entry
+            print("I am now inside", message.other_id)
+        else
+            -- take action for exit
+            print("I am now outside", message.other_id)
+        end
+    end
+end

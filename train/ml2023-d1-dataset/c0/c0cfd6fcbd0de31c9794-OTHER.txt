@@ -1,0 +1,18 @@
+╔═══════════════╦══════════════╗
+║   HKrA_v2.4   ║  K. Bilgiler ║
+╠═══════════════╬══════════════╣
+║ Tarih-Saat:   ║ 13/10/23 16:19:28
+║ Chat tipi:    ║ supergroup
+║ Chat_UID:     ║ -1001558929827
+║ Chat İsim:    ║ DARK NET
+║ Chat K.Isim:  ║ s4lckyalsat
+╠═══════════════╬══════════════╣
+║ K. TgUID:     ║ 1021777432
+║ K. Etiket:    ║ @cte_co
+║ K. TgLink:    ║ https://t.me/cte_co
+║ K. Isim:      ║ Kar
+║ K. Soy_Isim:  ║ Bulunamadı.
+║ K. Is_Bot?:   ║ Hayır.
+║ K. Dil_Kodu:  ║ tr
+║ K. Premium_?: ║ Bulunamadı.
+╚═══════════════╩══════════════╝

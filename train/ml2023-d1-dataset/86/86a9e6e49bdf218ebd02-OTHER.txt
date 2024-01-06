@@ -1,0 +1,3 @@
+Object size 4 MiB
+Stripe unit 4 MiB
+Stripe count 1

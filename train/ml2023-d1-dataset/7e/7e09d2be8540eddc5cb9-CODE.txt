@@ -1,0 +1,4 @@
+
+<Route  path='bar'> 
+  <Route path='foo/:id' />
+</Route>

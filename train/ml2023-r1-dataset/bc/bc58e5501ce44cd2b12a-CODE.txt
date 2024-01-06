@@ -1,0 +1,30 @@
+automation:
+    
+      - id: Автоматическое управление вытяжкой
+        alias: auto_bathroom_ventilation
+        initial_state: true
+        trigger:
+          - platform: state
+            entity_id: binary_sensor.hum_high_on
+            to: 'on'
+          - platform: state
+            entity_id: binary_sensor.hum_low_off
+            to: 'on'
+        action:
+          - choose:
+              - conditions:
+                  - condition: state
+                    entity_id: binary_sensor.hum_high_on
+                    state: 'on'
+                sequence:
+                  - service: switch.turn_on
+                    data:
+                      entity_id: switch.0x00158d0002d7bb2b_l1
+              - conditions:
+                  - condition: state
+                    entity_id: binary_sensor.hum_low_off
+                    state: 'on'
+                sequence:
+                  - service: switch.turn_off
+                    data:
+                      entity_id: switch.0x00158d0002d7bb2b_l1

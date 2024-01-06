@@ -1,0 +1,3 @@
+2023-10-12 14:41:33,258 [pool-249275-thread-1] ERROR pyramid.infra.auth.ldap.LdapManager - Tried connecting 2 times to the LDAP servers for domain neadru.local and failed
+pyramid.infra.exceptions.PyramidException: failed invoking ldap server
+Caused by: javax.naming.AuthenticationException: [LDAP: error code 49 - 80090308: LdapErr: DSID-0C090439, comment: AcceptSecurityContext error, data 52e, v4563]

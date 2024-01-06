@@ -1,0 +1,5 @@
+- Buka Game Mobil Legend
+- Tekan gambar avatar profile ( kiri atas )
+- Contoh ID Game : 295244016 (8494)  =>  2952440168494
+   Yang Di Input ID Game Tersebut => 2952440168494
+

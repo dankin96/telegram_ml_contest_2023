@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="UTF-8">
+ <title>距离2025年毕业还有多少时间</title>
+ <style>
+  body {
+   font-family: Arial, sans-serif;
+   text-align: center;
+  }
+  h1 {
+   font-size: 36px;
+   margin-top: 50px;
+  }
+  p {
+   font-size: 24px;
+   margin-top: 20px;
+  }
+  input[type="date"] {
+   font-size: 24px;
+   padding: 10px;
+   margin-top: 20px;
+  }
+  button {
+   font-size: 24px;
+   padding: 10px 20px;
+   margin-top: 20px;
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+  }
+ </style>
+</head>
+<body>
+ <h1>距离2025年毕业还有多少时间</h1>
+ <p>请选择您的毕业日期：</p>
+ <input type="date" id="graduationDate">
+ <button onclick="calculateTime()">计算</button>
+ <p id="result"></p>
+ <script>
+  function calculateTime() {
+   var graduationDate = new Date(document.getElementById("graduationDate").value);
+   var now = new Date();
+   var timeDiff = graduationDate.getTime() - now.getTime();
+   var days = Math.ceil(timeDiff / (1000 * 3600 * 24));
+   document.getElementById("result").innerHTML = "距离您的毕业还有 " + days + " 天";
+  }
+ </script>
+</body>
+</html>

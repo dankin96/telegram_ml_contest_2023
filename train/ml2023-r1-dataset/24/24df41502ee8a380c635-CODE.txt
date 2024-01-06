@@ -1,0 +1,27 @@
+{
+    "Captcha_Chars_Mode": "nums",
+    "Captcha_Difficulty_Level": 3,
+    "Captcha_Time": 120,
+    "Enabled": true,
+    "Ignore_List": [],
+    "Language": "ES",
+    "Link": "@GamesDevSpain",
+    "Poll_A": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "Poll_C_A": 0,
+    "Poll_Q": "",
+    "RM_All_Msg": false,
+    "Restrict_Non_Text": 0,
+    "Rm_Result_Msg": true,
+    "Rm_Welcome_Msg": true,
+    "Title": "Desarrolladores de v\u00eddeojuegos",
+    "URL_Enabled": true,
+    "Welcome_Msg": "-",
+    "Welcome_Time": 60
+}

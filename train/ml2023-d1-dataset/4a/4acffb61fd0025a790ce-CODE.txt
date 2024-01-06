@@ -1,0 +1,1 @@
+curl -X GET --header 'Accept: application/json' 'https://agrohistory.com/api/currentuser?api_key=KJzEhaNYgL0Tua

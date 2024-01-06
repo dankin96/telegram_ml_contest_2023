@@ -1,0 +1,4 @@
+
+5G UC stands for Ultra Capacity 5G. It's T-Mobile's branding for its mid-band and high-band 5G networks. 5G UC is faster than regular 5G because it uses higher frequencies. 
+
+5G UC mostly runs on 2.5GHz frequencies, with 24–39GHz used for extra capacity in some denser areas. This differs from T-Mobile's Extended Range 5G, which runs exclusively on the lowest 600MHz frequencies.

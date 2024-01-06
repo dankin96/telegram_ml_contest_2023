@@ -1,0 +1,6 @@
+void AddContentToSheetSlots() {
+int slotIndex = 0;
+slotIndex = <Component>(InventoryComponent) -> W_Inventory.currentSlotIndex;
+
+...
+}

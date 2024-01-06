@@ -1,0 +1,33 @@
+enum Type {
+    Title = 'Title',
+    Input = 'Input',
+}
+
+type InputConfType = number;
+type TitleConfType = string
+
+// map 1 对 1
+type ConfList = {
+    [Type.Input]: InputConfType,
+    [Type.Title]: TitleConfType,
+};
+
+// 想生成一个接口 A, 确保 type 和 conf 获得对应类型, 适用于以下情况
+
+const Input : A ={
+    type: Type.Input,
+    conf: 11
+}
+
+const Title : A ={
+    type: Type.Title,
+    conf: 'str'
+}
+
+// 如果出现有以下情况则报错
+
+const ErrorTemplate : A ={
+    type: Type.Input,
+    conf: 'str
+}
+

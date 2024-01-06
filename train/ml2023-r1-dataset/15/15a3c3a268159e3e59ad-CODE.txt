@@ -1,0 +1,14 @@
+import requests
+
+url = "https://cloud.oracle.com/"
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0;Win64) AppleWebkit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36"
+}
+
+response = requests.get(url, headers=headers)
+
+if response.status_code == 200:
+    print("Request sent successfully!")
+    print(response.text)
+else:
+    print("Oops, something went wrong. Please check your code and try again.")

@@ -1,0 +1,13 @@
+cancel := nil // i know about the types, but only for example
+
+someMiddleware(update *telego.Update) {
+ctx, c := context.WithCancel(update.Context())
+
+update.WithContext(ctx)
+
+cancel = c
+}
+
+nextMidd(update *telego.Update) {
+c()
+}

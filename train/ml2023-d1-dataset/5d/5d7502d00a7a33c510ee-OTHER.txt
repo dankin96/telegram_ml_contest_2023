@@ -1,0 +1,1 @@
+.dlm https://raw.githubusercontent.com/danyagreench/hikka_m/main/InlineBossList.py

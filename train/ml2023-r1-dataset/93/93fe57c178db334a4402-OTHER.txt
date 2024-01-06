@@ -1,0 +1,1 @@
+✅Dentro de HTTP Injector también encontraremos un amplio abanico de herramientas distintas. El 'IP Hunter', por ejemplo, nos permitirá buscar IPs locales; mientras que la herramienta de diagnóstico nos dará la posibilidad de comprobar que todo va bien en nuestro terminal.

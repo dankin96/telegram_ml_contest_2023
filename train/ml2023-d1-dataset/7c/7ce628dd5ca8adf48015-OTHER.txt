@@ -1,0 +1,6 @@
+Halo, please help me, 
+I want to create a list with a dynamic component, a database from Google Spreadsheet. 
+But I’m confused about how to display all the data from Google Spreadsheet in the dynamic component. 
+Thank you in advance 
+ [1111] 
+[Screenshot_20231011_135017 (1)]

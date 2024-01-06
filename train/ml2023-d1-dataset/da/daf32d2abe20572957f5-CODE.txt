@@ -1,0 +1,4 @@
+//@version=5
+indicator('BNF PRE-OPEN', shorttitle = 'BNFO', overlay = true, explicit_plot_zorder = false)
+import TradingView/ta/5
+

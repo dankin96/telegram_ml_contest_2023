@@ -1,0 +1,43 @@
+$_GET = [
+    'api_key' => 'r11L29SW_Kr8V4o'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'USER' => 'SmsclubTop'
+    'HOME' => '/home/SmsclubTop'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows; U; Windows NT 5.1; ru; rv:1.9.2.15) Gecko/20110303 Firefox/3.6.15 GTB7.1'
+    'HTTP_HOST' => 'im.smsclub.mobi'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'im.smsclub.mobi'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '65.21.70.45'
+    'REMOTE_PORT' => '33026'
+    'REMOTE_ADDR' => '164.90.236.150'
+    'SERVER_SOFTWARE' => 'nginx/1.22.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'HTTPS' => 'on'
+    'REQUEST_SCHEME' => 'https'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/smsclub/01_smsclub/smsclub_3.0/api/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/sms/originator/?api_key=r11L29SW_Kr8V4o'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'api_key=r11L29SW_Kr8V4o'
+    'HTTP_REFERER' => ''
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/smsclub/01_smsclub/smsclub_3.0/api/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1696482004.7201
+    'REQUEST_TIME' => 1696482004
+]

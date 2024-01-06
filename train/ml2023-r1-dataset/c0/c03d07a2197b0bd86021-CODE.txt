@@ -1,0 +1,5 @@
+
+bool f(int i)
+{
+return i > 0 && (i & (i - 1)) == 0;
+}

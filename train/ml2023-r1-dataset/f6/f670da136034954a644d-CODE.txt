@@ -1,0 +1,20 @@
+{
+  "update_id": 438255216,
+  "message": {
+    "message_id": 264,
+    "from": {
+      "id": 6358086725,
+      "is_bot": false,
+      "first_name": "Pramod",
+      "last_name": "Shaw"
+    },
+    "chat": {
+      "id": -1001855149611,
+      "title": "Kochi Vibes❤️",
+      "is_forum": true,
+      "type": "supergroup"
+    },
+    "date": 1696587115,
+    "text": "Hi"
+  }
+}

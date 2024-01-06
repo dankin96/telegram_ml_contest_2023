@@ -1,0 +1,41 @@
+import re
+from sklearn.cluster import KMeans
+from scipy.stats import gaussian_kde
+import numpy as np
+# "···· · −·−−   ·−−− ··− −·· ·"
+
+
+def decodeBitsAdvanced(bits):
+    bits = bits.strip("0")
+    print(bits)
+    if not bits:
+        return ""
+    ones = re.findall(r"1+", bits)
+    zeros = re.findall(r"0+", bits) or ones
+
+    minimum_0, maximum_0 = min(map(len, zeros)), max(map(len, zeros))
+    minimum_1, maximum_1 = min(map(len, ones)), max(map(len, ones))
+    avg = (minimum_0 + maximum_0 + minimum_1 + maximum_1) // 4
+    print(avg)
+
+    steps = [round(i) for i in np.linspace(min(minimum_1, minimum_0), max(maximum_1, maximum_0), 25)]
+    print(steps)
+
+    bits = re.sub("(?<!1)1{1," + str(steps[4]) + "}(?!1)", ".", bits)
+    print(bits)
+    bits = re.sub("(?<!1)1{" + str(steps[4]) + ",}(?!1)", "-", bits)
+    print(bits)
+    bits = re.sub("(?<!0)0{1," + str(steps[4]) + "}(?!0)", "", bits)
+    print(bits)
+    bits = re.sub("(?<!0)0{" + str(steps[4]) + "," + str(steps[20]) + "}(?!0)", " ", bits)
+    print(bits)
+    bits = re.sub("(?<!0)0{" + str(steps[11]) + ",}(?!0)", "   ", bits)
+    print(bits)
+    return bits
+
+# ···· · −·−−   ·−−− ··− −·· ·
+def decodeMorse(morseCode):
+    try:
+        return " ".join("".join(map(MORSE_CODE.get, word.split(" "))) for word in morseCode.strip().split("   ")) if morseCode else ""
+    except:
+        return ""

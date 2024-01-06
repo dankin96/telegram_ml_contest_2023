@@ -1,0 +1,24 @@
+WinGo 5 minute
+NO.41 Bet:Big    1
+NO.41 Bet:Big    1
+NO.41 Bet:Big    1
+
+WinGo 5 minute
+NO.42 Bet:Big    3
+NO.42 Bet:Big    3
+NO.42 Bet:Big    3
+
+WinGo 5 minute
+NO.43 Bet:Small  8
+NO.43 Bet:Small  8
+NO.43 Bet:Small  8
+
+WinGo 5 minute
+NO.44 Bet:Big    24
+NO.44 Bet:Big    24
+NO.44 Bet:Big    24
+
+WinGo 5 minute
+NO.45 Bet:Big    72
+NO.45 Bet:Big    72
+NO.45 Bet:Big    72

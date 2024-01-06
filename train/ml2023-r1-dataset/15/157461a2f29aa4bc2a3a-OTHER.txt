@@ -1,0 +1,5 @@
+The process will require 5 MiB more space.
+
+Proceed with this action? [y/N]: y
+[1/43] Upgrading gettext-runtime from 0.21.1 to 0.22_1...
+[1/43] Extracting gettext-runtime-0.22_1:  15%Child process pid=23742 terminated abnormally: Killed

@@ -1,0 +1,12 @@
+
+<MultiStepModal
+  // Типа, модалка содержит логику отображения ошибки и сброса шагов по результату промиса
+  onSubmit={(result) = > {
+    try {
+      // Do anything asyn...
+      return Promise resolve()
+    } catch (err) {
+      return Promise.reject(err.message)
+    }
+  }}
+/>

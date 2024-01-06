@@ -1,0 +1,2 @@
+Cannot find target for triple amdgcn-- Unable to find target for this triple (no targets are registered)
+[1]    1988573 segmentation fault (core dumped)  mpv

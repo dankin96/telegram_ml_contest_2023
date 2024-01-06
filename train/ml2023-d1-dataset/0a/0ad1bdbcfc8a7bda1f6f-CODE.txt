@@ -1,0 +1,29 @@
+import React, { useEffect } from 'react';
+
+export default function Home() {
+  useEffect(() => {
+    getData();
+  }, []);
+
+  async function getData() {
+    try {
+      const url = `https://fakestoreapi.com/products/`;
+
+      const response = await fetch(url);
+      const res = await response.json();
+      console.log(res);
+    } catch (error) {
+      console.log("ERROR", error);
+      throw new Error("Failed to fetch data");
+    }
+  }
+
+  return (
+    <div>
+      {/* Используем фигурные скобки для оборачивания JavaScript выражений */}
+      {res.map((item) => {
+        return <div>{item.title}</div>;
+      })}
+    </div>
+  );
+}

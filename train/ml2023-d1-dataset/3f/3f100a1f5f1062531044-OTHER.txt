@@ -1,0 +1,6 @@
+Host:     MHC-123.31.24.37
+Alias:    MHC-123.31.24.37
+Address:  123.31.24.37
+Service:  TCP Port 80
+Event:    CRIT -> OK
+Output:   TCP OK - 0.005 second response time on 123.31.24.37 port 80

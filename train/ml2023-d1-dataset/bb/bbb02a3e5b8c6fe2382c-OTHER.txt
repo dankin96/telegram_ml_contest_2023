@@ -1,0 +1,4 @@
+OID = 0 9 2342 19200300 100 1 25
+Comment = Men are from Mars, this OID is from Pluto
+Description = domainComponent
+

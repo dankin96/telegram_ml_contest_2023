@@ -1,0 +1,1 @@
+vless://df7fcaea-26ba-4fae-b147-b4a10fff2ea7@tel.ArV2ray.host:443?path=%2F&security=tls&encryption=none&host=ArV2ray.AbrArvan.link&type=ws&sni=ArV2ray.AbrArvan.link#%D9%85%D9%86%D8%A8%D8%B9+%DA%A9%D8%A7%D9%86%D9%81%DB%8C%D9%86%DA%AF%7E%40v2samor

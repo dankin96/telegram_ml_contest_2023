@@ -1,0 +1,8 @@
+caps <- icgc.osm::icgc_NGCat[grepl("^Cap ", icgc.osm::icgc_NGCat$Toponim) & icgc.osm::icgc_NGCat$Concepte == "lit.", ]
+geo<- sf::st_as_sf(
+  caps,
+  coords=c("UTMX_ETRS89", "UTMY_ETRS89"),
+  crs=sf::st_crs("EPSG:25831")
+)
+mapview::mapview(dgeo)
+nrow(caps)

@@ -1,0 +1,4 @@
+  [sinks.system_log_sink.librdkafka_options]
+    "reconnect.backoff.ms" = "2000"
+    "message.max.bytes" = "102400000"
+    "queue.buffering.max.ms" = "3000"

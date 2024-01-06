@@ -1,0 +1,2 @@
+
+sys.modules["lol"] = sys.modules["_ _main_ _"] 

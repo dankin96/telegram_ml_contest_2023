@@ -1,0 +1,4 @@
+$my_app $mol_page
+  rows <= menu_links /
+  Menu_link* $mol_link
+

@@ -1,0 +1,19 @@
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# تعريف الدالة لرسم المنحنى
+def girl_curve(x):
+    return np.sin(2*x) + np.cos(3*x)
+
+# تجهيز البيانات للرسم
+x = np.linspace(-np.pi, np.pi, 100) # توليد القيم بين -π و π
+y = girl_curve(x) # تطبيق الدالة على القيم
+
+# رسم المنحنى
+plt.plot(x, y, label="فتاة منحنية")
+plt.xlabel("المحور الأفقي")
+plt.ylabel("المحور العمودي")
+plt.title("رسم فتاة منحنية")
+plt.legend()
+plt.show()

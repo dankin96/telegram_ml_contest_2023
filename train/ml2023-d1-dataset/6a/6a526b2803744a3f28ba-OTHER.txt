@@ -1,0 +1,8 @@
+vless://cbdad6a0-f518-4970-fc90-82f10d781a19@bia-to5.unlimiteddev.xyz:8880?encryption=none&security=reality&sni=cdn.discordapp.com&fp=chrome&pbk=FycA_9lBgQtmiaZTNTB8cbnSi296Lr7dowkauO2Kxio&sid=40&spx=%2F&type=grpc&serviceName=%40unlimiteddev&mode=multi#Join%20Telegram%3A%20%40channel_4sale
+
+vless://a21d6ab0-7b7d-46d4-86b1-241994727e8f@Join Telegram: @channel_4sale:12608?encryption=none&security=reality&sni=www.speedtest.net&fp=chrome&pbk=5u2fl_WBgUuzeKAbZ1-LwY6ShOIKR5BliIcoC-cfTh0&sid=cca9d0b0&spx=%2F&type=grpc&serviceName=%40puni_shop_v2rayNG&mode=gun#Join%20Telegram%3A%20%40channel_4sale
+
+vless://93825a50-3804-48f4-bf3c-6d03644d2a04@vpncustomize.cam:443?encryption=none&security=reality&sni=www.iranserver.com&fp=firefox&pbk=55xH-tqPd6c0VZpbwlxRxhmfvp9lVUtp45CDJLpcw2I&sid=6b0541cd&spx=%2F&type=grpc&serviceName=%40VPNCUSTOMIZE&mode=gun#Join%20Telegram%3A%20%40channel_4sale
+
+vless://fbe02c0b-775f-4431-8615-a9497255c876@four.felinetest.site:443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=none.felinetest.site&fp=chrome&pbk=fabWUdBWxh7NsMaqOF35petD3ljQbKf6OSDnROV9jDs&sid=6f9deca7&spx=%2F&type=tcp&headerType=none#Join%20Telegram%3A%20%40channel_4sale
+

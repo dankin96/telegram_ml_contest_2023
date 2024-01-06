@@ -1,0 +1,2 @@
+
+Unexpected error - MaxRetryError("TCPKeepAliveHTTPSConnectionPool(host='api.cloudinary.com', port=443): Max retries exceeded with url: /v1_1/ddpgac24e/image/upload (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f316c22e890>: Failed to establish a new connection: [Errno 111] Connection refused'))")

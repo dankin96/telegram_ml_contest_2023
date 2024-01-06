@@ -1,0 +1,14 @@
+CREATE TABLE WebhookHubMessageStatuses
+(
+    `Id` Int32,
+    `Timestamp` Int64,
+    `IdMessage` Nullable(String),
+    `Status` Nullable(Int32),
+  ....
+    INDEX wa_webhook_msg_status_IdMessageStatus (IdMessage, Status) 
+    TYPE set(0) 
+    GRANULARITY 8192
+)
+ENGINE = ReplacingMergeTree(__data_transfer_commit_time)
+ORDER BY Id
+SETTINGS index_granularity = 8192;

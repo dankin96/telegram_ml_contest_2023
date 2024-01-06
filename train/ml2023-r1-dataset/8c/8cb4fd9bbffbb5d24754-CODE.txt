@@ -1,0 +1,4 @@
+GET wss://seudomaninfastly HTTP/1.1[crlf]Host:post.pinterest.com[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]Connection: Keep-Alive[crlf]User-Agent: [ua][crlf]Ping: clients3.google.com[crlf]Sec-WebSocket-Extensions: superspeed[crlf][crlf]
+
+
+

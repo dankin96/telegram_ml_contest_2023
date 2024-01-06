@@ -1,0 +1,12 @@
+GGP - GoGoPool Protocol
+$1.66
+Network: AVALANCHE
+H|L: 1.73|1.66
+1h:  0.0%      😏       
+24h: -4.5%     😅       
+7d:  -7.7%     😰       
+Vol: $532.0
+Liq: $202.4 K
+Circ Mcap: 2.6 M
+FDV 30.4 M
+CA: 0x69260b9483f9871ca57f81a90d91e2f96c2cd11d

@@ -1,0 +1,7 @@
+1️⃣ En Ethereum, lo que estás haciendo a grosso modo es depositar tus activos en un contrato inteligente, es decir, le estás dando (1) Permiso al contrato de mover tus fondos, (2) Transfiriendo esos fondos, (3) Generando una prueba (NFT o ERC20) para recuperar tus activos y reclamar tus rewards.
+
+👨‍💻 Dentro de cada paso, hay unas instrucciones computacionales que consumen energía. Si las instrucciones para generar una pool de liquidez de 2 activos equivalen a 200.000 unidades de gas, vas a pagar por ello, porque la red así lo demanda.
+
+2️⃣ Con BitVM los contratos NO están en la blockchain de Bitcoin, si no en cada nodo de Lightning Network o cualquier L2, side etc... Lo que pagas, es el uso de la capa 2, ínfimo en este caso.
+
+🔎 Imaginémonos que generar un pool de liquidez cueste 1000 sats. Gastas 1000 sats y ya está. Es la computación del nodo de LN la que está haciendo todo el trabajo. Después de crear el pool, mandará una prueba de cero conocimiento en una transacción a la red de Bitcoin, verificando que eres TÚ quien está creando un pool con X e Y activos.

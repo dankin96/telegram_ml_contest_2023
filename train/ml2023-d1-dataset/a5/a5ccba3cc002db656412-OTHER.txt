@@ -1,0 +1,7 @@
+1.Upload two files to the path /data/data/com.axlebolt.standoff2/
+
+  2. Issue rights 777
+
+  3. Run inject.sh in mt manager
+
+  4. Enjoy the game)

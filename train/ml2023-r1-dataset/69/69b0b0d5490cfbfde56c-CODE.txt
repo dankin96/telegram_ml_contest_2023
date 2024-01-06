@@ -1,0 +1,32 @@
+@ObjectType()
+class Wallet {
+    @Field(() => AccountType)
+    resyncAccount: typeof TonResolver.prototype.resyncAccount
+}
+
+@Resolver(() => Wallet)
+export class TonResolver {
+
+    @Mutation(() => Wallet)
+    TON(): Wallet {
+        return {
+            resyncAccount: this.resyncAccount,
+        }
+    }
+
+    @ResolveField('resyncAccount', () => AccountType)
+    async resyncAccount(
+        @Args('input') input: ResyncAccountInput,
+    ): Promise<AccountType> {
+        console.log(input)
+        return {
+            id: '1',
+            blockchain: 'TON',
+            createdAt: new Date(),
+            balances: [],
+            masterPubKey: '',
+            userId: '1',
+            isSynced: true,
+        }
+    }
+}

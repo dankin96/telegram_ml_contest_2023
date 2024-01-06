@@ -1,0 +1,2 @@
+type Result<'Ok, 'Error> =
+      | Ok of 'Ok

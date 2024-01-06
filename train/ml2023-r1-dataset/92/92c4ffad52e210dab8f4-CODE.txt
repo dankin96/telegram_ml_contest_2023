@@ -1,0 +1,9 @@
+from aiogram.types import ChatMemberUpdated
+
+
+async def on_user_join(event: ChatMemberUpdated):  
+    await event.answer(views.join_message(event.from_user.first_name))  
+  
+  
+async def on_user_left(event: ChatMemberUpdated):  
+    await event.answer(views.left_message(event.from_user.first_name))

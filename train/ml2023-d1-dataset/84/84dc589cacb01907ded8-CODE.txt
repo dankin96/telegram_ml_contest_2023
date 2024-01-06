@@ -1,0 +1,4 @@
+
+let a: ByteArray = "Why did the Cairo programmer cross the road?";
+let b: ByteArray = "I don't know but we now have string support so it doesn't matter.";
+let c = a + b;

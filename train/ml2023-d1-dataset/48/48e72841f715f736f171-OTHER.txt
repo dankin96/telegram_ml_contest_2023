@@ -1,0 +1,57 @@
+01833 Stolpen
+01968 Senftenberg
+06132 Halle/Saale
+12105 Berlin
+14197 Berlin
+14542 Werder (Havel)
+26810 Westoverledingen
+27383 Scheeßel
+34212 Melsungen
+34323 Malsfeld  
+36325 Feldatal
+38685 Langelsheim
+40545 Düsseldorf
+40545 Düsseldorf
+50767 Köln
+56068 Koblenz
+61273 Wehrheim
+61381 Friedrichsdorf
+65929 Frankfurt am Main
+66359 Bous
+67580 Hamm am Rhein
+69168 Wiesloch
+69190 Walldorf
+70734 Fellbach
+71229 Leonberg
+71691 Freiberg
+72336 Balingen
+73230 Kirchheim unter Teck
+74889 Sinsheim
+74912 Kirchardt
+75334 Straubenhardt
+76879 Ottersheim
+82178 Puchheim
+83417 Kirchanschöring
+86470 Thannhausen
+86685 Huisheim
+86971 Peiting
+89075 Ulm
+89081 Ulm
+90513 Zirndorf
+91220 Schnaittach
+91361 Pinzberg
+92224 Amberg
+92271 Freihung
+92637 Letzau
+93059 Regensburg
+93128 Regenstauf
+93133 Burglengenfeld
+93158 Teublitz
+93352 Rohr i. NB
+94239 Ruhmannsfelden
+96047 Bamberg
+96179 Rattelsdorf
+96342 Stockheim
+98574 Schmalkalden
+99084 Erfurt
+

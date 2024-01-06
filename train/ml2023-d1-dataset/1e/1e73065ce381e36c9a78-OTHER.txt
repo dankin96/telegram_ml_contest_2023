@@ -1,0 +1,3 @@
+Amazon ElastiCache is a database in-memory caching solution that supports Redis and Memcached.
+
+Video for reference: Relational Database Service (RDS) and DynamoDB

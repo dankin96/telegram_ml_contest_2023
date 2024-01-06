@@ -1,0 +1,13 @@
+$message = $update->getMessage();  
+    if ($message->has('text')) {
+        $messageType = 'text';
+    } elseif ($message->has('photo')) {
+        $messageType = 'photo';
+    } elseif ($message->has('video')) {
+        $messageType = 'video';
+    } elseif ($message->has('bot_command')) {
+        $messageType = 'bot_command';
+    } else {
+        $messageType = 'unknown';
+    }
+

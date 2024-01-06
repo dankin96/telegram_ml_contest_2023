@@ -1,0 +1,2 @@
+
+int(* fuse_operations::release) (const char *, struct fuse_file_info *)

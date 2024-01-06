@@ -1,0 +1,8 @@
+fn f(x: &Expr, slots: &mut Vec<i64>) -> i64 {
+    match x {
+        Expr::Lit(i) => *i,
+        Expr::Var(u) => slots[*u],
+        Expr::Add(x, y) => f(x, slots) + f(y, slots),
+        ...
+    }
+}

@@ -1,0 +1,8 @@
+ #if defined(UNITY_DOTS_INSTANCING_ENABLED)
+  UNITY_DOTS_INSTANCING_START (MaterialPropertyMetadata)
+    UNITY_DOTS_INSTANCED_PROP(half4, _Color)
+  UNITY_DOTS_INSTANCING_END(MaterialPropertyMetadata)
+
+  #define _Color  UNITY_ACCESS_DOTS_INSTANCED_PROP(half4 , _Color)
+ #endif
+

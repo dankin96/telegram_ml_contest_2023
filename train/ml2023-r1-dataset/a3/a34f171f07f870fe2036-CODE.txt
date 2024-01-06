@@ -1,0 +1,45 @@
+#include <iostream>
+#include <windows.h>  // Required for SendInput function
+
+void pressKey(WORD key)
+{
+    INPUT input;
+    input.type = INPUT_KEYBOARD;
+    input.ki.wVk = key;
+    input.ki.dwFlags = 0;
+    SendInput(1, &input, sizeof(INPUT));
+}
+
+void releaseKey(WORD key)
+{
+    INPUT input;
+    input.type = INPUT_KEYBOARD;
+    input.ki.wVk = key;
+    input.ki.dwFlags = KEYEVENTF_KEYUP;
+    SendInput(1, &input, sizeof(INPUT));
+}
+
+void commentInApp(const std::string& comment)
+{
+    // Switch to the target app window here (optional)
+    // ...
+
+    // Simulate keystrokes to enter the comment
+    for (char c : comment)
+    {
+        pressKey(c);
+        releaseKey(c);
+    }
+
+    // Press Enter key to submit the comment
+    pressKey(VK_RETURN);
+    releaseKey(VK_RETURN);
+}
+
+int main()
+{
+    std::string comment = "This is a comment.";  // Replace with your desired comment
+    commentInApp(comment);
+
+    return 0;
+}

@@ -1,0 +1,10 @@
+        request {
+            qname(geosite:cn) -> alidns
+            qname(geosite:netflix, geosite:disney) && qtype(aaaa) -> reject
+            fallback: googledns
+        }
+        
+        response {
+            qname(geosite:netflix, geosite:disney) && qtype(aaaa) -> reject
+            fallback: accept
+        }

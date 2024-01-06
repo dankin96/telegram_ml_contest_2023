@@ -1,0 +1,12 @@
+[
+    {
+        "parent1": [
+             {child_row1},
+             {child_row2}
+         ],
+         "parent2": [
+            {child_row3},
+            {child_row4}
+         ]
+    }
+]

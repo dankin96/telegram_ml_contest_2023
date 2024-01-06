@@ -1,0 +1,6 @@
+from quay/keycloak
+RUN kc.sh buikld blahblablah
+
+WORKDIR /opt/keycloak
+ENTRYPOINT kc.sh
+

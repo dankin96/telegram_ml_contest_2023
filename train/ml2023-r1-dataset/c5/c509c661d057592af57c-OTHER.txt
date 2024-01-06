@@ -1,0 +1,11 @@
+vless://8f490b57-a6f8-4b92-958d-e94fe19ceef8@kurdish-------joinDigistar-vpn.cloud:46622?security=none&encryption=none&host=zula.ir&headerType=http&type=tcp#Caz+ID%28%40Digistar_Vpn%29
+
+2️⃣
+vless://b89cde70-916f-4754-9061-4ac3b0bff4fe@join-sho.Digistar-vpn.cloud:8880?path=%2F&security=none&encryption=none&host=lith.kurdshop.store&type=ws#Aaz+ID%28%40Digistar_Vpn%29
+
+3️⃣
+vless://d342d11e-d424-4583-b36e-524ab1f0afa4@3254.Digistar-vpn.cloud:2087?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=baipiao1.curly-train.pages.dev&type=ws&sni=baipiao1.curly-train.pages.dev#Baaz+ID%28%40Digistar_Vpn%29
+
+4️⃣
+vless://eb46c717-3f24-4b58-a9d4-82df392e4eb6@join---to.Digistar-vpn.cloud:8880?path=%2F&security=none&encryption=none&host=nor.newmtn.tech&type=ws#Faz+ID%28%40Digistar_Vpn%29
+

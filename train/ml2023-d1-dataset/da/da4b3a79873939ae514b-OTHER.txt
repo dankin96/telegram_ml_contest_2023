@@ -1,0 +1,4 @@
+21:35:40: Connecting to: ATC_28FC31
+21:35:42: TypeError: getDevVersion(...).then is not a function
+21:35:42: Reconnect 1 from 5
+21:35:42: Something went wrong, too many reconnects

@@ -1,0 +1,5 @@
+    02-05 21:49:51.480     0     0 I msm-dsi-display: [dsi_display_set_mode] mdp_transfer_time_us=9500 us
+    02-05 21:49:51.480     0     0 I msm-dsi-display: [dsi_display_set_mode] hactive= 1080,vactive= 2400,fps=90
+    02-05 21:49:51.480     0     0 E msm-dsi-display: [dsi_display_prepare] DMS is not supposed to be set on first frame
+    02-05 21:49:51.480     0     0 E dsi-drm : [dsi_bridge_pre_enable] [0] DSI display prepare failed, rc=-22
+    02-05 21:49:51.480     0     0 I msm-dsi-display: [dsi_display_force_update_dsi_clk] dsi bit clk has been configured to 0

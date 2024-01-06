@@ -1,0 +1,6 @@
+/mpoll question
+stopTime (hh:mm:ss or 2hr 4min 6sec or null)
+choice1
+choice2
+...
+>= or <= or == expected count (optional) i.e. >= 3

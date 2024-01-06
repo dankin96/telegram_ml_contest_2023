@@ -1,0 +1,2 @@
+
+new Output({address: 'tb1qdvx06ldfk4w2xtlvd3e0sep46encnerv578fhd', value: 10000)

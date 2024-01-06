@@ -1,0 +1,4 @@
+ C:\projects\StackOverflow\server\dist\main.js:1418
+            throw new websockets_1.WsException('Unauthorized access');
+                  ^
+Error: Unauthorized access

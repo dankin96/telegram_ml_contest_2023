@@ -1,0 +1,24 @@
+Merge branch 'preprod' into 'master'
+Merge branch 'RM-50073' into 'preprod'
+Merge branch 'RM-50073' into RM-57375
+Merge branch 'RM-50077' into 'RM-50073'
+Merge branch 'RM-50077' into RM-50073
+Merge branch 'RM-57375' into 'RM-50073'
+Merge branch 'RM-57375' into RM-50073
+Merge branch 'RM-61912' into 'RM-57375'
+Merge branch 'RM-61917' into RM-57375
+Merge branch 'RM-63221' into RM-50073
+Merge branch 'RM-63419' into 'preprod'
+Merge remote-tracking branch 'origin/master' into RM-50073
+RM-50077 - Неправильная сортировка объектов закупки на форме подачи заявки
+RM-50077 - правка лишних нулей при выводе concreteValue
+RM-50077 - Разработка алгоритма для кейса, когда выбрали конкретное значение среди диапазонов, и необходимо передать sid соответствующего диапазона (62792)
+RM-57375 - Доработка полей для больших чисел
+RM-57375 - тесты для обработки новых тегов (Лекарства)
+RM-61912 - Merge remote-tracking branch 'origin/RM-57375' into RM-61912
+RM-61912 - Лекарства - часть 4
+RM-61917 - Доработка формирования xml (63221)
+RM-61917 - Доработка формирования XML для лекарств (63221)
+RM-61917 - Правка тега
+RM-63419 - добавил условие для выгрузки актуальных версий процедур
+RM-63484 - Отсутствует разделение на разряды для количественного значения характеристики (диапазон)

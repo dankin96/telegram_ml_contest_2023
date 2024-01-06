@@ -1,0 +1,6 @@
+Reference for understanding the following flags: https://emscripten.org/docs/tools_reference/emcc.html#
+Mapping Unity WebGL build optimization to the emcc flags used:
+Development -> -O1
+Optimize For Size -> -Os
+Optimize For Speed -> -O3
+Optimize For Build Time -> -O2

@@ -1,0 +1,9 @@
+class Spam:
+    def a(self):
+        self.hello()
+    
+    def b(self):
+        self.hello()
+
+    def hello(self):
+        print("Hello")

@@ -1,0 +1,5 @@
+Min           :  100
+Max           :  100M
+Refill        :  No Refill
+Per link      :  10M/Daily
+Price         :  $0.0003

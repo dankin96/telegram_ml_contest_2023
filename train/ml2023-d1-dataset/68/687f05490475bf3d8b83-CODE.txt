@@ -1,0 +1,23 @@
+import rospy
+import turtle
+import time
+
+def draw_circle():
+    turtle.speed(1)
+    turtle.circle(50)
+    time.sleep(5)
+    turtle.reset()
+    turtle.bgcolor("blue")
+    turtle.penup()
+    turtle.goto(-50, 0)
+    turtle.pendown()
+    turtle.color("white")
+    turtle.speed(2)
+    for i in range(4):
+        turtle.forward(100)
+        turtle.left(90)
+    turtle.done()
+
+if __name__ == '__main__':
+    rospy.init_node('turtle_draw')
+    draw_circle()

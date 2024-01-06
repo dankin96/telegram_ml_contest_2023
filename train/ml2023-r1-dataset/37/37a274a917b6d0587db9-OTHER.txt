@@ -1,0 +1,3 @@
+realvisxlV2 (SDXL) 
+realisticVisionV5 (sd1.5)
+

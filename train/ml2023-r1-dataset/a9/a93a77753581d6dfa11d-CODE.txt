@@ -1,0 +1,1 @@
+binary_number = "101100011"

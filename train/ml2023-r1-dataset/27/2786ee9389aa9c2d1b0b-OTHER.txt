@@ -1,0 +1,16 @@
+Coin         Close($)   Rank        
+--------------------------------
+ENJUSDT      0.222499   4  4.0
+LEVERUSDT    0.001540   4  4.0
+CELOUSDT     0.428999   4  4.0
+USDCUSDT     1.0        1  1.0
+BCHUSDT      230.8999   2  2.0
+REEFUSDT     0.001325   4  4.0
+LTCUSDT      64.80000   2  2.0
+AGLDUSDT     0.578999   1  1.0
+MANAUSDT     0.293199   2  2.0
+ONEUSDT      0.009320   2  2.0
+CKBUSDT      0.002716   5  5.0
+MAVUSDT      0.231800   2  2.0
+STMXUSDT     0.006665   2  2.0
+KLAYUSDT     0.113700   2  2.0

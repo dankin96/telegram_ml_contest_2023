@@ -1,0 +1,4 @@
+@Id
+@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "instances_id_seq")
+@SequenceGenerator(name = "instances_id_seq", allocationSize = 1)
+@Column(name = "id", nullable = false)

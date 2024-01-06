@@ -1,0 +1,1 @@
+ chrome://flags/#enable-surface-polish

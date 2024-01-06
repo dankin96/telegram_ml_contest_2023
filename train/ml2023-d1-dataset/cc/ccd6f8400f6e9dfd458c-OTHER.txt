@@ -1,0 +1,32 @@
+Exchange OGNUSDT 1h Binance
+Price:    0.12|    0.12|    0.12
+Vol:  1,350,807|2,828,182| 874,666
+ATR: 0.0022
+
+✅OBV:   6.2 M|   7.5 M|   4.7 M
+⚪RSI:   50.27|   53.27|   45.54
+⚪MFI:   49.10|   59.92|   60.74
+⚪CCI:  101.14|  120.32|  -48.57
+❌WR%:  -35.71|  -14.29|  -69.05
+❌ADX:   10.40|   10.31|   10.21
+
+✅MOM: Bullish Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+✅PSAR: Bullish
+
+Support And Resistance
+S: $0.116
+R: $0.119
+
+Volatility is moderately low
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

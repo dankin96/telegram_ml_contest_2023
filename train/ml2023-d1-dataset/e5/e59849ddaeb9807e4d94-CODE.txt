@@ -1,0 +1,3 @@
+ctx.subscribe(greetingAtom, (greeting) => {
+  document.getElementById('greeting')!.innerText = greeting
+})

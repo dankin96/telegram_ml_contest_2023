@@ -1,0 +1,4 @@
+
+trades = await binance.fetch_trades("BTC/USDT", params = {"paginate": True}) # gets the last 10k trades
+ohlcv = await binance.fetch_ohlcv("BTC/USDT", params = {"paginate": True, "paginationCalls": 20})  # gets the last 20k candles
+orders = await bybit.fetch_orders(params = {"paginate": True}) # paginates the orders until the cursor is empty or the max number of pagination calls is reached

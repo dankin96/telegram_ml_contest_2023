@@ -1,0 +1,17 @@
+Form Order
+Nama+username =
+Tanggal order =
+Aplikasi =
+Jenis = (sharing/private/famplan/indplan)
+Durasi =
+Payment =
+
+
+Form Garansi
+Nama + username : 
+Aplikasi: 
+e-mail : 
+password : 
+Durasi : 
+Tanggal order : 
+Jenis : (sharing/priv/ind/fam)

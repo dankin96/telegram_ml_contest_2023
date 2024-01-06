@@ -1,0 +1,2 @@
+Exchange    Pair       24h Vol
+Uniswap     PLAY/WETH       16

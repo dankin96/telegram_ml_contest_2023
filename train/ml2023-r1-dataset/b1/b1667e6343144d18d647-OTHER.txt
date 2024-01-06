@@ -1,0 +1,2 @@
+help: consider calling `.as_ref()` or `.as_mut()` to borrow the type's contents
+         move occurs because `*ref_opt` has type `Option<A>`, which does not implement the `Copy` trait

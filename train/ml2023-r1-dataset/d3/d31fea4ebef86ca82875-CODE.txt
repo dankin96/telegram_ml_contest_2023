@@ -1,0 +1,1 @@
+ls -Rlh /home/redprez16/android/redbird/kernel/google/gs201 | grep  ^d  | grep -v "redprez16 redprez16"

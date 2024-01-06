@@ -1,0 +1,25 @@
+javascript
+function topTwoLargestNumbers(numbers) {
+  if (numbers.length < 2) {
+    return "Butun sonlar orasida kamida 2 ta son kerak";
+  }
+
+  let firstLargest = -Infinity;
+  let secondLargest = -Infinity;
+
+  for (let i = 0; i < numbers.length; i++) {
+    const num = numbers[i];
+    if (num > firstLargest) {
+      secondLargest = firstLargest;
+      firstLargest = num;
+    } else if (num > secondLargest && num !== firstLargest) {
+      secondLargest = num;
+    }
+  }
+
+  return [firstLargest, secondLargest];
+}
+
+const numbers = [5, 2, 9, 7, 3, 8];
+const result = topTwoLargestNumbers(numbers);
+console.log("Eng katta ikkisi:", result);

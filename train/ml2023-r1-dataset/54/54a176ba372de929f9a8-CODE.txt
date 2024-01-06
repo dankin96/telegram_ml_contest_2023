@@ -1,0 +1,62 @@
+Production CORE error
+
+At least 1 events occurred between 2023-10-04 21:14 UTC and 2023-10-05 01:14 UTC
+
+@timestamp: 2023-10-05T01:14:10.997Z
+@version: 1
+_id: N55m_YoBL0jxnycbQSju
+_index: filebeat-2023.10.05
+_type: _doc
+agent: {
+    "ephemeral_id": "5c90a069-13e4-4796-ba72-93b9f0dc03a1",
+    "hostname": "9bf493b35050",
+    "id": "1f3e6851-7369-4dd4-b478-b0c871f9b3f7",
+    "type": "filebeat",
+    "version": "7.6.2"
+}
+ecs: {
+    "version": "1.4.0"
+}
+fields: {
+    "application": "13chats-backend",
+    "env": "production"
+}
+host: {
+    "name": "9bf493b35050"
+}
+input: {
+    "type": "log"
+}
+log: {
+    "file": {
+        "path": "/var/www/laravel/storage/logs/laravel-2023-10-05.json"
+    },
+    "offset": 1558593
+}
+num_hits: 356
+num_matches: 158
+payload: {
+    "channel": "production",
+    "context": {
+        "filter_tags": [],
+        "trace": "Utility\\Exception\\CommandRequestException: Unknown or bad timezone (Europe/Kyiv) in /var/www/utility/src/RequestCommand/Task.php:72
+Stack trace:
+#0 /var/www/utility/src/RequestCommand/Task.php(40): Utility\\RequestCommand\\Task->handle('AnalyticsContex...')
+#1 /var/www/utility/src/MessageBroker/TaskManager/Consumer.php(55): Utility\\RequestCommand\\Task->run()
+#2 [internal function]: Utility\\MessageBroker\\TaskManager\\Consumer::Utility\\MessageBroker\\TaskManager\\{closure}(Object(PhpAmqpLib\\Message\\AMQPMessage))
+#3 /var/www/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php(1044): call_user_func(Object(Closure), Object(PhpAmqpLib\\Message\\AMQPMessage))
+#4 [internal function]: PhpAmqpLib\\Channel\\AMQPChannel->basic_deliver(Object(PhpAmqpLib\\Wire\\AMQPReader), Object(PhpAmqpLib\\Message\\AMQPMessage))
+#5 /var/www/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(220): call_user_func(Array, Object(PhpAmqpLib\\Wire\\AMQPReader), Object(PhpAmqpLib\\Message\\AMQPMessage))
+#6 /var/www/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AbstractChannel.php(374): PhpAmqpLib\\Channel\\AbstractChannel->dispatch('60,60', '\\x1Famq.ctag-7Iqwx...', Object(PhpAmqpLib\\Message\\AMQPMessage))
+#7 /var/www/utility/src/MessageBroker/TaskManager/Consumer.php(35): PhpAmqpLib\\Channel\\AbstractChannel->wait()
+#8 /var/www/laravel/app/Console/Commands/RequestTaskConsumerQueueCommand.php(55): Utility\\MessageBroker\\TaskManager\\Consumer->listen('core-prod_reque...', Object(Utility\\RequestCommand\\Task))
+#9 /var/www/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): App\\Console\\Commands\\RequestTaskConsumerQueueCommand->handle()
+#10 /var/www/vendor/laravel/framework/src/Illuminate/Container/Util.php(40): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#11 /var/www/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(93): Illuminate\\Container\\Util::unwrapIfClosure(Object(Closure))
+#12 /var/www/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(37): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(App\\Foundation\\Application), Array, Object(Closure))
+#13 /var/www/vendor/laravel/framework/src/Illuminate/Container/Container.php(653): Illuminate\\Container\\BoundMethod::call(Object(App\\Foundation\\Application), Array, Array, NULL)
+#14 /var/www/vendor/laravel/framework/src/Illuminate/Console/Command.php(136): Illuminate\\Container\\Container->call(Array)
+#15 /var/www/vendor/symfony/console/Command/Command.php(298): Illuminate\\Console\\Command->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#16 /var/www/vendor/laravel/framework/src/Illuminate/Console/Command.php(121): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Illuminate\\Console\\OutputStyle))
+#17 /var/www/vendor/symfony/console/Application.php(1005): Illuminate\\Console\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Conso
+⚠ *message was cropped according to telegram limits!* ⚠

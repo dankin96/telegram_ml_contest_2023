@@ -1,0 +1,5 @@
+    IF(md.first_deposit_id = d.id AND (d.method = 'Crypto' OR d.method = 'Wire' OR d.method = 'credit_card'), 1, 0) AS ftd,
+
+    IF(md.first_deposit_id = d.id AND (d.method = 'Crypto' OR d.method = 'Wire' OR d.method = 'credit_card'), CAST(ROUND(ABS(md.ftd_deposit), 2) AS DECIMAL(16, 8)), '') AS ftd_deposit,
+
+    IF(md.first_deposit_id = d.id AND (d.method = 'Crypto' OR d.method = 'Wire' OR d.method = 'credit_card'), md.ftd_currency, '') AS ftd_currency,

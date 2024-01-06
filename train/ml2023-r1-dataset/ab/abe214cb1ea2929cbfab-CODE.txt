@@ -1,0 +1,5 @@
+crossing=unmarked
+crossing:island=no
+crossing:markings=no
+highway=crossing
+tactile_paving=no

@@ -1,0 +1,2 @@
+for layer in reversed(stack.get_leafs()):
+    print(layer.height, layer.material.cond(), layer.material.nr(980.))

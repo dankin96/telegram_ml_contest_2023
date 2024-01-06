@@ -1,0 +1,11 @@
+
+
+@timestamp:2023-10-06T12:55:08
+_id:bSMfA4sBLhXj_6aT_Rj2
+_index:filebeat-ext-dyms-kube-scheduler-2023.10.06
+namespace:dyms-kube-cluster
+name:kube-scheduler-dyms-kube-master1
+
+E1006 03:55:04.553416       1 scheduler.go:335] Error updating the condition of the pod dyms-623-staging/staging-847b8b4869-8hfp9: Operation cannot be fulfilled on pods "staging-847b8b4869-8hfp9": the object has been modified; please apply your changes to the latest version and try again
+
+<MISSING VALUE>

@@ -1,0 +1,8 @@
+TPAS_SCRAP_스케줄생성완료
+
+@timestamp: 2023-10-12T09:02:13
+_id: zwMwIYsB_m7ii0qI4UZX
+_index: filebeat-sri-tpas-2023.10.12
+message: [2023-10-12 09:01:22,242] [INFO  i.s.t.a.scrap.process.SummaryProcess tpas-scrap-summary.container-0-C-1] SCRAP Campaign run completed. Finalize processing - Summary id : 85880, total : 31360, success : 22458, filtered : 8902, missing : 0, error: 0
+num_hits: 1
+num_matches: 1

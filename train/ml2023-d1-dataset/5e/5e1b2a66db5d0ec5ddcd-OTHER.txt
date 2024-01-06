@@ -1,0 +1,4 @@
+/mykeys      List all your keys
+/myinfo      Get your tg ID
+/purchase    Payment to obtain key generation permissions";
+/funny       Get the latest funny.apk

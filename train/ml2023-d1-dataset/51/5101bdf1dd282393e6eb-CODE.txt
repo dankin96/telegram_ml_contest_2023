@@ -1,0 +1,1 @@
+du -h /usr/local/x-ui/access.log

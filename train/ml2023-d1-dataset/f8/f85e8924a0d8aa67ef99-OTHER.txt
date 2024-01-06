@@ -1,0 +1,30 @@
+0-12 21:51:49.873 27867 27867 D AndroidRuntime: Shutting down VM
+10-12 21:51:49.873 27867 27867 E AndroidRuntime: FATAL EXCEPTION: main
+10-12 21:51:49.873 27867 27867 E AndroidRuntime: Process: com.android.systemui, PID: 27867
+10-12 21:51:49.873 27867 27867 E AndroidRuntime: java.lang.RuntimeException: Unable to create service com.android.systemui.keyguard.KeyguardService: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.isEmpty()' on a null object reference
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at android.app.ActivityThread.handleCreateService(ActivityThread.java:4511)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at android.app.ActivityThread.-$$Nest$mhandleCreateService(Unknown Source:0)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2162)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at android.os.Handler.dispatchMessage(Handler.java:106)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at android.os.Looper.loopOnce(Looper.java:201)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at android.os.Looper.loop(Looper.java:288)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at android.app.ActivityThread.main(ActivityThread.java:7937)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at java.lang.reflect.Method.invoke(Native Method)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:854)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime: Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'boolean java.lang.String.isEmpty()' on a null object reference
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at com.android.systemui.statusbar.notification.interruption.NotificationInterruptStateProviderImpl.<init>(NotificationInterruptStateProviderImpl.java:28)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at com.android.systemui.statusbar.notification.interruption.NotificationInterruptStateProviderImpl_Factory.get(NotificationInterruptStateProviderImpl_Factory.java:132)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at dagger.internal.DoubleCheck.get(DoubleCheck.java:13)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at com.android.systemui.dagger.SystemUIModule_ProvideBubblesManagerFactory.get(SystemUIModule_ProvideBubblesManagerFactory.java:84)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at dagger.internal.DoubleCheck.get(DoubleCheck.java:13)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at com.android.systemui.statusbar.notification.row.NotificationGutsManager_Factory.get(NotificationGutsManager_Factory.java:118)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at dagger.internal.DoubleCheck.get(DoubleCheck.java:13)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at com.android.systemui.statusbar.phone.CentralSurfacesImpl_Factory.get(CentralSurfacesImpl_Factory.java:169)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at dagger.internal.DoubleCheck.get(DoubleCheck.java:13)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at dagger.internal.DelegateFactory.get(DelegateFactory.java:4)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at com.android.systemui.dagger.DaggerReferenceGlobalRootComponent$PresentJdkOptionalInstanceProvider.get(DaggerReferenceGlobalRootComponent.java:2)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at com.android.systemui.dagger.DaggerReferenceGlobalRootComponent$PresentJdkOptionalInstanceProvider.get(DaggerReferenceGlobalRootComponent.java:1)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at dagger.internal.DelegateFactory.get(DelegateFactory.java:4)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at dagger.internal.DoubleCheck.get(DoubleCheck.java:13)
+10-12 21:51:49.873 27867 27867 E AndroidRuntime:   at com.android.systemui.accessibility.SystemActions.registerActions(SystemActions.java:161)

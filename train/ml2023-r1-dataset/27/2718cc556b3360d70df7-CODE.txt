@@ -1,0 +1,2 @@
+var $myObj = $('.my-class');
+console.log($myObj);

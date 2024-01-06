@@ -1,0 +1,1 @@
+=BYROW(F3:F6;lambda(_D;"(клиенты: "&JOIN(", ";FILTER(A3:A11;D3:D11=_D))&")"))

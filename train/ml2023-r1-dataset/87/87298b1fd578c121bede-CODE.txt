@@ -1,0 +1,39 @@
+import os
+import telegram
+from telegram.ext import Updater, CommandHandler
+from pytube import YouTube
+
+# Fungsi untuk mengambil video dari YouTube dan mengirimnya ke pengguna
+def download_video(update, context):
+    # Mengambil URL video dari argumen command
+    url = context.args[0]
+
+    # Mengunduh video menggunakan pytube
+    video = YouTube(url)
+    video.streams.get_highest_resolution().download()
+
+    # Mengirim video ke pengguna melalui Telegram
+    context.bot.send_video(chat_id=update.effective_chat.id, video=open(video.title + ".mp4", 'rb'))
+
+    # Menghapus video setelah dikirim
+    os.remove(video.title + ".mp4")
+
+# Fungsi untuk menangani command '/start'
+def start(update, context):
+    context.bot.send_message(chat_id=update.effective_chat.id, text="Halo! Ketik /download [URL video YouTube] untuk mendownload video.")
+
+# Inisialisasi bot dan token
+bot_token = 'YOUR_BOT_TOKEN'
+updater = Updater(token=bot_token, use_context=True)
+dispatcher = updater.dispatcher
+
+# Menambahkan handler untuk command '/start' dan '/download'
+start_handler = CommandHandler('start', start)
+dispatcher.add_handler(start_handler)
+
+download_handler = CommandHandler('download', download_video)
+dispatcher.add_handler(download_handler)
+
+# Memulai bot
+updater.start_polling()
+updater.idle()

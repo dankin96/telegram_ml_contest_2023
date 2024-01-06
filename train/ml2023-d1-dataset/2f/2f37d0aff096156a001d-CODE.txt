@@ -1,0 +1,43 @@
+{
+ "update_id": 935495745,
+ "message": {
+  "message_id": 26782911,
+  "from": {
+   "id": 2004750824,
+   "is_bot": false,
+   "first_name": "Васильева",
+   "last_name": "Наталья",
+   "username": "Nata020976"
+  },
+  "chat": {
+   "id": -1001424859367,
+   "title": "👉 ПИАР ЧАТ - ВП УСЛУГИ - РЕКЛАМА PR РАСКРУТКА ПРОДВИЖЕНИЕ ТОП ЗНАКОМСТВА ПОДСЛУШАНО ГОРОДСКОЙ РАБОТА",
+   "username": "pr_hub",
+   "type": "supergroup"
+  },
+  "date": 1697169966,
+  "new_chat_participant": {
+   "id": 2004750824,
+   "is_bot": false,
+   "first_name": "Васильева",
+   "last_name": "Наталья",
+   "username": "Nata020976"
+  },
+  "new_chat_member": {
+   "id": 2004750824,
+   "is_bot": false,
+   "first_name": "Васильева",
+   "last_name": "Наталья",
+   "username": "Nata020976"
+  },
+  "new_chat_members": [
+   {
+    "id": 2004750824,
+    "is_bot": false,
+    "first_name": "Васильева",
+    "last_name": "Наталья",
+    "username": "Nata020976"
+   }
+  ]
+ }
+}

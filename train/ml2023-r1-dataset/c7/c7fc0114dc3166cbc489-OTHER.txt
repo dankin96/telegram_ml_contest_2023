@@ -1,0 +1,4 @@
+vless://c44a1747-005f-46ca-8d6a-54f5d0c25d07@bigscreen.dcmusic.ca:443?type=tcp&security=reality&fp=chrome&pbk=3EiRs9Rzikd33Xfeime72xIHp72APZ6Y3T8yJ-aVFFA&sni=*.opensea.io&flow=xtls-rprx-vision&sid=4d4eaa70&spx=%2F#TroyVpn-reality-2
+
+
+

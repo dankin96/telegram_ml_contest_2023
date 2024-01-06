@@ -1,0 +1,7 @@
+  2 threads and 10 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     0.97ms  741.81us  19.54ms   97.85%
+    Req/Sec     5.54k   490.41     7.08k    77.50%
+  110376 requests in 10.00s, 16.11MB read
+Requests/sec:  11034.71
+Transfer/sec:      1.61MB

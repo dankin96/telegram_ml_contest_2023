@@ -1,0 +1,6 @@
+Monitoring is not able to connect to JBOSS.
+Entry to short in statistic log. 
+Please check jboss on this:
+ - time: 2023-10-13 10:59:01
+ - host: dtr-otpsmsc-2
+ - path: /var/log/smscgw/stats-smsc.log

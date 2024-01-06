@@ -1,0 +1,32 @@
+Desempenho dos Mercados:
+Brasil Futuros (abre as 9:00)
+🇧🇷IBOV F      -0,04% 🔴
+🇧🇷DOLAR        0,02% 🟢
+====================
+Estados Unidos Futuros
+🇺🇸SP 500       0,08% 🟢
+🇺🇸Nasdaq       0,11% 🟢
+🇺🇸Dow Jones    0,08% 🟢
+🇺🇸VIX          0,72% 🟢
+====================
+Europa
+🇩🇪Dax          0,69% 🟢
+🇬🇧FTSE 100     0,42% 🟢
+🇪🇸IBEX 35      0,50% 🟢
+====================
+Ásia (Fechado)
+🇯🇵Nikkei      -0,07% 🔴
+🇭🇰Hang Seng    1,40% 🟢
+🇰🇷Kospi        0,11% 🟢
+🇨🇳Shanghai     0,10% 🟢
+====================
+Commodities
+🛢Petr. WTI    0,09% 🟢
+🛢Petr. Brent  0,01% 🟢
+🏗Min. Ferro   0,89% 🟢
+💰OURO         0,13% 🟢
+====================
+Juros USA e Btc
+🇺🇸2 anos       0,52% 🟢
+🇺🇸10 anos      0,58% 🟢
+💲Bitcoin      0,04% 🟢

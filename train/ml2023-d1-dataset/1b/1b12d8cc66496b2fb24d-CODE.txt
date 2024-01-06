@@ -1,0 +1,4 @@
+@api_router.get("/user/payments", response_model=list[schemas.UserPayments])
+async def user_payments(login: str = Query(pattern=r'^\d+$', max_length=10), db: Session = Depends(get_db)):
+    payments = crud.get_user_payments(db, login)
+    return payments

@@ -1,0 +1,8 @@
+
+  - kernel-satu
+  - kernel-dua 
+  - kernel-tiga
+  - posrog
+  - ramdisk.img
+  - system.img
+

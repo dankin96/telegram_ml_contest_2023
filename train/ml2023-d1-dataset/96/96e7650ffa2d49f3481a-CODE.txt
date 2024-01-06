@@ -1,0 +1,2 @@
+ public TEnemyType ReturnObject<TEnemyType>() where TEnemyType : AbstractEnemy
+

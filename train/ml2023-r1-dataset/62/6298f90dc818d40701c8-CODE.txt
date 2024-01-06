@@ -1,0 +1,18 @@
+#include <iostream>
+class X{
+  public:
+    operator T(){ return T{}; }
+};
+class T{
+  public:
+    T(){}
+    T(X obj){
+      std::cout<<"X to T conversion through constructor call
+";
+    }
+};
+int main(){
+  T t {X{}};
+  return 0;
+}
+

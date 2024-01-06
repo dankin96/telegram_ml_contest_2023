@@ -1,0 +1,5 @@
+- name: Parse docker
+  set_fact:
+    docker_subnet: docker network inspect --format '{{range .IPAM.Config}}{{.Subnet}}{{end}}' "{{item}}"
+    docker_gateway: docker network inspect --format '{{range .IPAM.Config}}{{.Gateway}}{{end}}' "{{item}}"
+  loop: "{{docker_net_name.stdout_lines}}"

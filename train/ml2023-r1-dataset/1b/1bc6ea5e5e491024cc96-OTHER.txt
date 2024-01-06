@@ -1,0 +1,2 @@
+/dev/mapper/swap  none        swap  defaults                0  2
+

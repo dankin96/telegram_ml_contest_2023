@@ -1,0 +1,2 @@
+
+jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore <PATH_TO_JKS_FILE.jks> <PATH_TO_RELEASE_APP.aab> key0

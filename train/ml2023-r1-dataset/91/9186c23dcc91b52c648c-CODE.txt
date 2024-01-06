@@ -1,0 +1,40 @@
+services:
+- name: service-0
+  addr: ":8421"
+  handler:
+    type: auto
+    metadata:
+      entryPoint: ":8422"
+      ingress: ingress-0
+  listener:
+    type: tcp
+ingresses:
+- name: ingress-0
+  rules:
+  - hostname: "redisserver.to.remote"
+    endpoint: baa45434-4a8a-4466-b532-cfa593619afb
+
+- name: service-1
+  addr: ":8000"
+  handler:
+    type: tcp
+    chain: chain-0
+  listener:
+    type: tcp
+  forwarder:
+    nodes:
+    - name: redis_server
+      addr: redisserver.to.remote
+chains:
+- name: chain-0
+  hops:
+  - name: hop-0
+    nodes:
+    - name: node-0
+      addr: 127.0.0.1:8421
+      connector:
+        type: relay
+        metadata:
+          tunnel.id: baa45434-4a8a-4466-b532-cfa593619afb
+      dialer:
+        type: tcp

@@ -1,0 +1,11 @@
+model <- 'enj =~ enj1t1 + enj2t1 + enj3t1 + enj4t1 +  enj5t1 + enj6t1 + enj7t1 + enj8t1 + enj9t1
+         bor =~ bor1t1 + bor2t1 + bor3t1 + bor4t1 + bor4t1 + bor5t1 + bor6t1 + bor7t1
+         cogMA =~ mac1t1 + mac2t1 + mac3t1 + mac4t1 + mac5t1 + mac6t1 + mac7t1 + mac8t1'
+
+model_fit <- cfa(model, data = All_data, std.lv = TRUE, ordered = TRUE, orthogonal = FALSE)
+
+summary(model_fit, ci = TRUE, fit.measures = TRUE, rsquare = T)
+
+#Extracting factor scores
+FS <- lavPredict(model_fit)
+

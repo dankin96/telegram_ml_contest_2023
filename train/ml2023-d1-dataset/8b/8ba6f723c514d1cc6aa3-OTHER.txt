@@ -1,0 +1,2 @@
+$ dnf provides idle
+python3-idle-3.8.2-11.el7.i686 : A basic graphical development environment for Python

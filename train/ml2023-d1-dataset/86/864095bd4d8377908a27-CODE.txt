@@ -1,0 +1,9 @@
+
+server {
+  ...
+  location / {
+    add_header MiHeader "Valor de MiHeader";
+    ...
+  }
+  ...
+}

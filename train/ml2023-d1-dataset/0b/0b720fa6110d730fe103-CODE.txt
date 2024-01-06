@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+
+std::tuple<int, float> calc(float a, float b, int n){
+    float profit = 0;
+    
+    for (int i = 0; i < n; i++){
+        float diff = b - a;
+        profit += diff;
+        a *= 1.4;
+
+        if (profit >= 2 * a){
+            return {i + 1, round(profit * 100) / 100};
+        }
+    }
+    return {n, round(profit * 100) / 100};   
+}
+int main(){
+    float a, b;
+    int n;
+    std::cin >> a >> b >> n;
+    
+    int numberOfCar;
+    double profit;
+    std::tie(numberOfCar, profit) = calc(a, b, n);
+    std::cout << numberOfCar << ' ';
+    std::cout << std::fixed << std::setprecision(2) << profit << std::endl;
+    return 0;
+}
+
+На с++ написал потому что на С++ можно вводить данные в одной строке или отдельно

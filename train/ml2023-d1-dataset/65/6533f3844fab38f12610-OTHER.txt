@@ -1,0 +1,14 @@
+╔══════════════════════╗
+║ HKrA_v2.4 / Komutlar;
+╠══════════════════════╣
+║ /iban -no *
+╠══════════════════════╣
+║ HKrA'yı kullanırken;
+║ * Simgeli yerlere, 
+║ bulmak istediğiniz
+║ IBAN hakkında geçerli 
+║ herhangi bir IBAN,
+║ girmeniz gereklidir.
+╠══════════════════════╣
+║ /iban -no TR950006200072300006295061
+╚══════════════════════╝

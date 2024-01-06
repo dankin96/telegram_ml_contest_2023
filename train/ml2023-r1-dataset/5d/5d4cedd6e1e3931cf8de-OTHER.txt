@@ -1,0 +1,21 @@
+  pool: rpool
+ state: ONLINE
+  scan: scrub repaired 0B in 00:04:26 with 0 errors on Sun Sep 10 00:28:27 2023
+config:
+
+        NAME                                                  STATE     READ WRITE CKSUM
+        rpool                                                 ONLINE       0     0     0
+          mirror-0                                            ONLINE       0     0     0
+            ata-INTEL_SSDSC2KB019T8_PHYF203502K21P9DGN-part3  ONLINE       0     0     0
+            ata-INTEL_SSDSC2KB019T8_PHYF203502JZ1P9DGN-part3  ONLINE       0     0     0
+          mirror-1                                            ONLINE       0     0     0
+            ata-INTEL_SSDSC2KB019T8_PHYF203502EQ1P9DGN-part3  ONLINE       0     0     0
+            ata-INTEL_SSDSC2KB019T8_PHYF203502FB1P9DGN-part3  ONLINE       0     0     0
+          mirror-2                                            ONLINE       0     0     0
+            ata-INTEL_SSDSC2KB019T8_PHYF203502K31P9DGN-part3  ONLINE       0     0     0
+            ata-INTEL_SSDSC2KB019T8_PHYF203502NV1P9DGN-part3  ONLINE       0     0     0
+          mirror-3                                            ONLINE       0     0     0
+            ata-INTEL_SSDSC2KB019T8_PHYF203502N01P9DGN-part3  ONLINE       0     0     0
+            ata-INTEL_SSDSC2KB019T8_PHYF203502CN1P9DGN-part3  ONLINE       0     0     0
+
+errors: No known data errors

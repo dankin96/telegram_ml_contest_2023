@@ -1,0 +1,13 @@
+10-07 20:04:08.255 11696 11696 D AndroidRuntime: Shutting down VM
+10-07 20:04:08.255 11696 11696 E AndroidRuntime: FATAL EXCEPTION: main
+10-07 20:04:08.255 11696 11696 E AndroidRuntime: Process: com.qualcomm.qti.workloadclassifier, PID: 11696
+10-07 20:04:08.255 11696 11696 E AndroidRuntime: java.lang.UnsatisfiedLinkError: No implementation found for long com.qualcomm.qti.workloadclassifier.WLCInterpreterWrapper.nativeCreateModel() (tried Java_com_qualcomm_qti_workloadclassifier_WLCInterpreterWrapper_nativeCreateModel and Java_com_qualcomm_qti_workloadclassifier_WLCInterpreterWrapper_nativeCreateModel__) - is the library loaded, e.g. System.loadLibrary?
+
+10-07 20:04:08.197 11663 11663 E AndroidRuntime: FATAL EXCEPTION: main
+10-07 20:04:08.197 11663 11663 E AndroidRuntime: Process: com.qti.phone, PID: 11663
+10-07 20:04:08.197 11663 11663 E AndroidRuntime: java.lang.RuntimeException: Unable to create service com.qualcomm.qcrilmsgtunnel.QcrilMsgTunnelService: java.lang.IllegalStateException: telephony service is null.
+
+10-07 20:04:08.157 11539 11539 D AndroidRuntime: Shutting down VM
+10-07 20:04:08.157 11539 11539 E AndroidRuntime: FATAL EXCEPTION: main
+10-07 20:04:08.157 11539 11539 E AndroidRuntime: Process: com.android.phone, PID: 11539
+10-07 20:04:08.157 11539 11539 E AndroidRuntime: java.lang.NoClassDefFoundError: Failed resolution of: Lcom/android/internal/telephony/vendor/VendorGsmCdmaPhone;

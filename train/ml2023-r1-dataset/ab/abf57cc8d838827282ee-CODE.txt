@@ -1,0 +1,47 @@
+
+
+    if context.chat_data.links_in_messages:
+        links_to_send = []
+        for message_id, links_and_timestamps in context.chat_data.links_in_messages.items():
+            for link, timestamp in links_and_timestamps:
+                time_difference = current_time - timestamp
+                if time_difference <= datetime.timedelta(hours=1):
+                    links_to_send.append(link)
+
+        if links_to_send:
+            aggregated_links = "
+".join(links_to_send)
+            await update.message.reply_text(f"Aggregated links from the last hour:
+{aggregated_links}")
+        else:
+            await update.message.reply_text("No links found in the last hour.")
+
+    else:
+        await update.message.reply_text("No links found in the chat history.")
+
+    # Clear the stored links to avoid sending duplicates in the future
+    context.chat_data.links_in_messages.clear()
+
+
+def main() -> None:
+    """Run the bot."""
+    context_types = ContextTypes(context=CustomContext, chat_data=ChatData)
+    application = Application.builder().token("TOKEN").context_types(context_types).build()
+
+    # Add the check_message_for_links handler to process incoming messages
+    application.add_handler(TypeHandler(Update, track_users), group=-1)
+    application.add_handler(CommandHandler("start", start))
+    application.add_handler(CallbackQueryHandler(count_click))
+    application.add_handler(CommandHandler("print_users", print_users))
+
+    # Add the check_message_for_links handler to process incoming messages
+    application.add_handler(MessageHandler(Filters.text, check_message_for_links))
+
+    # Add the aggregate_links command handler
+    application.add_handler(CommandHandler("aggregate_links", aggregate_links))
+
+    application.run_polling(allowed_updates=Update.ALL_TYPES)
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,2 @@
+val valueRepeats =
+    minOf(array1.count { it == element }, array2.count { it == element })

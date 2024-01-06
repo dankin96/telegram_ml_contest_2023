@@ -1,0 +1,9 @@
+nama + username :
+jumlah order :
+link channel :
+subs awal :
+subs akhir :
+inrush ( +1k ) or no :
+payment :
+total :
+done sub @Damians? :

@@ -1,0 +1,4 @@
+let s = String::new();
+loop {
+     Struct::new(s.to_owned())
+}

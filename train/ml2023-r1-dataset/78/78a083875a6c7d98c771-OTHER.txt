@@ -1,0 +1,8 @@
+1.Pastikan sudah menginstall aplikasi BRI Mobile di smartphone android berfitur NFC
+*silahkan download aplikasi BRI Mobile disini
+2.Buka Aplikasi BRI Mobile
+3.Pilih menu Brizzi
+4.Pilih menu Info Saldo
+5.Tempelkan Kartu Brizzi di belakang smartphone anda
+6.Saldo otomatis bertambah
+

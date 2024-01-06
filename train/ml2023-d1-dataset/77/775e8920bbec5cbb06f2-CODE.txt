@@ -1,0 +1,36 @@
+cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+std::vector<int> musbat_sonlar_va_manfiy_sonlar(std::vector<int>& A) {
+    std::vector<int> musbat_sonlar;
+    std::vector<int> manfiy_sonlar;
+
+    for (int son : A) {
+        if (son > 0) {
+            musbat_sonlar.push_back(son);
+        } else {
+            manfiy_sonlar.push_back(son);
+        }
+    }
+
+    std::sort(musbat_sonlar.begin(), musbat_sonlar.end());
+    std::sort(manfiy_sonlar.begin(), manfiy_sonlar.end(), std::greater<int>());
+
+    musbat_sonlar.insert(musbat_sonlar.end(), manfiy_sonlar.begin(), manfiy_sonlar.end());
+
+    return musbat_sonlar;
+}
+
+int main() {
+    std::vector<int> A = {-3, 5, 2, -8, 7, 10};
+    std::vector<int> yangi_massiv = musbat_sonlar_va_manfiy_sonlar(A);
+
+    for (int son : yangi_massiv) {
+        std::cout << son << " ";
+    }
+    std::cout << std::endl;
+
+    return 0;
+}

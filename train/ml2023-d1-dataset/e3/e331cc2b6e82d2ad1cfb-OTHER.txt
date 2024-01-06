@@ -1,0 +1,5 @@
+Changelog:
+- Initial build
+- KernelSU included by default
+- Uses stock judyln fingerprint
+

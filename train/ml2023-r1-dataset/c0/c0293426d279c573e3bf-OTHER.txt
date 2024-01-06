@@ -1,0 +1,7 @@
+    🔔 BTC MIDDLE 💱 bybit:BTCUSDT ⏱️ 1 Minute
+
+           Closing Price <27,871> entered channel [<27,702>, <27,871>] ✔️
+price      27,871
+symbol     bybit:BTCUSDT
+timeUnit   1 Minute
+timestamp  2023-10-08T14:25:35.430Z

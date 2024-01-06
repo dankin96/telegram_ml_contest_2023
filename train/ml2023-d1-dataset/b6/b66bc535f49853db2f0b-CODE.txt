@@ -1,0 +1,26 @@
+#!/bin/bash
+MYCALL="R2BGT/P"
+WRK="P"
+CSID=29319
+
+ls -1 /home/....../ | while read FN; do
+ LIN=$(echo ${FN} | sed s/.adi//ig)
+ SQ=$(echo ${LIN} | cut -d_ -f2)
+ R1=$(echo ${LIN} | cut -d_ -f3)
+ R2=$(echo ${LIN} | cut -d_ -f4)
+ R3=$(echo ${LIN} | cut -d_ -f5)
+ R4=$(echo ${LIN} | cut -d_ -f6)
+ echo R== ${SQ} / ${R1} ${R2} ${R3} ${R4}
+
+echo -n "===== Upload ${FN} "
+curl -s -b tmp/cookie.txt -c tmp/cookie.txt -X POST \
+ -F "mycall=${MYCALL}" -F "fo=" -F "work=${WRK}" -F "myfile=@/home/.../${FN}" \
+  -F "locator=${SQ}" -F "county=${R1}" -F "county2=${R2}" -F "county3=${R3}" -F "county4=${R4}" \
+ https://hamlog.online/account/file.php?c=${CSID} -o f6.htm && echo "SUCCESS!" || echo "ERROR !!!!!!"
+rc=$?; echo $status RC: $rc
+echo sleep
+sleep 1
+
+done
+
+echo ===Done

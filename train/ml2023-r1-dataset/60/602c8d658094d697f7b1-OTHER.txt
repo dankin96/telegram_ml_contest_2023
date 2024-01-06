@@ -1,0 +1,24 @@
+What is the difference between Open Source and Enterprise?
+
+The Open Source Edition is fully capable of executing complex pipelines but is optimized to meet basic needs of individuals and small teams.
+
+The Enterprise Edition:
+
+    Supports distributed runners
+    Supports kubernetes runners
+    Supports organization secrets, vault secrets, etc
+    Supports cron scheduling
+    Supports scalable storage (postgres, mysql, s3)
+    Supports autoscaling
+    Supports extensions
+
+The Open Source Edition:
+
+    Lacks support for extensions
+    Lacks support for distributed runners
+    Lacks support for kubernetes runners
+    Lacks support for organization secrets, vault secrets, etc
+    Lacks support for cron scheduling
+    Lacks support for autoscaling
+    Limited to a single machine
+    Limited to an embedded sqlite database

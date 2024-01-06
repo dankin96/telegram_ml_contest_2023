@@ -1,0 +1,30 @@
++-------------------------------+
+|       Trade Information       |
++-----------------+-------------+
+| Key             | Value       |
++-----------------+-------------+
+| Buy Limit       | AUDJPY      |
+| Entry           | 95.501      |
+|                 |             |
+| Stop Loss       | 60 pips     |
+| TP 1            | (20 pips)   |
+| TP 2            | (40 pips)   |
+| TP 3            | (60 pips)   |
+|                 |             |
+|                 |             |
+| Stop Loss       | 94.901      |
+| TP 1            | 95.701      |
+| TP 2            | 95.901      |
+| TP 3            | 96.101      |
+|                 |             |
+| Risk Factor     | 9 %         |
+| Position Size   | 1.94        |
+|                 |             |
+| Current Balance | $ 12,956.35 |
+| Potential Loss  | $ 1,164.00  |
+| TP 1 Profit     | $ 129.33    |
+| TP 2 Profit     | $ 258.67    |
+| TP 3 Profit     | $ 388.00    |
+|                 |             |
+| Total Profit    | $ 776.00    |
++-----------------+-------------+

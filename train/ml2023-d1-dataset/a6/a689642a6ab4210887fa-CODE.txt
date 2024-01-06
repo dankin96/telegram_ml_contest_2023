@@ -1,0 +1,11 @@
+try {
+            const raw = await handler(job.variables);
+            const updates = isObservable(raw)
+              ? await firstValueFrom(raw)
+              : await raw;
+            if (updates) {
+              return job.complete(updates);
+            }
+            return job.complete();
+          } catch (error) {}
+}

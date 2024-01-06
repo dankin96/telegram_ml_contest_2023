@@ -1,0 +1,5 @@
+python
+    # Menghapus baris dengan data duplikat
+    df = df.drop_duplicates()
+    
+    

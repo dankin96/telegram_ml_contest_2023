@@ -1,0 +1,26 @@
+# Source: gateway/templates/patched_resources.yaml
+apiVersion: cilium.io/v2
+kind: CiliumNetworkPolicy
+metadata:
+  name: charlotte.istio-ingressgateway-app-istio-ingressgateway.egress.to.pfm-projects
+  namespace: pfm-istio
+spec:
+  description: access from istio-ingressgateway to pfm.managed.pods
+  egress:
+  - toEndpoints:
+    - matchExpressions:
+      - key: io.kubernetes.pod.namespace
+        operator: Exists
+      matchLabels:
+        k8s:pfm.ingress: "true"
+    toPorts:
+    - ports:
+      - port: "8080"
+        protocol: TCP
+  endpointSelector:
+    matchLabels:
+      k8s:app.kubernetes.io/instance: istio-ingressgateway-app
+      k8s:app.kubernetes.io/name: istio-ingressgateway
+      k8s:io.kubernetes.pod.namespace: pfm-istio
+  ingress:
+  - {}

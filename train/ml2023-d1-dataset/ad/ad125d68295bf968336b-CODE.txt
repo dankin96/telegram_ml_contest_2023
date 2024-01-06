@@ -1,0 +1,49 @@
+import logging
+from datetime import datetime, timedelta
+from telegram.ext import Updater, CommandHandler
+
+# Setze das Bot-Token
+TOKEN = 'dein_bot_token'
+
+# Aktiviere das Logging
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                     level=logging.INFO)
+
+logger = logging.getLogger(__name__)
+
+# Handler für den /idlerm Befehl
+def idlerm(update, context):
+    # Erhalte die Liste aller Mitglieder in der Gruppe
+    members = context.bot.get_chat_members(update.message.chat_id)
+
+    # Iteriere über die Mitglieder und überprüfe die Inaktivität
+    for member in members:
+        # Erhalte das Beitrittsdatum des Mitglieds
+        join_date = member['date']
+
+        # Überprüfe, ob das Mitglied länger als ein Monat inaktiv war
+        if datetime.now() - timedelta(days=30) > datetime.fromtimestamp(join_date):
+            # Entferne das Mitglied aus der Gruppe
+            context.bot.kick_chat_member(update.message.chat_id, member['user']['id'])
+
+# Handler für unbekannte Befehle
+def unknown(update, context):
+    context.bot.send_message(chat_id=update.message.chat_id, text="Unbekannter Befehl. Verwenden Sie /idlerm, um inaktive Benutzer zu entfernen.")
+
+def main():
+    # Erstelle den Updater und den Dispatcher
+    updater = Updater(TOKEN, use_context=True)
+    dispatcher = updater.dispatcher
+
+    # Füge den /idlerm Handler hinzu
+    dispatcher.add_handler(CommandHandler('idlerm', idlerm))
+
+    # Füge den unbekannten Befehl-Handler hinzu
+    dispatcher.add_handler(MessageHandler(Filters.command, unknown))
+
+    # Starte den Bot
+    updater.start_polling()
+    updater.idle()
+
+if __name__ == '__main__':
+    main()

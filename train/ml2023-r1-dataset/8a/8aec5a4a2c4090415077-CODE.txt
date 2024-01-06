@@ -1,0 +1,3 @@
+hello="hello"
+for hello in range(8)
+ print(hello)

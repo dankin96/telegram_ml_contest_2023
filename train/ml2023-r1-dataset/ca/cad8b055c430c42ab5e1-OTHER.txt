@@ -1,0 +1,15 @@
+        
+It is widely discussed that cyber criminals look for the easiest way to maximize profit. They are also keen to capitalize on the most vulnerable and to exploit crises, such as during the pandemic or political instability. One of their favorite targets is the older generation. Financially motivated criminals take advantage of the pervasiveness of technology and the lack of sufficient insight to manipulate feelings and emotions and perhaps get away with hundreds of thousands of dollars per victim. To achieve their nefarious goals, criminals use a tactic known as call spoofing, which is becoming more successful with the use of Artificial Intelligence (AI).
+
+What is call spoofing?
+
+Call spoofing exploits a feature of Voice over IP (VoIP) telephony, caller ID.
+
+Spoofing is when a caller deliberately falsifies the information transmitted to your caller ID display to disguise their identity. Scammers often use two tactics:
+
+- Neighbor spoofing so that the incoming call appears to be coming from a local number, or even family or friends.
+- Spoofing a number from a company or a government agency you may already know and trust. Favorite spoofed companies are telco providers and banks.
+
+If an unsuspecting person answers, the fraudsters use scam scripts to attempt to steal money or valuable personal information, such as login credentials, which can be used in other fraudulent activities.
+
+Calls with spoofed numbers can and do come from all over the world and account for a significant and growing proportion of nuisance calls., which is why Ofcom, FCC, and Australian Communications and Media Authority (ACMA) are working with international regulators and involved industries – telecoms and finance

@@ -1,0 +1,6 @@
+- SMS
+- Authy
+- DL, Passport, ID
+- Verification Selfie
+- Common Email Login Pages
+

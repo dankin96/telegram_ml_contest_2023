@@ -1,0 +1,21 @@
+javascript
+// ==UserScript==
+// @name         Bloquear Dominios Específicos
+// @namespace    http://ejemplo.com/
+// @version      1.0
+// @description  Bloquea únicamente los dominios que agregues al script
+// @author       Tu Nombre
+// @exclude      https://dominio1.com/*
+// @exclude      https://dominio2.com/*
+// @exclude      https://dominio3.com/*
+// @exclude      https://dominio4.com/*
+// @exclude      https://dominio5.com/*
+// @exclude      https://dominio6.com/*
+// @exclude      https://dominio7.com/*
+// @exclude      https://dominio8.com/*
+// @exclude      https://dominio9.com/*
+// @exclude      https://dominio10.com/*
+// @grant        none
+// ==/UserScript==
+
+// Aquí va el resto del script

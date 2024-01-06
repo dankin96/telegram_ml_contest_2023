@@ -1,0 +1,23 @@
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>تسجيل المحاضرات</title>
+</head>
+<body>
+    <h1>نموذج تسجيل المحاضرات</h1>
+
+    <form action="process.php" method="post">
+        <label for="lecture_title">عنوان المحاضرة:</label>
+        <input type="text" id="lecture_title" name="lecture_title" required><br><br>
+
+        <label for="lecturer_name">اسم المحاضر:</label>
+        <input type="text" id="lecturer_name" name="lecturer_name" required><br><br>
+
+        <label for="lecture_date">تاريخ المحاضرة:</label>
+        <input type="date" id="lecture_date" name="lecture_date" required><br><br>
+
+        <input type="submit" value="تسجيل المحاضرة">
+    </form>
+</body>
+</html>

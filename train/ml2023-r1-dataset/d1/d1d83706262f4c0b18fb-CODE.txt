@@ -1,0 +1,2 @@
+self.x = self.x * np.cos(angle) - self.y * np.sin(angle)
+self.y = self.x * sin(angle) + self.y * cos(angle)

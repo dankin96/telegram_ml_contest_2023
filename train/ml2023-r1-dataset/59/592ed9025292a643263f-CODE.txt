@@ -1,0 +1,33 @@
+{
+    "text": "Как сегодня пройдёт операция по удалению зуба у Ольги?",
+    "ai_result": {
+        "flagged": false,
+        "categories": {
+            "sexual": false,
+            "hate": false,
+            "harassment": false,
+            "self-harm": false,
+            "sexual\/minors": false,
+            "hate\/threatening": false,
+            "violence\/graphic": false,
+            "self-harm\/intent": false,
+            "self-harm\/instructions": false,
+            "harassment\/threatening": false,
+            "violence": false
+        },
+        "category_scores": {
+            "sexual": 2.3317554223467596e-5,
+            "hate": 0.00017637156997807324,
+            "harassment": 0.00037667417200282216,
+            "self-harm": 3.6753343010786921e-5,
+            "sexual\/minors": 9.7809070211951621e-6,
+            "hate\/threatening": 0.00019881805928889662,
+            "violence\/graphic": 0.0088857226073741913,
+            "self-harm\/intent": 7.4285912887717132e-7,
+            "self-harm\/instructions": 7.8819374493832584e-7,
+            "harassment\/threatening": 0.0021310739684849977,
+            "violence": 0.053312946110963821
+        }
+    },
+    "time_stamp": "2023-10-07 00:24:17"
+}

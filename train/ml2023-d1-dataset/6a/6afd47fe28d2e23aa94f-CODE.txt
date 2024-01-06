@@ -1,0 +1,5 @@
+sudo pacman -S system-config-printer --needed
+sudo pacman -S cups cups-pdf --needed
+sudo gpasswd -a $(whoami) sys
+sudo gpasswd -a $(whoami) lp
+

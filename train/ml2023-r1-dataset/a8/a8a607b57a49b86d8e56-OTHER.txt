@@ -1,0 +1,20 @@
+Name: Tinyman gALGO/ALGO V2.0
+Pool APY: 2.45%
+Farm APR: 93.25%
+
+Name: Tinyman Block/ALGO V2.0
+Pool APY: 0.44%
+Farm APR: 85.92%
+
+Name: Tinyman ZONE/ALGO V2.0
+Pool APY: 1.45%
+Farm APR: 82.20%
+
+Name: Tinyman XGLI/ALGO V2.0
+Pool APY: 4.59%
+Farm APR: 78.81%
+
+Name: Tinyman SCOUT/ALGO V2.0
+Pool APY: 0.25%
+Farm APR: 69.93%
+

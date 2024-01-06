@@ -1,0 +1,4 @@
+Build release ESNSI-108 status
+[PROJECT] server                           BUILD ✅
+[IMAGE] rest-api:    IMAGE BUILD ✅
+[IMAGE] esnsi-smev:  IMAGE BUILD ✅

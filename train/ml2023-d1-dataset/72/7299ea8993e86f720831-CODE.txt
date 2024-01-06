@@ -1,0 +1,21 @@
+var editor = new tui.Editor({
+    el: document.querySelector('#editor'),
+    initialEditType: 'markdown',
+    previewStyle: 'vertical',
+    height: '300px'
+});
+
+editor.on('keyup', function(e) {
+    var keyCode = e.keyCode;
+    var AT_SYMBOL_KEY_CODE = 50;
+
+    if (keyCode === AT_SYMBOL_KEY_CODE) {
+        // Показать ваш выпадающий список здесь
+    }
+});
+
+// Когда пользователь выбран из выпадающего списка
+function onUserSelected(username) {
+    var currentText = editor.getMarkdown();
+    editor.setMarkdown(currentText + username);
+}

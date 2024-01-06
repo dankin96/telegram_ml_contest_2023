@@ -1,0 +1,5 @@
+# Flowable数据源配置
+flowable.datasource.driver-class-name=com.mysql.jdbc.Driver
+flowable.datasource.url=jdbc:mysql://localhost:3306/flowable?useUnicode=true&characterEncoding=utf-8&useSSL=false
+flowable.datasource.username=root
+flowable.datasource.password=root

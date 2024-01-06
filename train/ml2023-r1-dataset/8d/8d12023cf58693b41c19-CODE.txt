@@ -1,0 +1,4 @@
+<div 
+  class="some static classes"
+  :classes="[...my, {[`dynamic--${color}`]: hasColor }]"
+ />

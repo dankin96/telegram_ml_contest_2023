@@ -1,0 +1,5 @@
+Token Name:           BLACKSWAN
+Token Symbol:         BLACKSWAN
+Holder Count:         183
+Total Supply:         40000000000000
+Creator Address:      0x0642edccea1a0fcf23a1995b0dc996e0a2424978

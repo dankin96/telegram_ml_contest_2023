@@ -1,0 +1,4 @@
+dependencies {
+    implementation files('path/to/libsume_mediabuffer_jni.media.samsung.so')
+    // ...
+}

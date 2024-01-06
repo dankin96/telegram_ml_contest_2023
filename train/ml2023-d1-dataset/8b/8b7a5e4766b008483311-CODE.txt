@@ -1,0 +1,47 @@
+
+// screen_mrc() =>
+//     int condition = 0
+//     float meanline = source44
+//     float meanrange = supersmoother(ta.tr, length)
+
+//     if type == 'SuperSmoother'
+//         meanline := supersmoother(source44, length)
+//         meanline
+//     if type != 'SuperSmoother'
+//         meanline := SAK_smoothing(type, source44, length)
+//         meanline
+
+//     if close > meanline
+//         upband2 = meanline + meanrange * mult2
+//         upband2_1 = upband2 + meanrange * gradsize * 4
+//         upband2_9 = upband2 + meanrange * gradsize * -4
+//         if checkweak and high >= upband2_9 and high < upband2
+//             condition := 1
+//             condition
+//         if checknorm and high >= upband2 and high < upband2_1
+//             condition := 2
+//             condition
+//         if checkstrong and high >= upband2_1
+//             condition := 3
+//             condition
+
+//     if close < meanline
+//         loband2 = meanline - meanrange * mult2
+//         loband2_1 = loband2 - meanrange * gradsize * 4
+//         loband2_9 = loband2 - meanrange * gradsize * -4
+//         if checkweak and low <= loband2_9 and low > loband2
+//             condition := -1
+//             condition
+//         if checknorm and low <= loband2 and low > loband2_1
+//             condition := -2
+//             condition
+//         if checkstrong and low <= loband2_1
+//             condition := -3
+//             condition
+//     condition
+
+// //************************
+// // Screener Logic
+// //************************
+// // set asset status {
+// asset_01_status = asset_01 == '' ? 0 : request.security(asset_01, custom_tf, screen_mrc())

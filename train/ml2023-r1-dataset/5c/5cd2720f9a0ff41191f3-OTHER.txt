@@ -1,0 +1,8 @@
+👀 SPAM Score detected:
+###
+https://t.me/zakritie2sklad_nawb
+###
+
+Reason: Наличие ссылок
+Action: deleteMessage
+Bot response: Successful ✅

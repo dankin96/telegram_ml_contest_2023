@@ -1,0 +1,38 @@
+update = {
+  "update_id": 147991213,
+  "message": {
+    "chat": {
+      "id": -1001813639943,
+      "type": "supergroup",
+      "username": "tondons_ru_chat",
+      "title": "TONDONS RU Chat"
+    },
+    "text": "/start",
+    "group_chat_created": false,
+    "entities": [
+      {
+        "length": 6,
+        "type": "bot_command",
+        "offset": 0
+      }
+    ],
+    "message_id": 74,
+    "delete_chat_photo": false,
+    "author_signature": "CM",
+    "sender_chat": {
+      "id": -1001813639943,
+      "type": "supergroup",
+      "username": "tondons_ru_chat",
+      "title": "TONDONS RU Chat"
+    },
+    "date": 1696987630,
+    "supergroup_chat_created": false,
+    "channel_chat_created": false,
+    "from": {
+      "is_bot": true,
+      "username": "GroupAnonymousBot",
+      "first_name": "Group",
+      "id": 1087968824
+    }
+  }
+}

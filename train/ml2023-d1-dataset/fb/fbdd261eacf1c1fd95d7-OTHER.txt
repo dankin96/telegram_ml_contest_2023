@@ -1,0 +1,4 @@
+The following 36 NEW packages are going to be installed:
+  connman connman-client dsme glacier-settings libconnman-qt5-1 libconnman-qt5-declarative libdbusaccess1 libdsme0 libglibutil1 libiodata-qt5-0 libiphb0 libkeepalive1 libmlocale0 libngf-0_24-0 libqofono-qt5-0 libqofono-qt5-declarative libqofonoext-1 libusb-moded-qt5-1
+  mce mlite nemo-devicelock-daemon-cli nemo-qml-plugin-configuration nemo-qml-plugin-connectivity nemo-qml-plugin-dbus nemo-qml-plugin-devicelock nemo-qml-plugin-folderlistmodel nemo-qml-plugin-models nemo-qml-plugin-settings nemo-qml-plugin-systemsettings profiled
+  profiled-settings-default qt5-glacier-app qt5-qtquickcontrols-nemo sailfish-access-control timed tzdata-timed

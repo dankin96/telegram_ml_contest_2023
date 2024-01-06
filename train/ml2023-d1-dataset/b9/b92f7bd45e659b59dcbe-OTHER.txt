@@ -1,0 +1,4 @@
+ current frameworks typically use runtime interpretation of python graphs and dispatch, such that much of the compute time is wasted on dispatch. That is the big limitation of existing frameworks. In fact, dispatch is so heavy, that 95% of Tensorflows code base is dedicated to "op coalescing" to reduce dispatch time, but that is an infinite pursuit of combinatorics.
+
+However if you use a compiler ahead of time (compilers are designed to optimize code), and run code native, no heavy dispatch, cache optimization, code dwell... all the things you'd expect out of a systems language.
+

@@ -1,0 +1,1 @@
+data:,{"p":"erc-20","op":"mint","tick":"pndx","id":"17193","amt":"1000"}

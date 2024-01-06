@@ -1,0 +1,12 @@
+const item = await Application.search().where(f => f.__id.eq('018b134f-83f8-7154-af09-a098a5d4c585')).first();
+const instances = await System.processes._searchInstances()
+        .where((f, g) => g.and(
+            g.or(
+                f.__state.like(ProcessInstanceState.exec),
+                f.__state.like(ProcessInstanceState.wait)
+            ),
+            (f as any)['__item'].eq(item)
+        ))
+        .size(10000)
+        .all();
+

@@ -1,0 +1,8 @@
+┌─────────────────────────┐
+     • VMESS INFORMATION •
+└─────────────────────────┘
+┌─────────────────────────┐
+  ISP      : ID-TELKOM
+  Username : ekiptr_hidessh
+  Status   : Created account
+└─────────────────────────┘

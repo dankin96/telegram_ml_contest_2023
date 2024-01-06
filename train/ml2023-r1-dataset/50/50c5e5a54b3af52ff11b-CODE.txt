@@ -1,0 +1,14 @@
+const numbers = [1, 3, 5, 8, 2]
+function twoNumWithSumX2(nums, x) {
+    const map = {}
+    for (let i = 0; i < nums.length; i++) {
+        const currentNum = nums[i]
+
+        map[currentNum] = currentNum
+        if (Object.hasOwn(map, (x - currentNum))) {
+            return [map[x - currentNum], currentNum]
+        }
+    }
+    return [0, 0]
+}
+console.log(twoNumWithSumX2(numbers, 7))

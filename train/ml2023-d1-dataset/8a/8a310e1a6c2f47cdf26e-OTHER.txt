@@ -1,0 +1,17 @@
+proxies:
+  - name: "TW 台湾 VISION"
+    type: vless
+    server: www.gov.cn
+    port: 443
+    ip-version: ipv6-prefer
+    uuid: uuid
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision 
+    client-fingerprint: firefox
+    xudp: true
+    skip-cert-verify: false
+    servername: www.gov.cn
+    alpn:
+      - "supertransfer/3"

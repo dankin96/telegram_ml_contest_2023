@@ -1,0 +1,8 @@
+Error: Transaction test error:
+  file /usr/lib64/libkfontinst.so.5 from install of lib64plasma-workspace-5.27.8-1.x86_64 conflicts with file from package lib64kfontinst5-5.23.5-2.x86_64
+  file /usr/lib64/libplasma-geolocation-interface.so.5 from install of lib64plasma-workspace-5.27.8-1.x86_64 conflicts with file from package lib64plasma-geolocation-interface5-5.23.5-2.x86_64
+  file /usr/lib64/libkworkspace5.so.5 from install of lib64plasma-workspace-5.27.8-1.x86_64 conflicts with file from package lib64kworkspace5_5-5.23.5-2.x86_64
+  file /usr/lib64/libkfontinstui.so.5 from install of lib64plasma-workspace-5.27.8-1.x86_64 conflicts with file from package lib64kfontinstui5-5.23.5-2.x86_64
+  file /usr/lib64/libtaskmanager.so.6 from install of lib64plasma-workspace-5.27.8-1.x86_64 conflicts with file from package lib64taskmanager6-5.23.5-2.x86_64
+  file /usr/lib64/libcolorcorrect.so.5 from install of lib64plasma-workspace-5.27.8-1.x86_64 conflicts with file from package lib64colorcorrect5-5.23.5-2.x86_64
+  file /usr/lib64/libweather_ion.so.7.0.0 from install of lib64plasma-workspace-5.27.8-1.x86_64 conflicts with file from package lib64weather_ion7-5.23.5-2.x86_64

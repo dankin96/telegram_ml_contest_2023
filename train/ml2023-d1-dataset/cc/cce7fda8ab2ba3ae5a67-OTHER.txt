@@ -1,0 +1,5 @@
+Материнская плата - YADRO System Board X3-205
+Процессор - 2x OctalCore Intel Xeon Silver 4309Y, 2800 MHz (28 x 100)
+BIOS - AMI (03/06/2023)
+Контроллер - PCIe
+

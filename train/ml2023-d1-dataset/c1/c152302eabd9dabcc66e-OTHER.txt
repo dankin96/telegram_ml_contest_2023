@@ -1,0 +1,4 @@
+ 69062170544
+nome: Valdenice Cerqueira de Souza
+sexo: F - Feminino
+nascimento: 20/12/1974

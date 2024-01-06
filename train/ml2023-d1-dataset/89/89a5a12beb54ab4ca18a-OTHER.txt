@@ -1,0 +1,9 @@
+NVIDIA GeForce RTX 3090                        0.002xRT
+GeForce GTX 1080 Ti 12Gb                       0.004xRT
+NVIDIA GTX 1080 8Gb                            0.010xRT
+AMD Ryzen 9 5900X 12-Core Processor @ 3Ghz     0.028xRT
+Intel(R) Core(TM) i5-10600K CPU @ 4.10GHz      0.038xRT
+Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz       0.042xRT
+Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz        0.043xRT
+Intel(R) Xeon(R) CPU E5-2690 v4 @ 2.60GHz      0.044xRT
+Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz       0.048xRT

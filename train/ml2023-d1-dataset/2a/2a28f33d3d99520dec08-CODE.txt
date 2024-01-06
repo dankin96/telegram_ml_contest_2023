@@ -1,0 +1,4 @@
+sudo apk add cpupower
+sudo vi /etc/conf.d/cpupower
+sudo rc-update add cpupower
+sudo service cpupower start

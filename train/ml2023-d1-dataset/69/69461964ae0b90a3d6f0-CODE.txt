@@ -1,0 +1,1 @@
+sudo systemctl restart ofono.service; /usr/share/ofono/scripts/monitor-ofono

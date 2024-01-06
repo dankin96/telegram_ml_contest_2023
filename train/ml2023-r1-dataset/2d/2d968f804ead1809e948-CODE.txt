@@ -1,0 +1,12 @@
+#ifndef HUFF_PLUS_FUNCS
+#define HUFF_PLUS_FUNCS
+
+#include <vector>
+
+class HuffCode {...}; 
+
+class HuffNode {...};
+
+vector<HuffNode> ConvertFreqs(long *frequencies, int size); // Ругается на эту строку
+
+#endif

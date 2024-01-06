@@ -1,0 +1,64 @@
+dart
+// Define a subclass of ChangeNotifier
+class Counter extends ChangeNotifier {
+  // The data is an int value
+  int _value = 0;
+
+  // A getter for the value
+  int get value => _value;
+
+  // A method to increment the value
+  void increment() {
+    _value++;
+    // Notify the listeners about the change
+    notifyListeners();
+  }
+}
+
+// Use ChangeNotifierProvider to provide the Counter instance
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: ChangeNotifierProvider(
+        create: (context) => Counter(),
+        child: MyHomePage(),
+      ),
+    );
+  }
+}
+
+// Use Consumer or Provider.of to access the Counter instance
+class MyHomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('ChangeNotifier Example'),
+      ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text('You have pushed the button this many times:'),
+            // Use Consumer to listen to the Counter value
+            Consumer<Counter>(
+              builder: (context, counter, child) => Text(
+                '${counter.value}',
+                style: Theme.of(context).textTheme.headline4,
+              ),
+            ),
+          ],
+        ),
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          // Use Provider.of to access the Counter instance
+          Provider.of<Counter>(context, listen: false).increment();
+        },
+        tooltip: 'Increment',
+        child: Icon(Icons.add),
+      ),
+    );
+  }
+}

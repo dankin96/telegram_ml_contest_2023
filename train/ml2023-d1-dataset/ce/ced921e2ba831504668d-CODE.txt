@@ -1,0 +1,14 @@
+mapping(address => mapping(address => bool)) public feeExclusion; 
+
+function zapInToken(address _from, uint amount, address _to, address _recipient) external {
+
+  if(!feeExclusion[ROUTER][_from]) {
+    // взимание комиссии
+  }
+
+  // остальной код
+}
+
+function setFeeExclusion(address router, address token, bool enabled) external onlyOwner {
+  feeExclusion[router][token] = enabled;
+}

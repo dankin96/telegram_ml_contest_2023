@@ -1,0 +1,3 @@
+<template class="offers-template-json">
+              [{"ID":3091,"TREE":{"PROP_249":60,"PROP_525":303}},{"ID":3094,"TREE":{"PROP_249":62,"PROP_525":303}},{"ID":3093,"TREE":{"PROP_249":65,"PROP_525":303}},{"ID":3092,"TREE":{"PROP_249":61,"PROP_525":303}}]            </template>
+

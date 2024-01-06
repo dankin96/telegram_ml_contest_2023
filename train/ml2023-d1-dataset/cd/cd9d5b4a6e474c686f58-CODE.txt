@@ -1,0 +1,45 @@
+{
+ "update_id": 935488240,
+ "message": {
+  "message_id": 59,
+  "from": {
+   "id": 1087968824,
+   "is_bot": true,
+   "first_name": "Group",
+   "username": "GroupAnonymousBot"
+  },
+  "sender_chat": {
+   "id": -1001929156380,
+   "title": "Sintonia Do H4xx",
+   "username": "sintoniah4x",
+   "type": "supergroup"
+  },
+  "chat": {
+   "id": -1001929156380,
+   "title": "Sintonia Do H4xx",
+   "username": "sintoniah4x",
+   "type": "supergroup"
+  },
+  "date": 1697098977,
+  "new_chat_participant": {
+   "id": 285793787,
+   "is_bot": true,
+   "first_name": "Show Json Bot",
+   "username": "ShowJsonBot"
+  },
+  "new_chat_member": {
+   "id": 285793787,
+   "is_bot": true,
+   "first_name": "Show Json Bot",
+   "username": "ShowJsonBot"
+  },
+  "new_chat_members": [
+   {
+    "id": 285793787,
+    "is_bot": true,
+    "first_name": "Show Json Bot",
+    "username": "ShowJsonBot"
+   }
+  ]
+ }
+}

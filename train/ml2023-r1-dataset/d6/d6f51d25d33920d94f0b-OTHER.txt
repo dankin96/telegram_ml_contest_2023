@@ -1,0 +1,2 @@
+vless://6f2ebdb4-c681-4342-aa93-8cf07f9b3695@13.melov2ray.store:443?encryption=none&security=reality&sni=eset.com&fp=chrome&pbk=PArdGMnMynlQW_QcOl6Qvd7yySE_1JT9JXxwnBZ2R2c&sid=2d9775c7&spx=%2F&type=grpc&serviceName=Telegram:@melov2ray,Telegram:@melov2ray,Telegram:@melov2ray,Telegram:@melov2ray,Telegram:@melov2ray,Telegram:@melov2ray,Telegram:@melov2ray&mode=gun#@melov2ray-reality-all
+

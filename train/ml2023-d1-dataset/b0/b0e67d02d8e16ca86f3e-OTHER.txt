@@ -1,0 +1,2 @@
+/summon item <координаты> {Item:{id:<предмет>,Count:<количество>},PickupDelay:2147483647,Invulnerable:1b}
+

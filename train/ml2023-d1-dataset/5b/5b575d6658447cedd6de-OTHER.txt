@@ -1,0 +1,8 @@
+IN ANDROID BUILDER 
+[Screenshot_2023-10-10-19-00-40-500_in.androidbuilder.companion] 
+IN KODULAR . 
+[Screenshot_2023-10-10-18-57-34-706_io.makeroid.companion] 
+How I set padding in Cardview . 
+Name is change in ANY Component cardview to meterial card 
+[IMG_20231010_191251] 
+[Screenshot_2023-10-10-19-11-03-039_com.android.chrome]

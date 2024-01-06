@@ -1,0 +1,37 @@
+def require_one_param(func):
+    @wraps(func)
+    def wrapper(self, *args, **kwargs):
+        if not args and not kwargs:
+            raise ValueError("At least one parameter should be provided")
+        return func(self, *args, **kwargs)
+    return wrapper
+
+class PartTypesRepository(SQLAlchemyRepository):
+    model = PartType
+
+    @require_one_param
+    def get_one(self, part_type_id: Optional[int] = None, part_type: Optional[str] = None) -> PartSchema | None:
+        query_params = {}
+
+        if part_type_id is not None:
+            query_params["id"] = part_type_id
+        
+        if part_type is not None:
+            query_params["name"] = part_type
+        
+        return super().get_one(query_params)
+
+class CarClassesRepository(SQLAlchemyRepository):
+    model = CarClass
+
+    @require_one_param
+    def get_one(self, car_class_id: Optional[int] = None, car_class: Optional[str] = None) -> CarClassSchema | None:
+        query_params = {}
+        
+        if car_class_id is not None:
+            query_params["id"] = car_class_id
+        
+        if car_class is not None:
+            query_params["name"] = car_class
+        
+        return super().get_one(query_params)

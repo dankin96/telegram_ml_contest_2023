@@ -1,0 +1,32 @@
+Exchange TOMOUSDT 1h Binance
+Price:    1.44|    1.43|    1.44
+Vol:    36,332|  96,670| 172,965
+ATR: 0.0154
+
+✅OBV: 853.2 K| 816.9 K| 913.5 K
+⚪RSI:   38.12|   35.92|   40.05
+⚪MFI:   33.32|   29.24|   29.19
+⚪CCI: -160.69| -258.49| -273.69
+❌WR%:  -76.70|  -83.64|  -75.85
+✅ADX:   31.39|   31.85|   32.03
+
+❌MOM: Bearish Momentum
+❌SMA: Price Below SMA Bearish
+❌ADI: -DI > +DI Bearish
+❌MACD: Bearish
+❌PSAR: Bearish
+
+Support And Resistance
+S: $1.432
+R: $1.480
+
+Volatility is low
+
+EXPERIMENTAL 🧪
+🐻RSI: bearish divergence
+⚪MFI:No divergence
+🐻FVE: Bearish divergence
+🐂Volume: Bullish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

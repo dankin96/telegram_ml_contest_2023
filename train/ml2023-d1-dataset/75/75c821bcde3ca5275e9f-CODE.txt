@@ -1,0 +1,33 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+// Function to create the generating function for a given power series
+vector<int> generateGeneratingFunction(vector<int> powerSeries) {
+    int n = powerSeries.size();
+    vector<int> generatingFunction(n, 0);
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j <= i; j++) {
+            generatingFunction[i] += powerSeries[j];
+        }
+    }
+    return generatingFunction;
+}
+
+int main() {
+    // Example usage
+    vector<int> powerSeries = {1, 2, 3, 4, 5};
+    vector<int> generatingFunction = generateGeneratingFunction(powerSeries);
+    cout << "Power series: ";
+    for (int i = 0; i < powerSeries.size(); i++) {
+        cout << powerSeries[i] << " ";
+    }
+    cout << endl;
+    cout << "Generating function: ";
+    for (int i = 0; i < generatingFunction.size(); i++) {
+        cout << generatingFunction[i] << " ";
+    }
+    cout << endl;
+    return 0;
+}

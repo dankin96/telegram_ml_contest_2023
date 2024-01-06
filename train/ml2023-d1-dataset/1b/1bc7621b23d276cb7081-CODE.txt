@@ -1,0 +1,5 @@
+
+private void OnCollisionEnter2D(Collisiln2D collisiln)
+{
+    Debug.Log(collision.relativeVelocity.magnitude);
+}

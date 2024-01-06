@@ -1,0 +1,8 @@
+$ mtr --curses google.de 
+$ neofetch 
+$ sntop 
+$ speedtest-cli 
+$ tmux a
+$ umount /media/user/DATA 
+$ rsync -avzP --delete --stats --exclude-from '/home/user/.exclude.txt' /home/user/ /media/user/data/rsync/
+

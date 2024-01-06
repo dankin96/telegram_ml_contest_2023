@@ -1,0 +1,10 @@
+API Microservice.INFO: Channel: telegram, Request method: POST, Request:  {"update_id":221540428,"channel_post":{"message_id":640800,"sender_chat":{"id":-1001751027264,"title":"Ultainfinity DEVELOP Logger","username":"uggdeveloper","type":"channel"},"chat":{"id":-1001751027264,"title":"Ultainfinity DEVELOP Logger","username":"uggdeveloper","type":"channel"},"date":1696935911,"text":"📌 Application: Communications API Microservice
+♻️ Environment: production
+🔗 IP Address: 172.31.13.24
+⚠️ Log Level: INFO
+🕒 Timestamp: 2023-10-10 11:05:10
+✉️ Message:
+
+API Microservice.INFO: Channel: telegram, Request method: POST, Request:  {\"update_id\":221540427,\"message\":{\"message_id\":7660,\"from\":{\"id\":6289640506,\"is_bot\":false,\"first_name\":\"Abdulahmed\",\"last_name\":\"Abdulhakeem\",\"language_code\":\"en\"},\"chat\":{\"id\":6289640506,\"first_name\":\"Abdulahmed\",\"last_name\":\"Abdulhakeem\",\"type\":\"private\"},\"date\":1696935910,\"text\":\"/start\",\"entities\":[{\"offset\":0,\"length\":6,\"type\":\"bot_command\"}]}} []
+🧪 Context:
+{\"update_id\":221540427,\"message\":{\"message_id\":7660,\"from\":{\"id\":6289640506,\"is_bot\":false,\"first_name\":\"Abdulahmed\",\"last_name\":\"Abdulhakeem\",\"language_code\":\"en\"},\"chat\":{\"id\":6289640506,\"first_name\":\"Abdulahmed\",\"last_name\":\"Abdulhakeem\",\"type\":\"private\"},\"date\":1696935910,\"text\":\"\\/start\",\"entities\":[{\"offset\":0,\"length\":6,\"type\":\"bot_command\"}]}}","entities":[{"offset":0,"length":15,"type":"bold"},{"offset":48,"length":15,"type":"bold"},{"offset":75,"length":14,"type":"bold"},{"offset":90,"length":12,"type":"url"},{"offset":103,"length":13,"type":"bold"},{"offset":122,"length":13,"type":"bold"},{"offset":156,"length":11,"type":"bold"},{"offset":169,"length":430,"type":"pre"},{"offset":599,"length":11,"type":"bold"},{"offset":611,"length":353,"type":"code"}]}} []

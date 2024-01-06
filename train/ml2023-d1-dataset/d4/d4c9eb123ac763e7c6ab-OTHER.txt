@@ -1,0 +1,7 @@
+
+13.220257506 13.199748275 │ │ │ node18js/install      at async Promise.all (index 0)
+13.220329086 13.199758605 │ │ │ node18js/install      at async genRadars (file:///tmp/src/main/js/generator/index.js:49:3)
+13.220409976 13.199767665 │ │ │ node18js/install      at async renderRadars (file:///tmp/src/main/js/index.js:95:3)
+13.220423376 13.214964251 │ │ │ node18js/install  error Command failed with exit code 1.
+13.220484577 13.215062631 │ │ │ node18js/install  info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this    ↵
+13.220497987 13.215072491 │ │ │ node18js/install  command.~

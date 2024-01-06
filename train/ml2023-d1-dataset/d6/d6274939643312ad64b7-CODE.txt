@@ -1,0 +1,8 @@
+select count(*) as cnt
+from
+(
+select rr.record_id, ehd.group_vri_zu 
+from L_RR_LAND rr, L_20230814 ehd
+where dbms_lob.compare(rr.PU_BY_DOCUMENT, ehd.vri) = 0
+)
+;

@@ -1,0 +1,2 @@
+<SomeInputField1 v-bind="name" 
+<SomeInputField2 v-bind="name" dirty

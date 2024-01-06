@@ -1,0 +1,4 @@
+
+AttributeError at /admin/app/galleryimage/8/change/ 
+ 
+'Image' object has no attribute 'read'

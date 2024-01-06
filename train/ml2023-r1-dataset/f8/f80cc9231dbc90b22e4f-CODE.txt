@@ -1,0 +1,3 @@
+const closingInSum = n =>  
+[...`${n}`].reduce((sum, dgt, idx, arr) => sum + dgt * 10 ** (++idx <= arr.length / 2), 0);
+

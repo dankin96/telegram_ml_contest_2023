@@ -1,0 +1,3 @@
+if (state.isRegistered === null || state.isRegistered === undefined) {
+  return <Widget src={loadingWidget} />;
+}

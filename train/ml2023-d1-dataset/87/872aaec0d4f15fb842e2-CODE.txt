@@ -1,0 +1,28 @@
+def chiziqli_qidiruv(lst, target):
+    left = 0
+    right = len(lst) - 1
+
+    while left <= right:
+        mid = (left + right) // 2
+        
+        if lst[mid] == target:
+            return mid
+        
+        if lst[mid] < target:
+            left = mid + 1
+        else:
+            right = mid - 1
+    
+    return -1
+
+# Misol uchun 20 dan 60 gacha bo'lgan butun sonlar to'plami
+to'plam = list(range(20, 61))
+# Qidirilayotgan raqam
+raqam = 31
+# Qidirish natijasi
+natija = chiziqli_qidiruv(to'plam, raqam)
+# Natijani tekshirish
+if natija != -1:
+    print(f"{raqam} raqami {natija}-indeksda topildi.")
+else:
+    print(f"{raqam} raqamini topish mumkin emas.")

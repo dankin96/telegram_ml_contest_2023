@@ -1,0 +1,13 @@
+kotlin
+
+    fun maxDotProduct(nums1: IntArray, nums2: IntArray): Int {
+      val dp = Array(nums1.size + 1) { Array(nums2.size + 1) { -1000000 } }
+      for (j in nums2.lastIndex downTo 0)
+        for (i in nums1.lastIndex downTo 0)
+          dp[i][j] = maxOf(
+              nums1[i] * nums2[j],
+              nums1[i] * nums2[j] + dp[i + 1][j + 1],
+              dp[i][j + 1],
+              dp[i + 1][j])
+      return dp[0][0]
+    }

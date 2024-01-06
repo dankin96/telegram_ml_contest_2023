@@ -1,0 +1,3 @@
+javascript
+   { name: "Pikachu", type: "Electric", id: 123, created: Sat Oct 10 2023 15:30:00 GMT+0000 (UTC) }
+   

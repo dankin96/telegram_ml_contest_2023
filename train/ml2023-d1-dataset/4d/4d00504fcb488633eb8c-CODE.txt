@@ -1,0 +1,12 @@
+char buffer[1024];
+char* url = buffer;
+size_t url_size = sizeof buffer;
+...
+if( url_size < new_size ) {
+   url = malloc(url_size = new_size);
+   if( !url ) return 1;
+}
+...
+if( url != buffer) 
+   free(url);
+

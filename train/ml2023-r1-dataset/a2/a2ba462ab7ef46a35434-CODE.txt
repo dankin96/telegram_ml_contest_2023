@@ -1,0 +1,26 @@
+#ifndef __RANDOM__
+#define __RANDOM__
+
+#include "types.hpp"
+
+namespace random {
+  u16 seed_delta = 16807;
+  u32 seed_mod = 2147483647;
+  u32 seed_product = 0;
+
+  u32 raw_random() {
+    seed_product = (seed_delta * seed_product) % seed_mod;
+    return seed_product / seed_mod;
+  }
+
+  int randint(int start, int end) {
+    u32 rand = raw_random();
+    return start + rand % (end - start);
+  }
+
+  void seed(u32 seed_value) {
+    seed_product = seed_value;
+  }
+};
+
+#endif

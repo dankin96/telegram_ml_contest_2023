@@ -1,0 +1,31 @@
+import pygame.camera
+import pygame.image
+
+def open_camera():
+    pygame.camera.init()
+    cam_list = pygame.camera.list_cameras()
+    if cam_list:
+        camera = pygame.camera.Camera(cam_list[0], (640, 480))
+        camera.start()
+        return camera
+    else:
+        print("No camera found")
+        return None
+
+def capture_frame(camera):
+    if camera:
+        image = camera.get_image()
+        pygame.image.save(image, "captured_frame.jpg")
+        print("Frame captured")
+    else:
+        print("Camera not found")
+
+def close_camera(camera):
+    if camera:
+        camera.stop()
+        pygame.camera.quit()
+
+# Usage example
+camera = open_camera()
+capture_frame(camera)
+close_camera(camera)

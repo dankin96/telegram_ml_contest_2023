@@ -1,0 +1,3 @@
+d
+foreach(i, k; arrayOfKeys)
+  map[k] = i;

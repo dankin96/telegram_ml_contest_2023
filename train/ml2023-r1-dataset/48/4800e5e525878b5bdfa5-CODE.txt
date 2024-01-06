@@ -1,0 +1,12 @@
+python
+import random
+
+def generate_random_word(characters, length):
+    word = ''.join(random.choice(characters) for _ in range(length))
+    return word
+
+characters = 'abcdefghijklmnopqrstuvwxyz'  # Набор символов для генерации слов
+word_length = 5  # Длина генерируемого слова
+
+random_word = generate_random_word(characters, word_length)
+print(random_word)

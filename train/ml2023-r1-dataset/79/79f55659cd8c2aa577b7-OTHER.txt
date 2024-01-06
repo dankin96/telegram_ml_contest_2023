@@ -1,0 +1,2 @@
+I am consulting the
+ API of a Storage StoreOnce, the output is as follows:

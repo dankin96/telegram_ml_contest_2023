@@ -1,0 +1,3 @@
+using perdesh = (int a, int blyat);
+
+perdesh naperdel = (100, 20);

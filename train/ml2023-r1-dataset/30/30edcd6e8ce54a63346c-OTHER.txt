@@ -1,0 +1,1 @@
+vless://test-Mon3terVPN@rz.mon3ter.link:443?security=reality&encryption=none&pbk=dKCuSEaLD-2h-9ueaGcowQHK1eR3Qyv57qomsuGPGSs&headerType=none&fp=chrome&type=tcp&flow=xtls-rprx-vision&sni=game-center.ir#QQ-%40Mon3terVPN

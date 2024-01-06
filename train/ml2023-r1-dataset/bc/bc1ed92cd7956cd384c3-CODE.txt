@@ -1,0 +1,19 @@
+python
+# Variabel global
+global_var = "Ini adalah variabel global"
+
+def my_function():
+    # Variabel lokal dengan nama yang sama
+    local_var = "Ini adalah variabel lokal"
+    print(local_var) # Akan mencetak "Ini adalah variabel lokal"
+    print(global_var) # Akan mencetak "Ini adalah variabel global"
+
+# Mencetak variabel global
+print(global_var) # Akan mencetak "Ini adalah variabel global"
+
+# Mencoba mencetak variabel lokal di luar fungsi
+# Ini akan menghasilkan error karena variabel lokal hanya terdefinisi di dalam fungsi
+print(local_var) # Akan menghasilkan NameError
+
+# Memanggil fungsi
+my_function()

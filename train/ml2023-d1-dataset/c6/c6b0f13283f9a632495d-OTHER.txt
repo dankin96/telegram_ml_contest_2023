@@ -1,0 +1,11 @@
+
+
+@timestamp:2023-10-10T14:13:56
+_id:ndYBGIsBLhXj_6aTmmZh
+_index:filebeat-ext-dyms-kube-controller-manager-2023.10.10
+namespace:dyms-kube-cluster
+name:kube-controller-manager-dyms-kube-master2
+
+E1010 05:13:50.575747       1 horizontal.go:214] failed to compute desired number of replicas based on listed metrics for Deployment/dym5-career/production: invalid metrics (1 invalid out of 1), first error is: failed to get cpu utilization: unable to get metrics for resource cpu: no metrics returned from resource metrics API
+
+<MISSING VALUE>

@@ -1,0 +1,1 @@
+df | sed 1d | awk '{print $6 " " $5}' | sed 's/%//g' | grep -Ev "(/dev|/run|/sys|/boot|${df_excluded_dirs})"

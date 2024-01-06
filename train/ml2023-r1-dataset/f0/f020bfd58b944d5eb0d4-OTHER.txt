@@ -1,0 +1,13 @@
+• Balanites aegyptiaca [‘Egyptian Balsam’,’Desert Date’]
+• Boswellia sacra [‘Olibanum Tree’]
+• Commiphora myrrha [‘Myrrh Tree’,’African Myrrh’,’Herabol Myrrh’]
+• Eragrostis curvula [‘Weeping Lovegrass’,’Boer Lovegrass’]
+• Hilaria mutica [‘Tobosa Grass’]
+• Muhlenbergia capillaris [‘Pink Muhly Grass’,’Pink Hair Grass’,’Gulf Muhly’]
+• Phoenix dactylifera [‘Date Palm’]
+• Senegalia mellifera [‘Acacia Mellifera’]
+• Senegalia senegal [‘Gum Arabic Tree’]
+• Vachellia nilotica [‘Acacia Nilotica’,’Egyptian Acacia’]
+• Vachellia xanthophloea [‘Xanthophloea’]
+• Yucca brevifolia [‘Joshua Tree’,’Yucca Palm’]
+

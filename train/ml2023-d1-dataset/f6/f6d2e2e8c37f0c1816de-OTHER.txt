@@ -1,0 +1,13 @@
+Dependencies (11)
+
+    gtk3
+    libnotify
+    python
+    python-docopt
+    python-gobject
+    python-keyutils
+    python-yaml
+    udisks2
+    libappindicator-gtk3 (optional) - --appindicator support
+    asciidoc (make)
+    python-setuptools (make)

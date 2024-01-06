@@ -1,0 +1,5 @@
+Area => IPV
+Event Type => HEALTH-KO 
+Label => EXTEMPORANEOUS 
+Long Message => FAIL: com.gatelab.ipv.rest.service.IPVServiceRest$Proxy$_$$_WeldSubclass@923d402.alignPtf 
+Short Message => JBOSS is CRITICAL

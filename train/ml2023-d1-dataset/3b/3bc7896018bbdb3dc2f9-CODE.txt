@@ -1,0 +1,13 @@
+pythonCopy codefrom concurrent.futures import ThreadPoolExecutor
+# 定义一个函数，用于计算一个数的平方
+def square(x):
+    return x ** 2
+# 生成一组需要计算平方的数据
+numbers = [1, 2, 3, 4, 5]
+# 创建一个ThreadPoolExecutor对象，最多同时运行3个线程
+with ThreadPoolExecutor(max_workers=3) as executor:
+    # 使用map()函数将square函数应用于numbers列表中的每个元素
+    result = executor.map(square, numbers)
+    # 打印结果
+    for res in result:
+        print(res)

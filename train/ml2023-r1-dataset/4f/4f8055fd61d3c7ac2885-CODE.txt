@@ -1,0 +1,3 @@
+Data Source=myServerAddress;Initial Catalog=myDataBase;User Id=myUsername;Password=myPassword;
+
+

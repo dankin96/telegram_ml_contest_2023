@@ -1,0 +1,8 @@
+(
+  (
+    paragraph (inline) @latex (#match? @latex "\\\\begin\\{.*\\}(\
+|.|\\r|\\r\
+)*\\\\end\\{.*\\}")
+  ) @injection.content
+  (#set! injection.language "latex")
+)

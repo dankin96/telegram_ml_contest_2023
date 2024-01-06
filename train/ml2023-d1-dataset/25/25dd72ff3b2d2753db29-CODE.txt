@@ -1,0 +1,3 @@
+ "payment_mode": "empty_string", 
+ "card_bank": "TINKOFF BANK", 
+ "processing": "Tinkoff: EACQ"

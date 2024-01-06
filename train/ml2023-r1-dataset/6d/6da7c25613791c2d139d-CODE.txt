@@ -1,0 +1,4 @@
+    @IntrinsicCandidate
+    public final native boolean compareAndSetInt(Object o, long offset,
+                                                 int expected,
+                                                 int x);

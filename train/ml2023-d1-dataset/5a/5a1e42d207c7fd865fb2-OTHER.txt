@@ -1,0 +1,11 @@
+WHISPER_X [2023-10-11 16:03]
+Media processed   : 1176 [+66]
+ - videos : 321
+ - rutube_videos : 855
+Media failed      : 979 [+58]
+ - URL response   : 887 [+56]
+Hours processed   : 326.4 [+17.9]
+Speed coefficient : 20.4 [-0.2]
+MIN air date      : 2023-01-27
+MAX air date      : 2023-10-11
+Working instances : 19 [+0]

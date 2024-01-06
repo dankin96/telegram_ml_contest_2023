@@ -1,0 +1,8 @@
+v10.1.1.1 (20470) Play Store en
+Xiaomi Redmi K20 Pro android 11
+ROM: RKQ1.200826.002 test-keys
+Accounts: 2
+Performance: HIGH
+Cache: 16.33 GB
+Database: 270.7 MB
+Free: 101.52 G

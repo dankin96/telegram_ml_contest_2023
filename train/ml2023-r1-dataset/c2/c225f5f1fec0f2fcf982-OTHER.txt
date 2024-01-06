@@ -1,0 +1,2 @@
+!gen 123456
+!gen 123456xxxxxxxxxx|rnd|rnd|rnd

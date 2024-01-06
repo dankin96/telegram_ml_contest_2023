@@ -1,0 +1,2 @@
+pretty_table.add_row([member, score])
+

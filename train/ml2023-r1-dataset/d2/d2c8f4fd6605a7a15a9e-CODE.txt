@@ -1,0 +1,1 @@
+sudo sv status /var/service/*

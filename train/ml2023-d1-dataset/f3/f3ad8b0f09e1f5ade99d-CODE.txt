@@ -1,0 +1,95 @@
+
+
+# qBittorrent
+# торрентокачалка. Опционально, меня привлекает тем что не надо лезть за админа чтобы видеть торренты, можно и через неё искать если Жакет добавить и больше опций управления торрентами
+  qbittorrent:
+    image: lscr.io/linuxserver/qbittorrent
+    container_name: RP_qBittorrent
+    environment:
+# от кого запускаем сервис
+      - PUID=1234
+      - PGID=100
+# остальное
+      - TZ=Europe/Moscow
+      - WEBUI_PORT=9080
+    volumes:
+      - /volume1/docker/qbittorrent:/config
+      - /volume2/Download:/volume2/Download
+      - /volume1/video/:/volume1/video
+#    networks:
+#      my_macvlan:
+#        ipv4_address: 192.168.0.198
+#      dsm_internal:
+#        ipv4_address: 10.5.0.8
+    network_mode: "host"
+    ports:
+      - 9080:9080
+      - 6881:6881
+    restart: unless-stopped
+    
+## RADARR
+# Радарр это фильмы. Он работает с TMDB загружая оттуда данные о фильмах
+# TMDB блочит россиию, поэтому тут эти танцы с VPN
+# возможно они поменяли базу
+  radarr:
+    image: lscr.io/linuxserver/radarr
+    container_name: RP_Radarr
+    environment:
+# от кого запускаем сервис
+      - PUID=1234
+      - PGID=100
+# остальное
+      - TZ=Europe/Moscow
+# не уверен что сработает но такая опция вроде есть в доке
+      - WEBUI_PORT=8097
+    volumes:
+      - /volume1/docker/RP/Radarr:/config
+      - /volume2/Download:/volume2/Download
+    networks:
+      my_macvlan:
+        ipv4_address: 192.168.0.197
+      dsm_internal:
+        ipv4_address: 10.5.0.7
+    ports:
+      - 8097:8097
+    restart: unless-stopped
+## SONARR
+  sonarr:
+    image: lscr.io/linuxserver/sonarr
+    container_name: RP_Sonarr
+    environment:
+# от кого запускаем сервис
+      - PUID=1234
+      - PGID=100
+# остальное
+      - TZ=Europe/Moscow
+
+    volumes:
+      - /volume1/docker/RP/Sonarr:/config
+      - /volume2/Download:/volume2/Download
+    networks:
+      my_macvlan:
+        ipv4_address: 192.168.0.196
+      dsm_internal:
+        ipv4_address: 10.5.0.6
+    restart: unless-stopped
+
+## FLARESOLVERR
+# это сервис для решения капчи чтобы входить на трекеры
+
+  flaresolverr:
+    image: flaresolverr/flaresolverr
+    container_name: RP_Flaresolverr
+    environment:
+      - LOG_LEVEL=info
+      - LOG_HTML=true
+      - CAPTCHA_SOLVER=${CAPTCHA_SOLVER:-none}
+      - TZ=Europe/Moscow
+    networks:
+      my_macvlan:
+        ipv4_address: 192.168.0.195
+      dsm_internal:
+        ipv4_address: 10.5.0.5
+    ports:
+      - 8191:8191
+    restart: unless-stopped

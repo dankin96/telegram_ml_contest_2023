@@ -1,0 +1,11 @@
+
+
+＊index:filebeat-sri-svq-log-2023.10.07
+
+＊hostname:<MISSING VALUE>
+
+＊type:<elastalert.ruletypes.FrequencyRule object at 0x7f3f7bd01ab0>
+
+＊message:[07-Oct-2023 04:02:02] WARNING: [pool svq] child 13111 exited on signal 10 (SIGUSR1) after 0.074080 seconds from start
+
+＊count:17

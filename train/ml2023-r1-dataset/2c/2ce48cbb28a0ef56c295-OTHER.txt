@@ -1,0 +1,15 @@
+[ERROR] Invalid Move E2 Available Moves: D3 E4 
+[TRACE] [RENDERER] Piece in D3
+[TRACE] Trying to Get Piece in D3
+[TRACE] [RENDERER] Piece in E3
+[TRACE] Trying to Get Piece in E3
+[TRACE] [RENDERER] Piece in E2
+[TRACE] Trying to Get Piece in E2
+[INFO]  Board:
+                        
+                        
+                        
+                        
+                        
+          ♗  ♘          
+             ♟

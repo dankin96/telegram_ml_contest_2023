@@ -1,0 +1,10 @@
+import json
+with open('weather.json') as fayl:
+    data = json.load(fayl)
+    
+xarorat = round(int(data['data'][0]['temp']) - 273)
+shamol = data['data'][0]['wind_speed']
+yomgir = (data['data'][0]['humidity'])
+print(f"bugungi havo {xarorat} C
+Shamol tezligi {shamol} m/s
+Yomg'ir yog'ish extimoli {yomgir} %")

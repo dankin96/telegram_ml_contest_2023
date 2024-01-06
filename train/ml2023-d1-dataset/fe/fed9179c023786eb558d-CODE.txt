@@ -1,0 +1,5 @@
+if c == '/':
+    if b == 0:
+        print('888888')
+    else:
+        print(a/b)

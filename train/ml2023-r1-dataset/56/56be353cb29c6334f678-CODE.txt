@@ -1,0 +1,3 @@
+#vaadin-grid{
+    background-color: black;
+}

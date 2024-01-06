@@ -1,0 +1,5 @@
+CREATE TABLE channels.message_authors (
+    message BIGINT PRIMARY KEY,
+    author BIGINT NOT NULL,
+    alias CHAR(32)
+    FOREIGN KEY (message) REFERENCES channels.messages (id)

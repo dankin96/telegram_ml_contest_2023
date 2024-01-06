@@ -1,0 +1,1 @@
+ [cracku] Ujakar and Keshab attempted to solve a quadratic equation. Ujakar made a mistake in writing down the constant term. He ended up with the roots (4, 3). Keshab made a mistake in writing down the coefficient of x. He got the roots as (3, 2). What will be the exact roots of the original quadratic equation?

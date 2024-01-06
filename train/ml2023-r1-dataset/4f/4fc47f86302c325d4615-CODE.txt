@@ -1,0 +1,37 @@
+lua
+_G.xd = true
+_G.RemoveWhiteScreen = false
+_G.Redeemallcodes = true 
+task.spawn(function()
+if _G.RemoveWhiteScreen then
+game:GetService("Players").LocalPlayer.PlayerGui.FX.Background.Visible = false
+end
+end)
+task.spawn(function()
+if _G.Redeemallcodes then
+for i,v in pairs(game:GetService("ReplicatedStorage").Codes:GetChildren()) do
+local args = {
+    [1] = game:GetService("ReplicatedStorage"):WaitForChild("Codes"),
+    [2] = v.Name
+}
+
+game:GetService("Players").LocalPlayer.PlayerGui.Main.Menus.ShopMenu.MainBody.ShopBG.ShopScroll.Codes.Template.MainBody.RedeemButton.RedeemScript.Code:FireServer(unpack(args))
+
+end
+end
+end)
+while _G.xd  and task.wait() do
+for i,v in pairs(workspace.Race:GetChildren()) do
+task.spawn(function()
+if v:FindFirstChild("Rewards") then
+for x,d in pairs(v:FindFirstChild("Rewards"):GetChildren()) do
+if game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then
+firetouchinterest(d,game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart"),0)
+task.wait(0.1)
+firetouchinterest(d,game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart"),1)
+end
+end
+end
+end)
+end
+end

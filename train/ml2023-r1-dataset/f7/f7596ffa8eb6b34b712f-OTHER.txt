@@ -1,0 +1,4 @@
+xrandr: Failed to get size of gamma for output default
+Screen 0: minimum 1024 x 600, current 1024 x 600, maximum 1024 x 600
+default connected 1024x600+0+0 0mm x 0mm
+   1024x600       0.00*

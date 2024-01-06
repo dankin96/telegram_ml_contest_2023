@@ -1,0 +1,2 @@
+ 
+distance = frequency of recombination * 100 map units 

@@ -1,0 +1,2 @@
+> sdrpp-git-1.0.4.r530.5f297b1-1-x86_64.pkg.tar.zst
+> wlroots-git-0.16.0.r779.g45ba35719-1-x86_64.pkg.tar.zst.sig

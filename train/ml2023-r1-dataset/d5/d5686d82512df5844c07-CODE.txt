@@ -1,0 +1,29 @@
+void insert(const type& data, const int& position)
+{
+  int counter = 0;
+  Node* current;
+  Node* left, right;
+  Node* new_node = new Node(data);
+  if (_size == 0)
+    _begin = _end = new_node;
+  else if (position == 0)
+    push_front(data);
+  else if (position == _size)
+    push_back(data);
+  else
+  {
+    current = _begin;
+    while (counter != position)
+    {
+      current = current->_next();
+      counter++;
+    }
+    left = current->_prev;
+    right = current->_next;
+    left->_next = new_node;
+    new_node->_prev = left;
+    right._prev = new_node;
+    new_node->_next = right;
+  }
+  _size++;
+}

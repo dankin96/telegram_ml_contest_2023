@@ -1,0 +1,16 @@
+async def mark(userid, link):
+    with open("dlhistory.json", "r") as f:
+        bot = json.load(f) 
+    if 'links' not in bot:
+        bot['links'] = {}
+    if userid not in bot['links']:
+        bot['links'][userid] = {link: 1}
+    elif link not in bot['links'][userid]:
+        bot['links'][userid][link] = 1
+    elif link in bot['links'][userid]:    
+        bot['links'][userid][link] += 1
+    if bot['links'][userid][link] > 5:
+        with open("ProblemPeople.log", "a") as file:
+            file.write(f"{userid}")
+    with open("dlhistory.json", "w") as f:
+        json.dump(bot, f)

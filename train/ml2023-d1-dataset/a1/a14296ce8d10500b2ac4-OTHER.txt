@@ -1,0 +1,10 @@
+  Market|CRYPTO             
+BLZ (15)|🟢                 
+Trade No|1                  
+ Concept|Bullish Order Block
+Quantity|863930.886         
+  Margin|100000USDT         
+   Entry|0.11575            
+      SL|0.11344            
+      TP|0.12038            
+ Balance|100000USDT         

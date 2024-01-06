@@ -1,0 +1,7 @@
+.jsx
+<ReactSVG className={cn(styles.table__svg)} src={closeimage} wrapper="div" />
+
+.scss
+.table__svg {
+  filter: invert(37%) sepia(91%) saturate(7398%) hue-rotate(24deg) brightness(99%) contrast(95%);
+}

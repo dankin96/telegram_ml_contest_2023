@@ -1,0 +1,10 @@
+#include <unistd.h>
+
+int main(void) {
+  int p[] = {3, 5, 7};
+  char c[] = {p[0] + '0', '
+', p[1] + '0', '
+'};
+  write(STDOUT_FILENO, c, 4);
+  return 0;
+}

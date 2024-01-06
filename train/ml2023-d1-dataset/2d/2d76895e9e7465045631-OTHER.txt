@@ -1,0 +1,1 @@
+chore: bump "com.highcapable.flexilocale" version to 1.0.1

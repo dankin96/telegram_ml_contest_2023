@@ -1,0 +1,17 @@
+
+ 123771.3 (10/06/23 01:27:28) (Detached)
+ 117085.buaya (10/05/23 13:12:54) (Detached)
+ 116941.dea (10/05/23 13:12:01) (Detached)
+ 115241.fwb (10/05/23 10:55:19) (Detached)
+ 114474.imul (10/05/23 10:38:37) (Detached)
+ 114334.bintang5 (10/05/23 10:37:57) (Detached)
+ 114193.bintang4 (10/05/23 10:37:04) (Detached)
+ 114030.bintang3 (10/05/23 10:36:27) (Detached)
+ 113891.bintang2 (10/05/23 10:35:14) (Detached)
+ 113741.bintang1 (10/05/23 10:33:58) (Detached)
+ 70322.ubot (10/03/23 09:58:50) (Detached)
+ 31881.string (09/30/23 17:30:38) (Detached)
+ 31153.kenkan (09/30/23 17:04:26) (Detached)
+ 29825.maling (09/30/23 15:31:38) (Detached)
+ 27590.aika (09/30/23 15:11:35) (Detached)
+15 Sockets in /run/screen/S-root.

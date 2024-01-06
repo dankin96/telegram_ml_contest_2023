@@ -1,0 +1,3 @@
+    fn player(ref self: DataStore, game: Game, index: u32) -> Player {
+        get!(ctx.world, (game.id, index), (Player))
+    }

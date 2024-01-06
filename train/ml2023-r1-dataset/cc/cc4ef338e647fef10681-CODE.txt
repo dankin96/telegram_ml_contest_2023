@@ -1,0 +1,11 @@
+{
+    "messageAt": "0",
+    "country": "852",
+    "senderID": "MSG14570503",
+    "subject": "MMS Subject",
+    "telephones": "85292223333",
+    "fileURLs": "http://uat-crm.salescatalysts.com/mms/336296cc-e8fc-4085-8a3d-078053c2f021/7a7d745a-f40c-468d-925d-6b3d3114c839/200kb.jpg",
+    "messageID": "",
+    "telecom": "",
+    "message": "Word"
+}

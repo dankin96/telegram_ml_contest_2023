@@ -1,0 +1,5 @@
+const { data : activities } = await useFetch( CONFIG.public.URL_API, {
+    headers : new Headers( { 'Access-Control-Allow-Origin' : '*', 'content-type' : 'application/json' } ),
+    method  : 'get',
+    query   : { query : 'activities' },
+} );

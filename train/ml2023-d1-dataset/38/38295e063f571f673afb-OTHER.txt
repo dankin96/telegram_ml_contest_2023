@@ -1,0 +1,13 @@
+=============================
+🔸 Open Order:  1
+📊 Symbol    :  XAUUSD
+📶 Signal    :  🔴SELL
+⚠ Action    :  CLOSED
+📋 Price     :  1907.04
+✨ Close     :  1907.51
+🕑 Time      :  2023.10.13 16:29
+♻ Lots      :  0.10
+💵 TakeProfit:  0
+☕ StopLoss  :  0
+🔥 Profit    :  -4.70 USD
+=============================

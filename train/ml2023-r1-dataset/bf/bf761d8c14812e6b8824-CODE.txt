@@ -1,0 +1,32 @@
+import psycopg2
+
+class BlockedUsers:
+    def __init__(self, db_name, db_user, db_password, db_host, db_port):
+        self.blocked_users = []
+        self.conn = psycopg2.connect(
+            dbname=db_name,
+            user=db_user,
+            password=db_password,
+            host=db_host,
+            port=db_port
+        )
+        self.load_blocked_users()
+
+    def load_blocked_users(self):
+        cur = self.conn.cursor()
+        cur.execute("SELECT user_id FROM blocked_users")
+        rows = cur.fetchall()
+        for row in rows:
+            self.blocked_users.append(row[0])
+
+    def add_blocked_user(self, user_id):
+        cur = self.conn.cursor()
+        cur.execute("INSERT INTO blocked_users (user_id) VALUES (%s)", (user_id,))
+        self.conn.commit()
+        self.blocked_users.append(user_id)
+
+    def remove_blocked_user(self, user_id):
+        cur = self.conn.cursor()
+        cur.execute("DELETE FROM blocked_users WHERE user_id = %s", (user_id,))
+        self.conn.commit()
+        self.blocked_users.remove(user_id)

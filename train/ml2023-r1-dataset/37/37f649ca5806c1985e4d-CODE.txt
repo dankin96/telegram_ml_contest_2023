@@ -1,0 +1,2 @@
+restore.py --id south1-a-10 --time 1693170301 --path serverpro-us/www --pxar wpn10.pxar.didx --dst stdout dl
+

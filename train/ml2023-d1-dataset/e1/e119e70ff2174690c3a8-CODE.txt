@@ -1,0 +1,2 @@
+   git clone <URL-repo-bot> .
+   

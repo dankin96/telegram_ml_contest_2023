@@ -1,0 +1,4 @@
+18 slots assigned
+12.16 ideal slots
+148.03% max performance
+12.91M active stake

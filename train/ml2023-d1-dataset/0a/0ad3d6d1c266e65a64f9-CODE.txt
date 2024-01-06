@@ -1,0 +1,1 @@
+create table PERSON_DETAILS (TN int primary key, DEPT varchar (75), UNIT varchar (35), CITY varchar (35));

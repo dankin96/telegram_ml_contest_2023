@@ -1,0 +1,10 @@
+func cutSlice() []byte {
+ slice := make([]byte, 256)
+ fmt.Println(len(slice), cap(slice), &slice[0]) // 256 256 <0x...>
+ return slice[:10]
+}
+
+func main() {
+ res := cutSlice()
+ fmt.Println(len(res), cap(res), &res[0]) // 10 256 <0x...>
+}

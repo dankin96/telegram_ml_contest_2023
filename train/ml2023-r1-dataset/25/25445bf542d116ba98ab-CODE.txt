@@ -1,0 +1,5 @@
+for _, v in pairs(workspace.WallEscape:GetDescendants()) do
+if v.Name == "ParticleEmitter" and v.Parent.Name == "MeshPart" then
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.Parent.CFrame
+end
+end

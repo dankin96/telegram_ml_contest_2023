@@ -1,0 +1,17 @@
+if (!$btnLogin) {
+ // necessário login
+}
+
+if (!$email) {
+ // informe e-mail
+}
+
+if (!$resultado_usuario) {
+ // não encontrado
+}
+
+if (!password_verify(..., ...)) {
+ // não confere
+}
+
+// faz login

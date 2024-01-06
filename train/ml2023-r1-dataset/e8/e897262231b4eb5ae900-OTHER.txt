@@ -1,0 +1,2 @@
+vless://41cdd80e-e7ea-4d68-9c8f-8de46c010f9a@topcfx.best26mx.xyz:443?encryption=none&security=reality&sni=shatel.ir&fp=chrome&pbk=7QbduGCWtVvNR_yBeCbhZPZ9erRuBFqOdbvfHJ3miXs&sid=d414e157&spx=%2F&type=grpc#Join%20Telegram%3A%20%40channel_4sale
+

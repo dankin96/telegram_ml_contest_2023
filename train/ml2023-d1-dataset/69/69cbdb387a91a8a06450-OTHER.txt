@@ -1,0 +1,1 @@
+Sending sparse 'system_b' 12/13 (262120 KB)        OKAY [  7.475s]Writing 'system_b'                                 FAILED (remote: 'Operation not permitted')

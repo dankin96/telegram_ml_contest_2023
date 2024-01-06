@@ -1,0 +1,4 @@
+service: esphome.esp_pixel_clock_graph_screen
+data:
+  lifetime: 5
+  screen_time: 5

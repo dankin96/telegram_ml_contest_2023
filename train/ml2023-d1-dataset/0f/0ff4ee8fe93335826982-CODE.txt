@@ -1,0 +1,1 @@
+emitSignal("purchase_error", billingResult.getResponseCode(), billingResult.getDebugMessage());

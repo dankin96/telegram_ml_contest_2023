@@ -1,0 +1,5 @@
+#block of tasks that execute only when the VM name the user provides doesn't exist  
+- name: Create VM if not exists
+  block:
+...
+   when: "vm_name not in existing_vms.list_vms"

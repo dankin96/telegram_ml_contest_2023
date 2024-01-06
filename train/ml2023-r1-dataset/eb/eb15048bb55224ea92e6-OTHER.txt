@@ -1,0 +1,23 @@
+Divi Project  DIVI
+~~~~~~~~~~~|~~~~~~~~~~~
+      Coin Gecko
+USD        : $0.0018
+BTC        : ฿0.00000006
+Mkt Cap    : $6,532,880
+MCAP Rank  : 1068
+24hr Vol   : $104,526
+24hr Chg   : -5.0%
+Week Chg   : -9.8%
+UTC Time   : 16:24:11
+Date       : 2023-10-07
+~~~~~~~~~~~|~~~~~~~~~~~
+   Coin Market Cap
+USD        : $0.0019
+BTC        : ฿0.00000007
+Mkt Cap    : $6,802,261
+MCAP Rank  : 857
+24hr Vol   : $105,070
+24hr Chg   : 8.9%😀
+Week Chg   : -2.1%
+UTC Time   : 16:22:00
+Date       : 2023-10-07

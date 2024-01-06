@@ -1,0 +1,1 @@
+config.set_main_option('sqlalchemy.url', f"{settings.DATABASE_URL}?async_fallback=True")

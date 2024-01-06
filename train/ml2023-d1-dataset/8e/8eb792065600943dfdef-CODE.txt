@@ -1,0 +1,8 @@
+we.f=(co)=>(co.nt=()=>{[ //先把f(yield)外提为x=
+  ()=>setTimeout(co.nt, 1000),
+  ()=>wait(1,co.nt),
+  ()=>alert('2s')][co.i++]()
+  if(co.i==3)co.ret('like,co=Promise')
+})()
+we.f({ret(){'此谓调用约定,ABI'}, i:0/*func*则会等待1次next*/})
+

@@ -1,0 +1,11 @@
+Nombres y Apellidos: BEATRIZ HUATUCO JACAY
+DNI: 09693855
+Fecha de Nacimiento: 1973-03-03
+Edad : 50
+Sexo : F
+Estado : CASADO
+Padre : AGUSTIN
+Madre : FELICITAS
+Ubicación:  LIMA-LIMA-RIMAC
+Dirección:  LAMBAYEQUE 266 PI 1
+Ubigeo Nacimiento: LIMA - LIMA - LIMA

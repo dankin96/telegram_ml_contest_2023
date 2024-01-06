@@ -1,0 +1,28 @@
+import pandas as pd
+
+# Загрузите данные (замените 'data.csv' на путь к вашему файлу данных)
+df = pd.read_csv('опросник.csv')
+
+# Просмотрите типы данных
+print(df.dtypes)
+
+
+
+
+
+# Просмотрите уникальные значения для определенной переменной (замените 'column_name' на имя переменной)
+unique_values = df['question_number'].unique()
+
+print(unique_values)
+
+
+
+
+
+
+
+# Проверьте на отсутствующие значения во всем датасете
+missing_values = df.isnull().sum()
+print(missing_values)
+
+df.drop(columns=['questions'], inplace=True)

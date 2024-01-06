@@ -1,0 +1,10 @@
+const isArithmeticProgression = arr =>
+  arr.length > 1
+    ? new Set(arr.map((n, i, a) => n - a[i + 1]).slice(0, -1)).size === 1
+    : !!arr.length;
+
+// или
+
+const isArithmeticProgression = arr =>
+  !!arr.length && arr.every((n, i, a) => !i || (n - a[i - 1] === a[1] - a[0]));
+

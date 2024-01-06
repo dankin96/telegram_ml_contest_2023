@@ -1,0 +1,2 @@
+> maps:groups_from_list(fun(X) -> X rem 2 end, [1,2,3]).
+#{0 => [2], 1 => [1, 3]}

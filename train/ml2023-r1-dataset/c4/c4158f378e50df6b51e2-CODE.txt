@@ -1,0 +1,6 @@
+(defun load-one-theme ()
+  (interactive)
+  (let (current-theme custom-enabled-themes)
+    (call-interactively 'load-theme)
+    (while current-theme
+      (disable-theme (car current-theme)))))

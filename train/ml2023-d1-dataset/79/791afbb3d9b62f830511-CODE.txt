@@ -1,0 +1,4 @@
+def batchTest: BatchActionBuilder = jdbc("Insert UUID").batch(
+        insertInto("table_test_uuid", Columns("id", "uid")).values("id" -> 12345, "uid" -> UUID.randomUUID())
+  )
+

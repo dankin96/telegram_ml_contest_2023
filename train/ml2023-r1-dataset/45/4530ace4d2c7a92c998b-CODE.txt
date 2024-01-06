@@ -1,0 +1,8 @@
+// typescript
+import ethers from "ethers";
+...
+const provider = new ethers.providers.JsonRpcProvider('https://your.rpc/url');
+let contract = new ethers.Contract(contractAddress, abi, provider);
+
+contract.myMethod().then((res,err) => console.log(res))
+            

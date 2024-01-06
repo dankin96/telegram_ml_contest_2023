@@ -1,0 +1,10 @@
+NEW SECURITY CHECKS
+Added new check for: CVE-2023-32315
+Added new check for: CVE-2023-41892
+Added new check for: CVE-2023-40044  
+Improvement to Detect Exposed Installers: Openfire and Chamilo 
+
+IMPROVEMENTS
+PHPSensor: Yii Framework logging improvements
+.NET Sensor: Improvement to file list
+Multiple improvements to SSL Checks

@@ -1,0 +1,5 @@
+ world
+        .set_state_step(
+            SetStateStep::new()
+                .new_address(your_contract_addr, current_nonce, "sc:new_address"),
+        )

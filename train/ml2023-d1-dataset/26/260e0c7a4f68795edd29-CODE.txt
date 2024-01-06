@@ -1,0 +1,47 @@
+binary_sensor:
+- platform: gpio
+    pin:
+     pcf8574: pcf8574_hub1
+     number: 0
+     mode:
+        input: true
+     inverted: true
+    name: "button 1"
+    
+  - platform: gpio
+    pin:
+     pcf8574: pcf8574_hub1
+     number: 1
+     mode:
+        input: true
+     inverted: true
+    name: "button 2"
+
+  - platform: gpio
+    pin:
+     pcf8574: pcf8574_hub1
+     number: 2
+     mode:
+        input: true
+     inverted: true
+    name: "button 3"
+
+  - platform: gpio
+    pin:
+     pcf8574: pcf8574_hub1
+     number: 3
+     mode:
+        input: true
+     inverted: true
+    name: "button 4"
+
+
+i2c:
+  sda: 21
+  scl: 22
+  scan: true
+
+pcf8574:
+  - id: 'pcf8574_hub1'
+    address: 0x20
+    pcf8575: true

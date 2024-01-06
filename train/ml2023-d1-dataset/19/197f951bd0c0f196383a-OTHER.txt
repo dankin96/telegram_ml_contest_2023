@@ -1,0 +1,9 @@
+Расписание болит тут:[production] [Failed newNewsPushes()]Error: connect ECONNREFUSED 192.168.10.174:6000
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1278:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.10.174',
+  port: 6000
+}

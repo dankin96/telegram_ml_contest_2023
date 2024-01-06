@@ -1,0 +1,75 @@
+// Assuming fd, address, and port are appropriately defined 
+// Set up the socket configurations 
+sockopt := &internet.SocketConfig{ 
+
+Tproxy: internet.SocketConfig_TProxy, 
+} 
+ 
+if dest.Address.Family().IsIP() { 
+
+sockopt.BindAddress = dest.Address.IP() 
+
+sockopt.BindPort = uint32(dest.Port) 
+} 
+ 
+if d.sockopt != nil { 
+
+sockopt.Mark = d.sockopt.Mark 
+} 
+ 
+// Call the functions to bind address and set socket options 
+err := bindAddr(fd, sockopt.BindAddress, sockopt.BindPort) 
+if err != nil { 
+    return err 
+} 
+ 
+err = setReuseAddr(fd) 
+if err != nil { 
+    return err 
+} 
+ 
+err = setReusePort(fd) 
+if err != nil { 
+    return err 
+} 
+ 
+// Dial a system-level connection 
+tConn, err := internet.DialSystem(ctx, net.DestinationFromAddr(conn.RemoteAddr()), sockopt) 
+if err != nil { 
+
+return err 
+} 
+defer tConn.Close() 
+ 
+writer = &buf.SequentialWriter{Writer: tConn} 
+tReader := buf.NewPacketReader(tConn) 
+requestCount++ 
+tproxyRequest = func() error { 
+
+defer func() { 
+
+
+if atomic.AddInt32(&requestCount, -1) == 0 { 
+
+
+
+timer.SetTimeout(plcy.Timeouts.DownlinkOnly) 
+
+
+} 
+
+}() 
+
+if err := buf.Copy(tReader, link.Writer, buf.UpdateActivity(timer)); err != nil { 
+
+
+return newError("failed to transport request (TPROXY conn)").Base(err) 
+
+} 
+
+return nil 
+} 
+ 
+} 
+} 
+ 

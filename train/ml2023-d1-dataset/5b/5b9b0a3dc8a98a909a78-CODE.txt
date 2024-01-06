@@ -1,0 +1,10 @@
+$out = [1,2,3,4,5];
+$out = array_chunk($out, $k);
+foreach($out as &$v){
+ $v = array_reverse($v);
+}
+$out2 = [];
+foreach($out as $v){
+$out2 = array_merge($out2, $v);
+}
+var_dump($out2);exit;

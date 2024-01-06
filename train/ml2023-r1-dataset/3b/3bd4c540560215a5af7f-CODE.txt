@@ -1,0 +1,9 @@
+.tab-content {
+  display: none;
+}
+
+.tab-content:target {
+  display: block;
+}
+
+HTML:

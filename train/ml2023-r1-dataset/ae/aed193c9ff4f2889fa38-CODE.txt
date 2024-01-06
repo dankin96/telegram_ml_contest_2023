@@ -1,0 +1,1 @@
+sudo mount -o $BTRFS_OPTS,subvol=@home /dev/particion-home /mnt/home

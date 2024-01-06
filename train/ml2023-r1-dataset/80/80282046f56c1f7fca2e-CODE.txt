@@ -1,0 +1,2 @@
+{% set x = min('test'|float(default=999), 'test'|float(default=999)) %}
+{{ x if x < 999 else 'unknown' }}

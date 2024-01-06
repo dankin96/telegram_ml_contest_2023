@@ -1,0 +1,12 @@
+TKNY - Tokenimy
+$0.0883
+Network: BSC
+H|L: 0.09|0.09
+1h:  0.0%      😏       
+24h: 0.0%      😏       
+7d:  0.0%      😏       
+Vol: $9.0
+Liq: $1.3 K
+Circ Mcap: 33.5 K
+FDV 33.5 K
+CA: 0x7c846442961b75772970fd242bb74d6186aa9d90

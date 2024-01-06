@@ -1,0 +1,1 @@
+find ../usr  -not -type l -print0 | tar --null --files-from - -cvf user-tmp.tar

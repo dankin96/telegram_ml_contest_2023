@@ -1,0 +1,16 @@
+func NewCounter(ctx context.Context) chan int {
+  counter := make(chan int)
+  go func() {
+    var count int
+    for {
+      select {
+      case v := <-counter:
+        count += v
+      case counter <- count:
+      case <-ctx.Done():
+        return
+      }
+    }
+  }()
+  return counter
+}

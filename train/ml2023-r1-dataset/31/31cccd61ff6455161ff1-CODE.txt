@@ -1,0 +1,16 @@
+python
+#!pip install matplotlib-venn
+
+from matplotlib import pyplot as plt
+from matplotlib_venn import venn3
+
+ai = set(['AI1', 'AI2', 'AI3', 'NLP', 'NLP/ML', 'ML'])
+nlp = set(['NLP', 'NLP/ML'])
+ml = set(['NLP/ML', 'ML'])
+
+diagram = venn3([ai, nlp, ml], ('AI', 'NLP', 'ML'))
+for label in diagram.subset_labels:
+    if label is not None:
+        label.set_visible(False)
+
+plt.show(out)

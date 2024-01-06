@@ -1,0 +1,1 @@
+BankCardAssigned().animate().scale()

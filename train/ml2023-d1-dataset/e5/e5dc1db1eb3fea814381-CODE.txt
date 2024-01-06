@@ -1,0 +1,8 @@
+{
+  networkMode: false,
+  broker: 'Other',
+  pair: 'XAUUSD',
+  timeFrame: '5m',
+  customRange: [ '2023-04-05T19:25:00.000Z', '2023-07-05T19:25:00.000Z' ],
+  maxBarCalc: 1500
+}

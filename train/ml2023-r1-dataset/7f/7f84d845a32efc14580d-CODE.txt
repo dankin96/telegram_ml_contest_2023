@@ -1,0 +1,4 @@
+
+fun containsEven(collection: Collection<Int>): Boolean {
+    return collection.any { ... }
+}

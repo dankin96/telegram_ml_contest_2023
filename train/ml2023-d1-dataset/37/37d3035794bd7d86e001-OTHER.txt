@@ -1,0 +1,11 @@
+Pisa          :      basso 🟩
+Vecchiano     :   moderato 🟨
+S. Giuliano T.:      basso 🟩
+Cascina       :   moderato 🟨
+Calci         :      basso 🟩
+Capannori     :   moderato 🟨
+Lucca         :   moderato 🟨
+Massarosa     :      basso 🟩
+Viareggio     :   moderato 🟨
+Livorno       :   moderato 🟨
+Collesalvetti :   moderato 🟨

@@ -1,0 +1,5 @@
+<div class="skeleton-wrapper">
+    <div class="skeleton-image"></div>
+    <div class="skeleton-line"></div>
+    <div class="skeleton-line"></div>
+</div>

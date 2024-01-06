@@ -1,0 +1,14 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+// Importing OpenZeppelin's ERC20 contract
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+// MyToken inherits from the ERC20 contract
+contract MyToken is ERC20 {
+    constructor(uint256 initialSupply) ERC20("MyToken", "MTKN") {
+        // The _mint function is internal in the ERC20 contract, so we can call it in our derived contract.
+        // It will create `initialSupply` tokens and assign them to the contract deployer.
+        _mint(msg.sender, initialSupply);
+    }
+}

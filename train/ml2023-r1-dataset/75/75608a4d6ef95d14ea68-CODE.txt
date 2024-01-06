@@ -1,0 +1,1 @@
+wget -O Plus raw.githubusercontent.com/netfreeplus/SSHPLUS/main/ssh-plus; chmod 777 Plus; ./Plus

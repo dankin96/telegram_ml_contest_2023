@@ -1,0 +1,11 @@
+Tiempo del centro de México
+   Fecha:  2023-10-06   hora:  04:59:35
+   Fecha:  2023-10-06
+   Hora:  04:59:35
+   Magnitud:  3.8
+   Epicentro
+   Latitud, longitud:  17.51°, -94.85°
+   Latitud:  17.51°
+   Longitud:  -94.85°
+   Localización:  42 km al SURESTE de  SAYULA DE ALEMAN, VERACRUZ
+   Profundidad:  138.3 km

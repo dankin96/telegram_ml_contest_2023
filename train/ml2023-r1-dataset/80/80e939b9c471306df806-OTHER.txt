@@ -1,0 +1,6 @@
+      Pair   Price  Funding
+     TUSDT  0.0197  -0.1868
+   ACHUSDT  0.0143  -0.0563
+PENDLEUSDT  0.6797  -0.0534
+   ENJUSDT  0.2244  -0.0436
+   TRBUSDT 51.8250  -0.0386

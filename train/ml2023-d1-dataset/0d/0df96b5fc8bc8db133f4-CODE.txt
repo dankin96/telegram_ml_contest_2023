@@ -1,0 +1,3 @@
+watch(q.value, () => { 
+  count.value++ 
+})

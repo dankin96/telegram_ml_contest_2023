@@ -1,0 +1,4 @@
+upsert into table(id, type, foreign_id, value) values
+(Cast(CurrentUTCTimestamp('type1') as Uint64), Cast('type1' as Utf8), $foreign_id, $type1),
+(Cast(CurrentUTCTimestamp('type2') as Uint64), Cast('type2' as Utf8), $foreign_id, $type2),
+(Cast(CurrentUTCTimestamp('type3') as Uint64), Cast('type2' as Utf8), $foreign_id, $type3);

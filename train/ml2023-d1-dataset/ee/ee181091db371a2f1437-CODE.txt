@@ -1,0 +1,4 @@
+[vsim]
+; Misc
+StdArithNoWarnings = 1
+NumericStdNoWarnings = 1

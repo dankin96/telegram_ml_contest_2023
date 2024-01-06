@@ -1,0 +1,2 @@
+*Cannot read properties of undefined (reading 'email')*
+_at chrome-extension://dbilanlcioamaadkbepcenpombaejbla/dist/inject_content.js:968:215_

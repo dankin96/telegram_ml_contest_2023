@@ -1,0 +1,1 @@
+TThread.ForceQueue(nil, Close);

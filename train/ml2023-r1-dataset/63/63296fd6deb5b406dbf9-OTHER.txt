@@ -1,0 +1,20 @@
+ 
+Election changes new epoch 1852
+
+Elected:
+  BlackHollywood_RIP
+  Devikins
+  Bran-Stark
+  KFI-REWARDS-1
+  cantinaBAND
+  Kiyuovia-II
+  Genesis-05
+
+Deelected:
+  KVGermany-II
+  KVGermany-IV
+  Kiyuovia-V
+  TokenPort-4
+  Kube2
+  The_Matrix
+  PLC-Node (jail)

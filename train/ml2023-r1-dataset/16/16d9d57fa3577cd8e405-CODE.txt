@@ -1,0 +1,12 @@
+@dataclass
+class B:
+    if TYPE_CHECKING:
+        def __init__(self):
+            ...
+@dataclass
+class A:
+    b: int
+    if TYPE_CHECKING:
+        def __init__(self, a: int):
+            ...
+

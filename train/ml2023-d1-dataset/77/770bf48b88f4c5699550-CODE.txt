@@ -1,0 +1,2 @@
+/c local radius=150
+game.player.force.chart(game.player.surface, {{x = -radius, y = -radius}, {x = radius, y = radius}})

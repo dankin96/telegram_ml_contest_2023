@@ -1,0 +1,16 @@
+import random
+
+# 地址数据
+address_list = ["New York, NY", "Los Angeles, CA", "Chicago, IL", "Houston, TX", "Phoenix, AZ", "Philadelphia, PA", "San Antonio, TX", "San Diego, CA", "Dallas, TX", "San Jose, CA", "Austin, TX", "Jacksonville, FL", "San Francisco, CA", "Columbus, OH", "Indianapolis, IN", "Fort Worth, TX", "Charlotte, NC", "Seattle, WA", "Denver, CO", "El Paso, TX"]
+
+# 随机生成100个经纬度和地址
+result = []
+for _ in range(100):
+    latitude = round(random.uniform(24.396308, 49.384358), 6)     # 纬度范围：24.396308 - 49.384358
+    longitude = round(random.uniform(-125.000000, -66.934570), 6)   # 经度范围：-125.000000 - -66.934570
+    address = random.choice(address_list)
+    result.append((latitude, longitude, address))
+
+# 打印结果
+for i, data in enumerate(result, 1):
+    print(f"{i}. 经度: {data[0]}, 纬度: {data[1]}, 地址: {data[2]}")

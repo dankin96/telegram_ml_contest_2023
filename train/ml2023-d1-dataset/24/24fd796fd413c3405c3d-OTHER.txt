@@ -1,0 +1,2 @@
+vless://61c1477e-d8ec-4cd0-866e-ca72a3450acb@89.23.103.80:443?type=grpc&serviceName=Telegram:@melov2ray,Telegram:@melov2ray,Telegram:@melov2ray,Telegram:@melov2ray,Telegram:@melov2ray,Telegram:@melov2ray,Telegram:@melov2ray&security=reality&fp=chrome&pbk=dL0hvTpI3kaKW7-pySLVR5A72m9igzF9idfet57893c&sni=www.speedtest.net&sid=677e9107&spx=%2F#42💎🌞🇳🇱
+

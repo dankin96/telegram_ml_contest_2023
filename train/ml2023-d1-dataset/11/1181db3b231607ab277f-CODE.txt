@@ -1,0 +1,102 @@
+#include <stdio.h>
+#include <string.h>
+
+#define MAX_LENGTH 100
+
+void displayMenu();
+void displayString(char str[]);
+void findChar(char str[], char c);
+void insertChar(char str[], char c, int pos);
+
+int main() {
+    char str[MAX_LENGTH];
+    int choice, pos;
+    char c;
+
+    printf("Enter a string: ");
+    fgets(str, MAX_LENGTH, stdin);
+    str[strcspn(str, "
+")] = '\0'; // remove newline character
+
+    do {
+        displayMenu();
+        scanf("%d", &choice);
+
+        switch (choice) {
+            case 1:
+                displayString(str);
+                break;
+            case 2:
+                printf("Enter a character to find: ");
+                scanf(" %c", &c);
+                findChar(str, c);
+                break;
+            case 3:
+                printf("Enter a character to insert: ");
+                scanf(" %c", &c);
+                printf("Enter the position to insert: ");
+                scanf("%d", &pos);
+                insertChar(str, c, pos);
+                break;
+            case 4:
+                printf("Exiting program...
+");
+                break;
+            default:
+                printf("Invalid choice. Please try again.
+");
+                break;
+        }
+    } while (choice != 4);
+
+    return 0;
+}
+
+void displayMenu() {
+    printf("
+");
+    printf("1. Display string
+");
+    printf("2. Find character
+");
+    printf("3. Insert character
+");
+    printf("4. Exit
+");
+    printf("Enter your choice: ");
+}
+
+void displayString(char str[]) {
+    printf("The string is: %s
+", str);
+}
+
+void findChar(char str[], char c) {
+    int count = 0;
+    printf("The character '%c' is found at position(s): ", c);
+    for (int i = 0; i < strlen(str); i++) {
+        if (str[i] == c) {
+            printf("%d ", i+1);
+            count++;
+        }
+    }
+    printf("
+");
+    printf("The character '%c' is found %d time(s).
+", c, count);
+}
+
+void insertChar(char str[], char c, int pos) {
+    int len = strlen(str);
+    if (pos < 1 || pos > len+1) {
+        printf("Invalid position. Please try again.
+");
+        return;
+    }
+    for (int i = len; i >= pos; i--) {
+        str[i] = str[i-1];
+    }
+    str[pos-1] = c;
+    printf("The string after insertion is: %s
+", str);
+}

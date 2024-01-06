@@ -1,0 +1,10 @@
+    receive(msg: Deploy) {
+        self.requirePool();
+        send(SendParameters
+        {
+            to: sender(),
+            value: 0,
+            mode: SendRemainingValue,
+            body: DeployOk{queryId: msg.queryId, Id: self.Id}.toCell()
+        });
+    }

@@ -1,0 +1,1 @@
+https://sub.example-domain.com/ -> 111.111.111.111:8051https://sub2.example-domain.com/ -> 111.111.111.111:8080https://sub3.example-domain.com -> 111.111.111.111:5036

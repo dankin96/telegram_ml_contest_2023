@@ -1,0 +1,1 @@
+flutter config --android-sdk <path-to-your-android-sdk-path>

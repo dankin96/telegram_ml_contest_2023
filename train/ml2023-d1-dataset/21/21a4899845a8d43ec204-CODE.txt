@@ -1,0 +1,123 @@
+
+// Use DBML to define your database structure
+// Docs: https://dbml.dbdiagram.io/docs
+
+Table users {
+  id bigint [primary key, increment]
+  firstname varchar(1, 64) [not null]
+  bio varchar(72)
+  lastname varchar(64)
+  username varchar(5, 32)
+  password varchar(8, 64) [not null]
+  email varchar(64) [not null]
+  phone varchar(64) [not null]
+  role user_role
+  created_at timestamp
+  updated_at timestamp
+}
+
+enum user_role {
+  user
+  admin
+  super_admin
+  bot
+}
+
+Table messages {
+  id bigint [primary key, increment]
+  from_id bigint [not null]
+  to_id bigint [not null]
+  format_type message_format_type
+  parent_id bigint
+  type message_type [not null]
+  created_at timestamp
+  updated_at timestamp
+}
+
+Table message_contents {
+  id bigint [primary key, increment]
+  content byte[]
+  message_id bigint [not null]
+  content_type message_type [not null]
+}
+
+enum message_format_type {
+  regular
+  bold
+  italic
+  underline
+  strike_through
+  spoiler
+  monospace
+  create_link
+}
+
+enum message_type {
+  text
+  photo
+  video
+  circular_video
+  audio
+  voice
+  file
+  location
+  contact
+  media_group
+  poll
+  gif
+  sticker
+  text_and_photo
+  text_and_video
+  text_and_audio
+  text_and_file
+  text_and_gif
+}
+
+Table chats {
+  id bigint [primary key, increment]
+  type chat_type
+
+}
+
+Table groups {
+  id bigint [primary key, increment]
+  owner_id bigint [not null]
+  title varchar(64)
+  description varchar(100)
+  type chat_access_type
+  username varchar(32)
+}
+
+Table user_groups {
+  id bigint [primary key, increment]
+  user_id bigint [not null]
+  group_id bigint [not null]
+}
+
+Table channels {
+  id bigint [primary key, increment]
+  owner_id bigint [not null]
+  title varchar(64)
+  description varchar(100)
+  type chat_access_type
+  username varchar(32)
+}
+
+Table user_channels {
+  id bigint [primary key, increment]
+  user_id bigint [not null]
+  channel_id bigint [not null]
+}
+
+enum chat_access_type {
+  private
+  public
+}
+
+enum chat_type {
+  private
+  group
+  channel
+  bot
+  secret_chat
+}

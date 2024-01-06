@@ -1,0 +1,4 @@
+Configure RSYNC services for jail migration?
+[yes(1) or no(0)]
+0
+cbsdrsyncd_enable:  -> YES

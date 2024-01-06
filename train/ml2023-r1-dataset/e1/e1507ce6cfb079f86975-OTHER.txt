@@ -1,0 +1,23 @@
+ADDRESS:      0xF89674f18309A2E97843c6e9B19C07c22cAEF6d5
+PAIR:         0x96e83035F05618fbdD77281d0389E4d95a0DA47f
+NAME:         cyb3rgam3r420
+SYMBOL:       Gamer
+SUPPLY:       100000000000
+PRICE:        $0.000013000804468
+LIQUIDITY:    $73,319
+24H CHANGE:   -27%
+24H VOLUME:   $958,455
+CURRENT MC:   $1,300,080
+BUY TAX:      0%
+SELL TAX:     0%
+RENOUNCED:    ✅
+LP LOCKED     ✅
+VERIFIED:     ✅
+WHALES:       2.7404%, 1.4201%, 1.3099%, 1.2985%, 1.2680%
+
+❌❌❌❌❌ FAILED ❌❌❌❌❌
+HIDDEN OWNER
+
+🤗🤗🤗🤗🤗 SOCIALS 🤗🤗🤗🤗🤗
+https://t.me/gamerportal
+https://twitter.com/cyb3rgam3r420

@@ -1,0 +1,5 @@
+      swayidle \
+    timeout 3 'hyprctl dispatch dpms off' \
+    resume 'hyprctl dispatch dpms on' & 
+    swaylock -i /media/datos/repos/wallpapers/linux/003.jpg
+      kill %%

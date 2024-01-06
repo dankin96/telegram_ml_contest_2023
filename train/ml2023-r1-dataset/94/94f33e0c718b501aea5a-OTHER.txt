@@ -1,0 +1,24 @@
++----------------------------+------------+------------+
+|        Games Profit        | 2023-10-05 | 2023-10-04 |
++----------------------------+------------+------------+
+| Pop's World - Runnin (and) |  1942.03   |  1160.64   |
+| Rainbow Grimaze: Hid (and) |  1061.88   |   34.09    |
+| Banana Survival Mast (and) |  1058.18   |  1241.58   |
+| Pop's World - Runnin (ios) |  1049.93   |   781.39   |
+|     Yoga Workout (and)     |   843.35   |  -271.47   |
+| Monster Transformer: (and) |   779.16   |   257.11   |
+| Celebrity Prank Call (and) |   727.98   |   76.17    |
+| Fashion Show - Catwa (and) |   719.67   |   391.26   |
+|     Yoga Workout (ios)     |   719.15   |   215.84   |
+| Screw Master: Pin Pu (and) |   697.84   |   -8.91    |
+| Famous Fashion - Dre (and) |   637.52   |    23.4    |
+| Mask Mixture: ASMR M (and) |   534.46   |   425.24   |
+| Chat Master: Prank S (and) |   453.48   |   351.2    |
+| Craft School: Monste (and) |   446.84   |   126.42   |
+| Toilet Prank Call &  (and) |   426.03   |   343.56   |
+| Haircut prank, air h (and) |   377.17   |  -997.96   |
+| Rainbow Craftsman Su (and) |   367.03   |   -101.1   |
+| Craft Parkour: 3D Bl (ios) |   354.13   |   221.13   |
+| Going Up! 3D Parkour (and) |   341.37   |   -51.67   |
+| Merge Plants – Monst (and) |   325.93   |   334.94   |
++----------------------------+------------+------------+

@@ -1,0 +1,77 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+import java.util.Arrays;
+
+
+public class PrimeConstruction{
+
+    static boolean[] vis;
+
+    public static void main(String[] args) {
+
+        Scanner kb = new Scanner(System.in);
+        String str = kb.nextLine();
+        List<Integer> nums = new ArrayList<>();
+
+        for(String s : str.split(" "))
+          nums.add(Integer.valueOf(s));
+        
+        int n = nums.size();
+
+        if(vis == null)
+            sieve();
+        
+        int min = nums.get(0);
+
+        for(int i : nums)
+            min = Math.min(min, i);
+        
+        int start = 1;
+
+        for(int i : nums)
+            start *= (i != min) ? i : 1;
+        
+        for(int i = start + 1; i < 2 * start; i++)
+        {
+            if(vis[i])
+            {
+                int count = 0;
+                for(int j : nums)
+                {
+                    if(j == min)
+                        continue;
+
+                    if(i % j != min)
+                        break;
+                    else
+                        count++;
+
+                    if(count == n - 1)
+                    {
+                        System.out.print(i+"");
+                        return;
+                    }
+                }
+            }
+        }
+        System.out.print("None");
+    }
+
+    public static void sieve()
+    {
+        int N = 1000000;
+        vis = new boolean[N + 1];
+        Arrays.fill(vis, true);
+        
+        for(int i = 2; i * i <= N; i++)
+        {
+            if(vis[i])
+            {
+                for(int j = i*i ;j <= N; j= j + i)
+                    vis[j] = false;
+            }
+        }
+    }
+
+}

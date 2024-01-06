@@ -1,0 +1,10 @@
+void printAllItems(const list<int>& lst)
+{
+    bool first = true;
+    for (const auto& value : lst) {
+        first ? first = false : putchar(' ');
+        printf("%d", value);
+    }
+    putchar('
+');
+}

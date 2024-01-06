@@ -1,0 +1,7 @@
+v10.1.1.1 (20470) Play Store uz
+samsung SM-G532F android 6.0.1
+ROM: MMB29T.G532FXXU1ARL1
+Performance: LOW
+Cache: 75,1 MB
+Database: 6,0 MB
+Free: 58,6 MB

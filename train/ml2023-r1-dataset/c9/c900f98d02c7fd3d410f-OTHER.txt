@@ -1,0 +1,9 @@
+
+root@debian-buster:~# df -h
+Filesystem      Size  Used Avail Use% Mounted on
+udev            969M     0  969M   0% /dev
+tmpfs           198M  404K  197M   1% /run
+/dev/vda1        30G  951M   27G   4% /
+tmpfs           986M     0  986M   0% /dev/shm
+tmpfs           5.0M     0  5.0M   0% /run/lock
+tmpfs           198M     0  198M   0% /run/user/0

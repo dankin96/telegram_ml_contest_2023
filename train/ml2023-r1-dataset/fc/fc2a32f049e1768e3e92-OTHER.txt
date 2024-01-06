@@ -1,0 +1,3 @@
+Sessionless is not a way in which the Application Session State is stored.
+
+Video for reference: Architecture Odds and Ends

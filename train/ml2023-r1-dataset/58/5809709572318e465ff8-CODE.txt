@@ -1,0 +1,20 @@
+{
+  "message_id": 104429,
+  "from": {
+    "id": 2091369970,
+    "is_bot": false,
+    "first_name": "Silent",
+    "username": "silent58",
+    "language_code": "ru",
+    "is_premium": true
+  },
+  "chat": {
+    "id": -1001452937727,
+    "title": "Ymakanic Labs - курилка",
+    "username": "vsyakaja_huinia",
+    "type": "supergroup"
+  },
+  "date": 1696633524,
+  "message_thread_id": 104412,
+  "text": "я так и понял"
+}

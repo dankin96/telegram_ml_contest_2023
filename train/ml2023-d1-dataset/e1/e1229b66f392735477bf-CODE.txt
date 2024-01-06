@@ -1,0 +1,3 @@
+
+var m = moment() # lets say it's Oct 3rd.
+var oct6 = m.add('days', 3);

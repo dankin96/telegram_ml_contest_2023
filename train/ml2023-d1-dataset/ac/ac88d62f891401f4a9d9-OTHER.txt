@@ -1,0 +1,80 @@
+General
+Complete name                  : C:\Users\reiso\Documents\Studio One\Demos\presonus.studioone.demos.as2\Mixdown\Rhythm of the Night - binaural mix.wav
+Format                         : Wave
+Format settings                : PcmWaveformat
+File size                      : 2.60 GiB
+Duration                       : 3 min 24 s
+Overall bit rate mode          : Constant
+Overall bit rate               : 109 Mb/s
+
+Audio
+Format                         : PCM
+Format settings                : Little / Signed
+Codec ID                       : 1
+Duration                       : 3 min 24 s
+Bit rate mode                  : Constant
+Bit rate                       : 108 Mb/s
+Channel(s)                     : 94 channels
+Sampling rate                  : 48.0 kHz
+Bit depth                      : 24 bits
+Stream size                    : 2.58 GiB (99%)
+Dolby Atmos metadata           : Yes
+ Writing application           : Studio One, Version 6.5.0
+ 5.1 to 2.0 downmix            : Lo/Ro w/o Phase 90
+ 5.1 and 5.1.x downmix         : Standard (Lo/Ro)
+ Associated video frame rate   : 24.000 FPS
+ Trim mode                     : Automatic
+Metadata format                : ADM, Version 0
+Metadata muxing mode           : axml
+ADM profile                    : Dolby Atmos Master, Version 1
+Number of programmes           : 1
+Number of contents             : 1
+Number of objects              : 85
+Number of pack formats         : 85
+Number of channel formats      : 94
+Number of track UIDs           : 94
+Number of track formats        : 94
+Number of stream formats       : 94
+Programme #1                   : Atmos_Master
+ ID                            : APR_1001
+ Title                         : Atmos_Master
+ Start                         : 00:00:05.80645 (00:00:05:19+709samples)
+ End                           : 00:03:30.58231 (00:03:30:14-49samples)
+ Content #s                    : 1
+Content #1                     : Atmos_Master_Content
+ ID                            : ACO_1001
+ Title                         : Atmos_Master_Content
+ Mode                          : Mixed
+ Object #s                     : 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13 + 14 + 15 + 16 + 17 + 18 + 19 + 20 + 21 + 22 + 23 + 24 + 25 + 26 + 27 + 28 + 29 + 30 + 31 + 32 + 33 + 34 + 35 + 36 + 37 + 38 + 39 + 40 + 41 + 42 + 43 + 44 + 45 + 46 + 47 + 48 + 49 + 50 + 51 + 52 + 53 + 54 + 55 + 56 + 57 + 58 + 59 + 60 + 61 + 62 + 63 + 64 + 65 + 66 + 67 + 68 + 69 + 70 + 71 + 72 + 73 + 74 + 75 + 76 + 77 + 78 + 79 + 80 + 81 + 82 + 83 + 84 + 85
+Object #1                      : Atmos_Bed_1
+ ID                            : AO_1001
+ Title                         : Atmos_Bed_1
+ Duration                      : 00:03:24.77585
+ Pack format #s                : 1
+ Track UID #s                  : 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10
+ Binaural render mode          : Not Indicated (Mid) + Not Indicated (Mid) + Not Indicated (Mid) + Off + Not Indicated (Mid) + Not Indicated (Mid) + Not Indicated (Mid) + Not Indicated (Mid) + Not Indicated (Mid) + Not Indicated (Mid)
+Object #2                      : Pop Lead FAR L
+ ID                            : AO_100b
+ Title                         : Pop Lead FAR L
+ Duration                      : 00:03:24.77585
+ Pack format #s                : 2
+ Track UID #s                  : 11
+ Binaural render mode          : Far
+Object #3                      : Pop Lead FAR R
+ ID                            : AO_100c
+ Title                         : Pop Lead FAR R
+ Duration                      : 00:03:24.77585
+ Pack format #s                : 3
+ Track UID #s                  : 12
+ Binaural render mode          : Far
+Object #4                      : Pop Lead Vox L
+ ID                            : AO_100d
+ Title                         : Pop Lead Vox L
+ Duration                      : 00:03:24.77585
+ Pack format #s                : 4
+ Track UID #s                  : 13
+ Binaural render mode          : Near
+Object #5                      : Pop Lead Vox R
+ ID                            : AO_100e
+ Title                         : Pop Lead Vox R
+ Duration                      : 00:03:24.

@@ -1,0 +1,23 @@
+ python
+arr = ["yes", "no", "yes", "no", "yes"]
+
+# Menampilkan seluruh elemen array
+print(arr)
+
+# Mengakses elemen array berdasarkan indeks
+print(arr[0]) # Output: yes
+print(arr[1]) # Output: no
+
+# Mengganti nilai elemen array berdasarkan indeks
+arr[2] = "no"
+print(arr) # Output: ['yes', 'no', 'no', 'no', 'yes']
+
+# Menambahkan elemen baru ke array
+arr.append("yes")
+print(arr) # Output: ['yes', 'no', 'no', 'no', 'yes', 'yes']
+
+# Menghitung jumlah kemunculan suatu elemen dalam array
+count_yes = arr.count("yes")
+count_no = arr.count("no")
+print("Jumlah yes:", count_yes) # Output: Jumlah yes: 3
+print("Jumlah no:", count_no) # Output: Jumlah no: 3

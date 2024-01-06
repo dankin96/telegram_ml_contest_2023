@@ -1,0 +1,7 @@
+/usr/include/stdint.h:96:23: error: typedef redefinition with different types ('unsigned int' vs 'unsigned long')
+typedef unsigned int            uintptr_t;
+                                ^
+../../../../../../kernel/xiaomi/sdm660/include/linux/types.h:40:24: note: previous definition is here
+typedef unsigned long           uintptr_t;
+                                ^
+1 error generated.

@@ -1,0 +1,5 @@
+
+ def up
+    change_column_null :posts, :blog_id, true
+    remove_foreign_key :posts, column: :blog_id
+  end

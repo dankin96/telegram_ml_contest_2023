@@ -1,0 +1,5 @@
+Merge branch 'preprod' into 'master'
+Merge branch 'RM-63635' into 'preprod'
+Merge branch 'RM-63674' into 'preprod'
+RM-63635 - Доработка XML
+RM-63674 - Удаленный блок по лек. препарату снова отображается на форме редакт-я заявки после сохранения в черновик

@@ -1,0 +1,4 @@
+                      Time
+Cumulus  10 days, 22:42:00
+Nimbus    2 days, 16:58:00
+Stratus    2 days, 9:40:00

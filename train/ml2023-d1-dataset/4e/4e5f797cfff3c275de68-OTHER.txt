@@ -1,0 +1,43 @@
+actor Contributor as C
+participant "Editor/Service" as ES
+participant "Adobe Premiere Pro" as APP
+participant "ChatGPT" as CGPT
+participant "Social Media Platforms" as SMP
+
+
+
+C[#red]-> ES: Upload Video
+activate ES
+ES -> ES: Review and Metadata Check
+ES --> C: Review Complete
+deactivate ES
+
+C -> ES: Request Additional Media
+ES --> C: Additional Media Received
+
+C -> ES: Request Verification
+ES -> ES: Metadata Check
+ES -> ES: Social Media Check
+C -> ES: Provide Additional Info
+ES --> C: Verification Complete
+
+C -> ES: Provide Personal Info
+C -> ES: Payment and Document Preparation
+ES --> C: Documents Prepared
+C -> ES: Sign Documents and Make Payment
+ES --> C: Documents Signed
+ES --> C: Exclusive Rights Granted
+
+C -> APP: Video Editing
+activate APP
+APP --> C: Video Edited
+
+C -> CGPT: Video Description
+activate CGPT
+CGPT --> C: Description Generated
+deactivate CGPT
+
+C -> SMP: Publish Video
+SMP --> C: Video Published
+
+@enduml

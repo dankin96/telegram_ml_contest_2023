@@ -1,0 +1,33 @@
+Exchange AVAXBTC 1h Binance
+Price:0.00037980|0.00037870|0.00037660
+Vol:     1,216|   7,311|   7,194
+ATR: 0.00000407
+
+✅OBV: 112.6 K| 111.4 K| 104.1 K
+⚪RSI:   68.49|   67.30|   64.95
+⚪MFI:   76.75|   77.26|   76.47
+⚪CCI:  107.21|  109.69|  108.84
+⚪WR%:   -9.52|  -16.50|  -31.62
+✅ADX:   34.66|   34.12|   33.54
+
+⚪MOM: No Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+✅PSAR: Bullish
+
+Support And Resistance
+S: 0.00035680
+S: 0.00036810
+R: 0.00038000
+
+Volatility is very high
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+🐻Volume: Bearish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

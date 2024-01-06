@@ -1,0 +1,5 @@
+// GetPerson returns a new Dowser interface of Person struct
+func GetPerson() Dowser {
+  person := &Person{}
+  return person
+}

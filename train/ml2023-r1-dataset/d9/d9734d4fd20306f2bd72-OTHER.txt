@@ -1,0 +1,9 @@
+
+------------ 
+OS: Alpine Linux v3.17 aarch64 
+Kernel: 5.15.133-flippy-85+o 
+Uptime: 2 days, 19 hours, 51 mins 
+Packages: 48 (apk) 
+Shell: ash 
+CPU: ARMv8 rev 4 (v8l) (4) @ 1.512GHz 
+Memory: 746MiB / 1810MiB

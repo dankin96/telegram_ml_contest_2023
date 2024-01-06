@@ -1,0 +1,1 @@
+sudo ./scripts/app compose bitcoin logs -f bitcoind

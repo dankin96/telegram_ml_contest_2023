@@ -1,0 +1,1 @@
+ss://0394c19d-76c4-415a-b6d8-b70f878b3a02@49.12.79.177:443?mode=gun&security=reality&encryption=none&pbk=lr5yBKNdJfWXA9tqhflDGzId1b9txH_VLGnS-OR1Pww&fp=firefox&spx=%2F&type=grpc&serviceName=&sni=http://kit.fontawesome.com&sid=7698#t.me/meysamtech010

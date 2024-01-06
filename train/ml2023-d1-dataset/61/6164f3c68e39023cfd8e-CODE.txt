@@ -1,0 +1,7 @@
+SELECT id FROM chat
+WHERE id<0
+AND migrated_to IS NULL
+AND BLOCKED=FALSE
+AND id NOT IN (SELECT DISTINCT(chat_id) FROM game)
+AND id NOT IN (SELECT DISTINCT(chat_id) from archive.game WHERE date>'2023-01-01')
+AND chat.last_message_received > '2023-01-01';

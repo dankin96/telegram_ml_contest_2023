@@ -1,0 +1,3 @@
+Finally, if the AMD P-State scaling driver is used in active mode, the P-State
+scaling governor will be changed to powersave as it is the only P-State scaling
+governor that allows for the "Energy vs Performance Hints" to be taken into consideration.

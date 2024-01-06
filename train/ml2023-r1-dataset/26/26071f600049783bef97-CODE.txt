@@ -1,0 +1,3 @@
+App\Foo\Configurator:
+    decorates: 'twig.configurator.environment'
+    arguments: [ '@App\Foo\Configurator.inner' ]

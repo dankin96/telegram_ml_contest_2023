@@ -1,0 +1,11 @@
+<app-reusable-card>
+  <ng-template appDirective>
+    <custom-component></custom-component>
+  </ng-template>
+  <ng-template appDirective>
+    <custom-component></custom-component>
+  </ng-template>
+  <ng-template appDirective>
+    <custom-component></custom-component>
+  </ng-template>
+</app-reusable-card>

@@ -1,0 +1,10 @@
+Background:  Desert
+Costume:     Turtle
+Eyes:        Happy
+Hands:       Stone
+Mouth:       Snake
+Neck:        Hoodie
+Skin_base:   Rainbow
+ 
+RS: 1033
+RS Burn: 876

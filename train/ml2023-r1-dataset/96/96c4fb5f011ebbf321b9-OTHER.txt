@@ -1,0 +1,30 @@
+Tanggal  : 28 Jul 20
+Investor : Indonesia Infrastructure Finance
+Previous : 0 (0%)
+Buy/Sell : +1.771.071.131 (+10.00%)
+Now      : 1.771.071.131 (10%)
+----------------------------
+Tanggal  : 15 Jun 20
+Investor : Metro Pacific Tollways Indonesia
+Previous : 13.071.313.596 (73.8%)
+Buy/Sell : +148.950.254 (+0.85%)
+Now      : 13.220.263.850 (74.65%)
+----------------------------
+Tanggal  : 03 Jan 20
+Investor : Metro Pacific Tollways Indonesia
+Previous : 13.108.701.946 (74.02%)
+Buy/Sell : -37.388.350 (-0.22%)
+Now      : 13.071.313.596 (73.8%)
+----------------------------
+Tanggal  : 02 Jan 20
+Investor : Metro Pacific Tollways Indonesia
+Previous : 13.080.701.946 (73.86%)
+Buy/Sell : +28.000.000 (+0.16%)
+Now      : 13.108.701.946 (74.02%)
+----------------------------
+Tanggal  : 30 Dec 19
+Investor : Metro Pacific Tollways Indonesia
+Previous : 13.140.745.256 (74.2%)
+Buy/Sell : -60.043.310 (-0.34%)
+Now      : 13.080.701.946 (73.86%)
+----------------------------

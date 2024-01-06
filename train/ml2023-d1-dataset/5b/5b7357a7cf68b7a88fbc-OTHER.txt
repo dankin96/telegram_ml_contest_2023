@@ -1,0 +1,1 @@
+Experience in bundle adjustment and backend optimization (e.g., GTSAM, g2o, CERES).

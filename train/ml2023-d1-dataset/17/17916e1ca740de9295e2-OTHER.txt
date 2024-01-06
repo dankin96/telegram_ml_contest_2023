@@ -1,0 +1,28 @@
+Exchange TRXBTC 1h Binance
+Price:0.00000316|0.00000316|0.00000316
+Vol:    15,378|  60,949| 393,677
+ATR: 0.00000002
+
+✅OBV:   4.0 M|   4.0 M|   4.0 M
+⚪RSI:   62.28|   62.28|   62.28
+✅MFI:   95.22|   91.85|   91.85
+⚪CCI:   80.27|  113.86|  137.98
+❌WR%:  -33.33|  -33.33|  -25.00
+✅ADX:   31.21|   29.45|   27.56
+
+✅MOM: Bullish Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+✅PSAR: Bullish
+
+Volatility is moderately high
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+🐻Volume: Bearish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

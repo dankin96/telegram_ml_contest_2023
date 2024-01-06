@@ -1,0 +1,1 @@
+put 'mytable', 'row1', 'cf1:col1', 'value1'

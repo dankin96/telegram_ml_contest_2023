@@ -1,0 +1,46 @@
+cpp
+#include <SPI.h>
+#include <MFRC522.h>
+#include <ESP8266WiFi.h>
+
+// Replace with your network credentials
+const char* ssid = "your_SSID";
+const char* password = "your_PASSWORD";
+
+// Create an instance of the MFRC522 class
+MFRC522 mfrc522(SS_PIN, RST_PIN);
+
+void setup() {
+  Serial.begin(9600);
+  SPI.begin(); // Initialize SPI bus
+  mfrc522.PCD_Init(); // Initialize MFRC522
+
+  WiFi.begin(ssid, password); // Connect to WiFi network
+
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(1000);
+    Serial.println("Connecting to WiFi...");
+  }
+
+  Serial.println("Connected to WiFi");
+}
+
+void loop() {
+  // Check if a new card is present
+  if (mfrc522.PICC_IsNewCardPresent()) {
+    // Read the card's UID
+    if (mfrc522.PICC_ReadCardSerial()) {
+      Serial.print("Card UID: ");
+      for (byte i = 0; i < mfrc522.uid.size; i++) {
+        Serial.print(mfrc522.uid.uidByte[i] < 0x10 ? "0" : "");
+        Serial.print(mfrc522.uid.uidByte[i], HEX);
+      }
+      Serial.println();
+
+      // Add your code here to perform any action based on the card UID
+
+      mfrc522.PICC_HaltA(); // Halt PICC
+      mfrc522.PCD_StopCrypto1(); // Stop encryption on PCD
+    }
+  }
+}

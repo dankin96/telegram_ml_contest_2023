@@ -1,0 +1,2 @@
+
+ETHERSCAN_API_KEY=<xxx> --verifier-url https://api.basescan.org/api

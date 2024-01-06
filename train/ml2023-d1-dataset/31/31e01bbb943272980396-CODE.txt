@@ -1,0 +1,5 @@
+builder_kb = InlineKeyboardBuilder()
+for i in range(17):
+    builder_kb.add(InlineKeyboardButton(text=str(i), callback_data=f'build{i}'))
+builder_kb.adjust(4)
+

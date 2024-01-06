@@ -1,0 +1,12 @@
+GLD - GoldenCoin
+$0.000795165
+Network: BSC
+H|L: 0.00|0.00077266
+1h:  0.2%      😏       
+24h: 2.3%      😀       
+7d:  -33.2%    😱       
+Vol: $8.5 K
+Liq: $50.6 K
+Circ Mcap: 795.2 K
+FDV 795.2 K
+CA: 0x25a2b2327e9c787e138708b24df58bce4d9ab3f6

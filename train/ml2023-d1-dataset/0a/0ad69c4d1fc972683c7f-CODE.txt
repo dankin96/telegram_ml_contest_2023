@@ -1,0 +1,59 @@
+class ReportView:
+    def get_mime_type(self) -> str:
+        ...
+    
+    def to_byes(self) -> bytes:
+        ...
+
+class ReportGenerator:
+    def generate_report(self, docs: list[Document]) -> ReportView:
+        ...
+
+class ExcelCSVReportView(ReportView):
+    def __init__(self, cells: list[list[str]], *, delimiter=';'):
+        self.cells = cells
+        self.delimiter = ';'
+        
+    def get_mime_type(self) -> str:
+        return 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+        
+    def to_bytes(self) -> bytes:
+        with BytesIO() as buffer:
+            for row in len(self.cells):
+                for col in len(row):
+                    buffer.write(self.cells[row][col])
+                    buffer.write(self.delimiter)
+            return buffer.getvalue()
+    
+    
+class ExcelCSVReportGenerator(ReportGenerator):
+    def generate_report(self, docs: list[Document]) -> ReportView:
+        return ExcelCSVReportView(
+            [
+                ['number', 'date', 'author'],
+                *[
+                    [doc.number, doc.date, doc.author]
+                    for doc in docs
+                ]
+            ]
+        )
+
+class ReportService:
+    document_repo: DocumentRepository
+    report_generator: ReportGenerator
+    
+    def get_report(self) -> ReportView:
+        docs = self.document_repo.get_all()
+        return self.report_generator.generate_report(docs)
+
+
+@router.get("/report")
+async def download_report(
+    report_service: ReportService = Depends(report_service_factory),
+):
+    report = report_service.get_report()
+    headers = {
+        'Content-Type': report.get_mime_type(),
+        'Content-Disposition': 'attachment; filename="report.csv"'
+    }
+    return Response(report.to_bytes(), headers=headers)

@@ -1,0 +1,1 @@
+/system/routerboard/usb set type=

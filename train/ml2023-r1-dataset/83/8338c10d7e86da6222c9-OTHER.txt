@@ -1,0 +1,7 @@
+✔️Saldo GOJEK Penumpang                (kode SGOR)
+✔️Saldo GOJEK Driver                   (kode SGDR)
+✔️Saldo GRAB Penumpang                 (kode GREBP)
+✔️Saldo GRAB Driver                    (kode GREBD)
+✔️Saldo MAXIM CUSTOMER                 (kode MAXIMC)
+✔️Saldo MAXIM Driver                   (kode MAXIDM)
+

@@ -1,0 +1,4 @@
+def modern_print(text, prev_lines = set()):
+    if text not in prev_lines:
+        print(text)
+        prev_lines.add(text)

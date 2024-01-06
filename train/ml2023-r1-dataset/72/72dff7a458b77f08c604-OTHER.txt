@@ -1,0 +1,5 @@
+NodeOperationError: Status code 522
+    at Object.execute (/usr/local/lib/node_modules/n8n/node_modules/n8n-nodes-base/dist/nodes/RssFeedRead/RssFeedRead.node.js:64:23)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Workflow.runNode (/usr/local/lib/node_modules/n8n/node_modules/n8n-workflow/dist/Workflow.js:649:19)
+    at /usr/local/lib/node_modules/n8n/node_modules/n8n-core/dist/WorkflowExecute.js:631:53

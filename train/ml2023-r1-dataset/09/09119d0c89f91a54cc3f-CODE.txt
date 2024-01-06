@@ -1,0 +1,1 @@
+pkg update && pkg install bsdtar wget proot tergent tmux openssh

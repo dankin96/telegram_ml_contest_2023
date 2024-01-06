@@ -1,0 +1,5 @@
+No data available (6585542404)
+
+Tips:
+1. Add this bot to your groups as admin to increase detection.
+2. Use search by username. Simply copy a username and send "allhistory @username", new data will be added if not available.

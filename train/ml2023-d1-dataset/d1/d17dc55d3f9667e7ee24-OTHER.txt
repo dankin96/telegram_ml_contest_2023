@@ -1,0 +1,2 @@
+The latest upgrade features pre-set settings that allows users to save by choosing pre-set options instead of entering them manually.
+

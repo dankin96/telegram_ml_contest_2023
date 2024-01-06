@@ -1,0 +1,1 @@
+No need to change slot for Gapps and Magisk after flash, they will be flashed in the active slot!

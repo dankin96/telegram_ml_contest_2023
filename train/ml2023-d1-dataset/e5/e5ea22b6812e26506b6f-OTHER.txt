@@ -1,0 +1,2 @@
+vless://2fa43e1a-6ad5-4afe-bf4a-5f5902fbc15e@economic.oneway-ticket.top:888?encryption=none&security=none&type=tcp&headerType=http&host=www.speedtest.net#WhiteWood-EcoNo-Free-01
+

@@ -1,0 +1,2 @@
+condition:grade like '%VIP%'  and channel_status ='active' 
+ command type:#get_channel_post

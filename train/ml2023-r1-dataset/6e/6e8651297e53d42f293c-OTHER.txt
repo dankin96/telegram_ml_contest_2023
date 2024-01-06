@@ -1,0 +1,2 @@
+all: 23 min: 3.04% max: 10.44%
+More than 10% - 1 times

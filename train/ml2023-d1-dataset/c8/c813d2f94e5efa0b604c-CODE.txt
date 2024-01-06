@@ -1,0 +1,1 @@
+fmap g ( h x : fmap h xs)

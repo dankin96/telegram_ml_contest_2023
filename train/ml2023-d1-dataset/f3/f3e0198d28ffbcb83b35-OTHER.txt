@@ -1,0 +1,30 @@
+ 11-Oct-23 07:32:41 - >>> Menghubungkan bot
+[INFO] 11-Oct-23 07:32:45 - Phone migrated to 5
+[INFO] 11-Oct-23 07:32:46 - Reconnecting to new data center 5
+[INFO] 11-Oct-23 07:32:49 - >>> Bot terhubung
+[INFO] 11-Oct-23 07:32:49 - >>> Menghubungkan userbot
+[INFO] 11-Oct-23 07:32:50 - >>> Userbot terhubung
+[INFO] 11-Oct-23 07:32:50 - >>> Bot alive
+[INFO] 11-Oct-23 07:32:50 - >>> Logs diaktifkan
+[INFO] 11-Oct-23 08:03:21 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 08:03:22 - Uploading file of 34566 bytes in 1 chunks of 131072
+[INFO] 11-Oct-23 08:29:51 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 08:29:52 - Uploading file of 37184 bytes in 1 chunks of 131072
+[INFO] 11-Oct-23 08:44:51 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 08:44:52 - Uploading file of 16542 bytes in 1 chunks of 131072
+[INFO] 11-Oct-23 08:44:52 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 08:44:53 - Uploading file of 234303 bytes in 2 chunks of 131072
+[INFO] 11-Oct-23 08:44:56 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 08:44:57 - Uploading file of 16069 bytes in 1 chunks of 131072
+[INFO] 11-Oct-23 08:48:51 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 08:48:52 - Uploading file of 35166 bytes in 1 chunks of 131072
+[INFO] 11-Oct-23 08:52:22 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 08:52:23 - Uploading file of 93565 bytes in 1 chunks of 131072
+[INFO] 11-Oct-23 08:52:23 - Uploading file of 62024 bytes in 1 chunks of 131072
+[INFO] 11-Oct-23 09:01:51 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 09:01:52 - Uploading file of 86137 bytes in 1 chunks of 131072
+[INFO] 11-Oct-23 09:02:49 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 09:02:50 - Uploading file of 19149 bytes in 1 chunks of 131072
+[INFO] 11-Oct-23 09:10:51 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 09:10:52 - Uploading file of 7206 bytes in 1 chunks of 131072
+[INFO] 11-Oct-23 09:16:51 - Starting direct file download in chunks of 131072 at 0, stride 131072

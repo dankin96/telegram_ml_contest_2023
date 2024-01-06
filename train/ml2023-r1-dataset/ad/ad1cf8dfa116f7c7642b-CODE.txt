@@ -1,0 +1,1 @@
+gmx genion -s system.tpr -o system_ions.gro -p system.top -pname CL -nname NA -neutral

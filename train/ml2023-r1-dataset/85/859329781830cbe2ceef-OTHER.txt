@@ -1,0 +1,5 @@
+Contract: AVAXUSDT
+Price: $10.358
+24H High: $10.365
+24H Low: $10.358
+24H Volume: 18847229.9 AVAX

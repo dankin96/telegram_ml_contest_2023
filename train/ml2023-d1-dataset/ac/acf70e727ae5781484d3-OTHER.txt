@@ -1,0 +1,2 @@
+vless://b1bdacd9-c02a-492e-87a1-064ff945dda1@free.rezoth.eu.org:443?sni=bug-host.com&fp=chrome&host=free.rezoth.eu.org&type=ws&security=tls&path=%2Fwebsocket&encryption=none#Rezoth+Free
+

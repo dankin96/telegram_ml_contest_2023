@@ -1,0 +1,7 @@
+Weather report: Albayda
+
+     \  /       Partly cloudy
+   _ /"".-.      26(25) °C     
+     \_(   ).   ↘ 9 km/h       
+     /(___(__)  10 km          
+                0.0 mm

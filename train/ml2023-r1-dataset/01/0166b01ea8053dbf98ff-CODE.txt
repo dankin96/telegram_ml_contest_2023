@@ -1,0 +1,6 @@
+ import pyfmodex
+system = pyfmodex.System()
+system.init()
+sound = system.create_sound("test.ogg")
+channel = system.play_sound(sound)
+channel.block_until_playback()

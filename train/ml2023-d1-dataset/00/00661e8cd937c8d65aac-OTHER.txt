@@ -1,0 +1,24 @@
++----------------------------+------------+------------+
+|        Games Profit        | 2023-10-10 | 2023-10-09 |
++----------------------------+------------+------------+
+| Galaxy Attack: Shoot (ios) |  6155.58   |  11850.52  |
+| Galaxy Attack: Shoot (and) |  5602.22   |  8120.93   |
+| Pop's World - Runnin (and) |  1892.29   |   587.8    |
+| Pop's World - Runnin (ios) |  1152.92   |   592.82   |
+| Monster Transformer: (and) |   863.44   |   610.22   |
+| Rainbow Grimaze: Hid (and) |   726.42   |  3364.47   |
+| Banana Survival Mast (and) |   692.27   |   865.72   |
+|     Yoga Workout (ios)     |   642.89   |   906.06   |
+|     Yoga Workout (and)     |   529.28   |   241.36   |
+| Mask Mixture: ASMR M (and) |   484.24   |   555.55   |
+| Craft School: Monste (and) |   338.59   |   201.56   |
+| Merge Plants – Monst (and) |   332.69   |   206.36   |
+| Haircut prank, air h (and) |   330.0    |  -449.69   |
+| Fashion Show - Catwa (and) |   327.4    |   314.16   |
+| Toilet Prank Call &  (and) |   315.78   |   267.66   |
+| Grimaces Cake: Bakin (and) |   276.21   |   -143.3   |
+| Famous Fashion - Dre (and) |   275.68   |   124.37   |
+| Rainbow Survivor: Hi (and) |   273.25   |   64.76    |
+| Draw Fun: One Part M (ios) |   272.64   |   105.12   |
+| Fish.IO - Hungry Fis (ios) |   242.68   |   270.21   |
++----------------------------+------------+------------+

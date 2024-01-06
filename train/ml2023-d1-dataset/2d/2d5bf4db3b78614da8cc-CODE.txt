@@ -1,0 +1,32 @@
+import cv2
+
+# تحميل ملف كاسكيد
+face_cascade = cv2.CascadeClassifier('path_to_cascade_file.xml')
+
+# تحميل الفيديو
+cap = cv2.VideoCapture('path_to_video_file.mp4')
+
+while cap.isOpened():
+    # قراءة الفايدو واستخراج الإطار الحالي
+    ret, frame = cap.read()
+    
+    # تحويل الإطار لـ grayscale
+    gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+    
+    # قراءة الوجوه الموجودة في الإطار
+    faces = face_cascade.detectMultiScale(gray, scaleFactor=1.1, minNeighbors=5, minSize=(30, 30))
+    
+    # عرض المربع حول الوجه
+    for (x, y, w, h) in faces:
+        cv2.rectangle(frame, (x, y), (x+w, y+h), (0, 255, 0), 2)
+    
+    # عرض الإطار المحدث
+    cv2.imshow('Video', frame)
+    
+    # يتم قطع البرنامج عن طريق الضغط على مفتاح "q"
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+# تحرير الموارد
+cap.release()
+cv2.destroyAllWindows()

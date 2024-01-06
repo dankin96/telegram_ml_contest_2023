@@ -1,0 +1,18 @@
+const [content, setContent] = useState(DefaultContent)
+
+   
+ const data = [
+        {
+          question: "How can I get some?",
+          answer: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.",
+        },
+    ];
+
+    const buttons = [
+        { name: "About", content: AboutUsContent},
+        // { name: "Feedback", content: FeedbackContent},
+        { name: "Accordion", content: (props) => <Accordion data={props.data} /> }
+    ];
+
+<button  onClick={() => setContent(button.content)} />
+

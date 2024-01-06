@@ -1,0 +1,18 @@
+ ChatEsmTicketLinkProblemTest
+    Пагинация проблем в сайдбаре 'Связывание'
+ ChatEsmThemesTest
+    Редактирование ранее существующией тематики
+ ChatAgentStatusTest
+    Две линии: преключатель Онлайн, Офлайн
+ ChatEsmTicketCommunicationTest
+    Переписка в новом обращении с файлами и картинками
+    Переписка в новом обращении
+ MessageTemplatesChatTest
+    Отправка шаблонных ответов
+ ChatEsmTicketChangeTest
+    Изменение обращения: Все возможможные поля
+ EsmStatusTest
+    Переключение статусов оператора в ESM
+ ChatRatingTest
+    Оценка чата после бота
+    Оценка чата без коментария

@@ -1,0 +1,9 @@
+ Private  +   Shared  =  RAM used       Program
+
+232.0 KiB +  63.0 KiB = 295.0 KiB       cat (2)
+  2.3 MiB +  19.5 KiB =   2.3 MiB       nacl_helper
+ 25.8 MiB +   3.0 MiB =  28.8 MiB       plasma-browser-integration-host
+  5.5 GiB + 281.6 MiB =   5.8 GiB       chrome (71)
+---------------------------------
+                          5.8 GiB
+=================================

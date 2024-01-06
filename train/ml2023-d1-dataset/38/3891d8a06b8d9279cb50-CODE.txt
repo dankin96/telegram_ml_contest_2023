@@ -1,0 +1,125 @@
+class BulkChangeStatusJob implements ShouldQueue
+{
+    use Dispatchable, InteractsWithQueue, Queueable, SerializesModels;
+
+  const OPERATION_NAME = 'change_status';
+
+    protected int $adminUserId;
+
+    /**
+     * @var array|null
+     */
+    protected ?array $userIds = [];
+
+    /**
+     * @var string
+     */
+    protected string $bulkType;
+
+    /**
+     * @var int|null
+     */
+    protected ?int $teamId;
+
+    /**
+     * @var Status
+     */
+    protected Status $status;
+
+    /**
+     * @var UserRepositoryInterface
+     */
+    protected UserRepositoryInterface $userRepository;
+
+    /**
+     * @var StatusesRepositoryInterface|\Illuminate\Contracts\Foundation\Application|mixed
+     */
+    protected StatusesRepositoryInterface $statusesRepository;
+
+    /**
+     * @var BulkServiceInterface $bulkService
+     */
+    protected BulkServiceInterface $bulkService;
+
+
+  /**
+   * @param  int  $adminUserId
+   * @param  Status  $status
+   * @param  array|null  $userIds
+   * @param  string  $bulkType
+   * @param  int|null  $teamId
+   */
+    public function __construct(
+        int $adminUserId,
+        Status    $status,
+        ?array    $userIds,
+        string    $bulkType,
+        ?int      $teamId
+    )
+    {
+      $this->onQueue('bulk_change-status');
+
+        $this->adminUserId = $adminUserId;
+        $this->userIds = $userIds;
+        $this->userRepository = resolve(UserRepositoryInterface::class);
+        $this->statusesRepository = resolve(StatusesRepositoryInterface::class);
+        $this->bulkService = resolve(BulkServiceInterface::class);
+        $this->bulkType = $bulkType;
+        $this->teamId = $teamId;
+        $this->status = $status;
+    }
+
+    /**
+     * Execute the job.
+     *
+     * @return void
+     * @throws ModelNotSaveException
+     */
+    public function handle()
+    {
+        $totalCount = count($this->userIds);
+        $this->bulkService->notify($this->adminUserId, 'Bulk change status started', BulkService::STARTED_STATUS, $totalCount);
+        $counter = 0;
+    $adminUser = AdminUser::query()->where('id', $this->adminUserId)->first();
+        $clients = $this->userRepository->getAccessUsersByIdsAndAdminUser($this->userIds, $adminUser);
+
+        if ($clients) {
+            foreach ($clients as $client) {
+                /** @var User $client */
+                $attributes = [
+                    'action'      => 'Change acquisition status',
+                    'from_type'   => $client->type ?? 'not set',
+                    'from_team'   => $client->team?->name ?? 'not set',
+                    'from_status' => $client->status ?? 'not set',
+                    'to_type'     => $this->bulkType,
+                    'to_team'     => Team::whereId($this->teamId)->first()?->name ?? 'not set',
+                    'to_status'   => $this->status->key,
+                ];
+
+                if ($client->type != $this->bulkType) {
+                    $client->team_id = null;
+                    $client->admin_user_id = null;
+                }
+
+                $client->status = $this->status->key;
+                $client->type = $this->bulkType;
+
+                $this->statusesRepository->saveStatusToUser($client, $this->status);
+                $this->userRepository->save($client);
+
+                $counter++;
+
+              // Определяем процент выполнения и уведомляем пользователей каждые 20%
+              $percent = round(($counter / $totalCount) * 100);
+              if ($percent % 20 == 0) {
+                $this->bulkService->notify($this->adminUserId, "$counter", BulkService::PROCESSING_STATUS, $totalCount);
+              }
+        
+                $this->bulkService->log($adminUser, $client, $attributes);
+            }
+        }
+
+        Log::channel('bulks')->info("Bulk change status ended processed total " . count($clients) . " clients with updated status: " . $this->status->key);
+        $this->bulkService->notify($this->adminUserId, 'Bulk change status ended', BulkService::ENDED_STATUS, $totalCount);
+    }
+}

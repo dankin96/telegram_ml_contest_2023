@@ -1,0 +1,1 @@
+2023-10-11 02:46:11 - ota_from_target_files.py - WARNING : Builds doesn't support zucchini, or source/target don't have compatible zucchini versions. Disabling zucchini.

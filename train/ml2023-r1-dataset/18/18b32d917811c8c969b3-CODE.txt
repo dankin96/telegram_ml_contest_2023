@@ -1,0 +1,24 @@
+public static string ControllerActionResultToString(Func<ActionResult> controllerActionCallBack)
+        {
+            Check.ArgumentIsNotNull(controllerActionCallBack, nameof(controllerActionCallBack), "Метод обратного вызова ActionResult не установлен");
+            Check.ArgumentIsNotNull(HttpContext.Current, "httpcontext", "текущий HTTP-контекст не установлен");
+
+            string result = "WebParse : Не удалось считать данные метода контроллера";
+
+            using (var captRespW = new StringWriter())
+            {
+                var controllerContext = new ControllerContext { RequestContext = HttpContext.Current.Request.RequestContext };
+                var response = controllerContext.RequestContext.HttpContext.Response;
+
+                var origRO = response.Output;
+                response.Output = captRespW;
+                
+                controllerActionCallBack().ExecuteResult(controllerContext);
+
+                captRespW.Flush();
+                result = captRespW.ToString();
+                response.Output = origRO;
+            }
+
+            return result;
+        }

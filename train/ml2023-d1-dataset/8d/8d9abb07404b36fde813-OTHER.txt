@@ -1,0 +1,13 @@
+
+| usuario           |   horas |
+|:------------------|--------:|
+| adme              |    2729 |
+| jflorez           |    2470 |
+| gcp               |    1882 |
+| ximena.caporale   |    1871 |
+| pablo.olivera     |    1448 |
+| juan.tarigo       |    1440 |
+| npan              |    1192 |
+| agustin.lucas     |     848 |
+| eolico            |     527 |
+| victoria.pardinas |     460 |

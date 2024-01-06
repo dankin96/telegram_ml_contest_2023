@@ -1,0 +1,59 @@
+🇲🇱 Mali                     | 33152  743  32332  0
+🇰🇾 Cayman Islands           | 31472  37  8553  1
+🇱🇨 Saint Lucia              | 30122  409  29095  0
+🇧🇯 Benin                    | 28036  163  27847  0
+🇸🇴 Somalia                  | 27334  1361  13182  0
+🇨🇬 Congo                    | 25375  386  24006  0
+🇸🇲 San Marino               | 24695  126  24537  4
+🇸🇧 Solomon Islands          | 24575  153  0  1
+🇹🇱 Timor-Leste              | 23460  138  23102  0
+🇧🇫 Burkina Faso             | 22056  396  21596  0
+🇱🇮 Liechtenstein            | 21491  94  21352  0
+🇬🇮 Gibraltar                | 20550  113  16579  0
+🇬🇩 Grenada                  | 19693  238  19358  4
+🇲🇴 Macau                    | 18897  123  3487  0
+🇧🇲 Bermuda                  | 18860  165  18685  0
+🇳🇮 Nicaragua                | 18491  225  4225  0
+🇸🇸 South Sudan              | 18368  138  18115  1
+🇹🇯 Tajikistan               | 17786  125  17264  0
+🇬🇶 Equatorial Guinea        | 17229  183  16907  5
+🇲🇨 Monaco                   | 17001  67  15992  4
+🇹🇴 Tonga                    | 16825  13  15638  0
+🇼🇸 Samoa                    | 16778  31  1605  0
+🇲🇭 Marshall Islands         | 16138  17  16120  0
+🇩🇲 Dominica                 | 15760  74  15673  0
+🇩🇯 Djibouti                 | 15690  189  15427  0
+🇨🇫 CAR                      | 15368  113  15200  2
+🇬🇲 Gambia                   | 12626  372  12189  0
+🇲🇫 Saint Martin             | 12324  63  1399  7
+🇻🇺 Vanuatu                  | 12019  14  11976  0
+🇬🇱 Greenland                | 11971  21  2761  4
+🇾🇪 Yemen                    | 11945  2159  9124  23
+🇳🇱 Caribbean Netherlands    | 11682  38  10476  0
+🇸🇽 Sint Maarten             | 11051  92  10905  0
+🇪🇷 Eritrea                  | 10189  103  10086  0
+🇳🇪 Niger                    | 9931  312  8890  1
+🇻🇨 St. Vincent Grenadines   | 9644  124  9493  0
+🇬🇼 Guinea-Bissau            | 9614  177  8929  6
+🇰🇲 Comoros                  | 9109  161  8939  0
+🇦🇬 Antigua and Barbuda      | 9106  146  8954  1
+🇱🇷 Liberia                  | 8090  295  7783  2
+🇸🇱 Sierra Leone             | 7766  126  0  0
+🇹🇩 Chad                     | 7701  194  4874  0
+🇻🇬 Virgin Islands, British  | 7305  64  0  0
+🇹🇨 Turks and Caicos Islands | 6630  39  6576  4
+🇰🇳 Saint Kitts and Nevis    | 6607  48  6559  0
+🇸🇹 Sao Tome and Principe    | 6597  80  6517  0
+🇵🇼 Palau                    | 6243  9  6227  0
+🇧🇱 Saint Barthélemy         | 5507  6  0  0
+🇳🇷 Nauru                    | 5393  1  5347  0
+🇰🇮 Kiribati                 | 5085  24  2703  3
+🇦🇮 Anguilla                 | 3904  12  3879  4
+🇵🇲 Saint Pierre and Miquelon| 3452  2  2449  1
+🇹🇻 Tuvalu                   | 2943  1  0  0
+🇫🇰 Falkland Islands         | 1930  0  1930  0
+🇲🇸 Montserrat               | 1403  8  1376  0
+🚢 Diamond Princess         | 712  13  699  0
+🇻🇦 Vatican City             | 29  0  29  0
+🇪🇭 Western Sahara           | 10  1  9  0
+🚢 MS Zaandam               | 9  2  7  0

@@ -1,0 +1,6 @@
+Z:: 
+ Sleep 50
+ Send Q
+ Sleep 750 
+ Send A
+Return

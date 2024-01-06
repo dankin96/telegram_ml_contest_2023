@@ -1,0 +1,2 @@
+2023-10-06 09:07:34.78 | ERROR | lnbits.app:register_routes:268 | Could not load extension `cashu`: No module named 'environs'
+2023-10-06 09:07:35.14 | ERROR | lnbits.app:register_routes:268 | Could not load extension `lnurlp`: No module named 'environs'

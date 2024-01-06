@@ -1,0 +1,11 @@
+# pyrogram + aiogram example by @ShiroNoHaga 
+
+bot = Bot(...)
+client = Client(...)
+
+@dp.message_handler()
+async def handler(message: types.Message):
+    await client.send_message(chat_id=message.chat.id, text="Hi here, it's Pyrogram!")
+
+await client.start()
+await dp.start_polling()

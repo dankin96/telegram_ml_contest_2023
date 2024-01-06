@@ -1,0 +1,3 @@
+fn remove_two_last_elements<const K: usize, T: Copy>(input: [T; K]) -> [T; K - 2] {
+    std::array::from_fn(|i| input[i])
+}

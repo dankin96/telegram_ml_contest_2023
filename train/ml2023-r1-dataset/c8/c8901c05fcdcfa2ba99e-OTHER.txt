@@ -1,0 +1,24 @@
+ADDRESS:      0x88bbB792b9B3Eb053cEf1054E5e32b32DC697d09
+PAIR:         0x84f254b3e49bf42A4Ef4d5B152D7fA105b162021
+NAME:         Bitshire Halvingway
+SYMBOL:       WARREN
+SUPPLY:       1000000000
+PRICE:        $0.0000375299330715
+LIQUIDITY:    $5,321
+24H CHANGE:   4031%
+24H VOLUME:   $35,931
+INITIAL MC:   $912
+CURRENT MC:   $43,914
+ATH MC:       $44,643
+RENOUNCED:    ❌
+LP BURNED:    ✅ 100% of lp tokens burnt
+VERIFIED:     ✅
+WHALES:       2.0000%, 2.0000%, 1.8889%, 1.8438%, 1.5000%
+
+❌❌❌❌❌ FAILED ❌❌❌❌❌
+NOT RENOUNCED
+
+🤗🤗🤗🤗🤗 SOCIALS 🤗🤗🤗🤗🤗
+https://t.me/WarrenBHX
+https://twitter.com/WarrenBHX
+https://www.warrenbhx.com

@@ -1,0 +1,2 @@
+
+rsync -avz --delete /path/to/login_data /path/to/backup_directory

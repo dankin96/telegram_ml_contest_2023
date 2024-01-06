@@ -1,0 +1,1 @@
+#PersistentSetTimer, close_inactive_MTGA_window, 1000 ; 1 second timerreturn close_inactive_MTGA_window:If !WinActive("ahk_exe MTGA.exe") time++ ; checks the number in the variable "time" and increases it by 1 every 1 second (in accordance with the timer period)else time := 0 ; resetIf (time = 900) ; 15 min{ WinClose, ahk_exe MTGA.exe time := 0 ; reset}return

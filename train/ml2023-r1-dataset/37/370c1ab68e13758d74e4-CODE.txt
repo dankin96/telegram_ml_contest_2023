@@ -1,0 +1,9 @@
+
+const arr = [1,2,3]
+const callback = x => x*2
+
+// что будет резульатом каждого из этих вызовов?
+arr.map(callback())
+arr.map(callback)
+arr.map(i => callback)
+arr.map(i => callback())

@@ -1,0 +1,4 @@
+sudo pacman -Sy polkit git xterm python-pyusb python-crypto python-pip
+[install yay]
+yay -Sy yad python-zstandard
+pacman -S python-cryptography

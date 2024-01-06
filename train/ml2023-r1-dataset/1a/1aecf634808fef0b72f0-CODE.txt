@@ -1,0 +1,48 @@
+character_sequence
+    :   STRING_CHARACTER[char]                              { $$ = new string(); *$$ += $char; }
+    |   STRING_CHARACTER_ESC                                { $$ = new string(); *$$ += "\\\\"; }
+    |   character_sequence[elem]  STRING_CHARACTER[char]    { $$ = $elem; *$elem += $char; }
+    |   character_sequence[elem]  STRING_CHARACTER_ESC      { $$ = $elem; *$elem += "\\\\"; }
+    ;
+
+string_constant
+    :   BEGIN_STRING character_sequence[seq] END_STRING    { $$ = $seq; }
+    ;
+
+string_builder_body
+    :   {
+        $$ = new ExprStringBuilder();
+        $$->at = LineInfo(yyextra->g_FileAccessStack.back(),
+            yylloc.first_column,yylloc.first_line,yylloc.last_column,yylloc.last_line);
+    }
+    |   string_builder_body[sb] character_sequence[sconst] {
+        bool err;
+        auto esconst = unescapeString(*$sconst,&err);
+        if ( err ) das_yyerror(scanner,"invalid escape sequence",tokAt(scanner,@sb), CompilationError::invalid_escape_sequence);
+        auto sc = make_smart<ExprConstString>(tokAt(scanner,@sconst),esconst);
+        delete $sconst;
+        static_cast<ExprStringBuilder *>($sb)->elements.push_back(sc);
+        $$ = $sb;
+    }
+    |   string_builder_body[sb] BEGIN_STRING_EXPR expr[subexpr] END_STRING_EXPR {
+        auto se = ExpressionPtr($subexpr);
+        static_cast<ExprStringBuilder *>($sb)->elements.push_back(se);
+        $$ = $sb;
+    }
+    ;
+
+string_builder
+    :   BEGIN_STRING[sfrm] string_builder_body[sb] END_STRING[sto] {
+        auto strb = static_cast<ExprStringBuilder *>($sb);
+        if ( strb->elements.size()==0 ) {
+            $$ = new ExprConstString(tokRangeAt(scanner,@sfrm,@sto),"");
+            delete $sb;
+        } else if ( strb->elements.size()==1 && strb->elements[0]->rtti_isStringConstant() ) {
+            auto sconst = static_pointer_cast<ExprConstString>(strb->elements[0]);
+            $$ = new ExprConstString(tokRangeAt(scanner,@sfrm,@sto),sconst->text);
+            delete $sb;
+        } else {
+            $$ = $sb;
+        }
+    }
+    ;

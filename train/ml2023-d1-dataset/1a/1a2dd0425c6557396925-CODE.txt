@@ -1,0 +1,14 @@
+
+func main() {
+  var counter atomic.Uint32
+  var wg sync.WaitGroup
+  wg.Add(1000000)
+  for i := 0; i < 1000000; i++ {
+    go func() {
+      counter.Add(1)
+      wg.Done()
+    }()
+  }
+  wg.Wait()
+  fmt.Println(counter.Total())
+}

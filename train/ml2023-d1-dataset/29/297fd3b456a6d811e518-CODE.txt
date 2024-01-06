@@ -1,0 +1,36 @@
+GO
+declare @tmpSessionId int=(select top 1 id from dbo.LDSESSION where userId=1000 and CloseDateTime is null order by OpenDateTime desc)
+declare @tmpVocId int;
+declare @tmpStateObjectTypeId int=(select ID from LDOBJECTTYPE where tableId=(select id from LDTable where name='GRK_T_VOC_DocumentState'))
+declare @tmpCardTypeId int =(select ID from LDObjecttype where TableID=(select top 1 id from LDTABLE where name='GRK_T_DOC_ORDER'))
+ declare @tmpUid uniqueidentifier;
+declare @tmpName varchar(max);
+declare @tmpStateId int;
+
+DECLARE tmpCur CURSOR LOCAL FAST_FORWARD READ_ONLY FOR
+SELECT 401,'Проект', 'ED37DC15-F08F-46F1-BE84-BE0D8C9690C6' union
+SELECT 402,'Утверждено', '5FC07F65-0CAB-4864-AAEB-EF3EF1AFE444' union
+SELECT 403,'Передано в Архив', 'A353CD80-558D-4E96-AD47-937CBB8041BE' union
+SELECT 404,'Ошибка передачи', 'EC1FF723-AEAC-46F9-B89F-5EB7DF814BE4' union
+SELECT 405,'Передача в архив', '40EAFF1A-3C0B-49DE-9DDA-DEC7915697F8' union
+SELECT 406,'Отказано', '40E5FF80-378B-49DE-9BFA-DEA691569333' 
+OPEN tmpCur
+FETCH FROM tmpCur INTO @tmpStateId, @tmpName,@tmpUid
+WHILE @@FETCH_STATUS = 0
+BEGIN
+exec dbo.LDF_NewVocabulary @tmpSessionId, @tmpName, @tmpName, '',NULL, 1,@tmpStateObjectTypeId, @tmpVocId output
+Update LDVOCABULARY
+set AddIndex=@tmpVocId
+where id=@tmpVocId
+Insert into GRK_T_VOC_DocumentState (ID, StateId, CardTypeId, ProcId, ProcName, ProcDescription)
+values(@tmpVocId,@tmpStateId,@tmpCardTypeId,5,'Этап "Передача заявки"','Статусы Заявки для передачи в Архив')
+Update LDObject 
+set Uid=@tmpUid
+where id=@tmpVocId 
+
+FETCH FROM tmpCur INTO @tmpStateId, @tmpName,@tmpUid
+END
+CLOSE tmpCur
+DEALLOCATE tmpCur
+select s.StateID , v.Name, o.UID from GRK_T_VOC_DocumentState s inner join LDVOCABULARY v on s.Id=v.Id inner join LDObject o on o.Id=v.Id where ProcID=5
+

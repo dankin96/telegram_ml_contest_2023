@@ -1,0 +1,2 @@
+- DXO Mark returned same score of 140 for this tuning
+  (same as RC)

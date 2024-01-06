@@ -1,0 +1,17 @@
+    {
+      "tag": "WARP",
+      "protocol": "wireguard",
+      "settings": {
+        "secretKey": "IPjDcnP4OKZrsoSNO9OVmf0nVpgipY2tuART2ssG8FU=",
+        "address": [
+          "172.16.0.2/32",
+          "2606:4700:110:8ded:4aea:3c2e:6ac5:9a1e/128"
+        ],
+        "peers": [
+          {
+            "publicKey": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+            "endpoint": "engage.cloudflareclient.com:2408"
+          }
+        ]
+      }
+    }

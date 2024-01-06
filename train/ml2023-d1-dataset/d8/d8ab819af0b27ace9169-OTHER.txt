@@ -1,0 +1,1 @@
+"Error. Deleting past case from \"current_json\" during museum_cron: deleting case not found in \"current_json\" (Илья Смирнов \/ Проверочный стендап-концерт)"

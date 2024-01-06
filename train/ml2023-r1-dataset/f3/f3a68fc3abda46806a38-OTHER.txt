@@ -1,0 +1,7 @@
+
+|    MONEDA    |    PRECIO |
+|--------------|-----------|
+|DOLARES VENTA |6.96 bs    |
+|DOLARES COMPRA|6.86 bs    |
+|EURO          |7.23041 bs |
+|UFV           |2.46124 bs |

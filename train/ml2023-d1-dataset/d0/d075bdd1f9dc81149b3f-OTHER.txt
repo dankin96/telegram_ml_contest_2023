@@ -1,0 +1,2 @@
+[error] 136638#0: *26 mkdir() "/data/webdav/obsidian/_posts/.obsidian" failed (17: File exists), client: xxxx, server: xxxxx, request: "MKCOL /webdav/obsidian/_posts/.obsidian/ HTTP/2.0", host:xxxx
+

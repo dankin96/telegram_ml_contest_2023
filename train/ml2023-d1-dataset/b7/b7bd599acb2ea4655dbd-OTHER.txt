@@ -1,0 +1,2 @@
+
+Command 'gopls.go_get_package' failed: Error: err: exit status 1: stderr: go: finding module for package github.com/NethermindEth/starknet.go go: finding module for package github.com/NethermindEth/starknet.go module github.com/NethermindEth/starknet.go@latest found (v0.4.6), but does not contain package github.com/NethermindEth/starknet.go .

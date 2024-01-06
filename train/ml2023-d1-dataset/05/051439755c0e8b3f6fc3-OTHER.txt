@@ -1,0 +1,8 @@
+┌─────────────────────────┐
+     • VMESS INFORMATION •
+└─────────────────────────┘
+┌─────────────────────────┐
+  ISP      : ID-ATHARVA
+  Username : cyber_hidessh
+  Status   : Created account
+└─────────────────────────┘

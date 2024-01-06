@@ -1,0 +1,42 @@
+#include <imgui.h>
+#include <iostream>
+
+int main()
+{
+    // Khởi tạo cửa sổ
+    ImGui::CreateContext();
+    ImGui::StyleColorsDark();
+    ImGui_ImplGlfw_InitForOpenGL(window, true);
+    ImGui_ImplOpenGL3_Init("#version 330 core");
+
+    // Thiết lập giá trị ban đầu
+    float value = 0.5f;
+
+    // Vòng lặp chính
+    while (!glfwWindowShouldClose(window))
+    {
+        ImGui_ImplOpenGL3_NewFrame();
+        ImGui_ImplGlfw_NewFrame();
+        ImGui::NewFrame();
+
+        // Tạo SliderFloat
+        ImGui::SliderFloat("Slider", &value, 0.0f, 1.0f);
+
+        // In giá trị hiện tại
+        std::cout << "Current value: " << value << std::endl;
+
+        ImGui::Render();
+        ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
+        
+        // Update các buffer và cập nhật cửa sổ
+        glfwSwapBuffers(window);
+        glfwPollEvents();
+    }
+
+    // Dọn dẹp
+    ImGui_ImplOpenGL3_Shutdown();
+    ImGui_ImplGlfw_Shutdown();
+    ImGui::DestroyContext();
+
+    return 0;
+}

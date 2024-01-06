@@ -1,0 +1,43 @@
+extension StringExtensions on String {
+  String capitalize() {
+    if (isEmpty) return this;
+    return this[0].toUpperCase() + substring(1);
+  }
+
+  String title() {
+    if (isEmpty) return this;
+    final words = split(' ');
+    final capitalizedWords = words.map((word) => word.capitalize());
+    return capitalizedWords.join(' ');
+  }
+
+  List<String> splitLines() {
+    return split('
+');
+  }
+
+  bool startsWith(String prefix, [int start = 0, int? end]) {
+    if (end == null) end = length;
+    if (start < 0 || start >= end) return false;
+    return substring(start, end).startsWith(prefix);
+  }
+
+  bool endsWith(String suffix, [int start = 0, int? end]) {
+    if (end == null) end = length;
+    if (start < 0 || start >= end) return false;
+    return substring(start, end).endsWith(suffix);
+  }
+
+  int find(String sub, [int start = 0, int? end]) {
+    if (end == null) end = length;
+    if (start < 0 || start >= end) return -1;
+    final index = substring(start, end).indexOf(sub);
+    return index == -1 ? -1 : index + start;
+  }
+
+  int index(String sub, [int start = 0, int? end]) {
+    final index = find(sub, start, end);
+    if (index == -1) throw Exception("Substring not found");
+    return index;
+  }
+}

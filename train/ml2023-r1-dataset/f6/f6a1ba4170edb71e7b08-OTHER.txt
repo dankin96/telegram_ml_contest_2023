@@ -1,0 +1,1 @@
+2023-10-07T03:07:31.258276Z ERROR mostrod::app::add_invoice: AddInvoice: Order Id 5cb0acec-f6fe-49ce-9743-44b48ad208e3 wrong status: "invalid variant: WaitingBuyerInvoice"

@@ -1,0 +1,4 @@
+Speed: 12.62 knots
+Gust:  15.47 knots
+Lull:  10.59 knots
+Dir:   354 degrees

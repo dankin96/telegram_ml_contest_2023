@@ -1,0 +1,1 @@
+cur.execute("""#     INSERT INTO users values (3, 'Azizbek', 'Azizbek', 12, '+Azizbek', 'Azizbek@gmail.com', 'Toshkent')# """)

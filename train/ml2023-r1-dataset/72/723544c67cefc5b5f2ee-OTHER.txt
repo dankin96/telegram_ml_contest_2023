@@ -1,0 +1,18 @@
+-----------------------------
+STATUS  | <1 | <3 | <6 | >=6 
+-----------------------------
+ONLINE  | 18 |  0 |  0 |  0 
+PWR OFF | 1 | 1 | 0 | 0
+LOS     | 0 | 1 | 1 | 0
+OFFLINE | 0 | 0 | 0 | 9
+UNKNOWN | 0 | 0 | 0 | 0
+TOTAL   | 19 | 2 | 1 | 9
+-----------------------------
+*bulan
+TOTAL ALL :  31
+
+ONT NOT ONLINE < 1 bulan : 1
+ONT NOT ONLINE < 3 bulan : 3
+ONT NOT ONLINE < 6 bulan : 4
+ONT NOT ONLINE >=6 bulan : 9
+Jumlah Port BT : 4

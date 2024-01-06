@@ -1,0 +1,5 @@
+ "type": "set", 
+ "name_prefix": "uid_device_ids", 
+ "value_type": "ent", 
+ "period": "h", 
+ "channel": "acquiring_beru"

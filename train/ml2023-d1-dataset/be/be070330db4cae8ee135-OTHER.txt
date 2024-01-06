@@ -1,0 +1,9 @@
+// G YY MM DD CC NNN C
+// | |  |  |  |  |   |
+// | |  |  |  |  |   +- Checksum
+// | |  |  |  |  +----- Serial Number
+// | |  |  |  +-------- County Code
+// | |  |  +----------- Day (of birth)
+// | |  +-------------- Month (of birth)
+// | +----------------- Year (of birth)
+// +------------------- Gender

@@ -1,0 +1,6 @@
+{
+    "status": "ERROR",
+    "entity": "generateLivenessSignedURL",
+    "state": "generateLivenessSignedURLError",
+    "message": "GetSetupConfigByAppID Not Found"
+}

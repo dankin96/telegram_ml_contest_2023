@@ -1,0 +1,3 @@
+Build release main status
+[PROJECT] esnsi-portal                       BUILD ✅
+[IMAGE] esnsi-portal:  IMAGE BUILD ✅

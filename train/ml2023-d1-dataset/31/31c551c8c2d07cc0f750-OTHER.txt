@@ -1,0 +1,4 @@
+L_MsgSubscriptionEdition
+L_MsgSubscriptionType
+L_MsgSubscriptionStatus
+

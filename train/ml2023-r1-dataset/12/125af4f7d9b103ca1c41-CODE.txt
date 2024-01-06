@@ -1,0 +1,4 @@
+info = ['code', 'description', 'name'][::-1]
+
+for i in info:
+    print(i)

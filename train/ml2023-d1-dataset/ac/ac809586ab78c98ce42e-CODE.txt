@@ -1,0 +1,20 @@
+lua
+local player = game.Players.LocalPlayer
+local debounce = false
+local function onClick()
+if debounce then
+    return
+end
+
+debounce = true
+-- Увеличьте значение Scale.X, Scale.Y и Scale.Z для увеличения размера персонажа
+player.Character.HumanoidRootPart.Size = player.Character.HumanoidRootPart.Size + Vector3.new(2, 2, 2)
+
+wait(1) -- Задержка перед следующим кликом
+debounce = false
+end
+game:GetService("UserInputService").InputBegan:Connect(function(input)
+if input.UserInputType == Enum.UserInputType.MouseButton1 then
+    onClick()
+end
+end)

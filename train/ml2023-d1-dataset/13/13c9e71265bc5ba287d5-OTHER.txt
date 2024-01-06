@@ -1,0 +1,4 @@
++ Windows 10 Enterprise LTSC 2021 (x64) - DVD (Arabic)
+-    ar-sa_windows_10_enterprise_ltsc_2021_x64_dvd_60bc2a7a.iso
+-    NULL
+-    2DA92433ED90F321B63C1F4B934F8B9300346C48003B80C237D5CA8B1B485C0B

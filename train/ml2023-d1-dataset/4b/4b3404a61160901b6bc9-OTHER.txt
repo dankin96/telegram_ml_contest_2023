@@ -1,0 +1,2 @@
+Management zone: GIS-Svyaz Tekhnograd
+Tags: GIS-Svyaz Tekhnograd, GIS-Svyaz Tekhnograd:blackout, [Environment]dnode-installer.sibir.rt.ru

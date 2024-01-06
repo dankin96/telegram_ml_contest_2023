@@ -1,0 +1,8 @@
+class Person(object):
+    def __init__(self):
+        self.__name = "CoderX"
+        self.age = 18 - 1
+
+access = Person()
+
+

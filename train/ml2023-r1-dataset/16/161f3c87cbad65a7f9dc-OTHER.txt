@@ -1,0 +1,15 @@
+1.3 Primeira Forma Normal (1ª FN)
+Conforme Navathe e Elmasri (2005, p. 224), “a primeira forma normal
+(1FN) foi definida como impedimento para a criação de atributos multiva-
+lorados, atributos compostos e combinação entre eles”. Com essa definição,
+iniciamos a conceituação de dependência funcional.
+Um projeto de banco de dados, em seu estado bruto (modelo desnorma-
+lizado), passará pela regra da Primeira Forma Normal (1ª FN), e o resultado
+da aplicação dessa regra leva o modelo de dados para a 1ª FN.
+A análise deve ser feita tendo como base a elevação do seu projeto de
+banco de dados do estado desnormalizado ou inicial para a 1ª FN. Devem-se
+analisar todos os atributos das entidades e verificar se o conteúdo do seu
+domínio é igual, o que pode representar atributos repetidos. Podemos
+verificar, ainda, em cada entidade, se existem atributos com domínio repetido
+que possam representar entidades aninhadas, ou seja, uma entidade dentro
+de outra entidade

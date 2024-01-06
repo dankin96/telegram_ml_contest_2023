@@ -1,0 +1,1 @@
+$title_pref  . ' ' . $this->xmlFeedHelper->escape($product->variant_name);

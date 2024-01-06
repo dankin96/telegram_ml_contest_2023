@@ -1,0 +1,6 @@
+HC-05 | Flipper
+RXD   | 13 (TX)
+TXD   | 14 (RX)
+GND   | 8/11/18 (GND)
+VCC   | 1 (5V)
+EN*   | 9 (3V3)

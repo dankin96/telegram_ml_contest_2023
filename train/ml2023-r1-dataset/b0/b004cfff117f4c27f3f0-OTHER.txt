@@ -1,0 +1,8 @@
+👀 SPAM Score detected:
+###
+Здорово!🩵
+###
+
+Reason: Сообщение от стороннего канала
+Action: deleteMessage
+Bot response: Successful ✅

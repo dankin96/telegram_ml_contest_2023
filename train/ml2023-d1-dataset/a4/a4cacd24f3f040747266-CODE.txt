@@ -1,0 +1,26 @@
+import threading
+
+class AtomicCounter:
+    def __init__(self):
+        self._value = 0
+        self._lock = threading.Lock()
+    
+    def increment(self):
+        with self._lock:
+            self._value += 1
+    
+    def decrement(self):
+        with self._lock:
+            self._value -= 1
+    
+    def get_value(self):
+        with self._lock:
+            return self._value
+
+
+counter = AtomicCounter()
+counter.increment()
+counter.increment()
+counter.decrement()
+
+print(counter.get_value())  # Output: 1

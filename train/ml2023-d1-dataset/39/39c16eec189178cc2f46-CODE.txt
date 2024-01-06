@@ -1,0 +1,32 @@
+import nodemailer from 'nodemailer'
+
+async function main() {
+
+  let transporter = nodemailer.createTransport({
+    host: "smtp.gmail.com",
+    port: 465, 
+    secure: true, 
+    auth: {
+      user: "demoUser1@gmail.com", // Your email address
+      pass: "doicah*****bwng", // Password (for gmail, your app password)
+    },
+    tls: {
+      rejectUnauthorized: false,
+    },
+  });
+  
+  let info = await transporter.sendMail({
+    from: 'demouser1@gmail.com',
+    to: "'demouser2@outlook.com",
+    subject: "Testing, testing, 123",
+    html: `
+    <h1>Hello there</h1>
+    `,
+  });
+
+  console.log(info.messageId); 
+}
+
+main()
+.catch(err => console.log(err));
+

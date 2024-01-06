@@ -1,0 +1,14 @@
+🎮 VM10   11.200
+Megaxus  10,000 MI Cash  
+🎮 VM20   22.000
+Megaxus  20,000 MI Cash  
+🎮 VM50   54.450
+Megaxus  50,000 MI Cash  
+🎮 VM100 108.850
+Megaxus 100,000 MI Cash 
+🎮 VM200 216.600
+Megaxus 210,000 MI Cash 
+🎮 VM500 539.950
+Megaxus 550,000 MI Cash 
+
+

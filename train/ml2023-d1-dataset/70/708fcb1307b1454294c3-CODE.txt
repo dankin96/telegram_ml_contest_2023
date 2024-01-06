@@ -1,0 +1,25 @@
+/* 创建示例数据集 */
+data people;
+   input name $ place $;
+   datalines;
+小明 上海
+小李 上海
+小成 福建
+小王 广东
+;
+
+/* 按照人名和地点分类 */
+proc sort data=people;
+   by name place;
+run;
+
+/* 将行转成列 */
+proc transpose data=people out=people_transposed;
+   by name;
+   id place;
+   var place;
+run;
+
+/* 输出结果 */
+proc print data=people_transposed;
+run;

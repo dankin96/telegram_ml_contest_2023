@@ -1,0 +1,1 @@
+scp root@45.12.72.22:/root/main.zip /mnt/c/Users/Samangelof/Downloads

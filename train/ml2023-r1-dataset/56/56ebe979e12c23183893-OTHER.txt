@@ -1,0 +1,13 @@
+yii\base\ErrorException: Undefined index: bookings in /var/www/tickets/frontend/modules/tickets/models/AviaGDSTicketsUa.php:836
+Stack trace:
+#0 /var/www/tickets/frontend/modules/tickets/models/AviaGDSTicketsUa.php(836): yii\base\ErrorHandler->handleError()
+#1 /var/www/tickets/frontend/modules/agent/controllers/BookingController.php(1059): frontend\modules
+ickets\models\AviaGDSTicketsUa->refundAction()
+#2 [internal function]: frontend\modules\agent\controllers\BookingController->actionRefundAuto()
+#3 /var/www/tickets/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#4 /var/www/tickets/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#5 /var/www/tickets/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#6 /var/www/tickets/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#7 /var/www/tickets/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#8 /var/www/tickets/frontend/web/index.php(25): yii\base\Application->run()
+#9 {main}

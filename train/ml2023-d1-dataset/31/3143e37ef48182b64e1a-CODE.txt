@@ -1,0 +1,1 @@
+select * from vs_system_views

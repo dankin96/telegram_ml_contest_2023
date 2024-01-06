@@ -1,0 +1,15 @@
+-- вложенный, возвращающий агрегированное выражение
+
+select * 
+  from table_1 t1
+ where id in (select MAX(id) as id
+                from table_2 
+               group by user_id)
+
+-- join, который делает то же самое
+
+select * 
+  from table_1 t1
+  join (select MAX(id) as id 
+          from table_2
+         group by user_id) t2 on t1.id = t2.id

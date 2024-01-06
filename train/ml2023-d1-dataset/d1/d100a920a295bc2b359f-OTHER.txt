@@ -1,0 +1,33 @@
+Exchange LOOMUSDT 1h Binance
+Price:    0.19|    0.19|    0.19
+Vol:  3,688,983|4,756,129|1,937,482
+ATR: 0.0051
+
+✅OBV:  98.8 M|  95.1 M|  99.8 M
+⚪RSI:   53.09|   50.97|   52.83
+⚪MFI:   61.94|   62.24|   64.44
+⚪CCI:   26.83|  -11.50|   31.51
+❌WR%:  -35.56|  -76.11|  -50.27
+✅ADX:   32.71|   32.06|   31.40
+
+✅MOM: Bullish Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+❌MACD: Bearish
+❌PSAR: Bearish
+
+Support And Resistance
+S: $0.186
+S: $0.193
+R: $0.196
+
+Volatility is average
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+🐻Volume: Bearish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

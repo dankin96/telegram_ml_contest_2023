@@ -1,0 +1,7 @@
+v10.1.1.1 (20470) Play Store uz
+Infinix Infinix X6816D android 11
+ROM: X6816D-ST683K-R-RU-230710V10
+Performance: AVERAGE
+Cache: 74,4 MB
+Database: 2,5 MB
+Free: 24,91 GB

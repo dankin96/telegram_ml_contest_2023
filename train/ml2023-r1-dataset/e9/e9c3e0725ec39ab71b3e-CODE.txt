@@ -1,0 +1,23 @@
+
+
+        if (!freeTimes.isEmpty()) {
+            LocalDateTime rightNow = LocalDateTime.now();
+            LocalDateTime roundedTime = rightNow.withMinute(0).withSecond(0).plusHours(1);
+            List<Timestamp> list = new ArrayList<>();
+            for (Timestamp freeTime : freeTimes) {
+
+                if (freeTime.toLocalDateTime().toLocalDate().minusDays(7).equals(LocalDate.now())) {
+                    if (freeTime.toLocalDateTime().minusDays(7).isBefore(roundedTime)) {
+                        freeTimes.remove(freeTime);
+                        list.add(Timestamp.valueOf(freeTime.toLocalDateTime().minusDays(7)));
+                    }
+                    else {
+                        freeTimes.remove(freeTime);
+                        list.add(Timestamp.valueOf(freeTime.toLocalDateTime()));
+                    }
+                }
+            }
+            freeTimes.addAll(list);
+        }
+        return freeTimes;
+    }

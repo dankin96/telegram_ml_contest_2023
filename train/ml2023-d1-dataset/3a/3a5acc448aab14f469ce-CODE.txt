@@ -1,0 +1,36 @@
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        for (int i = 10000; i < 100000; i++)
+        {
+            // 判断是否为偶数
+            if (i % 2 != 0)
+            {
+                continue;
+            }
+
+            int sum = 0;
+            int temp = i;
+
+            // 计算每个数位的立方和
+            while (temp > 0)
+            {
+                int digit = temp % 10;
+                sum += digit * digit * digit;
+                temp /= 10;
+            }
+
+            // 判断是否为水仙花数
+            if (sum == i)
+            {
+                Console.WriteLine("找到一个水仙花数：{0}", i);
+                break;
+            }
+        }
+
+        Console.WriteLine("程序结束");
+    }
+}

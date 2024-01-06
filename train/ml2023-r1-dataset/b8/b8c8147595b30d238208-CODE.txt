@@ -1,0 +1,1 @@
+print(f.getattribute('bar'))

@@ -1,0 +1,2 @@
+nash: Don't declare BOARD_NFC_CHIPSET
+That cflag is required for pn547, pn548 and pn551. pn553 doesn't require it

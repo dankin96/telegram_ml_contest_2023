@@ -1,0 +1,4 @@
+      - "traefik.enable=true"
+      - "traefik.http.routers.traefik.rule=Host(`traefik.hot.local`)"
+      - "traefik.http.routers.traefik.entrypoints=web"
+      - "traefik.http.services.traefik.loadbalancer.server.port=8080"

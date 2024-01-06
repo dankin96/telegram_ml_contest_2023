@@ -1,0 +1,7 @@
+Time: 2023-10-13T00:11:07.218Z
+Tag: SPS-MONIT-JOB
+Service: sps-monit-job---cdn-xh-wsu
+Class: /usr/src/sps-monit-job/src/jobGetTestList.js
+Line: <MISSING VALUE>
+Func: <MISSING VALUE>
+Message: API取得測流列表ERROR, url=http://sps-api/sp/sports/v1/cdn/list, sendData={"token":"JPqNOMuKF7QT8VURzcSav1Aj080L1ggt","supplier":"xh","signal":"wsu"}, err.message=Timeout of 30000ms exceeded

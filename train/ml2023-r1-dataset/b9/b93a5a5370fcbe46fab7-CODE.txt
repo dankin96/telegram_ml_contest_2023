@@ -1,0 +1,4 @@
+with open("numbers.txt") as file:
+    lst_sum = [sum(map(int, line.split())) for line in file]
+    print(*lst_sum, sep="
+")

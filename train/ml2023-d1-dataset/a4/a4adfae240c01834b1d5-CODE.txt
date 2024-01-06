@@ -1,0 +1,16 @@
+(
+    [ok] => 1
+    [result] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 1007839111
+                    [is_bot] => 
+                    [first_name] => ℬ🅰️ℛℳ🄴🄽🅃🅰️🅻🄸🅂🄺
+                    [username] => barmentalisk
+                )
+
+            [status] => member
+        )
+
+)

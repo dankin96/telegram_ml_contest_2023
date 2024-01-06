@@ -1,0 +1,11 @@
+[
+    {
+        "name": "Tesla P40",
+        "temperature": "62",
+        "utilization_gpu": "96",
+        "utilization_memory": "22",
+        "memory_total": "24576",
+        "memory_free": "1231",
+        "memory_used": "23220"
+    }
+]

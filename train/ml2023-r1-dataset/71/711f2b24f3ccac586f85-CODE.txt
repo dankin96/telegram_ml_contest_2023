@@ -1,0 +1,1 @@
+assert ERC20.Transfer(alice, bob, 10**9) in tx.events

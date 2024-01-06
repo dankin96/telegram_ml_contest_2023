@@ -1,0 +1,2 @@
+nano /root/.ssh/authorized_keys
+

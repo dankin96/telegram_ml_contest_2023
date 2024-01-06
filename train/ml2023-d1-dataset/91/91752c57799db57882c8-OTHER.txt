@@ -1,0 +1,4 @@
+Triggered take profit: 1.22667
+Next take profit: 1.22946
+New stop loss: 1.22527
+Trade id: GBPUSDb2001405

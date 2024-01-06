@@ -1,0 +1,2 @@
+ <param name="inbound-bypass-media" value="true"/>
+    <param name="inbound-proxy-media" value="true"/>

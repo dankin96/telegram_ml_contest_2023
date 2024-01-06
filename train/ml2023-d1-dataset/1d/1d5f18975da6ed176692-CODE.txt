@@ -1,0 +1,5 @@
+/**
+ * @var KernelBrowser
+ */
+protected KernelBrowser $client;
+

@@ -1,0 +1,2 @@
+html
+<iframe src="your-bitrix-app-url" allow="clipboard-write"></iframe>

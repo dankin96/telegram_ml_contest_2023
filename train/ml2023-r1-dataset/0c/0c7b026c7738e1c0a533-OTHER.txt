@@ -1,0 +1,16 @@
+[    1.564173] dwmmc_rockchip fe2c0000.mmc: IDMAC supports 32-bit address mode. 
+[    1.564196] dwmmc_rockchip fe2c0000.mmc: Using internal DMA controller. 
+[    1.564202] dwmmc_rockchip fe2c0000.mmc: Version ID is 270a 
+[    1.564215] dwmmc_rockchip fe2c0000.mmc: DW MMC controller at irq 71,32 bit host data width,256 deep fifo 
+[    1.564510] dwmmc_rockchip fe2c0000.mmc: Got CD GPIO 
+[    1.577194] mmc_host mmc1: Bus speed (slot 0) = 400000Hz (slot req 400000Hz, actual 400000HZ div = 0) 
+[    1.614502] mmc_host mmc1: Bus speed (slot 0) = 49500000Hz (slot req 50000000Hz, actual 49500000HZ div = 0) 
+[    1.614691] mmc1: new high speed SDHC card at address 211f 
+[    1.615315] mmcblk1: mmc1:211f APPSD 29.5 GiB 
+[    1.621993] GPT:Primary header thinks Alt. header is not at the end of the disk. 
+[    1.622002] GPT:2850815 != 61849599 
+[    1.622006] GPT:Alternate GPT header not at the end of the disk. 
+[    1.622008] GPT:2850815 != 61849599 
+[    1.622010] GPT: Use GNU Parted to correct GPT errors. 
+[    1.622021]  mmcblk1: p1 p2 
+[    3.614008] EXT4-fs (mmcblk1p2): mounted filesystem b4d312c2-c3a9-49a3-8cf7-02dc202c2a90 ro with writeback data mode. Quota mode: none. 

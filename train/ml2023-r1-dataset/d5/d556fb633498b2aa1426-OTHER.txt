@@ -1,0 +1,6 @@
+Host:     MHC-123.30.186.154
+Alias:    MHC-123.30.186.154
+Address:  123.30.186.154
+Service:  Memory
+Event:    OK -> CRIT
+Output:   CRIT - RAM used: 117.97 GB of 125.66 GB, Swap used: 3.97 GB of 4.00 GB, Total virtual memory used: 121.93 GB of 129.66 GB (94.0%, warn/crit at 80.0%/90.0%)(!!),

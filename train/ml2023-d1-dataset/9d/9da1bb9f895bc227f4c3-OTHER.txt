@@ -1,0 +1,11 @@
+
+---------------------------
+Python-CFFI error
+---------------------------
+Exception ignored from cffi callback <function socket_function at 0x000001FD2542C1F0>:
+Traceback (most recent call last):
+  File "D:\Dev\AI\NeuroGPT\venv\lib\site-packages\curl_cffi\aio.py", line 62, in socket_function
+    loop.add_reader(sockfd, async_curl.process_data, sockfd, CURL_CSELECT_IN)
+  File "C:\Users\HardTest\AppData\Local\Programs\Python\Python310\lib\asyncio\events.py", line 518, in add_reader
+    raise NotImplementedError
+NotImplementedError: 

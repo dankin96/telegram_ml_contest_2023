@@ -1,0 +1,4 @@
+♛ Day        = 350 INR
+♛ Month      = 2400 INR(GL)
+♛ Month      = 1900 INR(BGMI)
+

@@ -1,0 +1,9 @@
+> Does not fail avb (no need to flash vbmeta)
+> Initial Release
+> Only for M21 , other devices soon (probably)(need testers)
+> Added nano
+> Added bash
+> Settings now persist (on encrypted devices)
+> Themes work now (on encrypted devices)
+> Made the device trees compliant to Official Maintainer Guidelines
+

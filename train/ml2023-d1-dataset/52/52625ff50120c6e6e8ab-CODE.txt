@@ -1,0 +1,4 @@
+>>> str(datetime.datetime.now())
+'2023-10-10 10:35:43.776819'
+>>> datetime.datetime.now().isoformat()
+'2023-10-10T10:36:10.856768'

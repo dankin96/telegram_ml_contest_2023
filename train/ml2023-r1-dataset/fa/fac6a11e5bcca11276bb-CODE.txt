@@ -1,0 +1,74 @@
+import hmac
+import hashlib
+import requests
+
+from pprint import pprint
+# Импорт ключей из файла конфигурации
+from config import auth_keys
+
+
+class RichamsterException(Exception):
+
+    def __init__(self, err_text=''):
+        self.__err_text = err_text
+
+    def __str__(self, *args, **kwargs):
+        return self.__err_text
+
+
+class RichamsterAPI:
+    # float to string conversion
+    decimalplaces = 9
+    __dpstr = '{:.' + str(decimalplaces) + 'f}'
+
+    def __init__(self, access_key=None, secret_key=None):
+        self.api_version = 'v1'
+        self.access = access_key
+        self.secret = secret_key
+        self.api_url = 'https://richamster.com/public/'
+
+    @staticmethod
+    def __check_trade_api_response(resp_json):
+        """
+        Поднимает исключение, если данные с биржи содержат ошибку
+        Raise exception, if data from exchange contain error
+
+        :param resp_json: Данные с биржи в формате
+            JSONData from stock exchange in JSON format
+        :type resp_json: dict
+
+        :return: Истина, если данные со склада успешны
+            True, if data from stock is success
+        :rtype : bool
+
+        """
+        try:
+            retval = True if isinstance(resp_json, list) else False
+        except KeyError:
+            retval = False
+        try:
+            estr = resp_json['detail'] if not retval else ''
+        except KeyError:
+            estr = 'Unknown error.'
+
+        if not retval:
+            raise RichamsterException(estr)
+
+        return retval
+
+    def call_api(self, method):
+        """
+
+        """
+
+        message = ''
+        signature = hmac.new(self.secret.encode('utf-8'),
+                             message.encode('utf-8'),
+                             hashlib.sha256).hexdigest()
+        headers = {"Api-Key": self.access, "Signature": signature}
+        query_url = self.api_url + self.api_version + method
+        response = requests.get(query_url, headers=headers)
+        # response.raise_for_status()
+        obj = response.json()
+        self.__check_trade_api_response(obj)
+        return obj

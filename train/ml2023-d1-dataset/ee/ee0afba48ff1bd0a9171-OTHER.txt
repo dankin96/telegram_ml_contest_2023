@@ -1,0 +1,27 @@
+Omada's Open API supports the REST API of most Controller services. This feature allows Omada users to write custom applications, embed APIs, or combine their own applications. The REST API supports HTTP GET and POST operations by providing specific URLs for each query. The output of these operations is returned in JSON format. To access the API securely, the Omada API framework supports the OAuth 2.0 protocol for authentication and authorization, which allows you to access resources authorized by users without obtaining user names and passwords, and supports the authorization code mode and client credentials mode.
+
+The authorization code grant type is used to obtain both access tokens and refresh tokens and is optimized for confidential clients. Since this is a redirection-based flow, the client must be capable of interacting with the resource owner's user-agent (typically a web browser) and capable of receiving incoming requests (via redirection) from the authorization server.
+
+The following is the authorization code mode process：
+1、The user visits the client.
+2、The client directs the user to the authentication server (Omada).
+3、User logs in (/openapi/login), and authorize the third-party client.
+4、The authentication server directs the user to the redirection URL specified by the client in advance, and attaches an authorization code (redirect URL + ?code={authorization code}, if the redirect URL is https://redirect.com, it is https://redirect.com?code=authCode).
+5、The client uses the authorization code to exchange the accessToken from the authentication server (Omada).
+6、The authentication server (Omada) authenticates the client and issues an access token.
+7、The client uses the access token to apply for resources from the resource server (Omada).
+8、The resource server (Omada) confirms the access token and opens resources to the client.
+9、The client can exchange an access token through refresh token, client ID, and client secret.
+
+The client can request an access token using only its client credentials (or other supported means of authentication) when the client is requesting access to the protected resources under its control, or those of another resource owner that have been previously arranged with the authorization server (the method of which is beyond the scope of this specification).
+
+The following is the client credentials mode process：
+1、The user opens the client, and the client requires the user to authorize.
+2、The user agrees to authorize the client.
+3、The client uses the authorization obtained to apply for an access token from the authentication server (Omada).
+4、The authentication server (Omada) authenticates the client and issues an access token.
+5、The client uses the access token to apply for resources from the resource server (Omada).
+6、The resource server (Omada) confirms the access token and open resources to the client.
+7、The client can exchange an access token through refresh token, client ID, and client secret.
+
+Note: Open API single visits are limited to 1000 visits per MSP/customer per day.

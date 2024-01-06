@@ -1,0 +1,9 @@
+Elaboration latency over threshold for curve USD3M. Max: 12332.0 ms
+
+Threshold violation, max:metric.value 12332.0 (min: 0 max : 5000) 
+
+@timestamp: 2023-10-11T08:39:00Z
+metric.name.keyword: USD3M
+metric_metric.value_max: 12332.0
+num_hits: 6291
+num_matches: 2

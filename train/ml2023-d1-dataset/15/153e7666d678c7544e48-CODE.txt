@@ -1,0 +1,21 @@
+_G.Loop = true
+
+while _G.Loop and task.wait() do
+    if game.Players.LocalPlayer.leaderstats.Rebirths.Value == 3 then
+        _G.Loop = false
+    end
+    
+    task.spawn(function()
+        local args = {
+            [1] = "Power"
+        }
+        game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("ClaimDauly"):FireServer(unpack(args))
+
+        local args = {
+            [1] = 1,
+            [2] = "SEcrEt",
+            [3] = 45000
+        }
+        game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("Rebirths"):FireServer(unpack(args))
+    end)
+end

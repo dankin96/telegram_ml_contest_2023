@@ -1,0 +1,51 @@
+export const GetFollowings = ({ userId }: IProps) => {
+  const [list, setList] = useState<IPublicUser[]>([]);
+  const [listCount, setListCount] = useState<number>(0);
+  const [hasMore, setHasMore] = useState(true);
+  const [ref, inView] = useInView({ threshold: 0 });
+  const [isLoading, setLoading] = useState(false);
+  const [offset, setOffset] = useState<number>(0);
+
+  const loadNext = useCallback(() => {
+    const limit = 10;
+    if (hasMore && !isLoading) {
+      setLoading(true);
+      setOffset((prev) => prev + limit);
+      void getFollowingsHandler(parseInt(userId), offset, limit)
+        .then((res) => {
+          setList((prev) => [...prev, ...res.items]);
+          setListCount(res.total);
+          setHasMore(res.items.length >= limit);
+          setLoading(false);
+        })
+        .catch((e) => {
+          console.log(e);
+          setHasMore(false);
+          setLoading(false);
+        });
+    }
+  }, [hasMore, isLoading, offset, userId]);
+
+  useEffect(() => {
+    if (inView) {
+      loadNext();
+    }
+  }, [inView, loadNext]);
+
+  return (
+    <div className="grid items-center w-full">
+      <strong className="text-2xl">Followings ({listCount})</strong>
+      {list.length != 0 ? (
+        <div className="w-full grid gap-3 h-[600px] overflow-y-auto content-start">
+          {list.map((user, index) => (
+            <UserCard key={index} user={user} />
+          ))}
+        </div>
+      ) : (
+        <>No friends :(</>
+      )}
+      {isLoading && <EllipsisSpinner />}
+      {hasMore && <div ref={ref} className="w-full bg-red-200" />}
+    </div>
+  );
+};

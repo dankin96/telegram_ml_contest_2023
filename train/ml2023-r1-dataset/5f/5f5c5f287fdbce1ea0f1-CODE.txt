@@ -1,0 +1,4 @@
+  "compilreOptions": {
+   "foo": false,
+   "bar": false,
+  }

@@ -1,0 +1,29 @@
+12 October Thursday 
+🍽Yemek Listesi🍽 
+
++------------------+
+| Günlük Menü      |
++------------------+
+| Mercimek Çorbası |
+| Tavuk Sote       |
+| Bulgur Pilavı    |
+| Meyve            |
++------------------+
+
++-------------------+
+| Vejetaryen Menü   |
++-------------------+
+| Mercimek Çorbası  |
+| Zeytinyağlı Bamya |
+| Bulgur Pilavı     |
+| Meyve             |
++-------------------+
+
++-------------------+
+| Vegan Menü        |
++-------------------+
+| Mercimek Çorbası  |
+| Zeytinyağlı Bamya |
+| Bulgur Pilavı     |
+| Meyve             |
++-------------------+

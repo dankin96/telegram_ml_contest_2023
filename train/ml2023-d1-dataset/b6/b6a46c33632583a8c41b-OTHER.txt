@@ -1,0 +1,1 @@
+Question @SecretSaturn is this relevant for the Ledger Live support as well? And would we be natively be able to add SNIP assets on the ledger app (SILK, SHD)?

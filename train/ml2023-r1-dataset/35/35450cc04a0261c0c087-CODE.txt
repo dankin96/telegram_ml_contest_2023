@@ -1,0 +1,7 @@
+send-message-with-keyboard-fake (fc/patch! ctx #'tg/send-message-with-keyboard*
+                                                                (fc/recorded-fake ctx [[(fc/arg int?) (fc/arg string?) fc/any]
+                                                                                       (fn [_chat-id _message-id _kbd] (p/resolved "ok"))
+                                                                                       [(fc/arg int?) (fc/arg string?) fc/any (fc/arg map?)]
+                                                                                       (fn [_chat-id _message-id _kbd _ctx] (p/resolved "ok"))
+                                                                                       [(fc/arg int?) (fc/arg string?) fc/any (fc/arg map?) (fc/arg string?)]
+                                                                                       (fn [_chat-id _message-id _kbd _ctx _locale] (p/resolved "ok"))]))

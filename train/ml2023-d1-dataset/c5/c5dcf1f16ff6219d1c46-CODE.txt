@@ -1,0 +1,4 @@
+IF LAG(ANY([downtime]) ORDER BY [time]) IS TRUE AND [downtime] IS FALSE
+    THEN TRUE
+    ELSE FALSE
+END

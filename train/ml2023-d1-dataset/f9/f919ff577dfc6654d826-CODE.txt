@@ -1,0 +1,12 @@
+kotlin
+    fun minCostClimbingStairs(cost: IntArray): Int {
+      val dp = mutableMapOf<Int, Int>()
+      fun dfs(curr: Int): Int = dp.getOrPut(curr) {
+        if (curr >= cost.lastIndex) 0
+        else min(
+          cost[curr] + dfs(curr + 1),
+          cost[curr + 1] + dfs(curr + 2)
+        )
+      }
+      return dfs(0)
+    }

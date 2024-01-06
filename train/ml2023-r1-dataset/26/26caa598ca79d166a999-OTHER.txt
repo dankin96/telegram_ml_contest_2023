@@ -1,0 +1,7 @@
+- Download ROM, GAPPS and magisk if you use.
+- Copy files to SD
+- Reboot recovery
+- Flash ROM, GAPPS and magisk if you use.
+- Format data and reboot.
+- Enjoy! happy flash
+

@@ -1,0 +1,2 @@
+adb sideload OrangeFox-R11.1-Unofficial-spes.zip 
+

@@ -1,0 +1,5 @@
+for (Field f: MyClass.class.getFields()) {
+   Column column = f.getAnnotation(Column.class);
+   if (column != null)
+       System.out.println(column.columnName());
+}

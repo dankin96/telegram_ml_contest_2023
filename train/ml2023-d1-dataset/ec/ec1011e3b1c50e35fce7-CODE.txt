@@ -1,0 +1,9 @@
+interface SampleInt{
+    m()
+}
+
+class SampleClass: SampleInt {
+    override m(){
+        console.log("say hi")
+    }
+}

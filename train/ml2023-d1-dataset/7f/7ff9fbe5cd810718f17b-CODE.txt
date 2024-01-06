@@ -1,0 +1,2 @@
+console.log('ownerJettonA', ownerJettonA.address);
+console.log('await tokenA.getGetWalletAddress(owner.address)', await tokenA.getGetWalletAddress(owner.address));

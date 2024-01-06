@@ -1,0 +1,1 @@
+fastboot flash system {image_name)

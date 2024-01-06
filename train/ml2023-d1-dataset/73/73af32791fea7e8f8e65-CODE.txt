@@ -1,0 +1,7 @@
+    const response = this.page.waitForResponse('https://staging-back.############');
+    await this.awbNumber.click();
+    console.log('клик');
+    await response;
+    console.log(response);
+    const responseBody = await response;
+    console.log(responseBody);

@@ -1,0 +1,6 @@
+Using dotnet configured on PATH
+Dotnet path: C:\Program Files\dotnet\dotnet.exe
+Activating C# + C# Dev Kit + C# IntelliCode...
+waiting for named pipe information from server...
+[Error - 11:55:06 AM] Microsoft.CodeAnalysis.LanguageServer client: couldn't create connection to server.
+Error: Timeout. Named pipe information not received from server.

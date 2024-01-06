@@ -1,0 +1,38 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.linear_model import LinearRegression
+
+# 读取数据
+data = pd.read_csv('data.csv')
+
+# 将数据分为自变量和因变量
+X = data.iloc[:, :-1].values
+y = data.iloc[:, 1].values
+
+# 将数据集分为训练集和测试集
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+
+# 训练模型
+regressor = LinearRegression()
+regressor.fit(X_train, y_train)
+
+# 预测测试集结果
+y_pred = regressor.predict(X_test)
+
+# 可视化训练集结果
+plt.scatter(X_train, y_train, color='red')
+plt.plot(X_train, regressor.predict(X_train), color='blue')
+plt.title('Training set')
+plt.xlabel('Independent variable')
+plt.ylabel('Dependent variable')
+plt.show()
+
+# 可视化测试集结果
+plt.scatter(X_test, y_test, color='red')
+plt.plot(X_train, regressor.predict(X_train), color='blue')
+plt.title('Test set')
+plt.xlabel('Independent variable')
+plt.ylabel('Dependent variable')
+plt.show()

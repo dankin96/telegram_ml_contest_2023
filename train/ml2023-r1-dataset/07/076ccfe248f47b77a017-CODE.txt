@@ -1,0 +1,19 @@
+alias: Свет кабинет диммирование
+description: ""
+trigger:
+  - platform: state
+    entity_id:
+      - sensor.button_kabinet_ikea_action
+condition: []
+action:
+  - if:
+      - condition: state
+        entity_id: sensor.button_kabinet_ikea_action
+        state: brightness_move_up
+    then:
+      - service: light.turn_on
+        data:
+          brightness_step_pct: 20
+        target:
+          entity_id: light.gostinnaya_lights
+mode: single

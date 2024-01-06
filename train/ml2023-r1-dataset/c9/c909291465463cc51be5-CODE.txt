@@ -1,0 +1,5 @@
+Area => IPV
+Event Type => HEALTH-KO 
+Label => EXTEMPORANEOUS 
+Long Message => ExecuteMessage with id:1711206 assetClass:Bond assetType:Bond date:20231004 
+Short Message => JBOSS is CRITICAL

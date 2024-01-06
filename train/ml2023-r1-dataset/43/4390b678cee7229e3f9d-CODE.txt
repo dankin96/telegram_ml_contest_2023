@@ -1,0 +1,33 @@
+class TabsBuilder {
+  timeout = 1000;
+  #subs = new Map<number, () => void>();
+
+  constructor() {
+    chrome.tabs.onUpdated.addListener((id, info) =>
+      this.update(id, info));
+  }
+
+  update(id: number, info: chrome.tabs.TabChangeInfo) {
+    if (info.status !== 'complete')
+      return;
+
+    this.#subs.get(id)?.();
+  }
+
+  async create(url: string) {
+    const tab = await chrome.tabs.create({ url });
+
+    return new Promise<chrome.tabs.Tab>((resolve, reject) => {
+      const timer = setTimeout(() => {
+        this.#subs.delete(tab.id);
+        reject(new Error('Timeout'));
+      }, this.timeout);
+
+      this.#subs.set(tab.id, () => {
+        clearTimeout(timer);
+        resolve(tab);
+        this.#subs.delete(tab.id);
+      });
+    });
+  }
+}

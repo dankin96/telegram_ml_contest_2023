@@ -1,0 +1,7 @@
+by default, no.
+
+You would have to query the source chain or the denom to get the exponents. 
+query ibc-transfer denom-trace then query that on the original source chain
+So you may have to query the genesis of that denom using something like https://cosmos.directory/ for a frontend
+
+If you need this for a contract or x/ module, you would need to hardcode it

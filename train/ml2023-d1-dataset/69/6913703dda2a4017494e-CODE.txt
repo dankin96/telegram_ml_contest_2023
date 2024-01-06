@@ -1,0 +1,37 @@
+program quadratic_equation;
+
+var
+  a, b, c, discriminant, x1, x2: real;
+
+begin
+  writeln('Введите коэффициенты квадратного уравнения ax^2 + bx + c = 0');
+  write('a = ');
+  readln(a);
+  write('b = ');
+  readln(b);
+  write('c = ');
+  readln(c);
+
+  discriminant := b * b - 4 * a * c;
+
+  if discriminant > 0 then
+  begin
+    x1 := (-b + sqrt(discriminant)) / (2 * a);
+    x2 := (-b - sqrt(discriminant)) / (2 * a);
+    writeln('Уравнение имеет два корня:');
+    writeln('x1 = ', x1:0:2);
+    writeln('x2 = ', x2:0:2);
+  end
+  else if discriminant = 0 then
+  begin
+    x1 := -b / (2 * a);
+    writeln('Уравнение имеет один корень:');
+    writeln('x = ', x1:0:2);
+  end
+  else
+  begin
+    writeln('Уравнение не имеет действительных корней');
+  end;
+
+  readln;
+end.

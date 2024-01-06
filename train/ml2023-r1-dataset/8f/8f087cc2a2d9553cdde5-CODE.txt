@@ -1,0 +1,6 @@
+const tmp = isog.getOrPut(std.ascii.toLower(e)) catch
+            return false;
+
+if (tmp.found_existing) {
+            return false;
+}

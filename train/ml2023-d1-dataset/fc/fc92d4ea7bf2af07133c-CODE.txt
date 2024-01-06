@@ -1,0 +1,6 @@
+nft 'add chain ip mangle INPUT { type filter hook output priority  150; policy accept; }'
+nft 'add chain ip mangle OUTPUT { type filter hook output priority  150; policy accept; }'
+
+nft add rule ip mangle INPUT iifname "eth0" ip protocol udp ip daddr 255.255.255.255 udp dport 6112 counter mark set 900 dup to 255.255.255.255 device "tun0"
+
+nft add rule ip mangle OUTPUT oifname "tun0" meta mark 900 counter ip daddr set 192.168.55.5

@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+TAG=latest
+
+docker pull jketterl/openwebrx:${TAG}
+docker stop openwebrx || true
+docker rm openwebrx || true
+docker run --name openwebrx -d --restart=unless-stopped --device /dev/bus/usb --tmpfs=/tmp/openwebrx -p 8073:8073 -v openwebrx-config:/etc/openwebrx -v openwebrx-settings:/var/lib/openwebrx jketterl/openwebrx:${TAG}

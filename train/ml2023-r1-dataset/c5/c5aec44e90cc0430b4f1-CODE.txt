@@ -1,0 +1,1 @@
+msg.post("@render:", "use_fixed_projection", { zoom = self.zoom, near = -1, far = 1000 })

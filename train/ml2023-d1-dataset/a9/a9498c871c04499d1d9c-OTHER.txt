@@ -1,0 +1,3 @@
+cvai0apcf1012vp
+Bootstrap
+ERROR task bootstrap for curve: USD1MCME - Missing MID/SPREAD values for USD1M-CME_IRDEPOSIT_O/N 4825

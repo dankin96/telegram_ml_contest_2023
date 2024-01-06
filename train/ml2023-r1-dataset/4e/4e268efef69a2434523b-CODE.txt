@@ -1,0 +1,7 @@
+enum Variants {
+    HUI = "1"
+    GOVNO = "2"
+}
+
+console.log(Variants.HUI)
+// output: 1

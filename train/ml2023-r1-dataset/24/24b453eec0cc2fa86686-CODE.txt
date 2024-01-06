@@ -1,0 +1,1 @@
+for ID in $(cat droplist-ED-16.json | jq 'keys[]');do echo "openstack --os-cloud ED-16 image show $ID -fjson" ;done

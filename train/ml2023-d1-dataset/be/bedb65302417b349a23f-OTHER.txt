@@ -1,0 +1,5 @@
+vless://d04cb114-7518-47c2-962d-4a730e31e109@bachekoshbacheraft.ephoria-roye-mari.sbs:2082?type=tcp&path=%2F&host=www.speedtest.net&headerType=http&security=none#bolbolvpn-GAP-01
+vless://cb66e1ce-fbaa-4552-86ab-7a6ed0af6b84@bachekoshbacheraft.ephoria-roye-mari.sbs:2052?type=tcp&path=%2F&host=Quickshare.samsungcloud.com&headerType=http&security=none#bolbolvpn-GAP-02
+vless://eed8620b-fe9c-4941-905a-705f43ac0299@bachekoshbacheraft.ephoria-roye-mari.sbs:2095?type=tcp&path=%2F&host=support.cloudflare.com&headerType=http&security=none#bolbolvpn-GAP-03
+vless://c4e1e1ab-ed60-4677-a1d9-e61c4a87b83f@bachekoshbacheraft.ephoria-roye-mari.sbs:8880?type=tcp&path=%2F&host=www.cloudflare.com&headerType=http&security=none#bolbolvpn-GAP-04
+

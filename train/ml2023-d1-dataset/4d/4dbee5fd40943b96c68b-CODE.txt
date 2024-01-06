@@ -1,0 +1,81 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Elon Musk",
+  "birthDate": "1971-06-28",
+  "gender": "Male",
+  "nationality": "South African",
+  "description": "Elon Musk is a business magnate, investor, and engineer. He is the founder, CEO, and chief engineer/designer of SpaceX; early investor, CEO, and product architect of Tesla, Inc.; founder of The Boring Company; co-founder of Neuralink; and co-founder and initial co-chairman of OpenAI.",
+  "image": "https://example.com/elon-musk.jpg",
+  "sameAs": [
+    "https://www.twitter.com/elonmusk",
+    "https://www.instagram.com/elonmusk",
+    "https://www.linkedin.com/in/elonmusk"
+  ],
+  "birthPlace": {
+    "@type": "Place",
+    "name": "Pretoria, South Africa"
+  },
+  "education": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "University of Pretoria",
+      "location": {
+        "@type": "Place",
+        "name": "Pretoria, South Africa"
+      },
+      "startDate": "1989",
+      "endDate": "1990",
+      "url": "https://www.up.ac.za/"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "Queen's University",
+      "location": {
+        "@type": "Place",
+        "name": "Kingston, Ontario, Canada"
+      },
+      "startDate": "1990",
+      "endDate": "1992",
+      "url": "https://www.queensu.ca/"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "University of Pennsylvania",
+      "location": {
+        "@type": "Place",
+        "name": "Philadelphia, Pennsylvania, United States"
+      },
+      "startDate": "1995",
+      "endDate": "1997",
+      "url": "https://www.upenn.edu/"
+    }
+  ],
+  "worksFor": [
+    {
+      "@type": "Organization",
+      "name": "SpaceX",
+      "url": "https://www.spacex.com/"
+    },
+    {
+      "@type": "Organization",
+      "name": "Tesla, Inc.",
+      "url": "https://www.tesla.com/"
+    },
+    {
+      "@type": "Organization",
+      "name": "The Boring Company",
+      "url": "https://www.boringcompany.com/"
+    },
+    {
+      "@type": "Organization",
+      "name": "Neuralink",
+      "url": "https://www.neuralink.com/"
+    },
+    {
+      "@type": "Organization",
+      "name": "OpenAI",
+      "url": "https://www.openai.com/"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+const arr = [1, 3] as const
+const [x, y, w ] = arr

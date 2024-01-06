@@ -1,0 +1,1 @@
+Oct 8 01:50:01 vmi1216466 sshd[303802]: banner exchange: Connection from 185.87.48.4 port 43490: invalid format

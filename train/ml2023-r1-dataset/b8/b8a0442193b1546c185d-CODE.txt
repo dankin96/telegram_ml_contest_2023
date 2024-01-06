@@ -1,0 +1,2 @@
+perl -MLWP::Simple -MJSON -e '$ref = decode_json(get("https://www.cbr-xml-daily.ru/daily_json.js")); print $ref->{"Valute"}->{"USD"}->{"Value"}."
+"'

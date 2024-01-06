@@ -1,0 +1,15 @@
+
+a = [1, 2]
+b = [ a ]
+c = b.copy() # This is a shallow copy because the [1,2] will refer to a 
+
+# i.e. c is [ a ]
+c[0] is b[0] # returns True
+
+import deepcopy from copy
+
+d = deepcopy(b)
+
+# this will result in d = [ [ 1, 2] ] 
+
+d[0 ] is b0] # returns False

@@ -1,0 +1,5 @@
+Problem has been resolved in 3m 0s at 09:29:41 on 2023.10.08
+Problem name: Unavailable by ICMP ping
+Host: Router Vodafone Estacion Cambados - 10.229.4.1
+Severity: High
+Original problem ID: 96352

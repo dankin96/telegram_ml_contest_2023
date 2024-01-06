@@ -1,0 +1,25 @@
+bash
+docker-compose -f docker-compose.dev.yml up
+[+] Running 2/0
+ ✔️ Container manticore                      Created                                                                                                                              0.0s 
+ ✔️ Container manticore-search-go-service-1  Created                                                                                                                              0.0s 
+Attaching to manticore, manticore-search-go-service-1
+manticore                      | Manticore 6.2.12 dc5144d35@230822 (columnar 2.2.4 5aec342@230822) (secondary 2.2.4 5aec342@230822)
+manticore-search-go-service-1  | [] dial tcp 127.0.0.1:9312: connect: connection refused
+manticore-search-go-service-1  | [] dial tcp 127.0.0.1:9312: connect: connection refused
+manticore-search-go-service-1  | [] dial tcp 127.0.0.1:9312: connect: connection refused
+manticore                      | starting daemon version '6.2.12 dc5144d35@230822 (columnar 2.2.4 5aec342@230822) (secondary 2.2.4 5aec342@230822)' ...
+manticore                      | listening on all interfaces for mysql, port=9306
+manticore                      | listening on UNIX socket /var/run/mysqld/mysqld.sock
+manticore                      | listening on 172.21.0.2:9312 for sphinx and http(s)
+manticore                      | listening on all interfaces for sphinx and http(s), port=9308
+manticore                      | prereading 0 tables
+manticore                      | preread 0 tables in 0.000 sec
+manticore                      | accepting connections
+manticore                      | [BUDDY] started v1.0.18 '/usr/share/manticore/modules/manticore-buddy/bin/manticore-buddy --listen=http://172.21.0.2:9312  --threads=16' at http://12
+7.0.0.1:38901
+manticore                      | [BUDDY] Loaded plugins:
+manticore                      | [BUDDY]   core: empty-string, backup, emulate-elastic, insert, select, show, cli-table, plugin, test, insert-mva
+manticore                      | [BUDDY]   local:
+manticore                      | [BUDDY]   extra:
+manticore-search-go-service-1 exited with code 0

@@ -1,0 +1,4 @@
+obj.GetLinks
+obj.Get|Links
+хотим поменять на GetFirstObject, а получим
+obj.GetFirstObjectLinks

@@ -1,0 +1,8 @@
+#Component.vue
+<v-data-table-server ...>
+<v-data-table-server>
+
+#some page.vue
+<Component>
+    <template #item.username>...</template>
+</Component>

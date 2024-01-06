@@ -1,0 +1,3 @@
+GET /wishlist/:id
+GET /wishlist/:id/wishes
+

@@ -1,0 +1,118 @@
+#include <Wire.h>
+#include <RTClib.h>
+#include <LiquidCrystal_I2C.h>
+
+RTC_DS3231 rtc;
+LiquidCrystal_I2C lcd(0x27, 16, 2); // Adresse I2C de l'afficheur LCD
+
+const int relayPin = 13; // Broche pour le relais
+const int buttonSetHourPin = 2; // Broche pour le bouton de réglage de l'heure
+const int buttonSetMinutePin = 3; // Broche pour le bouton de réglage des minutes
+const int buttonSetProgramPin = 4; // Broche pour le bouton de programmation
+
+int setHour = 0;
+int setMinute = 0;
+bool programmingMode = false;
+
+// Messages LCD
+#define LCD_ROW1 0
+#define LCD_ROW2 1
+#define LCD_CLEAR "                "
+
+int currentHour; // Variable globale pour l'heure actuelle
+int currentMinute; // Variable globale pour les minutes actuelles
+
+void setup() {
+  pinMode(relayPin, OUTPUT);
+  pinMode(buttonSetHourPin, INPUT_PULLUP);
+  pinMode(buttonSetMinutePin, INPUT_PULLUP);
+  pinMode(buttonSetProgramPin, INPUT_PULLUP);
+
+  lcd.init();
+  lcd.backlight();
+  lcd.clear();
+
+  if (!rtc.begin()) {
+    showError("Erreur RTC");
+  }
+  if (rtc.lostPower()) {
+    rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
+  }
+}
+
+void updateLCD(int row, const char* text) {
+  lcd.setCursor(0, row);
+  lcd.print(text);
+  lcd.print(LCD_CLEAR);
+}
+
+void showError(const char* errorMsg) {
+  lcd.clear();
+  updateLCD(LCD_ROW1, errorMsg);
+  while (1); // Entrer dans une boucle infinie en cas d'erreur
+}
+
+void displayCurrentTime() {
+  DateTime now = rtc.now();
+  currentHour = now.hour();
+  currentMinute = now.minute();
+
+  updateLCD(LCD_ROW1, "HEURE ACTUELLE:");
+  updateLCD(LCD_ROW2, (String(currentHour) + ":" + String(currentMinute)).c_str());
+}
+
+void displayProgrammingMode() {
+  updateLCD(LCD_ROW1, "REGLAGE");
+  updateLCD(LCD_ROW2, ("H:" + String(setHour) + " M:" + String(setMinute)).c_str());
+}
+
+void displayArrosageOn() {
+  digitalWrite(relayPin, HIGH);
+  updateLCD(LCD_ROW1, "ARROSAGE ON");
+  updateLCD(LCD_ROW2, ("H:" + String(setHour) + " M:" + String(setMinute)).c_str());
+}
+
+void displayArrosageOff() {
+  digitalWrite(relayPin, LOW);
+  updateLCD(LCD_ROW1, "ARROSAGE OFF");
+  updateLCD(LCD_ROW2, ("PROCHAIN: " + String(setHour) + ":" + String(setMinute)).c_str());
+}
+
+void loop() {
+  if (programmingMode) {
+    displayProgrammingMode();
+
+    if (digitalRead(buttonSetHourPin) == LOW) {
+      setHour = (setHour + 1) % 24;
+      delay(200);
+    }
+
+    if (digitalRead(buttonSetMinutePin) == LOW) {
+      setMinute = (setMinute + 1) % 60;
+      delay(200);
+    }
+
+    if (digitalRead(buttonSetProgramPin) == LOW) {
+      programmingMode = false;
+      updateLCD(LCD_ROW1, LCD_CLEAR);
+      updateLCD(LCD_ROW2, LCD_CLEAR);
+    }
+  } else {
+    displayCurrentTime();
+
+    if (currentHour == setHour && currentMinute == setMinute) {
+      displayArrosageOn();
+    } else {
+      displayArrosageOff();
+    }
+
+    if (digitalRead(buttonSetProgramPin) == LOW) {
+      programmingMode = true;
+      updateLCD(LCD_ROW1, "PROGRAM");
+      displayProgrammingMode();
+      delay(200);
+    }
+  }
+
+  delay(1000);
+}

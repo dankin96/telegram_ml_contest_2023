@@ -1,0 +1,7 @@
+Time: 2023-10-10T05:20:36.961Z
+Tag: JOB_GET_PUSH_LIST
+Service: sps-worker---15-job-get-push-list
+Class: /usr/src/sps-job-worker/src/jobs/15_jobGetPushList.js
+Line: <MISSING VALUE>
+Func: <MISSING VALUE>
+Message: 注意!!! 推流機數量不足，單台流上限=2，未分發流數量= [{"category":"SHANGHAI-ALI","count":18},{"category":"SHANGHAI-WSU","count":18},{"category":"TAIPEI-ALI","count":9},{"category":"TAIPEI-WSU","count":9}]

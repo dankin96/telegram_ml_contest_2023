@@ -1,0 +1,5 @@
+Brute [reaching upto 50k+ CPM with Good Proxies]
+Brute 2 [supports plainproxy - upto 5-30k+ CPM]
+Inboxer [supports resi-ipv6 & other prov]
+Inboxer 2 [supports plainproxy - upto 10-20k+ CPM]
+

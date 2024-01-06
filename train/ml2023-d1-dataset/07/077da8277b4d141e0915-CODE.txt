@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cmath>
+#include <iomanip>
+
+double findHeight(double S, double a) {
+    return (2 * S) / a;
+}
+
+int main() {
+    double S, a;
+    std::cin >> S >> a;
+
+    double height = findHeight(S, a);
+
+    std::cout << std::fixed << std::setprecision(2);  // Sets the output precision to two decimal places
+    std::cout << height << std::endl;
+
+    return 0;
+}

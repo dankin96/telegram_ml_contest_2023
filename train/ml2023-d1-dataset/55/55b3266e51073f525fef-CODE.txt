@@ -1,0 +1,6 @@
+def read_by_word(filename: str):
+    with open(filename) as fp:
+        line = fp.readline()
+        for word in line:
+            x = yield word
+

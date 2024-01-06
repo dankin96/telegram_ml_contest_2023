@@ -1,0 +1,8 @@
+{ "A": "aaa", "boba": "droppa" }
+
+=> 
+
+type Foo struct {
+   A string 
+   Extra map[string]ant `json:"unknown"` // сюда попадёт "boba" и любые другие неожиданные поля
+}

@@ -1,0 +1,3 @@
+server.addHook("onRequest", async (req, res) => {
+  await createUserMid(req, res);
+});

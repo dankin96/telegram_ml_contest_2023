@@ -1,0 +1,30 @@
+
+use jupiter;
+use anchor_spl::token;
+use spl_token_swap;
+
+// ...
+// Get and deserialize the swap state of your choise
+
+let ix = Instruction {
+    program_id: jupiter::ID
+    accounts: jupiter::accounts::TokenSwap {
+        token_swap_program, // Orca or Penguin token swap program ID
+        token_program: token::ID,
+        swap,
+        authority,
+        user_transfer_authority,
+        source,
+        swap_source,
+        swap_destination,
+        destination,
+        pool_mint,
+        pool_fee,
+    },
+    data: jupiter::instruction::TokenSwap {
+        in_amount,
+        minimum_out_amount,
+        platform_fee_bps: 0,
+    }
+    .data(),
+};

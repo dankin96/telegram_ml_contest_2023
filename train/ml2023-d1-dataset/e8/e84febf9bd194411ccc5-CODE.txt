@@ -1,0 +1,8 @@
+docker run --privileged -it \
+    --device /dev/kvm \
+    -p 50922:10022 \
+    -v /tmp/.X11-unix:/tmp/.X11-unix \
+    -v /run/pipewire-0:/run/pipewire-0 \
+    -e "DISPLAY=${DISPLAY:-:0.0}" \
+    -e "PIPEWIRE_SOCKET_PATH=/run/pipewire-0" \
+    sickcodes/docker-osx:latest

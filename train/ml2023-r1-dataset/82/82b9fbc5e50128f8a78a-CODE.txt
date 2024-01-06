@@ -1,0 +1,2 @@
+
+apt purge update-manager update-manager-core update-notifier

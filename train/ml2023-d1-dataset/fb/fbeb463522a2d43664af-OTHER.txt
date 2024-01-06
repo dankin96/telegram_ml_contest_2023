@@ -1,0 +1,11 @@
+  final List<String? Function(String? value)> extraValidators;
+  final TextEditingController controller;
+  final TextInputType keyboardType;
+  final String? initialValue;
+  final bool readonly;
+  final bool obscure;
+  final String? title;
+  final int? minLines;
+  final bool outlined;
+  final int? maxLines;
+  final bool suffix;

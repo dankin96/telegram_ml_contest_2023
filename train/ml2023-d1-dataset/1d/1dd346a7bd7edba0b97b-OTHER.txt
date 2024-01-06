@@ -1,0 +1,2 @@
+<Address>,<quantity>
+OP_RETURN <messaggio HEX>, 0

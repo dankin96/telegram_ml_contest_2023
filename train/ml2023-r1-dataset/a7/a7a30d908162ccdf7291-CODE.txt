@@ -1,0 +1,10 @@
+
+[out:xml][timeout:25];
+{{geocodeArea:"France"}}->.searchArea;
+(
+  
+  node["amenity"="charging_station"](user:"Bender l'importateur");
+);
+out body;
+>;
+out skel qt;

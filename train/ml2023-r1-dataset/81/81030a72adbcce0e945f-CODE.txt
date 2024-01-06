@@ -1,0 +1,3 @@
+    <div class="animation">
+      <div class="dot-stretching"></div>
+    </div>

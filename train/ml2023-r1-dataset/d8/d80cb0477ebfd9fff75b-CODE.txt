@@ -1,0 +1,25 @@
+python
+import tkinter as tk
+
+def on_button_click():
+    input_text = entry.get()
+    label.config(text="أهلاً بك، " + input_text + "!")
+
+# إنشاء نافذة الواجهة
+window = tk.Tk()
+window.title("واجهة بسيطة")
+
+# إضافة عنصر النص
+entry = tk.Entry(window, font=("Arial", 14))
+entry.pack(pady=10)
+
+# إضافة زر النقر
+button = tk.Button(window, text="اضغط هنا", font=("Arial", 14), command=on_button_click)
+button.pack(pady=10)
+
+# إضافة عنصر العرض
+label = tk.Label(window, font=("Arial", 16))
+label.pack(pady=10)
+
+# تشغيل الحلقة الرئيسية للتطبيق
+window.mainloop()

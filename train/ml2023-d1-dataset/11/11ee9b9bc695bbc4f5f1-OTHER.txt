@@ -1,0 +1,4 @@
+Contract: FXSUSDT
+Price: $5.6484
+24H High: $5.6554
+24H Low: $5.6484

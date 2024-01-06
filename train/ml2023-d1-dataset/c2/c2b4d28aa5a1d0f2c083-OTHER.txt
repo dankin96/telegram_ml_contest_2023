@@ -1,0 +1,13 @@
+  database_name  | size_in_mb 
+-----------------+------------
+ fptglobalth     | 100 MB
+ beefrankie      | 117 MB
+ odoo            | 189 MB
+ template0       | 7305 kB
+ postgres        | 7605 kB
+ template1       | 7653 kB
+ vjmart          | 81 MB
+ demoen          | 83 MB
+ demo            | 97 MB
+ eliteenergythai | 98 MB
+(10 rows)

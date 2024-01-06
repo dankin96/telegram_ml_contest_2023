@@ -1,0 +1,11 @@
+Contract deployed successfully with ID: CBXHU5BWWTOCZRYX3DMSSKCFG7B3K2YG2I5F75ALPQ6GCY6ZES2XKLTI
+Deploy the liquidity pool contract
+Contract deployed successfully with ID: CBKY7UN5VGD4LIQFOBOTSUSQWK67BZZTA23NIEVWSWRR5SAT26JQN2BN
+Initialize the abundance token contract
+
+Initialize the liquidity pool contract
+
+Done
+
+> soroban-example-dapp@0.1.0 build-contracts
+...

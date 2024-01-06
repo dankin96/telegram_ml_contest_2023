@@ -1,0 +1,11 @@
+
+ type_schedule_work.length && type_schedule_work.wrap('<div class="position-relative"></div>').select2({
+     placeholder: "chọn loại đăng ký",
+     dropdownParent: type_schedule_work.parent(),
+     templateResult: renderIcons,
+     templateSelection: renderIcons,
+     minimumResultsForSearch: -1,
+     escapeMarkup: function (e) {
+         return e
+     }
+ });

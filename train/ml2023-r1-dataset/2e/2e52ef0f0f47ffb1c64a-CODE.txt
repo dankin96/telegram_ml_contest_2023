@@ -1,0 +1,5 @@
+C'(X)
+  if ( H'(X, X) == Halt ):
+    Loop Forever;
+  else:
+    Return;

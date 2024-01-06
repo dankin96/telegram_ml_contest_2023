@@ -1,0 +1,2 @@
+vless://e133dc5a-9e1a-455e-bf85-04b739321c48@104.19.28.32:2087?path=vless-ws%2F%3Fed%3D2048&security=tls&encryption=none&alpn=http/1.1&host=configvortex4.wgfwm.workers.dev&fp=randomized&type=ws&sni=configvortex4.wgfwm.workers.dev#%40Config_Vortex+%7C+%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA+%D8%A2%D8%B2%D8%A7%D8%AF
+

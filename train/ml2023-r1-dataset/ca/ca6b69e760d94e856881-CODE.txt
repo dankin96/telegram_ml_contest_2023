@@ -1,0 +1,4 @@
+javascript
+console.log('hello' ~= /ell/); // Вывод: true (частичное совпадение)
+console.log({ name: 'John', age: 25 } ~= { name: 'John' }); // Вывод: true (частичное совпадение)
+

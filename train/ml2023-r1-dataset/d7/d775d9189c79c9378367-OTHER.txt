@@ -1,0 +1,10 @@
+## Grid 10 element (Free) 1.1.1 (November 05, 2023)
+
+### Added
+
+- masonry pack mode
+- parallax justify, start and end options
+
+### Changed
+
+- Minimum YOOtheme Pro version requirement: 4.1

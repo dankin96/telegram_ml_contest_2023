@@ -1,0 +1,14 @@
+       SPEDN       8.21%          
+      Gemini          0%          
+   lightning        8.5%          
+     bitcoin        6.9%          
+bitcoin-cash       8.28%          
+     cardano       8.49%          
+        celo       8.59%          
+    dogecoin       7.24%          
+    ethereum       7.16%          
+    litecoin       7.38%          
+     polygon       8.52%          
+      solana       8.43%          
+       tezos       8.31%          
+       zcash       8.32%

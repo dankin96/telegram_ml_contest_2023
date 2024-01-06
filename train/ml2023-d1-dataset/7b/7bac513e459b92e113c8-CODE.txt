@@ -1,0 +1,16 @@
+<div id="preview"></div>
+<input type="file" onchange="preview(this.files[0])">
+<script>
+  function preview(file) {
+    const reader = new FileReader()
+    reader.onload = event => {
+      switch (['image', 'audio', 'video'].filter(el => file.type.includes(el)).pop()) {
+        case 'image': document.querySelector('#preview').innerHTML = `<img src="${event.target.result}" alt="${file.name}">`; break;
+        case 'audio': document.querySelector('#preview').innerHTML = `<audio src="${event.target.result}" alt="${file.name}" controls>`; break;
+        case 'video': document.querySelector('#preview').innerHTML = `<video src="${event.target.result}" alt="${file.name}" controls>`; break;
+        default: document.querySelector('#preview').innerHTML = `<textarea>${decodeURIComponent(escape(window.atob(event.target.result.split(',')[1])))}</textarea>`; break;
+      }
+    }
+    reader.readAsDataURL(file)
+  }
+</script>

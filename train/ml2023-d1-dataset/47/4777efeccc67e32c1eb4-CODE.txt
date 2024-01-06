@@ -1,0 +1,78 @@
+java
+import org.apache.poi.ss.usermodel.*;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.sql.*;
+
+public class ExcelExporter {
+
+    private static final String DATABASE_URL = "jdbc:sqlite:path/to/your/database.db";
+
+    public static void exportToExcel(String outputPath) {
+        try {
+            // Подключение к базе данных SQLite
+            Connection connection = DriverManager.getConnection(DATABASE_URL);
+
+            // Создание рабочей книги Excel
+            Workbook workbook = new XSSFWorkbook();
+            Sheet sheet = workbook.createSheet("Data");
+
+            // Загрузка данных из базы данных SQLite
+            String query = "SELECT * FROM item_info";
+            PreparedStatement statement = connection.prepareStatement(query);
+            ResultSet resultSet = statement.executeQuery();
+
+            int rowNo = 0;
+            while (resultSet.next()) {
+                // Получение данных из базы данных
+                int id = resultSet.getInt("id");
+                String name = resultSet.getString("name");
+                String barcode = resultSet.getString("barcode");
+                // Другие столбцы...
+
+                // Добавление данных в строку Excel
+                Row row = sheet.createRow(rowNo++);
+                row.createCell(0).setCellValue(id);
+                row.createCell(1).setCellValue(name);
+                row.createCell(2).setCellValue(barcode);
+                // Другие столбцы...
+
+                // Получение изображения из базы данных
+                String photoPath = resultSet.getString("photo");
+                if (photoPath != null && !photoPath.isEmpty()) {
+                    // Загрузка изображения из файла
+                    byte[] imageBytes = Files.readAllBytes(Paths.get(photoPath));
+
+                    // Добавление изображения в Excel
+                    int pictureIdx = workbook.addPicture(imageBytes, Workbook.PICTURE_TYPE_JPEG);
+                    CreationHelper helper = workbook.getCreationHelper();
+                    Drawing<?> drawing = sheet.createDrawingPatriarch();
+                    ClientAnchor anchor = helper.createClientAnchor();
+                    anchor.setCol1(photoColumn); // Номер столбца для изображения
+                    anchor.setRow1(rowNo - 1); // Номер строки для изображения
+                    Picture picture = drawing.createPicture(anchor, pictureIdx);
+                    picture.resize(); // Изменение размера изображения по умолчанию
+                }
+            }
+
+            // Сохранение файла Excel
+            FileOutputStream outputStream = new FileOutputStream(outputPath);
+            workbook.write(outputStream);
+            outputStream.close();
+
+            // Закрытие соединения с базой данных
+            resultSet.close();
+            statement.close();
+            connection.close();
+        } catch (SQLException | IOException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    public static void main(String[] args) {
+        // Вызов метода экспорта данных в файл Excel
+        exportToExcel("path/to/output/excel.xlsx");
+    }
+}

@@ -1,0 +1,6 @@
+
+format ms coff
+rb 12345
+target:
+public _x
+label _x at target - $$

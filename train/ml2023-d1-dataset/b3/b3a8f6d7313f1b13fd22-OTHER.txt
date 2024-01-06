@@ -1,0 +1,3 @@
+[Elektronen/Neutronen/Protonen/Quantenteilchen]
+==
+[R/G/B/A]

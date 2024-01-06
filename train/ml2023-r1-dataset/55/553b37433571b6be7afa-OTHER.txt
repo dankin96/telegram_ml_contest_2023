@@ -1,0 +1,12 @@
+Device brand: HONOR
+Device manufacturer: HONOR
+Device model: Magic5 Ultimate
+Device codename: magic
+Android version: 13
+Android API: 33
+Build fingerprint: Honor/magic/magic:13/TP1A.220624.014/root03232300:user/release-keys
+Build type: magic-user
+Build tags: release-keys
+Security patch: 2023-03-01
+Raw Image Size: 4.82 GiB
+

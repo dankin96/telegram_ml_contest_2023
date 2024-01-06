@@ -1,0 +1,1 @@
+adb shell am start -n com.zhiliaoapp.musically/com.ss.android.ugc.aweme.main.MainActivity

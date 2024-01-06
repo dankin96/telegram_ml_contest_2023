@@ -1,0 +1,75 @@
+<HTML>
+
+  <HEAD>
+    <TITLE> Тест </TITLE>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    
+    <SCRIPT src=test.js>      
+    </SCRIPT>
+  </HEAD>
+
+  <BODY>
+
+    <H1> Shreck </H1><a name="ssv"></a>
+    <HR>
+    <a href="index.html">Главная</a>
+    <a href="infa.html">Информация</a>
+    <a href="TEST.html">Пройти тест</a>
+    <HR>
+    
+    <img src="wz9qr34jnj54-shrek.jpg" class="rightimg">
+    
+    <form name="forma0">
+      Как называется фильм о котором говорится? <BR>
+      
+      <input type="radio" name="bonus"> Кот в сопогах <BR>
+      <input type="radio" name="bonus"> Шрек <BR>
+      <input type="radio" name="bonus"> Гарфилд <BR>
+      <p>
+    </form>
+    
+    <form name="forma1">
+      В каком году вышел Шрек на экраны Российской телевидении? <BR>
+      
+      <input type="radio" name="bonus"> 1999 <BR>
+      <input type="radio" name="bonus"> 2000 <BR>
+      <input type="radio" name="bonus"> 2001 <BR>
+      <p>
+    </form>
+    
+    <form name="forma2">
+      Как зовут главного героя? <BR>
+      
+      <input type="radio" name="bonus"> Шрек <BR>
+      <input type="radio" name="bonus"> Осел <BR>
+      <input type="radio" name="bonus"> Фиона <BR>
+      <p>
+    </form>
+    
+    <form name="forma3">
+      На ком женат осел? <BR>
+      
+      <input type="radio" name="bonus"> Ослиха <BR>
+      <input type="radio" name="bonus"> Пряня <BR>
+      <input type="radio" name="bonus"> Дракониха <BR>
+      <p>
+    </form>
+    
+    <form name="forma4">
+      В какой стране выпустили Шрека? <BR>
+      
+      <input type="radio" name="bonus"> Россия <BR>
+      <input type="radio" name="bonus"> США <BR>
+      <input type="radio" name="bonus"> Япония <BR>
+      <p>
+    </form>
+    
+    <input type="button" name="otvet5" value="Проверить" Onclick="test()"><BR>
+    
+    <br>
+    <a href="#ssv">вверх</a>
+    
+  </BODY>
+
+</HTML>

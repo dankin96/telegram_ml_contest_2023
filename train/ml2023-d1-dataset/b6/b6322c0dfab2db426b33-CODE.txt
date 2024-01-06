@@ -1,0 +1,11 @@
+const scripts = ['путь1', 'путь2'];
+Array.from(document.body.querySelectorAll('script'))
+    .filter(function (item) {
+        return scripts.includes(item.src);
+     })
+    .forEach(function (item) {
+        item.remove();
+    });
+scripts.forEach(function (item) {
+    import(item)
+});

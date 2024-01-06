@@ -1,0 +1,14 @@
+fn main() {  
+  println!("Hello, world!");  
+  let mut a: i32 = 10;  
+  println!("il valore di a prima della modifica è {}", a);  
+  println!("il puntatore di a è {:p}", &a);  
+    
+  let mut b_pointer: *mut i32 = &mut a; //puntatore che punta a una var mutabile
+  unsafe { println!("il valore di b_pointer prima della modifica è {}", *b_pointer); }  
+  println!("il puntatore di b_pointer è {:p}", b_pointer);  
+    
+  unsafe { *b_pointer = 11; }  
+  println!("il valore di a dopo della modifica è {}", a);  
+  unsafe { println!("il valore di b_pointer dopo della modifica è {}", *b_pointer); }  
+}

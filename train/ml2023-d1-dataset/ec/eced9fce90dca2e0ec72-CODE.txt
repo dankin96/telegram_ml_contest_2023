@@ -1,0 +1,3 @@
+SELECT a.Ученик, b.Классуха
+FROM ученики a
+INNER JOIN классухи b ON b.Класс = a.Класс

@@ -1,0 +1,7 @@
+ 
+glibc-locales: /usr/lib/locale/zu_ZA.utf8/LC_NAME exists in filesystem
+glibc-locales: /usr/lib/locale/zu_ZA.utf8/LC_NUMERIC exists in filesystem
+glibc-locales: /usr/lib/locale/zu_ZA.utf8/LC_PAPER exists in filesystem
+glibc-locales: /usr/lib/locale/zu_ZA.utf8/LC_TELEPHONE exists in filesystem
+glibc-locales: /usr/lib/locale/zu_ZA.utf8/LC_TIME exists in filesystem
+Errors occurred, no packages were upgraded.

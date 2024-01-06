@@ -1,0 +1,13 @@
+📆12/10/2023
+até ✅²
+
+M1 USDCHF 08:52 CALL ✅
+M1 EURAUD 10:14 CALL ✅
+M1 AUDJPY 10:40 PUT  ✅
+M1 EURNZD 11:11 PUT  ✅¹
+M1 AUDJPY 11:16 PUT  ✅
+
+✅ Apurado: 5 de 5 sinais
+🔰 Placar: 5x0
+🎯 Assertividade: 100.0%
+

@@ -1,0 +1,16 @@
+CEKLOFU   = Cek List Produk Paket Only4U Isat
+CEKOFU    = Cek Tagihan List Paket Only4U Isat
+BYROFU    = Bayar Pembelian Paket Only4U Isat
+
+CEKLOMNI  = Cek List Produk Paket Omni Tsel
+CEKTOMNI  = Cek Tagihan List Paket Omni Tsel
+BYRTOMNI  = Bayar Pembelian Paket Omni Tsel
+
+CEKLCKXA  = Cek List Produk Paket CuanKu XL-Axis
+CEKCKXA   = Cek Tagihan List Paket CuanKu XL-Axis
+BYRCKXA   = Bayar Pembelian Paket CuanKu XL-Axis
+
+CEKLCMX   = Cek List Produk Paket CuanMax Tri
+CEKCMX    = Cek Tagihan List Paket CuanMax Tri
+BYRCMX    = Bayar Pembelian Paket CuanMax Tri
+

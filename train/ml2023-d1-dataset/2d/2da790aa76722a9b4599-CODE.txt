@@ -1,0 +1,3 @@
+$arr = ['foo' => 'bar'];
+explode($arr);
+var_dump($foo);

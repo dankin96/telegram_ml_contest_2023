@@ -1,0 +1,4 @@
+Contract: GFTUSDT
+Price: $0.0288
+24H High: $0.02881
+24H Low: $0.0288

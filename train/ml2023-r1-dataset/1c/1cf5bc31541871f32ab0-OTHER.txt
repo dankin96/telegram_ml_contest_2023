@@ -1,0 +1,1 @@
+  libc-bin libc-l10n libc6 libvpx7 libx11-6 libx11-data libx11-xcb1 libxpm4 locales

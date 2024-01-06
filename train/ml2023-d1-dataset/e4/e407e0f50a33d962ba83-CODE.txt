@@ -1,0 +1,9 @@
+import httpclient
+
+echo "hello!"
+
+let client = newHttpClient()
+echo "doing request"
+let resp = client.get("https://google.com")
+echo "status: ", resp.status
+echo "body start: ", resp.body[0..10]

@@ -1,0 +1,3 @@
+pub struct Tournament<M: ManagedTypeApi> {
+    pub participant_list: ManagedVec<M, ManagedAddress<M>>,
+}

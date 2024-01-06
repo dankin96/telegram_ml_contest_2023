@@ -1,0 +1,6 @@
+Usuario con cambios de nombre y sexo. Debe realizar KYC para regresar.
+
+10/05/23, 15:17      Zyon                          
+22/09/23, 16:36      Ana                           
+
+Este ID ha tenido un total de 2 cambios de nombre. 🤔👀

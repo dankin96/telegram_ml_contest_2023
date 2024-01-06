@@ -1,0 +1,4 @@
+design:
+    displayMode: popup
+    size: 750
+

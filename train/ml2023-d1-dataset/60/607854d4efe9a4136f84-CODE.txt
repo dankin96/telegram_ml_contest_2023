@@ -1,0 +1,7 @@
+def list_visible(user) do
+     __MODULE__
+    |> filter_visibility(user)
+    |> order_by([{:desc, :origin}, :state, :level, :name])
+    |> Repo.all()
+end
+

@@ -1,0 +1,8 @@
+Leech By         : User Session
+Leech To         : -1001807827625
+Leech Type       : MEDIA
+Leech Split Size : 4194304000
+Leech Prefix     : None
+Equal Splits     : Disabled
+Media Group      : Disabled
+Custom Thumbnail : Exists

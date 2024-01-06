@@ -1,0 +1,8 @@
+select
+  node_name,
+  schema_name || '.' || projection_name,
+  count(*) ros_count
+from storage_containers
+group by 1,2
+order by 3 desc
+

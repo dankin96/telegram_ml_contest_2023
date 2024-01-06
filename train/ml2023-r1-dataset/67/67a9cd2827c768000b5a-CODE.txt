@@ -1,0 +1,19 @@
+O`qituvchilar
+    F.I.SH
+    Maxinum dars soati(default=30)
+    Fanlar{informatika, matematika}
+    is_boshl`ng`ich( 
+                   1-4 => 27
+                   5-11=>30
+)
+
+
+Sinflar:{
+    name: 1A,
+    max_soat: 6
+    Smena: 1 or 2
+    
+    }
+
+Fan:
+    Sinfxonasi:125

@@ -1,0 +1,17 @@
+
+THỐNG KÊ TICKET:
+🟢 Done: 3 ticket 
+⚪️ To do: 2 ticket 
+🔵 In Progress: 1 ticket 
+❌ Expired: 1 ticket 
+
+          DANH SÁCH TICKET SDP TRONG 7 NGÀY                 
+ Jira ID  |   Xử lý   |   Test    |   Tổng    | Trạng thái 
+---------:|:---------:|:---------:|:---------:|:-----------
+ SDP-5882 | 00d00h00m | 00d00h00m | 00d00h00m |     ⚪️  
+ SDP-5894 | 00d00h00m | 00d00h00m | 00d00h00m |     ⚪️  
+ SDP-5899 | 01d19h57m | 00d04h11m | 02d00h08m |     🔜🟢 ❌ 
+ SDP-5900 | 00d22h06m | 00d00h00m | 00d22h06m |     🟢  
+ SDP-5902 | 00d02h47m | 00d00h00m | 00d02h47m |     🟢  
+ SDP-5903 | 00d00h10m | 00d00h00m | 00d00h10m |     🟢  
+ SDP-5905 | 00d03h25m | 00d00h00m | 00d03h25m |     🔵

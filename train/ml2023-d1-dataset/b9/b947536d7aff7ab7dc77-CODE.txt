@@ -1,0 +1,12 @@
+show configuration firewall family inet filter RE-PROTECT-FIREWALL term DNS 
+from {
+    source-address {
+        10.0.0.0/8;
+    }
+    protocol [ tcp udp ];
+    port domain;
+}
+then {
+    count DNS-CNT;
+    accept;
+}

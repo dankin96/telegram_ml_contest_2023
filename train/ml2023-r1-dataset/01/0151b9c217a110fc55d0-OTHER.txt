@@ -1,0 +1,9 @@
+ Collateral: 1000 DASH
+ Cost: $26,934.76
+ ROI: 7.66% (annual)
+ Monthly income: $171.97
+ Reward cycle: 6.4 days
+ Masternodes (enabled): 3522
+ Masternodes (total): 4188
+ DASH collateralized: 36.46%
+ Updated: 00:49:28 UTC

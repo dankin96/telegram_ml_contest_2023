@@ -1,0 +1,3 @@
+ - time: 2023-10-10 09:00:01
+ - host: dtr-prov-1
+MNPSYNC service is having issues connecting to hlr service, please check journalctl

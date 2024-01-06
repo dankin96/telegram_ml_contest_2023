@@ -1,0 +1,6 @@
+a = 'red'
+match a:
+    case 'blue':
+        print('color is red')
+    case 'red':
+        print('color is red')

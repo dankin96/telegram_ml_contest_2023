@@ -1,0 +1,6 @@
+sessions = [...]  # List of Telethon sessions.
+for session in sessions:
+    with TelegramClient(session, ...) as client:
+        is_auth = client.is_user_authorized()
+        print(is_auth)
+

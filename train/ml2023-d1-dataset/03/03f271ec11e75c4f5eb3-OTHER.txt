@@ -1,0 +1,1 @@
+Ubuntu lança e suspende no mesmo dia versão mais recente por causa de traduções impróprias: o link de download para a nova versão 23.10 foi removido do site oficial após a identificação de textos traduzidos para ucraniano de forma inapropriada e maliciosa encontrados durante o processo de instalação. As informações são do site OMG Ubuntu.

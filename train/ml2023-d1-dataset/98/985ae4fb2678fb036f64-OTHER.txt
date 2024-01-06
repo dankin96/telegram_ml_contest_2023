@@ -1,0 +1,11 @@
+Tiempo del centro de México
+   Fecha:  2023-10-09   hora:  16:23:05
+   Fecha:  2023-10-09
+   Hora:  16:23:05
+   Magnitud:  2.9
+   Epicentro
+   Latitud, longitud:  16.30°, -97.95°
+   Latitud:  16.30°
+   Longitud:  -97.95°
+   Localización:  12 km al SURESTE de  PINOTEPA NACIONAL, OAXACA
+   Profundidad:  5 km

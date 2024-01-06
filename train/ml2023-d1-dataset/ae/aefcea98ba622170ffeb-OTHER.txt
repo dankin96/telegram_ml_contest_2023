@@ -1,0 +1,6 @@
+     Pair  Price  Funding
+ API3USDT 1.0339     0.01
+AUDIOUSDT 0.1351     0.01
+  ADAUSDT 0.2464     0.01
+  LITUSDT 0.6525     0.01
+  UNIBUSD 4.1077     0.01

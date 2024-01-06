@@ -1,0 +1,3 @@
+* /app/app/services/user_books_manager.rb:28:in `book_purchase'
+* /app/app/controllers/in_app_purchases_controller.rb:47:in `ios_verify'
+* /usr/local/bundle/gems/actionpack-5.2.8.1/lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'

@@ -1,0 +1,2 @@
+npm config set init-author-url "http://example.com/"``
+```npm config set init-license "MIT"

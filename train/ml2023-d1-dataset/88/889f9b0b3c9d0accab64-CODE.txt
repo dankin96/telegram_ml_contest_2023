@@ -1,0 +1,5 @@
+for n in range(3):
+    password = ''
+    for i in range(length):
+        password += random.choice(chars)
+    print(password)

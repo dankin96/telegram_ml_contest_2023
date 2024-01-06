@@ -1,0 +1,12 @@
+
+BCI-OSA     799      41.47%
+EWACL       20100    39.89%
+CVSCL       67010    15.64%
+IYCCL       62521    9.71%
+EZUCL       39247    8.93%
+META        325      7.73%
+MSFTCL      308130   7.47%
+GOOGCL      131470   7.07%
+NUEVAPOLAR  5.8      6.97%
+MASISA      17.5     5.36%
+IAM         663.2    3.46%

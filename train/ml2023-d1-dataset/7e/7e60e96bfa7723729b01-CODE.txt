@@ -1,0 +1,4 @@
+##
+'5a4a4'.Matches('(\d)a(\1)').PrintLines;
+'5a4a4'.RegexReplace('(\d)a(\1)', '(\1)').Println;
+Regex.Replace('5a4a4', '(\d)a(\1)', '(\1)').Println;

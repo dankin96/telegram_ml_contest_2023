@@ -1,0 +1,2 @@
+utm_source=yandex_{source_type}&utm_medium=cpc&utm_campaign=*название РК*&utm_term={keyword}
+

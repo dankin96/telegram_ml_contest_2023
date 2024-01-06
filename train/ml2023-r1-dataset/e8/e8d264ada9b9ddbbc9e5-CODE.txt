@@ -1,0 +1,6 @@
+/interface ipip
+add allow-fast-path=no local-address=1.1.1.1 remote-address=2.2.2.2 ipsec-secret=ABC
+add allow-fast-path=no local-address=1.1.1.2 remote-address=2.2.2.2 ipsec-secret=GHI
+add allow-fast-path=no local-address=1.1.1.1 remote-address=3.3.3.3 ipsec-secret=DEF
+add allow-fast-path=no local-address=1.1.1.2 remote-address=3.3.3.3 ipsec-secret=JKL
+

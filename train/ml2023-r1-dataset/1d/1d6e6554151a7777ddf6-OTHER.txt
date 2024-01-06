@@ -1,0 +1,44 @@
+pitch_qa_error
+
+@timestamp: 2023-10-06T13:48:17
+_id: iltQA4sB_ZVUsBjrtrL4
+_index: filebeat-sri-pitch-log-2023.10.06
+message: [2023-10-06 13:48:10,825] [ERROR j.s.a.exception.AuthExceptionHandler http-nio-8083-exec-8] handleInvalidPasswordTokenException
+jumpit.service.auth.exception.info.InvalidPasswordTokenException: 인증번호가 일치하지 않습니다. 다시 확인해주세요(1/5)
+ at jumpit.service.auth.application.AuthService.isValidTokenByEmail(AuthService.java:83)
+ at jumpit.app.user.web.user.SettingController.isValidChangePassword(SettingController.java:112)
+ at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+ at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+ at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+ at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+ at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+ at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+ at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+ at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+ at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+ at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+ at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+ at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+ at javax.servlet.http.HttpServlet.service(HttpServlet.java:502)
+ at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+ at javax.servlet.http.HttpServlet.service(HttpServlet.java:596)
+ at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+ at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+ at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+ at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+ at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111)
+ at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+ at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+ at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+ at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+ at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+ at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+ at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+ at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+ at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+ at org.springframework.security.web.sess
+⚠ *message was cropped according to telegram limits!* ⚠

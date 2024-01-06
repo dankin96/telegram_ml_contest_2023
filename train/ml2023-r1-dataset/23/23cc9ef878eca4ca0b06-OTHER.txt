@@ -1,0 +1,12 @@
+HUM - Hummus
+$0.008213226
+Network: METIS
+H|L: 0.01|0.00820767
+1h:  0.0%      😏       
+24h: -3.4%     😥       
+7d:  -17.5%    😲       
+Vol: $2.2 K
+Liq: $55.2 K
+Circ Mcap: 818.8 K
+FDV 2.5 M
+CA: 0x4aac94985cd83be30164dfe7e9af7c054d7d2121

@@ -1,0 +1,14 @@
+local id = 15035863731 -- input the free ugc limited
+
+-- this script below will fire all remotes in the game with the id as an argument
+for i,v in pairs(game:GetDescendants()) do
+if v:IsA("RemoteEvent") then
+v:FireServer(id)
+if v:IsA("BindableEvent") then
+v:Fire(id)
+if v:IsA("RemoteFunction") then
+v:InvokeServer(id)
+end
+end
+end
+end

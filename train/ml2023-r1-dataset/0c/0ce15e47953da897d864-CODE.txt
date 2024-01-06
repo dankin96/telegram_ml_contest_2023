@@ -1,0 +1,19 @@
+@RestController
+@RequestMapping("/api")
+public class Controller {
+    @PostMapping("/community")
+    @PreAuthorize("isAuthenticated()")
+    public CommunityResponse createCommunity(@RequestParam String name) { ... }
+
+    @PostMapping("/community/{communityId}/post")
+    @PreAuthorize("@RoleService.hasAnyRoleByCommunityId(#communityId, @CommunityRole.ADMIN)")
+    public PostResponse createPost(@PathVariable Long communityId, @RequestParam String name) { ... }
+
+    @PutMapping("/post/{postId}")
+    @PreAuthorize("@RoleService.hasAnyRoleByPostId(#postId, @PostRole.EDITOR)")
+    public void updatePost(@PathVariable Long postId, @RequestParam String name) { ... }
+
+    @GetMapping("/post/{postId}")
+    @PreAuthorize("@RoleService.hasAnyRoleByPostId(#postId, @PostRole.VIEWER)")
+    public PostResponse getPost(@PathVariable Long postId) { ... }
+}

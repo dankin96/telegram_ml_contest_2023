@@ -1,0 +1,5 @@
+import os, time 
+
+
+time.sleep(10) #prentending like we're doing something....
+os.system("/bin/sh") #spawn shell

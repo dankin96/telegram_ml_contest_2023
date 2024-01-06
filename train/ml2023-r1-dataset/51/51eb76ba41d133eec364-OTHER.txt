@@ -1,0 +1,12 @@
+▪️trang bị:
+• Khả năng phản hồi cao
+• Di chuyển mượt mà
+• Nhấn Thời gian chờ cao
+• Cảm ứng đa điểm cao
+• Giao diện người dùng mượt mà
+• Hẹn giờ chạm bề mặt Flinger
+• Loại thiết bị cảm ứng
+• Sự kiện tối đa hóa cửa sổ
+• Đặt cảm ứng lớp
+• Bộ cảm ứng con trỏ
+• Khoảng thời gian cảm ứng đa điểm

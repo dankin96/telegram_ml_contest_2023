@@ -1,0 +1,14 @@
+
+[AMAYAK Ivory Coast] SUMMARY 24h
+
+                                                 order_count    perc(%)
+civ_courier_long_trip_flg                                107     0.5377
+civ_asked_to_cancel_cancel_reason_flg                     54     0.2714
+civ_too_long_to_wait_cancel_reason_flg                    54     0.2714
+civ_performer_cancel_flg                                  31     0.1558
+civ_went_in_wrong_direction_cancel_reason_flg             21     0.1055
+civ_didnt_attend_flg                                      11     0.0553
+civ_rude_courier_flg                                       8     0.0402
+civ_last_cancelation_flg                                   5     0.0251
+civ_eda_performer_cancel_flg                               3     0.0151
+civ_extra_funds_flg                                        2     0.0101

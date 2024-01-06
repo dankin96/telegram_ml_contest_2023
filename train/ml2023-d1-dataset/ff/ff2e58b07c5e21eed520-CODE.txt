@@ -1,0 +1,18 @@
+#include <iostream>
+#include <cstdint>
+#include <cassert>
+
+int main() {
+
+  char *val = (char *)malloc(5);
+  if (val == nullptr) {
+    std::cout << "not ok
+";
+    return 1;
+  }
+
+  assert(val);
+  return 0;
+}
+
+

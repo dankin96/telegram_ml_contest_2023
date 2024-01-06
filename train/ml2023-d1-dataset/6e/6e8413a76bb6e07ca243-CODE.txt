@@ -1,0 +1,5 @@
+
+<MyElementComponent
+  active={isActive}
+  onactivate={(e) => (isActive = e.active)}
+/>

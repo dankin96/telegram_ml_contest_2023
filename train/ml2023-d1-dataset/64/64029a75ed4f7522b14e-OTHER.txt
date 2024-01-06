@@ -1,0 +1,14 @@
+
+Dieser Befehl erstellt einen neuen RSA-Schlüssel mit einer Schlüssellänge von 4096 Bits.
+
+Du wirst aufgefordert, einen Speicherort für den Schlüssel anzugeben. Wenn du den Standardpfad behalten möchtest, drücke einfach die Eingabetaste. Andernfalls gib den gewünschten Pfad ein.
+
+Als nächstes wirst du aufgefordert, ein Passwort für den Schlüssel festzulegen. Es ist eine gute Idee, ein starkes Passwort zu verwenden, um den Schlüssel zu schützen. Gib ein sicheres Passwort ein und bestätige es.
+
+Der Schlüsselgenerator erstellt nun den öffentlichen und privaten Schlüssel im angegebenen Pfad. Standardmäßig werden sie als "id_rsa" (privater Schlüssel) und "id_rsa.pub" (öffentlicher Schlüssel) im Verzeichnis "~/.ssh/" gespeichert.
+
+Nachdem der Schlüssel generiert wurde, kannst du den öffentlichen Schlüssel anzeigen, indem du den folgenden Befehl ausführst:
+
+basic
+Copy
+cat ~/.ssh/id_rsa.pub

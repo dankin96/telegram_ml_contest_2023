@@ -1,0 +1,7 @@
+When you take a picture with the back cam, that picture shows all on the correct sides. But when you take a pic with the front cam, the picture that is shown on the display is simply wrong. It doesn't show the true world.
+
+Some people find that confusing, and so the software engineers invented the flip function for the selfie photo camera. With that function, the resulting picture shows what was displayed on the display. Ignoring the real true reality. But, it is an error, produced by software.
+
+The front video camera doesn't allow that error. So, the resulting video seems flipped and wrong. But, it is 100% correct.
+
+If you desperately need a wrong/ flipped selfie video, you need to use a video editing software that is able to flip/convert the video.

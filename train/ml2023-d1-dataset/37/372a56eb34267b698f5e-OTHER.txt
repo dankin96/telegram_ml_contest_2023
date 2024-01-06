@@ -1,0 +1,11 @@
+➜  electroncash /Applications/Electron-Cash.app/Contents/MacOS/Electron-Cash --regtest
+charset_normalizer/assets/__init__.py:17: UserWarning: Charset-Normalizer require '/Applications/Electron-Cash.app/Contents/MacOS/charset_normalizer/assets/frequencies.json' to be existent for language/coherence detection. Detection WILL be weaker.
+Traceback (most recent call last):
+  File "electron-cash", line 581, in <module>
+  File "electron-cash", line 569, in main
+  File "electron-cash", line 354, in run_gui
+  File "electroncash/daemon.py", line 149, in __init__
+  File "electroncash/network.py", line 311, in __init__
+  File "electroncash/network.py", line 184, in deserialize_server
+ValueError: not enough values to unpack (expected 3, got 1)
+[96144] Failed to execute script electron-cash

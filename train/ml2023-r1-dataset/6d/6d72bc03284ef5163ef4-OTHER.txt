@@ -1,0 +1,14 @@
+EURUSD - 03:00 - ✖️
+EURGBP - 03:45 - ✅
+EURGBP - 05:00 - ✅
+EURGBP - 06:45 - ✅
+USDCAD - 10:30 - ✅
+AUDJPY - 11:30 - ✅
+AUDUSD - 11:30 - ✅
+AUDJPY - 11:45 - ✅
+AUDJPY - 13:30 - ✅
+EURJPY - 13:30 - ✅
+EURUSD - 13:30 - ✅
+EURGBP - 14:00 - ✅
+EURUSD - 14:15 - ✅
+

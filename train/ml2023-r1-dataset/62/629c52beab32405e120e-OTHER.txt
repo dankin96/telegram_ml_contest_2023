@@ -1,0 +1,8 @@
+-Fast, safe and efficient downloading
+-Video downloading from popular websites
+-Torrents and magnet links downloads
+-Proxy support
+-HTTP/HTTPS/FTP/BitTorrent support
+-User-friendly interface with modern design
+-Support for Windows, macOS, Android, and Linux
+

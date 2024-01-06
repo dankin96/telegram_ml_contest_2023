@@ -1,0 +1,2 @@
+sudo apt purge gdebi
+sudo apt autoremove

@@ -1,0 +1,14 @@
+vless://6f5bf01e-7fe9-43f8-8932-671c771bec2d@DigiStar-Vpn.cam:443?mode=gun&security=reality&encryption=none&pbk=55xH-tqPd6c0VZpbwlxRxhmfvp9lVUtp45CDJLpcw2I&fp=firefox&spx=%2F&type=grpc&serviceName=@VPNCUSTOMIZE&sni=www.iranserver.com&sid=6b0541cd#Join+%40DigiStar_Vpn
+
+2️⃣
+vless://6f5bf01e-7fe9-43f8-8932-671c771bec2d@DigiStar-Vpn.net:443?path=%2F&security=tls&encryption=none&alpn=h2,http/1.1&host=de.vpncustomize.Website&fp=chrome&type=ws&sni=de.vpncustomize.Website#Join+%40DigiStar_Vpn
+
+3️⃣
+vless://6f5bf01e-7fe9-43f8-8932-671c771bec2d@DigiStar-Vpn.cam:2096?mode=gun&security=tls&encryption=none&type=grpc&serviceName=@VPNCUSTOMIZE&sni=CaNNectV2ray-OnlyIRAN-mCi-iraracnzsk-rgt-mkh.varzesh3-CDN.site#Join+%40DigiStar_Vpn
+
+4️⃣
+vless://98b0d1a6-591a-4dba-8cd6-2d11475a5fdd@DigiStar-Vpn.ddns.net:2083?mode=gun&security=tls&encryption=none&type=grpc&serviceName=@LIGHTNING6&sni=lightning6.LiV2ray.top#Join+%40DigiStar_Vpn
+
+5️⃣
+vless://98b0d1a6-591a-4dba-8cd6-2d11475a5fdd@DigiStar-Vpn.mamd.sbs:2083?mode=gun&security=tls&encryption=none&type=grpc&serviceName=@LIGHTNING6&sni=lightning6.LiV2ray.top#Join+%40DigiStar_Vpn
+

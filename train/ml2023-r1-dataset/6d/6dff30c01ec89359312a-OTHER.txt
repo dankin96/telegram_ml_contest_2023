@@ -1,0 +1,12 @@
+
+
+2023-10-07T18:12:53 에 HTTP 4xx 응답 발생 
+ * URL : http://saram.in/s/ (get)  
+ * 서버 : shorturl-api-0 
+ * UserAgent Name : Mobile Safari, 
+ * UserAgent OS/Device : iOS (iPhone), 
+ * Referrer : [''], 
+ * ResponseLocation : <MISSING VALUE>, 
+ * Full UserAgent : Mozilla/5.0 (iPhone; CPU iPhone OS 17_0_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1 
+ 생성자 : <MISSING VALUE> 
+ 생성일 : <MISSING VALUE>

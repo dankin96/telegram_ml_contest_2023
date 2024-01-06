@@ -1,0 +1,19 @@
+WinGo 5 minute
+NO.212 Bet:Big    1
+NO.212 Bet:Big    1
+NO.212 Bet:Big    1
+
+WinGo 5 minute
+NO.213 Bet:Small  3
+NO.213 Bet:Small  3
+NO.213 Bet:Small  3
+
+WinGo 5 minute
+NO.214 Bet:Big    8
+NO.214 Bet:Big    8
+NO.214 Bet:Big    8
+
+WinGo 5 minute
+NO.215 Bet:Small  24
+NO.215 Bet:Small  24
+NO.215 Bet:Small  24

@@ -1,0 +1,7 @@
+dovecot-mailcow: imap-login: Disabled: Login interrupted by logging out (no login attempts within 0 seconds): user=<>, rip=172.22.1.1, Hello, what might not work?
+dovecot-mailcow: imap-login: Disconnected: Aborted login by logging out (no auth attempts in 0 secs): user=<>, rip=172.22.1.1, lip=172.22.1.250
+sogo: Oct 12 11:20:40 5914dca42bb9 sogod [62]: <0x555da23b5e10[SOGoMailAccount]:0> renewing imap4 password
+Oct 12 11:20:40 5914dca42bb9 sogod [62]: [ERROR] <0x0x555da19c9e60[NGImap4ConnectionManager]> IMAP4 login failed:
+lip=172.22.1.250
+sogo: October 12, 11:20:40 5914dca42bb9 sogod [62]: <0x555da23b5e10[SOGoMailAccount]:0> imap4 password update
+October 12, 11:20:40 5914dca42bb9 year [62]: [ERROR] <0x0x555da19c9e60[NGImap4ConnectionManager]> Couldn't log in to IMAP4:

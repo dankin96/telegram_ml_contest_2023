@@ -1,0 +1,9 @@
+class Color:
+    def __init__(self, r, g, b):
+        print('Point.__init__')
+        self.r = r
+        self.g = g
+        self.b = b
+
+x = Color(255, 127, 0)
+print(x.r, x.g, x.b)

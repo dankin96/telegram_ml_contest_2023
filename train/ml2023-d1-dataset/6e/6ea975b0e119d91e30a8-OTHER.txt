@@ -1,0 +1,8 @@
+[comparison=HDR,Dovi] 
+ http://up.ccp.ovh/files/XVqWY/Don't.Worry.Darling.2022_PQ_HDR_03.png
+http://up.ccp.ovh/files/LlbpV/Don't.Worry.Darling.2022_PQ_DoVi_03.png
+http://up.ccp.ovh/files/waO6d/Don't.Worry.Darling.2022_PQ_HDR_02.png
+http://up.ccp.ovh/files/oVkdq/Don't.Worry.Darling.2022_PQ_DoVi_02.png
+http://up.ccp.ovh/files/k5WQN/Don't.Worry.Darling.2022_PQ_HDR_01.png
+http://up.ccp.ovh/files/KWlNN/Don't.Worry.Darling.2022_PQ_DoVi_01.png
+  [/comparison]

@@ -1,0 +1,14 @@
+
+{
+  "method": "POST",
+  "url": "https://api.binance.com/sapi/v1/asset/get-funding-asset",
+  "params": {
+    "timestamp": "1696921801177",
+    "signature": "FILTERED"
+  },
+  "headers": {
+    "content_type": "application/x-www-form-urlencoded",
+    "accept": "json",
+    "user_agent": "FILTERED"
+  }
+}

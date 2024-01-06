@@ -1,0 +1,6 @@
+foo(int) { 
+  return int; //ошибка.
+}
+bar(intt) {
+  return intt;
+}

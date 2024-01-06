@@ -1,0 +1,1 @@
+ v-on:remove="todos.splice(index, 1)"

@@ -1,0 +1,9 @@
+python
+def fahrenheit_to_celsius(fahrenheit):
+    celsius = 5 / 9 * (fahrenheit - 32)
+    return celsius
+
+temperature_fahrenheit = 80
+temperature_celsius = fahrenheit_to_celsius(temperature_fahrenheit)
+
+print("Temperature in Celsius:", temperature_celsius)

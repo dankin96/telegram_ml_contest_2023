@@ -1,0 +1,1 @@
+binance.create_order('btc/usdt', 'market', 'buy', None, None, {'cost':5})

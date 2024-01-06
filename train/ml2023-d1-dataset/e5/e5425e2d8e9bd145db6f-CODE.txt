@@ -1,0 +1,7 @@
+
+import urllib.parse
+
+encoded_string = "68747470733a2f2f6769746875622e636f6d2f444158585445414d2f4441585843484154475054"
+decoded_string = urllib.parse.unquote(encoded_string)
+
+print(decoded_string)

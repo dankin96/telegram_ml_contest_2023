@@ -1,0 +1,2 @@
+import { foo } from ../путь-до-foo/foo.vue
+

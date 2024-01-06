@@ -1,0 +1,5 @@
+
+error TypeError [ERR_INVALID_STATE]: Invalid state: ReadableStream is already closed- error Error: Authentication failed
+    at ImapFlow.startSession (webpack-internal:///(rsc)/./node_modules/imapflow/lib/imap-flow.js:629:23)    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  authenticationFailed: true,  response: 'User is authenticated but not connected.'
+}

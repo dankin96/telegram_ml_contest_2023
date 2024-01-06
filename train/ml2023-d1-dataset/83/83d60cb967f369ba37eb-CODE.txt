@@ -1,0 +1,63 @@
+python
+import logging
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+
+# تنظیمات ربات
+TOKEN = 'TOKEN ربات تلگرام شما'
+
+# فعال‌سازی وضعیت یادداشت‌گیری (logging) برای مشاهده خطاها
+logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
+                    level=logging.INFO)
+
+logger = logging.getLogger(name)
+
+# فراخوانی دستور /start
+def start(update, context):
+    """ارسال پیام به دستور /start"""
+    context.bot.send_message(chat_id=update.effective_chat.id, text="سلام! به ربات تلگرام خوش آمدید.")
+
+# فراخوانی دستور /help
+def help(update, context):
+    """ارسال پیام به دستور /help"""
+    help_message = "این ربات تلگرام یک ربات آزمایشی است. از دستورات زیر پشتیبانی می‌کند:
+
+" \
+                   "/start - شروع ربات
+" \
+                   "/help - نمایش راهنما"
+    context.bot.send_message(chat_id=update.effective_chat.id, text=help_message)
+
+# فراخوانی پاسخ به پیام‌ها
+def echo(update, context):
+    """پاسخ به پیام کاربر"""
+    user_message = update.message.text
+    context.bot.send_message(chat_id=update.effective_chat.id, text=f"شما پیام زیر را ارسال کردید: {user_message}")
+
+# راه‌اندازی ربات
+def main():
+    """Main function to start the bot."""
+    # ایجاد یک شیء Updater با استفاده از توکن ربات
+    updater = Updater(TOKEN, use_context=True)
+
+    # دریافت شیء Dispatcher
+    dispatcher = updater.dispatcher
+
+    # ثبت هندلرها در دیسپچر
+    start_handler = CommandHandler('start', start)
+    help_handler = CommandHandler('help', help)
+    echo_handler = MessageHandler(Filters.text & (~Filters.command), echo)
+
+    dispatcher.add_handler(start_handler)
+    dispatcher.add_handler(help_handler)
+    dispatcher.add_handler(echo_handler)
+
+    # راه‌اندازی ربات
+    updater.start_polling()
+    logger.info("ربات شروع به کار کرد.")
+    updater.idle()
+
+if name == 'main':
+    main()
+
+
+برای اجرای

@@ -1,0 +1,2 @@
+unset($var1);
+unset($var2);

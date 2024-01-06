@@ -1,0 +1,11 @@
+taom = input("Menyudan taom nomini kiriting: ")
+
+if taom == "osh":
+    print("Osh xonasida xizmat qilamiz")
+elif taom == "manti":
+    print("Manti xonasida xizmat qilamiz")
+elif taom == "shashlik":
+    print("Shashlik xonasida xizmat qilamiz")
+else:
+    print("Ushbu taom menyuda mavjud emas")
+

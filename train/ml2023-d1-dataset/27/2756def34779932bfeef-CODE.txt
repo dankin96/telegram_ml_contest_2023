@@ -1,0 +1,11 @@
+
+class Foo {
+  render() {
+    const { data } = this;
+    return (
+      <div className="container">
+        {this.generateSVG(...data)}
+      </div>
+    );
+  }
+}

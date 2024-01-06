@@ -1,0 +1,7 @@
+const myScope = scope("my-scope" span>, "Описание области");
+
+myScope.task( span>"my-task", "Сделать что-нибудь")
+  .setAction(async span> () =>  { ... });
+
+myScope.task( span>"my-other-task", "Сделай что-нибудь еще")
+  .setAction(async span> () =>  { ... });

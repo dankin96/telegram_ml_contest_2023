@@ -1,0 +1,11 @@
+  public getModalMessages = (): Promise<InAppMessage | ControlMessage> =>
+    new Promise((resolve, reject) => {
+      if (!this.initialized) {
+        reject(new Error('Braze service was not initialized'));
+      }
+
+      brazeSDK.subscribeToInAppMessage((event) => {
+        console.log('--subscribeToInAppMessage', event);
+        resolve(event);
+      });
+    });

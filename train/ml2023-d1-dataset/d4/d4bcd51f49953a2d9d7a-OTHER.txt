@@ -1,0 +1,3 @@
+Error: Transaction test error:
+  file /usr/bin/mount.davfs2 conflicts between attempted installs of davfs2-1.6.1-2.x86_64 and davfs2-1.6.1-2.x86_64
+  file /usr/bin/umount.davfs2 conflicts between attempted installs of davfs2-1.6.1-2.x86_64 and davfs2-1.6.1-2.x86_64

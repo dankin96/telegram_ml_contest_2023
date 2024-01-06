@@ -1,0 +1,11 @@
+
+iex(3)> IO.puts [45, 46, 47, "hello"]
+-./hello
+:ok
+iex(4)> IO.puts [45, 46, 47 | "hello"]
+-./hello
+:ok
+iex(5)> IO.puts [45, 46 | 47]
+** (ArgumentError) argument error
+    (stdlib 5.0.2) io.erl:99: :io.put_chars(:standard_io, [[45, 46 | 47], 10])
+    iex:5: (file)

@@ -1,0 +1,5 @@
+text = 'hlh'
+for i in range(len(text)):
+for j in range(i+1):
+print(text[j], end = ‘ ‘)
+Print()

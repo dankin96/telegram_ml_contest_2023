@@ -1,0 +1,9 @@
+/* flags:
+ 1 for load, 
+ 2 for unload,
+ 0 for check loading
+   Return
+ - for flag=0 flag sets to:
+    0 - not loaded
+    1 - loaded
+*/

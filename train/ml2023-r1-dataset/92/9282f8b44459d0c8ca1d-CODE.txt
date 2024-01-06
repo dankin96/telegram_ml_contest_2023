@@ -1,0 +1,4 @@
+spec:
+  nodeSelector:
+    matchLabels:
+      beta.kubernetes.io/os: "linux"

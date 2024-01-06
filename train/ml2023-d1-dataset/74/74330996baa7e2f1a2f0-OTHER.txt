@@ -1,0 +1,13 @@
+ਏਓ : refund computation form.
+𖤐 : buyer's info.
+     ⋆ tg username :
+     ⋆ what premium :
+
+𖤐 : computation formula.
+     ⋆ price × .80 ÷ subscription
+        days × remaining days =
+        refund
+
+𖤐 : refund computation.
+     ⋆ 00 × .80 ÷ 00 × 00 =refund
+

@@ -1,0 +1,9 @@
+with t as (
+    ...
+    pivot
+    (
+        count(day)
+        for day in ('mon', 'fri')
+    )
+)
+

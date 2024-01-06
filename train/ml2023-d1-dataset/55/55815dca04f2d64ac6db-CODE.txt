@@ -1,0 +1,33 @@
+'account_id': 123,
+  'instant': True,
+  'leverage': {
+    'enabled': True,
+    'type': 'cross',
+    'value': '20',
+  },
+  'note': 'long',
+  'pair': 'USDT_FLMUSDT',
+  'position': {
+    'order_type': 'market',
+    'type': 'buy',
+    'units': {
+      'value': 15,
+    },
+  },
+  'stop_loss': {
+    'enabled': 'false',
+  },
+  'take_profit': {
+    'enabled': 'true',
+    'steps': [
+      {
+        'order_type': 'limit',
+        'price': {
+          'type': 'last',
+          'value': 0.07337,
+        },
+        'volume': 100,
+      },
+    ],
+  },
+}

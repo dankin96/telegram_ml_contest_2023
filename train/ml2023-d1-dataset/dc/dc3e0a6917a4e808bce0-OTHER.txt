@@ -1,0 +1,2 @@
+$ libime_pinyindict -d 古诗词名句【官方推荐】.dict - | grep 床前
+床前看月光 chuang'qian'kan'yue'guang 0

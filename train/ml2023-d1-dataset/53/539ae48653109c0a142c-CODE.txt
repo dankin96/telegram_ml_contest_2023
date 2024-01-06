@@ -1,0 +1,1 @@
+#<Actions::DeleteMessage:0x00007ff002626840 @chat_id=-1001914092113, @message_id=10, @db_message_id=39, @options={:deleted_by_id=>5245236673}>

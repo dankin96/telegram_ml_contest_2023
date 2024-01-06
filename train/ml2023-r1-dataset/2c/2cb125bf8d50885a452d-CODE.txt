@@ -1,0 +1,78 @@
+let products;
+// show products
+const limit = 5;
+export const showProductWizard = new Scenes.WizardScene(
+  "show-products",
+  async (ctx) => {
+    try {
+      // Initialize page if needed
+      if (!ctx.session.page) {
+        ctx.session.page = 0;
+      }
+      console.log("Session " + ctx.session.page);
+      // Calculate indexes
+      const startIndex = ctx.session.page * limit;
+      const endIndex = startIndex + limit;
+
+      products = await getAllProducts();
+      let productsToShow = products.slice(startIndex, endIndex);
+      // Send current page of items
+      await ctx.replyWithHTML(productsToShow.map(product => `<b>${product.tuliq_nomi}</b>`).join('
+'));
+
+      // Buttons for pagination
+      const paginationKeyboards = createButtons(ctx.session.page, products.length, limit)
+      await ctx.reply("<b>Mahsulotlar </b> ", {
+        parse_mode: "HTML",
+        ...paginationKeyboards
+      })
+      // Show first page results
+      // const products = await getAllProducts();
+      // await ctx.reply(
+      //   products
+      //     .slice(
+      //       parseInt(ctx.session.page),
+      //       parseInt(ctx.session.page) + limit - 1
+      //     )
+      //     .map((e) => `Item ${e.tuliq_nomi}`)
+      //     .toString(),
+      //   Markup.keyboard(
+      //     [
+      //       [keyboards.back, keyboards.forward],
+      //       [keyboards.menu]
+      //     ]
+      //   ).resize()
+      // );
+    } catch (err) {
+      console.log(err);
+      return;
+    }
+  }
+);
+
+showProductWizard.hears(`${keyboards.menu}`, async (ctx) => {
+  await ctx.scene.leave();
+  await ctx.reply("Bosh menu", {
+    reply_markup: {
+      remove_keyboard: true
+    }
+  })
+
+})
+
+showProductWizard.action('prev', async ctx => {
+  // Decrease page number  
+  ctx.session.page = Math.max(0, ctx.session.page - 1)
+
+  // Recall items command handler
+  return ctx.scene.reenter()
+})
+
+showProductWizard.action('next', async ctx => {
+  // Increase page number
+  const maxPage = Math.ceil(products.length / limit) - 1
+  ctx.session.page = Math.min(maxPage, ctx.session.page + 1)
+
+  // Recall items command handler
+  return ctx.scene.reenter()
+})

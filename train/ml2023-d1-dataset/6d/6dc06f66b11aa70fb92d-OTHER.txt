@@ -1,0 +1,10 @@
+10-12 14:07:38.498 16703 16768 I TestRunner: started: test_registrationRu(ru.polyphone...registration.RegistrationActivityTest)
+10-12 14:07:38.508 16703 16768 W FileTestStorage: Output properties is not supported.
+10-12 14:07:38.508 16703 16768 I Tracing : Tracer added: class androidx.test.platform.tracing.AndroidXTracer
+10-12 14:07:38.514 16703 16768 I KASPRESSO: AdbServer. The command to execute=shell pm revoke ru.polyphone...android.permission.RECEIVE_SMS
+10-12 14:07:39.181 16703 16768 I KASPRESSO: AdbServer. The command=shell pm revoke ru.polyphone...android.permission.RECEIVE_SMS was performed with result=CommandResult(status=SUCCESS, description=exitCode=0, message=, serviceInfo=The command was executed on desktop=Desktop-5258)
+10-12 14:07:39.183  1368  1368 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+10-12 14:07:39.186 16685 16685 I app_process: System.exit called, status: 0
+10-12 14:07:39.186 16685 16685 I AndroidRuntime: VM exiting with result code 0.
+10-12 14:07:39.196   314   314 I Zygote  : Process 16703 exited due to signal 9 (Killed)
+10-12 14:07:39.215   527   562 I libprocessgroup: Successfully killed process cgroup uid 10148 pid 16703 in 32ms"

@@ -1,0 +1,7 @@
+timeit.timeit("s = ''
+for i in range(1000000): s += str(i)", number=10)
+11.015409500003443
+timeit.timeit("parts = []
+for i in range(1000000): parts.append(str(i))
+s = ''.join(parts)", number=10)
+0.8897796000092058

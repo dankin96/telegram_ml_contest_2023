@@ -1,0 +1,2 @@
+ "processing": "UPAY: Payture", 
+ "card_brand": "Humocard"

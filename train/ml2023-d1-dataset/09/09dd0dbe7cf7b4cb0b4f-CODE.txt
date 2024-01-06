@@ -1,0 +1,89 @@
+from flask import Flask, render_template, request, redirect, url_for, flash
+from flask_sqlalchemy import SQLAlchemy
+from sqlalchemy import create_engine
+from sqlalchemy import Column, Integer, String, DateTime, Time, ForeignKey
+from sqlalchemy.orm import sessionmaker
+from datetime import datetime
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://admin:skylark@192.168.25.37/journal'
+app.config['SECRET_KEY'] = 'your_secret_key'
+
+db = SQLAlchemy(app)
+
+class Broadcast(db.Model):
+    __tablename__ = 'broadcasts'
+    id_row = db.Column(db.Integer, primary_key=True)
+    plan_date = db.Column(db.String(5), nullable=False)
+    id_broadcast = db.Column(db.String(50), nullable=False)
+    channel = db.Column(db.String(10), nullable=False)
+    broadcast = db.Column(db.String(50), nullable=False)
+    format = db.Column(db.String(10), nullable=False)
+    start_time = db.Column(db.Time, nullable=False)
+    end_time = db.Column(db.Time, nullable=False)
+    duration = db.Column(db.Time, nullable=False)
+    application = db.Column(db.String(50), nullable=False)
+    port = db.Column(db.String(10), nullable=False)
+    vk = db.Column(db.String(50), nullable=False)
+    ok = db.Column(db.String(50), nullable=False)
+    yt = db.Column(db.String(50), nullable=False)
+    comment = db.Column(db.String(100), nullable=False)
+    incident = db.Column(db.Boolean, default=False)
+
+engine = create_engine('postgresql://admin:skylark@192.168.25.37/your_database_name')
+Session = sessionmaker(bind=engine)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/broadcasts')
+def broadcasts():
+    broadcasts = Broadcast.query.all()
+    return render_template('broadcasts.html', broadcasts=broadcasts)
+
+@app.route('/add_broadcast', methods=['POST'])
+def add_broadcast():
+    if request.method == 'POST':
+        plan_date = request.form['plan_date']
+        id_broadcast = request.form['id_broadcast']
+        channel = request.form['channel']
+        broadcast = request.form['broadcast']
+        format = request.form['format']
+        start_time = request.form['start_time']
+        end_time = request.form['end_time']
+        application = request.form['application']
+        port = request.form['port']
+        vk = request.form['vk']
+        ok = request.form['ok']
+        yt = request.form['yt']
+        comment = request.form['comment']
+
+        try:
+            start_time = datetime.strptime(start_time, '%H:%M').time()
+            end_time = datetime.strptime(end_time, '%H:%M').time()
+            duration = (datetime.combine(datetime.min, end_time) - datetime.combine(datetime.min, start_time)).time()
+
+            # Преобразование даты и времени в формат timestamp
+            plan_date = datetime.strptime(date + ' ' + plan_time, '%d.%m.%Y %H:%M')
+            
+            # Создание новой трансляции и добавление в базу данных
+            new_broadcast = Broadcast(date=date, plan_time=plan_date, id_broadcast=id_broadcast, channel=channel)
+            # Добавьте остальные поля в соответствии с вашей моделью Broadcast
+            db.session.add(new_broadcast)
+            db.session.commit()
+
+            return redirect(url_for('broadcasts'))
+        except IntegrityError as e:
+            # Обработка ошибки, если запись с таким ключом уже существует
+            db.session.rollback()
+            error_message = "Трансляция с таким ключом уже существует."
+            return render_template('broadcasts.html', broadcasts=Broadcast.query.all(), error_message=error_message)
+
+    return redirect(url_for('broadcasts'))
+
+
+if __name__ == '__main__':
+    with app.app_context():
+        db.create_all()
+    app.run(debug=True)

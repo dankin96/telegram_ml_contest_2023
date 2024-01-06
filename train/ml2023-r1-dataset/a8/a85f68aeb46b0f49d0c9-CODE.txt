@@ -1,0 +1,49 @@
+import telebot
+import requests
+import hashlib
+import time
+
+TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+
+URL = 'https://example.com'
+
+bot = telebot.TeleBot(TOKEN)
+
+original_hash = None
+
+
+def send_notification():
+    bot.send_message(chat_id='YOUR_CHAT_ID', text='Страница была обновлена: {}'.format(URL))
+
+
+def check_website_changes():
+    global original_hash
+    response = requests.get(URL)
+    if response.status_code == 200:
+        new_hash = hashlib.md5(response.content).hexdigest()
+        if original_hash is None:
+            original_hash = new_hash
+        elif new_hash != original_hash:
+            send_notification()
+            original_hash = new_hash
+
+
+@bot.message_handler(commands=['start'])
+def handle_start(message):
+    bot.reply_to(message, 'Бот начал отслеживание изменений страницы.')
+
+
+def run_website_monitoring():
+    while True:
+        check_website_changes()
+        time.sleep(60) 
+
+
+# Запуск бота
+def run_telegram_bot():
+    bot.polling()
+
+
+if __name__ == '__main__':
+    run_website_monitoring()
+    run_telegram_bot()

@@ -1,0 +1,10 @@
+👀 SPAM Score detected:
+###
+Посмотри объявление "Кровать двухспальная с матрасом 180 200 бу" на Авито:  
+ 
+https://www.avito.ru/mahachkala/mebel_i_interer/krovat_dvuhspalnaya_s_matrasom_180_200_bu_3570892672?utm_campaign=native&utm_medium=item_page_ios&utm_source=soc_sharing_seller
+###
+
+Reason: Наличие ссылок
+Action: deleteMessage
+Bot response: Successful ✅

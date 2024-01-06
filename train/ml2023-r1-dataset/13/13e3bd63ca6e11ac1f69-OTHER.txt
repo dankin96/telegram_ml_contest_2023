@@ -1,0 +1,2 @@
+vless://2e65cc5d-93df-4f03-8d11-1516230cca49@off.v2shop.fun:24918?type=tcp&security=reality&fp=firefox&pbk=tBo9f9wbnatJ-ztE1I5OkJYAihdKRjnI2BMqo5ZobU8&sni=yahoo.com&sid=ffa47b21&spx=%2F#124-52jddfyd
+

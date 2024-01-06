@@ -1,0 +1,43 @@
+{
+  "update_id": 438255248,
+  "message": {
+    "message_id": 274,
+    "from": {
+      "id": 6443250122,
+      "is_bot": false,
+      "first_name": "Dilu",
+      "last_name": "Denny",
+      "username": "aaaalto25"
+    },
+    "chat": {
+      "id": -1001855149611,
+      "title": "Kochi Vibes❤️",
+      "is_forum": true,
+      "type": "supergroup"
+    },
+    "date": 1696942507,
+    "new_chat_participant": {
+      "id": 6443250122,
+      "is_bot": false,
+      "first_name": "Dilu",
+      "last_name": "Denny",
+      "username": "aaaalto25"
+    },
+    "new_chat_member": {
+      "id": 6443250122,
+      "is_bot": false,
+      "first_name": "Dilu",
+      "last_name": "Denny",
+      "username": "aaaalto25"
+    },
+    "new_chat_members": [
+      {
+        "id": 6443250122,
+        "is_bot": false,
+        "first_name": "Dilu",
+        "last_name": "Denny",
+        "username": "aaaalto25"
+      }
+    ]
+  }
+}

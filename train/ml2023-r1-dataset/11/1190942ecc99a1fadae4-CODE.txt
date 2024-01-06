@@ -1,0 +1,7 @@
+python
+def calculate_hypotenuse(leg1, leg2):
+    leg1_squared = leg1 ** 2
+    leg2_squared = leg2 ** 2
+    sum_of_squares = leg1_squared + leg2_squared
+    hypotenuse = sum_of_squares ** 0.5
+    return hypotenuse

@@ -1,0 +1,8 @@
+{
+  languages: [ 'english' ],
+  countries: [ 'US' ],
+  price: [ 5, 100000 ],
+  studentsCount: [ 0, 100000 ],
+  sessionsCount: [ 0, 100000 ]
+}
+

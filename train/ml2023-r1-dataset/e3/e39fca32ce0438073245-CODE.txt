@@ -1,0 +1,26 @@
+from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
+
+def start(update, context):
+    context.bot.send_message(chat_id=update.effective_chat.id, text="Привет! Я Лёва, твой кибердруг. Чем могу помочь?")
+
+def reply_to_message(update, context):
+    message = update.message.text
+    response = "Извини, я пока не умею вести разговоры. Но я скоро научусь, обещаю!"
+
+    context.bot.send_message(chat_id=update.effective_chat.id, text=response)
+
+def main():
+    updater = Updater(token='YOUR_TELEGRAM_BOT_TOKEN', use_context=True)
+    dispatcher = updater.dispatcher
+
+    start_handler = CommandHandler('start', start)
+    dispatcher.add_handler(start_handler)
+
+    reply_handler = MessageHandler(Filters.text, reply_to_message)
+    dispatcher.add_handler(reply_handler)
+
+    updater.start_polling()
+    updater.idle()
+
+if __name__ == '__main__':
+    main()

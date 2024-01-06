@@ -1,0 +1,9 @@
+code Sub SplitSheets2()
+    Dim s As Worksheet
+    Dim wb as Workbook
+    Set wb = ActiveWorkbook
+    For Each s In wb.Worksheets                                 'проходим во всем листам активной книги
+        s.Copy                                                  'сохраняем лист как новый файл
+        ActiveWorkbook.SaveAs wb.Path & "\" & s.Name & ".xlsx"  'сохраняем файл
+    Next
+End Sub

@@ -1,0 +1,14 @@
+python
+from googletrans import Translator
+
+def terjemahkan(teks, bahasa_sumber, bahasa_target):
+    translator = Translator()
+    terjemahan = translator.translate(teks, src=bahasa_sumber, dest=bahasa_target)
+    return terjemahan.text
+
+teks_asal = "Hello, how are you?"
+bahasa_sumber = "en"  # Bahasa sumber (Inggris)
+bahasa_target = "es"  # Bahasa target (Spanyol)
+
+terjemahan = terjemahkan(teks_asal, bahasa_sumber, bahasa_target)
+print(f"Terjemahan: {terjemahan}")

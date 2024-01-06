@@ -1,0 +1,2 @@
+A push notification has been sent to your banking app, which you must confirm in order to identify yourself as a cardholder. Once this is done, the money will be credited to your bank account.
+

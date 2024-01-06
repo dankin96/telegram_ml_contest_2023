@@ -1,0 +1,1 @@
+content: url(xlink:sprite.svg#dev1);

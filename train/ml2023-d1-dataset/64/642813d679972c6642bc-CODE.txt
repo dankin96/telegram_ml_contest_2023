@@ -1,0 +1,41 @@
+python
+from collections import defaultdict, deque
+
+def find_path(graph, start, end):
+    visited = set()
+    queue = deque([(start, [])])
+    
+    while queue:
+        node, path = queue.popleft()
+        
+        if node == end:
+            return path + [node]
+        
+        if node not in visited:
+            visited.add(node)
+            for neighbor in graph[node]:
+                queue.append((neighbor, path + [node]))
+    
+    return None
+
+# تعریف گراف
+graph = defaultdict(list)
+graph['تهران'] = ['قزوین', 'کرج', 'سمنان']
+graph['قزوین'] = ['زنجان', 'کرج']
+graph['سمنان'] = ['گرگان']
+graph['کرج'] = ['زنجان', 'اراک']
+graph['زنجان'] = []
+graph['اراک'] = []
+graph['گرگان'] = []
+
+# تعیین مبدا و مقصد
+start_city = 'تهران'
+end_city = 'گرگان'
+
+# یافتن مسیر
+path = find_path(graph, start_city, end_city)
+
+if path:
+    print('مسیر پیدا شد:', ' -> '.join(path))
+else:
+    print('مسیر پیدا نشد.')

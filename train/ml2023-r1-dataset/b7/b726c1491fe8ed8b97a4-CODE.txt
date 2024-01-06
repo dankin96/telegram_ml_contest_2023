@@ -1,0 +1,2 @@
+indicator ( timeframe="", timeframe_gaps=true, ... )
+

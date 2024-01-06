@@ -1,0 +1,46 @@
+sudo docker run --net=host --runtime=nvidia -it -v /home/art/opencv_cuda:/coding  nvidia/cuda:12.2.0-devel-ubuntu20.04 /bin/bash
+
+apt-get -y update
+apt-get install -y cmake pkg-config \
+ zlib1g-dev ffmpeg libwebp-dev \
+ libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev  \
+ libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+apt-get install x11-apps 
+
+apt-get install cmake git libgtk2.0-dev pkg-config \
+libavcodec-dev libavformat-dev libswscale-dev
+apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev \
+  libpng-dev libtiff-dev  libdc1394-22-dev
+
+cmake -D CMAKE_BUILD_TYPE=Release\
+ -D OPENCV_EXTRA_MODULES_PATH=/coding/opencv_contrib-4.5.2/modules \ 
+ -D ENABLE_FAST_MATH=1\
+ -D CUDA_FAST_MATH=1\
+ -D BUILD_PNG=OFF\
+ -D BUILD_TIFF=OFF\
+ -D BUILD_TBB=OFF\
+ -D BUILD_JPEG=OFF\
+ -D BUILD_JASPER=OFF\
+ -D BUILD_ZLIB=OFF\
+ -D BUILD_EXAMPLES=OFF\
+ -D BUILD_opencv_world=OFF\
+ -D BUILD_opencv_java=OFF\
+ -D BUILD_opencv_python2=ON\
+ -D BUILD_opencv_python3=OFF\
+ -D ENABLE_NEON=ON\
+ -D WITH_OPENCL=OFF\
+ -D WITH_OPENMP=OFF\
+ -D WITH_FFMPEG=ON\
+ -D WITH_GSTREAMER=OFF\
+ -D WITH_GSTREAMER_0_10=OFF\
+ -D WITH_CUDA=ON\
+ -D CUDA_TOOLKIT_ROOT_DIR=/usr/local/cuda-12.2\
+ -D WITH_GTK=ON\
+ -D WITH_VTK=OFF\
+ -D WITH_TBB=ON \
+ -D WITH_1394=OFF \
+ -D WITH_OPENEXR=OFF\
+ -D CUDA_ARCH_BIN=8.9\
+ -D CUDA_ARCH_PTX=""\
+ -D INSTALL_C_EXAMPLES=OFF\
+ -D INSTALL_TESTS=OFF ..

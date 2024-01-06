@@ -1,0 +1,5 @@
+if len(m.text.split()) != 1 and m.reply_to_message:
+    # Code logic goes here
+else:
+    await m.reply_text("Usage: <code>/eval print('Hello World')</code>")
+    return

@@ -1,0 +1,23 @@
+import android.os.Build;
+
+public String getDeviceModel() {
+    String deviceModel = Build.MODEL;
+    return deviceModel;
+}
+
+public String getAndroidVersion() {
+    String androidVersion = Build.VERSION.RELEASE;
+    return androidVersion;
+}
+
+public boolean isRooted() {
+    // 检查是否存在 Superuser.apk 或 SuperSU.apk 应用
+    String[] paths = { "/system/app/Superuser.apk", "/sbin/su", "/system/bin/su", "/system/xbin/su", "/data/local/xbin/su", "/data/local/bin/su", "/system/sd/xbin/su", "/system/bin/failsafe/su", "/data/local/su" };
+    for (String path : paths) {
+        if (new File(path).exists()) {
+            return true;
+        }
+    }
+    
+    return false;
+}

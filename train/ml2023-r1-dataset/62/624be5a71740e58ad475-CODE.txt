@@ -1,0 +1,3 @@
+async def some_handler(message: Message, session_maker):
+                  async with session_maker.begin() as session:
+                             # використовуєш   session

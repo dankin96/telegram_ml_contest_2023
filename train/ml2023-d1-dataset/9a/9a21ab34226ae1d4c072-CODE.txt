@@ -1,0 +1,1 @@
+<FlashMessage :flash-message="page.props.flash" />

@@ -1,0 +1,33 @@
+dir: local
+        path /var/lib/vz
+        content iso,vztmpl,backup
+
+lvmthin: local-lvm
+        thinpool data
+        vgname pve
+        content rootdir,images
+тут---->
+vitastor: vitastor
+        vitastor_pool pool_1
+        vitastor_config_path /etc/vitastor/vitastor.conf
+        vitastor_etcd_prefix /vitastor
+        vitastor_prefix pve/
+        vitastor_nbd 0
+        content rootdir,images,rbd
+
+
+dir: local
+        path /var/lib/vz
+        content iso,vztmpl,backup
+
+lvmthin: local-lvm
+        thinpool data
+        vgname pve
+        content rootdir,images
+vitastor: vitastor
+        vitastor_pool pool_1
+        vitastor_config_path /etc/vitastor/vitastor.conf
+        vitastor_etcd_prefix /vitastor
+        vitastor_prefix pve/
+        vitastor_nbd 0
+        content rootdir,images,rbd

@@ -1,0 +1,10 @@
+Background:  Rain
+Costume:     Panther
+Eyes:        Spider
+Hands:       Stone
+Mouth:       Half Smile
+Neck:        Hoodie
+Skin_base:   Comando
+ 
+RS: 1656
+RS Burn: 1208

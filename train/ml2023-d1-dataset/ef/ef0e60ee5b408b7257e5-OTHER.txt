@@ -1,0 +1,4 @@
+gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
+
+# to disable
+#gsettings set org.gnome.mutter experimental-features "[]"

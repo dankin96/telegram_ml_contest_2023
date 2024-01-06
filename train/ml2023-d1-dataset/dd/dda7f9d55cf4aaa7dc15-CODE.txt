@@ -1,0 +1,18 @@
+const isValidProcess = val === "is_processing_termless";
+const isTermlessProcess = !!data.is_processing_termless;
+const isDateProcess = !!data.processing_date;
+const isEventProcess = !!data.processing_event;
+
+if (isValidProcess && isTermlessProcess) {
+  return "Бессрочно";
+}
+if (isValidProcess && isDateProcess && !isEventProcess) {
+  return `Дата прекращения: ${data.processing_date}`;
+}
+if (isValidProcess && isEventProcess && !isDateProcess) {
+  return `Событие: ${data.processing_event}`;
+}
+if (isValidProcess && isDateProcess && isEventProcess) {
+  return `Дата прекращения: ${data.processing_date} 
+ Событие: ${data.processing_event}`;
+}

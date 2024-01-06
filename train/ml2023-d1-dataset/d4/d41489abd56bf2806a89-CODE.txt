@@ -1,0 +1,7 @@
+var num=111;
+var a = num.toString(2), 
+    b = num.toString(8), 
+    c = num.toString(16), 
+console.log([a,b,c])
+//output: [ '1101111', '157', '6f' ]
+

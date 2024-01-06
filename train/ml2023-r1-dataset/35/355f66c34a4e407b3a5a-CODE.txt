@@ -1,0 +1,4 @@
+    <div class="form-control">
+      <label>Порядок номеров</label>
+      <numbering-mode-selector formControlName="numberingMode"></numbering-mode-selector>
+    </div>

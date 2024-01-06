@@ -1,0 +1,1 @@
+The root of the equation x^2 - 1 = 0 using Secant algorithm is: 1.000000000039968

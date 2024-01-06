@@ -1,0 +1,10 @@
+
+  - spec.yaml:10103:7 -> can't merge object with ''
+          10100 |           module_bundle_payload: '#/components/schemas/TransactionPayload_ModuleBundlePayload'
+          10101 |           multisig_payload: '#/components/schemas/TransactionPayload_MultisigPayload'
+          10102 |     TransactionPayload_EntryFunctionPayload:
+        → 10103 |       allOf:
+          10104 |       - type: object
+          10105 |         required:
+          10106 |         - type
+          10107 |         properties:

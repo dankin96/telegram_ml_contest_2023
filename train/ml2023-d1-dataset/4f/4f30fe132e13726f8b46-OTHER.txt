@@ -1,0 +1,5 @@
+> electron-test@1.0.0 start
+> electron .
+
+
+[6724:1012/220338.777:ERROR:crashpad_client_win.cc(863)] not connected

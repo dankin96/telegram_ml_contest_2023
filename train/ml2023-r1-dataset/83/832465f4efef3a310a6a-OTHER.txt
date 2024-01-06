@@ -1,0 +1,12 @@
+Hallo, 
+ich habe jetzt einige Distros durch und überall bin ich mit dem Sound und meinem Mic unzufrieden. Unter Linux hört sich das soo extrem schlecht an, die Leute im Discord verstehen mich kaum. Wenn ich ins Mikro spreche klingt es kratzig, leise und es nimmt auch nicht alles auf egal wie empfindlich ich es einstelle. 
+Die Soundausgabe klingt auch sehr leise, kratzig … ABER alles nur unter Linux, unter Windows klingt alles “normal”. 
+Vielleicht hat ja einer von euch ne Idee und seid bitte gnädig, Linux ist Neuland für mich. 
+Hier ein paar Specs: 
+OS: Garuda Linux KDE Dragonized Edition 
+MB: ASUS ROG Strix X470 F-Gaming 
+CPU: AMD Ryzen 3600x 
+RAM: Corsair RGB 16 GB 
+Graka: RTX 3060 TI 
+Kopfhörer: 0815 Billig Kopfhörer 
+Mic: t.bone SC 420 USB

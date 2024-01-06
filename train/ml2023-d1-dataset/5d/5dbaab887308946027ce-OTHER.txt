@@ -1,0 +1,5 @@
+kleanapp=# SHOW search_path;
+           search_path            
+----------------------------------
+ "$user", public, topology, tiger
+(1 row)

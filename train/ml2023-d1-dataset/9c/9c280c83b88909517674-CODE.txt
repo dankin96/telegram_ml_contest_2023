@@ -1,0 +1,11 @@
+{
+  "cpf": "02962319599",
+  "name": "Cardoso Advocacia",
+  "slug": "cardosoadvocacia",
+  "email": "lucas@cardosoadvocacia.com.br",
+  "document": "15.176.644/0001-02",
+  "userName": "Lucas Gomes Lima Cardoso",
+  "nectarId": "20224786",
+  "quotiBaseUrl": "https://api.quoti.cloud/api/v1",
+  "jusapiBaseUrl": "https://api.jusapi.com/api/v2"
+}

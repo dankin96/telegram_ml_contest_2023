@@ -1,0 +1,24 @@
+"outputs": [
+      {
+         "txid": "48f8cbad874b610e0b4d2b826644f4ecfc6ca0e344da54ae6a0549d6e59ca341",
+         "output": 0,
+         "amount_msat": 1000000,
+         "scriptpubkey": "0014dff6f34a775ac61e8d3e117111c5810f9921713a",
+         "address": "bc1qmlm0xjnhttrparf7z9c3r3vpp7vjzuf62rs025",
+         "status": "confirmed",
+         "blockheight": 811267,
+         "reserved": false
+      },
+      {
+         "txid": "12ae57038420e23ba4387dfd70a185b9d41ce6cd2694acba09f8a0216f4f374b",
+         "output": 1,
+         "amount_msat": 200000000,
+         "scriptpubkey": "0014f2b6c98ab2f70082f634deec49c4f7238ff059b7",
+         "address": "bc1q72mvnz4j7uqg9a35mmkyn38hyw8lqkdhe49esy",
+         "status": "confirmed",
+         "blockheight": 809473,
+         "reserved": false
+      }
+   ],
+   "channels": []
+}

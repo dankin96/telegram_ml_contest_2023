@@ -1,0 +1,1 @@
+   #define HAL_KEY_P1_INPUT_PINS 0x28

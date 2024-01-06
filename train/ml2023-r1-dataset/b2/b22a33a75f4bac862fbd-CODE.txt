@@ -1,0 +1,3 @@
+
+   SELECT * INTO table_name FROM database_name.table_name
+   

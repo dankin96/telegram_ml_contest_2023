@@ -1,0 +1,33 @@
+Exchange WLDUSDT 1h Binance
+Price:    1.65|    1.66|    1.65
+Vol:   441,769| 201,513| 273,476
+ATR: 0.0256
+
+✅OBV:  -2.2 M|  -1.8 M|  -2.0 M
+⚪RSI:   61.02|   66.61|   65.12
+⚪MFI:   67.56|   75.47|   78.69
+⚪CCI:  -15.18|   14.21|   16.06
+❌WR%:  -72.00|  -31.58|  -47.37
+✅ADX:   38.29|   37.49|   37.28
+
+❌MOM: Bearish Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+❌MACD: Bearish
+❌PSAR: Bearish
+
+Support And Resistance
+S: $1.533
+S: $1.624
+R: $1.668
+
+Volatility is moderately high
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

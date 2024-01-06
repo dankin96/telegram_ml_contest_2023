@@ -1,0 +1,2 @@
+ch = random.choice(support_words)
+await message.answer(ch)

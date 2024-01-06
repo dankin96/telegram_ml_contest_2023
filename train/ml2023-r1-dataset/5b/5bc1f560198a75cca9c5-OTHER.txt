@@ -1,0 +1,29 @@
+Host
+AMD Ryzen 3 PRO 4350G
+CPU: SHA256-hashing 500 MB
+    1.809 seconds
+CPU: AES-encrypting 500 MB
+    0.668 seconds
+
+KVM
+QEMU Virtual CPU version 2.5+ 
+(x86-64-v2-AES)
+CPU: SHA256-hashing 500 MB
+    1,812 seconds
+CPU: AES-encrypting 500 MB
+    0,705 seconds
+
+Common KVM processor 
+(kvm64)
+CPU: SHA256-hashing 500 MB
+    1.843 seconds
+CPU: AES-encrypting 500 MB
+    2.070 seconds
+
+CT
+AMD Ryzen 3 PRO 4350G
+CPU: SHA256-hashing 500 MB
+    1.853 seconds
+CPU: AES-encrypting 500 MB
+    0.681 seconds
+

@@ -1,0 +1,89 @@
+**************************************************************
+The.Boogeyman.2023.BluRay.1080p.REMUX.AVC.DTS-HD.MA.5.1-LEGi0N
+**************************************************************
+
+General Info
+
+Complete name........: The.Boogeyman.2023.BluRay.1080p.REMUX.AVC.DTS-HD.MA.5.1-LEGi0N.mkv
+Format...............: Matroska
+Format version.......: Version 4
+Chapters Included....: Yes
+File size............: 27.2 GiB
+Duration.............: 1 h 38 min
+Overall bit rate.....: 39.5 Mb/s
+Encoded date.........: UTC 2023-10-09 15:51:44
+Writing application..: mkvmerge v79.0 ('Funeral Pyres') 64-bit
+Writing library......: libebml v1.4.4 + libmatroska v1.7.1
+Source...............: The.Boogeyman.2023.BluRay.1080p.AVC.DTS-HD.MA5.1-Parker@CHDBits - Thanks :)
+IMDb.................: http://www.imdb.com/title/tt3427252
+TMDb.................: http://www.themoviedb.org/movie/532408
+Genre................: Horror Thriller Mystery
+Subtitles............: English (SDH) / French / Spanish
+
+Audio Info
+
+Codec/Profile........: DTS XLL
+Codec/Name...........: DTS-HD Master Audio
+Bitrate..............: 3 481 kb/s
+kHz/bit..............: 48.0 kHz / 24 bits
+Channels.............: 6
+Language.............: English
+
+Video Info
+
+Codec................: x264
+Type.................: 1080p BluRay Remux
+Format Profile Level.: High@L4.1
+Resolution...........: 1920x1080
+Bit depth............: 8 bits
+Aspect Ratio.........: 16:9
+Bitrate..............: 35.9 Mb/s
+Framerate............: 23.976 (24000/1001) FPS
+
+Quick Summary
+
+QUICK SUMMARY:
+
+Disc Title: THE BOOGEYMAN - BLU-RAYâ„¢
+Disc Label: The.Boogeyman.2023.BluRay.1080p.AVC.DTS-HD.MA5.1-Parker@CHDBits
+Disc Size: 38,266,500,731 bytes
+Protection: AACS
+Playlist: 00800.MPLS
+Size: 32,112,457,728 bytes
+Length: 1:38:36.911
+Total Bitrate: 43.42 Mbps
+Video: MPEG-4 AVC Video / 35899 kbps / 1080p / 23.976 fps / 16:9 / High Profile 4.1
+Audio: English / DTS-HD Master Audio / 5.1 / 48 kHz / 3481 kbps / 24-bit (DTS Core: 5.1 / 48 kHz / 1509 kbps / 24-bit / DN -4dB)
+Audio: English / Dolby Digital Audio / 2.0 / 48 kHz / 320 kbps / DN -27dB
+Audio: French / Dolby Digital Audio / 5.1 / 48 kHz / 640 kbps / DN -27dB
+Audio: Spanish / Dolby Digital Audio / 5.1 / 48 kHz / 640 kbps / DN -27dB
+Subtitle: English / 37.404 kbps
+Subtitle: French / 24.698 kbps
+Subtitle: Spanish / 20.294 kbps
+Subtitle: French / 0.314 kbps
+Subtitle: Spanish / 0.206 kbps
+Subtitle: Chinese / 24.577 kbps
+Subtitle: Chinese / 14.346 kbps
+Subtitle: Chinese / 26.217 kbps
+Subtitle: Chinese / 16.004 kbps
+
+Plot
+
+Still reeling from the tragic death of their mother, a teenage girl and her
+younger sister find themselves plagued by a sadistic presence in their house and
+struggle to get their grieving father to pay attention before itâ€™s too late.
+
+Cast
+
+Sophie Thatcher
+Vivien Lyra Blair
+Chris Messina
+David Dastmalchian
+Marin Ireland
+Madison Hu
+Maddie Nichols
+Mabel Tyler
+Leeann Ross
+Rio Sarah Machado
+
+Screens

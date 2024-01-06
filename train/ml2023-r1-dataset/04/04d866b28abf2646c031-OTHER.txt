@@ -1,0 +1,8 @@
+👀 SPAM Score detected:
+###
+https://gorodzovet.ru/ekb/kontsert-rakhmaninov-vtoraia-simfoniia-event9656420
+###
+
+Reason: Наличие ссылок
+Action: deleteMessage
+Bot response: Successful ✅

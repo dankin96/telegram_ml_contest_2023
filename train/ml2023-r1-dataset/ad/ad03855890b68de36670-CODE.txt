@@ -1,0 +1,7 @@
+.menu li:not(:last-child) a {   
+  border-right: 1px dotted #ccc;
+  }
+
+ul li:nth-last-child(n+2) {
+  background: skyblue;
+}

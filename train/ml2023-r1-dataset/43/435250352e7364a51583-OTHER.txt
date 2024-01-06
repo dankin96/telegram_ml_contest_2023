@@ -1,0 +1,26 @@
+ADDRESS:      0xF276b5CD2bE9F68fb779D23D839013fD8559be51
+PAIR:         0x346Dac7ec84447B9F7D7D9Cb032123961C110c4e
+NAME:         𝕏
+SYMBOL:       𝕏
+SUPPLY:       1000000000
+PRICE:        $0.00000260114472824
+LIQUIDITY:    $2,007
+24H CHANGE:   55%
+24H VOLUME:   $395
+INITIAL MC:   $1,689
+CURRENT MC:   $2,564
+ATH MC:       $2,625
+BUY TAX:      10%
+SELL TAX:     15%
+RENOUNCED:    ✅
+LP LOCKED:    ✅ PinkSale: 100% 182.9 days
+VERIFIED:     ✅
+WHALES:       77.1581%, 4.1025%, 4.0000%, 3.7301%, 3.4062%
+
+✅✅✅✅✅ PASSED ✅✅✅✅✅
+⚠️ NO MAX BUY ⚠️
+
+🤗🤗🤗🤗🤗 SOCIALS 🤗🤗🤗🤗🤗
+https://twitter.com/Xerc_org
+https://t.me/Xerc_org
+https://xerc.org/

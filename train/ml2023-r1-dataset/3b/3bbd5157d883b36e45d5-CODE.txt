@@ -1,0 +1,115 @@
+#include "stm32f10x.h"
+#include "OLED.h"
+
+// 定义菜单的选项
+typedef enum {
+    MENU_OPTION1,
+    MENU_OPTION2,
+    MENU_OPTION3,
+    MENU_OPTION4,
+    MENU_BACK
+} MenuItem;
+
+// 当前选择的菜单项
+MenuItem currentMenuOption = MENU_OPTION1;
+
+// 显示菜单并高亮当前选择的菜单项
+void displayMenu() {
+    OLED_Clear();
+    OLED_ShowString(0, 0, "Menu Options:", 16);
+
+    // 根据当前选择的菜单项高亮显示
+    switch (currentMenuOption) {
+        case MENU_OPTION1:
+            OLED_ShowString(0, 2, ">Option 1", 16);
+            OLED_ShowString(0, 4, " Option 2", 16);
+            OLED_ShowString(0, 6, " Option 3", 16);
+            OLED_ShowString(0, 8, " Option 4", 16);
+            OLED_ShowString(0, 10, " Back", 16);
+            break;
+        case MENU_OPTION2:
+            OLED_ShowString(0, 2, " Option 1", 16);
+            OLED_ShowString(0, 4, ">Option 2", 16);
+            OLED_ShowString(0, 6, " Option 3", 16);
+            OLED_ShowString(0, 8, " Option 4", 16);
+            OLED_ShowString(0, 10, " Back", 16);
+            break;
+        case MENU_OPTION3:
+            OLED_ShowString(0, 2, " Option 1", 16);
+            OLED_ShowString(0, 4, " Option 2", 16);
+            OLED_ShowString(0, 6, ">Option 3", 16);
+            OLED_ShowString(0, 8, " Option 4", 16);
+            OLED_ShowString(0, 10, " Back", 16);
+            break;
+        case MENU_OPTION4:
+            OLED_ShowString(0, 2, " Option 1", 16);
+            OLED_ShowString(0, 4, " Option 2", 16);
+            OLED_ShowString(0, 6, " Option 3", 16);
+            OLED_ShowString(0, 8, ">Option 4", 16);
+            OLED_ShowString(0, 10, " Back", 16);
+            break;
+        case MENU_BACK:
+            OLED_ShowString(0, 2, " Option 1", 16);
+            OLED_ShowString(0, 4, " Option 2", 16);
+            OLED_ShowString(0, 6, " Option 3", 16);
+            OLED_ShowString(0, 8, " Option 4", 16);
+            OLED_ShowString(0, 10, ">Back", 16);
+            break;
+        default:
+            break;
+    }
+}
+
+// 处理菜单选择
+void handleMenuSelect(MenuItem selectedOption) {
+    switch (selectedOption) {
+        case MENU_OPTION1:
+            // 处理选项1的操作
+            OLED_ShowString(0, 12, "Option 1 selected!", 16);
+            break;
+        case MENU_OPTION2:
+            // 处理选项2的操作
+            OLED_ShowString(0, 12, "Option 2 selected!", 16);
+            break;
+        case MENU_OPTION3:
+            // 处理选项3的操作
+            OLED_ShowString(0, 12, "Option 3 selected!", 16);
+            break;
+        case MENU_OPTION4:
+            // 处理选项4的操作
+            OLED_ShowString(0, 12, "Option 4 selected!", 16);
+            break;
+        case MENU_BACK:
+            // 返回上级菜单
+            currentMenuOption = MENU_OPTION1;
+            break;
+        default:
+            break;
+    }
+}
+
+int main(void) {
+    // 初始化 OLED
+    OLED_Init();
+
+    while (1) {
+        // 显示菜单
+        displayMenu();
+
+        // 获取用户输入（此处假设有按钮输入）
+        // 根据用户输入来选择菜单项
+        switch (userInput) {
+            case UP_BUTTON:
+                currentMenuOption = (currentMenuOption == MENU_OPTION1) ? MENU_BACK : (currentMenuOption - 1);
+                break;
+            case DOWN_BUTTON:
+                currentMenuOption = (currentMenuOption == MENU_BACK) ? MENU_OPTION1 : (currentMenuOption + 1);
+                break;
+            case SELECT_BUTTON:
+                handleMenuSelect(currentMenuOption);
+                break;
+            default:
+                break;
+        }
+    }
+}

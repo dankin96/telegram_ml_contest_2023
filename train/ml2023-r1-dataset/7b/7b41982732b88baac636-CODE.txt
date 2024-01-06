@@ -1,0 +1,6 @@
+/vmbackup-prod \
+        -storageDataPath="/storage" \
+        -snapshot.createURL="http://localhost:8482/snapshot/create" \
+        -customS3Endpoint="${AWS_ENDPOINT}" \
+        -dst="${ENDPOINT}/${current_date}" \
+        -origin="${ENDPOINT}/latest"

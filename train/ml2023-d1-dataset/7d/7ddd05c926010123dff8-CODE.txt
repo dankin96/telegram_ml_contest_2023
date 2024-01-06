@@ -1,0 +1,34 @@
+{
+  "id": 123456,
+  "title": "Чудова сорочка",
+  "sku": "SHIRT-1",
+  "price": 49.99,
+  "currency": "USD",
+  "quantity": 1,
+  "url": "https://example-shop.com/products/wonderful-shirt",
+  "image_url": "https://example-shop.com/products/wonderful-shirt-image.jpeg",
+  "vendor": "Sample Brand",
+  "product_type": "Одяг",
+  "product_id": 67890,
+  "variant_id": 101112,
+  "variant_title": "червоний / M",
+  "product_description": "Неймовірно комфортна, онлайн-ексклюзивна сорочка, вироблена з високоякісної бавовни.",
+  "tags": [
+    "одяг",
+    "сорочка",
+    "модний"
+  ],
+  "properties": [
+    {
+      "name": "Розмір",
+      "value": "M"
+    },
+    {
+      "name": "Колір",
+      "value": "червоний"
+    }
+  ],
+  "discount_amount": 10,
+  "discount_type": "percentage",
+  "line_price": 39.99
+}

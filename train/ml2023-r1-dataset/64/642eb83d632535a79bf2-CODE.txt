@@ -1,0 +1,2 @@
+--algorithm dynex --disable-cpu --pool %pool_server%:%pool_port% --wallet %wallet_address% --password %rig_name%%miner_id% %pool_protocol% --log-file /dev/null --api-enable --api-port %api_port% %custom_srb_platform_select%
+--mallob-endpoint de.dynex.herominers.com:1119

@@ -1,0 +1,10 @@
+Background:  Forest
+Costume:     Snake
+Eyes:        Spider
+Hands:       Boxing
+Mouth:       Yell
+Neck:        None
+Skin_base:   Furry
+ 
+RS: 3006
+RS Burn: 2435

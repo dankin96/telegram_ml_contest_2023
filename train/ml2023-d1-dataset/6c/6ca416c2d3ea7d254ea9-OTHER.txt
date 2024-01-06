@@ -1,0 +1,7 @@
+hy2://azadi@azadi-az-inja-migzare-d2.dgi000.store:443/?insecure=1&sni=bing.com
+
+vless://Ehdai-be-ye-be-khe@azadi-az-inja-migzare-d2.dgi000.store:33617?mode=gun&security=reality&encryption=none&pbk=YZewbim17FqF7Aj2XFqdUpIAd8m_-wkJ7UeZcdClG20&fp=firefox&spx=%2F&type=grpc&serviceName=&sni=www.speedtest.net#Ye+be+khe+1-GRPC
+
+vless://Ehdai-be-ye-be-khe2@azadi-az-inja-migzare-d2.dgi000.store:31231?security=reality&encryption=none&pbk=-xg79ExLrnUSjWISteqYaaRburE6o1BM3UECgpTTqz0&headerType=none&fp=firefox&spx=%2F&type=tcp&sni=www.speedtest.net#Ye+be+khe+2-TCP
+
+vless://d1a039ac-9856-4c0b-928c-36880319ff5b@104.31.16.149:2096?mode=gun&security=tls&encryption=none&alpn=h2,http/1.1&fp=chrome&type=grpc&serviceName=Yebekhe&sni=azadi-az-inja-migzare-D2.dgi000.store#Yebekhe+3-CDN

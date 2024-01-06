@@ -1,0 +1,31 @@
+import json
+import requests
+
+# ...
+
+@ultroid_cmd(pattern="advice$")
+async def advice_cmd(event):
+    msg = await event.eor("Generating an Advice for You!")
+
+    try:
+        response = requests.get("https://api.adviceslip.com/advice")
+
+        if response.status_code == 200:
+            content_dict = response.json()
+
+            if 'slip' in content_dict:
+                advice = content_dict['slip'].get('advice')
+                if advice:
+                    m = f"Advice: {advice}"
+                else:
+                    m = "No advice available."
+            else:
+                m = "No advice available."
+        else:
+            m = "Failed to fetch advice."
+
+    except Exception as e:
+        m = f"An error occurred: {str(e)}"
+
+    # Use the 'message' keyword argument to set the new content
+    await msg.edit(m)

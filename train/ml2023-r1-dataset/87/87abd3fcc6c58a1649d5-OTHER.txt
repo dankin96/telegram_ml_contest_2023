@@ -1,0 +1,21 @@
+dns: 
+  enable: true 
+  listen: 127.0.0.1:1053 
+  ipv6: true 
+  default-nameserver: 
+    - quic://223.5.5.5 
+    - quic://223.6.6.6 
+  nameserver: 
+    - quic://223.5.5.5           
+    - quic://223.6.6.6 
+  fallback: 
+    - quic://223.5.5.5 
+    - quic://223.6.6.6 
+  prefer-h3: true 
+  use-hosts: true 
+  enhanced-mode: redir-host 
+  fake-ip-range: 28.0.0.1/8 
+  fake-ip-filter: 
+    - '*' 
+    - '+.lan' 
+    - '+.local'

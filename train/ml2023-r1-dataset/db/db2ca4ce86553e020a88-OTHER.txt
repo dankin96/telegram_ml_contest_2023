@@ -1,0 +1,14 @@
+WinGo 5 minute
+NO.99 Bet:Big    1
+NO.99 Bet:Big    1
+NO.99 Bet:Big    1
+
+WinGo 5 minute
+NO.100 Bet:Big    3
+NO.100 Bet:Big    3
+NO.100 Bet:Big    3
+
+WinGo 5 minute
+NO.101 Bet:Big    8
+NO.101 Bet:Big    8
+NO.101 Bet:Big    8

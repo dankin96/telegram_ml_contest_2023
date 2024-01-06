@@ -1,0 +1,25 @@
+{
+  "name": "Transparent Website",
+  "description": "Замена изображения body на любой странице любого сайта",
+  "version": "1.4",
+  "manifest_version": 3,
+  "content_scripts": [{
+    "matches": [
+      "*://*/*", 
+      "http://127.0.0.1/*",
+      "http://localhost/*",
+      "file:///*"
+    ], 
+    "exclude_globs": ["http://localhost/*"],
+    "js": ["scripts/content.js"]
+  }],
+  "icons": {
+    "64": "icon.png"
+  },
+  "action": {
+    "default_popup": "parameters.html",
+    "default_icon": {
+      "64": "icon.png"
+    }
+  }
+}

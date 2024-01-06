@@ -1,0 +1,10 @@
+WHISPER_X [2023-10-13 06:00]
+Media processed   : 734 [+140]
+ - videos : 734
+Media failed      : 5 [+0]
+ - URL response   : 0 [+0]
+Hours processed   : 381.4 [+62.9]
+Speed coefficient : 63.6 [-0.1]
+MIN air date      : 2019-05-28
+MAX air date      : 2021-09-25
+Working instances : 19 [+0]

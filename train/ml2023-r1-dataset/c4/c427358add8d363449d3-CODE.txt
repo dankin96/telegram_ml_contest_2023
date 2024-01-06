@@ -1,0 +1,7 @@
+    let command_handler = teloxide::filter_command::<Command, _>()
+        .branch(
+            case![State::Start]
+                .branch(case![Command::Help].endpoint(help))
+                .branch(case![Command::Start].endpoint(start)),
+        )
+        .branch(case![Command::Cancel].endpoint(cancel));

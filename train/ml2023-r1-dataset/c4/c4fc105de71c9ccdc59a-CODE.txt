@@ -1,0 +1,4 @@
+class _T(Iterable, Sized, Protocol):... # pyright: ignore[reportGeneralTypeIssues]
+T = TypeVar('T', bound=_T)
+def f(x: T) -> T:
+    return x

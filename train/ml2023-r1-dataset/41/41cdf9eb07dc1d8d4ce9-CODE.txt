@@ -1,0 +1,6 @@
+<Form>
+  <Form.Item name="FIO">
+    ФИО <Input />
+  </Form.Item>
+  ...
+</Form>

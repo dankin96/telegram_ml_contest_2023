@@ -1,0 +1,4 @@
+
+fn map_transfers(blk: eth::Block, parameter: String) {
+...
+}

@@ -1,0 +1,1 @@
+avg_over_time((sum(1 - rate(node_cpu_seconds_total{mode="idle"}[1m]) or vector(0)) * 100)[6h:])

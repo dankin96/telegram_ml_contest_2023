@@ -1,0 +1,63 @@
+{
+    "update_id": 821508554,
+    "message": {
+        "message_id": 6947,
+        "from": {
+            "id": 5079133187,
+            "is_bot": false,
+            "first_name": "F\u20eaa\u20ean\u20eat\u20eaa\u20eas\u20eay\u20ea R\u20eao\u20eay\u20eaa\u20eal\u20eae\u20ea",
+            "username": "Fantasy_Royale",
+            "language_code": "fa"
+        },
+        "chat": {
+            "id": -1001612828788,
+            "title": "\u06cc\u0627\u0648\u0631\u0627\u0646 \u0627\u0646\u0642\u0644\u0627\u0628\u06cc",
+            "username": "yavaran_enghelabi",
+            "type": "supergroup"
+        },
+        "date": 1697203850,
+        "message_thread_id": 6941,
+        "reply_to_message": {
+            "message_id": 6941,
+            "from": {
+                "id": 5079133187,
+                "is_bot": false,
+                "first_name": "F\u20eaa\u20ean\u20eat\u20eaa\u20eas\u20eay\u20ea R\u20eao\u20eay\u20eaa\u20eal\u20eae\u20ea",
+                "username": "Fantasy_Royale",
+                "language_code": "fa"
+            },
+            "chat": {
+                "id": -1001612828788,
+                "title": "\u06cc\u0627\u0648\u0631\u0627\u0646 \u0627\u0646\u0642\u0644\u0627\u0628\u06cc",
+                "username": "yavaran_enghelabi",
+                "type": "supergroup"
+            },
+            "date": 1697203809,
+            "video": {
+                "duration": 13,
+                "width": 1080,
+                "height": 1920,
+                "file_name": "171138232_348774184264266_8411885389842482710_n.mp4",
+                "mime_type": "video\/mp4",
+                "thumbnail": {
+                    "file_id": "AAMCBAADHQJgIdB0AAIbHWUpRoq_Ykim4Cp3gGu3sNv2yDjYAALHBAACSJ1NUVDJ3Z0IlnTHAQAHbQADMAQ",
+                    "file_unique_id": "AQADxwQAAkidTVFy",
+                    "file_size": 8467,
+                    "width": 180,
+                    "height": 320
+                },
+                "thumb": {
+                    "file_id": "AAMCBAADHQJgIdB0AAIbHWUpRoq_Ykim4Cp3gGu3sNv2yDjYAALHBAACSJ1NUVDJ3Z0IlnTHAQAHbQADMAQ",
+                    "file_unique_id": "AQADxwQAAkidTVFy",
+                    "file_size": 8467,
+                    "width": 180,
+                    "height": 320
+                },
+                "file_id": "BAACAgQAAx0CYCHQdAACGx1lKUaKv2JIpuAqd4Brt7Db9sg42AACxwQAAkidTVFQyd2dCJZ0xzAE",
+                "file_unique_id": "AgADxwQAAkidTVE",
+                "file_size": 1051217
+            }
+        },
+        "text": "."
+    }
+}

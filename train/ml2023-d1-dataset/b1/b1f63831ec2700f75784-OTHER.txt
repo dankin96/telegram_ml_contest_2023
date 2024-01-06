@@ -1,0 +1,2 @@
+[    0.000000][    T0] Linux version 5.15.110-android14-11-00001-g4dfda7ef71d8-dirty (build-user@build-host) (Android (8508608, based on r450784e) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6), LLD 14.0.7) #1 SMP PREEMPT Thu Oct 12 01:42:32 UTC 2023
+[    0.000000][    T0] Machine model: Raven DVT

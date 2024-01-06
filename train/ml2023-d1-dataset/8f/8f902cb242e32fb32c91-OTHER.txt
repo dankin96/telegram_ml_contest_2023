@@ -1,0 +1,17 @@
+ Airdrop
+Known user in group   : 291
+User meet requirement : 6
+Random selected users : 6
+Fee´s                 : 9.00 KLV
+Assets to distribute  : 200.00 KLV
+Send 33.333333 KLV to 6 Users.
+(Active in the last 24hour.)
+
+Receiver             Amount
+jasperpalmer        33.3333
+Vadim_s_p_b         33.3333
+koptim_by           33.3333
+Alexander_Oium      33.3333
+TxKik               33.3333
+Schaman66           33.3333
+ 

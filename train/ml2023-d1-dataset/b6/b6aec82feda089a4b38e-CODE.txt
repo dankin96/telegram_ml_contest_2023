@@ -1,0 +1,11 @@
+user_tracks = client.users_likes_tracks(self.id)
+tracks_ids = [track.track_id for track in user_tracks]
+chunksize = 125
+num_processes = ceil(len(user_tracks) / chunksize)
+todos = partite(tracks_ids, chunksize)
+user_tracks = set()
+with Pool(processes=num_processes) as pool:
+    chunk_results = pool.map(client.tracks, todos)
+    for results in chunk_results:
+        user_tracks.update(results)
+

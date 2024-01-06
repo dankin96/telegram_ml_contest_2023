@@ -1,0 +1,1 @@
+connect nsk.vault-rust.ru:35200

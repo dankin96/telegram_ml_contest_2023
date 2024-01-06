@@ -1,0 +1,7 @@
+function lower() {
+  return this.toLowerCase();
+}
+
+String.prototype.lower = lower;
+
+console.log("string".lower());

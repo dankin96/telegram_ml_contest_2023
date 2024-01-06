@@ -1,0 +1,11 @@
+    VkPhysicalDeviceFeatures2 VkPD_Features2{};
+    VkPD_Features2.sType =  VK_STRUCTURE_TYPE_PHYSICAL_DEVICE_FEATURES_2;
+    
+    //void* currentPtrExtension = &VkPD_Features2;
+    void** pNextPtr = &VkPD_Features2.pNext;
+    for(uint8_t i = 0; i < std::size(offsetof_required_EXT_features); i++)
+    {
+        *(VkBool32*)(offsetof_required_EXT_features[i]) = true;
+        *pNextPtr = offsetof_EXT_structs_array[i];
+        pNextPtr = &(reinterpret_cast<VkPhysicalDeviceFeatures2*>(offsetof_EXT_structs_array[i]))->pNext;
+    }

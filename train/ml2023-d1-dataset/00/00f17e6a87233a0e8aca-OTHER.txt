@@ -1,0 +1,7 @@
+Summary
+This forum post suggests bringing native stablecoins (USDT from Kava and USDC from Noble) on Persistence by creating two new pools, XPRT/USDT and USDT/USDC, on Dexter and bootstrapping it using $2000 in XPRT as PCOL. 
+Context
+Refresher on PCOL
+The concept of Persistence Community Owned Liquidity (PCOL) was introduced in August 2023 with five key things in mind: 
+
+Propelling ecosystem growt...

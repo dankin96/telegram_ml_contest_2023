@@ -1,0 +1,2 @@
+ nats io error - can't create nats connection producerId: sem_producer_bb980:
+    nats: no servers available for connection

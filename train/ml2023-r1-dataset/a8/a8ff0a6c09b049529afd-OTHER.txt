@@ -1,0 +1,6 @@
+[   66.337854] amdgpu 0000:05:00.0: amdgpu: (-12) failed to allocate kernel bo
+[   66.421207] [drm:amdgpu_doorbell_create_kernel_doorbells [amdgpu]] *ERROR* Failed to allocate kernel doorbells, err=-12
+[   66.550843] [drm:amdgpu_ttm_init [amdgpu]] *ERROR* Failed to initialize kernel doorbells.
+[   66.649245] [drm:amdgpu_device_init [amdgpu]] *ERROR* sw_init of IP block <gmc_v6_0> failed -12
+[   66.753868] amdgpu 0000:05:00.0: amdgpu: amdgpu_device_ip_init failed
+[   66.830962] amdgpu 0000:05:00.0: amdgpu: Fatal error during GPU init

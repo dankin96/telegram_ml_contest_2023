@@ -1,0 +1,2 @@
+lowlife@fb.doesnm.cc's password:
+/lowlife/shell.sh: No such file or directory

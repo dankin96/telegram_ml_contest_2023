@@ -1,0 +1,1 @@
+=FILTER('Lista 1'!A3:A;NÃO(REGEXMATCH('Lista 1'!A3:A;TEXTJOIN("|";1;blacklist!A:A))))

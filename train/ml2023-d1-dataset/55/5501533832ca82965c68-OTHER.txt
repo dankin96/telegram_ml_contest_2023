@@ -1,0 +1,14 @@
+----- Stocks ETFs
+🟢🇺🇸SPY 436.32 (+0.41% 52w high chg -5.03%)
+🟢💻QQQ 371.22 (+0.71% 52w high chg -4.32%)
+🟢🇪🇺FEZ 42.63 (+0.68% 52w high chg -10.06%❗)
+🟢🇨🇳MCHI 44.25 (+0.77% 52w high chg -21.40%❗❗)
+🟢🏠VNQ 76.80 (+1.74%🚀 52w high chg -18.76%❗)
+----- VIX
+🔴🎢^VIX 15.78 (-1.93%📉 52w high chg -54.98%❗❗❗❗❗)
+----- 10Y Bonds
+🟢💵^TNX 4.60 (+0.00% 52w high chg -5.93%)
+----- Gold
+🟢🥇GC=F 1892.00 (+0.25% 52w high chg -8.69%)
+----- Crypto
+🔴₿ BTC-USD 26840.71 (-0.04% 52w high chg -15.63%❗)

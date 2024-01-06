@@ -1,0 +1,2 @@
+su -c ls -Z /product/overlay/NavigationBarModeGestural/
+u:object_r:vendor_overlay_file:s0 NavigationBarModeGesturalOverlay.apk

@@ -1,0 +1,4 @@
+sqd up
+npm ci
+sqd build
+sqd migration:apply

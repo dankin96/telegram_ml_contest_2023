@@ -1,0 +1,36 @@
+version: '3'
+
+networks:
+  extra-network:
+    external: true
+    name: extra-network
+    
+services:    
+  container1:
+    container_name: c1
+    image: $blah
+    restart: unless-stopped
+    networks:
+      extra-network:
+        ipv4_address: "X.X.X.X" #Ip hardcodeada because of reasons
+
+  container2:
+    container_name: c2
+    image: $bleh
+    networks:
+      extra-network
+
+  container3:
+    image: $bluh
+    container_name: c3
+    networks:
+      - default
+    depends_on:
+      - c1
+
+ container4:
+    container_name: c4
+    image: $blih
+    networks:
+      - extra-network
+      - default

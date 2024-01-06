@@ -1,0 +1,5 @@
+remote 10.8.254.254 10000
+proto tcp-client
+socks-proxy 127.0.0.1 2080
+dev tap
+ifconfig 10.8.0.2 255.255.255.0

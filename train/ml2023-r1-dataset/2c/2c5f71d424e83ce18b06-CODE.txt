@@ -1,0 +1,5 @@
+(use-package flymake
+  :bind (("H-e" . flymake-show-project-diagnostics))
+
+(use-package sh-script
+  :hook (sh-mode . flymake-mode))

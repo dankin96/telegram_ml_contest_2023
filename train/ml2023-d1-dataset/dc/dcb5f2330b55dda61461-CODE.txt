@@ -1,0 +1,35 @@
+const ID_REGISTRY_EIP_712_DOMAIN = {
+  name: 'Farcaster IdRegistry',
+  version: '1',
+  chainId: 10,
+  verifyingContract: '0x00000000FcAf86937e41bA038B4fA40BAA4B780A',
+} as const
+
+const types = {
+  Transfer: [
+    { name: 'fid', type: 'uint256' },
+    { name: 'to', type: 'address' },
+    { name: 'nonce', type: 'uint256' },
+    { name: 'deadline', type: 'uint256' },
+  ],
+} as const
+
+const deadline = useMemo(() => Math.floor(Date.now() / 1000) + 86400, [])
+
+  const {
+    data: signature,
+    isError: isSignatureError,
+    isLoading: isSignatureLoading,
+    isSuccess: isSignatureSuccess,
+    signTypedData: sign,
+  } = useSignTypedData({
+    domain: ID_REGISTRY_EIP_712_DOMAIN as any,
+    types: types as any,
+    primaryType: 'Transfer' as any,
+    message: {
+      nonce: 0, // TODO: Get from contract (won't work for subsequent transfers)
+      deadline: deadline,
+      fid: idOf.data, // FID to transfer
+      to: newOwner,
+    } as any,
+  })

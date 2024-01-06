@@ -1,0 +1,4 @@
+function setNewAppData(data) {
+  console.log(data);
+}
+

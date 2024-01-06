@@ -1,0 +1,6 @@
+<ul itemscope itemtype="https://schema.org/SiteNavigationElement">
+    <li itemprop="name"><a itemprop="url" href="#">Link</a></li>
+    <li itemprop="name"><a itemprop="url" href="#">Link</a></li>
+    <li itemprop="name"><a itemprop="url" href="#">Link</a></li>
+</ul>
+

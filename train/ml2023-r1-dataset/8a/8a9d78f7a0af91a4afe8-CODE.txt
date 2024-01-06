@@ -1,0 +1,73 @@
+public async Task<string> CreatePaymentAsync(OrderOnlineForCreateDTOs[] orderForOnlineCreatDTO)
+        {         
+
+            var customFilds = new List<SessionCustomFieldOptions>
+            {
+                new SessionCustomFieldOptions
+                {
+                    Type = "text",
+                    Key = "Name",
+                    Text = new SessionCustomFieldTextOptions
+                    {
+                        MaximumLength = 100,
+                        MinimumLength = 3,
+                    },
+                    Label = new SessionCustomFieldLabelOptions
+                    {
+                        Type = "custom",
+                        Custom = "Name"
+                    }
+                }
+            };
+
+            var lineItems =  new List<SessionLineItemOptions>();
+            allPrice = 0;
+
+            foreach (var item in orderForOnlineCreatDTO)
+            {
+                onlineOrder.Add(item);
+
+                var product = await _productService.GetAsync(x => x.Id == item.ProductId);
+                string imagePath = $"{product.Image.Name}".Replace("\\", "/");
+                var productPrice = (long)((product.PriceSkitka == 0 ? product.Price : product.PriceSkitka) * 105);
+                allPrice += productPrice;
+
+                lineItems.Add( new SessionLineItemOptions
+                {
+                    PriceData = new SessionLineItemPriceDataOptions
+                    {
+                        Currency = "aed",
+                        UnitAmount = productPrice,
+                        ProductData = new SessionLineItemPriceDataProductDataOptions
+                        {
+                            Name = product.NameEg,
+                            Description = product.OpisaniyaEg,
+                            Images = new List<string> { imagePath },
+                        }
+                    },
+                    Quantity = item.ProductNumber
+                });
+            }
+
+            var options = new SessionCreateOptions
+            {
+                CustomFields = customFilds,
+                PaymentMethodTypes = new List<string>
+                {
+                    "card"
+                },
+                LineItems = lineItems,
+                Mode = "payment",
+                SuccessUrl = "",
+                CancelUrl = "https://localhost:7106/api/test/cancel",
+                PhoneNumberCollection = new SessionPhoneNumberCollectionOptions
+                {
+                    Enabled = true,
+                }                
+            };
+
+            var service = new SessionService();
+            var ass = await service.CreateAsync(options);
+
+            return ass.ToJson();
+        }

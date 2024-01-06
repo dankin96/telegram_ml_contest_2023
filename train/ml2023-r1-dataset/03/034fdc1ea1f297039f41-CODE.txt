@@ -1,0 +1,10 @@
+$TotalUsers = $Users.Count
+$Count = 0
+
+"Vasya".."Olya"| foreach $_ {$Users+= $_}
+   $Count++
+    $PercentComplete = (($Count / $TotalUsers) * 100)
+Foreach ($User in $Users )
+{
+      Write-Host "You Wins!"
+}

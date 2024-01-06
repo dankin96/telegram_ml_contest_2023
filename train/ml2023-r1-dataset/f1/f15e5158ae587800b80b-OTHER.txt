@@ -1,0 +1,3 @@
+Stored volumes are used to store all data locally, but periodically that data is backed up to AWS using snapshots.
+
+Video for reference: Storage Gateway

@@ -1,0 +1,32 @@
+/start 
+/lnurl [--anonymous] <lnurl>
+/receive (lnurl | (any | <satoshis>) [<description>...])
+/delete 
+/deposit 
+/sms [<country>] [<service>]
+/withdraw 
+/withdraw <address>
+/pay (lnurl <satoshis> | [now] [<invoice>] [<satoshis>])
+/send [anonymously] <satoshis> [<receiver>] [<description>...] [--anonymous]
+/balance [apps]
+/apps 
+/tx <hash>
+/transactions [<tag>] [--in] [--out]
+/giveaway <satoshis>
+/coinflip <satoshis> [<num_participants>]
+/giveflip <satoshis> [<num_participants>]
+/fundraise <satoshis> <num_participants> <receiver>
+/hide <satoshis> [<message>...] [--revealers=<num_revealers>] [--crowdfund=<num_participants>] [--private]
+/reveal <hidden_message_id>
+/sats4ads (on [<msat_per_character>] | off | rate | rates | broadcast <satoshis> [<text>...] [--max-rate=<maxrate>] [--skip=<offset>] | preview)
+/api [full | invoice | readonly | url | refresh]
+/lightningatm 
+/bluewallet [refresh]
+/triangles <n>
+/rename <name>...
+/fine <satoshis> [for <reason>...]
+/toggle (ticket [<satoshis>] | renamable [<satoshis>] | spammy | expensive [<satoshis> <pattern>] | language [<lang>] | coinflips)
+/satoshis <expression>
+/moon 
+/help [<command>]
+/stop 

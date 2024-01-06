@@ -1,0 +1,6 @@
+end
+
+sfx:load("Sounds")
+sfx:play("bombsnd")
+
+

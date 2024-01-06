@@ -1,0 +1,12 @@
+{
+    "chat": {
+        "chat_id": -1001985865436,
+        "chat_title": "Комментарии Алены Полынь",
+        "chat_type": "supergroup",
+        "bot_id": "6500428561:AAGnca4tDnz--kaResAbsWyfXn_WdR0CfNc",
+        "created_at": "2023-10-11T09:38:47.000000Z",
+        "updated_at": "2023-10-11T09:38:47.000000Z"
+    },
+    "id": -1001985865436,
+    "time_stamp": "2023-10-11 15:43:27"
+}

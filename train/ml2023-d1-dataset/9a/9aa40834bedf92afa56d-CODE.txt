@@ -1,0 +1,7 @@
+import codecs
+import requests
+
+r = requests.get('https://youla.ru/krasnodar/smartfony-planshety/smartfony/prodaiu-tieliefon-6524db1a28af80aa920e01a4')
+
+with open('111.html', 'w', encoding='utf-8') as f:
+    f.write(codecs.decode(r.content, 'unicode-escape'))

@@ -1,0 +1,2 @@
+ "payment_mode": "binding", 
+ "processing": "Not in dict: 57002308"

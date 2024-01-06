@@ -1,0 +1,1 @@
+vless://14c8b3b2-e91f-4549-975c-fa42e278a318@172.67.192.245:443?path=%2F&security=tls&encryption=none&alpn=http/1.1&host=armanibashfreeapp2.iranserver.askdhbasikjbas.shop&fp=chrome&type=ws&sni=armanibashfreeapp2.iranserver.askdhbasikjbas.shop#%40CLICK_VPNN+1

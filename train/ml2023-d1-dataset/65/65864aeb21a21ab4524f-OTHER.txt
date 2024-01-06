@@ -1,0 +1,8 @@
+-rw-------  1 m-nazari m-nazari  315 Oct  8 17:53 chrome-aghbiahbpaijignceidepookljebhfak-Default.desktop
+-rw-------  1 m-nazari m-nazari  310 Oct  8 17:53 chrome-agimnkijcaahngcdmfeangaknmldooml-Default.desktop
+-rw-------  1 m-nazari m-nazari  309 Oct  8 17:53 chrome-fhihpiojkbmbpdjeoajapmgkhlnakfjf-Default.desktop
+-rw-------  1 m-nazari m-nazari  308 Oct  8 17:53 chrome-fmgjjmmmlfnkbppncabfkddbjimcfncm-Default.desktop
+-rw-------  1 m-nazari m-nazari  309 Oct  8 17:53 chrome-kefjledonklijopmnomlcbpllchaibag-Default.desktop
+-rw-------  1 m-nazari m-nazari  307 Oct  8 17:53 chrome-mpnpojknpmmopombnjdcgaaiekajbnjb-Default.desktop
+
+

@@ -1,0 +1,13 @@
+#include &LTiostream>
+#include &LTstring>
+
+std::string getExample() {
+    std::string a = "example";
+    return a;
+}
+
+ public String getExample() {
+        String a = "example";
+        return a;
+    }
+

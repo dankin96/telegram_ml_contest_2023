@@ -1,0 +1,3 @@
+log:pass - вход без 2фа (Login without 2FA)
+cookie - есть телефон на аккаунте.(Have a linked number)
+За покупкой сюда: 

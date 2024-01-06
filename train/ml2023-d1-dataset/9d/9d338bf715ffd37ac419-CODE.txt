@@ -1,0 +1,17 @@
+/// A general quadratic extension field over `F`
+/// with quadratic non residue `Q::residue()`
+#[derive(Debug, Clone, PartialEq, Eq)]
+pub struct QuadraticExtensionField<T> {
+    phantom: PhantomData<T>,
+}
+
+pub type QuadraticExtensionFieldElement<T> = FieldElement<QuadraticExtensionField<T>>;
+
+/// Trait to fix a quadratic non residue.
+/// Used to construct a quadratic extension field by adding
+/// a square root of `residue()`.
+pub trait HasQuadraticNonResidue {
+    type BaseField: IsField;
+
+    fn residue() -> FieldElement<Self::BaseField>;
+}

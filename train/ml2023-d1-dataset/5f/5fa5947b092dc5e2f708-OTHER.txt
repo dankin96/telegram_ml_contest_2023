@@ -1,0 +1,7 @@
+主板：GA-H81M-S1
+内存：金士顿 4G x 2 (插槽 DDR 3)
+CPU：Intel Core
+显卡：七彩虹 Geforce GTX 1650 4GD6
+电源： 金河田 500BLA
+硬盘：WD Blue
+SSD：金士顿

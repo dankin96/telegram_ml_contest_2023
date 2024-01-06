@@ -1,0 +1,28 @@
+<?php
+
+class TestChainStaticClass
+{
+  public static function firstChain()
+  {
+    echo "First Chain
+";
+    return new static();
+  }
+  
+  public static function secondChain()
+  {
+    echo "Second Chain
+";
+    return new static();
+  }
+  
+  public static function lastChain()
+  {
+    echo "Last CHain
+";
+  }
+}
+
+TestChainStaticClass::firstChain()::secondChain()::lastChain();
+echo PHP_EOL;
+TestChainStaticClass::firstChain()->secondChain()->lastChain();

@@ -1,0 +1,2 @@
+1. Somewhat. You probably want to read https://llvm.org/docs/LoopTerminology.html#loop-closed-ssa-lcssa
+2. LLVM IR has no fallthrough, all flow between basic blocks is explicit. This makes analysis and transformation simpler by removing edge cases. Since you need a label for the loop body that puts the loop body in a new basic block and so your entry block needs to branch to the body.

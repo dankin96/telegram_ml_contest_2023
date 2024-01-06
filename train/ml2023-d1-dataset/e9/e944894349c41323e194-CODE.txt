@@ -1,0 +1,24 @@
+function createFirstPlaylist() {
+ let mixTracks = Source.getTracks([
+     { name: 'Микс дня 1', id: '37i9dQZF1E39HYeEeawbwd' },
+     { name: 'Микс дня 2', id: '37i9dQZF1E3afwGgslsGSA' },
+     { name: 'Микс дня 3', id: '37i9dQZF1E38Q4w58PhiYh' },
+     { name: 'Микс дня 4', id: '37i9dQZF1E37GALTmHmEgG' },
+     { name: 'Микс дня 5', id: '37i9dQZF1E37sQHECjKjsc' },
+     { name: 'Микс дня 6', id: '37i9dQZF1E38XK8g0uqNXh' },
+     { name: 'Release Radar', id: '37i9dQZEVXbcJICNMeyDaj' },
+     { name: 'Discover Weekly', id: '37i9dQZEVXcIDgZ6luKzLt' },
+ ]);
+ let recomTracks = Source.craftTracks(mixTracks);
+ let savedTracks = Source.getSavedTracks();   
+
+ Combiner.push(mixTracks, recomTracks);   
+ Filter.removeTracks(mixTracks, savedTracks);
+ Selector.keepRandom(mixTracks, 50);
+ 
+ Playlist.saveWithReplace({
+     id: '2DhdNgEYDJBUC6eku6GQZd',
+     name: 'Daylist',
+     tracks: mixTracks,
+     randomCover: 'update',
+ });

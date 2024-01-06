@@ -1,0 +1,8 @@
+👀 SPAM Score detected:
+###
+Вот пидор
+###
+
+Reason: 🔏 Стоп-слова в сообщениях
+Action: deleteMessage
+Bot response: Successful ✅

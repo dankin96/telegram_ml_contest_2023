@@ -1,0 +1,7 @@
+cpp
+     if (kondisi) {
+         // Blok kode jika kondisi benar
+     } else {
+         // Blok kode jika kondisi salah
+     }
+     

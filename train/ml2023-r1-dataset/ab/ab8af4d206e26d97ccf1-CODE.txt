@@ -1,0 +1,5 @@
+def create_keyboard(user_id: int):
+    builder = ReplyKeyboardBuilder()
+    button = types.InlineKeyboardButton("Принять", callback_data=f"yes_accept:{user_id}")
+    builder.add(button)
+    return builder.as_markup()

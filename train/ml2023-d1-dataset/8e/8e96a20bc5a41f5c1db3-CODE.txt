@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+int main() {
+    int year, month, day, days;
+    printf("请输入年月日，格式为 yyyy mm dd：");
+    scanf("%d %d %d", &year, &month, &day);
+
+    // 计算天数
+    switch (month) {
+        case 1: days = 0; break;
+        case 2: days = 31; break;
+        case 3: days = 59; break;
+        case 4: days = 90; break;
+        case 5: days = 120; break;
+        case 6: days = 151; break;
+        case 7: days = 181; break;
+        case 8: days = 212; break;
+        case 9: days = 243; break;
+        case 10: days = 273; break;
+        case 11: days = 304; break;
+        case 12: days = 334; break;
+        default: printf("输入的月份有误！
+"); return 0;
+    }
+    days += day;
+    if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
+        if (month > 2) {
+            days += 1;
+        }
+    }
+    printf("%d 年 %d 月 %d 日是这一年的第 %d 天。
+", year, month, day, days);
+    return 0;
+}

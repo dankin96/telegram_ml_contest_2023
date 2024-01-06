@@ -1,0 +1,11 @@
+DEX Tradable:         ✅ YES
+📈 Buy Tax:           0.00%
+📉 Sell Tax:          N/A
+Buy Restriction:      ✅️ NO
+Sell Restriction:     ❓ N/A
+Slippage Modifiable:  ✅️ NO
+Honeypot:             ⚠️ YES
+Transfer Pausable:    ✅️ NO
+Blacklist Function:   ✅️ NO
+Whitelist  Function:  ⚠️ YES
+Max Wallet:           ⚠️ YES

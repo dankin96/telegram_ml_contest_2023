@@ -1,0 +1,1 @@
+context.chat_data = {'force': True, 'lang': 'en', 'global': True, 'locked_gifs': False, 'incest_enabled': True, 'disabled': ['garden', 'game']}

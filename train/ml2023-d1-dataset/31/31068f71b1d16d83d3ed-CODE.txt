@@ -1,0 +1,25 @@
+struct ppminfo* ppm_getinfo(unsigned char* data, uint32_t datasize){
+    struct ppminfo* info = NULL;
+    unsigned int pos = 0;
+    if (data[pos++] != 'P') return NULL;
+
+    struct _ppm_readnum_ret vnum = _ppm_readnum(data, pos);
+    info->version = vnum.num;
+    pos = vnum.pos;
+
+    struct _ppm_readnum_ret wnum = _ppm_readnum(data, pos);
+    info->width = wnum.num;
+    pos = wnum.pos;
+
+    struct _ppm_readnum_ret hnum = _ppm_readnum(data, pos);
+    info->height = hnum.num;
+    pos = hnum.pos;
+
+    if (info->version == PPM_VER2 || info->version == PPM_VER5){
+        struct _ppm_readnum_ret rnum = _ppm_readnum(data, pos);
+        info->range = rnum.num;
+        pos = rnum.pos;
+    }
+
+    return info;
+}

@@ -1,0 +1,9 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    unsigned x = 0;
+    cout << (x - 1 >= 0) << endl;
+    return 0;
+}

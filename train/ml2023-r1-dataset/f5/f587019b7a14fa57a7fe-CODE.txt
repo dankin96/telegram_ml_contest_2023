@@ -1,0 +1,1 @@
+find ~cbsd/jails-fstab/ -type f -name fstab | xargs sed -i.bak -e 's:/usr/home:/home:g'

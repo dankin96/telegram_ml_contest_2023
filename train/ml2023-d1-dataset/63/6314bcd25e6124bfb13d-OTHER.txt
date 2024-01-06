@@ -1,0 +1,4 @@
+Epoch: 441 
+Blocks: 53/54
+Performance: 106%/108%
+Lost slot battles: 228750@SCAR

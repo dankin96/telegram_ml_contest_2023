@@ -1,0 +1,2 @@
+error: "--test" takes one argument.
+No tests available.

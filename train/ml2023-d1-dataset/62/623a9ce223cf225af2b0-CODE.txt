@@ -1,0 +1,2 @@
+sudo zypper --clean-deps
+

@@ -1,0 +1,12 @@
+export interface IFrontendItem {
+  id: number;
+  clientHash: string;
+  ...
+}
+
+export interface IFrontend {
+  id: number;
+  clientId: number;
+  itemsClient: IFrontendItem[];
+  ......
+}

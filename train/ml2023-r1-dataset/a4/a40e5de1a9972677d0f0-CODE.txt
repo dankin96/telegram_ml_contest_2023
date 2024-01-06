@@ -1,0 +1,2 @@
+sad1@GentUwU ~/my_conf/world (main) $ portageq distdir
+/var/cache/distfiles

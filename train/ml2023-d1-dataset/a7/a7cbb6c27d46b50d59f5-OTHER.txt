@@ -1,0 +1,31 @@
+
+-Bronze NFT          12.49%
+ +Base estimation:   3.42
+ +with Founder:      3.59
+ +with Ambassador:   3.76
+ +with both:         3.94
+
+-Argent NFT          14.79%
+ +Base estimation:  12.16
+ +with Founder:     12.77
+ +with Ambassador:  13.38
+ +with both:        13.98
+
+-Or NFT              15.65%
+ +Base estimation:  38.58
+ +with Founder:     40.51
+ +with Ambassador:  42.44
+ +with both:        44.37
+
+-Platine NFT         16.11%
+ +Base estimation: 119.17
+ +with Founder:    125.13
+ +with Ambassador: 131.08
+ +with both:       137.04
+
+-Diamant NFT         18.59%
+ +Base estimation: 412.50
+ +with Founder:    433.13
+ +with Ambassador: 453.75
+ +with both:       474.38
+

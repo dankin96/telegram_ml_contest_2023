@@ -1,0 +1,4 @@
+//@version=5
+indicator("My script", overlay = true)
+if barstate.islastconfirmedhistory
+    line.new(bar_index - 20, high[20], bar_index - 10, high[10], extend = extend.both, color = color.blue)

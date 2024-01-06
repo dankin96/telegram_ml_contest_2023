@@ -1,0 +1,2 @@
+Completed task 67ece952 'Bugfix bad price data infinity zeroes empties'.
+Completed 1 task.

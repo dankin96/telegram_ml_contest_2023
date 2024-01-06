@@ -1,0 +1,1 @@
+ [cracku] How many numbers with two or more digits can be formed with the digits 1,2,3,4,5,6,7,8,9, so that in every such number, each digit is used at most once and the digits appear in the ascending order?

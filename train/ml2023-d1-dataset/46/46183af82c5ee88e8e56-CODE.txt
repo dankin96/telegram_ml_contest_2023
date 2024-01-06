@@ -1,0 +1,27 @@
+java
+import java.io.*;
+import java.util.*;
+
+public class BarcodeReader {
+    public static void main(String[] args) {
+        try {
+            // Create a new input stream to read data from the barcode reader
+            InputStream inputStream = new FileInputStream("/dev/ttyACM0");
+
+            // Create a new scanner to read data from the input stream
+            Scanner scanner = new Scanner(inputStream);
+
+            // Read data from the scanner
+            while (scanner.hasNextLine()) {
+                String data = scanner.nextLine();
+                System.out.println("Barcode data: " + data);
+            }
+
+            // Close the scanner and input stream
+            scanner.close();
+            inputStream.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}

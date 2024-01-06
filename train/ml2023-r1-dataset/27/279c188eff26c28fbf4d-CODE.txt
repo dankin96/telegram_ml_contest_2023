@@ -1,0 +1,8 @@
+
+foo, bar = 42, 'buzz' 
+... 
+async def main() -> None:
+   dp = Dispatcher(...)
+    return await dp.start_polling(
+        bot
+    )

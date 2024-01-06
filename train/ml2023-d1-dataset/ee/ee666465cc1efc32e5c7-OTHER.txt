@@ -1,0 +1,1 @@
+provides components enabling wide range of software internationalization.

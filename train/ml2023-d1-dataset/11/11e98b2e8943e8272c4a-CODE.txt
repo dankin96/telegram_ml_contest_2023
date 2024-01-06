@@ -1,0 +1,10 @@
+public record struct Color(
+ byte Red, byte Green, byte Blue)
+{
+  public Color ShiftToGrayscale()
+  {
+    var avg = (byte)((Red + Green + Blue) / 3);
+    return new Color (avg, avg, avg);
+  }
+}
+

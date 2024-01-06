@@ -1,0 +1,39 @@
+Tsunami Information Statement Number 1
+NWS National Tsunami Warning Center Palmer AK
+145 AM PDT Sat Oct 7 2023
+
+...THIS IS A TSUNAMI INFORMATION STATEMENT FOR ALASKA, BRITISH COLUMBIA, WASHINGTON, OREGON AND CALIFORNIA...
+
+EVALUATION
+----------
+ * There is no tsunami danger for the U.S. West Coast, British Columbia, or Alaska. 
+
+ * Based on earthquake information and historic tsunami records, the earthquake is not expected to generate a tsunami. 
+
+ * An earthquake has occurred with parameters listed below. 
+
+
+PRELIMINARY EARTHQUAKE PARAMETERS
+---------------------------------
+
+ * The following parameters are based on a rapid preliminary assessment of the earthquake and changes may occur.
+
+ * Magnitude      7.0
+ * Origin Time    0034 AKDT Oct 07 2023
+                  0134  PDT Oct 07 2023
+                  0834  UTC Oct 07 2023
+ * Coordinates    5.7 South 146.1 East
+ * Depth          45 miles
+ * Location       in the eastern New Guinea Region, PNG
+
+
+ADDITIONAL INFORMATION AND NEXT UPDATE
+--------------------------------------
+ * Refer to the internet site tsunami.gov for more information. 
+
+ * Pacific coastal regions outside California, Oregon, Washington, British Columbia, and Alaska should refer to the Pacific Tsunami Warning Center messages at tsunami.gov. 
+
+ * This will be the only U.S. National Tsunami Warning Center message issued for this event unless additional information 
+   becomes available. 
+
+

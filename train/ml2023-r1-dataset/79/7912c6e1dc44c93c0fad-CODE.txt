@@ -1,0 +1,12 @@
+const location = useLocation();
+const { hash } = location;
+const dishesCategory = hash.substring(1);
+// links like http://localhost:3000/dishes#frozenproducts
+const categories = ['firstcources', 'salads', 'frozenproducts', 'desserts'];
+const index = categories.indexOf(dishesCategory);
+const refs = [useRef(), useRef(), useRef(), useRef()];
+useEffect(() => {
+  if (index >= 0)
+    refs[index].current?.scrollIntoView({ behavior: 'smooth' });
+}, [index, refs])
+

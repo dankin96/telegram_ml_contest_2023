@@ -1,0 +1,14 @@
+ 
+public class MyBackgroundService : BackgroundService { 
+ private NamedPipeServerStream _pipeServer; 
+ protected override async Task ExecuteAsync(CancellationToken stoppingToken) { 
+  _pipeServer = new NamedPipeServerStream("MyPipe", PipeDirection.Out);   
+  await _pipeServer.WaitForConnectionAsync(stoppingToken); 
+  var writer = new StreamWriter(_pipeServer); 
+  await writer.WriteLineAsync("Message from Service");   
+  await writer.FlushAsync(); 
+ } 
+ public override async Task StopAsync(CancellationToken cancellationToken) { 
+  await _pipeServer.DisposeAsync();   
+  await base.StopAsync(cancellationToken); 
+ }  

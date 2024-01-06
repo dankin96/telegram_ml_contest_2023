@@ -1,0 +1,1 @@
+cmd package compile -a -f --compile-layouts

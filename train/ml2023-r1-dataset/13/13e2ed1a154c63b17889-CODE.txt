@@ -1,0 +1,7 @@
+c++
+<ma'lumot_turi> <funksiya_nomi>(<parametr_turlari> <parametr_nomi>)
+{
+    // funksiya tanasi
+    ...
+    return <qiymat>; // agar funksiya ma'lumot turi void bo'lmasa
+}

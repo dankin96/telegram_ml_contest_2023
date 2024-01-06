@@ -1,0 +1,29 @@
+06 October Friday 
+🍽Yemek Listesi🍽 
+
++-------------------------------+
+| Günlük Menü                   |
++-------------------------------+
+| Ezogelin Çorba                |
+| Kiymalı Kaşarlı Fırın Patates |
+| Erişte                        |
+| Meyve                         |
++-------------------------------+
+
++-----------------+
+| Vejetaryen Menü |
++-----------------+
+| Ezogelin Çorba  |
+| Fırın Patates   |
+| Erişte          |
+| Meyve           |
++-----------------+
+
++----------------+
+| Vegan Menü     |
++----------------+
+| Ezogelin Çorba |
+| Fırın Patates  |
+| Erişte         |
+| Meyve          |
++----------------+

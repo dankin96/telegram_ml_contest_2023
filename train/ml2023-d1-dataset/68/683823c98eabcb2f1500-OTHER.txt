@@ -1,0 +1,10 @@
+yaml
+Cyborg V2 = 24 Fins
+Phoenix Blade V2 = 16 Fins
+Gale Stone = 22 Fins
+Blaze Stone = 17 Fins
+Tempestas Stone = 7-8 Fins
+Bloodthirsty Stone = 6-7 Fins
+Abyss Stone = 5-6 Fins
+Glacier Stone = 5-6 Fins
+Disillusion Stone = 4 Fins

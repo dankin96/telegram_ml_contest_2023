@@ -1,0 +1,27 @@
+text
+    +-----------------+     +-----------------+     +-----------------+
+    |                 |     |                 |     |                 |
+    |   Molten metal  |     |   Molten metal  |     |   Molten metal  |
+    |                 |     |                 |     |                 |
+    +-----------------+     +-----------------+     +-----------------+
+          /|\                    /|\                    /|\
+           +                      +                      +
+  Molten metal poured      Mold rotated at high    Metal distributed to
+  into rotating mold       speed                   outer wall of mold
+
+    +-----------------+     +-----------------+     +-----------------+
+    |/\/\/\/\/\/\/\/\|     |/\/\/\/\/\/\/\/\|     |/\/\/\/\/\/\/\/\|
+    |\___/|     |\___/|     |\___/|
+    |/               \|     |/               \|     |/               \|
+    |\               /|  => |\               /|  => |\               /|
+    |/               \|     |/               \|     |/               \|
+    |\___/|     |\___/|     |\___/|
+    |/\/\/\/\/\/\/\/\|     |/\/\/\/\/\/\/\/\|     |/\/\/\/\/\/\/\/\|
+    +-----------------+     +-----------------+     +-----------------+
+          /|\                    /|\                    /|\
+           +                      +                      +
+  Metal solidified from      Hollow cavity formed   Casting removed from
+  outside to inside          in center of mold      mold
+
+
+I hope this helps you understand the centrifugal casting method better

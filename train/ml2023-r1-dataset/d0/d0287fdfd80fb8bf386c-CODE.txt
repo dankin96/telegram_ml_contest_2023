@@ -1,0 +1,29 @@
+html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Списки с галочками</title>
+</head>
+<body>
+    <div style="display: inline-block; width: 45%;">
+        <h2>Список 1:</h2>
+        <ul>
+            <li><img src="galochka.png" alt="Галочка"> Элемент 1</li>
+            <li><img src="galochka.png" alt="Галочка"> Элемент 2</li>
+            <li><img src="galochka.png" alt="Галочка"> Элемент 3</li>
+            <li><img src="galochka.png" alt="Галочка"> Элемент 4</li>
+            <li><img src="galochka.png" alt="Галочка"> Элемент 5</li>
+        </ul>
+    </div>
+    <div style="display: inline-block; width: 45%;">
+        <h2>Список 2:</h2>
+        <ul>
+            <li><img src="galochka.png" alt="Галочка"> Элемент 1</li>
+            <li><img src="galochka.png" alt="Галочка"> Элемент 2</li>
+            <li><img src="galochka.png" alt="Галочка"> Элемент 3</li>
+            <li><img src="galochka.png" alt="Галочка"> Элемент 4</li>
+            <li><img src="galochka.png" alt="Галочка"> Элемент 5</li>
+        </ul>
+    </div>
+</body>
+</html>

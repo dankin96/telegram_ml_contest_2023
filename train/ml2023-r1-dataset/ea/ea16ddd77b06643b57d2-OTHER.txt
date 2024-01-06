@@ -1,0 +1,11 @@
+                    Status
+FLUX-KDA              Live
+FLUX-ETH              Live
+FLUX-BSC              Live
+FLUX-TRX              Live
+FLUX-SOL              Live
+FLUX-AVAX             Live
+FLUX-ERG              Live
+FLUX-ALGO             Live
+FLUX-MATIC            Live
+FLUX-10     Snapshot 31Oct

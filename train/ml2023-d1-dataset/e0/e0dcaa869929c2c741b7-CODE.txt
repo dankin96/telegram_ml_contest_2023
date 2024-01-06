@@ -1,0 +1,12 @@
+        <label className="search__checkbox-label button-opacity">
+          <input
+            type="checkbox"
+            name="checkbox"
+            className="search__checkbox"
+            onChange={handleCheckbox}
+            checked={searchPattern.isShort}
+            disabled={isFormDisabled}
+          />
+          <span className="search__checkbox-span"/>
+          <span className="search__checkbox-text">Короткометражки</span>
+        </label>

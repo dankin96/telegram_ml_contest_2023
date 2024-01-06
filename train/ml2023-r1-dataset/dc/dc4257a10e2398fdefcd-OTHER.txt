@@ -1,0 +1,22 @@
+Looking for updates…
+Info: org.kde.Platform//6.4 is end-of-life, with reason:
+   We strongly recommend moving to the latest stable version of the Plaform and SDK
+Applications using this runtime:
+   com.obsproject.Studio
+Info: org.kde.Platform//5.15-21.08 is end-of-life, with reason:
+   We strongly recommend moving to the latest stable version of the Platform and SDK
+Applications using this runtime:
+   org.flameshot.Flameshot
+Info: org.gnome.Platform//43 is end-of-life, with reason:
+   The GNOME 43 runtime is no longer supported as of September 20, 2023. Please ask your application developer to migrate to a supported platform.
+Applications using this runtime:
+   io.gitlab.jstest_gtk.jstest_gtk
+Info: org.freedesktop.Sdk//21.08 is end-of-life, with reason:
+   org.freedesktop.Platform 21.08 is no longer receiving fixes and security updates. Please update to a supported runtime version.
+Info: org.freedesktop.Platform.VAAPI.Intel//21.08 is end-of-life, with reason:
+   org.freedesktop.Platform 21.08 is no longer receiving fixes and security updates. Please update to a supported runtime version.
+Info: org.freedesktop.Platform.GL.default//21.08 is end-of-life, with reason:
+   org.freedesktop.Platform 21.08 is no longer receiving fixes and security updates. Please update to a supported runtime version.
+Info: io.gitlab.jstest_gtk.jstest_gtk//stable is end-of-life, with reason:
+   This application is now being maintained as a Nix flake.
+Nothing to do.

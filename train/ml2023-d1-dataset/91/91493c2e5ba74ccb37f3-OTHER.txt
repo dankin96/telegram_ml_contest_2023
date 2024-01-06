@@ -1,0 +1,3 @@
+
+ORA-39166: Object DEV_TEAS.ADICT was not found or could not be exported or imported.
+ORA-31655: no data or metadata objects selected for job

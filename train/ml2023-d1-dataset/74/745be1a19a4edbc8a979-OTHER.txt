@@ -1,0 +1,5 @@
+Problem has been resolved in 6h 18m 0s at 17:24:26 on 2023.10.12
+Problem name: Unavailable by ICMP ping
+Host: Frontend-Indra-Lugo-192.168.10.26
+Severity: High
+Original problem ID: 99901

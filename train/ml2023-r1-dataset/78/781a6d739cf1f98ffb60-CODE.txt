@@ -1,0 +1,33 @@
+{
+ "update_id": 935428293,
+ "message": {
+  "message_id": 1498556,
+  "from": {
+   "id": 1938066989,
+   "is_bot": false,
+   "first_name": "⁠•••Uz SoDiKoV•••",
+   "username": "Sadiikovv",
+   "language_code": "ru"
+  },
+  "chat": {
+   "id": 1938066989,
+   "first_name": "⁠•••Uz SoDiKoV•••",
+   "username": "Sadiikovv",
+   "type": "private"
+  },
+  "date": 1696521103,
+  "text": "Kursiv Bold",
+  "entities": [
+   {
+    "offset": 0,
+    "length": 6,
+    "type": "italic"
+   },
+   {
+    "offset": 7,
+    "length": 4,
+    "type": "bold"
+   }
+  ]
+ }
+}

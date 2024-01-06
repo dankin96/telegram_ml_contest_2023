@@ -1,0 +1,20 @@
+
+import math
+
+def f(x):
+    return (math.exp(x) * math.cos(x+1)) / math.tan(x)
+
+def calculate_values(a, b, h):
+    x = a
+    while x <= b:
+        y = f(x)
+        print(f"f({x}) = {y}")
+        x += h
+
+# Ввод значений a, b, h с клавиатуры
+a = float(input("Введите значение a: "))
+b = float(input("Введите значение b: "))
+h = float(input("Введите значение h: "))
+
+# Вызов функции для вычисления и вывода значений функции
+calculate_values(a, b, h)

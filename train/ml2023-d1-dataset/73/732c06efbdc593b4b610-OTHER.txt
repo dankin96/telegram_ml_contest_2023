@@ -1,0 +1,7 @@
+## Shape Divider Free 1.2.2 (October 13, 2023)
+
+### Added
+- YOOtheme Pro 4.1 transparent header support
+
+### Changed
+- minimum YOOtheme Pro version required: 4.1

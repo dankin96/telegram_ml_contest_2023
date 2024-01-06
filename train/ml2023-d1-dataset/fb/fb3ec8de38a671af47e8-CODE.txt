@@ -1,0 +1,8 @@
+await client.connect()
+
+@client.on(events.NewMessage(chats=('@testbot')))
+     async def handler(event):
+         print(event.message)
+
+await client.send_message('@testbot', '/start')
+

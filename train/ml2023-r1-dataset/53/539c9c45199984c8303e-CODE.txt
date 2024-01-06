@@ -1,0 +1,13 @@
+  0  export async function handleCreateItem(project) {                                                                                                                      
+  1     const form = document.querySelector('form');                                                                                                                       
+  2     const data = new FormData(form);                                                                                                                                   
+  3     const response = await fetch(                                                                                                                                      
+  4         `/${project}/add`,                                                                                                                                             
+  5         {                                                                                                                                                              
+  6             method: 'POST',                                                                                                                                            
+  7             body: data,                                                                                                                                                
+  8         }                                                                                                                                                              
+  9     )                                                                                                                                                                  
+ 10     const item = await response.json();                                                                                                                                
+ 11     goto(`/${project}/${item.id}`, {invalidateAll: true});                                                                                                             
+ 12 };

@@ -1,0 +1,4 @@
+Triggered take profit: 1.05283
+Next take profit: 1.04955
+New stop loss: 1.05447
+Trade id: EURUSDs2005455

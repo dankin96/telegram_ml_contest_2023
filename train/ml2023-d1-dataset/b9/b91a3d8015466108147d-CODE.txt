@@ -1,0 +1,9 @@
+(defun my/org-agenda-done-at-time ()  (interactive)
+  (let ((org-agenda-files (org-agenda-files nil 'ifmode))
+        (org-agenda-span 'day))
+    (org-ql-select org-agenda-files
+      '(and (todo "pomodoro")
+            (scheduled :on today))
+      (org-todo "DONE" 'no-log))))
+
+(run-at-time "23:00" 86400 'my/org-agenda-done-at-time)

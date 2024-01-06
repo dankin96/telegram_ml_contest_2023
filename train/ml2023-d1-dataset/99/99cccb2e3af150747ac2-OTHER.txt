@@ -1,0 +1,2 @@
+This proposal is aimed to launch the CALC DCA-out strategy with the following parameters: Standard DCA-out to sell 75 MNTA for axlUSDC per hour, 324,000 MNTA in total for ~6 months, having the price floor at $0.25. 
+Discussion: https://discord.com/channels/1095005002201833495/1161598903511167047

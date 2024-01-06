@@ -1,0 +1,5 @@
+libGL error: MESA-LOADER: failed to retrieve device information
+libGL error: image driver extension not found
+libGL error: failed to load driver: i915
+libGL error: MESA-LOADER: failed to retrieve device information
+...

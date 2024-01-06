@@ -1,0 +1,19 @@
+csharp
+using UnityEngine;
+
+public class VolumeRenderer : MonoBehaviour
+{
+    public Texture3D volumeTexture;
+    public Material volumeMaterial;
+
+    void Start()
+    {
+        volumeMaterial.SetTexture("_VolumeTex", volumeTexture);
+    }
+
+    void OnRenderObject()
+    {
+        volumeMaterial.SetPass(0);
+        Graphics.DrawProceduralNow(MeshTopology.Points, 1, volumeTexture.width * volumeTexture.height * volumeTexture.depth);
+    }
+}

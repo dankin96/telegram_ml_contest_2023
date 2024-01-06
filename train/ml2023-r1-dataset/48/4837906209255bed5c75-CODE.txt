@@ -1,0 +1,7 @@
+# 在国内机器上
+
+wget http://mirrors.oneinstack.com/oneinstack-full.tar.gz
+tar -xzf oneinstack-full.tar.gz
+cd oneinstack/src
+tar -xzf pcre-8.45.tar.gz
+grep -r "oneinstack.club"

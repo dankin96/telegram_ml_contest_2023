@@ -1,0 +1,1 @@
+su -c logcat -d -s "zygisk-detach" > /sdcard/log.txt

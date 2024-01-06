@@ -1,0 +1,8 @@
+👀 SPAM Score detected:
+###
+/ban @prohorov77
+###
+
+Reason: Пользователь был заблокирован администратором
+Action: banUser
+Bot response: Successful ✅

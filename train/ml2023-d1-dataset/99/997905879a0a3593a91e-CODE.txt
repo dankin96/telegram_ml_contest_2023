@@ -1,0 +1,28 @@
+{ 
+  "detail": "init", 
+  "enqueued_at": "REDACTED", 
+  "error": "Traceback (most recent call last):
+  File \"/usr/lib/python3.9/pathlib.py\", line 1312, in mkdir
+    self._accessor.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/home/build/asu/cache/23.05-SNAPSHOT/mediatek'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File \"/home/build/.local/lib/python3.9/site-packages/rq/worker.py\", line 1359, in perform_job
+    rv = job.perform()
+  File \"/home/build/.local/lib/python3.9/site-packages/rq/job.py\", line 1178, in perform
+    self._result = self._execute()
+  File \"/home/build/.local/lib/python3.9/site-packages/rq/job.py\", line 1215, in _execute
+    result = self.func(*self.args, **self.kwargs)
+  File \"/home/build/.local/lib/python3.9/site-packages/asu/build.py\", line 162, in build
+    (cache / target).mkdir(parents=True, exist_ok=True)
+  File \"/usr/lib/python3.9/pathlib.py\", line 1316, in mkdir
+    self.parent.mkdir(parents=True, exist_ok=True)
+  File \"/usr/lib/python3.9/pathlib.py\", line 1312, in mkdir
+    self._accessor.mkdir(self, mode)
+PermissionError: [Errno 13] Permission denied: '/home/build/asu/cache/23.05-SNAPSHOT'
+", 
+  "request_hash": "REDACTED", 
+  "status": 500 
+} 

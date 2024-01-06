@@ -1,0 +1,31 @@
+Arbeitszeugnis
+
+Herr/Frau [Имя работника]
+Geburtsdatum: [Дата рождения]
+Wohnort: [Место жительства]
+
+[Name und Adresse des Unternehmens]
+
+Tätigkeitsbeschreibung:
+Herr/Frau [Имя работника] war in unserem Unternehmen vom [Eintrittsdatum] bis zum [Austrittsdatum] beschäftigt. Während dieser Zeit war er/sie in folgenden Bereichen tätig:
+
+- [Beschreibung der Hauptaufgaben und Verantwortlichkeiten des Mitarbeiters]
+- [Weitere Aufgaben oder Projekte, an denen der Mitarbeiter teilgenommen hat]
+
+Leistungsbeurteilung:
+Herr/Frau [Имя des Mitarbeiters] hat seine/ihre Aufgaben stets zu unserer Zufriedenheit erfüllt. Er/Sie arbeitete stets zuverlässig, gewissenhaft und engagiert. Besonders hervorzuheben ist seine/ihre [stärkste Qualifikation oder Eigenschaft].
+
+Sozialverhalten:
+Herr/Frau [Имя des Mitarbeiters] verhielt sich stets freundlich und respektvoll gegenüber seinen/ihren Kollegen und Vorgesetzten. Er/Sie integrierte sich gut ins Team und trug zu einer positiven Arbeitsatmosphäre bei.
+
+Fachliche Qualifikation:
+Herr/Frau [Имя des Mitarbeiters] verfügt über eine ausgezeichnete fachliche Qualifikation. Er/Sie hat [spezifische Fähigkeiten oder Kenntnisse] entwickelt und erfolgreich in die Praxis umgesetzt.
+
+Schlussbemerkung:
+Wir danken Herrn/Frau [Имя des Mitarbeiters] für seine/ihre wertvollen Beiträge und wünschen ihm/ihr für die Zukunft alles Gute.
+
+[Ort, Datum]
+
+[Unterschrift des Vorgesetzten]
+[Name des Vorgesetzten (in Druckbuchstaben)]
+[Position des Vorgesetzten]

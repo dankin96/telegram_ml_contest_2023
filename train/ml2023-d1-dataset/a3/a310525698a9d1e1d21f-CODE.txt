@@ -1,0 +1,14 @@
+      const verificationWallet2 = await walletClass.watchOnly("bitcoincash:qqhkuq036qpctanhdrqc9swt3vx2y5p5aq76f46yy0");
+      const signedMessage2 = "should verify";
+      const signature2 = "H04z3nRavl0D/gJQ8tIV+tdfrks5Mkk+kQtOz2ie5UEmBGdBTWF1cF6sybVlRB6uvHRPwwbS+bmBSDhy3n/pHRE=";
+      const verificationResult2 = await verificationWallet2.verify(signedMessage2, signature2);
+      console.log(`should be valid:`);
+      console.log(verificationResult2);
+
+
+      const verificationWallet3 = await walletClass.watchOnly("bitcoincash:qqhkuq036qpctanhdrqc9swt3vx2y5p5aq76f46yy0");
+      const signedMessage3 = "should not verify";
+      const signature3 = "H04z3nRavl0D/gJQ8tIV+tdfrks5Mkk+kQtOz2ie5UEmBGdBTWF1cF6sybVlRB6uvHRPwwbS+bmBSDhy3n/pHRE=";
+      const verificationResult3 = await verificationWallet3.verify(signedMessage3, signature3);
+      console.log(`should not be valid:`);
+      console.log(verificationResult3);

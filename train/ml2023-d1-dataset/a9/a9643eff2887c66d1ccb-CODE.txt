@@ -1,0 +1,3 @@
+bot.on('my_chat_member', async (ctx) => await somefunction(ctx, 'groups'));
+
+bot.on('::bot_command', async (ctx) => await somefunction(ctx, 'users'));

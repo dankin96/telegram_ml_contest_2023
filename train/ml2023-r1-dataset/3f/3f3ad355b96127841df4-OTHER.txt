@@ -1,0 +1,13 @@
+S4820T:
+MAC addresses: 128K
+IPv4 routes: 16K
+IPv6 routes: 8K 
+Switch fabric capacity: 1.28 Tbps
+Forwarding capacity: 960 Mpps
+
+CE6810:
+MAC addresses: 128K
+IPv4 routes: 16K
+IPv6 routes: 8K 
+Switch fabric capacity: 1.28 Tbps
+Forwarding capacity: 960 Mpps

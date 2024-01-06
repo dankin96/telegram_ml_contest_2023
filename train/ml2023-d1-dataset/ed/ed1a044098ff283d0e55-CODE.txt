@@ -1,0 +1,2 @@
+ REQUEST:
+<POST https://ex-api-yy.xxttgg.com/web-root/restricted/report/v2/get-bet-list-by-modify-date.aspx,FetchTxRequest(Portfolio=Sports, StartDate=2023-10-11 00:50:00, EndDate=2023-10-11 01:00:00, CompanyKey=F2ED5C1459274B47975DF744EEEAEBDD, ServerId=1697007483644),[]>

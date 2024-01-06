@@ -1,0 +1,20 @@
+local player = game.Players.LocalPlayer
+local checkpoints = game.Workspace.Checkpoints
+
+if player and player.Character then
+    local humanoidRootPart = player.Character.HumanoidRootPart
+    local stage = player.leaderstats.Stage.Value
+    
+    while stage <= 148 do
+        local part = checkpoints[tostring(stage)]
+        
+        if part and part:IsA("BasePart") then
+            humanoidRootPart.CFrame = part.CFrame
+            wait(0.1) 
+        end
+        
+        stage = stage + 1
+    end
+end
+
+не

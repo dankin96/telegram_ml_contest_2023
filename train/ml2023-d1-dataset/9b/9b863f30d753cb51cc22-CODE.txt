@@ -1,0 +1,27 @@
+خوب دوست صمیم من gpt اینو پیشنهاد میده : 
+const MongoClient = require('mongodb').MongoClient;
+
+// Connection URL
+const url = 'mongodb://localhost:27017';
+
+// Database Name
+const dbName = 'yourDatabaseName';
+
+// Connect to the server
+MongoClient.connect(url, function(err, client) {
+  if (err) throw err;
+
+  // Get the database
+  const db = client.db(dbName);
+
+  // Get the collection
+  const collection = db.collection('yourCollectionName');
+
+  // Find all documents in the collection
+  collection.find({}).toArray(function(err, documents) {
+    if (err) throw err;
+
+    console.log(documents);
+    client.close();
+  });
+});

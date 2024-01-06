@@ -1,0 +1,6 @@
+docker_address=http://192.168.1.8:5678
+scan_path=/每日更新/电视剧/卢森堡
+scan_path=/每日更新/电影/中国
+username=xxx
+password=yyy
+

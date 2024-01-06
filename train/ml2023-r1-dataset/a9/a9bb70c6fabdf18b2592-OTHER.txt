@@ -1,0 +1,24 @@
++----------------------------+------------+------------+
+|        Games Profit        | 2023-10-07 | 2023-10-06 |
++----------------------------+------------+------------+
+| Galaxy Attack: Shoot (ios) |  13350.26  |  6449.24   |
+| Galaxy Attack: Shoot (and) |  11609.16  |  6557.76   |
+| Haircut prank, air h (and) |  4255.01   |  1687.55   |
+| Monster Transformer: (and) |  1598.53   |   -226.6   |
+|     Yoga Workout (ios)     |  1557.66   |   727.53   |
+| Pop's World - Runnin (ios) |  1351.85   |   948.89   |
+| Toilet Prank Call &  (and) |  1269.03   |   287.69   |
+| Rainbow Grimaze: Hid (and) |  1176.33   |   951.33   |
+| Hide And Seek: Who i (and) |   927.16   |  -2697.94  |
+| Famous Fashion - Dre (and) |   848.1    |   -60.58   |
+| Chat Master: Prank S (ios) |   844.88   |   404.29   |
+| Craft School: Monste (and) |   776.93   |   -64.2    |
+| Draw Fun: One Part M (ios) |   647.46   |   297.47   |
+| Chat Master: Prank S (and) |   605.99   |   333.73   |
+| Merge Number Cube: F (and) |   539.63   |   80.29    |
+| Merge Plants – Monst (and) |   521.11   |   266.13   |
+| Galaxy Invader: Alie (and) |   478.73   |   441.75   |
+| Craft Parkour: 3D Bl (ios) |   448.26   |   338.45   |
+| Epic Banana Run: Mer (and) |   431.37   |   316.15   |
+| Craft School: Monste (ios) |   380.34   |   365.4    |
++----------------------------+------------+------------+

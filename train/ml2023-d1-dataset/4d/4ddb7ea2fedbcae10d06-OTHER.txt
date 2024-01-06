@@ -1,0 +1,4 @@
+Give_date:2023-10-06 09:48:00|0
+Entry:10.8|SL:7.5|TG1:14.9|Report:2023-10-09 09:20:00|0|Previous High:12.5|NEW High:13.5|Return :[25.0%]
+Single Lot profit:2565.0|Amount_invested:10260.0|Current_worth:12825.0
+Comments:Twitter - Looser Breakfast SP

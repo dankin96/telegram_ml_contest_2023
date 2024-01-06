@@ -1,0 +1,3 @@
+git add lab01/.
+git commit -m "<msg>"
+git push

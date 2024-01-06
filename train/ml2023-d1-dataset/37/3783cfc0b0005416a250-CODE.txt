@@ -1,0 +1,6 @@
+// aaa.h
+void func();
+
+// aaa.c
+static void func();
+^ static тут лишний

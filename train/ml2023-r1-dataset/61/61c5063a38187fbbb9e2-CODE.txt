@@ -1,0 +1,4 @@
+async with httpx.AsyncClient() as client:
+    query = await client.get(
+         f'http://apilayer.net/api/live?access_key={API_KEY}&currencies={currencies}&source=USD&format=1'
+    )

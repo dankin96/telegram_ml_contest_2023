@@ -1,0 +1,16 @@
+services:
+  tinkoff-invest-front:
+    container_name: tinkoff-invest-front
+    image: front
+    ports:
+      - 80:80
+      - 443:443
+      - 8080:8080
+    depends_on:
+      - tinkoff-invest-back
+    restart: unless-stopped
+    volumes:
+      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./config.js:/usr/share/nginx/html/public/config.js:ro
+      - ./nginx/localhost.crt:/etc/ssl/certs/localhost.crt:ro
+      - ./nginx/localhost.key:/etc/ssl/private/localhost.key:ro

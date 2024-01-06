@@ -1,0 +1,4 @@
+CPU Power: 119 mW
+GPU Power: 43 mW
+ANE Power: 0 mW
+Combined Power (CPU + GPU + ANE): 161 mW

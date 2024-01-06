@@ -1,0 +1,19 @@
+i’m trying to use vkbasalt to add CAS to cyberpunk 2077 (heroic proton GE) but it causes stutters and audio crackling when I enable it. 
+System: 
+Kernel: 6.5.6-zen2-1-zen arch: x86_64 bits: 64 compiler: gcc v: 13.2.1 
+clocksource: tsc available: hpet,acpi_pm 
+parameters: BOOT_IMAGE=/@/boot/vmlinuz-linux-zen 
+root=UUID=1e0ad18c-0993-40e1-b5e4-31a3b75f8dad rw rootflags=subvol=@ 
+quiet quiet rd.udev.log_priority=3 vt.global_cursor_default=0 loglevel=3 
+ibt=off 
+Desktop: KDE Plasma v: 5.27.8 tk: Qt v: 5.15.11 wm: kwin_wayland vt: 1 
+dm: SDDM Distro: Garuda Linux base: Arch Linux 
+Machine: 
+Type: Desktop Mobo: Micro-Star model: B550M PRO-VDH WIFI (MS-7C95) v: 1.0 
+serial:  UEFI: American Megatrends LLC. v: 2.H0 
+date: 09/21/2023 
+CPU: 
+Info: model: AMD Ryzen 7 3700X bits: 64 type: MT MCP arch: Zen 2 gen: 3 
+level: v3 note: check built: 2020-22 process: TSMC n7 (7nm) 
+family: 0x17 (23) model-id: 0x71 (113) stepping: 0 microcode: 0x8701030 
+Topology: cpus: 1x cores: 8 tpc: 2 threads: 16 smt: ...

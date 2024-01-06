@@ -1,0 +1,10 @@
+python
+from django.http import HttpResponse
+from django.urls import path
+
+def welcome(request):
+    return HttpResponse("مرحبًا بك في تطبيق بايثون!")
+
+urlpatterns = [
+    path('welcome/', welcome),
+]

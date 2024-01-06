@@ -1,0 +1,2 @@
+ Wrong syntax.
+Please try this syntax: /airdrop 20 klv 10

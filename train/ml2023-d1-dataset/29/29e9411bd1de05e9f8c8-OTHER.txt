@@ -1,0 +1,1 @@
+TSEL TELP 20 mnt ALL+80 mnt SESAMA 1HR

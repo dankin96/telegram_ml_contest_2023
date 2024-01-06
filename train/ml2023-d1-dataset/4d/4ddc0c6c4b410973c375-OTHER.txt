@@ -1,0 +1,6 @@
+/add: Per creare un nuovo filtro
+/list: Per visualizzare l'elenco dei tuoi filtri
+/whoami: Per ottenere un riepilogo del tuo profilo
+/premium: Per scoprire i piani premium disponibili e le loro funzionalità
+/roadmap: Per esplorare la roadmap del bot e le nuove funzionalità in arrivo
+

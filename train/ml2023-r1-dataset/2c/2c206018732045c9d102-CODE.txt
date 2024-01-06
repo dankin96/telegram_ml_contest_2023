@@ -1,0 +1,38 @@
+import UIKit
+class ViewController: UIViewController {
+    @IBOutlet weak var worddd: UILabel!
+    var n = 100
+    var m = 0
+    @IBOutlet var number: UILabel!
+    var word: [String] = ["YES","NO","MB"]
+    var chisla: [String] = []
+    @IBOutlet var words: UILabel!
+    @IBOutlet weak var control: UISegmentedControl!
+    @IBAction func modee(_ sender: Any) {
+        m = m + 1
+        print(m)
+        if (m%2==0){
+            worddd.text = ""
+            number.text = chisla.randomElement()
+        }
+        else{
+            number.text = ""
+            worddd.text = word.randomElement()
+        }
+    }
+    @IBAction func butt(_ sender: UIButton) {
+        if (m%2==0){
+            number.text = chisla.randomElement()
+        }
+        else{
+            worddd.text = word.randomElement()
+        }
+    }
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+        for i in 1...n{
+            chisla.append("\(i)")
+        }
+    }
+}

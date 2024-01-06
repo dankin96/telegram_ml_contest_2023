@@ -1,0 +1,7 @@
+RECOMMENDED: 🧪
+OS: Windows 7/8/8.1/10 (64-BIT)
+RAM: 12G
+DirectX: 11
+Store: 50GB
+GPU: Geforce GTX 1070 or AMD Radeon R9 590
+CPU: Intel Core i7 4790k CPU

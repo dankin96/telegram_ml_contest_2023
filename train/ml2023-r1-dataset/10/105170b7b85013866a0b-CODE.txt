@@ -1,0 +1,242 @@
+#include <iostream>
+#include <windows.h>
+
+using namespace std;
+
+int main()
+{
+//
+//cout<<"1.Puda_arab_string
+";
+//cout<<"2.Puda_beats_boat
+";
+//    int tanlov;
+//    cin>>tanlov;
+//    switch(tanlov){
+//    case 1:
+//        PlaySound(TEXT("C:\\Muzika\\Puda_arab_string.wav"),NULL,SND_SYNC);
+//    break;
+// case 2:
+//        PlaySound(TEXT("C:\\Muzika\\Puda_beats_Boat.wav"),NULL,SND_SYNC);
+//    break;
+//
+//}
+//    int a,b,c,d,e;
+//    cout<<"5 ta son kiriting: ";
+//    cin>>a>>b>>c>>d>>e;
+//
+//    int musbat = (a>0) + (b>0) + (c>0) + (d>0) + (e>0);
+//    int manfiy = (a<0) + (b<0) + (c<0) + (d<0) + (e<0);
+//    int nool = (a==0) + (b==0) + (c==0) + (d==0) + (e==0);
+//    int nol = 5 - musbat - manfiy;
+//
+//
+//cout<<"Musbatlar soni: "<<musbat<<endl;
+//    cout<<"Manfiylar soni: "<<manfiy<<endl;
+//    cout<<"Nollar1 soni: "<<nool<<endl;
+//    cout<<"Nollar2 soni: "<<nol<<endl;
+
+//    if(a>0){
+//        musbat++;
+//    }else if(a<0){
+//        manfiy++;
+//    }else{
+//        nol++;
+//    }
+//
+//    if(b>0){
+//        musbat++;
+//    }else if(b<0){
+//        manfiy++;
+//    }else{
+//        nol++;
+//    }
+//
+//    if(c>0){
+//        musbat++;
+//    }else if(c<0){
+//        manfiy++;
+//    }else{
+//        nol++;
+//    }
+//    if(d>0){
+//        musbat++;
+//    }else if(d<0){
+//        manfiy++;
+//    }else{
+//        nol++;
+//    }
+//    if(e>0){
+//        musbat++;
+//    }else if(e<0){
+//        manfiy++;
+//    }else{
+//        nol++;
+//    }
+
+//    cout<<"Musbatlar soni: "<<musbat<<endl;
+//    cout<<"Manfiylar soni: "<<manfiy<<endl;
+//    cout<<"Nollar soni: "<<nol<<endl;
+
+//    int a = 2;
+//    int b = a;
+//    a = a * a * a;///a^3
+//    a = a * a;///a^6
+//    a = a * b;///a^7
+//    cout<<a<<endl;
+
+/**
+    /// SWITCH - CASE
+
+    int day;
+    cout<<"Kunni kiriting: ";
+    cin>>day;
+
+    switch(day){
+
+case 1:
+    cout<<"Dushanba"<<endl;
+  break;
+
+case 2:
+    cout<<"Seshanba
+";
+    break;
+
+case 3:
+    cout<<"Chorshanba
+";
+  break;
+
+case 4:
+    cout<<"Payshanba
+";
+  break;
+case 5:
+    cout<<"Juma
+";
+  break;
+case 6:
+    cout<<"Shanba
+";
+  break;
+case 7:
+    cout<<"Yakshanba
+";
+  break;
+default:
+    cout<<"Bunday kun  yo'q 
+";
+break;
+
+}
+
+    cout<<"Bu qismi int mainda yozilgan
+";
+
+
+    char symbol;
+    cout<<"Belgi kiriting -> $,%,#,@ shuladan: ";
+    cin>>symbol;
+
+    switch(symbol){
+case '$':
+    cout<<"Dollar kal
+";
+    break;
+case '%':
+    cout<<"Foiz Bank
+";
+    break;
+case '#':
+    cout<<"Panjara Toshturma
+";
+    break;
+case '@':
+    cout<<"email itvachcha
+";
+    break;
+default:
+    cout<<"Bizda bunaqa belgi mavjud emas
+";
+    break;
+    }
+**/
+
+    ///ATM
+
+    cout<<"1.O'zbek tili
+";
+    cout<<"2.Russkiy yazik
+";
+    cout<<"3.English language
+";
+    int til,kartaparol = 1111,parol;
+    int balans = 2500000,pul,telnomer,popitka = 0;
+    cin>>til;
+
+    switch(til){
+case 1:
+    boshiga:
+    if(popitka==3){
+        cout<<"Karta bloklandi bankka bor
+";
+    }else{
+    cout<<"Pin kiriting: " ;
+    cin>>parol;
+    if(parol == kartaparol){
+        cout<<"1.Balans
+";
+        cout<<"2.Naqd pul yechish
+";
+        cout<<"3.Sms - Xabarnoma
+";
+        cout<<"4.Parol o'zgartirish
+";
+        int tanlov;
+        cin>>tanlov;
+        switch(tanlov){
+
+    case 1:
+        cout<<"Sizning balansingizda "<<balans<< " so'm pul bor
+";
+        break;
+    case 2:
+        cout<<"Qancha naqd kerak?
+";
+        cout<<"Summani kiriting: ";
+        cin>>pul;
+        if(pul>balans){
+            cout<<"Balansingizda pul yetarli emas
+";
+        }else{
+            balans = balans - (pul+pul*0.01);
+            cout<<"Sizning balansingizda "<<balans<< " so'm pul qoldi
+";
+        }
+
+        }
+    }else{
+        popitka++;
+        cout<<"pin xato terildi boshqatan urinib ko'ring
+";
+        goto boshiga;
+   }
+    }
+break;
+
+    case 2:
+///bu yerda rustili bolishi mumkin edi
+
+        break;
+
+
+    case 3:
+
+///bu yerda ingliztili bolishi mumkin edi
+        break;
+default:
+    cout<<"Bizda takoy language not";
+    }
+    return 0;
+}

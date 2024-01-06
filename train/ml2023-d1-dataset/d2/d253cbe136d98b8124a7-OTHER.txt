@@ -1,0 +1,7 @@
+When the double slit experiment is conducted without observing or measuring the particles, they produce an interference pattern on the screen, which is a characteristic behavior of waves. However, when a detector is introduced to observe which slit a particle passes through, things change.
+
+Observation Effect:
+
+Once a measurement device (detector) is placed to determine through which slit the particle goes, the interference pattern disappears.
+Instead of the interference pattern, two distinct bands or patterns appear on the screen, one for each slit. This result suggests that each particle is behaving like a distinct entity (a particle) and not like a wave.
+This change in behavior upon observation raises profound questions about the nature of reality and the role of measurement in quantum mechanics. The act of observation seems to "collapse" the wave function, making the particle choose a specific path, rather than behaving as a wave that passes through both slits simultaneously.

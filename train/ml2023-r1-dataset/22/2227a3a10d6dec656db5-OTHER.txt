@@ -1,0 +1,5 @@
+PROBLEM: Disk I/O is overloaded on utm-ch-replica-22
+Host: utm-ch-replica-22 192.168.112.22 - time 04:02:45
+Trigger: Disk I/O is overloaded on utm-ch-replica-22
+Trigger status: PROBLEM
+Trigger severity: Warning

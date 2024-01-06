@@ -1,0 +1,9 @@
+
+insmod all_video
+search set=root file /posroglite/posrog-lite
+linux /posroglite/kernel quiet root=/dev/ram0 androidboot.selinux=permissive acpi_sleep=s3_bios,s3_mode SRC=/posroglite 
+initrd /posroglite/initrd.img
+}
+
+__
+__

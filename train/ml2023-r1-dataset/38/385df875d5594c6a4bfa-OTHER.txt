@@ -1,0 +1,14 @@
+
+[AMAYAK Armenia] SUMMARY 24h
+
+                                                 order_count    perc(%)
+arm_performer_cancel_flg                                 163     1.8842
+arm_too_long_to_wait_cancel_reason_flg                    59     0.682
+arm_courier_long_trip_flg                                 55     0.6358
+arm_eda_performer_cancel_flg                              46     0.5317
+arm_asked_to_cancel_cancel_reason_flg                     43     0.4971
+arm_went_in_wrong_direction_cancel_reason_flg             22     0.2543
+arm_didnt_attend_flg                                      17     0.1965
+arm_last_cancelation_flg                                  17     0.1965
+arm_cargo_cancel_ask_flg                                  14     0.1618
+arm_damaged_package_flg                                    8     0.0925

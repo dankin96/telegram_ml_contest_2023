@@ -1,0 +1,5 @@
+  final v = showDialog<(String, String)?>(...);
+  if (v == null) {
+    return;
+  }
+  final (host, port) = v;

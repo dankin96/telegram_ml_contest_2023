@@ -1,0 +1,2 @@
+> hyprland-nvidia-git-0.30.0.r85.g3a613502-1-any.pkg.tar.zst
+> hyprland-nvidia-git-0.30.0.r85.g3a613502-1-any.pkg.tar.zst.sig

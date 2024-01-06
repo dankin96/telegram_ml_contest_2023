@@ -1,0 +1,25 @@
+## Switcher 10 element 1.1.2 (October 08, 2023)
+
+### Added
+
+- nested grid top divider
+- nested grid masonry pack mode
+- nested grid parallax justify, start and end options
+- nested grid margin bottom option
+- nested grid text align and fallback
+- nested grid visibility
+- item max width option
+- meta decoration options
+- content limit output
+- content force align left option
+- image title field
+- link title field
+- link aria-label
+- item ID class and attrs
+
+### Changed
+
+- nested grid CSS classes
+- code optimization
+- element UI improvement
+- minimum YOOtheme Pro version requirement: 4.1

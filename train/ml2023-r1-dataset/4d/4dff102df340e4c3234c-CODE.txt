@@ -1,0 +1,3 @@
+#pragma once
+#include "mysql_connection.h"
+#include "myFunc.h"

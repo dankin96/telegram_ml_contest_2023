@@ -1,0 +1,1 @@
+"By leveraging NOWPayments’ API, businesses can effortlessly integrate recurring invoicing with PIVX, offering their customers a secure and convenient payment alternative." @NOWPayments_io

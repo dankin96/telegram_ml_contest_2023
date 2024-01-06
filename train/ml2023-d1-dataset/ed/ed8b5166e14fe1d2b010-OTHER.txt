@@ -1,0 +1,2 @@
+vless://e89b5648-9aba-4252-f4f7-94850e7744df@join-v2raytz.sinotz.tk:2083?encryption=none&security=tls&sni=lightning6.LiV2ray.top&type=grpc&serviceName=%40LIGHTNING6&mode=gun#%D8%AE%D8%B1%DB%8C%D8%AF%20%D8%B3%D8%B1%D9%88%DB%8C%D8%B3%20%40orange_support
+

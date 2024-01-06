@@ -1,0 +1,1 @@
+ERROR: Post "https://mpi.braspag.com.br/v2/auth/token": dial tcp: lookup mpi.braspag.com.br on 127.0.0.11:53: server misbehaving | FILE: /go/src/bitbucket.org/eucatur/api-pagamento/pay/cielo/cielo.go:66 | LINE: 66 | FUNCTION: bitbucket.org/eucatur/api-pagamento/pay/cielo.requestGateway | HOSTNAME: api-pagamento-producao-61

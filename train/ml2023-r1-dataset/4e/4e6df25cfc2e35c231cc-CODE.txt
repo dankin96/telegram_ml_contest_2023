@@ -1,0 +1,6 @@
+
+defmodule FilterBehaviour do
+  Import Kernel, except: [not: 1]
+
+  @callback not(args) :: any()
+end

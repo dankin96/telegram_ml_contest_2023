@@ -1,0 +1,3 @@
+money = Dollar(5)
+money.times(2)
+asser(money.amount, 10)

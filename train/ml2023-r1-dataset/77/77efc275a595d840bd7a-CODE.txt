@@ -1,0 +1,11 @@
+conv :: TTerm γ α -> OTerm γ α
+conv = \case
+  TVar VZ -> V
+  TVar (VS x) -> W (conv (TVar x))
+  TLam t -> case conv t of
+    V -> E (embed I)
+    E d -> E (K .$$ d)
+    N e -> e
+    W e -> K .$$ e
+  TApp t1 t2 -> conv t1 $$ conv t2
+  TConst c -> embed c

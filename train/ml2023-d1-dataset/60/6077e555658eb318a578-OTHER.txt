@@ -1,0 +1,4 @@
+a_directory/
+a_file
+b_directory/
+b_file

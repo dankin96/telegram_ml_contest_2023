@@ -1,0 +1,2 @@
+.terminal apt update && apt install ffmpeg libavcodec-dev libavutil-dev libavformat-dev libswscale-dev libavdevice-dev -y
+

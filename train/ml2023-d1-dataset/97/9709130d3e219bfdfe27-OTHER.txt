@@ -1,0 +1,1 @@
+Property 'ethereum' does not exist on type 'Window & typeof globalThis'.ts(2339)

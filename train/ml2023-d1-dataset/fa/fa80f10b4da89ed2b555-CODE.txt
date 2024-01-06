@@ -1,0 +1,24 @@
+{-# LANGUAGE DerivingStrategies #-}
+{-# LANGUAGE DerivingVia #-}
+{-# LANGUAGE DuplicateRecordFields #-}
+
+import Data.Monoid (Product, Sum)
+import Unsafe.Coerce (unsafeCoerce)
+
+newtype UnsafeCoerce b a
+  = WrapUnsafeCoerce a
+
+instance (Semigroup b) => Semigroup (UnsafeCoerce b a) where
+  (<>) = unsafeCoerce ((<>) :: b -> b -> b)
+
+instance (Monoid b) => Monoid (UnsafeCoerce b a) where
+  mempty = unsafeCoerce (mempty :: b)
+
+data X = MkX {sum, product :: Int}
+  deriving stock (Show)
+  deriving (Semigroup, Monoid) via UnsafeCoerce (Sum Int, Product Int) X
+
+main = do
+  let a = MkX {sum = 10, product = 20}
+  let b = MkX {sum = 30, product = 40}
+  print (a <> b)

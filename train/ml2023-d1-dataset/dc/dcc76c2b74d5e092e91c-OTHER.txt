@@ -1,0 +1,15 @@
+fio Disk Speed Tests (Mixed R/W 50/50):
+---------------------------------
+Block Size | 4k            (IOPS) | 64k           (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 40.92 MB/s   (10.2k) | 145.12 MB/s   (2.2k)
+Write      | 41.00 MB/s   (10.2k) | 145.88 MB/s   (2.2k)
+Total      | 81.92 MB/s   (20.4k) | 291.00 MB/s   (4.5k)
+           |                      |                     
+Block Size | 512k          (IOPS) | 1m            (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 185.16 MB/s    (361) | 249.48 MB/s    (243)
+Write      | 194.99 MB/s    (380) | 266.10 MB/s    (259)
+Total      | 380.15 MB/s    (741) | 515.58 MB/s    (502)
+
+YABS completed in 1 min 17 sec

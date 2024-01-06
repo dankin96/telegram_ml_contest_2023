@@ -1,0 +1,29 @@
+query MyQuery {
+  EVM(dataset: combined, network: bsc) {
+    BalanceUpdates(
+      where: {BalanceUpdate: {Address: {is: "0xfc806367a29eE1209C8cB3991F5FB1819cDdf3f5"}}, Currency: {SmartContract: {is: "0xc6f6d16c72f705ec983ed932604068872dc7f889"}}, Block: {}}
+      orderBy: {descending: Block_Number}
+    ) {
+      Block {
+        Time
+        Hash
+        Number
+        L1 {
+          Nonce
+        }
+      }
+      Transaction {
+        Hash
+      }
+      BalanceUpdate {
+        Amount
+        Type
+        Address
+      }
+      Currency {
+        Name
+        Symbol
+      }
+    }
+  }
+}

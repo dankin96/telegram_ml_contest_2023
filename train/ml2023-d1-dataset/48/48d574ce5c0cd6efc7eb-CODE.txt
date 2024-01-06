@@ -1,0 +1,22 @@
+function openCallForm_consul(site_dir,id) {
+  var post = {};
+  post['id'] = id;
+  var callPopup = BX.PopupWindowManager.create("CallPopup_consul", null, {
+    autoHide: true,      
+    offsetLeft: 0,
+    offsetTop: 0,
+    overlay : true,
+    draggable: {restrict:false},
+    closeByEsc: true,
+    closeIcon: { right : "32px", top : "23px"},
+    content: '<div style="width:404px;height:290px; text-align: center;"><span style="position:absolute;left:50%; top:50%"><img src="/images/please_wait.gif"/></span></div>',
+    events: {
+      onAfterPopupShow: function()
+      {
+        callPopup.adjustPosition();
+              callPopup.resizeOverlay();
+      }
+    },
+  });
+  callPopup.show();
+}

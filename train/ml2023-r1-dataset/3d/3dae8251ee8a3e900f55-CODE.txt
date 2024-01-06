@@ -1,0 +1,12 @@
+student_description = [student_1_description,student_2_description]
+for sample in student_description:
+    response = openai.ChatCompletion.create(
+        model = 'gpt-3.5-turbo',
+        messages = [{'role': 'user', 'content': sample}],
+        functions = student_custom_functions,
+        function_call = 'auto'
+    )
+
+    # Loading the response as a JSON object
+    json_response = json.loads(response['choices'][0]['message']['function_call']['arguments'])
+    print(json_response)

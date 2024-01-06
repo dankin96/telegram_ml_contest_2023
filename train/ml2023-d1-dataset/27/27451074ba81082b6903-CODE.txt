@@ -1,0 +1,36 @@
+vbnet
+Module Module1
+    Sub Main()
+        ' Taking three numbers as input from the user
+        Console.Write("Enter the first number: ")
+        Dim num1 As Integer = Console.ReadLine()
+        
+        Console.Write("Enter the second number: ")
+        Dim num2 As Integer = Console.ReadLine()
+        
+        Console.Write("Enter the third number: ")
+        Dim num3 As Integer = Console.ReadLine()
+        
+        ' Calculating square and cube
+        Dim square1 As Integer = num1 * num1
+        Dim square2 As Integer = num2 * num2
+        Dim square3 As Integer = num3 * num3
+        
+        Dim cube1 As Integer = num1 * num1 * num1
+        Dim cube2 As Integer = num2 * num2 * num2
+        Dim cube3 As Integer = num3 * num3 * num3
+        
+        ' Displaying results
+        Console.WriteLine("Square of " & num1 & " is: " & square1)
+        Console.WriteLine("Cube of " & num1 & " is: " & cube1)
+        
+        Console.WriteLine("Square of " & num2 & " is: " & square2)
+        Console.WriteLine("Cube of " & num2 & " is: " & cube2)
+        
+        Console.WriteLine("Square of " & num3 & " is: " & square3)
+        Console.WriteLine("Cube of " & num3 & " is: " & cube3)
+        
+        ' Waiting for user to press Enter before closing the console
+        Console.ReadLine()
+    End Sub
+End Module

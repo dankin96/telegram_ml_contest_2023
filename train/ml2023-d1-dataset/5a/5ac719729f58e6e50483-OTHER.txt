@@ -1,0 +1,1 @@
+In short, [Zimaboard](https://www.zimaboard.com/zimaboard/product) is a small single-board computer that is relatively affordable and comes with an interesting selection of ports, which includes an exposed PCI Express port.

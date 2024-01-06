@@ -1,0 +1,2 @@
+bzcat ../git/firmware/buildroot-2021.02.12/dl/majestic/majestic.hi3516cv200.ultimate.master.tar.bz2 | tar --strip-components=1 -C ../git/firmware/output/build/majestic-current   -xf 
+

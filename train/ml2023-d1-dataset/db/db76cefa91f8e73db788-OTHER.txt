@@ -1,0 +1,7 @@
+WARNING: One or more updates/rebuilds have been skipped due to a dependency conflict:
+
+net-libs/libnice:0
+
+  (net-libs/libnice-0.1.21:0/0::gentoo, binary scheduled for merge) USE="gnutls introspection upnp -gtk-doc -test" ABI_X86="(64) -32 (-x32)" conflicts with
+    ~net-libs/libnice-0.1.19[abi_x86_64(-)] required by (media-plugins/gst-plugins-libnice-0.1.19:1.0/1.0::gentoo, installed) USE="userland_GNU" ABI_X86="(64) -32 (-x32)"
+    ^                 ^^^^^^

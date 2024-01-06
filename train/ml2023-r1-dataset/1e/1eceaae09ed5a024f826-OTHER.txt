@@ -1,0 +1,2 @@
+https://rasitechchannel.my.id/teleuser/api/checker/?id=[USER ID]
+

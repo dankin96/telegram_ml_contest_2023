@@ -1,0 +1,10 @@
+Agenda
+
+- Intro & Warm Up
+- What's new in VictoriaMetrics - Roman Khavronenko
+* Managed VictoriaMetrics - Ivan Yatskevich (intro & update)
+* Anomaly Detection - Fedir Navruzov (intro & update)
+- What's new in VictoriaLogs - Aliaksandr Valialkin
+- Vicky Community: Help us prepare our anniversary - Denys Holius & Jean-Jérôme Schmidt-Soisson
+- Latest VictoriaMetrics News - Jean-Jérôme Schmidt-Soisson
+- AMA session

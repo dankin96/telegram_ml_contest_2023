@@ -1,0 +1,1 @@
+index posts_idx: query error: P08: syntax error, unexpected '"', expecting TOK_KEYWORD or TOK_INT or TOK_FLOAT or '=' near '"'

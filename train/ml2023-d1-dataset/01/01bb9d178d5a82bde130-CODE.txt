@@ -1,0 +1,2 @@
+    print(locale, _("Change language", locale=locale))
+

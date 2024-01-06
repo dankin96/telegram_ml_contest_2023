@@ -1,0 +1,3 @@
+rm -rf "$HOME/.cache/nix/gitv3"
+time git clone https://github.com/NixOS/nixpkgs --depth 1 --single-branch --branch=master
+time nix build 'git+https://github.com/NixOS/nixpkgs?shallow=1#hello'

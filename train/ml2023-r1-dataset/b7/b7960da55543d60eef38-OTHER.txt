@@ -1,0 +1,2 @@
+vless://b75490a6-679e-4ad1-9c3b-10c48beeed61@free.ownvpn.vip:29637?type=ws&path=%2F&security=none#free-OwnVpn
+

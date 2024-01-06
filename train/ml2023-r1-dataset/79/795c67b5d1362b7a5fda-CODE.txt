@@ -1,0 +1,1 @@
+(<StatusCode.INTERNAL: (13, 'internal')>, '70001', Metadata(tracking_id='38f140870f2febc46f85ad2905f9df64', ratelimit_limit='300, 300;w=60', ratelimit_remaining=299, ratelimit_reset=25, message='internal error'))

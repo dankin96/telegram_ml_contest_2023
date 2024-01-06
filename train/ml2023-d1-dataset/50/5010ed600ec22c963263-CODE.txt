@@ -1,0 +1,5 @@
+if message.from_user.id == bot_id:
+
+or
+
+@app.on_message(filters.user(bot_id))

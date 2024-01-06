@@ -1,0 +1,2 @@
+
+from PySide6.support.signature.lib.pyi_generator import generate_pyi

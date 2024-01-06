@@ -1,0 +1,6 @@
+Problem started at 06:26:35 on 2023.10.06
+Problem name: Zabbix server: Utilization of discoverer processes over 75%
+Host: Zabbix server
+Severity: Average
+Operational data: 100 %
+Original problem ID: 202816

@@ -1,0 +1,9 @@
+4 vCPU
+
+8GB RAM
+
+1TB SSD
+
+Stable 24/7 Internet connection, at least 1Gbit
+
+Public IP and one port open for incoming TCP traffic (default is 12345, but can be changed)

@@ -1,0 +1,13 @@
+  data:
+    raw:   25.4 T used, 29.3 T / 49.6 T available, 9.5 T down
+    state: 8.1 T clean, 782 G misplaced, 3.8 T degraded
+    pools: 0 / 2 active
+    pgs:   283 active
+           1 active+degraded+has_misplaced+left_on_dead
+           18 active+degraded+left_on_dead
+           6 active+has_degraded+has_misplaced+left_on_dead
+           125 active+has_degraded+left_on_dead
+           44 active+has_misplaced
+           4 active+has_misplaced+left_on_dead
+           30 offline
+           1 stopping+has_degraded+left_on_dead

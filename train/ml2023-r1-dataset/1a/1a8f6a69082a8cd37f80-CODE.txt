@@ -1,0 +1,19 @@
+@echo off
+setlocal enabledelayedexpansion
+
+:: Ubah nama menjadi filelist txt
+set "outputFile=FileList.txt"
+
+:: hapus file sebelumnya
+if exist "%outputFile%" del "%outputFile%"
+
+:: ambil semua data ke dalam outputfile absolute
+for %%i in (*) do (
+    echo %%~fi>>"%outputFile%"
+)
+
+:: ini hasil akhirnya keluarkan
+echo file sudah digenerate "%outputFile%"
+
+:: jangan langsung keluar
+pause

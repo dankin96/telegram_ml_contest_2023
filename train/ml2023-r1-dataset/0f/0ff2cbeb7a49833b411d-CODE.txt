@@ -1,0 +1,4 @@
+val config = Json.decodeFromString<LiteClientConfigGlobal>(
+        URL("https://ton.org/global-config.json").readText()
+    )
+    val liteClient = LiteClient(config)

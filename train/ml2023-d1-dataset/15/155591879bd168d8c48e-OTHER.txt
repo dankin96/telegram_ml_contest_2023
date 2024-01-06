@@ -1,0 +1,1 @@
+fix: Allow to set default playback speed 5% by 5%

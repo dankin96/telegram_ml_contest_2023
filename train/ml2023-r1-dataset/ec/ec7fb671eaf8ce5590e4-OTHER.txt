@@ -1,0 +1,11 @@
+Bitmex XBTUSD
+Shorts Paying Longs
+Nominal -0.0150%
+Daily Rate: -0.0450%
+Next Funding in 9 minutes
+Next predicted: -0.0036%
+Bid/Ask: $27,883.00 / $27,883.50
+Index Price:$27,899.47
+Mark Price: $27,899.47
+Open Interest: $199,400,200
+Vol 24: $195,094,000

@@ -1,0 +1,54 @@
+import csv
+import aiohttp
+import asyncio
+
+API_ENDPOINT = "https://apiv2.ahrefs.com"
+API_TOKEN = "ваш-API-ключ"
+
+
+async def fetch_url_traffic(session, url):
+    params = {
+        "token": API_TOKEN,
+        "target": url,
+        "from": "positions_metrics",
+        "mode": "subdomains",
+        "limit": 1000,
+        "output": "json"
+    }
+    async with session.get(API_ENDPOINT, params=params) as response:
+        data = await response.json()
+        traffic = data.get('metrics', {}).get('traffic', 0)
+        return url, traffic
+
+
+
+    params = {
+        "token": API_TOKEN,
+        "target": url,
+        "from": "pages",
+        "mode": "exact",
+        "limit": 1,
+        "output": "json"
+    }
+    async with session.get(API_ENDPOINT, params=params) as response:
+        data = await response.json()
+        traffic = data.get('pages', [{}])[0].get('traffic', 0)
+        return url, traffic
+
+async def main(urls):
+    async with aiohttp.ClientSession() as session:
+        tasks = [fetch_url_traffic(session, url) for url in urls]
+        results = await asyncio.gather(*tasks)
+        return results
+
+if __name__ == "__main__":
+    with open("urls.txt", "r") as f:
+        urls = [line.strip() for line in f.readlines()]
+
+    loop = asyncio.get_event_loop()
+    url_traffic_data = loop.run_until_complete(main(urls))
+
+    with open("output.csv", "w", newline="") as csvfile:
+        writer = csv.writer(csvfile)
+        writer.writerow(["url", "traffic"])
+        writer.writerows(url_traffic_data)

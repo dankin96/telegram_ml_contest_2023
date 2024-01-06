@@ -1,0 +1,11 @@
+* Forward from any chat (public or private or protected chat)
+* Highest performance
+* Forward from many chats to one and vice versa
+* Change messages format and remove/add defined words
+* Filter messages based on type (images, media, voice_notes etc) or keywords
+* Translate messages from Source to Destination
+* Delay messages up to defined amount
+* Clone chats from Source to Destination
+* Forward or rewrite mode
+* Message duplicate filtering
+* And many more features

@@ -1,0 +1,67 @@
+python
+import logging
+from aiogram import Bot, Dispatcher, types
+from aiogram.contrib.fsm_storage.memory import MemoryStorage
+
+API_TOKEN = 'Sizning_API_TOKENingiz'
+
+# Botni yaratish
+bot = Bot(token=API_TOKEN)
+storage = MemoryStorage()
+dp = Dispatcher(bot, storage=storage)
+
+logging.basicConfig(level=logging.INFO)
+
+# Royxatdan otish uchun buyruqni sinab ko'ramiz
+@dp.message_handler(commands=['start'])
+async def send_welcome(message: types.Message):
+    # Ism so'raladi
+    await message.reply("Ismingizni kiriting:")
+    # Buyruq holatini o'zgartiramiz
+    await dp.current_state().set_state('waiting_name')
+
+# Ism kiritilganda
+@dp.message_handler(state='waiting_name')
+async def process_name(message: types.Message):
+    # Ismni saqlaymiz
+    name = message.text
+    # Telefon raqamini so'raymiz
+    await message.reply("Telefon raqamingizni kiriting:")
+    # Buyruq holatini o'zgartiramiz
+    await dp.current_state().set_state('waiting_phone')
+    # Ismni holatga saqlaymiz
+    await dp.current_state().update_data(name=name)
+
+# Telefon raqami kiritilganda
+@dp.message_handler(state='waiting_phone')
+async def process_phone(message: types.Message):
+    # Telefon raqamini saqlaymiz
+    phone = message.text
+    # Rasm yuborishni so'raymiz
+    await message.reply("Rasm yuboring:")
+    # Buyruq holatini o'zgartiramiz
+    await dp.current_state().set_state('waiting_photo')
+    # Telefon raqamini holatga saqlaymiz
+    await dp.current_state().update_data(phone=phone)
+
+# Rasm yuborilganda
+@dp.message_handler(content_types=types.ContentType.PHOTO, state='waiting_photo')
+async def process_photo(message: types.Message):
+    # Rasmni yuklab olish uchun file_id ni olish
+    file_id = message.photo[-1].file_id
+    # Barcha ma'lumotlarni olish
+    data = await dp.current_state().get_data()
+    name = data.get('name')
+    phone = data.get('phone')
+    # Ma'lumotlarni admin ga yuborish
+    await bot.send_message(admin_id, f"Ism: {name}
+Telefon raqam: {phone}")
+    await bot.send_photo(admin_id, file_id)
+    # Buyruq holatini o'zgartiramiz
+    await dp.current_state().reset_state()
+
+if __name__ == '__main__':
+    from aiogram import executor
+
+    # Botni ishga tushiramiz
+    executor.start_polling(dp, skip_updates=True)

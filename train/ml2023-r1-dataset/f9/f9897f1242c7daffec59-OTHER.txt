@@ -1,0 +1,3 @@
+out/target/product/betalm/obj/CONFIG/kati_packaging/dist.mk was modified, regenerating...
+FAILED: ninja: 'otapackage', needed by 'derp', missing and no known rule to make it
+22:14:39 ninja failed with: exit status 1

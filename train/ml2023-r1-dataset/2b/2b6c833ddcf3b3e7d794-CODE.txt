@@ -1,0 +1,16 @@
+
+class SettingsA():
+    ...
+
+
+class SettingsB(SettingsA):
+    param = 10
+
+
+if os.getenv('env') == 'A':
+    settings = SettingsA()
+else:
+    settings = SettingsB()
+
+
+print(settings.param)

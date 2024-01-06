@@ -1,0 +1,2 @@
+vless://e7ae27c5-0cc1-406e-9358-ed4c8d9cdc3d@45.59.118.69:40809?type=grpc&serviceName=&security=reality&fp=firefox&pbk=B76d7UHF7AfSB3-KjoJ8xP5k1MsWAQQp6g1fvHtN62I&sni=this.is.sni.fezziworld.online&sid=42275d8c&spx=%2F#Fezzi-@fezzi_v2ray
+

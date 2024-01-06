@@ -1,0 +1,1 @@
+FDV = (total supply - burned supply) * price

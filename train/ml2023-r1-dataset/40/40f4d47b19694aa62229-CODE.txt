@@ -1,0 +1,14 @@
+#if 8
+#include<iostream>
+using namespace std;
+int main()
+{
+  int a, b;
+  cout << "a ="; cin >> a;
+  cout << "b ="; cin >> b;
+  if(a > b) cout << "katta son ==>" << a <<  endl;
+  if (a < b) cout << "katta son ==>" << b << endl;
+  if (a > b) cout << "kichik son ==>" << b << endl;
+  if(a < b) cout << "kichik son ==>" << a << endl;
+  if(a == b) cout << "xato";
+}

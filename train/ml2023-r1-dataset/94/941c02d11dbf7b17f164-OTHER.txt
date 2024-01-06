@@ -1,0 +1,6 @@
+        Pair    Price  Funding
+FOOTBALLUSDT 364.6865   0.0563
+     BNBBUSD 214.1516   0.0102
+     UNIBUSD   4.4142   0.0100
+     FTMBUSD   0.1961   0.0100
+    LINKBUSD   7.7208   0.0100

@@ -1,0 +1,4 @@
+for container in $(docker ps -qa); do 
+    docker export $container -o $container.tar
+done
+

@@ -1,0 +1,2 @@
+%%% You are trying install package /tmp/.private/root/tmp.nXO8TyG90t/Telegram-4.10.3-epm1.repacked.2.x86_64.rpm repacked from third-party software source. Use it at your own risk. %%%
+

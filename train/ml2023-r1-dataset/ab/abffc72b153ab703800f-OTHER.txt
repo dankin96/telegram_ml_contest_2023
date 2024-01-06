@@ -1,0 +1,8 @@
+v10.1.1.0 (20421)  es
+OPPO CPH2271 android 13
+ROM: CPH2271_11_F.63
+Keep original name: true
+Performance: AVERAGE
+Cache: 1,16 GB
+Database: 53,3 MB
+Free: 7,38 GB

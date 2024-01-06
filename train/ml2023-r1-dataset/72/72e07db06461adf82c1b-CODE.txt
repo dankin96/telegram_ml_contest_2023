@@ -1,0 +1,6 @@
+for (int i = 0; i < 10; i++) {
+    if (elementCollection.size() == 2) return true;
+    refresh();
+    sleep(1000);
+}
+return false;

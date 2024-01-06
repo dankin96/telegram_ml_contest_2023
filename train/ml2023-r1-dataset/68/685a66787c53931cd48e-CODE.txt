@@ -1,0 +1,5 @@
+useEffect(() => {
+  if (dep1.isReady()) {
+    dep2.doSmth()
+  }
+}, [dep1, dep2])

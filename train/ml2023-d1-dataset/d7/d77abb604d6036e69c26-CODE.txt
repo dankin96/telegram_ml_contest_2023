@@ -1,0 +1,2 @@
+time="2023-10-12T03:47:20.115926034Z" level=warning msg="[TCP] dial DIRECT (match InType/INNER) clash.meta --> xxxxxxxxx.com:443 error: dns resolve failed: all DNS requests failed, first error: requesting https://1.1.1.1:443/dns-query?dns=AAABAAABAAAAAAAADnN1Yi1zdG9yZS01bXhyCG9ucmVuZGVyA2NvbQAAAQAB: Get \"https://1.1.1.1:443/dns-query?dns=AAABAAABAAAAAAAADnN1Yi1zdG9yZS01bXhyCG9ucmVuZGVyA2NvbQAAAQAB\": connect failed: dial tcp 1.1.1.1:443: no such device (resErr:<nil>)"
+

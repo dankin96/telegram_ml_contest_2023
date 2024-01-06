@@ -1,0 +1,6 @@
+ Updated security
+* Added InstaHit
+* Returned fast Load/Unload ammo
+* Fixed a couple of minor bugs
+* Updated loot prices!
+

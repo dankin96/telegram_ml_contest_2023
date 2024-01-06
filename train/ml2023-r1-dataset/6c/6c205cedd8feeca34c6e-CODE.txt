@@ -1,0 +1,41 @@
+{
+    "method": "debug_traceCallMany",
+    "params": [
+        [
+            {
+                "transactions": [
+                    {
+                        "from": "0x73270A15c25bf6F5832F9fD41F9feA9a7915310E",
+                        "to": "0x0773EDc0438B2EF18FC535b21d0aC77912c308C0",
+                        "data": "0x049615c87e05b95429c4f9dab2bef5aaf3bcda0bd19a48e752b88e936f3b79c85ed4bf9212ff0461bf783fe1297e3dbc9dee407d09c0842f74fff9b14a0d19f91b64b2a3530045a216d96982508145454ce325ddbe47a25d4ec3d2311933a43fe16908251ee70ef74718545e4fe6c5ccec9f0a0a9ad396a0b86991c6218b36c1d19d4a2e9eb0ce3606eb48320001012c000000013300000a9ad39688e6a0c2ddd26feeb64f039a2c41296fcb3f5640",
+                        "value": "0x0",
+                        "gasPrice": "0x89E62A71E",
+                        "gas": "0x41848"
+                    },
+                    {
+                        "to": "0x3ea366bE8DA9888a41293Cf5aa6a3f863Ebc06C5",
+                        "data": "0x7f770c85000000000000000000000000a43fe16908251ee70ef74718545e4fe6c5ccec9f",
+                        "value": "0x0",
+                        "gasPrice": "0x89E62A71E"
+                    },
+                    {
+                        "to": "0x3ea366bE8DA9888a41293Cf5aa6a3f863Ebc06C5",
+                        "data": "0xf1b135a100000000000000000000000088e6a0c2ddd26feeb64f039a2c41296fcb3f5640000000000000000000000000000000000000000000000000000000000000000a",
+                        "value": "0x0",
+                        "gasPrice": "0x89E62A71E"
+                    }
+                ]
+            }
+        ],
+        { "blockNumber": "0x10E1163", "transactionIndex": -1 },
+        {
+            "tracer": "callTracer",
+            "tracerConfig": {
+                "withLog": false,
+                "onlyTopCall": true
+            }
+        }
+    ],
+    "id": 1,
+    "jsonrpc": "2.0"
+}

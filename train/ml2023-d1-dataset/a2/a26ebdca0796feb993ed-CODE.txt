@@ -1,0 +1,14 @@
+call plug#begin('~/.vim/plugged')
+
+" نصب و فعال‌سازی افزونه vim-airline
+Plug 'vim-airline/vim-airline'
+
+" نصب و فعال‌سازی vim-signify
+Plug 'mhinz/vim-signify'
+
+" نصب و فعال‌سازی vim-scrollbar
+Plug 'Xuyuanp/vim-scrollbar'
+
+call plug#end()
+
+

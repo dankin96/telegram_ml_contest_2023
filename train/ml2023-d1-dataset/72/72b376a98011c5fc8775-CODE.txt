@@ -1,0 +1,2 @@
+window.localStorage.setItem(name, value)
+window.localStorage.getItem(name)

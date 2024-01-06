@@ -1,0 +1,1 @@
+AND NOT EXISTS(SELECT NULL FROM dbo.GRK_T_WorksCompose WHERE  DocID = dc.ID)

@@ -1,0 +1,11 @@
+function Student(name, studentId) {
+  // Вызываем конструктор суперкласса для инициализации полей, унаследованных от него.
+  Person.call(this, name);
+
+  // Инициализация собственных полей объекта.
+  this.studentId = studentId;
+}
+
+Student.prototype = Object.create(Person.prototype);
+Student.prototype.constructor = Student;
+

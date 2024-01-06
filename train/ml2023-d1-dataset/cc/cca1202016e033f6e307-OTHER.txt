@@ -1,0 +1,10 @@
+# OverlayFS Mode
+0 - sólo lectura pero puede remontarse en escritura+lectura (puede fallar)
+1 - lectura-escritura por defecto (útil para modificar system)
+2 - bloqueado sólo lectura
+# Puedes cambiarlo a 2 luego de modificar system con 1
+export OVERLAY_MODE=1
+# Dejalo así
+export OVERLAY_LEGACY_MOUNT=false
+# Añade esto
+export DO_UNMOUNT_KSU=true

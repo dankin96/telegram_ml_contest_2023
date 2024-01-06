@@ -1,0 +1,2 @@
+[  344.305059] panel-samsung-ea8074 ae94000.dsi.0: Failed to disable regulators: -5
+[  397.252440] ath10k_snoc 18800000.wifi: failed to extract amsdu: -11

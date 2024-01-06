@@ -1,0 +1,7 @@
+ GuzzleHttp\Exception\ServerException Server error: `POST https://files.api.phuongnamdigital.com/putFile` resulted in a `504 Gateway Time-out` response:
+<html>
+<head><title>504 Gateway Time-out</title></head>
+<body>
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><c (truncated...)
+ /home/pnedu/api.phuongnameducation.com/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php /home/pnedu/api.phuongnameducation.com/vendor/guzzlehttp/guzzle/src/Exception/RequestException.php in GuzzleHttp\Exception\RequestException::create

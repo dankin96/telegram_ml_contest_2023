@@ -1,0 +1,20 @@
+Socket orqali koordinatalar yangilanganda openlayer mapdagi  o'zgarishlar bo'lmayapti.
+  useEffect(() => {
+    if (map != null) {
+            point.setCoordinates(fromLonLat([longitude, latitude]));
+      feature.setGeometry(point);
+
+      map.setView(
+        new View({
+          center: fromLonLat([longitude, latitude]),
+          zoom: 17,
+        })
+      );
+      featuresLayer.setSource(
+        new VectorSource({
+          features: [feature],
+        })
+      );
+      map.setLayers(featuresLayer);
+    }
+  }, [latitude, longitude]);

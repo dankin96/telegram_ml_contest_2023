@@ -1,0 +1,5 @@
+❌ 00:30 • 🇪🇺 EUR/USD 🇺🇸 OTC • LOW
+✅ 01:30 • 🇪🇺 EUR/GBP 🇬🇧 OTC • UP
+✅ 02:30 • 🇪🇺 EUR/JPY 🇯🇵 OTC • LOW
+✅ 03:30 • 🇪🇺 EUR/USD 🇺🇸 OTC • LOW
+✅ 04:30 • 🇪🇺 EUR/GBP 🇬🇧 • UP

@@ -1,0 +1,7 @@
+v10.1.1.1 (20471)  fa
+samsung SM-A600FN android 10
+ROM: QP1A.190711.020.A600FNXXU9CVB1
+Performance: AVERAGE
+Cache: ۴۳۴٫۴ MB
+Database: ۵٫۰ MB
+Free: ۵۳۳٫۶ MB

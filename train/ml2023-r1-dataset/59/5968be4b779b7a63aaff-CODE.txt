@@ -1,0 +1,27 @@
+
+import org.apache.kafka.clients.producer.Producer;
+import org.apache.kafka.clients.producer.ProducerRecord;
+import org.apache.kafka.clients.producer.KafkaProducer;
+import java.util.Properties;
+
+public class KafkaProducerExample {
+  public static void main(String[] args) {
+    // Настройка свойств продюсера
+    Properties props = new Properties();
+    props.put("bootstrap.servers", "localhost:9092");
+    props.put("key.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+    props.put("value.serializer", "org.apache.kafka.common.serialization.StringSerializer");
+
+    // Создание экземпляра продюсера
+    Producer<String, String> producer = new KafkaProducer<>(props);
+
+    // Создание сообщения
+    ProducerRecord<String, String> record = new ProducerRecord<>("my-topic", "key", "value");
+
+    // Отправка сообщения
+    producer.send(record);
+
+    // Закрытие продюсера
+    producer.close();
+  }
+}

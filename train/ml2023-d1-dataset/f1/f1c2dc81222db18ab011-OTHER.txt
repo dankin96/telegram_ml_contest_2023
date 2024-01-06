@@ -1,0 +1,4 @@
++ Added session deleting.
++ Added subscription pausing.
+* Changed JWT tokens to expire after 24h instead of 12h of issuance. 
+* Little bit of backend work in anticipation of a bigger update soon.

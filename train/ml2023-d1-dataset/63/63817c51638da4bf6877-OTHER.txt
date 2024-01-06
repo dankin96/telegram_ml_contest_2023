@@ -1,0 +1,2 @@
+root@al:/opt/pgpro/1c-15/bin# sudo -u postgres ./psql 
+psql: ошибка: подключиться к серверу через сокет "/tmp/.s.PGSQL.5432" не удалось: No such file or directory

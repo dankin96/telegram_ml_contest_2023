@@ -1,0 +1,2 @@
+background: radial-gradient(110% 110% at 10% 90%, #370617 0%, #FF1B3A 67%, #FFBA08 100%);
+

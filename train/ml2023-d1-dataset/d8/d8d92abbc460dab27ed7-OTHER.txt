@@ -1,0 +1,16 @@
+Graphics:
+  Device-1: AMD Renoir driver: amdgpu v: kernel
+  Device-2: Shine-optics USB2.0 HD UVC WebCam
+    driver: uvcvideo type: USB
+  Display: wayland server: X.Org v: 1.23.2.1
+    with: Xwayland v: 23.2.1 compositor: gnome-shell
+    v: 45.0 driver: X: loaded: amdgpu
+    unloaded: fbdev,modesetting,radeon,vesa
+    dri: radeonsi gpu: amdgpu resolution:
+    1: 1920x1080~144Hz 2: 1280x720~60Hz
+  API: EGL v: 1.5 drivers: radeonsi,swrast
+    platforms: wayland,x11,surfaceless,device
+  API: OpenGL v: 4.6 compat-v: 4.5 vendor: amd mesa
+    v: 23.2.1 renderer: AMD Radeon Graphics (renoir LLVM
+    17.0.2 DRM 3.54 6.5.7-un-def-alt1)
+

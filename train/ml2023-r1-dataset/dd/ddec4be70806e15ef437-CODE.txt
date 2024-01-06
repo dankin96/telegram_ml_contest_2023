@@ -1,0 +1,6 @@
+local args = {
+    [1] = "ugc_pass_758"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Remotes"):WaitForChild("UGCServer"):FireServer(unpack(args))
+

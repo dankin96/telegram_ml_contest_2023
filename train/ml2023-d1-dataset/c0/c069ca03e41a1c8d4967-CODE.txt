@@ -1,0 +1,12 @@
+charPos = [1, 2]
+
+print(charPos)
+
+
+def chg_fn():
+    global charPos
+    charPos = [3, 4]
+
+
+chg_fn()
+print(charPos)

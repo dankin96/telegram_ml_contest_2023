@@ -1,0 +1,1 @@
+ "state":{"instance":"temperature","value":0 

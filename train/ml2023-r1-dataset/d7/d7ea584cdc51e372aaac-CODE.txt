@@ -1,0 +1,82 @@
+$_GET = [
+    'v' => '4.4.0'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'analytics_refer' => 'unknown'
+    '_gcl_au' => '1.1.2111439590.1693670334'
+    '__utmz' => '32673954.1694968709.5.3.utmcsr=my.prom.ua|utmccn=(referral)|utmcmd=referral|utmcct=/cms/order/edit/256480971'
+    'lang' => 'ru'
+    '__utma' => '32673954.2063403728.1693670334.1695282458.1696585171.9'
+    '__utmc' => '32673954'
+    '__utmt' => '1'
+    '_gid' => 'GA1.2.822131024.1696585171'
+    '_gat' => '1'
+    '_gat_UA-74995436-15' => '1'
+    '_session_sclub_smsclub_mobi' => 'e846d65fbd46abf6587213d4b2de5613'
+    '_sclub_smsclub_mobi' => '[39969,\"erJkClOuLWGbDbbE6gbrhaebacXCOgK8\",604800]'
+    '_csrf' => 'uSuZpiGdWxXShA0xL9dxSOV0zwID9mrm'
+    'id_visit' => '6d792e736d73636c75622e6d6f6269_3609616'
+    '__utmb' => '32673954.5.10.1696585171'
+    '_ga' => 'GA1.1.2063403728.1693670334'
+    '_ga_KQNVV6LT16' => 'GS1.2.1696585172.9.1.1696585219.13.0.0'
+    '_ga_VCQPZWJ71S' => 'GS1.2.1696585172.8.1.1696585219.13.0.0'
+    'evercookie' => 'id_visit=6d792e736d73636c75622e6d6f6269_3609616'
+    '_ga_H3823S7VJY' => 'GS1.1.1696585172.9.1.1696585221.11.0.0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 39969
+    '__authKey' => 'erJkClOuLWGbDbbE6gbrhaebacXCOgK8'
+]
+
+$_SERVER = [
+    'USER' => 'SmsclubTop'
+    'HOME' => '/home/SmsclubTop'
+    'HTTP_COOKIE' => 'analytics_refer=unknown; _gcl_au=1.1.2111439590.1693670334; __utmz=32673954.1694968709.5.3.utmcsr=my.prom.ua|utmccn=(referral)|utmcmd=referral|utmcct=/cms/order/edit/256480971; lang=ru; __utma=32673954.2063403728.1693670334.1695282458.1696585171.9; __utmc=32673954; __utmt=1; _gid=GA1.2.822131024.1696585171; _gat=1; _gat_UA-74995436-15=1; _session_sclub_smsclub_mobi=e846d65fbd46abf6587213d4b2de5613; _sclub_smsclub_mobi=%5B39969%2C%22erJkClOuLWGbDbbE6gbrhaebacXCOgK8%22%2C604800%5D; _csrf=uSuZpiGdWxXShA0xL9dxSOV0zwID9mrm; id_visit=6d792e736d73636c75622e6d6f6269_3609616; __utmb=32673954.5.10.1696585171; _ga=GA1.1.2063403728.1693670334; _ga_KQNVV6LT16=GS1.2.1696585172.9.1.1696585219.13.0.0; _ga_VCQPZWJ71S=GS1.2.1696585172.8.1.1696585219.13.0.0; evercookie=id_visit=6d792e736d73636c75622e6d6f6269_3609616; _ga_H3823S7VJY=GS1.1.1696585172.9.1.1696585221.11.0.0'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uk;q=0.6,zh-CN;q=0.5,zh;q=0.4'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_SEC_FETCH_DEST' => 'font'
+    'HTTP_SEC_FETCH_MODE' => 'cors'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_DNT' => '1'
+    'HTTP_ORIGIN' => 'https://my.smsclub.mobi'
+    'HTTP_SEC_CH_UA' => '\"Google Chrome\";v=\"117\", \"Not;A=Brand\";v=\"8\", \"Chromium\";v=\"117\"'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_HOST' => 'my.smsclub.mobi'
+    'REDIRECT_STATUS' => '200'
+    'SERVER_NAME' => 'my.smsclub.mobi'
+    'SERVER_PORT' => '443'
+    'SERVER_ADDR' => '65.21.70.45'
+    'REMOTE_PORT' => '53263'
+    'REMOTE_ADDR' => '193.168.55.122'
+    'SERVER_SOFTWARE' => 'nginx/1.22.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'HTTPS' => 'on'
+    'REQUEST_SCHEME' => 'https'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'DOCUMENT_ROOT' => '/var/www/smsclub/01_smsclub/smsclub_3.0/cabinet/web'
+    'DOCUMENT_URI' => '/index.php'
+    'REQUEST_URI' => '/ru/fonts/fontawesome-webfont.woff2?v=4.4.0'
+    'SCRIPT_NAME' => '/index.php'
+    'CONTENT_LENGTH' => ''
+    'CONTENT_TYPE' => ''
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'v=4.4.0'
+    'HTTP_REFERER' => 'https://my.smsclub.mobi/ru/tickets/index'
+    'PATH_INFO' => ''
+    'SCRIPT_FILENAME' => '/var/www/smsclub/01_smsclub/smsclub_3.0/cabinet/web/index.php'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1696585220.1273
+    'REQUEST_TIME' => 1696585220
+]

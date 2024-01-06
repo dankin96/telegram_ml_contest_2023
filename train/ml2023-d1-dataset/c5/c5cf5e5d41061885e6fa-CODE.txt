@@ -1,0 +1,17 @@
+class PlayerJoined:
+    ...
+
+class PlayerPosition:
+    ...
+
+SERVER_MESSAGE_NAMES: dict[type[object], str] = {
+    PlayerJoined: "playerJoined",
+    PlayerPosition: "playerPosition",
+}
+
+def serialize_message(message: object, retort: Retort) -> object:
+    kind = SERVER_MESSAGE_NAMES[type(message)]
+    return {
+        "type": kind,
+        **retort.dump(message),
+    }

@@ -1,0 +1,6 @@
+import base64
+
+text = "текст для кодирования в base64"
+encoded_text = base64.b64encode(text.encode()).decode()
+
+print(encoded_text)

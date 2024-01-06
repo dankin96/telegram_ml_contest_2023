@@ -1,0 +1,2 @@
+map("n", "<leader>w", "<c-w>")
+map("n", "<c-w>", "<cmd>bd<cr>")

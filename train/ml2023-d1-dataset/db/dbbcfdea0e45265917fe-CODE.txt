@@ -1,0 +1,3 @@
+$brands = ['Apple', 'Google', 'Facebook', 'Alibaba', 'Microsoft'];
+
+[$first, ...$rest] = $brands;

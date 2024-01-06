@@ -1,0 +1,1 @@
+good morning. I need a code to verify bitcoin seed wallets or in xpriv9 format. I don't send the seeds, I need to check them on my own computer.

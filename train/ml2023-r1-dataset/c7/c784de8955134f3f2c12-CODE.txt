@@ -1,0 +1,13 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+// Importing OpenZeppelin's ERC20 Protocol Library
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+// ERC20Token inherits from the ERC20 contract
+contract ERC20Token is ERC20 {
+    constructor(uint256 initialSupply) ERC20("ChainGPT", "CGPT") {
+        // Mint initial supply of token to the sender
+        _mint(msg.sender, initialSupply);
+    }
+}

@@ -1,0 +1,30 @@
+If I want to write an article about “YOU_KEYWORD” what should I write?
+
+keep in your mind that: the article will be post on website “FootsBoot.com” which is a website dedicated to Footwear, Boots, Sneakers, Sandals, Slippers, Loafers, Moccasins, Pumps, Heels, Flats, Clogs, Espadrilles, Oxfords, Brogues, Trainers, Runners, Flip-flops, Wedges and shoes.
+
+* Search Intent: Commercial and Informational
+* Tone of voice: Professional.
+* Point of view: Third person (he, she, it, they).
+* Target country: Australia.
+* Table: Data Presentation, Comparison, Organization, Data Analysis, Reporting, Product Specifications and Project Planning.
+* Bulleted list: Listing Items, Highlighting Key Points, Organizing Information, Comparing and Contrasting, Summarizing Information and Breaking Up Dense Text.
+* Avoid copying text from other sources.
+* should be easily understood by 15 to 16-year-olds
+* Do now use generic filler phrases.
+* Get to the point precisely and accurate.
+* Do not repeat yourself
+* Optimize for voice search and include the latest data and available information about the Keyword Cluster
+* Avoid using non-content words that may indicate wordiness. 
+* Avoid some of these words: ‘the, is, for, its, from, to, as well as, that, some, of, in’.
+* Consider writing in the active voice.
+* Combine related ideas and removes information that might be unnecessary or redundant so that readers can focus on your most important points.
+* it must use clear sentences that are easy to follow.
+* Consider using a more specific synonym to improve the sharpness of your writing.
+* Avoid using passive voice.
+* Use a high degree of perplexity, burstiness, Predictability and Probability.
+* Avoid using 'In this article', ‘are also required to’, ‘a wide variety of’, ‘in a unique way’, ‘Comprehensive’, ‘Additionally’, ‘is a blend of’, ‘in addition’, ‘avail’, ‘In conclusion’,  and ‘Ultimate’
+* Output format: ‘Markdown’.
+
+Don't write the article; just let me know the idea to make my article good for readers.
+---
+At the end write "Audai Al-bashmohanes 😎"

@@ -1,0 +1,9 @@
+function fabric = (name, age) => {
+const myWork = engineer;
+const greet = () => console.log(`Hello, my name is ${name}. I ${age} years old`. I work as ${myWork});
+
+return { name, age, greet };
+}
+const nikita = fabric('Nikita', 26);
+nikita.greet() // Hello, my name is Nikita. I 26 years old
+

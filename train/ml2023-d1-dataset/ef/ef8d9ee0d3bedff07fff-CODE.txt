@@ -1,0 +1,1 @@
+data: {"fields":{"contractTitle":"101000002","paymentSum":"12345","paymentDate":"2023-11-13","paymentType":"1"}}

@@ -1,0 +1,12 @@
+DOP - DDrops
+$0.0108
+Network: MATIC
+H|L: 0.01|0.01
+1h:  0.0%      😏       
+24h: 16.9%     💸       
+7d:  50.4%     🌕       
+Vol: $16.1 K
+Liq: $205.3 K
+Circ Mcap: 1.9 M
+FDV 3.6 M
+CA: 0x103965213122805c9aa63d8036ed0ef692c19650

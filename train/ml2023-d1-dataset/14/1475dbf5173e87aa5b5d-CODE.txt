@@ -1,0 +1,25 @@
+python
+import os
+import time
+from datetime import datetime
+
+# 指定存放照片的文件夹路径
+folder_path = "/path/to/your/photos"
+
+# 遍历文件夹中的所有文件
+for filename in os.listdir(folder_path):
+    if filename.endswith(".jpg"):  # 只处理.jpg文件
+        filepath = os.path.join(folder_path, filename)
+        
+        # 从文件名中解析出日期和时间
+        date_str, time_str = filename.split('_')[0], filename.split('_')[1].split('.')[0]
+        
+        # 转换为 datetime 对象
+        dt_str = f"{date_str} {time_str}"
+        dt = datetime.strptime(dt_str, '%Y%m%d %H%M%S')
+        
+        # 转换为 Unix 时间戳
+        timestamp = time.mktime(dt.timetuple())
+        
+        # 更改文件的生成时间和修改时间
+        os.utime(filepath, (timestamp, timestamp))

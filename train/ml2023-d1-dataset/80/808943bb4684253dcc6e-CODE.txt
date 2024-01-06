@@ -1,0 +1,9 @@
+
+export const useSomeAction = () => {
+    const { someValue } = useContext(SomeOtherContext)
+
+    // И вот тут нужно как-то передать это someValue ↓ ↓ ↓
+    const [_, action] = useAtom(someReatomAsync)
+    
+    return action
+}

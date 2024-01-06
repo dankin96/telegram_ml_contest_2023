@@ -1,0 +1,24 @@
+kotlin
+import io.flutter.embedding.android.FlutterActivity
+import io.flutter.embedding.engine.FlutterEngine
+import io.flutter.plugin.common.EventChannel
+
+class MainActivity: FlutterActivity() {
+    private val EVENT_CHANNEL = "com.example/my_event_channel"
+
+    override fun configureFlutterEngine(flutterEngine: FlutterEngine) {
+        super.configureFlutterEngine(flutterEngine)
+        EventChannel(flutterEngine.dartExecutor.binaryMessenger, EVENT_CHANNEL).setStreamHandler(
+            object : EventChannel.StreamHandler {
+                override fun onListen(arguments: Any?, events: EventChannel.EventSink?) {
+                    // For example, sending data periodically
+                    // events?.success("Data from native")
+                }
+
+                override fun onCancel(arguments: Any?) {
+                    // Handle cancellation
+                }
+            }
+        )
+    }
+}

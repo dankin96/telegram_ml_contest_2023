@@ -1,0 +1,30 @@
+root@gab2:/var/service/tinydns/root # perl -e 'print int rand(6), "
+"'
+0
+root@gab2:/var/service/tinydns/root # perl -e 'print int rand(6), "
+"'
+5
+root@gab2:/var/service/tinydns/root # perl -e 'print int rand(6), "
+"'
+2
+root@gab2:/var/service/tinydns/root # perl -e 'print int rand(6), "
+"'
+0
+root@gab2:/var/service/tinydns/root # perl -e 'print int rand(6), "
+"'
+4
+root@gab2:/var/service/tinydns/root # perl -e 'print int rand(6), "
+"'
+2
+root@gab2:/var/service/tinydns/root # perl -e 'print int rand(6), "
+"'
+2
+root@gab2:/var/service/tinydns/root # perl -e 'print int rand(6), "
+"'
+4
+root@gab2:/var/service/tinydns/root # perl -e 'print int rand(6), "
+"'
+5
+root@gab2:/var/service/tinydns/root # perl -e 'print int rand(6), "
+"'
+3

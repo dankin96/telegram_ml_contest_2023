@@ -1,0 +1,8 @@
+
+
+*timestamp:2023-10-06 09:29:45,318
+*log-level:ERROR
+*classpath: j.c.g.error.GlobalExceptionHandler http-nio-8083-exec-6
+*exception: handleIOException
+*multilineException: org.apache.catalina.connector.ClientAbortException: java.io.IOException: Broken pipe
+*service: user1.jumpit.host

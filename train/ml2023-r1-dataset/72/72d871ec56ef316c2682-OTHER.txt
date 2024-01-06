@@ -1,0 +1,4 @@
+* ...and don't just declare it volatile and think you've solved
+* the problem. You young punks think you know what volatile
+* means... why in my day we had to cast it volatile uphill
+* both ways, and the code still didn't work! Whippersnappers...

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>THIS IS MY CV</title>
+        <script>
+            alert("you are goint to watch my CV at your own risk do you want to contenue? click ok button");
+        </script>
+        
+    </head>
+
+    <body>
+        <header>
+            <center>
+
+                <b>SAURABH AGRAHARI
+                </b><b>  <br>
+                Dubar Kalan,Lalganj,Mirzapur,Uttar Pradesh<br><b>
+                9125985931<b>
+                     su-23040@sitare.org<b>
+                
+
+            </center>
+            
+
+
+            <b>EDUCATION: </b> &nbsp;&nbsp;    B.Tech computer science and engineering(first year)<p>
+            <b>SITARE UNIVERSITY INDORE</b><p>
+            <b>COMPUTER SKILLS:</b>&nbsp;&nbsp; Python ,HTML,CSS<p>
+            <b>EXPERINCE</b>&nbsp;&nbsp; First year engineering:<b>
+                <blockquote>
+                   <ul>
+                    <li>I have grate experince in firts year of my college.</li>
+                    <li>i have many things to explore.</li>
+
+                    <li>Here our proffs. are very friendly,they always ready to help us.</li>
+                    <li>Our dean is very responsible and gentle.</li>
+                    <li>Our  founder is very truthfull person and very humble. </li>
+                    <li>out r founder is a Amazing venture capatilist and i have opprtunity to learnt from him</li>
+                    
+                         
+                    
+                    </ul>
+                    <div>
+                        <a href="https://sitare.org/univ/"> Do you want to more about my college?</a>
+
+                    
+                        
+                    </div>
+                </blockquote>
+                JNV scholor:<b>
+                <blockquote>
+                    <ul>
+                        <li>Being a navodayan is a pride.</li>
+                        <li>In jnv I got all the facilities which i cant afford. </li>
+                        <li>In jnv I had not felt and hesitation,lonelyness etc.</li>
+                        <li>our teacher was very friendly and they were ready to discusing any topics or doubts.</li>
+
+                    </ul>
+                </blockquote>
+        <img src="https://photos.app.goo.gl/T2zKc79cQnD4NePy9" alt="hey this is me" title ="This is me" width="150" height="200">
+
+
+
+                
+
+
+
+        
+        
+    </body>    
+     
+
+</html>

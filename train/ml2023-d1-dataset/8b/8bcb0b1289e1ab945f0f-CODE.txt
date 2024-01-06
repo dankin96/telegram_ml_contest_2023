@@ -1,0 +1,3 @@
+
+Req1 = cowboy:send_response(Req0),
+Req2 = cowboy:send_response(Req1),

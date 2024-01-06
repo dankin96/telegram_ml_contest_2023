@@ -1,0 +1,2 @@
+duration=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$f")
+

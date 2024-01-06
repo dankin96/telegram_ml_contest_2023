@@ -1,0 +1,5 @@
+enum Response {
+  Invalid,
+  Valid(Data)
+}
+

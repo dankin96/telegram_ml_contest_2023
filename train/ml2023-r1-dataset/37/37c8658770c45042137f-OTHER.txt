@@ -1,0 +1,12 @@
+PWR - Power
+$0.000394225
+Network: BSC
+H|L: 0.00|0.00039451
+1h:  0.0%      😏       
+24h: 0.0%      😏       
+7d:  0.0%      😏       
+Vol: $1.0
+Liq: $37.6 K
+Circ Mcap: 49.3 K
+FDV 49.3 K
+CA: 0xd52efe1039d706722b3d696e74ad4095dc3d3860

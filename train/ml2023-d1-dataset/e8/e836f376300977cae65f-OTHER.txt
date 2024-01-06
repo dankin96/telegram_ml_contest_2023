@@ -1,0 +1,35 @@
++ text
+  + intro_null[intro_si_clause]
+  + text_part_2/0[free]
+    + vocative/1[COI_clause]
+      + COI_pre
+        + pre_clause
+        + COI
+          + c
+          + o
+          + i
+        - spaces/0[space_char] ( )
+      + COI_post[post_clause]
+    + sumti/0[sumti_5]
+      + quantifier/0
+        + number/0[PA_clause]
+          + PA_pre
+            + pre_clause
+            + PA
+              + r
+              + o
+            - spaces/0[space_char] ( )
+          + PA_post[post_clause]
+        + BOI_elidible
+      + sumti_6/6[KOhA_clause]
+        + KOhA_pre
+          + pre_clause
+          + KOhA
+            + d
+            + o
+          + spaces[EOF]
+        + KOhA_post[EOF]
+    + DOhU_elidible
+  + text_1[paragraphs]
+  + faho_clause
+  + EOF

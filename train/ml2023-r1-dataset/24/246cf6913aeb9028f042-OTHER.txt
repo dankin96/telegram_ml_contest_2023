@@ -1,0 +1,3 @@
+Host => cvai0apcf1012vc.syssede.systest.sanpaoloimi.com
+Status => down
+Tags => [u'curvebuilder', u'importer']

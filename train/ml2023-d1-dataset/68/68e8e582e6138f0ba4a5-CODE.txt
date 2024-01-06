@@ -1,0 +1,27 @@
+--
+-- Drop the wrong SQL Server Configuration @@Servername:
+--
+Declare @TSql1 nvarchar(max);
+Declare @cfgSvrNameWithSqlInstName nvarchar(50);
+Set @cfgSvrNameWithSqlInstName = (Select @@SERVERNAME);
+Set @TSql1 = 'sp_dropserver ' + '''' + @cfgSvrNameWithSqlInstName + '''';
+
+print @Tsql1;
+
+exec sp_executesql @TSql1;
+GO
+
+
+
+--
+-- Fix the SQL Server Configuration @@SERVENAME with SqlInstance Name:
+--
+Declare @TSql2 nvarchar(max);
+Declare @fixSvrNameWithSqlInstName nvarchar(50);
+Set @fixSvrNameWithSqlInstName = (Select convert(nvarchar, SERVERPROPERTY('servername')));
+Set @TSql2 = 'sp_addserver ' + '''' + @fixSvrNameWithSqlInstName + ''''+ ', local';
+
+print @TSql2;
+
+exec sp_executesql @TSql2;
+GO

@@ -1,0 +1,1 @@
+{"payTypes":["CitibankRussia"],"amountlimit":20000}

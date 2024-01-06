@@ -1,0 +1,1 @@
+curl https://raw.githubusercontent.com/121812/shangx/main/install.sh | bash

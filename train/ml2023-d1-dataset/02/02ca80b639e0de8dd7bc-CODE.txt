@@ -1,0 +1,1 @@
+dd if=/dev/ИСТОЧНИК of=/dev/ПОЛУЧАТЕЛЬ bs=1M status=progress

@@ -1,0 +1,1 @@
+mkvmerge -o output.mkv --no-subtitles input.mkv

@@ -1,0 +1,6 @@
+{
+  "sellAmount": 5.80500000,
+  "sellPrice": 1887.31228582,
+  "buyAmount": 9.98868600,
+  "buyPrice": 2192.26059470
+}

@@ -1,0 +1,2 @@
+rm -rf flutter
+git clone https://gitlab.com/omprussia/flutter/flutter.git

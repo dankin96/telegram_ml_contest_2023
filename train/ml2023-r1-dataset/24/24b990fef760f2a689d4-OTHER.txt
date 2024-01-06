@@ -1,0 +1,5 @@
+
+1. Visit an auto parts retailer's website (like Autozone, Advance Auto Parts, NAPA, etc.)
+2. Locate their 'oil filter lookup' tool.
+3. Enter your vehicle's make, model, and year.
+4. The website should provide a list of compatible oil filters.

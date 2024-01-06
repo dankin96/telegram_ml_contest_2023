@@ -1,0 +1,12 @@
+const foo = struct {
+  extern fn printf(fmt: [*:0]u8, ...) void;
+};
+const bar = struct {
+  extern fn printf(fmt: [*:0]u8, ...) void;
+};
+
+pub fn main() void {
+  foo.printf("Hello ");
+  bar.printf("World!
+");
+}

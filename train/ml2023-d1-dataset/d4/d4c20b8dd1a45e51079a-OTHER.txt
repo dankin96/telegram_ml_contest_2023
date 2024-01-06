@@ -1,0 +1,32 @@
+
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #16 pc 00082ab2  /memfd:frida-agent-32.so (deleted) (offset 0xa25000)
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #17 pc 0001d0b1  /memfd:frida-agent-32.so (deleted) (offset 0xa25000)
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #18 pc 000833c6  /memfd:frida-agent-32.so (deleted) (offset 0xa25000)
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #19 pc 00082976  /memfd:frida-agent-32.so (deleted) (offset 0xa25000)
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #20 pc 0008244c  /memfd:frida-agent-32.so (deleted) (offset 0xa25000)
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #21 pc 00082c58  /memfd:frida-agent-32.so (deleted) (offset 0xa25000)
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #22 pc 000a43c2  /memfd:frida-agent-32.so (deleted) (offset 0xa25000)
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #23 pc 000a42d3  /memfd:frida-agent-32.so (deleted) (offset 0xa25000)
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #24 pc 000ef335  /memfd:frida-agent-32.so (deleted) (offset 0xa25000)
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #25 pc 000f14e8  /memfd:frida-agent-32.so (deleted) (offset 0xa25000)
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #26 pc 000f1786  /memfd:frida-agent-32.so (deleted) (offset 0xa25000)
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #27 pc 000f1919  /memfd:frida-agent-32.so (deleted) (offset 0xa25000)
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #28 pc 00000328  /memfd:frida-agent-32.so (deleted) (offset 0xa25000)
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #29 pc 000000df  /memfd:frida-agent-32.so (deleted) (offset 0xa25000)
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #30 pc 000004cd  <anonymous:f397b000>
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #31 pc 00045595  /system/lib/libc.so (offset 0x3a000)
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #32 pc 000018db  /system/lib/libc.so (offset 0x2e000)
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #33 pc 00000a56  /system/lib/libc.so (offset 0x1e000)
+10-13 12:12:02.950 23885 23885 F DEBUG   :     #34 pc 002db340  /system/lib/libart.so (art::IndirectReferenceTable::Remove(art::IRTSegmentState, void*)+16)
+10-13 12:12:03.492  1156  1156 E /system/bin/tombstoned: Tombstone written to: /data/tombstones/tombstone_27
+10-13 12:12:03.505 13507 13507 E ZygoteProcess: Starting VM process through Zygote failed
+10-13 12:12:03.571 13478 13497 E audio_hw_primary: audio_route_free: invalid audio_route
+10-13 12:12:03.573  1049  1049 E hw-IPCThreadState: attemptIncStrongHandle(18): Not supported
+10-13 12:12:03.573  1049  1049 E hw-IPCThreadState: attemptIncStrongHandle(18): Not supported
+10-13 12:12:03.820  5661  5661 E adbd    : failed to connect to socket 'tcp:6790': Connection refused
+10-13 12:12:03.836  1049  1049 E hw-IPCThreadState: attemptIncStrongHandle(23): Not supported
+10-13 12:12:03.837  1049  1049 E hw-IPCThreadState: attemptIncStrongHandle(21): Not supported
+10-13 12:12:03.837  1049  1049 E hw-IPCThreadState: attemptIncStrongHandle(21): Not supported
+10-13 12:12:03.891  5661  5661 E adbd    : failed to connect to socket 'tcp:6790': Connection refused
+10-13 12:12:03.985  5661  5661 E adbd    : failed to connect to socket 'tcp:6790': Connection refused
+10-13 12:12:04.067  5661  5661 E adbd    : failed to connect to socket 'tcp:6790': Connection refused

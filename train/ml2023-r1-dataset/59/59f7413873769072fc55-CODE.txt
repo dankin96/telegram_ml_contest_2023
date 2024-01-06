@@ -1,0 +1,3 @@
+$cuda =new Cuda($blocks, $theads);
+$cuda->task( fn ($theadId,$blockId, $dim) => $res+ $theadId+$blockId;);
+$cuda->runKernel();

@@ -1,0 +1,1 @@
+When I play the youtube revand (root) background, my background image is replaced with the background image of the video I play, is there any way to fix it?

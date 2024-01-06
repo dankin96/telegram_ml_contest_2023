@@ -1,0 +1,31 @@
+from fast_api import Depends
+
+
+class SecondService:
+    async def do_some():
+        pass
+
+def get_second_service() -> SecondService:
+    return SecondService()
+
+
+
+class FirstService:
+    def __init__(self, *, second_service: SecondService) -> None:
+        self.second_service = second_service
+
+    async def some_logic(self):
+        result = await self.second_service.do_some()
+
+
+def get_first_service(
+        second_service: SecondService = Depends(get_second_service)
+) -> FirstService:
+    return FirstService(
+        second_service=second_service
+    )
+
+
+@router.get("/")
+async def my_api(first_service: FirstService = Depends(get_first_service)):
+    result = await first_service.some_logic()

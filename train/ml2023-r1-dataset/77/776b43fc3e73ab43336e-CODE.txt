@@ -1,0 +1,4 @@
+// ./example/+index.ts
+export default {
+  fetch: () => new Response("hello uapi"),
+};

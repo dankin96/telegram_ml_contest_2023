@@ -1,0 +1,14 @@
+--------------------------------
+🔸Pagamento Div em 11/10/2023🔸
+--------------------------------
+Sigla  tipo  valor   DivYet
+I1HG34 Div   0,38    %
+FDXB34 Div   4,15    %
+I1RM34 Div   2,11    %
+B1RF34 Div   0,67    %
+N1XP34 Div   2,03    %
+I1FF34 Div   1,34    %
+E1CO34 Div   0,37    %
+P1SA34 Div   2,03    %
+FDXB34 Div   4,24    %
+

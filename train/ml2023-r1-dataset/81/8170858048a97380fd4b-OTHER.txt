@@ -1,0 +1,10 @@
+Background:  Falling_leaves
+Costume:     Hippo
+Eyes:        Side
+Hands:       Honey
+Mouth:       Hippo
+Neck:        Scarf
+Skin_base:   Furry
+ 
+RS: 120
+RS Burn: 101

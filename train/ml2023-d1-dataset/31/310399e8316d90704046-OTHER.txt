@@ -1,0 +1,2 @@
+
+Se você estiver produzindo um novo produto baseado no Arch Linux, mas que tenha mudanças mais substanciais do que aquelas descritas acima como um Remix, você poderá declarar (e nós encorajamos você a fazê-lo) que seu produto é "derivado do Arch Linux", "baseado em Arch Linux" ou "um derivado do Arch Linux", mas você não pode usar as Marcas Registradas para se referir ao seu produto. 

@@ -1,0 +1,10 @@
+       ==== SIGNAL UPDATE ====
+Symbol      #HK50 (PEPPERSTONE)
+Type        index
+Time Frame  240 minute
+Trend       Down Trend
+Signal      HIT E2, Check Signal FOR Call/Put/TP
+Last Close  18112.9000
+E1          17614.3833
+E2          18006.1952
+Time        2023-10-11 17:00

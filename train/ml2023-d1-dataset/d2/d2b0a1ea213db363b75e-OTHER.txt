@@ -1,0 +1,1 @@
+instance FromRow Job where {-# DEPRECATED fromRow "Please do not depend on the FromRow instance of the Job type. It does not handle optional features, such as job-results and job-workflows. Depending upon your scenario, use 'jobRowParserSimple' or 'jobRowParserWithWorkflow' directly." #-} fromRow = jobRowParserSimple

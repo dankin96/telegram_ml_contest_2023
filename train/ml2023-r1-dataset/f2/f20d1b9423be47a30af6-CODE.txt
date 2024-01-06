@@ -1,0 +1,3 @@
+sqd init my-double-proc-squid -t https://github.com/subsquid-quests/double-chain-squid
+
+

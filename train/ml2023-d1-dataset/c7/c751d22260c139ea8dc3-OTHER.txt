@@ -1,0 +1,6 @@
+eventType: WARNING
+ area:DVA
+ shortMessage:Smart Trade Core Fix Client Disconnected
+ sourceId:
+ sourceAddOn: 
+ longMessage: Smart Trade Core Fix Client Disconnected this will cause loss of data. Please check state of components

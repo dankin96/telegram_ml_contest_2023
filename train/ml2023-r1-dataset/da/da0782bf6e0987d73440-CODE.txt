@@ -1,0 +1,20 @@
+c
+#include <stdio.h>
+
+int main() {
+    int num1, num2, sum;
+    int *ptr1, *ptr2;
+
+    printf("Entrez deux entiers : ");
+    scanf("%d %d", &num1, &num2);
+
+    ptr1 = &num1;
+    ptr2 = &num2;
+
+    sum = *ptr1 + *ptr2;
+
+    printf("La somme de %d et %d est : %d
+", *ptr1, *ptr2, sum);
+
+    return 0;
+}

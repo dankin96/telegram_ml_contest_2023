@@ -1,0 +1,1 @@
+trojan://abd32920-65f5-11ee-a063-1239d0255272@trojan2.udpgw.com:443?security=tls&type=tcp&headerType=none#SL%20FREE%20VPN

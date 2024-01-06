@@ -1,0 +1,1 @@
+ss://c753b473-edb8-4a97-be3a-ddca43088ff5@128.140.95.189:2053?mode=gun&security=reality&encryption=none&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&fp=randomized&spx=%2F&type=grpc&serviceName=Telegram#t.me/meysamtech010

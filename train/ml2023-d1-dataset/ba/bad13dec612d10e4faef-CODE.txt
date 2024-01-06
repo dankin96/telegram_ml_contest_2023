@@ -1,0 +1,43 @@
+{
+  "update_id": 982731818,
+  "message": {
+    "message_id": 106858,
+    "from": {
+      "id": 6518351751,
+      "is_bot": false,
+      "first_name": "John",
+      "last_name": "Stiff",
+      "is_premium": true
+    },
+    "chat": {
+      "id": -1001728379640,
+      "title": "International Students - Canada 2023",
+      "username": "InternationalstudentsofCanada",
+      "type": "supergroup"
+    },
+    "date": 1697026930,
+    "new_chat_participant": {
+      "id": 6518351751,
+      "is_bot": false,
+      "first_name": "John",
+      "last_name": "Stiff",
+      "is_premium": true
+    },
+    "new_chat_member": {
+      "id": 6518351751,
+      "is_bot": false,
+      "first_name": "John",
+      "last_name": "Stiff",
+      "is_premium": true
+    },
+    "new_chat_members": [
+      {
+        "id": 6518351751,
+        "is_bot": false,
+        "first_name": "John",
+        "last_name": "Stiff",
+        "is_premium": true
+      }
+    ]
+  }
+}

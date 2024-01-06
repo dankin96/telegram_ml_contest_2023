@@ -1,0 +1,23 @@
+[ 
+    "f58d75500e1f4ae099912d6664f26066.d", 
+    1697053409760, 
+    { 
+      "plext": { 
+        "text": "Agent jorodfr destroyed the Enlightened Link Colonne Publi (2 Avenue de la Porte Chaumont, 75019 Paris, France) to Stade Marcel Cerdan (170 Avenue Jean Jaurès, 93500 Pantin, France)", 
+        "team": "ENLIGHTENED", 
+        "markup": [ 
+          [ 
+            "TEXT", 
+            { 
+              "plain": "Agent " 
+            } 
+          ], 
+          [ 
+            "PLAYER", 
+            { 
+              "plain": "jorodfr", 
+              "team": "RESISTANCE" 
+            } 
+          ], 
+         ... 
+ 

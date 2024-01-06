@@ -1,0 +1,29 @@
+Merge branch 'RM-50078' into RM-63436
+Merge branch 'RM-61136' into 'test'
+Merge branch 'RM-63436' into test
+Merge branch 'RM-63436' into 'test'
+Merge branch 'RM-63492' into 'test'
+Merge branch 'RM-63529' into test
+Merge branch 'RM-63540' into test
+Merge branch 'RM-63540' into 'test'
+Merge branch 'RM-63618' into 'RM-63540'
+Merge branch 'test' of git-gz.lot-online.ru:yii2/etp_base into test
+RM-61136 - cs-fixer
+RM-61136 - php-stan fix
+RM-61136 - добавил обработчики для СРО реестров НОПРИЗ и НОСТРОЙ
+RM-61136 - добавил тест
+RM-61136 - правка тесте после ревью
+RM-63436 - Доработка тестов
+RM-63436 - исправление функционала 44-ФЗ.
+RM-63436 - Правки
+RM-63492 - Некорректное отображение информации на форме просмотра заявки после сохранения в черновик
+RM-63529 - Fixer
+RM-63529 - Правки
+RM-63529 - Реализация задачи
+RM-63539 - Тесты
+RM-63540 - Правка счетчика.
+RM-63540 - Приоритет вызовов.
+RM-63618 - правка теста
+test - правка cs.
+test - Правка cs.
+test - правка после мержа.

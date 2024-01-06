@@ -1,0 +1,13 @@
+File | Changes
+----------------
+1. .github/workflows/verify.yml | 2 +-
+2. lib/msf/ui/console/command_dispatcher/auxiliary.rb | 22 +++++++++++++++---
+3. lib/msf/ui/console/command_dispatcher/evasion.rb | 25 ++++++++++++++++-----
+4. lib/msf/ui/console/command_dispatcher/exploit.rb | 26 ++++++++++++++++++----
+5. lib/msf/ui/console/command_dispatcher/payload.rb | 6 ++++-
+6. lib/msf/ui/console/command_dispatcher/post.rb | 14 ++++++++++--
+7. lib/msf/ui/console/module_argument_parsing.rb | 15 ++++++++-----
+8. lib/msf/ui/console/module_command_dispatcher.rb | 12 +++++++++-
+9. .../scanner/mysql/mysql_authbypass_hashdump.rb | 8 +++++++
+10. msfconsole | 2 +-
+11. msfdb | 19 +++-------------

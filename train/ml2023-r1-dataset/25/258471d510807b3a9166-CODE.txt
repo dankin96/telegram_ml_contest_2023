@@ -1,0 +1,33 @@
+import requests
+import base64
+
+# OCR hizmetine istek gönderen fonksiyon
+def perform_ocr(image_path, api_key):
+    url = "OCR_HIZMETI_URL"
+    headers = {
+        "Content-Type": "application/json",
+        "Ocp-Apim-Subscription-Key": api_key
+    }
+    # Fotoğrafı kodlayın
+    with open(image_path, 'rb') as image_file:
+        encoded_image = base64.b64encode(image_file.read()).decode('utf-8')
+    # OCR isteği oluşturun
+    data = {
+        "url": '',
+        "data": encoded_image,
+    }
+    response = requests.post(url, headers=headers, json=data)
+    response.raise_for_status()
+    return response.json()
+
+# Fotoğrafı yükleyin ve OCR ile metni alın
+image_path = "path/to/your/image.jpg"
+api_key = "YOUR_API_KEY"
+result = perform_ocr(image_path, api_key)
+
+# Metni alın
+extracted_text = result.get("text", "")
+
+# Metni fotoğrafa ekleyin
+# (Bunu yapmak için farklı kütüphaneler ve yöntemler kullanabilirsiniz.
+# Örneğin, PIL veya OpenCV kullanarak metni konumlandırabilirsiniz.)

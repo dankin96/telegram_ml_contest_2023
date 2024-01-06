@@ -1,0 +1,17 @@
+Leech By         : User Session
+Leech To         : -1001948145997
+Leech Type       : MEDIA
+Leech Prefix     : None
+Leech Split Size : 4194304000
+Equal Splits     : Disabled
+Media Group      : Disabled
+Custom Thumbnail : Not Exists
+Rclone Config    : Not Exists
+Rclone Path      : None
+Gdrive Token     : Not Exists
+Gdrive ID        : 1MnjtcIYd4QURgtfKzOA3TLy6M34tXtdx
+Index Link       : None
+Stop Duplicate   : Disabled
+Default Upload   : Gdrive API
+Excluded Ext     : ['aria2', '!qB']
+YT-DLP Options   : None

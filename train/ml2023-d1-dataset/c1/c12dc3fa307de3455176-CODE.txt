@@ -1,0 +1,2 @@
+customer.phones | reduce((sum, x) => sum ~ x.number ~ ":")
+

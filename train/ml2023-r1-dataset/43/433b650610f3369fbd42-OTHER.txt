@@ -1,0 +1,3 @@
+10 .zxunocfg -s3:BORDER 7:PAPER 7:INK 0:CLS
+  20 .cd /cores/bit
+  30 .zxunocfg -s0:.browse

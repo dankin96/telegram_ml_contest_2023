@@ -1,0 +1,3 @@
+fastboot flash vbmeta vbmeta_dv_shivsom.img
+
+fastboot flash recovery your_recovery.img

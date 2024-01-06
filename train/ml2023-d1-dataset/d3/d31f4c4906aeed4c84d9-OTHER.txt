@@ -1,0 +1,3 @@
+> frida-compile src/index.ts -o dist/agent.js -c
+
+/home/user/Android/SubwaySurfers/frida-subwaysurf-mod/tsconfig.json (38,35): Option 'allowImportingTsExtensions' can only be used when either 'noEmit' or 'emitDeclarationOnly' is set.

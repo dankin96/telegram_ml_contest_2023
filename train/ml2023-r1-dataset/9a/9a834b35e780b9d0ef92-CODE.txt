@@ -1,0 +1,85 @@
+// object
+
+// object key value ko'rinishidagi malumot turi
+
+const arr = [12, "salom", "xayr"];
+
+//
+
+const Person = {
+    id: 1,
+    name: "Oybek",
+    surName: "Davlatov",
+    age: 15,
+    merried: false,
+};
+
+const Fish = {
+    name: "Loqqa",
+    weight: 15,
+    with: 2.85,
+    age: 3,
+    color: "bleck",
+    "is worker": false,
+};
+
+// Person.worker = false
+
+// console.log(Person.name);
+// console.log(Fish["is worker"]);
+
+// console.log(Person["merried"]);
+
+// camelCase
+
+
+// isWorker
+// menBugunDarsgaBordim
+
+// snakeCase
+
+// men_bugun_maktabga_bordim
+
+// cababCase
+
+// men-bugun-maktabga-bordeim
+
+const Dog ={}
+
+Person.school = "18-maktabda o'qiydi"
+
+
+
+// console.log(Person)
+
+const data = [
+    {
+        id:1,
+        name: "Shohjohon",
+        age:17
+    },
+    {
+        id:2,
+        name: "Javohir",
+        age:15
+    },
+    {
+        id:3,
+        name: "Boboxon",
+        age:15
+    }
+]
+
+const newData = data.map(item => item.age > 15)
+
+
+// JSON
+
+console.log(Person, "object")
+
+let JsonPerson = JSON.stringify(Person)
+
+console.log(JsonPerson, "JSON")
+
+let ObjPerson = JSON.parse(JsonPerson)
+console.log(ObjPerson,"object")

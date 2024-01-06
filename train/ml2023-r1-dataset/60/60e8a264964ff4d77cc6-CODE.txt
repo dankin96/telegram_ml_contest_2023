@@ -1,0 +1,5 @@
+let currentWork = 100;
+let Udevs = 70;
+let EPAM = 50;
+
+let nextWork = (EPAM >= Udevs ? EPAM : Udevs) || currentWork;

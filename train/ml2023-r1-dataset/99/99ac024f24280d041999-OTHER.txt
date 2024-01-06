@@ -1,0 +1,2 @@
+DN for MW classes is 6.0
+DN for UTR classes is 9.0

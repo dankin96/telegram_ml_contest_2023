@@ -1,0 +1,12 @@
+FROM ubuntu:22.04
+ENV COMPILER=dmd COMPILER_VERSION=2.105.2
+RUN apt-get update \
+    && apt-get install -y curl libcurl4 build-essential  \
+    && curl -fsS -o /tmp/install.sh https://dlang.org/install.sh  \
+    && bash /tmp/install.sh -p /dlang install "${COMPILER}-${COMPILER_VERSION}"  \
+    && rm /tmp/install.sh  \
+    && apt-get auto-remove -y curl build-essential  \
+    && apt-get install -y gcc
+ENV PATH=/dlang/dub:/dlang/dmd-2.105.2/linux/bin64:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin LD_LIBRARY_PATH=/dlang/dmd-2.105.2/linux/lib64 LIBRARY_PATH=/dlang/dmd-2.105.2/linux/lib64 PS1=(dmd-2.105.2)
+WORKDIR /src
+CMD ["${COMPILER}"]

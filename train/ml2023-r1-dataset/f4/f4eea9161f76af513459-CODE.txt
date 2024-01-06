@@ -1,0 +1,65 @@
+package org.example;
+
+import java.util.Scanner;
+
+public class Main11A {
+    public static void main(String[] args) {
+        Scanner scannerForNumber = new Scanner(System.in);
+        Scanner scannerForString = new Scanner(System.in);
+
+        String password = "1111";
+        double money = 312000;
+
+        while (true) {
+            System.out.println("Tilni tanlang");
+            System.out.println("1 -> O'zbek tili");
+            System.out.println("2 -> Rus tili");
+            System.out.println("3 -> Ingliz tili");
+
+            int lang = scannerForNumber.nextInt();
+
+            switch (lang) {
+                case 1: {
+                    System.out.println("Parolni kiriting");
+                    String tempPassword = scannerForString.nextLine();
+                    if (tempPassword.equals(password)){
+                        while (true){
+                            System.out.println("1->Balans");
+                            System.out.println("2->Kartaga pul solish");
+                            System.out.println("3->Kartadan pul yechish");
+                            System.out.println("4->Pinkodni o'zgartirish");
+                            System.out.println("5->Valyuta ayrboshlash");
+                            int menu = scannerForNumber.nextInt();
+                            switch (menu){
+                                case 1:{
+                                    System.out.println("Balansingizda " + money + " so'm mavjud");
+                                }break;
+                                case 2:{
+                                    System.out.println("Qancha pul kiritmoqchisiz");
+                                    double tempMoney = scannerForNumber.nextDouble();
+                                    money = money + tempMoney;
+                                    System.out.println("Balansingizga " + tempMoney + " pul tushdi. Hozirgi balansingiz " + money);
+                                }
+                            }
+                        }
+                    }else {
+                        System.out.println("Iltimos qayta kiriting");
+                    }
+                }
+                break;
+                case 2: {
+                    System.out.println("Rus tili tanlandi");
+                }
+                break;
+                case 3: {
+                    System.out.println("Inliz tili tanlandi");
+                }
+                break;
+                default: {
+                    System.out.println("Xatolik");
+                }
+            }
+        }
+
+    }
+}

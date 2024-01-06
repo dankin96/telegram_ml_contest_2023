@@ -1,0 +1,22 @@
+mati@hegemonek:~/Devel/OpenSource/crfa-block-checker$ script/report-blocks --epoch 438
+
+
+EPOCH 438 SUMMARY
+----------------------
+Assigned slots to mint blocks: 25
+Minted blocks: 25
+Lost height battles: 0
+Lost slot battles: 0
+
+
+PERFORMANCE STATS
+----------------------
+Minted blocks: 100.0%
+Lost height battles: 0.0%
+Lost slot battles: 0.0%
+
+
+DEVELOPED BY
+----------------------
+CRFA https://cardano.fans
+LACE https://lacepool.com

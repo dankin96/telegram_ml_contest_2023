@@ -1,0 +1,8 @@
+
+ private resetFormSubject = new BehaviorSubject<boolean>(false);
+ public resetForm$ = this.resetFormSubject.asObservable();
+ clearForm() {
+    console.log(this.resetFormSubject.value); // Hasilnya false
+    this.resetFormSubject.next(!this.resetFormSubject.value); // togge ke true
+    console.log(this.resetFormSubject.value); // toggle ke true
+ }

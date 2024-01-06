@@ -1,0 +1,5 @@
+javascript
+const str = 'Hello, World!';
+const newStr = str.replaceAll('o', 'i');
+console.log(newStr); // Вывод: 'Helli, Wirld!'
+

@@ -1,0 +1,44 @@
+python
+import requests
+
+def reverse_image_search(image_url):
+    # Replace 'YOUR_API_KEY' with your actual API key
+    api_key = 'YOUR_API_KEY'
+
+    # Define the endpoint URL for the reverse image search
+    endpoint = 'https://api.clarifai.com/v2/models/face-detection-v1.3/searches'
+
+    # Set up the headers for the request
+    headers = {
+        'Authorization': f'Bearer {api_key}',
+        'Content-Type': 'application/json',
+    }
+
+    # Create the JSON request body
+    data = {
+        'query': {
+            'image': {
+                'url': image_url
+            }
+        }
+    }
+
+    # Send a POST request to the API
+    response = requests.post(endpoint, json=data, headers=headers)
+
+    # Check if the request was successful
+    if response.status_code == 200:
+        # Parse and return the search results
+        results = response.json()
+        return results
+    else:
+        print(f'Error: {response.status_code} - {response.text}')
+        return None
+
+# Example usage
+image_url = 'URL_OF_FACE_IMAGE_TO_SEARCH'
+search_results = reverse_image_search(image_url)
+
+if search_results:
+    # Process and display the search results
+    print(search_results)

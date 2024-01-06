@@ -1,0 +1,8 @@
+const HOLE_BODY_LIMIT  = 1024 * 8;
+
+function sendEmailThroughThatHole(receipent: string, body: string, abortSignal?: AbortSignal): Promise<void> {
+  const holeAdapter = new HoleAdapter();
+
+  if (body.length >= HOLE_BODY_LIMIT) throw new Error("exceeds");
+  // do things
+}

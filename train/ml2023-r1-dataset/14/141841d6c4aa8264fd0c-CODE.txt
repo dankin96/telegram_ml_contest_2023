@@ -1,0 +1,111 @@
+// Гласные буквы на английском языке => a, e, i, o, u
+// Create a function that takes a string and counts how many 
+// vowels and constants it has
+// RU: Создать функцию, которая принимает строку и 
+// считает сколько в ней гласных и согласных букв
+// function count_vowels_constants(sentence) {
+//     const VOWELS = 'aioue'
+//     let splitted_sentence = sentence.split('') // ['H', 'e', 'l', 'l', 'o']
+    
+//     let vowels_count = 0
+//     let constants_count = 0
+
+//     splitted_sentence.filter(letter => {
+//         letter = letter.toLowerCase()
+//         if (VOWELS.includes(letter)) {  // true  ||  false
+//             vowels_count += 1
+//         } else {
+//             constants_count += 1
+//         }
+//     })
+// }
+
+
+
+
+// Напишите программу JS, чтобы утроить все числа 
+// в данном списке целых чисел с помощью map()
+// ----------------------------------------------
+// function triple(arr) {
+//     return arr.map(item => item * 3)
+// }
+// let result = triple([1, 2, 3, 4]) // => [3, 6, 9, 12]
+// console.log(result)
+
+
+
+// Write a JS program to get the similarity between the two lists using filter()
+// RU: Напишите программу чтобы получить сходство между двумя 
+// списками с помощью filter()
+// ------------------------
+// function find_similarity(arr1, arr2) {
+//     // let result = []
+//     // arr1.filter(item => {
+//     //     if (arr2.includes(item)) {
+//     //         result.push(item)
+//     //     }
+//     // })
+//     // return result
+//     return arr1.filter(item => arr2.includes(item))
+// }
+// let x = [1, 2, 3]
+// let z = [3, 4, 5]
+// let r = find_similarity(x, z) // => [3]
+// console.log(r)
+
+
+
+// Write a JS program to find the list of words that are  than n from a given list of words using filter()
+// RU: Напишите программу JS, чтобы найти список слов, которые длиннее
+// чем n из заданного списка слов с помощью filter()
+// ----------------------------------------------------------------------------------------------------------
+// function longer_than_n(arr, number) {
+//     // let result = []
+//     // arr.filter(item => {
+//     //     if (item.length > number) {
+//     //         result.push(item)
+//     //     }
+//     // })
+//     // return result
+//     let result = arr.filter(item => item.length > number)
+//     return result
+// }
+// let words = ["Cyber", "Security", "JavaScript", "HTML", "CSS", "Web"]
+// console.log(longer_than_n(words, 5)) // => ["Security", "JavaScript"]
+// console.log(longer_than_n(words, 3)) // => ["Cyber", "Security", "JavaScript", "HTML"]
+// ----------------------------------------------------------------------------------------------------------
+// Write a JS program to find the letter that is most common in a given string
+// If all numbers are unique, return -1
+// RU: Напишите программу JS, чтобы найти букву, которая чаще всего
+// встречается в данной строке. Если все числа уникальны, верните -1
+// ---------------------------------------------------------------------------------------------------------------------
+function most_common_letter(str) {
+    let letter_counts = {}  // {h: 1, e: 1, l: 2, o: 1}
+    let splitted_text = str.split("")
+    splitted_text.filter(letter => {
+        letter = letter.toLowerCase()
+        if (letter_counts[letter]) {
+            letter_counts[letter] += 1
+        } else {
+            letter_counts[letter] = 1
+        }
+    })
+    //* ========================================
+    //* ========================================
+    // {h: 1, e: 1, l: 2, o: 1}
+    let max_num = 0
+    let last_result = ""
+    Object.keys(letter_counts).filter(key => {
+        if (letter_counts[key] > max_num) {
+            max_num = letter_counts[key]
+            last_result = `${key} is used ${max_num} times in <${str}>`
+        }
+    })  // ["h", "e", "l", "o"]
+    console.log(last_result)
+}
+
+most_common_letter("Hello") // => "l"
+// 1-step  =>  find every letter in the string with its count
+//         RU: найти каждую букву в строке и ее количество
+// 2-step  =>  find the most common letter
+//         RU: найти наиболее часто встречающуюся букву

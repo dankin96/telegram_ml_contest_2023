@@ -1,0 +1,4 @@
+  Difficulty: 1
+   NFT power:  7.0%
+   TLM power:  59.5%
+   Cooldown:   56 minutes 6 seconds

@@ -1,0 +1,2 @@
+        if isinstance(any_object, A):
+            return WrappedA(any_object)

@@ -1,0 +1,3 @@
+
+about   MODAL(pop-up window in web)
+MODAL  haqida(web saytdagi qalqib chiquvchi oyna)

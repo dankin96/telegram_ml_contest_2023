@@ -1,0 +1,1 @@
+ ErrorException Warning: Illegal offset type in isset or empty /home/pnedu/api.phuongnameducation.com/vendor/illuminate/database/Eloquent/Relations/BelongsTo.php /home/pnedu/api.phuongnameducation.com/vendor/illuminate/database/Eloquent/Relations/BelongsTo.php in Illuminate\Database\Eloquent\Relations\BelongsTo::match

@@ -1,0 +1,4 @@
+error: problem occurred while upgrading discord
+error: could not commit transaction
+error: failed to commit transaction (transaction aborted)
+Errors occurred, no packages were upgraded.

@@ -1,0 +1,13 @@
+java
+public class ClasePadre {
+    public ClasePadre(int parametro) {
+        // Inicialización de la clase padre
+    }
+}
+
+public class ClaseHija extends ClasePadre {
+    public ClaseHija(int parametro) {
+        super(parametro); // Llama al constructor de la clase padre
+        // Inicialización de la clase hija
+    }
+}

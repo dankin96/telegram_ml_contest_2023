@@ -1,0 +1,2 @@
+
+$uniqueData = DB::table('users')->select('account_id', 'email')->distinct()->get();

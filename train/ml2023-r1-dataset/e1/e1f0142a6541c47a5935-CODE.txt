@@ -1,0 +1,9 @@
+autocmd("FileType", {
+  callback = function()
+    if vim.bo.ft == "nvdash" then
+      vim.o.foldcolumn = "0"
+    else
+      vim.o.foldcolumn = "1"
+    end
+  end,
+})

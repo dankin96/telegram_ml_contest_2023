@@ -1,0 +1,32 @@
+Exchange CTKBTC 1h Binance
+Price:0.00001546|0.00001553|0.00001557
+Vol:       796|     967|   2,875
+ATR: 0.00000006
+
+❌OBV:-157.9 K|-157.1 K|-156.2 K
+⚪RSI:   37.89|   42.94|   46.21
+⚪MFI:   35.11|   40.28|   29.30
+⚪CCI: -150.21| -128.70| -111.11
+❌WR%: -100.00|  -85.00|  -69.57
+⚪ADX:    21.67|   20.16|   18.91
+
+❌MOM: Bearish Momentum
+❌SMA: Price Below SMA Bearish
+❌ADI: -DI > +DI Bearish
+❌MACD: Bearish
+❌PSAR: Bearish
+
+Support And Resistance
+R: 0.00001546
+R: 0.00001578
+
+Volatility is moderately low
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+🐂Volume: Bullish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

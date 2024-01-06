@@ -1,0 +1,24 @@
+ {
+    "simrat39/rust-tools.nvim",
+    opts = {
+      server = {
+        settings = {
+          ["rust-analyzer"] = {
+            check = {
+              command = "clippy",
+            },
+            inlayHints = {
+              parameterHints = true,
+            },
+            cmd_env = {
+              RUSTUP_TOOLCHAIN = "stable",
+            },
+          },
+        },
+      },
+    },
+    after = "nvim-lspconfig",
+    config = function()
+      require("rust-tools").setup {}
+    end,
+  },

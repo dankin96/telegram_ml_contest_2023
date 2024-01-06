@@ -1,0 +1,3 @@
+Update dependency androidx.activity:activity-ktx to v1.8.0 (#938)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>

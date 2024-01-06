@@ -1,0 +1,9 @@
+#!/bin/bash
+USER=`whoami`
+BACKUP_DIR=/tmp/backup_${USER}
+BACKUP_FILE=${USER}_$(date +%Y%m%d%M%H%S).tgz
+
+mkdir -p $BACKUP_DIR
+cd /
+tar -zcf $BACKUP_DIR/$BACKUP_FILE home/$USER
+

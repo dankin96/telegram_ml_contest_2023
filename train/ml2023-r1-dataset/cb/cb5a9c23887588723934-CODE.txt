@@ -1,0 +1,5 @@
+[[!pdoResources?
+&parents=`0`
+&tpl=`yourTpl`
+&where=`{"id":"11"}`
+]]

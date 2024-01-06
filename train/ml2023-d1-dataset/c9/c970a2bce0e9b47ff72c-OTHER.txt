@@ -1,0 +1,2 @@
+Management zone: Atlassian_Portal
+Tags: PNET_Action:call70 https://confluence.rt.ru/pages/viewpage.action?pageId=500927678, Atlassian_Portal

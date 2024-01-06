@@ -1,0 +1,7 @@
+1. Quyidagi 2 ta table ni berilgan parametrlari bo'yicha yaratib bering.Table nomi: "Employees" Column lar: "ID" (integer), "Phone" (text, UNIQUE),            "FirstName" (text), "LastName" (text), "DepartmentID" (integer), and "Salary" 
+2. Employees tablega kamida 5 insonni malumotlarini qo'shing.
+3. Employees tabdagi id si 3 ga teng bolgan insonni ismini Meni ismi bilan alishtiring
+4. Employees tabledagi id si 3 ga teng bolgan insonni ismini olib bering..
+5. Employees tabledan telefon raqamini ichida ikkita 0 bo'lgan insonlarni olib bering
+6. Employees tabledan eng ko'p oylik oladigan odamni ismi va oyligini olib bering.
+7. Employees tableda ismini ichida <a> harfi borlarni olib bering.

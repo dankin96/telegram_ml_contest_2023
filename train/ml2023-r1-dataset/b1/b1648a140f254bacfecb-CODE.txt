@@ -1,0 +1,9 @@
+from telethon.sync import TelegramClient
+
+api_id = 'api_id'
+api_hash = 'api_hash'
+channel_link = 'channel_link'
+
+with TelegramClient('anon', api_id, api_hash) as client:
+    entity = client.get_entity(channel_link)
+    client(JoinChannelRequest(entity))

@@ -1,0 +1,3 @@
+Kernel.Info [Wireless]Received Deauth:STA xx:xx:xx:xx:xx:xx(reason 3)
+Kernel.Info [Wireless]Association Success:STA xx:xx:xx:xx:xx:xx
+Kernel.Info [Wireless]4-way handshake success:STA xx:xx:xx:xx:xx:xx

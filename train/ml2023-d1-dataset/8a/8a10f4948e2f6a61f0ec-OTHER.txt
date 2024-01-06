@@ -1,0 +1,18 @@
+ 
+Election changes new epoch 1865
+
+Elected:
+  GIZMO
+  Compass-3
+  Compass-4
+  U-Two-SAFE
+  Community-Node-#2
+  Genesis-09
+
+Deelected:
+  EtherealGuardian
+  llc-validator-1
+  Kiyuovia-I
+  Kube2
+  PRESIDENT2000
+  Genesis-05

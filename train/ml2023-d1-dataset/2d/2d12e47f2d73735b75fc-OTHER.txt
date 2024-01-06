@@ -1,0 +1,19 @@
+BACK TEST:
+
+Exchange        = Binance
+Market          = BTC/USDT
+Timeframe       = 4h
+From date       = 23.12.2020
+From time       = 03:00:00
+To date         = 31.12.2021
+To time         = 23:00:00
+Fee futures %   = 0.0
+Stop loss %     = 50
+Take Profit %   = 50
+Long trade      = True
+Short trade     = True
+Reinvestment    = True
+Deposit $       = 10 000
+Common profit $ = 0
+Common profit % = 0.0
+Max profit $    = 0

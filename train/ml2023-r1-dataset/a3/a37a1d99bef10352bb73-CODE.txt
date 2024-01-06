@@ -1,0 +1,1 @@
+order = await bingx.create_order('LTC/USDT', 'market', 'buy', 10, 1)

@@ -1,0 +1,9 @@
+
+{
+  collections(first: 1, query: "title:300-500 AND title:tulips AND title:bouquet*") {
+    nodes {
+      id
+      handle
+    }
+  }
+}

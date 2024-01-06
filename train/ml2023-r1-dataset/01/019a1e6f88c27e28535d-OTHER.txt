@@ -1,0 +1,24 @@
++----------------------------+------------+------------+
+|        Games Profit        | 2023-10-06 | 2023-10-05 |
++----------------------------+------------+------------+
+| Galaxy Attack: Shoot (and) |  6597.15   |  6436.22   |
+| Galaxy Attack: Shoot (ios) |  6199.09   |  6662.38   |
+| Haircut prank, air h (and) |  1680.48   |  -211.91   |
+| Rainbow Grimaze: Hid (and) |   956.95   |   468.09   |
+| Pop's World - Runnin (ios) |   948.89   |   835.2    |
+|     Yoga Workout (ios)     |   727.54   |   326.71   |
+| Mask Mixture: ASMR M (and) |   606.77   |   435.52   |
+| Merge Plants – Monst (and) |   453.3    |   570.06   |
+| Galaxy Invader: Alie (and) |   439.85   |   697.29   |
+| Banana Survival Mast (and) |   405.75   |   295.66   |
+| Chat Master: Prank S (ios) |   404.29   |   114.23   |
+| Craft School: Monste (ios) |   365.4    |   140.0    |
+| Chat Master: Prank S (and) |   343.83   |   317.63   |
+| Craft Parkour: 3D Bl (ios) |   338.45   |   245.73   |
+| Epic Banana Run: Mer (and) |   312.92   |   308.84   |
+| Draw Fun: One Part M (ios) |   297.48   |  -467.11   |
+| Toilet Prank Call &  (and) |   287.69   |   315.53   |
+| Fish.IO - Hungry Fis (ios) |   280.72   |   225.13   |
+| Fish.IO - Hungry Fis (and) |   276.77   |   110.16   |
+| Gun Simulator & Ligh (and) |   272.83   |   91.02    |
++----------------------------+------------+------------+

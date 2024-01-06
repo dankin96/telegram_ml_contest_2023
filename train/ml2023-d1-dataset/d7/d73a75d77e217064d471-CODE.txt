@@ -1,0 +1,12 @@
+setTimeout(() => console.log('one'))
+
+Promise.resolve().then(() => {
+  setTimeout(() => console.log('two'))
+})
+
+setTimeout(() => console.log('three'))
+
+Promise.resolve().then(() => console.log('four'))
+
+console.log('five')
+

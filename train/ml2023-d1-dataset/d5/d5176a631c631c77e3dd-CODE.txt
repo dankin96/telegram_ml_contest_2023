@@ -1,0 +1,1 @@
+userExchange.setMarkets(globalExchange.markets)

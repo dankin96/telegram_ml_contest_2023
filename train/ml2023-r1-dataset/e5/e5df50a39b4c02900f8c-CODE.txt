@@ -1,0 +1,37 @@
+rust
+use std::process::Command;
+use std::thread;
+use std::time::Duration;
+
+fn main() {
+    let bearer_token = "YOUR_TWITTER_BEARER_TOKEN";
+    let user_id = "YOUR_TWITTER_USER_ID";
+
+    loop {
+        let output = Command::new("curl")
+            .arg("-s")
+            .arg("-H")
+            .arg(format!("Authorization: Bearer {}", bearer_token))
+            .arg(format!("https://api.twitter.com/2/users/{}/spaces?state=live", user_id))
+            .output()
+            .expect("Failed to execute curl command");
+
+        let response = String::from_utf8_lossy(&output.stdout);
+        let spaces: Vec<String> = serde_json::from_str(&response)
+            .unwrap_or_default()
+            .get("data")
+            .unwrap_or(&serde_json::json!([]))
+            .as_array()
+            .unwrap_or(&vec![])
+            .iter()
+            .map(|space| space.get("id").unwrap_or(&serde_json::json!("")).to_string())
+            .collect();
+
+        for space_id in spaces {
+            println!("Listening to Space: {}", space_id);
+            // Add your logic here to process the live Spaces
+        }
+
+        thread::sleep(Duration::from_secs(30));
+    }
+}

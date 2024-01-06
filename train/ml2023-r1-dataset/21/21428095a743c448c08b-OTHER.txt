@@ -1,0 +1,7 @@
+ ERROR \[NotificationsApplication\] 22  Can't create deliveries or send them
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Database.Models.AbstractMassGroupOperationNotification.GetRecipientsIdsAsync(IServiceProvider serviceProvider, Course course) in C:\BuildAgent\work\3fe873db6edc2ac9\src\Database.Core\Models\Notifications.cs:line 1262
+   at Database.Repos.NotificationsRepo.CreateDeliveriesForNotification(Notification notification) in C:\BuildAgent\work\3fe873db6edc2ac9\src\Database.Core\Repos\NotificationsRepo.cs:line 292
+   at Database.Repos.NotificationsRepo.CreateDeliveries() in C:\BuildAgent\work\3fe873db6edc2ac9\src\Database.Core\Repos\NotificationsRepo.cs:line 253
+   at Notifications.DeliveriesProcessor.CreateDeliveries() in C:\BuildAgent\work\3fe873db6edc2ac9\src\Notifications\DeliveriesProcessor.cs:line 31
+   at Notifications.NotificationsApplication.MainLoop() in C:\BuildAgent\work\3fe873db6edc2ac9\src\Notifications\NotificationsApplication.cs:line 97

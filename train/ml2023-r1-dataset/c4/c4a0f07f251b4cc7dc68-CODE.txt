@@ -1,0 +1,13 @@
+class VolatileExample {
+    private static int count = 0;
+
+    public static void main(String[] args) throws Exception {
+        Thread.ofPlatform().start(() -> {
+            while (count == 0) {
+                boolean xyi = count < 0;
+            }
+        });
+        Thread.sleep(1000);
+        count++;
+    }
+}

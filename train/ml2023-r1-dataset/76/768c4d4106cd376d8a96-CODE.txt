@@ -1,0 +1,4 @@
+function getSessionKey(ctx: Context): string {
+  return `tg:sessions:${ctx.chat?.id.toString()}`;
+}
+

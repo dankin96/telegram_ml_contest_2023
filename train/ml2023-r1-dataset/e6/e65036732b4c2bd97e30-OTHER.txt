@@ -1,0 +1,33 @@
+Exchange HIFIBTC 1h Upbit
+Price:0.00002475|0.00002475|0.00002540
+Vol:        80|      23|   1,767
+ATR: 0.00000032
+
+❌OBV: -27.8 K| -27.8 K| -27.8 K
+⚪RSI:   53.96|   53.96|   63.11
+✅MFI:   97.43|   97.43|   97.49
+⚪CCI:   44.27|   51.83|  136.74
+❌WR%: -100.00| -100.00|   -0.00
+⚪ADX:    20.84|   19.16|   17.36
+
+⚪MOM: No Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+❌PSAR: Bearish
+
+Support And Resistance
+S: 0.00002338
+S: 0.00002425
+R: 0.00002540
+
+Volatility is moderately low
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

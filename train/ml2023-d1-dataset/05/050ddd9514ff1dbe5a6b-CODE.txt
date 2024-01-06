@@ -1,0 +1,2 @@
+const feature = new Feature(new Point(mapPos))
+feature.setId(item[key])

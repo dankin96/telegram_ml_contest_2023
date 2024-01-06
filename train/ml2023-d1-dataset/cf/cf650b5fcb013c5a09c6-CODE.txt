@@ -1,0 +1,2 @@
+download_thread = threading.Thread(target=get_track, name="download", args=(update,context,link))
+        download_thread.start()

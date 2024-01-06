@@ -1,0 +1,8 @@
+/seval from PyBypass import bypass
+
+try:
+    print(bypass(""))
+
+except Exception as error:
+    print(error)
+

@@ -1,0 +1,11 @@
+related.ip:['172.30.30.58', '172.30.30.102']
+
+http.response.status_code:429
+
+host.hostname:Elastic-G
+
+url.full:http://ha.dataak.com:9200/_search/scroll
+
+user_agent.original:elasticsearch-py/7.16.1 (Python 3.10.7)
+
+http.response.body.content:{"error":{"root_cause":[{"type":"circuit_breaking_exception","reason":"[parent] Data too large, data for [http_request] would be [28663852196/26.6gb], which is larger than the limit of [28561532518/26.5gb], real usage: [28663851312/26.6gb], new bytes reserved: [884/884b], usages [model_inference=0/0b, inflight_requests=8112/7.9kb, request=13353543744/12.4gb, fielddata=1036014260/988mb, eql_sequence=0/0b]","bytes_wanted":28663852196,"bytes_limit":28561532518,"durability":"TRANSIENT"}],"type":"circuit_breaking_exception","reason":"[parent] Data too large, data for [http_request] would be [28663852196/26.6gb], which is larger than the limit of [28561532518/26.5gb], real usage: [28663851312/26.6gb], new bytes reserved: [884/884b], usages [model_inference=0/0b, inflight_requests=8112/7.9kb, request=13353543744/12.4gb, fielddata=1036014260/988mb, eql_sequence=0/0b]","bytes_wanted":28663852196,"bytes_limit":28561532518,"durability":"TRANSIENT"},"status":429}

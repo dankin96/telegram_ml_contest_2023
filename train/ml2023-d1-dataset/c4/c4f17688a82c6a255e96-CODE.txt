@@ -1,0 +1,9 @@
+const http = axios.create({
+  baseURL: "https://server-side.com",
+  withCredentials: true,
+})
+export { http }
+
+const response = await http("https://server-side.com/some-image.jpg")
+const blob = await response.data.blob()
+const file = new File([blob], "SOME_IMAGE_NAME")

@@ -1,0 +1,7 @@
+match false {
+  2 > 4 { println('if') }
+  3 == 4 { println('else if') }
+  2 == 2 { println('else if2') }
+  else { println('else') }
+}
+// 'if' should be printed

@@ -1,0 +1,3 @@
+site:example.com کلمه مورد نظر
+site:janebi.com قاب گوشی
+

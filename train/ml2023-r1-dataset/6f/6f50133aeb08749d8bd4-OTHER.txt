@@ -1,0 +1,2 @@
+\steamapps\common\Counter-Strike Global Offensive\game\csgo\maps
+

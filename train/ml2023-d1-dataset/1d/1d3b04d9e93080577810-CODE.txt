@@ -1,0 +1,64 @@
+// Beep from: https://stackoverflow.com/a/29641185
+var audioCtx = new (window.AudioContext || window.webkitAudioContext || window.audioContext);
+function beep(duration, frequency, volume, type, callback) {
+ var oscillator = audioCtx.createOscillator();
+ var gainNode = audioCtx.createGain();
+
+ oscillator.connect(gainNode);
+ gainNode.connect(audioCtx.destination);
+
+ if (volume){gainNode.gain.value = volume;}
+ if (frequency){oscillator.frequency.value = frequency;}
+ if (type){oscillator.type = type;}
+ if (callback){oscillator.onended = callback;}
+
+ oscillator.start(audioCtx.currentTime);
+ oscillator.stop(audioCtx.currentTime + (duration || 0.5));
+};
+
+async function sleep(seconds) {
+ return new Promise((accept, reject) => setTimeout(accept, seconds * 1000));
+}
+
+function randomBetween(a, b) {
+ return a + Math.random() * (b - a);
+}
+
+let minCheckInterval = 24;
+let maxCheckInterval = 600;
+
+beep(1, 440, 2);
+
+while (true) {
+ let resp = await fetch("https://ticket.vanillasky.ge/en/flights-form", {
+  "headers": {
+   "accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9",
+   "accept-language": "ru,ja;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6,fr;q=0.5,es;q=0.4",
+   "cache-control": "max-age=0",
+   "sec-ch-ua": "\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Yandex\";v=\"90\"",
+   "sec-ch-ua-mobile": "?0",
+   "sec-fetch-dest": "document",
+   "sec-fetch-mode": "navigate",
+   "sec-fetch-site": "none",
+   "sec-fetch-user": "?1",
+   "upgrade-insecure-requests": "1"
+  },
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "include"
+ });
+ let page = await resp.text();
+
+ if (page.toLowerCase().includes('gel')) {
+  break;
+ }
+ 
+ await sleep(randomBetween(minCheckInterval, maxCheckInterval));
+}
+
+while (true) {
+ beep(0.6, 600, 2);
+ await sleep(2);
+}

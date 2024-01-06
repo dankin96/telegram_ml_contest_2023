@@ -1,0 +1,6 @@
+"[rescript]": {
+    "editor.defaultFormatter": "chenglou92.rescript-vscode"
+  },
+  "rescript.settings.askToStartBuild": false,
+  "rescript.settings.allowBuiltInFormatter": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",

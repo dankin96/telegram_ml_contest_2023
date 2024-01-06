@@ -1,0 +1,1 @@
+For passive only agents, host availability is used with 3m as time threshold.

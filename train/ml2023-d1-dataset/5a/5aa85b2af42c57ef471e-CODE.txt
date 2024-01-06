@@ -1,0 +1,80 @@
+program Bai1De4;
+
+var
+  inputFile, outputFile: TextFile;
+  b, n, i, j: Integer;
+  naturalDivisors, integerDivisors, primeDivisors: array of Integer;
+  isPrime: Boolean;
+
+begin
+  // Mở tệp văn bản đầu vào và đọc giá trị của b
+  AssignFile(inputFile, 'bai1de4.inp');
+  Reset(inputFile);
+  ReadLn(inputFile, b);
+  CloseFile(inputFile);
+  
+  // Khởi tạo mảng để lưu trữ các ước số
+  SetLength(naturalDivisors, 0);
+  SetLength(integerDivisors, 0);
+  SetLength(primeDivisors, 0);
+  
+  // Tìm tất cả các ước số là tự nhiên của n
+  n := Abs(b);
+  for i := 1 to n do
+  begin
+    if n mod i = 0 then
+    begin
+      SetLength(naturalDivisors, Length(naturalDivisors)+1);
+      naturalDivisors[Length(naturalDivisors)-1] := i;
+    end;
+  end;
+  
+  // Tìm tất cả các ước số là số nguyên của n
+  for i := 1 to n div 2 do
+  begin
+    if n mod i = 0 then
+    begin
+      SetLength(integerDivisors, Length(integerDivisors)+1);
+      integerDivisors[Length(integerDivisors)-1] := i;
+    end;
+  end;
+  SetLength(integerDivisors, Length(integerDivisors)+1);
+  integerDivisors[Length(integerDivisors)-1] := n;
+  
+  // Tìm tất cả các ước số là số nguyên tố của n
+  for i := 1 to Length(integerDivisors) do
+  begin
+    isPrime := True;
+    for j := 2 to integerDivisors[i] div 2 do
+    begin
+      if integerDivisors[i] mod j = 0 then
+      begin
+        isPrime := False;
+        Break;
+      end;
+    end;
+    if isPrime then
+    begin
+      SetLength(primeDivisors, Length(primeDivisors)+1);
+      primeDivisors[Length(primeDivisors)-1] := integerDivisors[i];
+    end;
+  end;
+  
+  // Ghi kết quả vào tệp văn bản đầu ra
+  AssignFile(outputFile, 'bai1de4.out');
+  Rewrite(outputFile);
+  
+  for i := 0 to Length(naturalDivisors)-1 do
+    Write(outputFile, naturalDivisors[i], ' ');
+  Writeln(outputFile);
+  
+  for i := 0 to Length(integerDivisors)-1 do
+    Write(outputFile, integerDivisors[i], ' ');
+  Writeln(outputFile);
+  
+  for i := 0 to Length(primeDivisors)-1 do
+    Write(outputFile, primeDivisors[i], ' ');
+  Writeln(outputFile);
+  
+  CloseFile(outputFile);
+end.

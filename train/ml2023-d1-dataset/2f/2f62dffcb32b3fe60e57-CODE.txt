@@ -1,0 +1,8 @@
+type
+  singles = 0..9;
+begin
+  var x:singles:=9;
+  //var x:singles:=19;//Program1.pas(16) : Выход за границы диапазона
+  x:=x+5;
+  println(x);//14  -  ошибки нет. так должно быть?
+end.

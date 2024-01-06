@@ -1,0 +1,32 @@
+
+const withConditionalRendering = (ComponentList) => {
+  return (props) => {
+    const { type, ...restProps } = props;
+
+    const componentMap = {
+      type1: ComponentList.Type1Component,
+      type2: ComponentList.Type2Component
+    };
+
+    const SelectedComponent =
+      componentMap[type] || ComponentList.DefaultComponent;
+
+    return <SelectedComponent {...restProps} />;
+  };
+};
+
+const ComponentList = {
+  Type1Component: (props) => <div>Type 1 Component</div>,
+  Type2Component: (props) => <div>Type 2 Component</div>,
+  DefaultComponent: (props) => <div>Default Component</div>
+};
+
+const MyComponent = withConditionalRendering(ComponentList);
+
+const App = () => {
+  return (
+    <div>
+      <MyComponent type="type2" />
+    </div>
+  );
+};

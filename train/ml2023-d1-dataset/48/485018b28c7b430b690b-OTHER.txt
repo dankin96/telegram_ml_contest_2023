@@ -1,0 +1,2 @@
+> google-chrome-118.0.5993.70-1-x86_64.pkg.tar.zst
+> google-chrome-118.0.5993.70-1-x86_64.pkg.tar.zst.sig

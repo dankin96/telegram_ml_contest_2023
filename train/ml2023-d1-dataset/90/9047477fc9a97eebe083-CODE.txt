@@ -1,0 +1,1 @@
+=ARRAYFORMULA(IFNA(VLOOKUP(A1:A24;{'Продажа'!G:G\'Продажа'!A:F};{2\3\4\5};0)))

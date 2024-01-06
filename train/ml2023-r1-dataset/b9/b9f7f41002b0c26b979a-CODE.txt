@@ -1,0 +1,4 @@
+/routing filter
+add action=accept chain=AS31133_megafon_bgp-in set-bgp-local-pref=200
+add action=accept chain=AS3216_beeline_bgp-in
+

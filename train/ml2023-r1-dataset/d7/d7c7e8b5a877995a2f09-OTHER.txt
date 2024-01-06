@@ -1,0 +1,10 @@
+The Console Display Manager (CDM)
+
+Add the xrandr commands to ~/.xinitrc file:
+Simple Desktop Display Manager (SDDM)
+
+First, edit the sddm configuration to have it look for the commands:
+FILE /etc/sddm.conf
+
+[X11]
+DisplayCommand=/etc/sddm/scripts/Xsetup

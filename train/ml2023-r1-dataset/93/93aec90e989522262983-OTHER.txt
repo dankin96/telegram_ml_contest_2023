@@ -1,0 +1,17 @@
+╔══════════════════════╗
+║ HKrA_v2.4 / Komutlar;
+╠══════════════════════╣
+║ /sms -gsm *
+║ /sms -adet *
+║ /sms -zaman *
+╠══════════════════════╣
+║ HKrA'yı kullanırken;
+║ * Simgeli yerlere, 
+║ Sms-Bomber atacağınız
+║ kişi hakkında geçerli 
+║ herhangi bir numarayı,
+║ girmeniz gereklidir.
+╠══════════════════════╣
+║ /sms -gsm 12345678901 -adet 1
+║ /sms -gsm 12345678901 -zaman 0
+╚══════════════════════╝

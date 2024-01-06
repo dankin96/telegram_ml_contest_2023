@@ -1,0 +1,30 @@
++------------------------------+
+|      Trade Information       |
++-----------------+------------+
+| Key             | Value      |
++-----------------+------------+
+| Buy Now         | XAUUSD     |
+| Entry           | 1820.565   |
+|                 |            |
+| Stop Loss       | 66 pips    |
+| TP 1            | (14 pips)  |
+| TP 2            | (34 pips)  |
+| TP 3            | (54 pips)  |
+|                 |            |
+|                 |            |
+| Stop Loss       | 1814.0     |
+| TP 1            | 1822.0     |
+| TP 2            | 1824.0     |
+| TP 3            | 1826.0     |
+|                 |            |
+| Risk Factor     | 9 %        |
+| Position Size   | 0.17       |
+|                 |            |
+| Current Balance | $ 1,313.57 |
+| Potential Loss  | $ 112.20   |
+| TP 1 Profit     | $ 7.93     |
+| TP 2 Profit     | $ 19.27    |
+| TP 3 Profit     | $ 30.60    |
+|                 |            |
+| Total Profit    | $ 57.80    |
++-----------------+------------+

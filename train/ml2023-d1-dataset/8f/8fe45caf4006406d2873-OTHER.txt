@@ -1,0 +1,2 @@
+= note: the `i686-unknown-linux-gnu` target may not be installed                                                                      
+= help: consider downloading the target with `rustup target add i686-unknown-linux-gnu

@@ -1,0 +1,33 @@
+{
+ "update_id": 935497598,
+ "message": {
+  "message_id": 45,
+  "from": {
+   "id": 928421566,
+   "is_bot": false,
+   "first_name": "­",
+   "username": "kr1tikk"
+  },
+  "chat": {
+   "id": -1001573832390,
+   "title": "TEST_GROUP",
+   "username": "test_group_123123",
+   "type": "supergroup"
+  },
+  "date": 1697188454,
+  "left_chat_participant": {
+   "id": 1647446152,
+   "is_bot": false,
+   "first_name": "­",
+   "last_name": "­",
+   "username": "lordgvozd1"
+  },
+  "left_chat_member": {
+   "id": 1647446152,
+   "is_bot": false,
+   "first_name": "­",
+   "last_name": "­",
+   "username": "lordgvozd1"
+  }
+ }
+}

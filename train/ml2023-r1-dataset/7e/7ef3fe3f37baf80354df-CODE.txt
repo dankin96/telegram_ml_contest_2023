@@ -1,0 +1,26 @@
+#include <iostream>
+#include <map>
+
+int main() {
+    std::map<int, int> myMap;
+
+    // Добавляем элементы в map
+    myMap[1] = 10;
+    myMap[2] = 20;
+    myMap[3] = 30;
+    myMap[4] = 40;
+    myMap[5] = 50;
+
+    // Ищем максимальное значение
+    int maxVal = 0;
+    for (auto it = myMap.begin(); it != myMap.end(); ++it) {
+        if (it->second > maxVal) {
+            maxVal = it->second;
+        }
+    }
+
+    // Выводим максимальное значение
+    std::cout << "Максимальное значение: " << maxVal << std::endl;
+
+    return 0;
+}

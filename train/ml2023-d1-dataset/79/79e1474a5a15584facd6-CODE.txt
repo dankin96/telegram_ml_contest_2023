@@ -1,0 +1,25 @@
+@echo off
+:menu
+ECHO.
+echo 1. Turn off Internet
+echo 2. Turn  on Internet
+echo 3. Exit
+ECHO.
+set /p choice=PLEASE ENTER 1/2/3 : 
+
+if "%choice%" == "1" (
+    ipconfig /release > nul 2>&1
+cls
+goto menu
+) else if "%choice%" == "2" (
+   ipconfig /renew > nul 2>&1
+cls
+goto menu
+) else if "%choice%" == "3" (
+    exit > nul 2>&1
+) else (
+    echo Try again.
+    goto menu
+)
+pause
+

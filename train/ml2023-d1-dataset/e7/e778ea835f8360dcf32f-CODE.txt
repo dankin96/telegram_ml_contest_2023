@@ -1,0 +1,23 @@
+python
+import sqlite3
+
+# برقراری ارتباط با پایگاه داده
+conn = sqlite3.connect('database.db')
+cursor = conn.cursor()
+
+# خواندن وضعیت تنظیمات فعلی
+cursor.execute("SELECT lock_links, lock_photos FROM settings")
+settings = cursor.fetchone()
+lock_links = settings[0]
+lock_photos = settings[1]
+
+# بروزرسانی تنظیمات
+# برای آپدیت تنظیمات لینک به عنوان مثال:
+lock_links = 1  # قفل کردن لینک ها
+
+cursor.execute("UPDATE settings SET lock_links = ?", (lock_links,))
+cursor.commit()
+
+# بستن اتصال به پایگاه داده
+cursor.close()
+conn.close()

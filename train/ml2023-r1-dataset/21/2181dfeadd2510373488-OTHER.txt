@@ -1,0 +1,31 @@
+Pixel          Sailfish
+Pixel XL       Marlin
+Pixel 2        Walleye
+Pixel 2 XL     Taimen
+Pixel 3        Blueline
+Pixel 3 XL     Crosshatch
+Pixel 3a       Sargo
+Pixel 3a XL    Bonito
+Pixel 4        Flame
+Pixel 4 XL     Coral
+Pixel 4a       Sunfish
+Pixel 4a (5G)  Bramble
+Pixel 5        Redfin
+Pixel 5a (5G)  Barbet
+Pixel 6        Oriole
+Pixel 6 Pro    Raven
+Pixel 6a       Bluejay
+Pixel 7        Panther
+Pixel 7 Pro    Cheetah
+Pixel 7 A      Lynx
+Pixel Tablet   Tangorpro
+Pixel Fold     Felix
+Pixel 8        Shiba
+Pixel 8 Pro    Husky
+Pixel 8 A      Akita
+
+Comet -- ? 
+
+abandoned
+Pixel Notepad:  
+Pipit - Pasport

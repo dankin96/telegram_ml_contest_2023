@@ -1,0 +1,19 @@
+for metering_device_data_result in root.findall('.//ns13:exportMeteringDeviceDataResult', namespaces=namespaces):
+        # Получение нужных значений
+        #premise_guid = metering_device_data_result.find('.//ns13:PremiseGUID', namespaces=namespaces).text
+        metering_device_number = metering_device_data_result.find('.//ns13:MeteringDeviceNumber', namespaces=namespaces).text
+        try:
+            account_guid = metering_device_data_result.find('.//ns13:AccountGUID', namespaces=namespaces).text
+            print(account_guid)
+        except:
+            print('Ошибка запроса: '+d+'  '+metering_device_number)
+        metering_device_root_guid = metering_device_data_result.find('.//ns13:MeteringDeviceRootGUID', namespaces).text
+        metering_device_version_guid = metering_device_data_result.find('.//ns13:MeteringDeviceVersionGUID', namespaces=namespaces).text
+
+        # Создание словаря с нужными значениями
+        data_entry = {
+            "AccountGUID": account_guid,
+            "MeteringDeviceRootGUID": metering_device_root_guid,
+            "MeteringDeviceVersionGUID": metering_device_version_guid,
+            "MeteringDeviceNumber": metering_device_number
+        }

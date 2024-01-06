@@ -1,0 +1,31 @@
+public class CameraController : MonoBehaviour
+{
+    [SerializeField] private float border = 20f;
+
+    private void Update()
+    {
+        Vector3 mousePosition = Input.mousePosition;
+
+        if (mousePosition.x <= border)
+        {
+            float delta = (border - mousePosition.x) / border;
+            transform.position.x += transform.position + Vector3.left * delta;
+        }
+        else if (mousePosition.x >= Screen.width - border)
+        {
+            float delta = (mousePosition.x - (Screen.width - border)) / border;
+            transform.position.x += transform.position + Vector3.right * delta;
+        }
+
+        if (mousePosition.y <= border)
+        {
+            float delta = (border - mousePosition.y) / border;
+            transform.position.z += transform.position + Vector3.forward * delta;
+        }
+        else if (mousePosition.y >= Screen.height - border)
+        {
+            float delta = (mousePosition.y - (Screen.height - border)) / border;
+            transform.position.z += transform.position + Vector3.back * delta;
+        }
+    }
+}

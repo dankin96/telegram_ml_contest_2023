@@ -1,0 +1,7 @@
+
+MinhaView:
+     nome_rota = 'Cadastro Genérico'
+     auditar = True
+.
+.
+.

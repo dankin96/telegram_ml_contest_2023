@@ -1,0 +1,13 @@
+template <typename Iter>
+Iter Unique(Iter first, Iter last) {
+    Iter left = first;
+    Iter right = first;
+    while (right != last) {
+        if (*right != *left) {
+            ++left;
+            *left = *right;
+        }
+        ++right;
+    }
+    return ++left;
+}

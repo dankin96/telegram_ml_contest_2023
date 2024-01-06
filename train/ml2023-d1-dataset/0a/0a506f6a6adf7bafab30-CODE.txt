@@ -1,0 +1,13 @@
+a = 'ПИР' #Алфавит
+b = 5 #кол-во букв в слове
+m = set() #пустое множество
+import itertools
+#for w in itertools.product(a, repeat = b): #цикл для новых слов
+for w in itertools.permutations(a, b): #цикл для перестановки (без повторов)
+    s = ''.join(w) #запись слова в переменную S
+    if s.count('П') == 1:
+        m.add(s)
+print(len(m))
+s.count('П') #подчет букв П в слове
+len(s) #длина слова
+len(m) #длина набора

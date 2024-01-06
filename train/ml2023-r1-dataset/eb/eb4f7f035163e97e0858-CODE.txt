@@ -1,0 +1,9 @@
+dags:
+  path: /opt/airflow/dags
+  persistence:
+    enabled: false
+  gitSync:
+    enabled: true
+    repo: "https://github.com/Hramoff/apache-airflow-dags.git"
+    branch: main
+    syncWait: 60

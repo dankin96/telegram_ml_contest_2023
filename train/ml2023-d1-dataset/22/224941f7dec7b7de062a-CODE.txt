@@ -1,0 +1,11 @@
+add_filter(
+    'ctl_allow',
+    static function( $allowed ): bool {
+        if ( wp_doing_cron() ) {
+            return true;
+        }
+
+        return $allowed;
+    }
+);
+

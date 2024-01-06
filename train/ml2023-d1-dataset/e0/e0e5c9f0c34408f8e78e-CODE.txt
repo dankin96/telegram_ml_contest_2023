@@ -1,0 +1,9 @@
+const { mode } = useParams()
+const { pathname } = useLocation();
+const navigate = useNavigate();
+
+const click = () => {
+  const [currentMode, newMode] = mode === '/view' ? ['/view', '/edit'] : ['/edit', '/view']
+  const newPathname = pathname.replace(currentMode, newMode)
+  navigation(newPathname)
+}

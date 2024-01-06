@@ -1,0 +1,8 @@
+
+marks = 10
+fail = marks<20
+
+if fail:    
+     print("Failed")
+else:    
+     print("Passed")

@@ -1,0 +1,6 @@
+Problem started at 03:04:38 on 2023.10.07
+Problem name: pagina web monbus.es
+Host: Zabbix server
+Severity: High
+Operational data: 1
+Original problem ID: 95287

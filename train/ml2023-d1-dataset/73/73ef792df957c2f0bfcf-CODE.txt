@@ -1,0 +1,4 @@
+
+(let ((telega-path (package-desc-dir (package-get-descriptor 'telega))))
+  (shell-command (concat "cd " telega-path " && " "curl https://github.com/zevlg/telega.el/commit/e1c9de039c1cf20048fb22b740175917d17f9110.patch | patch -p1"))
+  (byte-recompile-directory telega-path 0))

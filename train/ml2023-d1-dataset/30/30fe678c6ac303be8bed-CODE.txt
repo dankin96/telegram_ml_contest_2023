@@ -1,0 +1,14 @@
+public class MinhaClasse {
+    public static class Companion {
+        public static void meuMetodo() {
+            System.out.println("Este é um método do companion object");
+        }
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        // Chamando o método do companion object diretamente na classe
+        MinhaClasse.Companion.meuMetodo(); // Saída: Este é um método do companion object
+    }
+}

@@ -1,0 +1,3 @@
+myStruct = struct('name', 'John', 'age', 30);
+str = struct2str(myStruct);
+disp(str);

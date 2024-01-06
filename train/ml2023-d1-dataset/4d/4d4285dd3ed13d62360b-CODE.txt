@@ -1,0 +1,30 @@
+#include <Servo.h>
+
+#define PIR1_PIN 2
+#define PIR2_PIN 3
+#define PIR3_PIN 4
+#define SERVO_PIN 9
+
+Servo myServo;
+
+void setup() {
+  myServo.attach(SERVO_PIN);
+  pinMode(PIR1_PIN, INPUT);
+  pinMode(PIR2_PIN, INPUT);
+  pinMode(PIR3_PIN, INPUT);
+  Serial.begin(9600);
+}
+
+void loop() {
+  if (digitalRead(PIR1_PIN) || digitalRead(PIR2_PIN) || digitalRead(PIR3_PIN)) {
+    // At least one PIR sensor detected motion
+    rotateServo();
+  }
+}
+
+void rotateServo() {
+  myServo.write(90); // Set the servo to a specific angle
+  delay(2000); // Delay to allow the servo to move
+
+  // Additional code here to perform parking or any other actions
+}

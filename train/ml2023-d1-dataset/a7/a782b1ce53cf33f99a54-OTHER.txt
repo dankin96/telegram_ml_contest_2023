@@ -1,0 +1,7 @@
+v10.1.1.1 (20470) Play Store uz
+Xiaomi Redmi 4X android 7.1.2
+ROM: N2G47H
+Performance: LOW
+Cache: 1,02 GB
+Database: 721,4 MB
+Free: 711,7 MB

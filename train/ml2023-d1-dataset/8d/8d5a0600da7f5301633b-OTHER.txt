@@ -1,0 +1,8 @@
+bind d "+right;"
+bind a "+left;"
+bind w "+forward;"
+bind s "+back;"
+bind ctrl "+duck;"
+bind shift "+sprint;"
+bind mouse1 "+attack;"
+

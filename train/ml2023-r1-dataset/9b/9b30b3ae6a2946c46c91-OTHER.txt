@@ -1,0 +1,5 @@
+Ravnaqbank          12230
+NBU                 12240
+SQB                 12245
+Tengebank           12250
+Kapitalbank         12260

@@ -1,0 +1,8 @@
+2023-10-06 10:36:41,299 - __init__.py[DEBUG]: no work necessary for renaming of [['fa:16:3e:bb:f0:b7', 'enp3s0', 'virtio_net', '0x0001']]
+2023-10-06 10:36:41,299 - stages.py[INFO]: Applying network configuration from ds bringup=False: {'version': 1, 'config': [{'type': 'physical', 'mtu': 1450, 'subnets': [{'type': 'static', 'netmask': '255.255.254.0', 'routes': [{'network': '0.0.0.0', 'netmask': '0.0.0.0', 'gateway': '11.18.22.1'}], 'address': '11.18.22.2', 'ipv4': True}], 'mac_address': 'fa:16:3e:bb:f0:b7', 'name': 'enp3s0'}, {'type': 'nameserver', 'address': '11.11.122.18'}]}
+2023-10-06 10:36:41,300 - util.py[DEBUG]: Writing to /run/cloud-init/sem/apply_network_config.once - wb: [644] 25 bytes
+2023-10-06 10:36:41,303 - __init__.py[DEBUG]: Selected renderer 'etcnet' from priority list: ['netplan', 'networkd', 'etcnet']
+2023-10-06 10:36:41,310 - util.py[DEBUG]: Writing to /etc/net/ifaces//eth0/resolv.conf - wb: [644] 22 bytes
+2023-10-06 10:36:41,312 - util.py[DEBUG]: Writing to /etc/net/ifaces//enp3s0/ipv4address - wb: [644] 13 bytes
+2023-10-06 10:36:41,317 - util.py[DEBUG]: Writing to /etc/net/ifaces//enp3s0/options - wb: [644] 101 bytes
+2023-10-06 10:36:41,317 - __init__.py[DEBUG]: Not bringing up newly configured network interfaces

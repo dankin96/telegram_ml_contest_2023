@@ -1,0 +1,15 @@
+☄️ BDF1  Byu Data Flash 1GB/30Hari
+☄️ BDF2  Byu Data Flash 2GB/30Hari
+☄️ BDF3  Byu Data Flash 3GB/30Hari
+
+☄️ BDS1  Data 100GB/3JAM Aman untuk streaming kualitas 240p
+☄️ BDS2  Data 100GB/1Hari Aman untuk streaming kualitas 240
+☄️ BDS3  Data 100GB/7Hari Aman untuk streaming kualitas 480
+
+☄️ BDA1  Data 2GB/1Hari 
+☄️ BDA2  Data 1GB/30Hari
+☄️ BDA3  Data 3GB/7Hari
+☄️ BDA4  Data 3GB/30Hari
+☄️ BDA5  Data 6GB/30Hari
+☄️ BDA6  Data 12GB/30Hari
+

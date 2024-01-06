@@ -1,0 +1,12 @@
+PINSCHER - Pinscher Coin
+$0.000000000
+Network: BSC
+H|L: 0.00|0.00000000
+1h:  0.0%      😏       
+24h: -0.4%     😕       
+7d:  -1.3%     😑       
+Vol: $1.0
+Liq: $2.4 K
+Circ Mcap: 5.9 K
+FDV 5.9 K
+CA: 0xf201efabd3497c5ddba268ed523d5848cfa40cda

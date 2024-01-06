@@ -1,0 +1,21 @@
+- name: Ensure this is Red Hat
+  assert:
+    that: "ansible_facts.distribution == 'RedHat'"
+  tags:
+    - rhsm
+
+- name: Subscribe to a specific pool by ID.
+  community.general.redhat_subscription:
+    state: present
+    username: "{{ rhsm_username }}"
+    password: "{{ rhsm_password }}"
+    pool_ids: "{{ rhsm_pool_ids }}"
+  tags:
+    - rhsm_register
+
+- block:
+    - include_tasks: "{{ rhsm_method }}.yml"
+  tags:
+    - rhsm
+    - rhsm_register
+    - rhsm_repos

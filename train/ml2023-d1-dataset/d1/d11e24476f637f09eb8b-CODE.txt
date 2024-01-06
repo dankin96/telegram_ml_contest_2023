@@ -1,0 +1,6 @@
+   tshark -w dump.pcap -a duration:5
+   cat dump.pcap | 
+     grep "STUN 106" | 
+     sed 's/^.*XOR-MAPPED-ADDRESS: //' | 
+     awk '{match($0,/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/); ip = substr($0,RSTART,RLENGTH); print ip}' |
+     awk '!seen[$0]++'

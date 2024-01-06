@@ -1,0 +1,1 @@
+vless://ef062d36-bcbe-4f27-bb12-ae4b0fbe10a0@vpncustomize.cam:443?mode=gun&security=reality&encryption=none&pbk=55xH-tqPd6c0VZpbwlxRxhmfvp9lVUtp45CDJLpcw2I&fp=firefox&spx=%2F&type=grpc&serviceName=%40VPNCUSTOMIZE&sni=www.iranserver.com&sid=6b0541cd#%40proxyymeliii

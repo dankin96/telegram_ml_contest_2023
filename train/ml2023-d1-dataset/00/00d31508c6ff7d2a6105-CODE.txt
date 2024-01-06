@@ -1,0 +1,6 @@
+php
+   'providers' => [
+       // ...
+       Jenssegers\Date\DateServiceProvider::class,
+   ],
+   

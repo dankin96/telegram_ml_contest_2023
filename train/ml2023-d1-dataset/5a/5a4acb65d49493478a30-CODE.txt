@@ -1,0 +1,3 @@
+const sentence = 'You cannot end a sentence with because because because is a conjunction';
+const targetPhrase = sentence.substr(29, 21);
+console.log(targetPhrase); // "because because because"

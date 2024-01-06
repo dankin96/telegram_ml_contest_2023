@@ -1,0 +1,8 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+   // Kode program
+
+   return 0;
+}

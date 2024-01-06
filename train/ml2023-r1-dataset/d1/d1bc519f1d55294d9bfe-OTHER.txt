@@ -1,0 +1,7 @@
+            24H Return 7D Return 6H Return
+Token name                                
+xyo-network        30%       27%       10%
+liquity             5%       12%       -1%
+dydx                0%        1%       -1%
+verasity            4%        7%       -2%
+

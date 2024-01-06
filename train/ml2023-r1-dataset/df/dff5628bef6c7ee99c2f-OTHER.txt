@@ -1,0 +1,2 @@
+ansi
+ [2;31mKill yourself [0m

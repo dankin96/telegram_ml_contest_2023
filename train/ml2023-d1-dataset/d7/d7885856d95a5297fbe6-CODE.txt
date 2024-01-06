@@ -1,0 +1,28 @@
+FROM alpine
+
+# Создаем папки, у первого юзера должен быть доступ только к первому юзеру, у второй - только у второго юзера
+
+RUN mkdir example-for-user1
+RUN mkdir example-for-user2
+
+# Записываем рандомные данные в файлы
+RUN echo 'Hello world' > example-for-user1/secret.txt
+RUN echo 'Hello world' > example-for-user2/secret.txt
+
+# Даем права на папки
+# Первый юзер - 1337
+# Второй юзер - 1338
+RUN chown 1337:1337 -R example-for-user1/
+RUN chown 1338:1338 -R example-for-user2/
+
+# Запрещаем доступ к папкам всем остальным, кроме владельцев
+
+RUN chmod u+rwx -R example-for-user1/
+RUN chmod g-rwx -R example-for-user1/
+RUN chmod o-rwx -R example-for-user1/
+
+RUN chmod u+rwx -R example-for-user2/
+RUN chmod g-rwx -R example-for-user2/
+RUN chmod o-rwx -R example-for-user2/
+
+ENTRYPOINT [ "/bin/sh" ]

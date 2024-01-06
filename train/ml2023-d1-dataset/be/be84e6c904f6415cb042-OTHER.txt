@@ -1,0 +1,5 @@
+Package 1: 300 sec, 1 con, 60s cooldown (14 days) - 55$
+Package 2: 360 sec, 1 con, 0s cooldown (30 days) - 85$
+Package 3: 720 sec, 1 con, 0s cooldown (30 days)  - 125$
+Package 4: 920 sec, 1 con, 0s cooldown (45 days) - 225$
+Package 5: 1200 sec, 2 con, 0s cooldown (Lifetime) - 305$

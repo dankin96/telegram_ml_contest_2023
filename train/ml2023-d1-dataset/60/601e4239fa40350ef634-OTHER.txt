@@ -1,0 +1,12 @@
+--------------------------------
+🔸Pagamento Div em 13/10/2023🔸
+--------------------------------
+Sigla  tipo  valor   DivYet
+KMBB34 Div   3,73    %
+C1BL34 Div   1,01    %
+D1LR34 Div   1,01    %
+MRCK34 Div   0,29    %
+E1MN34 Div   1,30    %
+F1LS34 Div   0,67    %
+S1BS34 Div   0,21    %
+

@@ -1,0 +1,7 @@
+@pytest.fixture(autouse=True)
+def set_allure_title(request):
+    yield
+    fn, *tail = request.node.name.split("[", 1)
+    if tail:
+        decoded_tail = tail[0].encode("ascii").decode("unicode_escape")
+        allure.dynamic.title(fn + "[" + decoded_tail)

@@ -1,0 +1,20 @@
+         FORM & RelPermalink
+        +----HTTP POST------+
+        |                   |             Database or
+        |                   v             Flat files
++-------|-----+       +----------------+  +---------+
+| Static Site |       | Commment Server|--| Storage |
++-------------+       +-+--------------+  +---------+
+        |               |   ^
+    Generate            |   |
+        |               |   | Moderation
+    +---+---+   HOOK    |   |
+    | HUGO  |&LT----------+   |
+    +---+---+   ?????       |
+        |                   |
++-------+---+  manage  +----+-----+
+| Markdowns |&LT---------+ Me       |
+| Statics   |          +----------+
+| Themes    |
++-----------+
+

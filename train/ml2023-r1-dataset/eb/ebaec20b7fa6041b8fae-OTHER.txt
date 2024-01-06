@@ -1,0 +1,6 @@
+Exchange    Pair       24h Vol
+Gate.io     GTH/ETH       25 K
+Gate.io     GTH/USDT      20 K
+AscendEX    GTH/USDT       6 K
+PancakeSwap GTH/WBNB       229
+Uniswap     GTH/WETH        25

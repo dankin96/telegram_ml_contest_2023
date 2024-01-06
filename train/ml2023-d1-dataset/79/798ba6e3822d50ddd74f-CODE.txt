@@ -1,0 +1,4 @@
+int func (const char *a, int b, …)
+{
+  …
+}

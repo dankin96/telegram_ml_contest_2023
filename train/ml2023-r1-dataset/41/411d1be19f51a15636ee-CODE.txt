@@ -1,0 +1,36 @@
+import time
+from datetime import datetime, timedelta
+from telethon.sync import TelegramClient
+from telethon.tl.functions.channels import GetParticipantsRequest
+from telethon.tl.types import ChannelParticipantsRecent
+
+# Telegram API-Konfiguration
+api_id = 'your_api_id'
+api_hash = 'your_api_hash'
+chat_id = 'your_chat_id'  # ID der Gruppe, aus der Benutzer entfernt werden sollen
+
+# Konfiguration des Zeitraums für die Inaktivität
+inactive_period = timedelta(days=30)
+
+# Verbindung zum Telegram-Client aufbauen
+client = TelegramClient('session_name', api_id, api_hash)
+client.start()
+
+# Funktion zum Entfernen von inaktiven Benutzern
+def remove_inactive_users():
+    now = datetime.now()
+    cutoff_date = now - inactive_period
+
+    # Liste der Teilnehmer abrufen
+    participants = client(GetParticipantsRequest(chat_id, ChannelParticipantsRecent(), 0, 0, 100))
+    for user in participants.users:
+        last_seen = user.status.last_online
+        if last_seen is not None and last_seen < cutoff_date:
+            # Benutzer entfernen
+            client.kick_participant(chat_id, user.id)
+
+# Bot starten und inaktive Benutzer entfernen
+with client:
+    while True:
+        remove_inactive_users()
+        time.sleep(24*60*60)  # Überprüfung einmal täglich

@@ -1,0 +1,6 @@
+(require 'typescript-mode)
+(require 'eglot)
+(add-to-list 'auto-mode-alist '("\\.ts\\'" . typescript-mode))
+(add-to-list 'auto-mode-alist '("\\.cts\\'" . typescript-mode))
+(add-to-list 'auto-mode-alist '("\\.mts\\'" . typescript-mode))
+(add-hook 'typescript-mode-hook 'eglot-ensure)

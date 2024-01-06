@@ -1,0 +1,18 @@
+using Microsoft.Extensions.DependencyInjection;
+using Ru.AenSidhe.RuCenterApi;
+using Ru.AenSidhe.RuCenterApi.Acme;
+
+using var serviceProvider = new ServiceCollection()
+    .AddLogging()
+    .AddHttpClient()
+    .AddRuCenterApi()
+    .AddSingleton<AcmeService>()
+    .BuildServiceProvider();
+
+var acme = serviceProvider.GetRequiredService<AcmeService>();
+
+var result = await acme.CreateRecord("asd", "asd", CancellationToken.None);
+
+Console.WriteLine(result);
+
+return (int)result.ExitCode;

@@ -1,0 +1,9 @@
+update_focused_file = {
+    enable = false,
+    update_root = false,
+  },
+  actions = {
+    change_dir = {
+      enable = false,
+    }
+  }

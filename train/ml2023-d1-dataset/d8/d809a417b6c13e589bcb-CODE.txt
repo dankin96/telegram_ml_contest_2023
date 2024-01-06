@@ -1,0 +1,5 @@
+add_library(mylib SHARED
+    sources/animation.cpp
+    sources/buffers.cpp
+    [...]
+)

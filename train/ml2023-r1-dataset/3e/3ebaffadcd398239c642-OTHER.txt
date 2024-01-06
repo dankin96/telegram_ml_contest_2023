@@ -1,0 +1,5 @@
+2023-10-06T16:55:49.177Z,
+ Host: infra.fss 
+ Program: system.filesystem 0.9678
+ Mount point: /u01 
+ Memory Left: 24783941632

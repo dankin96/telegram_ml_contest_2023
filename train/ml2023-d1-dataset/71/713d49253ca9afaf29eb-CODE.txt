@@ -1,0 +1,6 @@
+...
+type: Opaque
+data:
+  mysql-root-password: "Tk9UX1dPUktJTkdfMTIz"
+  mysql-password: "Tk9UX1dPUktJTkdfMzIx"
+---

@@ -1,0 +1,2 @@
+console.log((<T,>(id: T): T => id)(1)) // 1
+

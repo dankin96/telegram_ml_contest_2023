@@ -1,0 +1,5 @@
+var httpClient = _httpClientFactory.CreateClient("HttpClientWithCipherConfig");
+                var fileBytes = await httpClient.GetByteArrayAsync(SiteUrl);
+                var fileStream = new MemoryStream(fileBytes);
+                Logger.LogInformation("File Downloaded: {Url}", SiteUrl);
+                Logger.LogInformation("File Size: {Size}", fileStream.Length);

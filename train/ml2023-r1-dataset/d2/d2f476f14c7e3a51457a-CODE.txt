@@ -1,0 +1,2 @@
+ $  cat /etc/passwd  | grep vlad
+vlad:x:1000:1000:vlad,,,:/home/vlad:/usr/bin/fish

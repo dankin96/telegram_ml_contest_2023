@@ -1,0 +1,6 @@
+
+   const username = '';
+   const displayName = username || 'Аноним';
+   console.log(displayName);
+   // Вывод: 'Аноним'
+   

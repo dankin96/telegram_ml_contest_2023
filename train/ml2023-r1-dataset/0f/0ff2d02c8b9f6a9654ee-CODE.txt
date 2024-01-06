@@ -1,0 +1,3 @@
+resolver: {
+    extraNodeModules: require("node-libs-react-native")
+  },

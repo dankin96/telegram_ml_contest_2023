@@ -1,0 +1,6 @@
+n = bar_index
+if continues_box and (n % 10 == 0)
+    for bx in bullish_fvg_4h
+        box.set_right(bx, n)
+    for bx in bearish_fvg_4h
+        box.set_right(bx, n)

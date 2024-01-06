@@ -1,0 +1,2 @@
+def define_entities(db):
+    from . import models

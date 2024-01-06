@@ -1,0 +1,12 @@
+Starting     sdl2-2.5.5.0 (lib)
+
+Failed to build sdl2-2.5.5.0. The failure occurred during the configure step.
+Build log (
+C:\cabal\logs\ghc-9.4.7\sdl2-2.5.5.0-c3ce8f61144d9670302bb058e3e6769b5560df5e.log
+):
+Configuring library for sdl2-2.5.5.0..
+cabal-3.6.2.0.exe: The program 'pkg-config' version >=0.9.0 is required but it
+could not be found.
+
+cabal-3.6.2.0.exe: Failed to build sdl2-2.5.5.0 (which is required by exe:test
+from test-0.1.0.0). See the build log above for details.

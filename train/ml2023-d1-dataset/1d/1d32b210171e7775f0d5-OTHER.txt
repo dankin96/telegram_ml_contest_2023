@@ -1,0 +1,39 @@
+Exchange BNTUSDT 1w Binance
+Price:    0.55|    0.60|    0.42
+Vol:  166,830,287|140,168,973|10,810,195
+ATR: 0.1013
+
+❌OBV:-331.7 M|-164.9 M|-305.0 M
+⚪RSI:   58.91|   65.08|   48.34
+✅MFI:   88.65|   86.51|   84.20
+⚪CCI:  151.79|  148.19|  -26.20
+❌WR%:  -47.11|   -6.38|  -50.11
+⚪ADX:    24.23|   22.07|   20.24
+
+⚪MOM: No Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+✅PSAR: Bullish
+
+Support And Resistance
+S: $0.351
+S: $0.375
+S: $0.387
+S: $0.404
+S: $0.423
+S: $0.490
+S: $0.512
+R: $0.547
+R: $0.600
+
+Volatility is moderately low
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

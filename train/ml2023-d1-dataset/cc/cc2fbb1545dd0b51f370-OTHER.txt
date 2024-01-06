@@ -1,0 +1,18 @@
+fastwarp                                      *ultimate-autopair-map-fastwarp*
+The fastwarp mapping fast warp (not wraps) the next end pair.
+For configuration options see: |ultimate-autopair-map-fastwarp-config|
+Example (`*` is cursor): >
+ | before     | after      |
+ |------------+------------|
+ | (*){}      | ({}*)      |
+ | (*){foo}   | ({foo}*)   |
+ | (*)foo     | (foo*)     |
+ | (foo*),bar | (foo,bar*) |
+< Example (`*` is cursor)(nocursormove=true): >
+ | before     | after      |
+ |------------+------------|
+ | (*){}      | (*{})      |
+ | (*){foo}   | (*{foo})   |
+ | (*)foo     | (*foo)     |
+ | (foo*),bar | (foo,bar*) | (fallback to cursormove)
+<

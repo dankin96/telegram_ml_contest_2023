@@ -1,0 +1,23 @@
+Oct 13 09:37:37 ipsec charon[670]: 07[ENC] generating IKE_SA_INIT request 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) N(FRAG_SUP) N(HASH_ALG) N(REDIR_SUP) ]
+Oct 13 09:37:37 ipsec charon[670]: 07[NET] sending packet: from 178.218.212.182[500] to 188.162.60.5[500] (332 bytes)
+Oct 13 09:37:37 ipsec charon[670]: 09[CFG] received stroke: add connection 'test'
+Oct 13 09:37:37 ipsec charon[670]: 09[CFG] added child to existing configuration 'megafon'
+Oct 13 09:37:37 ipsec charon[670]: 11[CFG] received stroke: initiate 'test'
+Oct 13 09:37:37 ipsec charon[670]: 13[CFG] received stroke: add connection 'sbc-reserv'
+Oct 13 09:37:37 ipsec charon[670]: 13[CFG] added child to existing configuration 'megafon'
+Oct 13 09:37:37 ipsec charon[670]: 15[CFG] received stroke: initiate 'sbc-reserv'
+Oct 13 09:37:37 ipsec charon[670]: 05[CFG] received stroke: add connection 'sbc-main'
+Oct 13 09:37:37 ipsec charon[670]: 05[CFG] added child to existing configuration 'megafon'
+Oct 13 09:37:37 ipsec charon[670]: 08[CFG] received stroke: initiate 'sbc-main'
+Oct 13 09:37:37 ipsec charon[670]: 10[NET] received packet: from 188.162.60.5[500] to 178.218.212.182[500] (305 bytes)
+Oct 13 09:37:37 ipsec charon[670]: 10[ENC] parsed IKE_SA_INIT response 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) V ]
+Oct 13 09:37:37 ipsec charon[670]: 10[IKE] received Cisco FlexVPN Supported vendor ID
+Oct 13 09:37:37 ipsec charon[670]: 10[CFG] selected proposal: IKE:3DES_CBC/HMAC_SHA1_96/PRF_HMAC_SHA1/MODP_1024
+Oct 13 09:37:37 ipsec charon[670]: 10[IKE] authentication of '178.218.212.182' (myself) with pre-shared key
+Oct 13 09:37:37 ipsec charon[670]: 10[IKE] establishing CHILD_SA megafon{1}
+Oct 13 09:37:37 ipsec charon[670]: 10[IKE] establishing CHILD_SA megafon{1}
+Oct 13 09:37:37 ipsec charon[670]: 10[ENC] generating IKE_AUTH request 1 [ IDi N(INIT_CONTACT) IDr AUTH SA TSi TSr N(MOBIKE_SUP) N(ADD_4_ADDR) N(EAP_ONLY) N(MSG_ID_SYN_SUP) ]
+Oct 13 09:37:37 ipsec charon[670]: 10[NET] sending packet: from 178.218.212.182[4500] to 188.162.60.5[4500] (244 bytes)
+Oct 13 09:37:37 ipsec charon[670]: 09[NET] received packet: from 188.162.60.5[4500] to 178.218.212.182[4500] (68 bytes)
+Oct 13 09:37:37 ipsec charon[670]: 09[ENC] parsed IKE_AUTH response 1 [ N(AUTH_FAILED) ]
+Oct 13 09:37:37 ipsec charon[670]: 09[IKE] received AUTHENTICATION_FAILED notify error

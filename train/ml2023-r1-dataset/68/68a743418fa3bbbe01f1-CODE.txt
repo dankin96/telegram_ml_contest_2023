@@ -1,0 +1,21 @@
+def model_dumper_Dummy(data):
+    # suffix to path
+    # 1 -> ['a']
+    # 2 -> ['b']
+    
+    # field to path
+    # a -> ['a']
+    # b -> ['b']
+    
+    a = dumper_a(data.a)
+    
+    b = dumper_b(data.b)
+    
+    result = {
+        'a': a,
+    }
+    if sieve_2(b):
+        result['b'] = b
+    
+    return result
+

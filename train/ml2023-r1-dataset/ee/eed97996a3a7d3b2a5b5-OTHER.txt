@@ -1,0 +1,18 @@
+FMXInno - Changes
+1. Added new classes:
+   - FTreeView
+   - FTreeViewItem
+   - FMenuBar
+   - FMenuBarItem
+
+2. FCheckboxTree - Removed the following properties:
+   - procedure Selectable(FEnable: Boolean)
+   - procedure RemoveBckgnd
+
+3. Added some new functions.
+
+4. Some improvements:
+   - TitleBar
+   - FForm
+
+5. Bug Fixing.

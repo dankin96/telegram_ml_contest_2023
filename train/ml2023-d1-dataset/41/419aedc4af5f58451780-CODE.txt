@@ -1,0 +1,18 @@
+impl Solution {
+    pub fn longest_palindrome(s: String) -> String {
+        let mut longest = String::new();
+        for start in 0..s.len() {
+            for end in start + longest.len()..s.len() + 1 {
+                let sub = &s[start..end];
+                if Self::is_palindrome_string(sub) && sub.len() > longest.len() {
+                    longest = sub.to_string();
+                }
+            }
+        }
+        longest
+    }
+
+    fn is_palindrome_string(s: &str) -> bool {
+        return s == s.chars().rev().collect::<String>();
+    }
+}

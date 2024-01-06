@@ -1,0 +1,16 @@
+{{#if_equals ItemType 'Episode'}}
+      "caption": " 
+El episodio <b>{{EpisodeNumber}}</b> de la temporada <b>{{SeasonNumber}}</b> de la serie <b>{{{SeriesName}}}</b> llamado <b>{{{Name}}}</b> ha sido añadido a <b>{{{ServerName}}}</b> 
+
+    <b>Duración:</b> {{{RunTime}}} 
+
+    <b>[IMDb]</b> https://www.imdb.com/title/{{Provider_imdb}}"
+    {{else}}
+      "caption": " 
+La película <b>{{{Name}}} - ({{Year}})</b> ha sido añadida a <b>{{{ServerName}}}</b> 
+
+    <b>Duración:</b> {{{RunTime}}} 
+
+    <b>Sinopsis:</b> {{{Overview}}} 
+
+    <b>[TMDb]</b> https://www.themoviedb.org/movie/{{Provider_tmdb}}"

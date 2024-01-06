@@ -1,0 +1,1 @@
+trojan://73ea4cd6-6bb1-4ad8-8c58-242bb371c90e@139.59.252.204:443/?security=tls&type=tcp&sni=m.facebook.com#🇸🇬 SG All Facebook Trojan

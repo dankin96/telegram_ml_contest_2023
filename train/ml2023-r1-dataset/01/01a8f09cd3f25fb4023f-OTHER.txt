@@ -1,0 +1,2 @@
+vless://dbdd481a-7c09-48c8-b2ec-e4a08c376958@84.19.125.126:443?security=reality&encryption=none&pbk=SSai0IHDOUKtYd-VEY0TiuUDdu5Pw-ZmwFk8lzpeoAg&headerType=none&fp=randomized&spx=%2F&type=tcp&sni=eset.com&sid=1315da4e#%40Canfig2V2RAY%2F+new+gift+%E2%99%A8%EF%B8%8F%F0%9F%87%AB%F0%9F%87%B7%F0%9F%87%AB%F0%9F%87%B7%F0%9F%87%AB%F0%9F%87%B7
+

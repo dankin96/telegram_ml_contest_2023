@@ -1,0 +1,23 @@
+  "You wake up in your room, your lower half covered by your blanket. The morning light breaking through your window and shedding light on the gentle gray carpet."
+    pov "*yawns loudly*"
+    "You sit up and rub your eyes, and massage the top of your head between your ears."
+    "7:03am is displayed on your bedside alarm clock"
+    pov "I'd better get up and start preparing for the day.."
+    "After a relaxing shower, you get dried, dressed and go have some breakfast."
+    menu:
+        "Have some toast":
+            "You have some toast to eat and then go to your room"
+        "Have some cereal":
+            "You have some cereal to eat and then go to your room"
+        "Have a sasuage and egg muffin":
+            "You have your muffin to eat and then go to your room"
+    menu:
+        "Go on your phone":
+            "Not implemented yet"
+        "Look at surroundings":
+            "Not implemented yet"
+        "Watch TV":
+            "You watch a brief TV news broadcast. Your goverment is talking against transgender people again. This fuels you with anger."
+            pov "Fuck this shitty goverment.."
+            "You feel like punching the TV, but maybe that's a step too far.."
+    return

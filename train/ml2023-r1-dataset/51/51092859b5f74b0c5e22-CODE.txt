@@ -1,0 +1,7 @@
+
+[] > cat
+  animal > @
+  lifes > 9
+[] > animal
+  1 > lifes
+  "I'm an animal" > voice

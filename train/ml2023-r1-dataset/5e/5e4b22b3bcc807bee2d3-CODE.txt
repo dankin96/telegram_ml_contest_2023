@@ -1,0 +1,4 @@
+sudo systemctl start vladimpaler-bot.service
+sudo systemctl stop vladimpaler-bot.service
+sudo systemctl restart vladimpaler-bot.service
+sudo journalctl -f -u vladimpaler-bot.service

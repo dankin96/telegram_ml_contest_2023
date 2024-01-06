@@ -1,0 +1,13 @@
+Input:
+Only one number - n(1<=N<=100).
+
+
+Output:
+The two dimention matrix in format described above.
+
+
+Sample input:
+3
+
+
+Sample output:

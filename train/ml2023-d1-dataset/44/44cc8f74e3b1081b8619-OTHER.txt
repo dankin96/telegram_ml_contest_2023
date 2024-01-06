@@ -1,0 +1,8 @@
+                   24H Return 7D Return 6H Return
+Token name                                       
+big-time                 307%        0%       37%
+frax-share                 5%        0%        2%
+gnosis                     1%       -4%        0%
+apecoin                    2%       -7%        0%
+injective-protocol         0%       -4%        0%
+

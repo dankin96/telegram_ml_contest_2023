@@ -1,0 +1,4 @@
+- Speed 1-3detik
+- Stabil di Jam Padat
+- Direct Switching
+

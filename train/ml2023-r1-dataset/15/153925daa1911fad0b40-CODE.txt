@@ -1,0 +1,19 @@
+python
+import telegram
+
+# Inisialisasi bot dengan Token API yang diberikan oleh BotFather
+bot = telegram.Bot(token='YOUR_TOKEN')
+
+# Mendapatkan chat ID dari channel Telegram
+def get_channel_id():
+    response = bot.get_updates()
+    chat_id = response[-1]['message']['chat']['id']
+    return chat_id
+
+# Mengirim pesan ke channel Telegram
+def send_message(text):
+    chat_id = get_channel_id()
+    bot.send_message(chat_id=chat_id, text=text)
+
+# Autopost pesan ke channel Telegram
+send_message("Hello, World!")

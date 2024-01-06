@@ -1,0 +1,8 @@
+select u.user_id, l.*
+from user u
+  cross join lateral (
+    select timestamp, post_id, action
+    from public.feed_data d
+    where u.user_id = d.user_id
+    limit 9
+  ) l

@@ -1,0 +1,1 @@
+{x.split('=')[0]: x.split('=')[1].replace('"', '') for x in req.headers['www-authenticate'].split(', ')}

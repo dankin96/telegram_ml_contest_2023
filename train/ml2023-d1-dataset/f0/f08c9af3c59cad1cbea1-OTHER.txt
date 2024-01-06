@@ -1,0 +1,12 @@
+HAMAS - Hamas Pepe
+$0.000000059
+Network: ETH
+H|L: 0.00|0.00000003
+1h:  0.0%      😏       
+24h: 131.5%    ✨       
+7d:  0.0%      😏       
+Vol: $3.5 K
+Liq: $9.7 K
+Circ Mcap: 59.0 K
+FDV 59.0 K
+CA: 0x9ec5c87211839a3a6571ba51cfdf6f37ccd3d26a

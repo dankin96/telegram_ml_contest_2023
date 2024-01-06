@@ -1,0 +1,13 @@
+2023-10-06 15:32:30,472 ERROR org.apache.hadoop.hdfs.server.namenode.NameNode: Failed to start namenode.
+java.io.FileNotFoundException: No valid image files found
+        at org.apache.hadoop.hdfs.server.namenode.FSImageTransactionalStorageInspector.getLatestImages(FSImageTransactionalStorageInspector.java:165)
+        at org.apache.hadoop.hdfs.server.namenode.FSImage.loadFSImage(FSImage.java:684)
+        at org.apache.hadoop.hdfs.server.namenode.FSImage.recoverTransitionRead(FSImage.java:335)
+        at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.loadFSImage(FSNamesystem.java:1073)
+        at org.apache.hadoop.hdfs.server.namenode.FSNamesystem.loadFromDisk(FSNamesystem.java:695)
+        at org.apache.hadoop.hdfs.server.namenode.NameNode.loadNamesystem(NameNode.java:674)
+        at org.apache.hadoop.hdfs.server.namenode.NameNode.initialize(NameNode.java:736)
+        at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:961)
+        at org.apache.hadoop.hdfs.server.namenode.NameNode.<init>(NameNode.java:940)
+        at org.apache.hadoop.hdfs.server.namenode.NameNode.createNameNode(NameNode.java:1714)
+        at org.apache.hadoop.hdfs.server.namenode.NameNode.main(NameNode.java:1782)

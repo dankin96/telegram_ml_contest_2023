@@ -1,0 +1,9 @@
+Please check: http://95.177.210.198/kibana6/app/kibana#/visualize/edit/ea3b8850-1634-11e7-8c86-5705434df379?_g=(time:(from:now-12h))
+
+Threshold violation, avg:Max 188.347000122 (min: None max : 50) 
+
+@timestamp: 2023-10-07T00:48:28.293248Z
+Destination.keyword: stc-dstax-4
+metric_Max_avg: 188.347000122
+num_hits: 59
+num_matches: 17

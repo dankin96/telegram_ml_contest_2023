@@ -1,0 +1,7 @@
+  background: repeating-linear-gradient(
+    90deg,
+    #bc1a1a,
+    #bc1a1a 4px,
+    white 4px,
+    white 5px
+  );

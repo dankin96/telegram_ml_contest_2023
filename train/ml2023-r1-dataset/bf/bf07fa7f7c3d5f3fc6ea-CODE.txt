@@ -1,0 +1,49 @@
+version: '3'
+
+services:
+
+  front:
+     restart: unless-stopped
+     image: front/front
+     ports:
+       - "127.0.0.1:3000:80"
+     depends_on:
+       - web
+
+  web:
+    restart: unless-stopped
+    image: back/back
+
+    command: >
+      sh -c "python manage.py wait_for_db &&
+             python manage.py migrate &&
+             gunicorn --bind :8000 --workers 5 configs.wsgi:application --access-logfile - --error-logfile - "
+    ports:
+      - "127.0.0.1:8000:8000"
+    depends_on:
+      - db
+      - redis
+    env_file:
+      - .env_web_db
+    volumes:
+      - /home/media:/code/media/
+
+
+  db:
+    restart: unless-stopped
+    image: postgres:15-alpine
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    env_file:
+      - .env_web_db
+    ports:
+      - "5432:5432"
+
+  redis:
+    restart: unless-stopped
+    image: redis:7.0.5-alpine
+    hostname: redis
+
+
+volumes:
+  db-data:

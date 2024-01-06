@@ -1,0 +1,3 @@
+location /_matrix {
+proxy_pass localhost:8008/;
+}

@@ -1,0 +1,2 @@
+vless://dd62b8f7-240a-4f1f-a16e-d53c4f8513ba@turk.yodadl.pw:443?type=grpc&serviceName=&security=tls&fp=&alpn=http%2F1.1%2Ch2&sni=turk.yodadl.pw#%F0%9F%87%B9%F0%9F%87%B7-YodaVPNBot
+

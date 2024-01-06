@@ -1,0 +1,10 @@
+def replace_words(text):
+    words = text.split()
+    for i in range(len(words)):
+        if words[i] in ('easy', 'hard'):
+            words[i] = ''
+    return ' '.join(words)
+
+text = input('Enter a text: ')
+replaced_text = replace_words(text)
+print('Replaced text:', replaced_text)

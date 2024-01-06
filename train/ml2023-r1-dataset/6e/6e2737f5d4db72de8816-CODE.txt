@@ -1,0 +1,7 @@
+ function Send-TG {
+    param (
+        
+        [switch]$FilePath,$Message
+    )
+    
+}

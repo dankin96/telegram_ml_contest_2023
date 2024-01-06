@@ -1,0 +1,30 @@
+join2() {
+  (($# == 2 || $# == 3)) || return 1
+  local join2var=$1
+  local arrName=$2
+  local delim=$3
+  
+  local v
+  for v in ${join2var:+join2var} arrName; do
+    [[ ${!v} =~ ^[_0-9A-Za-z]+$ ]] || return 2
+  done
+  [[ $join2var ]] || join2var='v'
+  source <(
+    cat <<SOURCE
+         printf -v $join2var "%s${delim}" "\${$arrName[@]}" || return \$?
+         [[ \$delim ]] && $join2var=\${$join2var:0:-${#delim}}
+SOURCE
+  )
+  (($# == 2)) && echo "$v"
+  return 0
+}
+
+get_daemon_id2 () {
+  local var_name=$1
+  local dip res
+  local -a dips
+  for dip in ${DAEMON_ID_PARTS[@]}; do
+    dips+=(${!dip})
+  done
+  join2 $var_name dips $DAEMON_ID_PARTS_SEP
+}

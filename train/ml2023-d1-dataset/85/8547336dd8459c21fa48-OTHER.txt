@@ -1,0 +1,6 @@
+☆ Audio randomizer - file processing speed, logging, design;
+☆ Text randomizer - paraphrase speed;
+☆ Text randomizer - the stability of the paraphrase;
+☆ Performance - The overall performance of the application has been improved;
+☆ Help - the help file has been updated.
+

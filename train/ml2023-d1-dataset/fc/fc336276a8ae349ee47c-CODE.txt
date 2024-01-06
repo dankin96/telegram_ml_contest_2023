@@ -1,0 +1,4 @@
+alias: {
+  '@core/src': path.resolve(__dirname, './source/js'),
+  '@core/style': path.resolve(__dirname, './source/style')
+}

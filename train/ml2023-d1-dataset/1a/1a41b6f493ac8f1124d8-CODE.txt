@@ -1,0 +1,2 @@
+while True:
+           print("O ma gad, POCO")

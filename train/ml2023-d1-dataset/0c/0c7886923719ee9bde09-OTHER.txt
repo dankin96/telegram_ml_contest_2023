@@ -1,0 +1,4 @@
+   Caso o usuário toque o oponente a ponta de seus dedos ele deixará o usuário paralisado por 5 segundos.
+   Esse efeito tem 5 rounds de cooldow e pode ser usado 2 vezes em batalha
+
+

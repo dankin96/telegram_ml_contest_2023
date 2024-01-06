@@ -1,0 +1,5 @@
+struct X {
+  int a, b, c;
+ private:
+  auto fields(auto foo) { return std::tuple(&X::a, &X::b,&X::c); }
+};

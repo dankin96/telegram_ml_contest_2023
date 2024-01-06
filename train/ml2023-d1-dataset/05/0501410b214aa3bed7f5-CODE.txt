@@ -1,0 +1,10 @@
+        ffmpeg_cmd = [
+            'ffmpeg',
+            '-re',
+            '-i', ФАЙЛ,
+            '-c:a', 'aac',
+            '-b:a', '320k',
+            '-vn',
+            '-f', 'flv', Адрес куда транслировать
+        ]
+        subprocess.run(ffmpeg_cmd)

@@ -1,0 +1,58 @@
+- id: '1566942567812'
+  alias: Notifica apertura cancello
+  trigger:
+  - platform: state
+    entity_id: switch.sonoff_1000328a49_2
+    from: 'off'
+    to: 'on'
+  - platform: state
+    entity_id: switch.sonoff_1000328a49_1
+    from: 'off'
+    to: 'on'
+  action:
+  - variables:
+      all_users:
+        xxxxxxxxxxxxxxxxxx1489b312204134: Alice
+        xxxxxxxxxxxxxxxxxxfb88e9b9ae2bc5: Antonella
+        xxxxxxxxxxxxxxxxxxfc1d4408f89633: Giuliano
+        xxxxxxxxxxxxxxxxxx4d16d5e58d7957: Tablet
+        apri piccolo: Passo carrabile
+        apri grande: Cancello
+  - choose:
+    - conditions:
+      - condition: template
+        value_template: '{{ trigger.to_state.context.parent_id == none }}'
+      - condition: template
+        value_template: '{{ trigger.to_state.context.user_id == none }}'
+      - condition: template
+        value_template: '{{ trigger.to_state.context.id != none }}'
+      sequence:
+      - service: notify.giuliano_tel
+        data:
+          message: '{{ all_users.get(trigger.to_state.attributes.friendly_name,''qualcosa'')}}
+            aperto da condomini.'
+    - conditions:
+      - condition: template
+        value_template: '{{ trigger.to_state.context.parent_id != none }}'
+      - condition: template
+        value_template: '{{ trigger.to_state.context.user_id == none }}'
+      - condition: template
+        value_template: '{{ trigger.to_state.context.id != none }}'
+      sequence:
+      - service: notify.giuliano_tel
+        data:
+          message: '{{ all_users.get(trigger.to_state.attributes.friendly_name,''qualcosa'')}}
+            aperto da automazione.'
+    - conditions:
+      - condition: template
+        value_template: '{{ trigger.to_state.context.parent_id == none }}'
+      - condition: template
+        value_template: '{{ trigger.to_state.context.user_id != none }}'
+      - condition: template
+        value_template: '{{ trigger.to_state.context.id != none }}'
+      sequence:
+      - service: notify.giuliano_tel
+        data:
+          message: '{{ all_users.get(trigger.to_state.attributes.friendly_name,''qualcosa'')}}
+            aperto da {{ all_users.get(trigger.to_state.context.user_id, ''sconosciuto'')}}'
+    default: []

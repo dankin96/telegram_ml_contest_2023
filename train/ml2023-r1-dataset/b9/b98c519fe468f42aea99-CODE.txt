@@ -1,0 +1,32 @@
+ pov "My name is [povname] the [povspecies] and I am [povage] years old!"
+    pov "I have a...?"
+    menu:
+        "Penis":
+            python:
+                penis = True
+                vagina = False
+                both_genitals = False
+        "Vagina":
+            python:
+                vagina = True
+                penis = False
+                both_genitals = False
+        "Both":
+            python:
+                penis = True
+                vagina = True
+                both_genitals = True
+    if both_genitals == True:
+        "Got it! I have both genitals!"
+    elif penis == True:
+        "Got it! I have a penis!"
+    elif vagina == True:
+        "Got it! I have a vagina!"
+    "This will tailor your gameplay."
+    if vagina:
+        if penis:
+            "As you have a penis, topping scenarios will use your penis and bottoming scenarios will use your vagina."
+        else:
+            "As you have a penis, topping scenarios will use a strap on dildo and bottoming scenarios will use your vagina."
+    elif penis:
+        "As you have a penis, topping scenarios will use a strap on dildo and bottoming scenarios will use your ass."

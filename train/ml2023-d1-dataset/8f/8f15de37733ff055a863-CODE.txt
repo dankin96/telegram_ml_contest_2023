@@ -1,0 +1,16 @@
+query {
+  productByHandle(handle: "example-product-handle") {
+    id
+    title
+    images(first: 1) {
+      edges {
+        node {
+          src
+          altText
+          width
+          height
+        }
+      }
+    }
+  }
+}

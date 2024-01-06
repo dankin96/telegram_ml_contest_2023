@@ -1,0 +1,22 @@
+   class PizzaStore extends EventTarget {
+     constructor() {
+       super()
+     }
+     addPizza(flavor) {
+       // Вызываем событие прямо на классе
+       this.dispatchEvent(
+         new CustomEvent('pizzaAdded', {
+           detail: {
+             pizza: flavor,
+           },
+         }),
+       )
+     }
+   }
+
+   const Pizzas = new PizzaStore()
+   const handleAddPizza = (e) => {
+     console.log('Added pizza:', e.detail.pizza)
+   }
+   Pizzas.addEventListener('pizzaAdded', handleAddPizza)
+   Pizzas.addPizza('Supreme') // Added pizza: 

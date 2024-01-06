@@ -1,0 +1,36 @@
+# bu bizning birinchi darsimizning source codi
+
+# name = "Odiljon"
+# surname = "Abduvaitov"
+
+# print(name)
+# print("name")
+
+
+# print(name + "+" + surname)
+
+# a = 1
+# b = 2
+# c = 3
+# print(a, a, a, a, a, b, c, sep="+")
+
+# print(a, end=", ")
+# print(b)
+
+
+# print("bu birinchi qator", end=" (ikkita qator birlashdi) ")
+# print("bu ikkinchi qator")
+
+# print("name: Odiljon
+surname: Abduvaitov")
+
+
+# print("222222")
+# print("2    2")
+# print("2    2")
+# print("222222")
+#
+# print("222222 
+2    2 
+2    2 
+222222")

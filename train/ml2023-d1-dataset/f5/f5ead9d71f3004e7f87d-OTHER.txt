@@ -1,0 +1,12 @@
+root@userindo-1 
+- 
+OS: Ubuntu 22.04.3 LTS x86_64 
+Host: PowerEdge R610 
+Kernel: 6.2.16-3-pve 
+Uptime: 1 day, 6 hours 
+Packages: 646 (dpkg) 
+Shell: bash 5.1.16 
+Resolution: 1024x768 
+CPU: Intel Xeon X5660 (1) @ 3.059GHz 
+GPU: 06:03.0 Matrox Electronics Systems Ltd. MGA G200eW WPCM450 
+Memory: 1862MiB / 2048MiB

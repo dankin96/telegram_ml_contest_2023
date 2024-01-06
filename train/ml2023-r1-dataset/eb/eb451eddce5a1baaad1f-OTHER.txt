@@ -1,0 +1,15 @@
+01.⏹CAD    - GIR    - [0-1]|2
+02.🔄CEL    - GETA   - [0-0]|-
+03.🔄ALAV   - BET    - [0-0]|-
+04.⏹ATHC   - ALME   - [3-0]|1
+05.🔄GRAN   - BCN    - [0-0]|-
+06.🔄R.MAD  - OSA    - [0-0]|-
+07.🔄SEV    - RAYO   - [0-0]|-
+08.🔄VILL   - LASP   - [0-0]|-
+09.🔄LEGA   - OVIE   - [0-0]|-
+10.🔄RACI   - SPOR   - [0-0]|-
+11.🔄ZAR    - ALCO   - [0-0]|-
+12.🔄TEN    - BURG   - [0-0]|-
+13.🔄HUES   - ELD    - [0-0]|-
+14.🔄VALL   - MIRA   - [0-0]|-
+15.🔄ATMAD  - RSOC   - [0-0]|-

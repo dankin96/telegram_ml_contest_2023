@@ -1,0 +1,31 @@
+import requests
+from aiogram import Bot, Dispatcher, types
+from itertools import cycle
+
+API_KEYS = ['ваш_api_ключ1', 'ваш_api_ключ2', 'ваш_api_ключ3']  # добавьте столько ключей, сколько у вас есть
+API_KEYS_CYCLE = cycle(API_KEYS)  # создаем цикл ключей API
+TG_BOT_TOKEN = 'ваш_токен_бота'
+PROXIES = ['http://proxy1:port', 'http://proxy2:port', 'http://proxy3:port']  # добавьте свои прокси
+PROXIES_CYCLE = cycle(PROXIES)  # создаем цикл прокси
+
+bot = Bot(token=TG_BOT_TOKEN)
+dp = Dispatcher(bot)
+
+def get_response(message):
+    headers = {'Authorization': next(API_KEYS_CYCLE)}  # получаем следующий ключ API из цикла
+    data = {
+        'model': 'gpt-3.5-turbo',
+        'messages': [{'role': 'user', 'content': message}]
+    }
+    proxies = {'http': next(PROXIES_CYCLE)}  # получаем следующий прокси из цикла
+    response = requests.post('https://api.ddosxd.ru/v1/chat', headers=headers, json=data, proxies=proxies)
+    return response.json().get('reply')
+
+@dp.message_handler()
+async def echo(message: types.Message):
+    response = get_response(message.text)
+    await message.answer(response)
+
+if __name__ == '__main__':
+    from aiogram import executor
+    executor.start_polling(dp, skip_updates=True)

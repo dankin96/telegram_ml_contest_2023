@@ -1,0 +1,14 @@
+thread 'tests::data_output::data_capture_output_validation' panicked at 'assertion failed: `(left == right)`
+  left: `"owner,spender,amount
+\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x1\"
+\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x1\"
+\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x1\"
+\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x1\"
+"`,
+ right: `"owner,spender,amount
+\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x1\"
+\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x1\"
+\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x1\"
+\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x1\"
+\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x2efdc9eecfee3a776209fcb8e9a83a6b221d74f5\",\"0x1\"
+"`', arbiter-core/src/tests/data_output.rs:78:5

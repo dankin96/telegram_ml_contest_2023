@@ -1,0 +1,18 @@
+The error message indicates that the NuGet package Microsoft.PowerShell.SDK is trying to copy a file from the netcoreapp3.1 runtime to the net5.0 runtime, but the file does not exist in the netcoreapp3.1 runtime. This is because the Microsoft.PowerShell.SDK package has not been updated to support ASP.NET Core 5.0.
+
+There are two ways to fix this error:
+
+Use an older version of the Microsoft.PowerShell.SDK package. The latest version that supports ASP.NET Core 5.0 is 6.2.5.
+Update the Microsoft.PowerShell.SDK package to a newer version. However, be aware that the newer version of the package may not be compatible with your application.
+If you choose to use an older version of the Microsoft.PowerShell.SDK package, you can do so by editing the .csproj file for your ASP.NET Core application. In the .csproj file, locate the reference to the Microsoft.PowerShell.SDK package and change the version number to 6.2.5.
+
+If you choose to update the Microsoft.PowerShell.SDK package to a newer version, you can do so using the NuGet Package Manager. In the NuGet Package Manager, search for the Microsoft.PowerShell.SDK package and install the latest version.
+
+Once you have fixed the error, you should be able to publish your ASP.NET Core application without any problems.
+
+Here are some additional tips for troubleshooting this error:
+
+Make sure that you are using the latest version of the .NET Core SDK.
+Try cleaning and rebuilding your ASP.NET Core application.
+Try restarting your computer.
+If you are still having problems, try creating a new ASP.NET Core application and publishing it. If the new application publishes successfully, then there is a problem with your original application.

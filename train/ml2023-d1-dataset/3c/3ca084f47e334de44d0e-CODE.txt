@@ -1,0 +1,9 @@
+pub struct Round<M: ManagedTypeApi> {
+    pub round_id: usize,
+    pub round_status: RoundStatus,
+}
+
+#[view(getRound)]
+#[storage_mapper("round")]
+fn round_status(&self, round_id: usize) -> SingleValueMapper<Round>;
+

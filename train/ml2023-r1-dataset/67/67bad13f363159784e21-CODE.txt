@@ -1,0 +1,16 @@
+type N = forall x. (x -> x) -> x -> x
+
+one, two, three :: N
+one  = id
+
+two = (.) <$> one <*> one
+three = (.) <$> one <*> two
+
+succ :: N -> N
+succ pred = (.) <$> one <*> pred
+
+four :: N
+four = succ (succ (succ one))
+
+main = putStrLn $ four ('S' :) ""
+-- SSSS

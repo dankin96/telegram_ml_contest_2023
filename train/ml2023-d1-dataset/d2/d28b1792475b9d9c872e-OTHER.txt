@@ -1,0 +1,7 @@
+[INFO] 12-Oct-23 13:51:53 - Uploading file of 73666 bytes in 1 chunks of 131072
+[INFO] 12-Oct-23 14:17:54 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 12-Oct-23 14:17:55 - File lives in another DC
+[INFO] 12-Oct-23 14:17:56 - Exporting auth for new borrowed sender in DcOption(id=4, ip_address='149.154.167.91', port=443, ipv6=False, media_only=False, tcpo_only=False, cdn=False, static=False, this_port_only=False, secret=None)
+[INFO] 12-Oct-23 14:17:57 - Uploading file of 34919 bytes in 1 chunks of 131072
+[INFO] 12-Oct-23 14:19:14 - Disconnecting borrowed sender for DC 4
+[INFO] 12-Oct-23 14:21:15 - Starting direct file download in chunks of 131072 at 0, stride 131072

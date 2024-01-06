@@ -1,0 +1,8 @@
+try {
+   $sql = "UPDATE users SET a = :a WHERE id = :id";
+   $stmt = $conn->prepare($sql);
+   $stmt->execute([':a'=>$a, ':id'=>$id]);
+   echo "New records created successfully";
+} catch(PDOException $e) {
+  echo "Error: " . $e->getMessage();
+}

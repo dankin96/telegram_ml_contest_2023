@@ -1,0 +1,16 @@
+if (regvalue & SPI_SLV_WR_BUF_DONE) {
+            GPIO_OUTPUT_SET(0, 0);
+            idx = 0;
+
+            while (idx < 8) {
+                recv_data = READ_PERI_REG(SPI_W0(HSPI) + (idx << 2));
+                spi_data[idx << 2] = recv_data & 0xff;
+                spi_data[(idx << 2) + 1] = (recv_data >> 8) & 0xff;
+                spi_data[(idx << 2) + 2] = (recv_data >> 16) & 0xff;
+                spi_data[(idx << 2) + 3] = (recv_data >> 24) & 0xff;
+                idx++;
+            }
+
+            //add system_os_post here
+            GPIO_OUTPUT_SET(0, 1);
+        }

@@ -1,0 +1,5 @@
+bot.hears('imgword', (ctx)=>{
+  ctx.replyWithPhoto('https://blog.banghasan.com/assets/images/banghasan.jpg',{
+    caption : 'hello world'
+  })
+})

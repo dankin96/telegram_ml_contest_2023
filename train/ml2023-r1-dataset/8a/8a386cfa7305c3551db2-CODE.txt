@@ -1,0 +1,2 @@
+h20 = ta.highest(20)
+plot(h20[1])

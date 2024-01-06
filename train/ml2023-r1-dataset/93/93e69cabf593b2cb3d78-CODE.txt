@@ -1,0 +1,5 @@
+template <typename T>
+struct SomeLogic {
+     template <typename System, typename... Args>
+     void operator()(System& system, Args&&... args) {}
+};

@@ -1,0 +1,6 @@
+NodeApiError: Bad request - please check your parameters
+    at Object.uprocApiRequest (/usr/local/lib/node_modules/n8n/node_modules/n8n-nodes-base/dist/nodes/UProc/GenericFunctions.js:17:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at Object.execute (/usr/local/lib/node_modules/n8n/node_modules/n8n-nodes-base/dist/nodes/UProc/UProc.node.js:107:32)
+    at Workflow.runNode (/usr/local/lib/node_modules/n8n/node_modules/n8n-workflow/dist/Workflow.js:658:19)
+    at /usr/local/lib/node_modules/n8n/node_modules/n8n-core/dist/WorkflowExecute.js:631:53

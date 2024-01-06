@@ -1,0 +1,25 @@
+PWD=$(shell pwd)
+PROTO_DIRS=restaurant_staff \
+restaurant_restaurant \
+logistics_staff \
+logistics_vehicle \
+
+
+dirs: clear
+  mkdir -p ./src/application/protos;
+  @for dir in $(PROTO_DIRS); do \
+        echo "Creating directory $$dir "; \
+    mkdir -p ./src/application/protos/$$dir; \
+    done
+
+protos:
+  @for dir in $(PROTO_DIRS); do \
+        echo "Generating $$dir protos"; \
+    protoc \
+      --go_out=./src/application/protos/$$dir \
+      --go_opt=paths=source_relative \
+        --go-grpc_out=./src/application/protos/$$dir \
+      --go-grpc_opt=paths=source_relative \
+      -I=$(PWD)/src/infrastructure/protos/$$dir \
+         $(PWD)/src/infrastructure/protos/$$dir/*.proto; \
+  done

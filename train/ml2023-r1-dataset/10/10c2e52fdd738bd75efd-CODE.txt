@@ -1,0 +1,4 @@
+WebSettings settings = bridge.getWebView().getSettings();
+    settings.setTextZoom(100);
+    settings.setSupportZoom(false);
+

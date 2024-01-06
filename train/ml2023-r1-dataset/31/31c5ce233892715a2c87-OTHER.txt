@@ -1,0 +1,6 @@
+Hi @bernd, 
+I do not consider myself savvy at all at this  question. Someone suggests: 
+sleep 5 && conky -c ~/.config/conky/mabox_tools_mbcolor.conkyrc & sleep .5 
+modification of the first line of conky-sessionfile. Or find a value that suffices 
+Many regards 
+żółw

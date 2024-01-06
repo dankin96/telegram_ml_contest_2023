@@ -1,0 +1,4 @@
+b.b.s.Server Add mapping: ru.test.bgbilling.servlet.SecondServlet to /secondexecutor/*
+
+[10/Oct/2023:21:26:47 +0300] 0 404 778 \"POST /bgbilling/firstexecutor HTTP/1.0\"
+[10/Oct/2023:21:26:49 +0300] 0 200 - \"POST /bgbilling/secondexecutor HTTP/1.0\"

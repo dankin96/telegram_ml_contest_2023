@@ -1,0 +1,34 @@
+Nama   Harga  Rebound Sector                    
+SMKL*  248    TL      Basic Materials           
+TBLA   860    TL      Consumer Non-Cyclicals    
+SKRN*  580    TL      Industrials               
+ESSA   675    MA50    Basic Materials           
+SNLK*  1140   MA50    Consumer Cyclicals        
+CARS   104    MA50    Consumer Cyclicals        
+BOGA*  1225   MA50    Consumer Cyclicals        
+UFOE*  202    MA50    Consumer Cyclicals        
+STAA*  870    MA50    Consumer Non-Cyclicals    
+DSNG*  610    MA50    Consumer Non-Cyclicals    
+CPRO*  58     MA50    Consumer Non-Cyclicals    
+WINE   515    MA50    Consumer Non-Cyclicals    
+AMRT   2910   MA50    Consumer Non-Cyclicals    
+ISSI   214    MA50    Undefined                 
+AVIA*  560    DF      Basic Materials           
+ESTA   85     DF      Consumer Cyclicals        
+ICBP*  11575  DF      Consumer Non-Cyclicals    
+MLPL*  85     DF      Consumer Non-Cyclicals    
+HOKI*  133    DF      Consumer Non-Cyclicals    
+MIDI*  472    DF      Consumer Non-Cyclicals    
+APEX*  218    DF      Energy                    
+RMKE*  695    DF      Energy                    
+RUIS   292    DF      Energy                    
+PNLF   282    DF      Financials                
+CFIN   525    DF      Financials                
+CASA   580    DF      Financials                
+SIDO*  595    DF      Healthcare                
+KLBF*  1825   DF      Healthcare                
+MARK*  620    DF      Industrials               
+DMAS*  175    DF      Properties & Real Estate  
+GTRA   220    DF      Transportation & Logistic 
+MITI*  434    DF      Transportation & Logistic 
+LQ45   951    DF      Undefined                 

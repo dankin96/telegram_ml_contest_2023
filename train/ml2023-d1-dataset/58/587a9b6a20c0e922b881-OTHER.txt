@@ -1,0 +1,1 @@
+NBS / Development / DPC / Continuous Integration / NTS Repository / Автомердж develop => master / Build All

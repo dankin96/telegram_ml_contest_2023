@@ -1,0 +1,10 @@
+<gDatRec>
+        <iNatRec>2</iNatRec>
+        <iTiOpe>2</iTiOpe>
+        <cPaisRec>PRY</cPaisRec>
+        <dDesPaisRe>Paraguay</dDesPaisRe>
+        <iTipIDRec>6</iTipIDRec>
+        <dDTipIDRec>Tarjeta Diplomática de exoneración fiscal</dDTipIDRec>
+        <dNumIDRec>CD113-3-5714-22</dNumIDRec>
+        <dNomRec>EMBAJADA  AMERICANA</dNomRec>
+      </gDatRec>

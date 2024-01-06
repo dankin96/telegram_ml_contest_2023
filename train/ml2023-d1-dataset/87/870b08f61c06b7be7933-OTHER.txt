@@ -1,0 +1,26 @@
+
+Sandy (Portuguese (Brazil)) pt_BR    # Olá, meu nome é Sandy.
+Sara                da_DK    # Hej, jeg hedder Sara. Jeg er en dansk stemme.
+Satu                fi_FI    # Hei, minun nimeni on Satu. Olen suomalainen ääni.
+Shelley (German (Germany)) de_DE    # Hallo! Ich heiße Shelley.
+Shelley (English (UK)) en_GB    # Hello! My name is Shelley.
+Shelley (English (US)) en_US    # Hello! My name is Shelley.
+Shelley (Spanish (Spain)) es_ES    # ¡Hola! Me llamo Shelley.
+Shelley (Spanish (Mexico)) es_MX    # ¡Hola! Me llamo Shelley.
+Shelley (Finnish (Finland)) fi_FI    # Hei! Nimeni on Shelley.
+Shelley (French (Canada)) fr_CA    # Bonjour! Je m’appelle Shelley.
+Shelley (French (France)) fr_FR    # Bonjour, je m’appelle Shelley.
+Shelley (Italian (Italy)) it_IT    # Ciao! Mi chiamo Shelley.
+Shelley (Portuguese (Brazil)) pt_BR    # Olá, meu nome é Shelley.
+Sinji               zh_HK    # 你好，我叫善怡。我講廣東waa2。
+Tessa               en_ZA    # Hello, my name is Tessa. I am a South African-English voice.
+Thomas              fr_FR    # Bonjour, je m'appelle Thomas. Je suis une voix française.
+Tingting            zh_CN    # 你好，我叫 婷婷。我是中文普通话语音。
+Trinoids            en_US    # We cannot communicate with these carbon units.
+Whisper             en_US    # Pssssst, hey you, Yeah you, Who do ya think I'm talking to, the mouse?
+Xander              nl_NL    # Hallo, mijn naam is Xander. Ik ben een Nederlandse stem.
+Yelda               tr_TR    # Merhaba, benim adım Yelda. Ben Türkçe bir sesim.
+Yuna                ko_KR    # 안녕하세요. 제 이름은 유나입니다. 저는 한국어 음성입니다.
+Zarvox              en_US    # That looks like a peaceful planet.
+Zosia               pl_PL    # Witaj. Mam na imię Zosia, jestem głosem kobiecym dla języka polskiego.
+Zuzana              cs_CZ    # Dobrý den, jmenuji se Zuzana. Jsem český hlas.

@@ -1,0 +1,5 @@
+{
+  "cmd": ["/path/to/project/venv/bin/python", "-u", "$file"],
+  "selector": "source.python",
+  "file_regex": "^\\s*File \"(...*?)\", line ([0-9]*)"
+}

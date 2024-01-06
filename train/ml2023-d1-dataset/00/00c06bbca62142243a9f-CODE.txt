@@ -1,0 +1,3 @@
+
+#[wasm_bindgen(typescript_custom_section)]
+const TS_APPEND_CONTENT: &'static str = mia_proc_macro_che_genera_uno_string_literal!();

@@ -1,0 +1,20 @@
+17.4.2. Actions
+An inter-thread action is an action performed by one thread that can be detected or directly influenced by another thread. There are several kinds of inter-thread action that a program may perform:
+
+Read (normal, or non-volatile). Reading a variable.
+
+Write (normal, or non-volatile). Writing a variable.
+
+Synchronization actions, which are:
+
+Volatile read. A volatile read of a variable.
+
+Volatile write. A volatile write of a variable.
+
+Lock. Locking a monitor
+
+Unlock. Unlocking a monitor.
+
+The (synthetic) first and last action of a thread.
+
+Actions that start a thread or detect that a thread has terminated (§17.4.4).

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hora Exacta en Perú</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Hora Exacta en Perú:</h1>
+    <p id="hora"></p>
+
+    <script>
+        function obtenerHoraPeru() {
+            var fecha = new Date();
+            var hora = fecha.getHours();
+            var minutos = fecha.getMinutes();
+            var segundos = fecha.getSeconds();
+
+            var horaPeru = (hora - 5) + ":" + minutos + ":" + segundos;
+
+            document.getElementById("hora").textContent = horaPeru;
+        }
+
+        obtenerHoraPeru();
+    </script>
+</body>
+</html>

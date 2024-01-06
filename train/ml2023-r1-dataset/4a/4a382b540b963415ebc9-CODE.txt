@@ -1,0 +1,6 @@
+var str = "foo";
+
+if (string.Equals(str, "foo", StringComparison.Ordinal)
+{
+    throw new ArgumentException("String should not be equal to 'foo'.", nameof(str));
+}

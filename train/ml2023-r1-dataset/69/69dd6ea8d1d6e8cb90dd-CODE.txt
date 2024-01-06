@@ -1,0 +1,4 @@
+.KEY directory
+list <directory> all dirs nohead lformat "echo Replacing icon %P%N.info with default one...*Ncopy ENV:SYS/def_drawer.info %P%N.info" > ram:tmp
+execute ram:tmp
+delete ram:tmp

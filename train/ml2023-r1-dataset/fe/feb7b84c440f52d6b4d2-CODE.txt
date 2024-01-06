@@ -1,0 +1,20 @@
+const fs = require('fs');
+const path = require('path');
+
+const env = process.argv[2];
+
+if (!env) {
+  console.error("Please specify an environment (e.g., 'dev', 'stg', 'prod').");
+  process.exit(1);
+}
+
+const sourcePath = path.resolve(__dirname, `.env.${env}`);
+const destPath = path.resolve(__dirname, '.env');
+
+try {
+  fs.copyFileSync(sourcePath, destPath);
+  console.log(`Environment set to '${env}'.`);
+} catch (error) {
+  console.error(`Failed to set environment to '${env}': ${error.message}`);
+  process.exit(1);
+}

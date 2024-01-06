@@ -1,0 +1,21 @@
+Зад болит тут:
+{
+  requestData: {
+    appName: 'staff-api-service-dev-production',
+    url: '/payslip/3e9b53f2-ba56-4d60-933b-9ddabb513080',
+    method: 'GET',
+    query: {},
+    body: {},
+    params: {
+      emplId: '3e9b53f2-ba56-4d60-933b-9ddabb513080'
+    },
+    userId: 'c0c2f71c-de84-404c-9c07-6182ab372b3d',
+    agent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15'
+  },
+  exception: TypeError: Cannot destructure property 'snils' of '(intermediate value)' as it is null.
+      at PayslipService.getUserSnils (/var/www/dist/modules/onec/payslip/payslip.service.js:45:17)
+      at runMicrotasks (anonymous)
+      at processTicksAndRejections (node:internal/process/task_queues:96:5)
+      at async PayslipService.postReq (/var/www/dist/modules/onec/payslip/payslip.service.js:49:23)
+      at async PayslipService.findOne (/var/www/dist/modules/onec/payslip/payslip.service.js:41:26)
+}

@@ -1,0 +1,17 @@
+python
+import spacy
+
+# Загрузка языковой модели
+nlp = spacy.load('en_core_web_sm')
+
+# Обработка текста
+text = "Apple is looking at buying U.K. startup for $1 billion"
+doc = nlp(text)
+
+# Частеречная разметка
+for token in doc:
+    print(token.text, token.pos_, token.dep_)
+
+# Распознавание именованных сущностей
+for ent in doc.ents:
+    print(ent.text, ent.start_char, ent.end_char, ent.label_)

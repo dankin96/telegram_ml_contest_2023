@@ -1,0 +1,5 @@
+.lt-tsr-block:nth-child(2) .lt-tsr-content {
+    border-right: 2px solid #735f52;
+    border-left: 2px solid #735f52;
+}
+

@@ -1,0 +1,5 @@
+  vite: {
+    define: {
+      'process.env.NODE_ENV': process.env.ENV,
+    },
+  },

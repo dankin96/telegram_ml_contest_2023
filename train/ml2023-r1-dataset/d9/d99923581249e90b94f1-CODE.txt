@@ -1,0 +1,2 @@
+
+/Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -workspace ./ios/Flip.xcworkspace -scheme Flip -configuration Release -sdk iphoneos16.2 -destination generic/platform=iOS -archivePath ./Flip.xcarchive clean archive

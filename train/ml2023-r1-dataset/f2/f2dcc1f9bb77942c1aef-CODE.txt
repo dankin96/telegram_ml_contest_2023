@@ -1,0 +1,6 @@
+        
+<%= link_to controller: "pages", action: "product", id: product.id,  class: "stretched-link" do %>
+          <span class="card-title">
+            <%= product.name %>
+          </span>
+        <% end %>

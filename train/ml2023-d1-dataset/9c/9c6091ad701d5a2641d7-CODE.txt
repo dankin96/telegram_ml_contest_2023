@@ -1,0 +1,4 @@
+while True:
+   resp = requests.get(...)
+    if resp.json()['ok']:
+      break

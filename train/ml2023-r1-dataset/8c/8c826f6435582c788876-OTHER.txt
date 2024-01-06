@@ -1,0 +1,1 @@
+/tr [language code] [text / reply to text]

@@ -1,0 +1,2 @@
+func
+int are_slices_equal_2? (slice a, slice b) asm "SDEQ";

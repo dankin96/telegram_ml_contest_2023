@@ -1,0 +1,50 @@
+from pyrogram import enums, errors
+import asyncio
+
+async def clean(client, message, opt: str=None):
+    sukses_poto, sukses_vidio, sukses_doc, msg_link = 0, 0, 0, 0
+    if opt == "photo":
+        async for media in client.search_messages(message.chat.id, filter=enums.MessagesFilter.PHOTO):
+             if media.photo:
+                 try:
+                      await media.delete()
+                      sukses_poto +=1
+                 except errors.FloodWait as f:
+                      await asyncio.sleep(f.value)
+                      await media.delete()
+    elif opt == "video":
+        async for media in client.search_messages(message.chat.id, filter=enums.MessagesFilter.VIDEO):
+            if media.video:
+                 try:
+                      await media.delete()
+                      sukses_vidio +=1
+                 except errors.FloodWait as f:
+                      await asyncio.sleep(f.value)
+                      await media.delete()
+                      sukses_vidio += 1
+    elif opt == "doc":
+        async for media in client.search_messages(message.chat.id, filter=enums.MessagesFilter.DOCUMENT):
+            if media.document:
+                 try:
+                      await media.delete()
+                      sukses_doc +=1
+                 except errors.FloodWait as f:
+                      await asyncio.sleep(f.value)
+                      await media.delete()
+                      sukses_doc += 1
+    elif opt == "link":
+        async for media in client.search_messages(message.chat.id, filter=enums.MessagesFilter.URL):
+             if media.entities.type == enums.MessageEntityType.URL:
+                 try:
+                      await media.delete()
+                      msg_link +=1
+                 except errors.FloodWait as f:
+                      await asyncio.sleep(f.value)
+                      await media.delete()
+                      msg_link += 1
+    msg = f"Total file deleted: 
+Photo: {sukses_poto}
+Video: {sukses_vidio}
+Document:{sukses_doc}
+Url: {msg_link}"
+    return msg

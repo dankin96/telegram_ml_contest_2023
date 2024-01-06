@@ -1,0 +1,1 @@
+gost -L=ss://rc4-md5:key@:15368 -L=ssu://rc4-md5:key@:15368 -F=relay+mtls://xxx.xxx:58964?nodelay=1

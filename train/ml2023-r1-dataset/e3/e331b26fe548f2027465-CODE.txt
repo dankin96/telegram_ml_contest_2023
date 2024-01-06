@@ -1,0 +1,43 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Bullet : MonoBehaviour
+{
+    [SerializeField] float speed;
+    [SerializeField] float lifeTime;
+    [SerializeField] float distance;
+    [SerializeField] int damage;
+    [SerializeField] LayerMask whatIsSolid; // что пуля считает твёрдым
+    [SerializeField] GameObject bulletEffect;
+    [SerializeField] GameObject deadEffect;
+
+    private void Start()
+    {
+        Invoke("DestroyBullet", lifeTime);
+    }
+    void Update()
+    {
+        RaycastHit2D hitInfo = Physics2D.Raycast(transform.position, transform.up, distance, whatIsSolid); // проверка соприкосновения коллайдера
+        if(hitInfo.collider != null)
+        {
+            if(hitInfo.collider.CompareTag("Enemy"))
+            {
+                hitInfo.collider.GetComponent<Enemy>().TakeDamage(damage);   
+                Instantiate(deadEffect, transform.position, Quaternion.identity);
+                Destroy(deadEffect);
+            } 
+            DestroyBullet();
+        }
+        transform.Translate(Vector2.right * speed * Time.deltaTime);
+        
+    }
+
+    public void DestroyBullet()
+    {
+        Instantiate(bulletEffect, transform.position, Quaternion.identity); // создание эффекта в точке уничтожения пули
+        Destroy(gameObject);
+        Debug.Log("DestroyBullet");
+    }
+    
+}

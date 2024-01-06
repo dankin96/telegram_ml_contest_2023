@@ -1,0 +1,2 @@
+vless://fd08a650-140e-4fab-a8bf-fcc0e3c97f82@frs.vpn.defenyx.xyz:40100?type=grpc&serviceName=&security=reality&fp=chrome&pbk=3dCnM3O-Bf2lapINXGmXACeCF1JBe8-AwlWlKC22g1U&sni=sourceforge.net&sid=5776b7df&spx=%2F#%E2%9C%85%20S1-4glmwtwq
+

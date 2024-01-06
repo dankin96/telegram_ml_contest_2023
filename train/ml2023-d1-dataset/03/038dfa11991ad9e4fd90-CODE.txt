@@ -1,0 +1,3 @@
+with aws_vpc_ipv4_cidr_block_association.secondary_cidr,
+│   on subnet.tf line 13, in resource "aws_vpc_ipv4_cidr_block_association" "secondary_cidr":
+│   13: resource "aws_vpc_ipv4_cidr_block_association" "secondary_cidr" {

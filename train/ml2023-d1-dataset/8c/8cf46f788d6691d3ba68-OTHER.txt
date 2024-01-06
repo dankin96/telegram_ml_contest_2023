@@ -1,0 +1,41 @@
+➜  ~ clear
+➜  ~ ssh root@192.168.1.254 -p 8022
+root@192.168.1.254's password:
+
+
+BusyBox v1.25.1 () built-in shell (ash)
+
+  _______                     ________        __
+ |       |.-----.-----.-----.|  |  |  |.----.|  |_
+ |   -   ||  _  |  -__|     ||  |  |  ||   _||   _|
+ |_______||   __|_____|__|__||________||__|  |____|
+          |__| W I R E L E S S   F R E E D O M
+ -----------------------------------------------------
+ LEDE 17.01.5, 1.0.138
+ -----------------------------------------------------
+root@CPE200-4GLTE:~# cat /etc/openwrt_version
+1.0.138
+root@CPE200-4GLTE:~# cat /etc/openwrt_
+openwrt_release  openwrt_version
+root@CPE200-4GLTE:~# cat /etc/openwrt_release
+DISTRIB_ID='LEDE'
+DISTRIB_RELEASE='17.01.5'
+DISTRIB_REVISION='1.0.138'
+DISTRIB_CODENAME='openwrt'
+DISTRIB_TARGET='ramips/mt7628'
+DISTRIB_ARCH='mipsel_24kc'
+DISTRIB_DESCRIPTION='LEDE OpenWrt 17.01.5 1.0.138'
+DISTRIB_TAINTS='no-all no-ipv6 busybox'
+root@CPE200-4GLTE:~# df -h
+Filesystem                Size      Used Available Use% Mounted on
+/dev/root                 5.0M      5.0M         0 100% /rom
+tmpfs                    29.9M    376.0K     29.5M   1% /tmp
+/dev/mtdblock8            1.6M    804.0K    796.0K  50% /overlay
+overlayfs:/overlay        1.6M    804.0K    796.0K  50% /
+tmpfs                   512.0K         0    512.0K   0% /dev
+root@CPE200-4GLTE:~# free -m
+             total       used       free     shared    buffers     cached
+Mem:         61144      38804      22340        376       4100      12724
+-/+ buffers/cache:      21980      39164
+Swap:        29692          0      29692
+root@CPE200-4GLTE:~#eh

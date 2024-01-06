@@ -1,0 +1,2 @@
+UPDATE SET
+   foo = jsonb_set(jsonb_set(foo, '{a,b}','42'), '{f,j}','15')

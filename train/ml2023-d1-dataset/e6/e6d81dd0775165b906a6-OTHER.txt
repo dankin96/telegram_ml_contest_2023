@@ -1,0 +1,45 @@
+## Analysis of Target Style
+
+- **Element 1**: $element1_description
+- **Element 2**: $element2_description
+- ...
+
+## Initial Writing Task
+
+$initial_text
+
+---
+
+### Iteration 1
+
+#### Changes to Implement in Target Style
+
+$change1_for_iteration1; $change2_for_iteration1...
+
+#### Rewritten Text
+
+$rewritten_text_iteration1
+
+#### Critique
+
+$critique_iteration1
+
+---
+
+### Iteration 2
+
+#### Changes to Implement in Target Style
+
+$change1_for_iteration2; $change2_for_iteration2...
+
+#### Rewritten Text
+
+$rewritten_text_iteration2
+
+#### Critique
+
+$critique_iteration2
+
+---
+
+(Repeat iterations as needed, up to 10 times)

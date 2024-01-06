@@ -1,0 +1,24 @@
+.t830__panel {
+  top: 0;
+  right: 0;
+  left: auto;
+}
+.t830m_open.t830m {
+  -ms-transform: translate(100vw,0);
+  -webkit-transform: translate(100vw,0);
+  transform: translate(100vw,0);
+}
+.t830m_open.t830m__menu_show.t830m {
+  -ms-transform: translate(80vw,0);
+  -webkit-transform: translate(80vw,0);
+  transform: translate(80vw,0);
+}
+@media screen and (min-width: 1200px) {
+  .t830__allrecords_padd, .t830__t-tildalabel_padd, .t830__allrecords_padd-small, .t830__t-tildalabel_padd-small {
+    padding-left: 0;
+    padding-right: 50px;
+  }
+}
+.t830__panel {
+  background-color: #efefef;
+}

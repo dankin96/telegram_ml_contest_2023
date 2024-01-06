@@ -1,0 +1,33 @@
+tproxy-port: 7893
+bind-address: "*"
+mode: rule
+allow-lan: true
+log-level: silent
+external-controller: 0.0.0.0:9090
+external-ui: yacd-gh-pages
+unified-delay: true
+proxies:
+  - name: xraypro
+    server: 127.0.0.1
+    port: 443
+    type: vmess
+    uuid: 9280c57f-c56e-47f1-9ff7-7f529bfa48d1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 127.0.0.1
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: 127.0.0.1
+    udp: true
+proxy-groups:
+  - name: GLOBAL
+    type: select
+    proxies:
+      - DIRECT
+      - REJECT
+rules:
+  - MATCH,GLOBAL

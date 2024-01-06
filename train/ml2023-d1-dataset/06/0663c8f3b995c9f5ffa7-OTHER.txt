@@ -1,0 +1,4 @@
+OnCollisionEnter:
+ui.visible = true;
+OnCollisionExit:
+ui.visible = false;

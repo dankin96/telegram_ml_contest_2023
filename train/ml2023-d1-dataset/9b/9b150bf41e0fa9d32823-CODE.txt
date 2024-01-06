@@ -1,0 +1,2 @@
+import frontend_developer as html_senior from "@6seniors";
+const { pechen, pochki, hearth, legkie } = frontend_developer;

@@ -1,0 +1,11 @@
+python
+import marshal
+
+# Marshal data in byte format
+marshal_data = b'\x03\x00\x00\x00\x08\x00\x00\x00\x01\x00\x00\x00\x04\x00\x00\x00test'
+
+# Decode Marshal data
+decoded_data = marshal.loads(marshal_data)
+
+# Print the decoded data
+print(decoded_data)

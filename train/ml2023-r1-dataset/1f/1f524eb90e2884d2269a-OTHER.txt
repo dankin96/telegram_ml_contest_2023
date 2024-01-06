@@ -1,0 +1,3 @@
+ &LTlora:Theo James:1>Recommendations:
+
+ADetailer : Use to make the face much more realistic with LoRA.

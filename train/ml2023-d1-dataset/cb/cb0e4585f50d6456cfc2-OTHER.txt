@@ -1,0 +1,11 @@
+
+           entall  
+         +----------+
+ubestemt | teller   |
+ bestemt | telleren |
+         +----------+
+           flertall
+         +----------+
+ubestemt | tellere  |
+ bestemt | tellerne |
+         +----------+

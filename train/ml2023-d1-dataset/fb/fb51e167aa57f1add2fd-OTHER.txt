@@ -1,0 +1,19 @@
+!
+lacp system-priority  100
+port-channel load-balance src-dest-mac-ip-port
+!
+interface tengigabitethernet 0/1
+  channel-group 1 mode active
+  lacp port-priority 200
+  lacp timeout short
+!
+interface tengigabitethernet 0/2
+  channel-group 1 mode active
+  lacp port-priority 200
+  lacp timeout short
+!
+interface port-channel 1
+  mtu 1522
+  switchport general allowed vlan add 2-4096
+  switchport forbidden default-vlan
+!

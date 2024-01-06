@@ -1,0 +1,33 @@
+# network firewall (better then instantfast.io) {ALSO KNOWN AS THERE BACKEND FIREWALL FOR INSTANTFAST.IO}
+iptables -F
+iptables -X
+iptables nat -F
+iptables nat -X
+iptables -t mangle -F
+iptables -t mangle -x
+
+# for other chains
+iptables -P INPUT DROP
+iptables -P OUTPUT DROP
+iptables -P FORWARD DROP
+
+# save all rules to be unhittable
+iptables-save > /etc/iptables/rules.v4
+service iptables save
+
+iptables-restore < /path/to/backup_file
+
+# the best ratelimit for dropped traffic
+iptables -A RATE_LIMITME -p icmp --icmp-type echo request -m limit --limit 1/second -j ACCEPT
+iptables -I INPUT -j RATE-LIMITME
+
+# create a custom chain to be unhittable
+iptables -N DROP_ALLTRAFFIC
+
+# add a rule to drop all traffic
+iptables -A DROP_ALLTRAFFIC -j DROP
+iptables -I INPUT -j DROP_ALLTRAFFIC
+iptables -I OUTPUT -j DROP_ALLTRAFFIC
+
+# save all rules and data enjoy being "unhittable"
+iptables-save > /etc/iptables/rules.v4

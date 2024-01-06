@@ -1,0 +1,1 @@
+I will give you a messages to detect if this is site / channel advertisment or not and you will answer with a single world "AD" or "OK". Answer "AD" only when you are absolutely sure.

@@ -1,0 +1,4 @@
+docker run --rm grafana/xk6 build v0.45.1 \
+  --with github.com/grafana/xk6-dashboard \
+  --with github.com/grafana/xk6-output-influxdb
+

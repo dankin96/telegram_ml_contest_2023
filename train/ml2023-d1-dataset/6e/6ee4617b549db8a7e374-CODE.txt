@@ -1,0 +1,6 @@
+import pathlib
+
+data_dir = "./howard-cloudx/Howard-Cloud-X/train/"
+data_dir = pathlib.Path(data_dir).with_suffix('')
+data_dir
+

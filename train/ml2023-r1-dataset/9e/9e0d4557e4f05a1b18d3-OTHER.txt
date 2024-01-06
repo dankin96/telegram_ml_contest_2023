@@ -1,0 +1,13 @@
+Avicennia marina [‘Grey Mangrove’,’Api Api Jambu’]
+Carya ovalis [‘Red Hickory’,’Sweet Pignut Hickory’]
+Celtis laevigata [‘Sugarberry’,’Sugar Hackberry’]
+Fraxinus caroliniana [‘Pop Ash’,’Florida Ash’]
+Myrsine lessertiana [‘kōlea Lau Nui’]
+Nyssa aquatica [‘Water Tupelo’]
+Nyssa biflora [‘Swamp Tupelo’,’Swamp Black Gum’]
+Quercus michauxii [‘Swamp Chestnut Oak’]
+Rhizophora apiculata [‘Bakau Minyak’]
+Salix caroliniana [‘Coastal Plain Willow’]
+Taxodium ascendens [‘Pond Cypress’]
+Taxodium distichum [‘Bald Cypress’]
+

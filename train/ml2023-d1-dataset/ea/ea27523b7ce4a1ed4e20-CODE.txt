@@ -1,0 +1,1 @@
+exec /usr/bin/wireplumber 1>>"${GENTOO_WIREPLUMBER_LOG}" 2>&1

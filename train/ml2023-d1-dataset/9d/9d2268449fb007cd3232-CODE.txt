@@ -1,0 +1,45 @@
+python
+import random
+
+# Создаем список с покет-кодами
+pocket_codes = ["AB123", "CD456", "EF789", "GH012", "IJ345"]
+
+# Функция для генерации случайного покет-кода
+def generate_code():
+    return random.choice(pocket_codes)
+
+# Функция для проверки введенного покет-кода
+def check_code(code):
+    if code in pocket_codes:
+        return True
+    else:
+        return False
+
+# Основной игровой цикл
+def game():
+    print("Добро пожаловать в игру Покет код!")
+    print("У вас есть 3 попытки, чтобы угадать правильный покет-код.")
+
+    # Генерируем случайный покет-код
+    secret_code = generate_code()
+
+    # Инициализируем переменную для хранения количества попыток
+    attempts = 3
+
+    while attempts > 0:
+        print("Введите покет-код:")
+        user_code = input()
+
+        if check_code(user_code):
+            print("Поздравляю! Вы угадали правильный покет-код!")
+            break
+        else:
+            print("Неправильный покет-код.")
+            attempts -= 1
+            print("Осталось попыток:", attempts)
+
+    if attempts == 0:
+        print("У вас закончились попытки. Игра окончена.")
+
+# Запускаем игру
+game()

@@ -1,0 +1,6 @@
+struct returns{int x; int z;} foo(struct {int x, y;} args) {
+  return (struct returns){.x = args.x, .z = args.y};
+}
+struct returns{int x; int z;} foo(struct {int x, y;} args) {
+  return (struct returns){.x = args.x, .z = args.y};
+}

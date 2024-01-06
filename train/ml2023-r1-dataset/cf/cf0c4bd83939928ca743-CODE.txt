@@ -1,0 +1,1 @@
+await client.send_message(message.chat.id, "/ban @Iyainajal")

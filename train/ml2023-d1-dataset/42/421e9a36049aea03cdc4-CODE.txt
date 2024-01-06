@@ -1,0 +1,33 @@
+python
+from psychopy import visual, event, core
+
+# Создаем окно размером 600x600 пикселей с белым фоном
+win = visual.Window([600, 600], color="white")
+
+# Создаем круг с начальным цветом "серый"
+circle = visual.Circle(win, radius=50, fillColor="gray", lineColor="gray")
+
+# Основной цикл программы
+while True:
+    # Ждем нажатия клавиши
+    keys = event.waitKeys()
+
+    # Меняем цвет круга в зависимости от нажатой клавиши
+    if 'r' in keys:
+        circle.setFillColor('red')
+        circle.setLineColor('red')
+    elif 'g' in keys:
+        circle.setFillColor('green')
+        circle.setLineColor('green')
+    elif 'b' in keys:
+        circle.setFillColor('blue')
+        circle.setLineColor('blue')
+    elif 'q' in keys:  # Если пользователь нажал 'q', выходим из программы
+        break
+
+    # Отображаем круг
+    circle.draw()
+    win.flip()
+
+# Закрываем окно
+win.close()

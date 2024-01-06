@@ -1,0 +1,11 @@
+
+const S = struct {
+ allocator: std.mem.Allocator;
+ ...
+
+ fn prepareData(self: Self) !ArrayList(u8) {
+  var d = try ArrayList(u8).init(self.allocator);
+  ...
+  return d;
+ }
+}

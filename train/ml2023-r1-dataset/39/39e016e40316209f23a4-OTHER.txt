@@ -1,0 +1,33 @@
+Exchange RUNEUSDT 1h Binance
+Price:    1.96|    1.99|    2.03
+Vol:   201,494| 687,869| 243,314
+ATR: 0.0399
+
+❌OBV:  -5.4 M|  -5.2 M|  -4.5 M
+⚪RSI:   42.74|   45.66|   52.65
+⚪MFI:   43.61|   49.45|   49.07
+⚪CCI:  -65.41|  -23.36|   46.73
+❌WR%: -100.00|  -90.00|  -62.50
+❌ADX:   11.83|   12.20|   12.94
+
+⚪MOM: No Momentum
+❌SMA: Price Below SMA Bearish
+❌ADI: -DI > +DI Bearish
+❌MACD: Bearish
+❌PSAR: Bearish
+
+Support And Resistance
+S: $1.934
+R: $1.998
+R: $2.074
+
+Volatility is moderately low
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+🐻Volume: Bearish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

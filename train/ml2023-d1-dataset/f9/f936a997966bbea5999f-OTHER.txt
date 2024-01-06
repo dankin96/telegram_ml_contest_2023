@@ -1,0 +1,32 @@
+Exchange ICPUSDT 1h Binance
+Price:    2.98|    2.98|    2.97
+Vol:       409|  15,082|  27,760
+ATR: 0.0219
+
+❌OBV:-841.3 K|-840.9 K|-856.0 K
+⚪RSI:   57.16|   58.95|   55.03
+⚪MFI:   58.88|   55.41|   56.57
+⚪CCI:  123.19|  142.36|  121.49
+⚪WR%:  -13.89|   -1.89|  -23.08
+❌ADX:   19.35|   20.10|   20.91
+
+✅MOM: Bullish Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+✅PSAR: Bullish
+
+Support And Resistance
+S: $2.932
+R: $2.983
+
+Volatility is average
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+🐻Volume: Bearish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

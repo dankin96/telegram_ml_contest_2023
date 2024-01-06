@@ -1,0 +1,5 @@
+  factory: BgManagerFactory = manager.middleware_data['dialog_bg_factory']
+  await manager.switch_to(TestSG.success)
+  async def task():
+      await factory.bg(bot, user_id, chat_id).done(result)
+  asyncio.create_task(task())

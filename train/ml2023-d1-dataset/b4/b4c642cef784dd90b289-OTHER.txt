@@ -1,0 +1,12 @@
+root@bsVcore2:~# export DISPLAY=:0
+root@bsVcore2:~# echo $DISPLAY
+:0
+root@bsVcore2:~# mpv /media/demoss/2A23-68BD/LG_Barcelona_4K_UHD-HDCLUB.mp4
+ (+) Video --vid=1 (*) (h264 3840x2160 30.000fps)
+ (+) Audio --aid=1 --alang=eng (*) (aac 2ch 44100Hz)
+Authorization required, but no authorization protocol specified
+[vo/gpu/x11] couldn't open the X11 display (:0)!
+[vo/gpu] Failed initializing any suitable GPU context!
+Error opening/initializing the selected video_out (--vo) device.
+Video: no video
+Exiting... (Errors when loading file)

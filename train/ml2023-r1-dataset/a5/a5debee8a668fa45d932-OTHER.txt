@@ -1,0 +1,14 @@
+WinGo 5 minute
+NO.169 Bet:Big    1
+NO.169 Bet:Big    1
+NO.169 Bet:Big    1
+
+WinGo 5 minute
+NO.170 Bet:Small  3
+NO.170 Bet:Small  3
+NO.170 Bet:Small  3
+
+WinGo 5 minute
+NO.171 Bet:Big    8
+NO.171 Bet:Big    8
+NO.171 Bet:Big    8

@@ -1,0 +1,3 @@
+void strcpy(char const* src, char* dst) {
+    while ((*dst++ = *src++));
+}

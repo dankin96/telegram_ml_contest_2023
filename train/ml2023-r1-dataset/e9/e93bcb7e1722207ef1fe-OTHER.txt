@@ -1,0 +1,23 @@
+[INFO] 07-Oct-23 02:03:29 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 07-Oct-23 02:03:29 - Uploading file of 95838 bytes in 1 chunks of 131072
+[INFO] 07-Oct-23 02:43:29 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 07-Oct-23 02:43:30 - Uploading file of 79778 bytes in 1 chunks of 131072
+[INFO] 07-Oct-23 03:02:02 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 07-Oct-23 03:02:03 - Uploading file of 134940 bytes in 2 chunks of 131072
+[INFO] 07-Oct-23 06:02:30 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 07-Oct-23 06:02:31 - Uploading file of 234303 bytes in 2 chunks of 131072
+[INFO] 07-Oct-23 08:51:28 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 07-Oct-23 08:51:29 - Uploading file of 93565 bytes in 1 chunks of 131072
+[INFO] 07-Oct-23 08:56:33 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 07-Oct-23 08:56:34 - Uploading file of 86137 bytes in 1 chunks of 131072
+[INFO] 07-Oct-23 09:02:33 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 07-Oct-23 09:02:34 - Uploading file of 82067 bytes in 1 chunks of 131072
+[INFO] 07-Oct-23 09:43:34 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 07-Oct-23 09:43:35 - Uploading file of 73666 bytes in 1 chunks of 131072
+[INFO] 07-Oct-23 09:49:34 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 07-Oct-23 09:49:35 - Uploading file of 84110 bytes in 1 chunks of 131072
+[INFO] 07-Oct-23 10:07:05 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 07-Oct-23 10:07:06 - Uploading file of 78273 bytes in 1 chunks of 131072
+[INFO] 07-Oct-23 11:13:56 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 07-Oct-23 11:13:57 - Uploading file of 62735 bytes in 1 chunks of 131072
+[INFO] 07-Oct-23 11:14:35 - Starting direct file download in chunks of 131072 at 0, stride 131072

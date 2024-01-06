@@ -1,0 +1,1 @@
+initializeNewPublishers: the loader is still catching up because we still don't know the high water mark yet

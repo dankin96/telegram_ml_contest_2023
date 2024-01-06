@@ -1,0 +1,22 @@
+import z from 'zod'
+
+const EnvSchema = z.object({
+  NODE_ENV: z.enum(['production', 'development']),
+  DATABASE_URL: z.string(),
+})
+
+const parsed = EnvSchema.parse(process.env)
+
+type Parsed = typeof parsed
+
+type ParsedKeys = keyof Parsed
+
+export function env<T extends ParsedKeys | (string & {})>(
+  key: T
+): T extends ParsedKeys ? Parsed[T] : string | undefined {
+  const result = parsed[key as ParsedKeys]
+  if (result === undefined) {
+    return process.env[key] as any
+  }
+  return result as any
+}

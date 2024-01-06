@@ -1,0 +1,60 @@
+import tkinter as tk
+import json
+
+def save_data():
+    token = token_entry.get()
+    data_claim = data_claim_entry.get()
+    
+    if token and data_claim:
+        try:
+            # Membaca data yang sudah ada dari file
+            with open("data.json", "r") as file:
+                existing_data = json.load(file)
+        except FileNotFoundError:
+            existing_data = []
+        
+        # Menambahkan data baru ke dalam list
+        existing_data.append({"token": token, "data_claim": data_claim})
+        
+        # Menyimpan data yang sudah diupdate ke dalam file
+        with open("data.json", "w") as file:
+            json.dump(existing_data, file)
+        
+        status_label.config(text="Data telah disimpan.")
+    else:
+        status_label.config(text="Isi kedua kolom input terlebih dahulu.")
+
+# Membuat jendela utama
+root = tk.Tk()
+root.title("Simpan Data JSON")
+
+# Mengatur ukuran jendela seperti ukuran ponsel umumnya
+window_width = 320
+window_height = 480
+screen_width = root.winfo_screenwidth()
+screen_height = root.winfo_screenheight()
+x = (screen_width // 2) - (window_width // 2)
+y = (screen_height // 2) - (window_height // 2)
+root.geometry(f"{window_width}x{window_height}+{x}+{y}")
+
+# Membuat label dan entry untuk token
+token_label = tk.Label(root, text="Token:")
+token_label.pack()
+token_entry = tk.Entry(root)
+token_entry.pack()
+
+# Membuat label dan entry untuk data_claim
+data_claim_label = tk.Label(root, text="Data Claim:")
+data_claim_label.pack()
+data_claim_entry = tk.Entry(root)
+data_claim_entry.pack()
+
+# Membuat tombol save
+save_button = tk.Button(root, text="Save", command=save_data)
+save_button.pack()
+
+# Label untuk menampilkan status
+status_label = tk.Label(root, text="")
+status_label.pack()
+
+root.mainloop()

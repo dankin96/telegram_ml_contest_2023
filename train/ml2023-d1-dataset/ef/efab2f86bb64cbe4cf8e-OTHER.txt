@@ -1,0 +1,10 @@
+       ==== SIGNAL UPDATE ====
+Symbol      #AAPL (BATS)
+Type        stock
+Time Frame  60 minute
+Trend       Up Trend
+Signal      Overbought - Extremely
+Last Close  181.7700
+E1          177.2093
+E2          176.7399
+Time        2023-10-12 22:30

@@ -1,0 +1,2 @@
+cd /opt/pgpro/1c-15/bin
+sudo ./pg-wrapper links update

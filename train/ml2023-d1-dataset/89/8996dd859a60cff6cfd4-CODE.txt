@@ -1,0 +1,9 @@
+java
+import javax.validation.constraints.NotBlank;
+
+public class User {
+    @NotBlank
+    private String username;
+
+    // Getter va Setter metotlari
+}

@@ -1,0 +1,2 @@
+
+kafka-producer-performance -brokers=kafka -message-load=20000 -message-size=30000 -topic=test

@@ -1,0 +1,4 @@
+keymap("i", "<C-e>", "<End>")
+keymap("i", "<C-b>", "<Left>")
+keymap("i", "<C-f>", "<Right>")
+keymap("i", "<C-d>", "<Del>")

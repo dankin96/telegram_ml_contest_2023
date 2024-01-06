@@ -1,0 +1,1 @@
+This proposal is aimed to claim the partly filled limit orders, that were set by MIP-86, 87. The funds will be used to purchase wETH and build the $100k wETH/MNTA POL according the execution plan, described here: https://t.me/MantaDAO/1/24082 and here https://discord.com/channels/1095005002201833495/1152681232707104818/1159482040077537290

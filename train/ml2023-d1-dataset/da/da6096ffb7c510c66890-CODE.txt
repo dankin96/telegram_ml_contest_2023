@@ -1,0 +1,2 @@
+<a href="@Url.Content("~/assets/data/" + Uri.EscapeDataString(ViewBag.filesList[i]))" download>@ViewBag.filesList[i]</a>
+

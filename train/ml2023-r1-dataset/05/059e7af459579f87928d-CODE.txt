@@ -1,0 +1,1 @@
+sudo dbus-monitor --system 'destination=com.ubports.SystemImage, member=SetChannel'

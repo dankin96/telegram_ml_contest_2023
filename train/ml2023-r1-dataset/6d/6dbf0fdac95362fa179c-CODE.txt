@@ -1,0 +1,5 @@
+* url : https://blg-bus.ru/schedules
+* http_method : GET
+* ip_address : 31.129.1.74
+* parameters : {"controller"=>"schedules", "action"=>"index"}
+* timestamp : 2023-10-05 20:02:44 +0900

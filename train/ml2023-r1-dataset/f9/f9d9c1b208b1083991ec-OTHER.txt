@@ -1,0 +1,1 @@
+10月6日消息，基于Uni v3合约构建的DEX Oku Trade已上线zkSync Era。该协议由Uniswap基金会和GFX Labs提供资助。用户可通过该协议进行限价订单交易，提供LP头寸等。

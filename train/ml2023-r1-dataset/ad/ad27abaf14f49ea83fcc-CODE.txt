@@ -1,0 +1,7 @@
+# cat configure
+...
+sh A/configure
+sh B/configure
+sh libC/configure
+...
+

@@ -1,0 +1,8 @@
+Плохой сайт =
+COUNTROWS (
+    FILTER (
+        'Сайт',
+        CALCULATE ( SUM ( 'ADSFINData'[Расходы] ) ) > 0
+            && CALCULATE ( SUM ( 'LeadTechDATA'[Доход] ) ) == 0
+    )
+)

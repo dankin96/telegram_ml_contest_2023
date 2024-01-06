@@ -1,0 +1,48 @@
+#include <iostream>
+using namespace std;
+
+struct Node {
+    int data;
+    Node* next;
+};
+
+void deleteList(Node* head) {
+    Node* current = head;
+    Node* next;
+    
+    while (current != NULL) {
+        next = current->next;
+        delete current;
+        current = next;
+    }
+    
+    head = NULL; // устанавливаем указатель на голову списка в NULL
+}
+
+int main() {
+    // создание списка
+    Node* head = new Node();
+    Node* second = new Node();
+    Node* third = new Node();
+    
+    head->data = 1;
+    head->next = second;
+    
+    second->data = 2;
+    second->next = third;
+    
+    third->data = 3;
+    third->next = NULL;
+    
+    // вызов функции удаления списка
+    deleteList(head);
+    
+    // проверка, что список удален
+    if (head == NULL) {
+        cout << "Список удален" << endl;
+    } else {
+        cout << "Ошибка при удалении списка" << endl;
+    }
+    
+    return 0;
+}

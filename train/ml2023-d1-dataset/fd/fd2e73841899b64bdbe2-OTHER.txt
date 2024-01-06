@@ -1,0 +1,21 @@
+System: 
+Kernel: 6.5.6-zen2-1-zen arch: x86_64 bits: 64 compiler: gcc v: 13.2.1 
+clocksource: tsc available: hpet,acpi_pm 
+parameters: BOOT_IMAGE=/@/boot/vmlinuz-linux-zen 
+root=UUID=eaf29f3f-6128-4f5b-a449-97a1ba9f36d4 rw rootflags=subvol=@ 
+quiet quiet rd.udev.log_priority=3 vt.global_cursor_default=0 loglevel=3 
+ibt=off 
+Desktop: KDE Plasma v: 5.27.8 tk: Qt v: 5.15.11 wm: kwin_x11 vt: 2 
+dm: SDDM Distro: Garuda Linux base: Arch Linux 
+Machine: 
+Type: Desktop Mobo: ASUSTeK model: PRIME X570-P v: Rev X.0x 
+serial:  UEFI: American Megatrends v: 4403 
+date: 04/28/2022 
+CPU: 
+Info: model: AMD Ryzen 9 5900X bits: 64 type: MT MCP arch: Zen 3+ gen: 4 
+level: v3 note: check built: 2022 process: TSMC n6 (7nm) family: 0x19 (25) 
+model-id: 0x21 (33) stepping: 0 microcode: 0xA201016 
+Topology: cpus: 1x cores: 12 tpc: 2 threads: 24 smt: enabled cache: 
+L1: 768 KiB desc: d-12x32 KiB; i-12x32 KiB L2: 6 MiB desc: 12x512 KiB 
+L3: 64 MiB desc: 2x32 MiB 
+Speed (MHz): avg: 3718 high: 4494 min/max: 2200...

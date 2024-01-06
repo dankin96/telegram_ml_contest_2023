@@ -1,0 +1,3 @@
+#!/bin/bash
+cd ~/vimwiki
+nvim +'VimwikiIndex' -c "tabedit ~/vimwiki/diary/diary.md"

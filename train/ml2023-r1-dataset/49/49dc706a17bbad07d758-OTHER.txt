@@ -1,0 +1,30 @@
+
+| PyroZu-UserBot Plugins |
++------------+-----------+
+| admin      | afk       |
+| animation  | asupan    |
+| broadcast  | carbon    |
+| clone      | create    |
+| fakeaction | globals   |
+| google     | info      |
+| invite     | islamic   |
+| joinleave  | locks     |
+| log        | memes     |
+| memify     | misc      |
+| notes      | openai    |
+| parse      | paste     |
+| ping       | pmpermit  |
+| profile    | purge     |
+| quotly     | reverse   |
+| salam      | sangmata  |
+| song       | sosmed    |
+| spam       | speedtest |
+| start      | stats     |
+| sticker    | system    |
+| tag        | tagall    |
+| telegraph  | tiny      |
+| toxic      | toxic1    |
+| translate  | update    |
+| vctools    | voice     |
+| webshot    | youtubedl |
++------------+-----------+

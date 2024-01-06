@@ -1,0 +1,2 @@
+sas = AlphaTrade(login_id=config.login_id, password=config.password,
+                 twofa=totp, access_token=config.access_token, master_contracts_to_download=['MCX', 'NFO', 'BFO'])

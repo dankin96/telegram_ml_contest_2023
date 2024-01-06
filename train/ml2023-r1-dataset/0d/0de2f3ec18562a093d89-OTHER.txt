@@ -1,0 +1,5 @@
+Token: CYBERUSDT
+Price: $4.9355
+24H High: $4.9517
+24H Low: $4.8222
+24H Volume: 7423.48 CYBER

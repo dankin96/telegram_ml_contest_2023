@@ -1,0 +1,8 @@
+import math
+ 
+x = -10
+y = 3
+ 
+result = math.fmod(x, y)
+ 
+print(result)  # Output: -1.0

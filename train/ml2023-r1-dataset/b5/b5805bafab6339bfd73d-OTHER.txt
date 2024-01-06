@@ -1,0 +1,9 @@
+v10.1.1.1 (20477) Play Store ru
+Redmi M2101K6G android 13
+ROM: TKQ1.221013.002 release-keys
+Keep original name: true
+Accounts: 2
+Performance: AVERAGE
+Cache: 14,17 GB
+Database: 265,7 MB
+Free: 174,72 G

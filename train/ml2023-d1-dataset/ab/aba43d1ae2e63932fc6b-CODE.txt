@@ -1,0 +1,39 @@
+javascript
+// Carga la API de hCaptcha
+function loadCaptcha() {
+  var script = document.createElement('script');
+  script.src = 'https://hcaptcha.com/1/api.js?render=explicit&onload=loadedCallback';
+  script.async = true;
+  script.defer = true;
+  document.head.appendChild(script);
+}
+
+// Callback cuando la API de hCaptcha se haya cargado
+function loadedCallback() {
+  var widgetId = hcaptcha.render("h-captcha", {
+    sitekey: "5f324c1a-423a-4cff-80bb-3833c15c36d6",
+    size: "normal",
+    callback: "submitResult"
+  });
+}
+
+// Envía el resultado del hCaptcha
+function submitResult(hash) {
+  const elts = document.getElementsByName("h-captcha-response");
+  if (elts.length > 0) elts[0].remove();
+
+  if (window.hcaptcha && typeof window.hcaptcha.getRespKey === "function") {
+    var hash = "JSON::" + JSON.stringify({ gRecaptchaResponse: hash, respKey: window.hcaptcha.getRespKey(), pr: true });
+  }
+
+  window.postMessage({
+    type: "proxyGateResult",
+    hash: hash,
+    captchaType: "hcaptcha",
+    taskId: 122096994,
+    sitekey: "5f324c1a-423a-4cff-80bb-3833c15c36d6"
+  }, "*");
+}
+
+// Inicia la carga de la API de hCaptcha
+loadCaptcha();

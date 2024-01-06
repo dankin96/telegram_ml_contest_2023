@@ -1,0 +1,49 @@
+board = [' ' for _ in range(9)]
+
+def print_board():
+    print('---------')
+    for i in range(3):
+        print('|', board[i*3], '|', board[i*3 + 1], '|', board[i*3 + 2], '|')
+        print('---------')
+
+def make_move(player, position):
+    board[position] = player
+
+def check_win(player):
+    for i in range(3):
+        if (board[i*3] == board[i*3 + 1] == board[i*3 + 2] == player) or \
+                (board[i] == board[i + 3] == board[i + 6] == player) or \
+                (board[0] == board[4] == board[8] == player) or \
+                (board[2] == board[4] == board[6] == player):
+            return True
+    return False
+
+def play():
+    print("Bem-vindo ao jogo da velha!")
+    print_board()
+    while True:
+        position = int(input("Escolha uma posição para jogar (1-9): ")) - 1
+        if board[position] == ' ':
+            make_move('X', position)
+            print_board()
+            if check_win('X'):
+                print("Jogador X venceu!")
+                break
+            elif ' ' not in board:
+                print("Empate!")
+                break
+            
+            position = int(input("Escolha uma posição para jogar (1-9): ")) - 1
+            if board[position] == ' ':
+                make_move('O', position)
+                print_board()
+                if check_win('O'):
+                    print("Jogador O venceu!")
+                    break
+                elif ' ' not in board:
+                    print("Empate!")
+                    break
+        else:
+            print("Posição inválida, tente novamente.")
+
+play()

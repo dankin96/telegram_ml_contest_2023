@@ -1,0 +1,7 @@
+v10.1.1.1 (20470) Play Store ar
+realme RMX2001 android 11
+ROM: RMX2001_11_C.18
+Performance: AVERAGE
+Cache: ٢٫٤٩ GB
+Database: ١٥٧٫١ MB
+Free: ١٠٫٩٢ GB

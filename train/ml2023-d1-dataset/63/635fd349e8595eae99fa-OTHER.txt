@@ -1,0 +1,3 @@
+[root@mail mailcow-dockerized]# docker ps -a
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[root@mail mailcow-dockerized]#

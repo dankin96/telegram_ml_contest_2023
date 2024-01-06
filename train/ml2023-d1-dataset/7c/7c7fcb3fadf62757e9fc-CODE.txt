@@ -1,0 +1,1 @@
+python /home/نام_کاربری_هاست/public_html/نام_پوشه_ربات/bot.py

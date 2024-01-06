@@ -1,0 +1,3 @@
+##
+var v:='sdkfj dsfj lkasdjfl ksjlkjblkvlbkjclbkdklf asld zxc xcvb cb vb vn cbcvn';
+v.Split.Select(s -> s.order.JoinToString('')).Order.JoinToString(' ').Println;

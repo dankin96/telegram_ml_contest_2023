@@ -1,0 +1,23 @@
+Sure, here are the key points from the documentation about the cmd module:
+
+Purpose: The cmd module is used to create line-oriented command processors. It's designed to be a base class for building interactive shells and other command interpreters.
+
+Processing Commands: The module uses a loop to read lines from its input, parse them, and dispatch the command to an appropriate command handler. Commands are separated into the command itself and any additional text on the line. For example, if the user enters a command "foo bar," and there's a method named do_foo(), it's called with "bar" as an argument.
+
+End-of-File Handling: The end-of-file marker is dispatched to do_EOF(). If a command handler returns a true value, the program exits cleanly. So, implementing do_EOF() is a good way to provide a clean exit for your interpreter.
+
+Command Arguments: Commands can take arguments. The arguments are passed to the command handler as parameters. You can define optional arguments and handle them accordingly.
+
+Live Help: You can provide help for commands by adding docstrings to their corresponding methods. Users can access help using the built-in help command.
+
+Auto-Completion: The cmd module supports command completion. Pressing the tab key triggers completion based on the available command names. You can also customize argument completion using methods with the prefix complete_.
+
+Configuring Cmd Through Attributes: Various attributes can be used to configure the behavior of the interpreter, including prompt, intro, and headers for help formatting.
+
+Shelling Out: The module allows you to shell out and run other commands using the ! prefix. You can also capture the output of shell commands.
+
+Alternative Inputs: While the default input mode is interactive, you can also pass commands through standard input or files.
+
+Commands from sys.argv: You can process command line arguments as commands for your interpreter class by calling onecmd() with the arguments joined together.
+
+These are the key concepts you need to understand to work effectively with the cmd module.

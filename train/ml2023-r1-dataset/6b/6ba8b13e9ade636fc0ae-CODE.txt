@@ -1,0 +1,9 @@
+#[derive(Debug)]
+struct Test(i32);
+
+fn main() {
+    let (tx, rs) = std::sync::mpsc::channelchannel();
+    tx.send(Test(1)).unwrap();
+    println!("{:?}", rs.recv().unwrap());
+}
+

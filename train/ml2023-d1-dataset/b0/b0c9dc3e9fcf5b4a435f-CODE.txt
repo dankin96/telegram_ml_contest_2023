@@ -1,0 +1,12 @@
+if g:has_truecolor > 0
+    PackAdd 'sainnhe/edge'
+    PackAdd 'sainnhe/sonokai'
+    PackAdd 'sainnhe/everforest'
+    if has('nvim-0.8')
+        PackAdd 'folke/tokyonight.nvim'
+        PackAdd 'ellisonleao/gruvbox.nvim'
+        PackAdd 'catppuccin/nvim', {'as': 'catppuccin'}
+    else
+        PackAdd 'sainnhe/gruvbox-material'
+    endif
+endif

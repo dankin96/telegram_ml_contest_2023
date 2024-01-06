@@ -1,0 +1,6 @@
+
+
+＊@timestamp2023-10-13T16:40:05
+＊application:sid-gateway-dev
+＊name_tag:talentpoolpoolsearchailist
+＊state:half_open

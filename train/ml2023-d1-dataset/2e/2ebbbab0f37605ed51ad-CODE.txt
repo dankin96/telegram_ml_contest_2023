@@ -1,0 +1,6 @@
+c=0; t=0
+async for i in ultroid.iter_participants(chat):
+  if i.premium: c+=1
+  t+=1
+
+p(f"Premium: {c}/{t}")

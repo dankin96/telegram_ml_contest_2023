@@ -1,0 +1,12 @@
+cat /etc/sddm.conf
+[General]
+DisplayServer=wayland
+GreeterEnvironment=QT_WAYLAND_SHELL_INTEGRATION=layer-shell
+InputMethod=
+
+[Theme]
+CursorTheme=Breeze_Snow
+
+[Wayland]
+CompositorCommand=/usr/bin/kwin_wayland --no-lockscreen --inputmethod fcitx5
+EnableHiDPI=true

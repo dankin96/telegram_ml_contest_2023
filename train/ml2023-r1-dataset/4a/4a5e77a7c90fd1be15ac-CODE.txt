@@ -1,0 +1,8 @@
+Area => TRD-CDS
+Event Type => HEALTH-KO
+Label => START
+Long Message => [key = BBG, alert = true, description = Unsupported recipient ActorRef type, question not sent to [null]. Sender[null] sent the message of type "com.gatelab.streaming.commons.model.CDSContribution$GlobalHealthStatusCds$Status".
+key = Reuters, alert = true, description = Reuters not responding after 50 seconds
+key = Gdi Mq, alert = false, description = 
+key = Cds Contribution, alert = false, description = ]
+Short Message => [Some components are not working]

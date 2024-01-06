@@ -1,0 +1,5 @@
+
+<Button type='zalupa'>
+  <Icon name='iconka' size='sm' />
+  Test zalupa button
+</Button>

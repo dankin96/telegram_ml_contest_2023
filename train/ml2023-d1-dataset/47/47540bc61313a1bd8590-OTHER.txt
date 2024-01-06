@@ -1,0 +1,7 @@
+BenchmarkPath/9x9-8               264586        4656 ns/op      16460 B/op   3 allocs/op
+BenchmarkPath/300x300-8              601     1937662 ns/op    7801502 B/op   4 allocs/op
+BenchmarkPath/381x381-8              363     3304134 ns/op   62394356 B/op   5 allocs/op
+BenchmarkPath/384x384-8              171     7165777 ns/op   62394400 B/op   5 allocs/op
+BenchmarkPath/3069x3069-8             31    36479106 ns/op  124836075 B/op   4 allocs/op
+BenchmarkPath/3072x3072-8             30    34889740 ns/op  124837686 B/op   4 allocs/op
+BenchmarkPath/6144x6144-8            142     7594013 ns/op   62395376 B/op   3 allocs/op

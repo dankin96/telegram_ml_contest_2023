@@ -1,0 +1,5 @@
+Name + id :
+Channel id :
+Mensive date : (optional)
+Mutual data link : 
+

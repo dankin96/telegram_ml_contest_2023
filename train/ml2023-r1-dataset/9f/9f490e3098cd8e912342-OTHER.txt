@@ -1,0 +1,10 @@
+Cycle ID    : 0410202300001 
+MID         : 30002174 
+Material    : INNER SUKSES GR KREMES 1W 
+UOM         : ROL 
+
+Qty All            : 20 
+Qty Kedatangan     : 20 
+Sisa Belum Datang  : 0 
+
+Receive By  : Akhmad Toha 

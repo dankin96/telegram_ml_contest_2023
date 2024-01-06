@@ -1,0 +1,3 @@
+2023-10-11T10:48:29.803Z INFO    lightningd: Sending 13010000msat over 1 hops to deliver 13010000msat
+2023-10-11T10:48:31.238Z INFO    023439bae8e883debb944d1c9a0a878b2ec0a1f601782034f60b804e8194753204-chan#3: htlc 2 failed from 0th node with code 0x400f
+(WIRE_INCORRECT_OR_UNKNOWN_PAYMENT_DETAILS)

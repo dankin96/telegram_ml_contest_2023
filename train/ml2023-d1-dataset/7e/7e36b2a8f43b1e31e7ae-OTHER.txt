@@ -1,0 +1,14 @@
+
+[AMAYAK Georgia] SUMMARY 24h
+
+                                                 order_count    perc(%)
+geo_performer_cancel_flg                                  97     2.4758
+geo_too_long_to_wait_cancel_reason_flg                    67     1.7101
+geo_asked_to_cancel_cancel_reason_flg                     44     1.123
+geo_courier_long_trip_flg                                 38     0.9699
+geo_went_in_wrong_direction_cancel_reason_flg             32     0.8167
+geo_infinite_driving_flg                                  12     0.3063
+geo_no_door_to_door_flg                                    6     0.1531
+geo_no_delivery_flg                                        4     0.1021
+geo_rude_courier_flg                                       2     0.051
+geo_cargo_wrong_direction_flg                              1     0.0255

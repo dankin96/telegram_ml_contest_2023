@@ -1,0 +1,2 @@
+ 
+chroot /path_to_new_root_directory command 

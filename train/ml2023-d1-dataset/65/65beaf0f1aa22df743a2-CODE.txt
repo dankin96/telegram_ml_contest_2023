@@ -1,0 +1,19 @@
+csharp
+using System;
+using System.Data;
+class Program {
+ static void Main(string[] args) {
+ string connectionString = "Server=myServerAddress;Database=myDataBase;Uid=myUsername;Pwd=myPassword";
+ string sqlQuery = "SELECT * FROM myTable WHERE id = @id";
+ int id = 123;
+ using (IDbConnection connection = new SqlConnection(connectionString)) {
+ IDbCommand command = connection.CreateCommand();
+ command.CommandText = sqlQuery;
+ command.Parameters.AddWithValue("@id", id);
+ IDataReader reader = command.ExecuteReader();
+ while (reader.Read()) {
+ Console.WriteLine("{0} - {1}", reader["name"], reader["age"]);
+ }
+ }
+ }
+}

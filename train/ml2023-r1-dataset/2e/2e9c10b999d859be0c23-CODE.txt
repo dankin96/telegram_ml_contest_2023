@@ -1,0 +1,13 @@
+consumer
+      .apply(AuthMiddleware)
+      .exclude("/v1/health-check")
+      .forRoutes({ path: "/*", method: RequestMethod.ALL });
+
+consumer
+      .apply(CheckHeadersMiddleware)
+      .exclude(
+        { path: "/api/(.*)", method: RequestMethod.ALL },
+        { path: "/robots.txt", method: RequestMethod.ALL },
+      )
+      .forRoutes({ path: "/", method: RequestMethod.ALL });
+

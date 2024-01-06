@@ -1,0 +1,6 @@
+
+   Which day is best for our group meeting?
+   - Monday
+   - Wednesday
+   - Friday
+   

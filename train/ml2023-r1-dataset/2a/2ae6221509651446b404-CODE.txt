@@ -1,0 +1,2 @@
+andrew@arch ~/wine (master)> find . -name "*.c" -type f | grep tests | xargs cat | wc -l
+1578247

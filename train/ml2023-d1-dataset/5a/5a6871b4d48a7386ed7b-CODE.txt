@@ -1,0 +1,1 @@
+"gateway_response_raw": "{\"Message\":\"\\u0027\\u003C\\u0027 is an invalid start of a value. Path: $ | LineNumber: 0 | BytePositionInLine: 0.\"}",

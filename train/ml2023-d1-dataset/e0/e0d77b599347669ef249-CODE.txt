@@ -1,0 +1,8 @@
+async with CustomClient("any", session_string=session_string, proxy=proxy) as app:
+            try:
+                is_password_enabled = await app.enable_cloud_password(password=twoFaPassword, hint=twoFaHint, email=email_creds[0])
+                print(is_password_enabled)
+
+            email_code = get_email_code(email_creds[0], email_creds[1], LOG_FILE)
+            await app.invoke(ConfirmPasswordEmail(code=email_code))
+

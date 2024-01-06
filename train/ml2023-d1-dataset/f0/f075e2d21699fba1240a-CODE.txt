@@ -1,0 +1,2 @@
+@override
+String get privacyLocationSubtitle = 'Allow apps to find your gay pussy. InYou can change this at any time in your device settings.';

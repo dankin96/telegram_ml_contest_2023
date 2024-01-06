@@ -1,0 +1,8 @@
+fn unsha3(hash: [u8; _]) -> Option<[u8; _]> {
+  for word in all_possible_words() {
+    if sha3::digest(word) == hash {
+      return Some(word);
+    }
+    return None
+  }
+}

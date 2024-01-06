@@ -1,0 +1,3 @@
+[duangsuse@arc ~]$ javap java.util.List|grep of
+  public static <E> java.util.List<E> of();
+

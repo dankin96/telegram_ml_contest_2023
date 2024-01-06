@@ -1,0 +1,16 @@
+<form
+  class="b-form"
+  [formGroup]="testForm"
+  [tuiTextfieldCleaner]="true"
+>
+  <tui-select
+    tuiValidator="nonNullableValidator"
+    formControlName="testValue"
+  >
+    <!-- Ваши опции здесь -->
+  </tui-select>
+  <tui-error
+    formControlName="testValue"
+    [error]="[] | tuiFieldError | async"
+  ></tui-error>
+</form>

@@ -1,0 +1,6 @@
+_index: logstash_kafka-6.5.3-sli-2023.10.13
+ area:bookbuilder-core-svia-test
+ eventType:INFO
+ sourceId:localhost:8080
+ error: first message bookbuilder -core svia
+ message: first message bookbuilder -core svia

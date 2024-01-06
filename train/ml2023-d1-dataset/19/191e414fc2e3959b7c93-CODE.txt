@@ -1,0 +1,3 @@
+curl -s https://bashunit.typeddevs.com/install.sh | bash
+ln ~/lib/bashunit /usr/local/sbin/bashunit
+

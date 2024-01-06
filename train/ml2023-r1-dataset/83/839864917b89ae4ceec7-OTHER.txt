@@ -1,0 +1,4 @@
+I seguenti pacchetti saranno RIMOSSI:
+  waydroid-system waydroid-vendor-28
+I seguenti pacchetti NUOVI saranno installati:
+  waydroid-system-custom waydroid-vendor-custom

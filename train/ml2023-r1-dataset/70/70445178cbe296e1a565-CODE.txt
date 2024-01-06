@@ -1,0 +1,2 @@
+rcv.Options.SendHighWatermark = 5;
+rcv.Options.SendBuffer = 10;

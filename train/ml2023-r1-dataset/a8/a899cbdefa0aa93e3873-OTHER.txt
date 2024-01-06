@@ -1,0 +1,3 @@
+XAUUSD : $ 20.20
+XAUUSD : $ 30.00
+XAUUSD : $ 33.10

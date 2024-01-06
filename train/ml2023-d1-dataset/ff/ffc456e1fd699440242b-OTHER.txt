@@ -1,0 +1,26 @@
+ADDRESS:      0x685A896E2d949D6E7E00E0793ea8a8f85BdF4348
+PAIR:         0x990D0E81eE060b14f9D31A14984599AA54E2ADEC
+NAME:         Astro
+SYMBOL:       ASTRO
+SUPPLY:       1000000000
+PRICE:        $0.0000310989778063
+LIQUIDITY:    $6,136
+24H CHANGE:   1389%
+24H VOLUME:   $44,798
+INITIAL MC:   $2,089
+CURRENT MC:   $31,245
+ATH MC:       $31,245
+BUY TAX:      1%
+SELL TAX:     1%
+RENOUNCED:    ✅
+LP LOCKED:    ✅ Unicrypt: 100% 61.4 days
+VERIFIED:     ✅
+WHALES:       3.9316%, 2.5398%, 2.4708%, 2.4574%, 2.2963%
+
+✅✅✅✅✅ PASSED ✅✅✅✅✅
+⚠️ NO MAX BUY ⚠️
+
+🤗🤗🤗🤗🤗 SOCIALS 🤗🤗🤗🤗🤗
+https://t.me/Astro_Bot_ERC\r
+https://astroerc20.vip/\r
+https://x.com/astroboterc\r

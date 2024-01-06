@@ -1,0 +1,59 @@
+package main
+
+import (
+  system::console
+  system::net
+)
+
+public class Main {
+  public main() {
+    l, err := net.NewListener("tcp", ":80")
+    if err != nil {
+      console.log(err)
+      return
+    }
+
+    l.Start()
+    defer {
+      l.Close()
+      drop(&l, &err) // not required, only for example
+    }
+
+    for {
+      conn, err := l.Accept()
+      if err != nil {
+        console.log(err)
+      }
+
+      n, err := conn.Write([]byte("Hello world!"))
+      if err != nil {
+        console.log(err)
+      }
+
+      console.log(f"you send ${n} bytes")
+
+      data, err := conn.Read()
+      if err != nil {
+        console.log(err)
+      }
+
+      n, err := conn.Write([]byte(checkRead(data)))
+      if err != nil {
+        console.log(err)
+      }
+
+      console.log(f"you send {n} bytes")
+    }
+  }
+
+  private checkRead(data: []byte) -> string {
+    switch string(data) {
+      case "hello":
+        return "hello"
+      default:
+        return "say hello"
+    }
+  }
+}
+
+

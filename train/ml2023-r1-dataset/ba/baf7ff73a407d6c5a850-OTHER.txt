@@ -1,0 +1,46 @@
+ 20:43:50 - INFO] - __main__ - live log streaming to telegram.
+[05-Oct-23 20:43:52 - INFO] - pyrogram.session.auth - Start creating a new auth key on DC2
+[05-Oct-23 20:43:52 - INFO] - pyrogram.connection.connection - Connecting...
+[05-Oct-23 20:43:52 - INFO] - pyrogram.connection.connection - Connected! Production DC2 - IPv4
+[05-Oct-23 20:43:53 - INFO] - pyrogram.session.auth - Done auth key exchange: DhGenOk
+[05-Oct-23 20:43:53 - INFO] - pyrogram.connection.connection - Disconnected
+[05-Oct-23 20:43:53 - INFO] - pyrogram.connection.connection - Connecting...
+[05-Oct-23 20:43:53 - INFO] - pyrogram.connection.connection - Connected! Production DC2 - IPv4
+[05-Oct-23 20:43:53 - INFO] - pyrogram.session.session - NetworkTask started
+[05-Oct-23 20:43:54 - INFO] - pyrogram.session.session - Session initialized: Layer 158
+[05-Oct-23 20:43:54 - INFO] - pyrogram.session.session - Device: CPython 3.11.4 - Pyrogram 2.0.106
+[05-Oct-23 20:43:54 - INFO] - pyrogram.session.session - System: Linux 5.15.0-1045-aws (en)
+[05-Oct-23 20:43:54 - INFO] - pyrogram.session.session - Session started
+[05-Oct-23 20:43:54 - INFO] - pyrogram.session.session - PingTask started
+[05-Oct-23 20:43:54 - INFO] - pyrogram.session.session - PingTask stopped
+[05-Oct-23 20:43:54 - INFO] - pyrogram.connection.connection - Disconnected
+[05-Oct-23 20:43:54 - INFO] - pyrogram.session.session - NetworkTask stopped
+[05-Oct-23 20:43:54 - INFO] - pyrogram.session.session - Session stopped
+[05-Oct-23 20:43:54 - INFO] - pyrogram.session.auth - Start creating a new auth key on DC5
+[05-Oct-23 20:43:54 - INFO] - pyrogram.connection.connection - Connecting...
+[05-Oct-23 20:43:54 - INFO] - pyrogram.connection.connection - Connected! Production DC5 - IPv4
+[05-Oct-23 20:43:56 - INFO] - pyrogram.session.auth - Done auth key exchange: DhGenOk
+[05-Oct-23 20:43:56 - INFO] - pyrogram.connection.connection - Disconnected
+[05-Oct-23 20:43:57 - INFO] - pyrogram.connection.connection - Connecting...
+[05-Oct-23 20:43:57 - INFO] - pyrogram.connection.connection - Connected! Production DC5 - IPv4
+[05-Oct-23 20:43:57 - INFO] - pyrogram.session.session - NetworkTask started
+[05-Oct-23 20:43:58 - INFO] - pyrogram.session.session - Session initialized: Layer 158
+[05-Oct-23 20:43:58 - INFO] - pyrogram.session.session - Device: CPython 3.11.4 - Pyrogram 2.0.106
+[05-Oct-23 20:43:58 - INFO] - pyrogram.session.session - System: Linux 5.15.0-1045-aws (en)
+[05-Oct-23 20:43:58 - INFO] - pyrogram.session.session - Session started
+[05-Oct-23 20:43:58 - INFO] - pyrogram.session.session - PingTask started
+[05-Oct-23 20:43:59 - INFO] - main - live log streaming to telegram.
+[05-Oct-23 20:44:00 - INFO] - pyrogram.client - [AFK-DL] [LOAD] MessageHandler("drm") in group 0 from "plugins.drm"
+[05-Oct-23 20:44:01 - INFO] - pyrogram.client - [AFK-DL] [LOAD] MessageHandler("start_msg") in group 0 from "plugins.pro"
+[05-Oct-23 20:44:01 - INFO] - pyrogram.client - [AFK-DL] [LOAD] MessageHandler("restart_handler") in group 0 from "plugins.pro"
+[05-Oct-23 20:44:01 - INFO] - pyrogram.client - [AFK-DL] [LOAD] MessageHandler("Pro") in group 0 from "plugins.pro"
+[05-Oct-23 20:44:01 - INFO] - pikepdf._core - pikepdf C++ to Python logger bridge initialized
+[05-Oct-23 20:44:01 - INFO] - pyrogram.client - [AFK-DL] [LOAD] MessageHandler("drm") in group 0 from "plugins.ytc"
+[05-Oct-23 20:44:01 - INFO] - pyrogram.client - [AFK-DL] Successfully loaded 5 plugins from "plugins"
+[05-Oct-23 20:44:01 - INFO] - pyrogram.dispatcher - Started 2 HandlerTasks
+[05-Oct-23 20:44:01 - INFO] - __main__ - <--- @ramramji_bot Started --->
+[06-Oct-23 19:06:12 - INFO] - pyrogram.connection.connection - Connecting...
+[06-Oct-23 19:06:13 - INFO] - pyrogram.connection.connection - Connected! Production DC5 (media) - IPv4
+[06-Oct-23 19:06:13 - INFO] - pyrogram.session.session - NetworkTask started
+[06-Oct-23 19:06:14 - INFO] - pyrogram.session.session - Session initialized: Layer 158
+[06-Oct-23 19:06:14 - INFO] - pyrogram.session.session - Device: CPython 3.11.4 - Pyrogram 2.0.106

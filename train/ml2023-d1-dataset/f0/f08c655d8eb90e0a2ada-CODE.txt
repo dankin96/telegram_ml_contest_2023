@@ -1,0 +1,21 @@
+python
+import telegram
+
+def start(update, context):
+    chat_id = update.effective_chat.id
+    context.bot.send_message(chat_id=chat_id,
+                             text="Haz clic en el siguiente botón para ir al enlace:",
+                             reply_markup=telegram.InlineKeyboardMarkup([[telegram.InlineKeyboardButton("Ir al enlace", url="https://www.ejemplo.com")]]))
+
+# Configurar el token de acceso proporcionado por BotFather
+TOKEN = "tu_token_de_acceso"
+
+# Crear una instancia del bot
+bot = telegram.Bot(token=TOKEN)
+
+# Configurar los comandos y sus respectivas funciones
+dispatcher = telegram.Dispatcher(bot, None)
+dispatcher.add_handler(telegram.CommandHandler("start", start))
+
+# Iniciar el bot
+bot.start_polling()

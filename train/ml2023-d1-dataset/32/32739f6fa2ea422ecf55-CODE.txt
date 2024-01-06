@@ -1,0 +1,2 @@
+.outofstock .price{display:none}
+.outofstock .amount{display:none}

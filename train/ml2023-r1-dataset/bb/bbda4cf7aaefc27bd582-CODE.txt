@@ -1,0 +1,1 @@
+    'DeviceParams' => array_merge(array('title' => 'Параметры изделий'),$custom_sections),

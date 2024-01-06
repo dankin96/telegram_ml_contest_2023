@@ -1,0 +1,5 @@
+Problem has been resolved in 5m 0s at 13:57:35 on 2023.10.11
+Problem name: Zabbix server: Utilization of discoverer processes over 75%
+Host: Zabbix server
+Severity: Average
+Original problem ID: 209005

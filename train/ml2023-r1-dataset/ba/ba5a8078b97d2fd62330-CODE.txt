@@ -1,0 +1,1 @@
+cryo logs --blocks 17_000_000:17_001_000 --topic0 0xc42079f94a6350d7e6235f29174924f928cc2ac818eb64fed8004e115fbcca67  --rpc <rpc_url>

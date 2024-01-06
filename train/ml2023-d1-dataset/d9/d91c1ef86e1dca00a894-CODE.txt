@@ -1,0 +1,17 @@
+function reverseBST(root) {
+  if (root === null) {
+    return null;
+  }
+
+  // 反转左子树
+  root.left = reverseBST(root.left);
+
+  // 反转右子树
+  root.right = reverseBST(root.right);
+
+  // 将根节点的左右子树链接反转
+  root.left = root.right;
+  root.right = root.left;
+
+  return root;
+}

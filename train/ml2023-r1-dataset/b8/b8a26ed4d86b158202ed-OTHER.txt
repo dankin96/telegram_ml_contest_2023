@@ -1,0 +1,4 @@
+Oct 07 03:33:44 tails dnsmasq[936281]: dnsmasq: syntax check OK.
+Oct 07 03:33:44 tails dnsmasq[936284]: dnsmasq: failed to create listening socket for 192.168.240.1: Address already in use
+Oct 07 03:33:44 tails dnsmasq[936284]: failed to create listening socket for 192.168.240.1: Address already in use
+Oct 07 03:33:44 tails dnsmasq[936284]: FAILED to start up

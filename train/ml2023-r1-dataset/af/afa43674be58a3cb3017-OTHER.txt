@@ -1,0 +1,11 @@
+
+           entall  
+         +----------+
+ubestemt | fort     |
+ bestemt | fortet   |
+         +----------+
+           flertall
+         +----------+
+ubestemt | fort     |
+ bestemt | forta    |
+         +----------+

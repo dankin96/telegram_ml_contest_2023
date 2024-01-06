@@ -1,0 +1,6 @@
+bot = Bot(token="YOUR_BOT_TOKEN")
+storage = MemoryStorage()
+dp = Dispatcher(bot, storage=storage)
+
+
+

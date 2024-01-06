@@ -1,0 +1,9 @@
+        builder msg = begin_cell()
+                        .store_uint(BOUNCEABLE, 6)
+                        .store_slice(bill_address)
+                        .store_coins(ONE_TON / 2)
+                        .store_uint(4 + 2 + 1, 1 + 4 + 4 + 64 + 32 + 1 + 1 + 1)
+                        .store_ref(state_init)
+                        .store_ref(deposit_body);
+
+        send_raw_message(msg.end_cell(), SEND_MODE_REGULAR);

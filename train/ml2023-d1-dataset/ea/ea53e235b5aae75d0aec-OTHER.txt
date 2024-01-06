@@ -1,0 +1,2 @@
+Cannot find root directory.
+login: could not determine audit condition

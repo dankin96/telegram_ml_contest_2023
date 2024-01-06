@@ -1,0 +1,2 @@
+const xxx = await System.userGroups.search().first()
+  await log(xxx!.data.__id + ' '+xxx!.data.code + '<')

@@ -1,0 +1,22 @@
+
+import telebot
+
+# Create a new Telegram bot instance
+bot = telebot.TeleBot('YOUR_BOT_TOKEN')
+
+# Define the handler for the "/order" command
+@bot.message_handler(commands=['order'])
+def handle_order_command(message):
+    # Extract the number and link from the message text
+    command_parts = message.text.split()
+    number = command_parts[1]
+    link = command_parts[3]
+
+    # Generate the confirmation message
+    confirmation_message = f"Order placed for {number} items. Link: {link}"
+
+    # Send the confirmation message to the user
+    bot.reply_to(message, confirmation_message)
+
+# Start the bot
+bot.polling()

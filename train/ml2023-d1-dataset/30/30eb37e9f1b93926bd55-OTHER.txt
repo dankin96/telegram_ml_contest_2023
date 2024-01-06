@@ -1,0 +1,9 @@
+    ntdll.dll => /c/Windows/SYSTEM32/ntdll.dll (0x7ffde0c80000)
+    xtajit64.dll => /c/Windows/System32/xtajit64.dll (0x7ffdde4b0000)
+    KERNEL32.DLL => /c/Windows/System32/KERNEL32.DLL (0x7ffddeb50000)
+    KERNELBASE.dll => /c/Windows/System32/KERNELBASE.dll (0x7ffddc2e0000)
+    apphelp.dll => /c/Windows/SYSTEM32/apphelp.dll (0x7ffddbcc0000)
+    msvcrt.dll => /c/Windows/System32/msvcrt.dll (0x7ffde0360000)
+    CRYPTBASE.DLL => /c/Windows/SYSTEM32/CRYPTBASE.DLL (0x7ffddb0f0000)
+    bcryptPrimitives.dll => /c/Windows/System32/bcryptPrimitives.dll (0x7ffddc920000)
+

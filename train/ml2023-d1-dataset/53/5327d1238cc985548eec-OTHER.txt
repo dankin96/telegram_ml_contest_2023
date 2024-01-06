@@ -1,0 +1,25 @@
+[INFO] 11-Oct-23 12:00:53 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 12:00:54 - Uploading file of 95838 bytes in 1 chunks of 131072
+[INFO] 11-Oct-23 12:09:18 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 12:09:19 - Uploading file of 79778 bytes in 1 chunks of 131072
+[INFO] 11-Oct-23 12:13:44 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 12:13:46 - Uploading file of 134940 bytes in 2 chunks of 131072
+[INFO] 11-Oct-23 12:39:08 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 12:39:09 - Uploading file of 234280 bytes in 2 chunks of 131072
+[INFO] 11-Oct-23 13:10:47 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 13:10:49 - Uploading file of 82067 bytes in 1 chunks of 131072
+[INFO] 11-Oct-23 13:35:02 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 13:35:03 - File lives in another DC
+[INFO] 11-Oct-23 13:35:04 - Uploading file of 133984 bytes in 2 chunks of 131072
+[INFO] 11-Oct-23 13:35:36 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 13:35:37 - File lives in another DC
+[INFO] 11-Oct-23 13:35:37 - Uploading file of 96324 bytes in 1 chunks of 131072
+[INFO] 11-Oct-23 13:35:54 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 13:35:56 - File lives in another DC
+[INFO] 11-Oct-23 13:35:56 - Uploading file of 75624 bytes in 1 chunks of 131072
+[INFO] 11-Oct-23 13:37:18 - Disconnecting borrowed sender for DC 4
+[INFO] 11-Oct-23 13:38:49 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 11-Oct-23 13:38:50 - File lives in another DC
+[INFO] 11-Oct-23 13:38:51 - Uploading file of 78659 bytes in 1 chunks of 131072
+[INFO] 11-Oct-23 13:40:19 - Disconnecting borrowed sender for DC 4
+[INFO] 11-Oct-23 13:40:42 - Starting direct file download in chunks of 131072 at 0, stride 131072

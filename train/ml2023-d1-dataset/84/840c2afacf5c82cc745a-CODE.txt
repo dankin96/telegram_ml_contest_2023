@@ -1,0 +1,3 @@
+public function child(): HasMany {
+    return $this->HasMany(self::class, 'parent_id');
+}

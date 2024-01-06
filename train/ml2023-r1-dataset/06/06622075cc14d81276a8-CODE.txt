@@ -1,0 +1,4 @@
+ "payment_mode": "empty_string", 
+ "service_id": "1260", 
+ "card_bank": "SAVINGS BANK OF THE RUSSIAN FEDERATION (SBERBANK)", 
+ "processing": "Yandex.Money New Card API"

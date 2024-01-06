@@ -1,0 +1,8 @@
+public static String valueOf(String str) {
+  
+
+            MessageDigest messageDigest = MessageDigest.getInstance("SHA-256");
+
+            messageDigest.update(str.getBytes());
+
+            return AFInAppEventParameterName(messageDigest.digest());

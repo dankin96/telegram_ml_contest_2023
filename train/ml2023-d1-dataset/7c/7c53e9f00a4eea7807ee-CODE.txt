@@ -1,0 +1,56 @@
+public class Codec {
+    private static final String NULL_POINTER_STR = "N";
+
+    // Encodes a tree to a single string.
+    public String serialize(TreeNode root) {
+        return dfsSerialize(root);
+    }
+
+    private String dfsSerialize(TreeNode node){
+        if(node==null) return NULL_POINTER_STR;
+        return String.format(
+            "[%s,%s,%s]",
+            node.val,
+            dfsSerialize(node.left),
+            dfsSerialize(node.right)
+        );
+    }
+
+    // Decodes your encoded data to tree.
+    public TreeNode deserialize(String data) {
+        return dfsDeserialize(data);
+    }
+
+    private TreeNode dfsDeserialize(String str){
+        if(str.equals(NULL_POINTER_STR)) return null;
+        int start = 1;
+        int end = getEndPointer(start, str);
+        String firstStr = str.substring(start, end);
+        start = end+1;
+        end = getEndPointer(start, str);
+        String secondStr = str.substring(start, end);
+        start = end+1;
+        end = getEndPointer(start, str);
+        String thirdStr = str.substring(start, end);
+        return new TreeNode(
+            Integer.parseInt(firstStr),
+            dfsDeserialize(secondStr),
+            dfsDeserialize(thirdStr)
+        );
+    }
+
+    private int getEndPointer(int start, String str){
+        int end = start;
+        int bracketBalance = 0;
+        do{
+            switch(str.charAt(end)){
+                case '[' -> bracketBalance++;
+                case ']' -> bracketBalance--;
+            }
+            end++;
+            if(bracketBalance==0&&(str.charAt(end)==','||str.charAt(end)==']')) break;
+            if(end == str.length()) break;
+        } while(true);
+        return end;
+    }
+}

@@ -1,0 +1,2 @@
+    lora_model.save_pretrained(output_path, max_shard_size="10GB")
+    tokenizer.save_pretrained(output_path)

@@ -1,0 +1,1 @@
+pkgmanager add packagename-2.0

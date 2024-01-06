@@ -1,0 +1,6 @@
+Mail::send([], [], function (Message $message) use ($body, $to, $subject) {
+ $message->to($to);
+ $message->from('info@sss.com');
+ $message->subject($subject);
+ $message->setBody($body, 'text/html');
+});

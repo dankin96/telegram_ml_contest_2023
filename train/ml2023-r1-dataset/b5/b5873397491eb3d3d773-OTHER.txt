@@ -1,0 +1,6 @@
+- Memory emulation with 16Kb Address granularity:
+> 128Kb of RAM can be emulated from the Pi Pico internal RAM with No Wait State. (4MHz ISA)
+> We can emulate the whole 1Mb of RAM address space from the PSRAM. (With 6 Wait Stated for 4MHz ISA)
+> EMS Emulation of Up to 6 / 7 MHz. (Only 4Mb for the moment as using the LoTech EMS Driver)
+> Memory emulation is also used to add (4Kb of "Private" memory for the PicoMEM BIOS Usage)
+> 16Kb of RAM is also added for disk access (Or other) even if 512Kb only is used for the moment.

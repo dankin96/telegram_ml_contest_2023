@@ -1,0 +1,11 @@
+
+------------ 
+OS: Alpine Linux v3.18 x86_64 
+Host: KVM/QEMU (Standard PC (i440FX + PIIX, 1996) pc-i440fx-7.2) 
+Kernel: 6.1.0-9-amd64 
+Uptime: 16 days, 17 hours, 4 mins 
+Packages: 59 (apk) 
+Shell: ash 
+Resolution: 1280x800 
+CPU: AMD Ryzen 9 5900X (1) @ 3.693GHz 
+Memory: 424MiB / 926MiB

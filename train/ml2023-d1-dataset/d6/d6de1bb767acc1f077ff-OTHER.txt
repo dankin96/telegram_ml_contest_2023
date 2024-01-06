@@ -1,0 +1,4 @@
+[100% 194/194] build bacon
+Package Complete: out/target/product/rosemary/halogenOS_rosemary-13.0-20231010-084355-UNOFFICIAL.zip
+
+#### build completed successfully (11:34 (mm:ss)) ####

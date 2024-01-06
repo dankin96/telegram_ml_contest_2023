@@ -1,0 +1,12 @@
+Hey everyone, 
+We have a plan to enhance our Secret Ledger App and ensure it’s secure and robust for all users. This involves an app update and an audit by one of Ledger’s external auditors (see here: Security Audits | Developers). 
+The Plan in Brief:
+
+Update Details:
+
+
+We aim to add Ledger Stax support to our Secret Ledger App.
+For the tech-savvy among you, check the GitHub PR .
+
+
+Audit Essential...

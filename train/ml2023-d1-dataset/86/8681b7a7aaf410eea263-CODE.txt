@@ -1,0 +1,16 @@
+(
+    [ok] => 1
+    [result] => Array
+        (
+            [user] => Array
+                (
+                    [id] => 136817688
+                    [is_bot] => 1
+                    [first_name] => Channel
+                    [username] => Channel_Bot
+                )
+
+            [status] => left
+        )
+
+)

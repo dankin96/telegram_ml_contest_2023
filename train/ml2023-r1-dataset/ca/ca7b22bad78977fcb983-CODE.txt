@@ -1,0 +1,1 @@
+RewriteRule ^events/bait/me-reward$ /modules/events/bait/mereward.php [L,QSA,NC]

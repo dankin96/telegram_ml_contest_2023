@@ -1,0 +1,17 @@
+├───devshellModules: unknown
+├───devshellProfiles: unknown
+├───dotfiles: unknown
+├───flakePartsModules: unknown
+├───flakePartsProfiles: unknown
+├───homeModules: unknown
+├───homeProfiles: unknown
+├───lib: unknown
+├───nixosModules
+│   ├───boot: NixOS module
+│   ├───hardware: NixOS module
+│   └───programs: NixOS module
+├───nixosProfiles: unknown
+├───pops: unknown
+├───srvos: unknown
+└───templates
+    └───default: template: Omnibus & nixos

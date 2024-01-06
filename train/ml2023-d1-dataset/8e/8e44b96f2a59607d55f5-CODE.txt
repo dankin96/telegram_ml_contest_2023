@@ -1,0 +1,8 @@
+class Parent:
+    def show(self):
+        print(f"This is {self}")
+
+class Child:
+    @override
+    def show(self):
+        print(f"This is really {self}")

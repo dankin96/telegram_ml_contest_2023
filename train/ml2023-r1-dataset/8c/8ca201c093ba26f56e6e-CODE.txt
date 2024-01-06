@@ -1,0 +1,9 @@
+public int getAvailabilityStatus() {
+    try {
+        PackageManager pm = mContext.getPackageManager();
+        pm.getPackageInfo(OTA_APP_PACKAGE, PackageManager.GET_ACTIVITIES);
+    } catch (Exception e) {
+        return UNSUPPORTED_ON_DEVICE;
+    }
+    return AVAILABLE;
+}

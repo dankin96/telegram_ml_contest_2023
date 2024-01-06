@@ -1,0 +1,1 @@
+0x00007ffff582d7ab in av_dict_iterate () from /usr/lib/libavutil.so.58

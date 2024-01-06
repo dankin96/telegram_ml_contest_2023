@@ -1,0 +1,32 @@
+Exchange STRAXBTC 1h Binance
+Price:0.00002718|0.00002721|0.00002706
+Vol:       316|     428|   4,497
+ATR: 0.00000050
+
+✅OBV:   1.1 M|   1.1 M|   1.1 M
+⚪RSI:   52.26|   52.74|   50.63
+⚪MFI:   47.53|   41.44|   37.13
+⚪CCI:   49.86|   47.08|  -25.14
+❌WR%:  -54.24|  -44.62|  -56.41
+❌ADX:   16.65|   16.44|   16.22
+
+✅MOM: Bullish Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+❌MACD: Bearish
+✅PSAR: Bullish
+
+Support And Resistance
+S: 0.00002680
+R: 0.00002852
+
+Volatility is moderately low
+
+EXPERIMENTAL 🧪
+🐻RSI: bearish divergence
+⚪MFI:No divergence
+🐻FVE: Bearish divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

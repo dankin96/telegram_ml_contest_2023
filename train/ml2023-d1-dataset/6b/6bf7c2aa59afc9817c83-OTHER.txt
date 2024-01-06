@@ -1,0 +1,18 @@
+Can you please write a FAQ relative to "Main_Keyword"
+And it must cover the following terms: 
+long tile keywords, related keywords, NLP, LCI, ..etc.
+
+* Tone of voice: Professional
+* Point of view: Third person (he, she, it, they)
+* Target Country: Australia
+
+please use the following format:
+
+**Q1**:
+**A1**:
+**Q2**:
+**A2**:
+**Q3**:
+**A3**:
+**Q4**:
+**A4**:

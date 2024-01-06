@@ -1,0 +1,3 @@
+rtc_cmos rtc_cmos: alarms up to one month, y3k, 114 bytes nvram
+
+

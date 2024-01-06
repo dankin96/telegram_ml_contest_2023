@@ -1,0 +1,11 @@
+sql
+ВЫБЕРИТЕ ci.*
+FROM Catalog_Items ci
+ПРИСОЕДИНИТЬСЯ (
+    ВЫБЕРИТЕ uf_10, SUM(Доступно) КАК totalAvailable
+    ИЗ Каталог_Товаров
+    ГДЕ UF_15 = 'Fresco_475_R'
+    ГРУППИРОВАТЬ ПО uf_10
+    ЕСТЬ СУММА (Доступно) > 0
+) AS подзапрос ON ci.uf_10 = subquery.uf_10
+ГДЕ ci.UF_15 = 'Fresco_475_R' И ci.Available > 0

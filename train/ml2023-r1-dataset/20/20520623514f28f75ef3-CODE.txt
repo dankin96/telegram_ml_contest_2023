@@ -1,0 +1,12 @@
+tun:
+  enable: false
+  stack: gvisor #system
+  auto-route: true 
+  auto-detect-interface: true
+  device: utun29
+  strict-route: false
+  endpoint-independent_nat: true
+  dns-hijack:
+    - 'any:53'
+    - 'tcp://any:53'
+

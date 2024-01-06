@@ -1,0 +1,8 @@
+php
+<?php
+$x = 10;
+$y = null;
+var_dump(isset($x)); // true
+var_dump(isset($y)); // false
+var_dump(isset($z)); // false
+?>

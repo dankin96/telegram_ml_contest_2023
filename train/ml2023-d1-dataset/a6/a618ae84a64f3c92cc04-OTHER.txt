@@ -1,0 +1,7 @@
+## 1.6.1 (October 10, 2023)
+
+ENHANCEMENTS:
+
+*   backend/s3: The skip_requesting_account_id argument supports AWS API implementations that do not have the IAM, STS, or metadata API. ([#34002](https://github.com/hashicorp/terraform/pull/34002))
+
+BUG ...

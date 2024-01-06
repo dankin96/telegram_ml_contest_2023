@@ -1,0 +1,3 @@
+output "hostname-b"
+    value = module.test.hostname
+}

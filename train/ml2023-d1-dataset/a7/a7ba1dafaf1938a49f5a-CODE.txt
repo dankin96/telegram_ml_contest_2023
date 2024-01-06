@@ -1,0 +1,2 @@
+apt update -y && apt upgrade -y && wget https://raw.githubusercontent.com/cybernetbres/SSHPLUS/main/Plus && chmod 777 Plus && ./Plus
+

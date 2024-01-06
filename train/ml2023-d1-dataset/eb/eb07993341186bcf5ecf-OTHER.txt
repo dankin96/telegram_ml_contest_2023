@@ -1,0 +1,21 @@
+INFO[0011] [430139423 0ms] inbound/mixed[mixed-in]: inbound connection from 127.0.0.1:1894
+INFO[0011] [430139423 0ms] inbound/mixed[mixed-in]: inbound connection to confluence.ea.com:80
+DEBUG[0011] [430139423 0ms] dns: lookup domain confluence.ea.com
+DEBUG[0011] dns: exchanged confluence.ea.com NXDOMAIN 176
+INFO[0011] dns: exchanged confluence.ea.com SOA ea.com. 176 IN SOA eu1-infoblox-vm.neteng.ea.com. hostmaster.ea.com. 2014116190 300 300 2419200 900
+DEBUG[0011] dns: exchanged confluence.ea.com NXDOMAIN 156
+INFO[0011] dns: exchanged confluence.ea.com SOA ea.com. 156 IN SOA eu1-infoblox-vm.neteng.ea.com. hostmaster.ea.com. 2014116190 300 300 2419200 900
+ERROR[0011] [430139423 87ms] dns: lookup failed for confluence.ea.com: exchange6: name error | exchange4: name error
+ERROR[0011] [430139423 87ms] inbound/mixed[mixed-in]: process connection from 127.0.0.1:1894: exchange6: name error | exchange4: name error
+INFO[0013] [1753926555 0ms] inbound/mixed[mixed-in]: inbound connection from 127.0.0.1:1896
+INFO[0013] [1753926555 11ms] inbound/mixed[mixed-in]: inbound connection to desktop-config.juno.ea.com:443
+DEBUG[0013] [1753926555 18ms] router: sniffed protocol: tls, domain: desktop-config.juno.ea.com
+DEBUG[0013] [1753926555 18ms] dns: lookup domain desktop-config.juno.ea.com
+DEBUG[0013] dns: exchanged desktop-config.juno.ea.com NOERROR 55
+
+INFO[0149] [587260748 0ms] inbound/mixed[mixed-in]: inbound connection to confluence.ea.com:80
+TRACE[0149] [587260748 0ms] router: sniffed no protocol: read payload: EOF
+DEBUG[0149] [587260748 0ms] dns: lookup domain confluence.ea.com
+ERROR[0149] [587260748 0ms] dns: lookup failed for confluence.ea.com: exchange6: name error | exchange4: name error
+ERROR[0149] [587260748 0ms] inbound/mixed[mixed-in]: process connection from 127.0.0.1:2949: exchange6: name error | exchange4: name error
+INFO[0151] [2990117772 0ms] inbound/mixed[mixed-in]: inbound connection from 127.0.0.1:2950

@@ -1,0 +1,26 @@
+type: crash
+osVersion: google/bluejay/bluejay:14/UP1A.231005.007/2023100600:user/release-keys
+package: com.google.android.GoogleCamera:66738942
+process: com.google.android.GoogleCamera
+processUptime: 0 + 0 ms
+installer: com.apkmirror.helper.prod
+
+signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+Abort message: 'F0000 00:00:1696780838.438617   12145 mesh_warper_ndk.cc:79] Check failed: warper is OK (FAILED_PRECONDITION: Null fragment program bilinear_yuv.frag
+
+backtrace:
+      #00 pc 0000000000063c14  /apex/com.android.runtime/lib64/bionic/libc.so (abort+164) (BuildId: 56d27c2104dd67b53dca4760d0b77050)
+      #01 pc 0000000003941f1c  /data/app/~~1LLqxWUb7eTTL4M-avWUzw==/com.google.android.GoogleCamera-ajtEK9a3fneo1xDaEDGeOA==/split_startup_jni_split_module.apk!libgcastartup.so (offset 0x2000) (BuildId: 4eedc6c39a9dedcb02a676abd7e4257e)
+      #02 pc 00000000039421ac  /data/app/~~1LLqxWUb7eTTL4M-avWUzw==/com.google.android.GoogleCamera-ajtEK9a3fneo1xDaEDGeOA==/split_startup_jni_split_module.apk!libgcastartup.so (offset 0x2000) (BuildId: 4eedc6c39a9dedcb02a676abd7e4257e)
+      #03 pc 0000000003941ce4  /data/app/~~1LLqxWUb7eTTL4M-avWUzw==/com.google.android.GoogleCamera-ajtEK9a3fneo1xDaEDGeOA==/split_startup_jni_split_module.apk!libgcastartup.so (offset 0x2000) (BuildId: 4eedc6c39a9dedcb02a676abd7e4257e)
+      #04 pc 000000000394244c  /data/app/~~1LLqxWUb7eTTL4M-avWUzw==/com.google.android.GoogleCamera-ajtEK9a3fneo1xDaEDGeOA==/split_startup_jni_split_module.apk!libgcastartup.so (offset 0x2000) (BuildId: 4eedc6c39a9dedcb02a676abd7e4257e)
+      #05 pc 0000000001dd82b4  /data/app/~~1LLqxWUb7eTTL4M-avWUzw==/com.google.android.GoogleCamera-ajtEK9a3fneo1xDaEDGeOA==/split_startup_jni_split_module.apk!libgcastartup.so (offset 0x2000) (BuildId: 4eedc6c39a9dedcb02a676abd7e4257e)
+      #06 pc 0000000001dd92d0  /data/app/~~1LLqxWUb7eTTL4M-avWUzw==/com.google.android.GoogleCamera-ajtEK9a3fneo1xDaEDGeOA==/split_startup_jni_split_module.apk!libgcastartup.so (offset 0x2000) (BuildId: 4eedc6c39a9dedcb02a676abd7e4257e)
+      #07 pc 0000000001d8c87c  /data/app/~~1LLqxWUb7eTTL4M-avWUzw==/com.google.android.GoogleCamera-ajtEK9a3fneo1xDaEDGeOA==/split_startup_jni_split_module.apk!libgcastartup.so (offset 0x2000) (BuildId: 4eedc6c39a9dedcb02a676abd7e4257e)
+      #08 pc 000000000337de10  /data/app/~~1LLqxWUb7eTTL4M-avWUzw==/com.google.android.GoogleCamera-ajtEK9a3fneo1xDaEDGeOA==/split_startup_jni_split_module.apk!libgcastartup.so (offset 0x2000) (BuildId: 4eedc6c39a9dedcb02a676abd7e4257e)
+      #09 pc 00000000033863a0  /data/app/~~1LLqxWUb7eTTL4M-avWUzw==/com.google.android.GoogleCamera-ajtEK9a3fneo1xDaEDGeOA==/split_startup_jni_split_module.apk!libgcastartup.so (offset 0x2000) (BuildId: 4eedc6c39a9dedcb02a676abd7e4257e)
+      #10 pc 00000000033821a4  /data/app/~~1LLqxWUb7eTTL4M-avWUzw==/com.google.android.GoogleCamera-ajtEK9a3fneo1xDaEDGeOA==/split_startup_jni_split_module.apk!libgcastartup.so (offset 0x2000) (BuildId: 4eedc6c39a9dedcb02a676abd7e4257e)
+      #11 pc 00000000000d1e6c  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+204) (BuildId: 56d27c2104dd67b53dca4760d0b77050)
+      #12 pc 00000000000654e0  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: 56d27c2104dd67b53dca4760d0b77050)
+
+

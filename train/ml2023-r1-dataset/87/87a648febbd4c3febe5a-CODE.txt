@@ -1,0 +1,16 @@
+create table mytab(id serial primary key, name text unique);
+
+dbtests=$ insert into mytab(name) values('aaron') on conflict(name) do nothing returning id;
+ id
+----
+  1
+(1 row)
+
+INSERT 0 1
+
+dbtests=$ insert into mytab(name) values('aaron') on conflict(name) do nothing returning id;
+ id
+----
+(0 rows)
+
+INSERT 0 0

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Độ dài văn bản tính bằng từ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        #text {
+            height: 150px;
+            width: 400px;
+            resize: none;
+            padding: 10px;
+            border: 2px solid #ddd;
+            border-radius: 5px;
+        }
+        
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        
+        button:hover {
+            background-color: #0056b3;
+        }
+        
+        #wordCount {
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+    <script>
+        function countWords() {
+            var text = document.getElementById('text').value;
+            var words = text.trim().split(/\s+/);
+            document.getElementById('wordCount').innerText = words.length;
+        }
+    </script>
+</head>
+<body>
+    <h1>Độ dài văn bản tính bằng từ</h1>
+    <textarea id="text" rows="4" cols="50"></textarea>
+    <br><br>
+    <button onclick="countWords()">Đếm từ</button>
+    <p>Tổng số từ: <span id="wordCount">0</span></p>
+</body>
+</html>

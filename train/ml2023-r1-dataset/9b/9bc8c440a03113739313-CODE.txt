@@ -1,0 +1,7 @@
+          { counterparties, loadCounterpartyById } = useCounterparty(),
+          currentCounterparty = computed(() => counterparties.value.filter(item => item?.user?.id === useRoute().params.id)[0])
+          watch(counterparties, () => {
+            if (!currentCounterparty.value) {
+                loadCounterpartyById(currentUser.value.token, id)
+            }
+        })

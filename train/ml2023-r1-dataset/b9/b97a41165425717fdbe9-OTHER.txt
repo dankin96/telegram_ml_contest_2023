@@ -1,0 +1,32 @@
+Exchange OCEANUSDT 1h Binance
+Price:    0.30|    0.30|    0.30
+Vol:   117,572| 190,066|  82,075
+ATR: 0.0013
+
+❌OBV: 493.5 K| 376.0 K| 185.9 K
+⚪RSI:   57.34|   56.88|   48.71
+⚪MFI:   71.43|   64.51|   51.49
+⚪CCI:  198.92|  170.95|   92.31
+⚪WR%:  -16.22|   -8.57|  -22.58
+❌ADX:   17.48|   17.29|   17.39
+
+✅MOM: Bullish Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+✅PSAR: Bullish
+
+Support And Resistance
+S: $0.299
+R: $0.303
+
+Volatility is moderately low
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

@@ -1,0 +1,14 @@
+def longest_increasing_subsequence(sequence):
+    dp = [1] * len(sequence)
+    
+    for i in range(len(sequence)):
+        for j in range(i):
+            if sequence[i] > sequence[j] and dp[i] < dp[j] + 1:
+                dp[i] = dp[j] + 1
+    
+    return max(dp)
+
+# Пример использования
+sequence = [1, 3, 2, 4, 6, 5, 7]
+result = longest_increasing_subsequence(sequence)
+print(result)  # Вывод: 4

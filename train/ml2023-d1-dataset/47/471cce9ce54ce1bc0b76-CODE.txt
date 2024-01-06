@@ -1,0 +1,26 @@
+/**
+ * Copies a single row in a Google Sheets spreadsheet to the last row of the sheet.
+ * Копирует  строку выделеной ячейки в таблице Google Sheets в последнюю строку листа 
+ * @param {Object} range - The range object representing the row to be copied.
+ * @return {void} - This function does not return a value.
+ */
+ function selectionCopyRow(range){
+    var ss=SpreadsheetApp.getActiveSpreadsheet()
+    var sheet=ss.getActiveSheet()
+    var row=range.getRow()
+    var rows=sheet.getRange(`${row}:${row}`)
+    var lastRow=sheet.getLastRow()+1
+    var copyRange=sheet.getRange(`${lastRow}:${lastRow}`)
+    rows.copyTo(copyRange)
+}
+
+/**
+ * Copies the selected rows by calling the `selectionCopyRow` function for each row.
+ * Копирует выбранные строки, вызывая функцию selectionCopyRow для каждой строки.
+ * #runSelectionAll
+ * @param {type} paramName - description of parameter
+ * @return {type} description of return value
+ */
+function selectionCopyRows(){
+  runSelectionAll(selectionCopyRow)  
+}

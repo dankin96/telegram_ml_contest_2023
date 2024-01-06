@@ -1,0 +1,32 @@
+// Без параметров
+unsigned int n = 0;
+unsigned int p = 1;
+unsigned int k = 0;
+
+void fact_void() {
+  k = n;
+  while(k > 1) {
+    p *= k--;
+  }
+}
+
+// Спараметрами
+int fact_arg(unsigned int k) {
+  unsigned int p = 1;
+  while(k > 1) {
+    p *= k--;
+  }
+  return p;
+}
+
+#include <stdio.h>
+int main() {
+  printf("n = ");
+  scanf("%u", &n);
+  fact_void();
+  printf("fact_void = %u
+", p);
+  printf("fact_arg = %u
+", fact_arg(n));
+  return 0;
+}

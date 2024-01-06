@@ -1,0 +1,5 @@
+Programmatic Faucet
+We have deployed some updates to the Teztnets platform that include a long-requested feature: the programmatic faucet. 
+With the npm package @oxheadalpha/get-tez, you can now programatically fund an address using Javascript/Typescript or using the CLI. See the package details for more for info on installing and using. 
+Proof of Work
+To prevent spam, we’ve also introduced the ne...

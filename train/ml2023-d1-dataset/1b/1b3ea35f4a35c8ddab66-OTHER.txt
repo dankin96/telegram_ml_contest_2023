@@ -1,0 +1,12 @@
+[ 99% 584/585] finishing build rules ...
+FAILED:
+build/make/core/main.mk:1312: warning:  device/xiaomi/ruby/lineage_ruby.mk includes non-existent modules in PRODUCT_PACKAGES
+Offending entries:
+android.hardware.biometrics.fingerprint@2.3-service.xiaomi
+android.hardware.light-service.xiaomi
+android.hardware.power-service.xiaomi-libperfmgr
+vendor.xiaomi.hardware.fingerprintextension@1.0.vendor
+build/make/core/main.mk:1312: error: Build failed.
+00:58:07 ckati failed with: exit status 1
+
+#### failed to build some targets (07:37 (mm:ss)) ####

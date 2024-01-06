@@ -1,0 +1,3 @@
+for handler in handlers:
+    if handler.suits(message):
+        handler.handle(message)

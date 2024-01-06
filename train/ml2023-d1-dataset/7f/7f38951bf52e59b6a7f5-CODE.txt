@@ -1,0 +1,2 @@
+client_reqs_total{job="my-job",host="node01.example.com",instanceid="1234"} 105
+client_reqs_total{job="my-job",host="node01.example.com",instanceid="4567"} 98

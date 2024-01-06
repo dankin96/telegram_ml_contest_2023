@@ -1,0 +1,15 @@
+\begin{equation*}
+F(n) =
+ \begin{cases}
+   0 &
+ext{n = 0}\\
+   1 &
+ext{n = 1}\\
+   (F_{\lceil\frac{n}{2}\rceil})^2 + (F_{⌈\frac{n}{2}\rceil-1})^2 & 
+ext{ n }\geqslant 2 \land Ост_2n=1\\
+   (F_{\lceil\frac{n}{2}\rceil})^2 + 2*(F_{\lceil\frac{n}{2}\rceil})*(F_{\lceil\frac{n}{2}\rceil-1}) & 
+ext{ n }\geqslant 2 \land Ост_2n=0\\
+ \end{cases}
+\end{equation*}
+
+

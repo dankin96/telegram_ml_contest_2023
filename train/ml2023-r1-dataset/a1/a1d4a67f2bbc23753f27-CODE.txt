@@ -1,0 +1,3 @@
+if(isset($_POST['id_page_gcat'])){$idpage = htmlspecialchars(trim($_POST['id_page_gcat']));}
+if(isset($_POST['id_city'])){$idcity = htmlspecialchars(trim($_POST['id_city']));}
+if(isset($_POST['username'])){$user = htmlspecialchars(trim($_POST['username']));}

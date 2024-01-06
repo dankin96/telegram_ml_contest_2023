@@ -1,0 +1,4 @@
+var int a = 21;
+for( into i; i >= 10; i++){
+ a = a +i;
+}

@@ -1,0 +1,1 @@
+curl --location 'https://a10.radioheart.ru:9010/'

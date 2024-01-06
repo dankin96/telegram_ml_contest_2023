@@ -1,0 +1,44 @@
+#include <stdio.h>
+#include <string.h>
+#include <stdbool.h>
+
+bool hasTrailingSpaces(const char* str) {
+    int len = strlen(str);
+
+    // Start from the end of the string
+    for (int i = len - 1; i >= 0; i--) {
+        if (str[i] == ' ') {
+            continue;
+        } else {
+            // If a non-space character is encountered before end, then trailing spaces are absent
+            if (i != len - 1) {
+                return false;
+            }
+        }
+    }
+
+    return true;
+}
+
+int main() {
+    const char* str1 = "Hello World    ";
+    const char* str2 = "Hello World";
+    
+    if (hasTrailingSpaces(str1)) {
+        printf("String 1 has trailing spaces
+");
+    } else {
+        printf("String 1 does not have trailing spaces
+");
+    }
+    
+    if (hasTrailingSpaces(str2)) {
+        printf("String 2 has trailing spaces
+");
+    } else {
+        printf("String 2 does not have trailing spaces
+");
+    }
+
+    return 0;
+}

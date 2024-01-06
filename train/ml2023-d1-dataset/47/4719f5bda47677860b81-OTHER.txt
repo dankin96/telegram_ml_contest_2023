@@ -1,0 +1,5 @@
+Tengebank           12220
+Ravnaqbank          12230
+Kapitalbank         12240
+Aloqabank           12240
+NBU                 12250

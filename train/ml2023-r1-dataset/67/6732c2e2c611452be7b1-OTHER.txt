@@ -1,0 +1,2 @@
+c2mtkbuffermanager:
+over 5000ms not request from VCodec but callback hooked, slow BM Cc fetch thread

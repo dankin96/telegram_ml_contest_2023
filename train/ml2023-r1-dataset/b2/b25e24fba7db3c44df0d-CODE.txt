@@ -1,0 +1,1 @@
+const response = fetch('https://futures.mexc.com/api/v1/contract/ticker', {});

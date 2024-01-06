@@ -1,0 +1,1 @@
+Tier: 1,  TotalChests: 71,  TotalUPX: 42016.00,  Spark: 0.00 (~$0.00),  SparkChests: 0,  Profit: 24396.00,  TotalFees: 17620.00,  SparkPerTreasureRatio: 0.00,  SendsPerTreasureRatio: 1.18,  SendsUsed: 84,  AvgSendFee: 26.43,  TravelFees: 0.00

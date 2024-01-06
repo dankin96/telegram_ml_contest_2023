@@ -1,0 +1,11 @@
+def print_users(**kwargs):
+    for name, age in kwargs.items():
+        print(f"User {name} is {age} years old")
+
+print_users(john=25, alice=30, bob=35)
+# Output:
+# User john is 25 years old
+# User alice is 30 years old
+# User bob is 35 years old
+
+

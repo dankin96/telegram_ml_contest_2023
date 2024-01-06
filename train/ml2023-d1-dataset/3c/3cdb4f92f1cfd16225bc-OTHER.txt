@@ -1,0 +1,6 @@
+✅ 06:30 • 🇬🇧 GBP/JPY 🇯🇵 • ACIMA
+✅ 07:30 • 🇦🇺 AUD/JPY 🇯🇵 • ACIMA
+✅ 08:30 • 🇦🇺 AUD/JPY 🇯🇵 • ABAIXO
+❌ 09:30 • 🇦🇺 AUD/CAD 🇨🇦 • ABAIXO
+✅ 10:30 • 🇦🇺 AUD/CAD 🇨🇦 • ABAIXO
+✅ 11:30 • 🇬🇧 GBP/USD 🇺🇸 • ACIMA

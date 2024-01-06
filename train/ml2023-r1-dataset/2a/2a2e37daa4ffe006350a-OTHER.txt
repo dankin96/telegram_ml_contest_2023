@@ -1,0 +1,5 @@
+ DEPOSIT : RM10 TelcoPayment
+ BONUS : NONE           
+ WITHDRAW : RM60.10
+ GAME : KISS918
+

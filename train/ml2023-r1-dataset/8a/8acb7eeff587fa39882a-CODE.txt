@@ -1,0 +1,8 @@
+/ip firewall nat
+add action=redirect chain=dstnat comment=ntp dst-port=123 in-interface-list=!wan protocol=udp to-ports=123
+/system ntp server
+set broadcast=yes enabled=yes multicast=yes
+/system ntp client
+set enabled=yes mode=unicast primary-ntp=104.131.155.175 secondary-ntp=104.131.155.175
+/system clock
+set time-zone-autodetect=no time-zone-name=America/Los_Angeles

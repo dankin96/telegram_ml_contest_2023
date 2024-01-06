@@ -1,0 +1,2 @@
+ cat /etc/portage/env/ccache.conf
+FEATURES="ccache"

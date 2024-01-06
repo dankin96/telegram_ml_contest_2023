@@ -1,0 +1,8 @@
+notion
+lets(
+ num1, prop("Число 1"),
+ num2, prop("Число 2"),
+ num3, prop("Число 3"),
+ sum, num1 + num2 + num3,
+ (num1/sum*10000).round()/10000
+)

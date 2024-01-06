@@ -1,0 +1,2 @@
+docker compose --project-name apt-api -f deployment/docker-compose.yml up -d
+

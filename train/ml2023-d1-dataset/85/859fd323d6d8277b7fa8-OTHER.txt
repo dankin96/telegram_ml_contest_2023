@@ -1,0 +1,15 @@
+[Link]
+MTUBytes = 1492
+
+[Network]
+Description = wired
+DHCP = yes
+IPv6LinkLocalAddressGenerationMode = stable-privacy
+IPv6PrivacyExtensions = yes
+IPv6AcceptRA = yes
+DNSOverTLS = opportunistic
+DNSSEC = allow-downgrade
+IPForward = yes
+
+[IPv6AcceptRA]
+UseDNS = no

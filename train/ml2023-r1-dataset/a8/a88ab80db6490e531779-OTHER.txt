@@ -1,0 +1,9 @@
+Elaboration latency over threshold for curve USD3MCME. Max: 26430.0 ms
+
+Threshold violation, max:metric.value 26430.0 (min: 0 max : 5000) 
+
+@timestamp: 2023-10-05T01:40:00Z
+metric.name.keyword: USD3MCME
+metric_metric.value_max: 26430.0
+num_hits: 3282
+num_matches: 9

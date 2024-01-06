@@ -1,0 +1,40 @@
+{
+ "update_id": 935490678,
+ "message": {
+  "message_id": 61164,
+  "from": {
+   "id": 758200063,
+   "is_bot": false,
+   "first_name": "🍜🍜🍜",
+   "username": "lapshadev",
+   "language_code": "ru"
+  },
+  "chat": {
+   "id": -1001183116807,
+   "title": "Зазывала Support",
+   "username": "zazyvala_chat",
+   "type": "supergroup"
+  },
+  "date": 1697121150,
+  "new_chat_participant": {
+   "id": 285793787,
+   "is_bot": true,
+   "first_name": "Show Json Bot",
+   "username": "ShowJsonBot"
+  },
+  "new_chat_member": {
+   "id": 285793787,
+   "is_bot": true,
+   "first_name": "Show Json Bot",
+   "username": "ShowJsonBot"
+  },
+  "new_chat_members": [
+   {
+    "id": 285793787,
+    "is_bot": true,
+    "first_name": "Show Json Bot",
+    "username": "ShowJsonBot"
+   }
+  ]
+ }
+}

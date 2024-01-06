@@ -1,0 +1,5 @@
+systemctl disable --now systemd-resolved.service
+rm -rf /etc/resolv.conf && touch /etc/resolv.conf
+sudo systemctl enable --now resolvconf.service
+sudo resolvconf -u
+

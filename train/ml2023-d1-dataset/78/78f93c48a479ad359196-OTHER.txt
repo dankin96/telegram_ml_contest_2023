@@ -1,0 +1,2 @@
+-nojoy -novid -console -low
+

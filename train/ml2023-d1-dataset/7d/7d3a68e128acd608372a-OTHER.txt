@@ -1,0 +1,1 @@
+Argument of type 'Element' is not assignable to parameter of type 'ReactNode'.ts(2345)

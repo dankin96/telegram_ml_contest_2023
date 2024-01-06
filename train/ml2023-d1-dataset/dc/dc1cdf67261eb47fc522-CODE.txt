@@ -1,0 +1,13 @@
+
+var span = utf8Text.AsSpan();
+var xor = 0;
+
+do
+{
+    var delim = span.IndexOf((byte)' ');
+
+    xor ^= int.Parse(span[..delim], NumberStyles.None, CultureInfo.InvariantCulture);
+    span = span[(delim + 1)..];
+} while (!span.IsEmpty);
+
+return xor;

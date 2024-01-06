@@ -1,0 +1,1 @@
+new org.telegram.telegrambots.meta.api.objects.InputFile().setMedia(new java.io.File(fileName))

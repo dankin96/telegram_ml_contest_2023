@@ -1,0 +1,16 @@
+╔══════════════════════╗
+║ HKrA_v2.4 / Komutlar;
+╠══════════════════════╣
+║ /gsmn -tc *
+║ /gsmn -gsm *
+╠══════════════════════╣
+║ HKrA'yı kullanırken;
+║ * Simgeli yerlere, 
+║ bulmak istediğiniz
+║ GSMN hakkında geçerli 
+║ herhangi bir bilgiyi,
+║ girmeniz gereklidir.
+╠══════════════════════╣
+║ /gsmn -tc 12345678901 
+║ /gsmn -gsm 12345678901
+╚══════════════════════╝

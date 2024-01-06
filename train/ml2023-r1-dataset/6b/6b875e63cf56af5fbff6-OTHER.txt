@@ -1,0 +1,36 @@
+Exchange BLZUSDT 4h Binance
+Price:    0.13|    0.13|    0.13
+Vol:  2,079,087|4,107,628|4,263,479
+ATR: 0.0044
+
+❌OBV:-374.1 M|-372.0 M|-376.1 M
+❌RSI:   25.59|   26.39|   23.88
+⚪MFI:   51.03|   49.99|   43.66
+⚪CCI:  -74.27|  -78.07| -100.61
+❌WR%:  -51.92|  -45.00|  -79.83
+✅ADX:   28.49|   27.27|   26.10
+
+❌MOM: Bearish Momentum
+❌SMA: Price Below SMA Bearish
+❌ADI: -DI > +DI Bearish
+❌MACD: Bearish
+✅PSAR: Bullish
+
+Support And Resistance
+S: $0.133
+R: $0.143
+R: $0.149
+R: $0.154
+R: $0.159
+R: $0.160
+
+Volatility is moderately low
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+🐻MFI: Bearish divergence
+⚪FVE: No divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

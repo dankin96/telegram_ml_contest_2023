@@ -1,0 +1,1 @@
+After 10 epochs, the lock of invitee rewards is no longer applicable. These rewards are treated the same way as the regular stake.

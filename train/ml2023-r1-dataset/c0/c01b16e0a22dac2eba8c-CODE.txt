@@ -1,0 +1,7 @@
+local Fn = vim.fn
+M.SplitAtCursor = function() -- {{{
+  vim.cmd([[exe "normal i\<CR>\<ESC>^"]])
+  local lineAboveNr = Fn.line(".") - 1
+  local lineAbove = Fn.trim(Fn.getline(lineAboveNr), " ", 2)
+  Fn.setline(lineAboveNr, lineAbove)
+end -- }}}

@@ -1,0 +1,16 @@
+dns {
+    #ipversion_prefer: 4
+    upstream {
+        googledns: 'tcp+udp://dns.google.com:53'
+        alidns: 'udp://dns.alidns.com:53'
+        ros: 'udp://192.168.100.1:53'
+    }
+    routing {
+        request {
+            qname(suffix: xxx.com, keyword: xxx) -> ros
+            qname(geosite:cn) -> alidns
+            qname(geosite:netflix, geosite:disney) && qtype(AAAA) -> reject
+            fallback: googledns
+        }
+    }
+}

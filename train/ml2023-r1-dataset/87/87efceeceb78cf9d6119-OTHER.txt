@@ -1,0 +1,7 @@
+During a mushroom battle, you can press the 'Call for Help' button once a day to ask your friends to join the battle.
+
+Friends who get the call for help will be able to join the battle even if they’re far away.
+
+All your friends will be sent a call for help. However, if you have a long friends list, friends will be selected randomly.
+
+Join forces with your friends and destroy as many mushrooms as you can!

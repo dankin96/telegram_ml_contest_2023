@@ -1,0 +1,21 @@
+yii\base\ErrorException: A non-numeric value encountered in /var/www/tickets/frontend/modules/tickets/views/avia/search_form.php:157
+Stack trace:
+#0 /var/www/tickets/frontend/modules/tickets/views/avia/search_form.php(157): yii\base\ErrorHandler->handleError()
+#1 /var/www/tickets/vendor/yiisoft/yii2/base/View.php(347): require('/var/www/ticket...')
+#2 /var/www/tickets/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#3 /var/www/tickets/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#4 /var/www/tickets/frontend/modules/tickets/views/avia/result.php(17): yii\base\View->render()
+#5 /var/www/tickets/vendor/yiisoft/yii2/base/View.php(347): require('/var/www/ticket...')
+#6 /var/www/tickets/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile()
+#7 /var/www/tickets/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile()
+#8 /var/www/tickets/vendor/yiisoft/yii2/base/Controller.php(407): yii\base\View->render()
+#9 /var/www/tickets/frontend/modules/tickets/controllers/AviaController.php(74): yii\base\Controller->render()
+#10 [internal function]: frontend\modules
+ickets\controllers\AviaController->actionFlightsresult()
+#11 /var/www/tickets/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#12 /var/www/tickets/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#13 /var/www/tickets/vendor/yiisoft/yii2/base/Module.php(552): yii\base\Controller->runAction()
+#14 /var/www/tickets/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction()
+#15 /var/www/tickets/vendor/yiisoft/yii2/base/Application.php(384): yii\web\Application->handleRequest()
+#16 /var/www/tickets/frontend/web/index.php(25): yii\base\Application->run()
+#17 {main}

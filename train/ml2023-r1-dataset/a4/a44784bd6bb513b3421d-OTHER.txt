@@ -1,0 +1,17 @@
+ 
+Election changes new epoch 1842
+
+Elected:
+  TokenPort-4
+  Prospective_LLc
+  Genesis-10
+  Genesis-14
+  Genesis-19
+
+Deelected:
+  Apex-Validation-2
+  CryptoJaeger_#1
+  SUBSIDIUM
+  KFI-REWARDS-3
+  CryptoGuyInZA-No-1
+  CryptoGuyInZA-No-2

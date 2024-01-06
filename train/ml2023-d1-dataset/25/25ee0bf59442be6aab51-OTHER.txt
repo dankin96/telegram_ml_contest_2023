@@ -1,0 +1,4 @@
+$ ./a.out 
+check: 999999
+booty: 999999
+check: 0.114514

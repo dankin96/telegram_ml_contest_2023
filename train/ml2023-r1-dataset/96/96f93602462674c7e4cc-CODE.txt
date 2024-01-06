@@ -1,0 +1,30 @@
+type FileTransactionLogger struct {
+  events       chan<- Event // Канал только для записи; для передачи событий
+  errors       <-chan error // Канал только для чтения; для приема ошибок
+  lastSequence uint64       // Последний использованный порядковый номер
+  file         *os.File     // Местоположение файла журнала
+}
+
+func (l *FileTransactionLogger) Run() {
+  events := make(chan Event, 16) // Создать канал событий
+  l.events = events
+  errors := make(chan error, 1) // Создать канал ошибок
+  l.errors = errors
+  go func() {
+    for e := range events { // Извлечь следующее событие Event
+      l.lastSequence++       // Увеличить порядковый номер
+      _, err := fmt.Fprintf( // Записать событие в журнал
+        l.file,
+        "%d
+%d
+%s
+%s
+",
+        l.lastSequence, e.EventType, e.Key, e.Value)
+      if err != nil {
+        errors <- err
+        return
+      }
+    }
+  }()
+}

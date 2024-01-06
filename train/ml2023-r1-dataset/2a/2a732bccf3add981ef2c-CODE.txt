@@ -1,0 +1,67 @@
+import random
+import time
+
+from ZoomBot import ZoomBot
+from russian_names import RussianNames
+from tqdm import tqdm
+
+from threading import Thread
+
+from russian_names import RussianNames
+from tqdm import tqdm
+
+
+def get_name():
+    name = RussianNames().get_person().split(" ")
+    naming_type = random.randint(0, 2)
+    if naming_type == 0:
+        return name[0] + " " + name[2]
+    if naming_type == 1:
+        return name[2] + " " + name[0]
+    if naming_type == 2:
+        return name[0]
+
+identifier = "5887435775"
+pwd = "elBMRFk1K3BXZ2ZlVUdNYnNSakN5UT09"
+
+
+def bots_thread(name):
+    bots = [ZoomBot(identifier, pwd, get_name()) for i in range(5)]
+
+    print(name, "Connecting")
+
+    for bot in bots:
+        bot.connect()
+
+    not_connected = bots[:]
+    while len(not_connected):
+        for bot in not_connected[:]:
+            if bot.is_connected():
+                bot.accept_sound()
+                not_connected.remove(bot)
+
+
+    while True:
+        if random.random() < 0.05:
+            bots[random.randint(0, len(bots) - 1)].turn_camera()
+            bots[random.randint(0, len(bots) - 1)].turn_microphone()
+
+    time.sleep(30)
+
+    for bot in bots:
+        bot.disconnect()
+        bot.close()
+
+
+names = ["Вера Ли", "Анна Романова", "Ульяна Борко ", "Макс Гаврилов", "Сергей Назаренко", "Надежда Горбунова",
+         "Владислав Цветков ", "Misha Makarov", "Алла Митина ", "Тимофей Курьянов", "Кирилл Кривцов", "Женя Сараджева ",
+         "Анатолий Баранов", "Мухаммад Сафин", "Vlad Sig",
+         "Степан Муравьев", "Александр Ананьев",
+         "Алексей Давыденко", "Гордей Сергеенков", "Никита Вишневский"]
+
+threads = []
+for name in names:
+    threads.append(Thread(target=bots_thread, args=(name,)))
+    threads[-1].start()
+
+threads[-1].join()

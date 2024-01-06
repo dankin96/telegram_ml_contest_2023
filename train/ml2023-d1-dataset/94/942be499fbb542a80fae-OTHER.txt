@@ -1,0 +1,24 @@
+ADDRESS:      0xf3a22590823c9A110CdbBF476b5e6E464B459A84
+PAIR:         0x20b01f3bb0F86f47e1037C575C62F3A82C18c754
+NAME:         Saudi Faith On Shiba
+SYMBOL:       SFOS
+SUPPLY:       100000000
+INITIAL MC:   $0
+CURRENT MC:   $2,554
+ATH MC:       $0
+BUY TAX:      19%
+SELL TAX:     19%
+RENOUNCED:    ❌
+LP RUGGABLE:  ❌
+VERIFIED:     ✅
+WHALES:       98.0000%, 2.0000%
+
+❌❌❌❌❌ FAILED ❌❌❌❌❌
+NOT RENOUNCED
+INITIAL MCAP TOO LOW 0
+LIQUIDITY NOT LOCKED OR BURNED
+
+🤗🤗🤗🤗🤗 SOCIALS 🤗🤗🤗🤗🤗
+https://t.me/saudionshiba
+https://twitter.com/saudionshiba
+http://saudionshiba.weebly.com

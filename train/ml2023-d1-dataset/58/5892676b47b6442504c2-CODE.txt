@@ -1,0 +1,21 @@
+import requests
+
+def download_facebook_post(post_id, access_token):
+    url = f"https://graph.facebook.com/{post_id}?access_token={access_token}"
+    response = requests.get(url)
+    post_data = response.json()
+    
+    # پرینت اطلاعات پست
+    print("نام صفحه:", post_data['from']['name'])
+    print("متن پست:", post_data['message'])
+    print("تاریخ ایجاد پست:", post_data['created_time'])
+    # و غیره
+    
+    # ذخیره پست در فایل یا پایگاه داده
+    # ...
+    
+# اجرای تابع
+post_id = 'POST_ID'  # شناسه پست مورد نظر را وارد کنید
+access_token = 'ACCESS_TOKEN'  # توکن دسترسی خود را وارد کنید
+
+download_facebook_post(post_id, access_token)

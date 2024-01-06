@@ -1,0 +1,4 @@
+I have no name!@974e893d-f324-45a8-b513-f505f807caae:~$ ls -l /home/container/.local/bin/poetry
+lrwxrwxrwx 1 980 980 53 Oct  4 20:48 /home/container/.local/bin/poetry -> /home/container/.local/share/pypoetry/venv/bin/poetry
+I have no name!@974e893d-f324-45a8-b513-f505f807caae:~$ ls -l /home/container/.local/share/pypoetry/venv/bin/poetry
+ls: cannot access '/home/container/.local/share/pypoetry/venv/bin/poetry': No such file or directory

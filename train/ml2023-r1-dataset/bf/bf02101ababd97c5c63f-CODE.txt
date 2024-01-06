@@ -1,0 +1,22 @@
+cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    float totalMarks, totalHours, gpa;
+
+    // قراءة إجمالي العلامات وإجمالي الساعات من المستخدم
+    cout << "Enter total marks: ";
+    cin >> totalMarks;
+
+    cout << "Enter total hours: ";
+    cin >> totalHours;
+
+    // حساب المعدل التراكمي (GPA)
+    gpa = totalMarks / totalHours;
+
+    // طباعة المعدل التراكمي (GPA)
+    cout << "GPA: " << gpa << endl;
+
+    return 0;
+}

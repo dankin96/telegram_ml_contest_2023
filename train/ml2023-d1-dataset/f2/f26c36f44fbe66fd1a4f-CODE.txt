@@ -1,0 +1,2 @@
+$date = new \DateTime();
+$string = $date->format(DATE_RFC2822);

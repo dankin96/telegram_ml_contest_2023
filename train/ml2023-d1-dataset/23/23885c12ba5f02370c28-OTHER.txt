@@ -1,0 +1,2 @@
+I1012 10:04:40.462072   39368 round_trippers.go:510] HTTP Trace: Dial to tcp:127.0.0.1:40587 succeed
+I1012 10:04:40.482146   39368 round_trippers.go:553] DELETE https://127.0.0.1:40587/api/v1/namespaces/foo 200 OK in 20 milliseconds                                                                                I1012 10:04:40.482165   39368 round_trippers.go:570] HTTP Statistics: DNSLookup 0 ms Dial 0 ms TLSHandshake 12 ms ServerProcessing 7 ms Duration 20 ms

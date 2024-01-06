@@ -1,0 +1,11 @@
+
+           entall  
+         +----------+
+ubestemt | man      |
+ bestemt | manen    |
+         +----------+
+           flertall
+         +----------+
+ubestemt | maner    |
+ bestemt | manene   |
+         +----------+

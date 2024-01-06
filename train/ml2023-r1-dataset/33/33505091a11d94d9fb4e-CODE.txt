@@ -1,0 +1,2 @@
+$ sudo sysctl kernel.perf_event_paranoid=1 && sudo sysctl kernel.kptr_restrict=0
+$ ./profiler.sh -d 20 -e wall -t -f flame-jit-on.html jps

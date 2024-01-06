@@ -1,0 +1,3 @@
+NACLS may be restricting access on a subnet level, so its best to inspect rules on both subnets.
+
+Video for reference: VPC Peering: Part 2

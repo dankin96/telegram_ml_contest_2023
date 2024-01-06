@@ -1,0 +1,5 @@
+This proposal is aimed to distribute weekly MantaSwap rewards obtained from swap fees + 5000 of MNTA inflationary rewards according to MIP-38. 
+
+Attention: Since the rewards were not distributed last week, this week the MNTA inflationary rewards are doubling (5000).
+
+This week rewards include: MNTA, ampKUJI, stATOM, wETH, ATOM, axlUSDC, wBTC, OSMO, STARS, SHD, INJ, SOMM, gPAXG, wstETH, LUNA, USDC, KUJI.

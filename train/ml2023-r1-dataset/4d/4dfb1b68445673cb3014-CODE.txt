@@ -1,0 +1,42 @@
+server 
+{
+
+    listen 80;
+    listen [::]:80;
+    root /var/www/midheroesfight/content/wwwroot;
+    
+    server_name midheroesfight.necrodever.pro;
+
+    error_log /var/www/midheroesfight/logs/error.log;
+    access_log /var/www/midheroesfight/logs/access.log;
+
+    location = /favicon.ico 
+    {
+        log_not_found off;
+        access_log off;
+    }
+  
+    location = /robots.txt 
+    {
+            allow all;
+            log_not_found off;
+            access_log off;
+    }
+
+    location / {
+        proxy_pass         https://localhost:31007;
+        proxy_http_version 1.1;
+        proxy_set_header   Upgrade $http_upgrade;
+        proxy_set_header   Connection $http_connection;
+        proxy_set_header   Host $host;
+        proxy_cache_bypass $http_upgrade;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;
+    }
+
+    location ~* ^.+\.(jpg|jpeg|gif|png|svg|js|css|mp3|ogg|mpe?g|avi|zip|gz|bz2?|rar|swf)$ 
+    {
+            expires max;
+            log_not_found off;
+    }
+}

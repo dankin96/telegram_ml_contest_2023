@@ -1,0 +1,15 @@
+
+const appStore = getStoreService();
+
+function havyProccessing (task: Task) {
+    const result = ... heavy processing ...;
+
+    return result;
+}
+
+export default function CcontentContainer(id: number): React.JSX.Element {
+    const task = appStore.getTaskById(id);
+    const content = havyProccessing(task);
+
+    return <Content content={content} />;
+}

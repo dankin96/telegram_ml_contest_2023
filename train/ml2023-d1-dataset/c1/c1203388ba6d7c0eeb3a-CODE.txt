@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Formula Calculator</title>
+ <style>
+  body{
+   font-family: sans-serif;
+   padding: 20px;
+   background-color: #F7F8F9;
+  }
+  input[type="text"], button{
+   padding: 10px;
+   border-radius: 10px;
+   margin-bottom: 10px;
+   box-sizing: border-box;
+   border: solid 1px #aaa;
+  }
+  button{
+   background-color: #E4E6EB;
+   cursor: pointer;
+   color: #050709;
+  }
+  #result{
+   margin-top: 20px;
+  }
+ </style>
+ <script>
+  window.onload = function(){
+      let btnBuild = document.getElementById('build');
+      btnBuild.addEventListener('click', function(){
+       let formula = document.getElementById('formula').value;
+       let container = document.getElementById('variables');
+       let pattern = /\{\s*([a-zA-Z_]\w*)\s*\}/g;
+       let match;
+       container.innerHTML = '';
+       while(match = pattern.exec(formula)){
+        let inp = document.createElement('input');
+        inp.type = 'text';
+        inp.id = match[1];
+        inp.placeholder = match[1];
+        container.appendChild(inp);
+       }
+       let btn = document.createElement('button');
+       btn.innerHTML = 'Calculate';
+       container.appendChild(btn);
+
+       btn.addEventListener('click', function(){
+        let pattern = /\{\s*([a-zA-Z_]\w*)\s*\}/g;
+        let replaced = formula;
+        let match;
+        while(match = pattern.exec(formula)){
+         let val = document.getElementById(match[1]).value;
+         replaced = replaced.replace(match[0], val);
+        }
+        try{
+         let result = eval(replaced);
+         document.getElementById('result').innerHTML = 'Result: ' + result;
+        }catch(e){
+         alert('Invalid formula or variable values');
+        }
+       });
+      });
+     }
+ </script>
+</head>
+<body>
+ <input type="text" id="formula" placeholder="Enter formula with variables as {variable}" style="width: 100%">
+ <button id="build">Build Variables</button>
+ <div id="variables"></div>
+ <div id="result"></div>
+</body>
+</html>

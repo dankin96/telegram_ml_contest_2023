@@ -1,0 +1,7 @@
+I’m having a relatively inconsistent issue where the audio will cut out. Sometimes it’s really bad, other times it’s completely fine. I can’t really drawn any conclusions as to what causes it. I was playing a game and it was constantly cutting out, but when I was watching a yt video it took well over thirty minutes for any issues to appear. I’m also having issues with my Bluetooth headphones not working properly with the computer. I can connect them just fine, but when I try to actually use them they’re dead silent. The volume is up and the audio works when they’re not connected, besides the issues listed above. I’ve been using the headphones for 4-5 years now and they’ve been working perfectly fine with my phone. 
+System:
+Kernel: 6.5.5-zen1-1-zen arch: x86_64 bits: 64 compiler: gcc v: 13.2.1
+clocksource: tsc available: hpet,acpi_pm
+parameters: BOOT_IMAGE=/@/boot/vmlinuz-linux-zen
+root=UUID=6979cba8-2da6-4305-857e-53a090d535f5 rw rootflags=subvol=@
+quiet quiet rd.udev.log_priority=3 vt...

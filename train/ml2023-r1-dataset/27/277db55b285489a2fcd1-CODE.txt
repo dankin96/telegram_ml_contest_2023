@@ -1,0 +1,20 @@
+  const formData = new FormData();
+  formData.append('upload', fs.createReadStream(newpath), filename);
+  formData.append('deployment-name', filename.split('.')[0]);
+  formData.append('deploy-changed-only', 'true');
+  formData.append('deployment-source', 'Camunda Modeler');
+
+  var id = uuidv4();
+  logger.log({level: 'info', message: {type: 'REQUEST', cluster: 'Camunda', method: 'deployProcess',
+     url: '/deployment/create/' + ProcessKey, params: {}, sequenceId: id}});
+  var beginreq = Date.now();
+  axios.post(Camundaurl + '/deployment/create', formData, { headers: formData.getHeaders(), httpAgent: httpagent, httpsAgent: httpsagent, timeout: 20000, auth: authCamunda })
+  .then(response => {
+    const result = response.data;
+
+    logger.log({level: 'info', message: {type: 'RESPONSE', cluster: 'Camunda', method: 'deployProcess',
+       url: '/deployment/create/' + ProcessKey, result: result, responsetime: Date.now() - beginreq, sequenceId: id}});
+
+    fs.unlinkSync(newpath);
+    res.status(200).end(JSON.stringify({result: result}));
+  })

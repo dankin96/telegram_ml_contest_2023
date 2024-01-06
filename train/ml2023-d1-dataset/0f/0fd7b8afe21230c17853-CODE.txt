@@ -1,0 +1,15 @@
+{    "chat": {
+        "id": -1001900723301,        "title": "coolgroup",
+        "type": "supergroup",        "username": "coolgroup"
+    },    "date": 1697149526,
+    "entities": [        {
+            "length": 6,            "offset": 0,
+            "type": "bot_command"        },
+        {            "length": 21,
+            "offset": 7,            "type": "mention"
+        }    ],
+    "from": {        "first_name": "Vadim",
+        "id": 464682126,        "is_bot": false,
+        "language_code": "ru",        "username": "GoodVadim"
+    },    "message_id": 27,
+    "text": "/start @hghjghjghjghjg_bot"}

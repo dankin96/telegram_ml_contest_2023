@@ -1,0 +1,5 @@
+const rpl = await System.replacements.search().where(f => f.__id.eq('018b2887-4e18-7d28-99ad-9d78f4a00c21')).first();
+    if (rpl) {
+        rpl.data.end = rpl.data.end!.addDate(0, 0, 7);
+        await rpl.save();
+    }

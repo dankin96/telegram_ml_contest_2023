@@ -1,0 +1,10 @@
+struct fooparams {
+    int x = 10;
+    int y = 20;
+};
+struct bla {
+    struct foo {
+        foo(const fooparams& params = {}) {
+        }
+    };
+};

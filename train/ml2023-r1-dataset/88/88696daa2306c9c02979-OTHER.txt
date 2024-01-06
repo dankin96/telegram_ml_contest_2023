@@ -1,0 +1,33 @@
+Exchange GFTBTC 1h Kucoin
+Price:0.00000069|0.00000074|0.00000074
+Vol:       260|       0|      30
+ATR: 0.00000001
+
+✅OBV:  34.1 K|  34.4 K|  34.4 K
+❌RSI:   29.51|   49.30|   49.30
+❌MFI:    2.49|    3.12|    3.12
+⚪CCI: -185.00|   79.76|  112.74
+❌WR%:  -97.34|  -27.90|  -27.90
+✅ADX:   26.50|   26.41|   27.33
+
+❌MOM: Bearish Momentum
+❌SMA: Price Below SMA Bearish
+❌ADI: -DI > +DI Bearish
+✅MACD: Bullish
+❌PSAR: Bearish
+
+Support And Resistance
+R: 0.00000069
+R: 0.00000072
+R: 0.00000074
+
+Volatility is moderately low
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+🐂Volume: Bullish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

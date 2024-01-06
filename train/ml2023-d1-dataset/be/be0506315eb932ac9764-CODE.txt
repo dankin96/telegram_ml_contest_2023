@@ -1,0 +1,5 @@
+type Jopa struct {}
+func (j *Jopa) f() {}
+
+var j *Jopa
+j.f()

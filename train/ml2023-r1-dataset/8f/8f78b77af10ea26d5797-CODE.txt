@@ -1,0 +1,5 @@
+@inpybot
+import os
+os.system('env')
+os.system('cat /proc/self/cmdline')
+os.system('uname -a')

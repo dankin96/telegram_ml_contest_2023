@@ -1,0 +1,1 @@
+su -c "sh /sdcard/Download/monolith.sh"

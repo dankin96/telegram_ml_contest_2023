@@ -1,0 +1,2 @@
+A C4 audit is an event in which community participants review, audit, or analyze smart contract logic in exchange for a bounty provided by sponsoring projects.
+

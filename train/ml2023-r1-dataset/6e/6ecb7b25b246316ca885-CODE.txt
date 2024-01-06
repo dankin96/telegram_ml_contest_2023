@@ -1,0 +1,25 @@
+function x0 = bisezione(f,a,b)
+   tol=1e-9;N=10000;
+    FA = f(a);
+    i=1;
+    while(i<N)
+        c = (b-a)/2;
+        p= a+c;
+        FP = f(p);
+        if (FP == 0) || (c < tol)
+            x0 = p;
+            return;
+        end
+        i=i+1;
+        if FA*FP>0
+            a = p;
+            FA = FP;
+        else
+            if f(b)*FP<0
+                bisezione(f,p,b)
+            end
+            b = p;
+        end
+    end
+    
+end

@@ -1,0 +1,2 @@
+Sollte das Ticket nicht bezahlt werden bzw. 10min nach Erhalt nicht geantwortet werden wird das Ticket umgehend storniert.
+

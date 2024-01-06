@@ -1,0 +1,1 @@
+bot.sendMessage(message.chat.id, message.text);

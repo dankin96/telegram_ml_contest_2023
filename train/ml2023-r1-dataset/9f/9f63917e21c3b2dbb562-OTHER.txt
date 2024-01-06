@@ -1,0 +1,7 @@
+(PROD)ofelbaum@cr-migrator-1-vla:~$ ydb-scan.sh "SELECT count(*) FROM Task WHERE state='FAILED' AND id LIKE 'StorageResourceRemoveProcess%'"
+you will make query as User SID: ajela9ckmui6j33bjjr5@as
+┌─────────┐
+│ column0 │
+├─────────┤
+│ 42      │
+└─────────┘

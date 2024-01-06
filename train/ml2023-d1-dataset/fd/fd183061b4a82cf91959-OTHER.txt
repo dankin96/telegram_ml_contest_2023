@@ -1,0 +1,29 @@
+10 October Tuesday 
+🍽Yemek Listesi🍽 
+
++-------------------+
+| Günlük Menü       |
++-------------------+
+| TUTMAÇ ÇORBA      |
+| Patl覺can Musakka |
+| Pirinç Pilav覺    |
+| Cac覺k            |
++-------------------+
+
++----------------------+
+| Vejetaryen Menü      |
++----------------------+
+| TUTMAÇ ÇORBA         |
+| Zeytinyağlı Patlıcan |
+| Pirinç Pilavı        |
+| Cacık                |
++----------------------+
+
++----------------------+
+| Vegan Menü           |
++----------------------+
+| TUTMAÇ ÇORBA         |
+| Zeytinyağlı Patlıcan |
+| Pirinç Pilavı        |
+| Söğüş                |
++----------------------+

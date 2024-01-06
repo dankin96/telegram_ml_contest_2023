@@ -1,0 +1,17 @@
+<head>
+
+  ...
+
+  <link rel=preload as=image href=lo-res.jpg fetchpriority=high>
+
+  ...
+
+</head>
+<body>
+
+  <header style="background-image: url(hi-res.jpg),
+                                   url(lo-res.jpg)">
+    ...
+  </header>
+
+</body>

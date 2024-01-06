@@ -1,0 +1,11 @@
+ 15582936807
+pai: ANTENOR FURLAN
+mae: ISABEL GASPARINI FURLAN
+municipioNasci: ITATIBA - SP
+enderecoMuni: ITATIBA - SP
+enderecoLogr: OLYMPIA DA SILVEIRA FRANCO
+enderecoNu: 193
+enderecoBa: JD ARIZONA
+enderecoCe: 13.253-400
+cns: 708208176567548
+telefone: 11:4538-2436

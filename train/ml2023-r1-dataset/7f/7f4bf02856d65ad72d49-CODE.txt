@@ -1,0 +1,4 @@
+rewardTextLocalizeString.StringReference = eggsText;
+                        localizerManager.SetStringVariable(rewardTextLocalizeString, "antName", improvement.bottomCards[indexCard].GetAntCardData(improvement.bottomCards[indexCard].cardData).title.GetLocalizedString());
+                        localizerManager.SetIntVariable(rewardTextLocalizeString, "eggsAmount", count);
+                        iconSlot.sprite = iconEggsADS;

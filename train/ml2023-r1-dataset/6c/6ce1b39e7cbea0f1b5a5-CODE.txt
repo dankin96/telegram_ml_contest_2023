@@ -1,0 +1,5 @@
+ try{
+  vk.api.messages.send({peer_id: 34324234, message: `Привет`, random_id: 0}).catch(console.error);
+ } catch(err) {
+  console.log('asdasd')
+ }

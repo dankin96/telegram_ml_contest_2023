@@ -1,0 +1,7 @@
+Player         Zones   PPH   Points
+hba               85    85    67569
+weosk              0     0     1558
+SchubiKL           1     1     1463
+Cylindern          0     0      603
+jojooo             1     1      473
+snoeret            0     0      370

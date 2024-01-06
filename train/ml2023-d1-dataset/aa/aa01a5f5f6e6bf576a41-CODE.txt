@@ -1,0 +1,39 @@
+#include<iostream>
+using namespace std;
+
+bool kiemTraMangTang(int arr[], int n)
+{
+    for (int i = 0; i < n-1; i++)
+    {
+        if (arr[i] >= arr[i+1])
+        {
+            return false;
+        }
+    }
+    return true;
+}
+
+int main()
+{
+    int n;
+    cout << "Nhap so phan tu cua mang: ";
+    cin >> n;
+    
+    int arr[n];
+    cout << "Nhap cac phan tu cua mang: ";
+    for(int i = 0; i < n; i++)
+    {
+        cin >> arr[i];
+    }
+    
+    if (kiemTraMangTang(arr, n))
+    {
+        cout << "Mang la mang tang." << endl;
+    }
+    else
+    {
+        cout << "Mang khong la mang tang." << endl;
+    }
+    
+    return 0;
+}

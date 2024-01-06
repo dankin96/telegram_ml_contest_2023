@@ -1,0 +1,20 @@
+pythonCopy codeimport itertools
+
+# Создание бесконечной последовательности чисел, начиная с 1 и увеличиваясь на 2
+counter = itertools.count(1, 2)
+
+# Первые 5 элементов последовательности
+for _ in range(5):
+    print(next(counter))
+
+# Создание бесконечной последовательности букв 'A' и 'B'
+letters = itertools.cycle(['A', 'B'])
+
+# Первые 7 элементов последовательности
+for _ in range(7):
+    print(next(letters))
+
+# Повторение элемента 3 раза
+repeater = itertools.repeat('Hello', 3)
+for item in repeater:
+    print(item)

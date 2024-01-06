@@ -1,0 +1,1 @@
+ERROR: Post "https://receipts.eucard.com.br/v1/transaction": dial tcp: lookup receipts.eucard.com.br on 127.0.0.11:53: server misbehaving | FILE: /go/src/bitbucket.org/eucatur/api-pagamento/pay/eucard/eucard.go:59 | LINE: 59 | FUNCTION: bitbucket.org/eucatur/api-pagamento/pay/eucard.Post | HOSTNAME: api-pagamento-producao-61

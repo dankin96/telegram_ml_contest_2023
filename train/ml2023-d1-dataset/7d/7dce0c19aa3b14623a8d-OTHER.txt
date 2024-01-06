@@ -1,0 +1,15 @@
+Ordering process
+
+
+-People ask about available cars and prices on the car rental website or by calling.
+-Customers can see car options and details in the online catalog. After they choose a car, they can book it online or by phone, and this information is saved.
+-The system sends an email to confirm with booking details. The booked cars are labeled as "reserved" in the system.
+-The worker checks bookings and makes sure they're right. If customers want extras, like GPS, the worker adds them.
+-The boss checks if the car and extras are there for the booking.
+-If the car isn't there, the boss contacts the customer and suggests other options.
+-Once the car is available, the order is "confirmed" in the system. The worker gets the rental contract ready, with rules and things.
+-Customers come to the rental place to get their car. The workers check their info, talk about the rules, and give the car.
+-Customers drive the rented car for the time they booked. If they need more time, they can ask.
+-Customers give the car back when the rental time ends. The workers look at the car for problems and fuel. They write down any problems and talk to the customer.
+-The worker makes the bill for the time, extra things, and any problems. Customers can pay there or online.
+-The booking is done in the system. The car is cleaned and made ready for the next booking.

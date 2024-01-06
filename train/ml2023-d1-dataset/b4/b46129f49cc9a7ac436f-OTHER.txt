@@ -1,0 +1,12 @@
+VC - VinuChain
+$0.000000055
+Network: BASE
+H|L: 0.00|0.00000000
+1h:  7.5%      🍻       
+24h: 0.0%      😏       
+7d:  0.0%      😏       
+Vol: $2.1 M
+Liq: $20.1 K
+Circ Mcap: 55.5 K
+FDV 55.5 K
+CA: 0x0ffe2306e32b1e57086a951ad435f009679947d8

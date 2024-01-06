@@ -1,0 +1,2 @@
+preffix = 'ZD_'
+OUT = [preffix + name for name in IN[0] if preffix not in name]

@@ -1,0 +1,49 @@
+from __future__ import annotations
+
+from types import new_class
+from typing import TYPE_CHECKING
+
+if TYPE_CHECKING:
+  from typing import Any, Callable, Iterable
+
+
+class SlotsMeta(type):
+  def __new__(cls: type, name: str, bases: tuple[type], attrs: dict[str, Any], cls_attrs: dict[str, Any]) -> type:
+    # If you make new classes dynamically without bases (ex. `type` or `types.new_class`) argument `attrs` is useless.
+    cls_attrs.update(attrs)
+    return type.__new__(cls, name, bases, cls_attrs)
+
+
+def reassembly_with_slots(
+  *cls: type, available_slots: Iterable[str] | None = None, assemble_static_attrs_by_init: bool = False, search_slots: bool = True,
+  return_instance: bool = True, **cls_params: Any
+) -> Callable[[type], type | object] | type | object:
+  def decorator(*cls_: type) -> type | object:
+    # For specific cases.. =)
+    if not cls_:
+      msg = 'Decorator has no positional class argument!'
+      raise TypeError(msg)
+    cls: type = cls_[0]
+
+    # ???
+    print(available_slots)
+    if search_slots or not available_slots:
+      available_slots = ()  ###
+      ...
+
+    cls_attrs: dict[str, Any] = {}
+    cls_attrs.update(cls.__dict__)
+    if assemble_static_attrs_by_init:
+      print(available_slots)
+      cls_attrs = {m: o for m, o in cls_attrs.items() if m not in available_slots}
+    cls_attrs['__slots__'] = available_slots
+    cls = new_class(cls.__name__, (), {'metaclass': SlotsMeta, 'cls_attrs': cls_attrs})
+    del cls_attrs
+    if return_instance:
+      return cls(**cls_params)
+    return cls
+  if not cls:
+    return decorator
+  return decorator(*cls)
+
+print(reassembly_with_slots(object))

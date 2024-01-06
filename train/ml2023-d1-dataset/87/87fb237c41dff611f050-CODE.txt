@@ -1,0 +1,2 @@
+yum repo-pkgs teddysun list
+

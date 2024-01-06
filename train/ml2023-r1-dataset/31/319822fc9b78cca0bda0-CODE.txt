@@ -1,0 +1,24 @@
+data = {}
+name = input('Ismingizni kiriting: ')
+last_name = input('Familyangizni kiriting: ')
+email = input('pochtangizni kiriting: ')
+password = input('parolingzni kiriting: ')
+
+data['name'] = name
+data['last_name'] = last_name
+data['email'] = email
+data['password'] = password
+print(data)
+print("log in....")
+while True:
+    email = input('emailingizni kiriting: ')
+    password = input('parolingizni kiriting: ')
+
+    if email == data['email']:
+        if password == data['password']:
+            print('Xush kelibsiz..')
+            break
+        else:
+            print("email notug'ri")
+    else:
+        print("email notug'ri")

@@ -1,0 +1,27 @@
+cc.Class({
+    extends: cc.Component,
+
+    properties: {
+        inputBox: cc.EditBox, // 引用输入框组件
+    },
+
+    // LIFE-CYCLE CALLBACKS:
+
+    onLoad () {
+        this.inputBox.inputMode = cc.EditBox.InputMode.DECIMAL; // 设置输入模式为小数
+        this.inputBox.maxLength = 10; // 设置最大输入长度为10
+        this.inputBox.placeholder = "请输入数字"; // 设置输入框的占位符
+        this.inputBox.string = ""; // 清空输入框的内容
+    },
+
+    onInputChanged: function(text, editbox, customEventData) {
+        // 检查输入框中是否已经有小数点
+        if (text.indexOf(".") !== text.lastIndexOf(".")) {
+            // 如果输入框中已经有小数点，则将输入框的内容设置为上一次的内容
+            editbox.string = customEventData;
+        }
+    },
+
+    // update (dt) {},
+});
+

@@ -1,0 +1,44 @@
+#include <iostream>
+#include <string>
+
+int main() {
+    // Ввод выражения
+    std::string expression;
+    std::getline(std::cin, expression);
+
+    // Разбиение выражения на число n, знак операции и число m
+    int n = 0;
+    int m = 0;
+    char operation = '+';
+    bool isNComplete = false;
+
+    for (char c : expression) {
+        if (c >= '0' && c <= '9') {
+            int digit = c - '0';
+            if (isNComplete) {
+                m = m * 10 + digit;
+            } else {
+                n = n * 10 + digit;
+            }
+        } else if (c == '+') {
+            operation = '+';
+            isNComplete = true;
+        } else if (c == '-') {
+            operation = '-';
+            isNComplete = true;
+        }
+    }
+
+    // Вычисление результата выражения
+    int result;
+    if (operation == '+') {
+        result = n + m;
+    } else {
+        result = n - m;
+    }
+
+    // Вывод результата
+    std::cout << result << std::endl;
+
+    return 0;
+}

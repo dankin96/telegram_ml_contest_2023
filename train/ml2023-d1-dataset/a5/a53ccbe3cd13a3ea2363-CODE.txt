@@ -1,0 +1,4 @@
+
+<some-component-with-ng-content>
+   <a [href]=“someBindedValue”></a>
+</some-component-with-ng-content>

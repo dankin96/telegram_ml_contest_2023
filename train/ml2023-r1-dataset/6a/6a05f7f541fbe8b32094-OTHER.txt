@@ -1,0 +1,2 @@
+vless://1b4b33f1-41d3-44d9-8566-eb53163604fa@h1.bestvipserviceirr.xyz:443?type=grpc&serviceName=&security=reality&fp=chrome&pbk=Cypw8ijWAoJlg2jYEAHfHnSQzpriIH1gkLRAuBCtqjc&sni=discord.com&sid=875ffc69&spx=%2F#test1
+

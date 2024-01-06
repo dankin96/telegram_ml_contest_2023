@@ -1,0 +1,5 @@
+I'm using a translator, maybe that's getting in the way.
+
+Now the "TAB" option appears to configure each weapon separately.
+
+Every time I inject, I must configure each weapon separately, or in the aim section I do a global configuration

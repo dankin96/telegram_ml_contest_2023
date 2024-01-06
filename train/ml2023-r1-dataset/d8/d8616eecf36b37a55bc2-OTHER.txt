@@ -1,0 +1,2 @@
+  InstrumentType Direction
+0            HSI      SELL

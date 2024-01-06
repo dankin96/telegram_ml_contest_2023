@@ -1,0 +1,4 @@
+Triggered take profit: 1815.19
+Next take profit: 1810.92
+New stop loss: 1817.33
+Trade id: XAUUSDs1995155

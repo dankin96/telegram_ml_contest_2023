@@ -1,0 +1,5 @@
+OK: Low free disk space on Porta_Slave volume /porta_var
+Host: Porta_Slave 185.54.50.16 - time 06:09:40
+Trigger: Low free disk space on Porta_Slave volume /porta_var
+Trigger status: OK
+Trigger severity: High

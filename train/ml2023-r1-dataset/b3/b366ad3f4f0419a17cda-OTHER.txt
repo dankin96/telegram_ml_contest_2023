@@ -1,0 +1,17 @@
+Please check operator VPN and routing to it
+
+At least 1 events occurred between 2023-10-05 00:58 UTC and 2023-10-05 01:08 UTC
+
+@timestamp: 2023-10-05T01:08:17Z
+EndPoint: VIRGINMOBILE_10.4.9.9_3601
+Level: INFO
+Message: None
+Route: BOTH
+Status: NOK
+_id: T7Zg_YoB6BgfAFLN4r-Y
+_index: oper-routing-2023-10
+_type: oper-routing
+host: dtr-haproxy-2
+num_hits: 43
+num_matches: 14
+type: oper-routing

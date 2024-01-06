@@ -1,0 +1,10 @@
+👀 SPAM Score detected:
+###
+почитайте, сравните:
+
+https://kontrafakta.net/poddelka_avtozapchastey_nissan/filtr-toplivnyj-16400ec00a.html
+###
+
+Reason: Наличие ссылок
+Action: deleteMessage
+Bot response: Successful ✅

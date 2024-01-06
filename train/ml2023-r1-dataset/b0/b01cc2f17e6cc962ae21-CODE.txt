@@ -1,0 +1,23 @@
+javascript
+const numeroSecreto = Math.floor(Math.random() * 100) + 1;
+let intentos = 0;
+let acertado = false;
+
+while (!acertado) {
+  const intento = prompt("Adivina el número secreto (entre 1 y 100):");
+  intentos++;
+
+  if (intento) {
+    const numero = parseInt(intento);
+    if (numero === numeroSecreto) {
+      acertado = true;
+      console.log(`¡Felicidades! Adivinaste el número secreto en ${intentos} intentos.`);
+    } else if (numero < numeroSecreto) {
+      console.log("El número es más grande. Sigue intentando.");
+    } else {
+      console.log("El número es más pequeño. Sigue intentando.");
+    }
+  } else {
+    console.log("Ingresa un número válido.");
+  }
+}

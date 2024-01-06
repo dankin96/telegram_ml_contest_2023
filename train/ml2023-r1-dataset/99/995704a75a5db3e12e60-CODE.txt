@@ -1,0 +1,1 @@
+<test-component @click="testEvent"></test-component>

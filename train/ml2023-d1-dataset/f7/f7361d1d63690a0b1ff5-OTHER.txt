@@ -1,0 +1,9 @@
+   - O DTunnel VPN permite personalizar a interface do usuário por meio de layouts web (HTML, CSS e JavaScript).
+
+   - Alguns layouts são pagos e exclusivos. O uso não autorizado ou não pago desses layouts pode resultar na perda de acesso e da licença.
+
+   - Os usuários que adquirirem layouts web exclusivos têm permissão para compartilhar o layout com uma pessoa adicional sem custos adicionais.
+
+   - Caso o usuário deseje compartilhar o layout com mais de uma pessoa, será necessário pagar um valor adicional de 60 reais por cada pessoa adicional. Esse pagamento deve ser feito antes de compartilhar o layout com a(s) pessoa(s) adicional(is).
+
+

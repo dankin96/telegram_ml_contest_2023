@@ -1,0 +1,4 @@
+@extends('template.master', ['dati_da_passare_a_master_se_presenti' => $blah]) @section('body')
+    
+
+@endsection

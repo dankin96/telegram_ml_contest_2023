@@ -1,0 +1,4 @@
+sh
+while :; do
+    echo /tmp/verga-de-toro >>>>>>>>>>>> /dev/tu-culo
+done

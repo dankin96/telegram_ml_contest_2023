@@ -1,0 +1,4 @@
+Autocalibrator ERROR
+
+An abnormally low number of events occurred around 2023-10-13 14:32 CEST.
+Between 2023-10-13 13:22 CEST and 2023-10-13 14:32 CEST, there were less than 5 events.

@@ -1,0 +1,45 @@
+class Solution { 
+public: 
+    vector<int> majorityElement(vector<int>& nums) { 
+        int f1 = 0, f2 = 0; 
+        int c1 = 0, c2 = 0; 
+         
+        // Find potential majority elements 
+        for (int num : nums) { 
+            if (num == f1) { 
+                c1++; 
+            } else if (num == f2) { 
+                c2++; 
+            } else if (c1 == 0) { 
+                f1 = num; 
+                c1 = 1; 
+            } else if (c2 == 0) { 
+                f2 = num; 
+                c2 = 1; 
+            } else { 
+                c1--; 
+                c2--; 
+            } 
+        } 
+         
+        // Count the occurrences of potential majority elements 
+        c1 = c2 = 0; 
+        for (int num : nums) { 
+            if (num == f1) { 
+                c1++; 
+            } else if (num == f2) { 
+                c2++; 
+            } 
+        } 
+         
+        vector<int> result; 
+        if (c1 > nums.size() / 3) { 
+            result.push_back(f1); 
+        } 
+        if (c2 > nums.size() / 3) { 
+            result.push_back(f2); 
+        } 
+         
+        return result; 
+    } 
+};

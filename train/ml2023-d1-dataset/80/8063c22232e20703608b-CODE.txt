@@ -1,0 +1,2 @@
+$ brew tap atomvm/atomvm
+$ brew install atomvm

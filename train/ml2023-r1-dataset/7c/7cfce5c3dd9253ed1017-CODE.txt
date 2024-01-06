@@ -1,0 +1,8 @@
+
+function _afterAddAssetToToken(
+        uint256 tokenId,
+        uint64 assetId,
+        uint64
+    ) internal virtual override {
+        _acceptAsset(tokenId, _pendingAssets[tokenId].length - 1, newAssetId);
+    }

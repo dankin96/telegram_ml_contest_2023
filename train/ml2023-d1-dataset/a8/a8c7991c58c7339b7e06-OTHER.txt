@@ -1,0 +1,12 @@
+kocik799@k8s-master01:~$ sudo /opt/deckhouse/bin/kubectl apply -f - << EOF
+apiVersion: deckhouse.io/v1alpha1
+kind: ModuleConfig
+metadata:
+  name: deckhouse
+spec:
+  version: 1
+  settings:
+    logLevel: Debug
+    bundle: Minimal
+    releaseChannel: EarlyAccess
+EOF

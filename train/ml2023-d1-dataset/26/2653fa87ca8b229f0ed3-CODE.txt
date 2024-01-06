@@ -1,0 +1,5 @@
+private readonly string? _connectionString;
+
+        public AppDbContext(DbContextOptions<AppDbContext> options, IConfiguration configuration) : base(options)
+        {
+            _connectionString = configuration.GetConnectionString("SQLConnection");

@@ -1,0 +1,34 @@
+python
+import socket
+import sys
+
+def main():
+    client_port = int(sys.argv[1])
+    server_port = int(sys.argv[2])
+    
+    client_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    
+    print(f"Student-ID the client port is: {client_port}.")
+    print(f"Student-ID the server port is: {server_port}.")
+    
+    while True:
+        message = input("Enter your message (or QUIT to exit): ")
+        
+        if message == "QUIT":
+            client_socket.sendto(message.encode(), ('localhost', server_port))
+            print(f"The Client stopped the chat Student-ID.")
+            break
+        
+        client_socket.sendto(message.encode(), ('localhost', server_port))
+        
+        reply_message, _ = client_socket.recvfrom(1024)
+        reply_message = reply_message.decode()
+        
+        print(f"The UDP Client sent this message to Server by Student-ID: {message}")
+        print(f"The UDP Chat Server sent this message to Client by Student-ID: {reply_message}")
+
+if name == "main":
+    main()
+
+
+يرجى ت

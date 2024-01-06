@@ -1,0 +1,12 @@
+GetChallengeFunction {
+  (challenge: SubplebbitChallengeSettings, challengeRequest: ChallengeRequestMessage, challengeIndex: number): Challenge | ChallengeResult
+}
+Challenge { // if the result of a challenge can't be optained by getChallenge(), return a challenge
+  challenge: string // e.g. '2 + 2'
+  verify: async (answer: string): ChallengeResult
+  type: 'image/png' | 'text/plain' | 'chain/<chainTicker>'
+}
+ChallengeResult { // if the result of a challenge can be optained by getChallenge, return the result
+  success?: boolean
+  error?: string // the reason why the challenge failed, add it to ChallengeVerificationMessage.errors
+}

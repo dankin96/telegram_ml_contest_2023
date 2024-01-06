@@ -1,0 +1,3 @@
+fn mixup<X1, X2, Y1, Y2>(first: Point<X1, X2>, second: Point<Y1, Y2>) -> Point<X1, Y2> {
+    Point { x: first.x, y: second.y }
+} 

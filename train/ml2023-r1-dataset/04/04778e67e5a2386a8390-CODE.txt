@@ -1,0 +1,2 @@
+AutoConnect=true
+AutoScan=on

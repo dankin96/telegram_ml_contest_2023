@@ -1,0 +1,1 @@
+{"payTypes":["TinkoffNew"],"amountlimit":20000}

@@ -1,0 +1,15 @@
+<RadzenDataGrid
+                        Data="@a"
+                        AllowFiltering="true"
+                        FilterMode="FilterMode.Simple">
+                        <Columns>
+                            <RadzenDataGridColumn TItem="t" Property="text" Title="TestTitle" />
+                        </Columns>
+                    </RadzenDataGrid>
+
+t[] a = new[] {new t{text = "gsdfg"}, new t{text= "jfghdjdfghj"}};
+
+    public class t
+    {
+        public string text { get; set; }
+    }

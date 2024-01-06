@@ -1,0 +1,1 @@
+The GPA score you inputted has not been converted correctly to the 4.0 GPA scale. Please use the recommended converter and input the converted value.

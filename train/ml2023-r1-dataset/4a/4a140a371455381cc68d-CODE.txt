@@ -1,0 +1,3 @@
+interface BankCardNavigator {
+    fun navigateToBankCard()
+}

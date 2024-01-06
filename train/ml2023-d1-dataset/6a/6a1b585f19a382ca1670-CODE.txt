@@ -1,0 +1,10 @@
+
+    // @dev Override the transfer function to prevent transfers to other contracts.
+    function transferFrom(address from, address to, uint256 tokenId) public virtual override {
+        revert StarterPackSBT__TransferFromNotAllowed();
+    }
+
+    // @dev Override the safeTransferFrom function to prevent transfers to other contracts.
+    function safeTransferFrom(address from, address to, uint256 tokenId) public virtual override {
+        revert StarterPackSBT__SafeTransferFromNotAllowed();
+    }

@@ -1,0 +1,1 @@
+Manager has clients {"userId":4,"exception":"[object] (App\\Models\\Users\\Exceptions\\ManagerDeleteException(code: 0): Manager has clients at /opt/app/vendor/laravel/framework/src/Illuminate/Support/helpers.php:284)","url":"DELETE https://stage-01.demo.investments/api/bo/manager/302"} []

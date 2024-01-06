@@ -1,0 +1,22 @@
+App version: 1.10.0-(F-Droid) (11004)
+Device information: Android 13 (API 33)
+Supported ABIs: [arm64-v8a, armeabi-v7a, armeabi]
+Yt-dlp version: 2023.10.07
+
+URL: https://twitter.com/8bunme_yyu/status/1709548028535927197?t=JJIsz1BzLu6RXFN3hMx2MA&s=19
+Traceback (most recent call last):
+  File "/data/user/0/com.junkfood.seal/no_backup/youtubedl-android/packages/python/usr/lib/python3.8/runpy.py", line 192, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/data/user/0/com.junkfood.seal/no_backup/youtubedl-android/packages/python/usr/lib/python3.8/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/data/user/0/com.junkfood.seal/no_backup/youtubedl-android/yt-dlp/yt-dlp/__main__.py", line 14, in <module>
+  File "<frozen zipimport>", line 259, in load_module
+  File "/data/user/0/com.junkfood.seal/no_backup/youtubedl-android/yt-dlp/yt-dlp/yt_dlp/__init__.py", line 20, in <module>
+  File "<frozen zipimport>", line 259, in load_module
+  File "/data/user/0/com.junkfood.seal/no_backup/youtubedl-android/yt-dlp/yt-dlp/yt_dlp/downloader/__init__.py", line 26, in <module>
+  File "<frozen zipimport>", line 259, in load_module
+  File "/data/user/0/com.junkfood.seal/no_backup/youtubedl-android/yt-dlp/yt-dlp/yt_dlp/downloader/external.py", line 14, in <module>
+  File "<frozen zipimport>", line 241, in load_module
+  File "<frozen zipimport>", line 709, in _get_module_code
+  File "<frozen zipimport>", line 548, in _get_data
+zipimport.ZipImportError: bad local file header: '/data/user/0/com.junkfood.seal/no_backup/youtubedl-android/yt-dlp/yt-dlp'

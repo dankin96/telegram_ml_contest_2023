@@ -1,0 +1,20 @@
+yii\base\Exception: Has not waited the lock. in /mnt/finance/index.next/vendor/yiisoft/yii2-queue/src/drivers/db/Queue.php:178
+Stack trace:
+#0 [internal function]: yii\queue\db\Queue->yii\queue\db\{closure}()
+#1 /mnt/finance/index.next/vendor/yiisoft/yii2/db/Connection.php(1129): call_user_func()
+#2 /mnt/finance/index.next/vendor/yiisoft/yii2-queue/src/drivers/db/Queue.php(212): yii\db\Connection->useMaster()
+#3 /mnt/finance/index.next/vendor/yiisoft/yii2-queue/src/drivers/db/Queue.php(78): yii\queue\db\Queue->reserve()
+#4 [internal function]: yii\queue\db\Queue->yii\queue\db\{closure}()
+#5 /mnt/finance/index.next/vendor/yiisoft/yii2-queue/src/cli/Queue.php(117): call_user_func()
+#6 /mnt/finance/index.next/vendor/yiisoft/yii2-queue/src/drivers/db/Queue.php(93): yii\queue\cli\Queue->runWorker()
+#7 /mnt/finance/index.next/vendor/yiisoft/yii2-queue/src/drivers/db/Command.php(76): yii\queue\db\Queue->run()
+#8 [internal function]: yii\queue\db\Command->actionListen()
+#9 /mnt/finance/index.next/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array()
+#10 /mnt/finance/index.next/vendor/yiisoft/yii2/base/Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 /mnt/finance/index.next/vendor/yiisoft/yii2/console/Controller.php(182): yii\base\Controller->runAction()
+#12 /mnt/finance/index.next/vendor/yiisoft/yii2/base/Module.php(552): yii\console\Controller->runAction()
+#13 /mnt/finance/index.next/vendor/yiisoft/yii2/console/Application.php(180): yii\base\Module->runAction()
+#14 /mnt/finance/index.next/vendor/yiisoft/yii2/console/Application.php(147): yii\console\Application->runAction()
+#15 /mnt/finance/index.next/vendor/yiisoft/yii2/base/Application.php(384): yii\console\Application->handleRequest()
+#16 /mnt/finance/index.next/yii(22): yii\base\Application->run()
+#17 {main}

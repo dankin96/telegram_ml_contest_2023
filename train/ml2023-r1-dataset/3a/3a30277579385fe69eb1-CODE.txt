@@ -1,0 +1,7 @@
+// This is cool
+const segmenter = new Intl.Segmenter('ja', { granularity: 'word' });
+const segments = segmenter.segment('これは日本語のテキストです');
+
+Array.from(segments).map((segment) => segment.segment);
+// ['これ', 'は', '日本語', 'の', 'テキスト', 'です']
+

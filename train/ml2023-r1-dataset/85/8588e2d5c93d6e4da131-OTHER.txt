@@ -1,0 +1,16 @@
+W: Während der Überprüfung der Signatur trat ein Fehler auf. Das Depot wurde nicht aktualisiert und die vorherigen Indexdateien werden verwendet. GPG-Fehler: http://security.ubuntu.com/ubuntu jammy-security InRelease: Die folgenden Signaturen waren ungültig: BADSIG 871920D1991BC93C Ubuntu Archive Automatic Signing Key (2018) <ftpmaster@ubuntu.com>
+W: Konflikt bei Distribution: http://ftp.fau.de/ubuntu jammy-backports InRelease (jammy-backports erwartet, aber jammy bekommen)
+W: Fehlschlag beim Holen von http://security.ubuntu.com/ubuntu/dists/jammy-security/InRelease Die folgenden Signaturen waren ungültig: BADSIG 871920D1991BC93C Ubuntu Archive Automatic Signing Key (2018) <ftpmaster@ubuntu.com>
+E: Fehlschlag beim Holen von http://ftp.fau.de/ubuntu/dists/jammy-backports/restricted/binary-i386/Packages.xz Datei hat eine unerwartete Größe (64 != 32336). Eventuell läuft gerade eine Spiegel-Synchronisierung? [IP: 2001:638:a000:1021:21::1 80]
+   Hashes of expected file:
+    - Filesize:32336 [weak]
+    - SHA256:a2cfd74a3353d09e1ceb6bf4655f9ef8bc62d785443c26a207b4ae63b3554e2a
+    - SHA1:a260bebe5588e565acda43b6deb6ed9117ad7e12 [weak]
+    - MD5Sum:901f4db7ed5c763da023a474329df986 [weak]
+   Release file created at: Thu, 05 Oct 2023 01:08:26 +0000
+E: Fehlschlag beim Holen von http://ftp.fau.de/ubuntu/dists/jammy-backports/restricted/binary-amd64/Packages.xz 
+E: Fehlschlag beim Holen von http://ftp.fau.de/ubuntu/dists/jammy-backports/restricted/i18n/Translation-en.xz 
+E: Fehlschlag beim Holen von http://ftp.fau.de/ubuntu/dists/jammy-backports/multiverse/binary-amd64/Packages.xz 
+E: Fehlschlag beim Holen von http://ftp.fau.de/ubuntu/dists/jammy-backports/multiverse/binary-i386/Packages.xz 
+E: Fehlschlag beim Holen von http://ftp.fau.de/ubuntu/dists/jammy-backports/multiverse/i18n/Translation-en.xz 
+W: Einige Indexdateien konnten nicht heruntergeladen werden. Sie wurden ignoriert oder alte an ihrer Stelle benutzt.

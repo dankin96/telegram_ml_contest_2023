@@ -1,0 +1,48 @@
+javascript
+document.getElementById('show-form-btn').addEventListener('click', function() {
+  document.getElementById('communication-form').classList.remove('hidden');
+});
+
+document.getElementById('communication-form').addEventListener('submit', function(event) {
+  event.preventDefault();
+  
+  var inputs = document.getElementsByClassName('validation');
+  
+  for (var i = 0; i < inputs.length; i++) {
+    if (inputs[i].value === '') {
+      inputs[i].classList.add('valid');
+      inputs[i].classList.add('validation');
+    } else {
+      inputs[i].classList.remove('valid');
+      inputs[i].classList.add('validation');
+    }
+  }
+  
+  var isValid = true;
+  
+  for (var i = 0; i < inputs.length; i++) {
+    if (!inputs[i].classList.contains('valid')) {
+      isValid = false;
+      break;
+    }
+  }
+  
+  if (isValid) {
+    var messageText = 'Thanks for the communication.';
+    
+    document.getElementById('message-text').textContent = messageText;
+    document.getElementById('message-text').classList.remove('hidden');
+    
+    // Reset form
+    document.getElementById("communication-form").reset();
+    
+    // Hide form after submission
+    document.getElementById("communication-form").classList.add("hidden");
+    
+    // Remove validation classes from inputs
+     for (var i = 0; i < inputs.length; i++) {
+       inputs[i].classList.remove("valid");
+       inputs[i].classList.remove("validation");
+     }
+   }
+});

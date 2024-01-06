@@ -1,0 +1,8 @@
+2023-10-07 20:35:56.031 +03:00 [ERR] Error in handling client: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.. 
+ System.ObjectDisposedException: Cannot access a disposed object.
+Object name: 'System.Net.Sockets.NetworkStream'.
+   at System.Net.Sockets.NetworkStream.<ThrowIfDisposed>g__ThrowObjectDisposedException|63_0()
+   at System.Net.Sockets.NetworkStream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count, CancellationToken cancellationToken)
+   at System.IO.Stream.WriteAsync(Byte[] buffer, Int32 offset, Int32 count)
+   at OpenProtocolSimulator.ClientHandler.SendMessage(NetworkStream stream, String message) in

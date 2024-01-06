@@ -1,0 +1,1 @@
+Policy verdict log: flow 0x0 local EP ID 1535, remote ID world, proto 6, ingress, action audit, match none, 94.102.61.20:55398 -> 65.21.123.123:22 tcp SYN

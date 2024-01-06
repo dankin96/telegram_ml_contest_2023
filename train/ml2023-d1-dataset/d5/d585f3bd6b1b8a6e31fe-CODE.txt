@@ -1,0 +1,8 @@
+
+push [N]
+push _fmt
+call [printf]
+add esp,8
+
+...
+_fmt db '%d',0

@@ -1,0 +1,10 @@
+apt install python
+
+apt install python2
+
+git clone https://github.com/SOTDIM/sotdim.git
+
+cd sotdim
+
+python3 ddos.py
+

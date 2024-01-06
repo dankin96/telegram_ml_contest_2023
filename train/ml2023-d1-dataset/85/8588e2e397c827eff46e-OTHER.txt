@@ -1,0 +1,4 @@
+2023-10-13 19:14:04.606 INFO    SCRIPTING (Main): 1: nobody is in control of objective 1, with score of: {"0","0"}
+2023-10-13 19:14:04.677 INFO    SCRIPTING (Main): 2: red is in control of objective 2, with score of: {"346","0"}
+2023-10-13 19:14:04.697 INFO    SCRIPTING (Main): 3: blue is in control of objective 3, with score of: {"0","23"}
+2023-10-13 19:14:04.718 INFO    SCRIPTING (Main): 4: blue is in control of objective 4, with score of: {"0","100.5"}

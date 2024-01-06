@@ -1,0 +1,7 @@
+v10.1.1.1 (20470) Play Store uz
+Xiaomi 2109119DG android 13
+ROM: TKQ1.220829.002 test-keys
+Performance: HIGH
+Cache: 5,39 GB
+Database: 180,6 MB
+Free: 35,51 GB

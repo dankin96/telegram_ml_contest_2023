@@ -1,0 +1,25 @@
+
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/methods/advanced/resolve_peer.py", line 62, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/storage/sqlite_storage.py", line 142, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -1001968892043'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/ani/anibot/plugins/livechartme.py", line 318, in livechart_parser
+    await anibot.send_message(
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/methods/messages/send_message.py", line 128, in send_message
+    peer=await self.resolve_peer(chat_id),
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/methods/advanced/resolve_peer.py", line 111, in resolve_peer
+    await self.invoke(
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/methods/advanced/invoke.py", line 79, in invoke
+    r = await self.session.invoke(
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/session/session.py", line 389, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/session/session.py", line 357, in send
+    RPCError.raise_it(result, type(data))
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.ChannelInvalid: Telegram says: [400 CHANNEL_INVALID] - The channel parameter is invalid (caused by "channels.GetChannels")

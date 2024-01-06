@@ -1,0 +1,13 @@
+import math
+s=input().split()
+x1=float(s[0])
+x2=float(s[1])
+c=int(s[2])
+d=int(s[3])
+
+F=math.fabs((math.sin(math.fabs(c*x2*x2*x2+d*x1*x1*x1-c*d)*math.sin(math.fabs(c*x2*x2*x2+d*x1*x1*x1-c*d))))/(math.sqrt(c*x1*x1+d*x2*x2+7)))+math.tan(x1*x2*x2+d*d*d)
+result1 = round(F, 2)
+
+formatted_results = [format(result1, '.2f')]
+
+print(*formatted_results)

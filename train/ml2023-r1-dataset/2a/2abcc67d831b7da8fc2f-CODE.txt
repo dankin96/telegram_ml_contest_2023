@@ -1,0 +1,8 @@
+from aiogram.types import InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup, KeyboardButton
+
+back_keyboard = InlineKeyboardButton(text='⬅️ Orqaga', callback_data='back')
+start_keyboard = InlineKeyboardMarkup(resize_keyboard=True)
+start_keyboard.add(InlineKeyboardButton(text='📋 Menyu', callback_data='menu'))
+start_keyboard.add(InlineKeyboardButton(text='📝 Biz haqimizda', callback_data='about'))
+start_keyboard.add(InlineKeyboardButton(text='📞 Aloqa', callback_data='contact'))
+start_keyboard.add(InlineKeyboardButton(text='💬 Kommentariy', callback_data='comment'))

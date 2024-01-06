@@ -1,0 +1,8 @@
+
+
+*timestamp:2023-10-08 11:02:18,971
+*log-level:ERROR
+*classpath: j.c.g.error.GlobalExceptionHandler http-nio-8083-exec-9
+*exception: handleMethodArgumentNotValidException
+*multilineException:  at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+*service: user2.jumpit.host

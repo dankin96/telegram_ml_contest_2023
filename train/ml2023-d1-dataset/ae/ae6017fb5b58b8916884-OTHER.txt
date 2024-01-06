@@ -1,0 +1,1 @@
+xdg-desktop-portal-kde[911]: xdp-kde-settings: Namespace  "org.gnome.desktop.a11y.interface"  is not supported

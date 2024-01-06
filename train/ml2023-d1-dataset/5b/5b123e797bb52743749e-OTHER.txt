@@ -1,0 +1,1 @@
+vless://3622f04c-edc8-4746-a829-76dc2edd1bd3@188.114.97.2:8880?path=%2F&security=none&encryption=none&host=fin.newmtn.tech&type=ws#%40Click_vpnn+2

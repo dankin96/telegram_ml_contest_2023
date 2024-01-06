@@ -1,0 +1,31 @@
+java
+    private void handlePacketEvent(EventPacket e) {
+        if (spdMode.is("Really World")) {
+            if (e.getPacket() instanceof CConfirmTransactionPacket p) {
+                e.setCancel(true);
+            }
+            if (e.getPacket() instanceof SPlayerPositionLookPacket p) {
+                mc.player.func_242277_a(new Vector3d(p.getX(), p.getY(), p.getZ()));
+                mc.player.setRawPosition(p.getX(), p.getY(), p.getZ());
+                toggle();
+            }
+        }
+    }
+
+    private void handleRWMode() {
+        if (timerUtil.hasTimeElapsed(1150)) {
+            boosting = true;
+        }
+        if (timerUtil.hasTimeElapsed(7000)) {
+            boosting = false;
+            timerUtil.reset();
+        }
+        if (boosting) {
+            if (mc.player.isOnGround() && !mc.gameSettings.keyBindJump.pressed) {
+                mc.player.jump();
+            }
+            mc.timer.timerSpeed = mc.player.ticksExisted % 2 == 0 ? 1.5f : 1.2f;
+        } else {
+            mc.timer.timerSpeed = 0.05f;
+        }
+    }

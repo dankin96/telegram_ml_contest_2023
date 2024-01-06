@@ -1,0 +1,3 @@
+python
+from module_name import function_name
+function_name()

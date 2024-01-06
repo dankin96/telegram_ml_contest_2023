@@ -1,0 +1,5 @@
+ - IP: 91.207.173.70 (Singapore)
+ - Tag: stealer (Ynecoza)
+ - Passwords: 1
+ - Cookies: 94
+ - Wallets: 0

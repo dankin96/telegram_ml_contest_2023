@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+float calculateExpression(int n) {
+    if (n == 2) {
+        return 0.17; // Trường hợp cơ sở
+    } else {
+        float sum = calculateExpression(n - 1); // Gọi đệ quy đến n-1
+        float term = 1.0 / (n - 1) * n; // Tính giá trị của thành phần hiện tại
+        return sum + term; // Cộng giá trị của thành phần hiện tại vào tổng
+    }
+}
+
+int main() {
+    int n;
+    printf("Nhap gia tri n: ");
+    scanf("%d", &n);
+
+    float result = calculateExpression(n);
+
+    printf("Ket qua: %.2f", result);
+    return 0;
+}

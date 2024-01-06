@@ -1,0 +1,12 @@
+from requests import request
+from bs4 import BeautifulSoup
+
+task_id = input('Введи номер задачи: ')
+resp = request('GET', f'https://2.shkolkovo.online/catalog/180/{task_id}?SubjectId=1')
+bs_class = BeautifulSoup(resp.text, 'lxml')
+final_ = bs_class.find("div", {"class": "exercise__solution-final"})
+if final_:
+    print(final_.get_text())
+# solution_text = bs_class.find("div", {"class": "exercise__solution-text"})
+# if solution_text:
+#     print(solution_text.get_text())

@@ -1,0 +1,1 @@
+vless://Speedent_Net@104.21.80.4:2083?type=grpc&serviceName=@Speedent_Net+%2C+@Speedent_Net+%2C+@Speedent_Net+%2C+@Speedent_Net+%2C+@Speedent_Net+%2C+@Speedent_Net&security=tls&fp=safari&alpn=http%2F1.1%2Ch2%2Ch3&sni=kevins.speedent.click#Channel%3A@Speedent_Net-SpeedenT_Bot

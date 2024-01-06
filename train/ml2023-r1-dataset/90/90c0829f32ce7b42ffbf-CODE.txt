@@ -1,0 +1,48 @@
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
+
+public class TrafficSignalApp extends JFrame implements ItemListener {
+    private JRadioButton redButton, greenButton, yellowButton;
+
+    public TrafficSignalApp() {
+        setTitle("Traffic Signal");
+        setSize(200, 300);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLayout(new GridLayout(3, 1));
+
+        redButton = new JRadioButton("Red");
+        greenButton = new JRadioButton("Green");
+        yellowButton = new JRadioButton("Yellow");
+
+        ButtonGroup buttonGroup = new ButtonGroup();
+        buttonGroup.add(redButton);
+        buttonGroup.add(greenButton);
+        buttonGroup.add(yellowButton);
+
+        redButton.addItemListener(this);
+        greenButton.addItemListener(this);
+        yellowButton.addItemListener(this);
+
+        add(redButton);
+        add(yellowButton);
+        add(greenButton);
+
+        setVisible(true);
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> new TrafficSignalApp());
+    }
+
+    @Override
+    public void itemStateChanged(ItemEvent e) {
+        if (redButton.isSelected()) {
+            getContentPane().setBackground(Color.RED);
+        } else if (yellowButton.isSelected()) {
+            getContentPane().setBackground(Color.YELLOW);
+        } else if (greenButton.isSelected()) {
+            getContentPane().setBackground(Color.GREEN);
+        }
+    }
+}

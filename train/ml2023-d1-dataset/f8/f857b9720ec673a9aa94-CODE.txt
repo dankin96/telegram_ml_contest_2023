@@ -1,0 +1,12 @@
+
+
+@echo_router.message(F.text, StateFilter(None))
+async def bot_echo(message: types.Message, bot: Bot):
+    keyboard = (
+        types.InlineKeyboardMarkup().add(
+            types.InlineKeyboardButton(text="First", callback_data="first_action"),
+            types.InlineKeyboardButton(text="Second", callback_data="second_action"),
+        ),
+    )
+
+    await message.answer("Choose an option:", reply_markup=keyboard.as_markup())

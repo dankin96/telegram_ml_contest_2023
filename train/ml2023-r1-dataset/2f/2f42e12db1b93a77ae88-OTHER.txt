@@ -1,0 +1,3 @@
+2023-10-05T15:14:04Z DEBUG The ipa-client-install command failed, exception: CCacheError: Major (851968): Unspecified GSS failure.  Minor code may provide more information, Minor (2598845122): Credentials cache permissions incorrect (filename: /run/ipa/ccaches/host~                      ...)
+2023-10-05T15:14:04Z ERROR Major (851968): Unspecified GSS failure.  Minor code may provide more information, Minor (2598845122): Credentials cache permissions incorrect (filename: /run/ipa/ccaches/host~             ...)
+2023-10-05T15:14:04Z ERROR The ipa-client-install command failed. See /var/log/ipaclient-install.log for more information

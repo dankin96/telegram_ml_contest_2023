@@ -1,0 +1,26 @@
+ADDRESS:      0x64421e79C15744E012667fbAbc7224643cf5A54B
+PAIR:         0x342605d418a31F145fcEd5FEABdDa9E080aaa90b
+NAME:         LIVE NEW PAIRS
+SYMBOL:       LNP
+SUPPLY:       1000000000
+PRICE:        $0.0000289700527821
+LIQUIDITY:    $5,118
+24H CHANGE:   2550%
+24H VOLUME:   $30,089
+INITIAL MC:   $1,095
+CURRENT MC:   $32,979
+ATH MC:       $31,571
+BUY TAX:      25%
+SELL TAX:     31%
+RENOUNCED:    ✅
+LP BURNED:    ✅ 100% of lp tokens burnt
+VERIFIED:     ✅
+WHALES:       2.5000%, 2.4571%, 2.1761%, 1.9715%, 1.9241%
+
+✅✅✅✅✅ PASSED ✅✅✅✅✅
+⚠️ NO MAX BUY ⚠️
+
+🤗🤗🤗🤗🤗 SOCIALS 🤗🤗🤗🤗🤗
+https://t.me/LNP_ERC
+https://lnp.lol
+https://twitter.com/LNP_ERC

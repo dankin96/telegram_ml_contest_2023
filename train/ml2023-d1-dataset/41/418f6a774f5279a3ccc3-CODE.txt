@@ -1,0 +1,11 @@
+>>> from sqlalchemy import insert
+>>> session.execute(
+...     insert(User),
+...     [
+...         {"name": "spongebob", "fullname": "Spongebob Squarepants"},
+...         {"name": "sandy", "fullname": "Sandy Cheeks"},
+...         {"name": "patrick", "fullname": "Patrick Star"},
+...         {"name": "squidward", "fullname": "Squidward Tentacles"},
+...         {"name": "ehkrabs", "fullname": "Eugene H. Krabs"},
+...     ],
+... )

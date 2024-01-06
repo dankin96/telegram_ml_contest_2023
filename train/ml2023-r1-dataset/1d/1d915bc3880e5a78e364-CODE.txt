@@ -1,0 +1,3 @@
+[preferred]
+default=hyperland
+org.freedesktop.impl.portal.Settings=gtk

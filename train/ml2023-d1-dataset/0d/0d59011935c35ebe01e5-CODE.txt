@@ -1,0 +1,21 @@
+use BeyondCode\LaravelWebSockets\Facades\WebSocketsRouter;
+
+// Получение списка подключенных пользователей
+$connections = WebSocketsRouter::getConnections();
+
+// Перебор всех подключений и получение списка пользователей
+$connectedUsers = [];
+
+foreach ($connections as $connection) {
+    $userPayload = isset($connection['user']) ? $connection['user'] : null;
+
+    if ($userPayload) {
+        $userId = $userPayload['id'];
+        $connectedUsers[$userId] = $userPayload;
+    }
+}
+
+// Вывод списка подключенных пользователей
+print_r($connectedUsers);
+
+

@@ -1,0 +1,11 @@
+  class Repo {
+    static getName() {
+      return "Repo name is modern-js-cheatsheet"
+    }
+  }
+
+  // нам не нужно создавать объект класса Repo
+  console.log(Repo.getName()) // "Repo name is modern-js-cheatsheet"
+
+  let r = new Repo();
+  console.log(r.getName()) // необработанная ошибка TypeError: r.getName не является функцией

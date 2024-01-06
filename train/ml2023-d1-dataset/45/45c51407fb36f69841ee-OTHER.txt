@@ -1,0 +1,2 @@
+vless://--Tel-MsV2ray-MsV2ray--@49.13.86.190:666?mode=gun&security=reality&encryption=none&pbk=vxLNT93Gvp9oPBt6xOneIhEbve8FnETCyfHlJ-OklzQ&fp=firefox&spx=%2F&type=grpc&serviceName=@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray,@MsV2ray&sni=microsoft.com&sid=321b#%40MsV2ray+%7C++Reality+All
+

@@ -1,0 +1,77 @@
+
+{
+  "chat": {
+    "hash": "#c1162087440",
+    "id": -1001162087440,
+    "id2": 1162087440,
+    "title": "Помощь по Ubuntu",
+    "type": "supergroup",
+    "url": "https://t.me/pro_ubuntu",
+    "username": "pro_ubuntu"
+  },
+  "cmd_args_array": [],
+  "cmd_args_parsed": [],
+  "date": 1694073448,
+  "forward_date": 1689608478,
+  "forward_from": {
+    "first_name": "Post Bot",
+    "hash": "#u273234066",
+    "id": 273234066,
+    "is_bot": true,
+    "name": "Post Bot",
+    "short_name": "@PostBot",
+    "username": "PostBot"
+  },
+  "from_user": {
+    "first_name": "ㅤㅤ",
+    "hash": "#u708809067",
+    "id": 708809067,
+    "is_bot": false,
+    "last_name": "ㅤ",
+    "name": "ㅤㅤ ㅤ",
+    "short_name": "@xBADDAD",
+    "username": "xBADDAD"
+  },
+  "message_id": 712,
+  "photo": [
+    {
+      "file_id": "AgACAgUAAx0CRUQMEAACAshlJRUd8qt2ZS1_ggXCWNYUt3hVTwACSr0xG05KqVXdENbH2JggjwEAAwIAA3MAAzAE",
+      "file_size": 1694,
+      "file_unique_id": "AQADSr0xG05KqVV4",
+      "height": 67,
+      "width": 90
+    },
+    {
+      "file_id": "AgACAgUAAx0CRUQMEAACAshlJRUd8qt2ZS1_ggXCWNYUt3hVTwACSr0xG05KqVXdENbH2JggjwEAAwIAA20AAzAE",
+      "file_size": 20747,
+      "file_unique_id": "AQADSr0xG05KqVVy",
+      "height": 240,
+      "width": 320
+    },
+    {
+      "file_id": "AgACAgUAAx0CRUQMEAACAshlJRUd8qt2ZS1_ggXCWNYUt3hVTwACSr0xG05KqVXdENbH2JggjwEAAwIAA3gAAzAE",
+      "file_size": 78171,
+      "file_unique_id": "AQADSr0xG05KqVV9",
+      "height": 601,
+      "width": 800
+    },
+    {
+      "file_id": "AgACAgUAAx0CRUQMEAACAshlJRUd8qt2ZS1_ggXCWNYUt3hVTwACSr0xG05KqVXdENbH2JggjwEAAwIAA3kAAzAE",
+      "file_size": 107026,
+      "file_unique_id": "AQADSr0xG05KqVV-",
+      "height": 812,
+      "width": 1080
+    }
+  ],
+  "reply_markup": {
+    "inline_keyboard": [
+      [
+        {
+          "text": "ЖМИТЕ ДЛЯ СВЯЗИ",
+          "url": "https://t.me/WORKVSEMT_BOT"
+        }
+      ]
+    ]
+  },
+  "url": "https://t.me/pro_ubuntu/712"
+}

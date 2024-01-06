@@ -1,0 +1,2 @@
+bash
+dpkg -L example-package

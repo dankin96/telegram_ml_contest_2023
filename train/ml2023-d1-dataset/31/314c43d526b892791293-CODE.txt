@@ -1,0 +1,5 @@
+int main() {
+ foo();
+ sleep_for(5s);
+ return main();
+}

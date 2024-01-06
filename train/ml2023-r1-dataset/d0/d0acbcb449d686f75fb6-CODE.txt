@@ -1,0 +1,33 @@
+{
+    "text": "🥰",
+    "ai_result": {
+        "flagged": false,
+        "categories": {
+            "sexual": false,
+            "hate": false,
+            "harassment": false,
+            "self-harm": false,
+            "sexual\/minors": false,
+            "hate\/threatening": false,
+            "violence\/graphic": false,
+            "self-harm\/intent": false,
+            "self-harm\/instructions": false,
+            "harassment\/threatening": false,
+            "violence": false
+        },
+        "category_scores": {
+            "sexual": 0.006707401480525732,
+            "hate": 6.684020945613156e-7,
+            "harassment": 1.2688677088590339e-5,
+            "self-harm": 5.2116753579412034e-8,
+            "sexual\/minors": 1.77340170921525e-5,
+            "hate\/threatening": 3.265963499643476e-9,
+            "violence\/graphic": 5.2932200844679755e-9,
+            "self-harm\/intent": 7.047937788939862e-9,
+            "self-harm\/instructions": 4.06933757801653e-8,
+            "harassment\/threatening": 3.885056401031761e-7,
+            "violence": 6.069172968636849e-7
+        }
+    },
+    "time_stamp": "2023-10-05 17:52:03"
+}

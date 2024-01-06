@@ -1,0 +1,4 @@
+/manettegive
+/manettehelp
+/manettereload
+

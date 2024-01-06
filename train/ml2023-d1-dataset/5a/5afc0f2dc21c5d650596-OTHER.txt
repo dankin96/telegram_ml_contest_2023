@@ -1,0 +1,22 @@
+Message from wireguard-2,1:
+
+--
+For FreeBSD < 12.1 only the userland implementation wireguard-go is
+available.
+
+For FreeBSD >= 12.1 we default to use the kernel module if_wg(4).
+
+If you experience problems with it you can switch back to wireguard-go
+by removing net/wireguard-kmod and making sure net/wireguard-go is
+installed.
+The userland tools wg-quick(8) and wg(8) try to use kernel support if
+the kernel module is available and otherwise fall back to wireguard-go
+automatically. Config files are fully compatible.
+--
+===>   NOTICE:
+
+This port is deprecated; you may wish to reconsider installing it:
+
+Only useful for FreeBSD 12 which is EoL soon.
+
+It is scheduled to be removed on or after 2023-12-31.

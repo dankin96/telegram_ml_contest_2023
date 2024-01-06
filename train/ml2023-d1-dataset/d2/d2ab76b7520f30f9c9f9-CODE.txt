@@ -1,0 +1,1 @@
+Expect<Equal<Multiply<100_000n, '1'>, '100000'>>

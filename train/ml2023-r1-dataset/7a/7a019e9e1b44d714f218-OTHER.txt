@@ -1,0 +1,6 @@
+format nokos
+nama+usn:
+take berapa:
+rekber: .y/.n
+paymet:
+done sub @Storresena : 

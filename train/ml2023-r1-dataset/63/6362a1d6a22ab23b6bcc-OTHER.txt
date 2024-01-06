@@ -1,0 +1,8 @@
+TPAS_FAVOR_스케줄생성완료
+
+@timestamp: 2023-10-08T13:01:09
+_id: DzpyDYsBF0cxV6BTMRbX
+_index: filebeat-sri-tpas-2023.10.08
+message: [2023-10-08 13:00:25,371] [INFO  i.s.t.a.favor.process.SummaryProcess tpas-favor-summary.container-0-C-1] FAVOR Campaign run completed. Finalize processing - Summary id : 85645, total : 4355, success : 3062, filtered : 1293, missing : 0, error: 0
+num_hits: 1
+num_matches: 1

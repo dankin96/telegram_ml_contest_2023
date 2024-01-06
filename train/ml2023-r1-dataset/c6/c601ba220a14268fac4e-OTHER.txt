@@ -1,0 +1,9 @@
+ Timestamp  : 2023-10-06T00:00:00Z
+ Status     : Staking
+ Version    : /Satoshi:0.19.2.22/
+ Uptime     : 71.2 days
+ Peers      : 71
+ Last Block : 1522934
+ Staking    : 132968 PART
+ NetStaking : 6306K PART
+ MP Fee Vote: 0.000100 PART

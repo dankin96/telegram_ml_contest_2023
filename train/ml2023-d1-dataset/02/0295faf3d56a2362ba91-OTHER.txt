@@ -1,0 +1,1 @@
+2023-10-11 10:18:21,419 ERROR [ForkJoinPool-1-worker-3] [default] io.qameta.allure.AllureLifecycle: Could not add attachment: no test is running

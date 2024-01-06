@@ -1,0 +1,28 @@
+kotlin
+
+    fun minOperations(nums: IntArray): Int {
+      nums.sort()
+      val uniqPrefix = IntArray(nums.size) { 1 }
+      for (i in 1..<nums.size) {
+        uniqPrefix[i] = uniqPrefix[i - 1]
+        if (nums[i] != nums[i - 1]) uniqPrefix[i]++
+      }
+      var minOps = nums.size - 1
+      for (i in nums.indices) {
+        val from = nums[i]
+        val to = from + nums.size - 1
+        var lo = i
+        var hi = nums.size - 1
+        var toPos = nums.size
+        while (lo <= hi) {
+          val mid = lo + (hi - lo) / 2
+          if (nums[mid] > to) {
+            toPos = min(toPos, mid)
+            hi = mid - 1
+          } else lo = mid + 1
+        }
+        val uniqCount = max(0, uniqPrefix[toPos - 1] - uniqPrefix[i]) + 1
+        minOps = min(minOps, nums.size - uniqCount)
+      }
+      return minOps
+    }

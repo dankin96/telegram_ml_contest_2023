@@ -1,0 +1,5 @@
+
+
+[SQL: INSERT INTO "forceSubscribe" (chat_id, channel) VALUES (%(chat_id)s, %(channel)s)]
+[parameters: {'chat_id': -1001930303475, 'channel': 'AvengerNews'}]
+(Background on this error at: http://sqlalche.me/e/14/9h9h)

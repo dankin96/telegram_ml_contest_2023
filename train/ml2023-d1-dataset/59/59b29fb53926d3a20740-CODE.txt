@@ -1,0 +1,8 @@
+EventManager::getInstance()->registerEventHandler(
+    "sale",
+    "OnBeforeOrderAccountNumberSet",
+    $strModuleId,
+    "\Acrit\Core\Orders\OrderNumber",
+    "generateOrderNumber"
+);
+

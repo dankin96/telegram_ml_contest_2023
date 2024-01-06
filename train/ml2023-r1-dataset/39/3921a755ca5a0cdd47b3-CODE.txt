@@ -1,0 +1,3 @@
+const neko = @cImport({
+    @cInclude("neko.h");
+});

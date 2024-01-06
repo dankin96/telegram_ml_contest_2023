@@ -1,0 +1,7 @@
+
+ 
+Estado de los nodos:
+alloc       1 nodes (40 CPUs)
+idle        5 nodes (200 CPUs)
+mix        22 nodes (936 CPUs)
+Total      28 nodes (1176 CPUs)

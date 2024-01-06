@@ -1,0 +1,8 @@
+
+
+*timestamp:2023-10-12 12:23:23,705
+*log-level:ERROR
+*classpath: j.c.g.error.GlobalExceptionHandler http-nio-8083-exec-140
+*exception: handleBusinessException
+*multilineException: jumpit.db.entity.user.exceptions.UserProfileNotFoundException: 173099is not found
+*service: user1.jumpit.host

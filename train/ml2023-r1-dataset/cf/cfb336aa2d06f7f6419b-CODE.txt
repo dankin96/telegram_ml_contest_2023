@@ -1,0 +1,17 @@
+/** Example: success === resolved (no timeout in d8) */
+const pFactory = (success, timeout) => new Promise((res, rej) => setTimeout(success ? res : rej, timeout))
+
+;(async () => {
+    // rejected after 1 second
+    const pRejected = pFactory(false, 1000)
+    try {
+        // resolved after 2 seconds
+        const pResolved = pFactory(true, 2000)
+        await pResolved.then(() => {
+            console.log('This log will not be shown in NodeJS v18 (still see in v14)')
+            return pRejected
+        })
+    } catch (e) {
+        console.log('Did I handle it in browser?')
+    }
+})()

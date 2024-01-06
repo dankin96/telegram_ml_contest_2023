@@ -1,0 +1,25 @@
+beru@venture:~/evox$ lunch evolution_rosemary-userdebug
+date: bad date 2023-10-07 16:04 UTC
+Trying dependencies-only mode on a non-existing device tree?
+including vendor/evolution/vendorsetup.sh
+including vendor/gcgop/vendorsetup.sh
+date: bad date 2023-10-07 16:04 UTC
+
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=14
+PRODUCT_INCLUDE_TAGS=com.android.mainline
+EVO_VERSION=evolution_rosemary-ota-up1a.231005.007.a1-10071604-community
+EVO_BUILD_TYPE=COMMUNITY
+TARGET_PRODUCT=evolution_rosemary
+TARGET_BUILD_VARIANT=userdebug
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-2a-dotprod
+TARGET_CPU_VARIANT=generic
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv8-2a
+TARGET_2ND_CPU_VARIANT=generic
+HOST_OS=linux
+BUILD_ID=UP1A.231005.007.A1
+OUT_DIR=/home/beru/evox/out
+============================================

@@ -1,0 +1,1 @@
+ ALTER TABLE schema.table_name ADD COLUMN nuevo_id SERIAL PRIMARY KEY;

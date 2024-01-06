@@ -1,0 +1,5 @@
+#divulgação
+
+l) "Nome do produto/grupo/canal/bot"  OBRIGATÓRIO
+II) "função" OBRIGATÓRIO
+III) "links" OBRIGATÓRIO

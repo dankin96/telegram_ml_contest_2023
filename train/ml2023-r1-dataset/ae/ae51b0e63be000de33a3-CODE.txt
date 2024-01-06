@@ -1,0 +1,1 @@
+/usr/local/bin/ffmpeg -hide_banner -nostats -hwaccel cuda -hwaccel_output_format cuda -hwaccel_device 1 -deint 1 -drop_second_field 1 -i http://xx.xx.xx.xx:4020/udp/239.39.0.1:1234 -preset fast -profile:v main -gpu 1 -c:v h264_nvenc -b:v 2500k -c:a libfdk_aac -b:a 128k -r 25 -g 25 -keyint_min 13 -f mpegts udp://127.0.0.1:6665

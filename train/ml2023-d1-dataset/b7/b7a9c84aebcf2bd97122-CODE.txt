@@ -1,0 +1,11 @@
+def get_sentence_embedding(sentence):
+    words = sentence.split()
+    embeddings = [model[word] for word in words if word in model.vocab]
+    if not embeddings:
+        # if no words in the sentence are in the model's vocabulary return vector of zeros
+        return np.zeros(model.vector_size)
+    else:
+        return np.mean(embeddings, axis=0)
+
+sentence = "This is a sample sentence for embedding"
+print(get_sentence_embedding(sentence))

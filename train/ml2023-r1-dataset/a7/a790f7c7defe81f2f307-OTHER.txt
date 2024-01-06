@@ -1,0 +1,9 @@
+Country: India
+Full name: Max Mustermann
+Mobile Number: 1234567899
+Pincode: 400001
+Flat, House no.: 750 Vithaldas
+Area: Kalbadevi
+City: Mumbai
+State: Maharashtra
+

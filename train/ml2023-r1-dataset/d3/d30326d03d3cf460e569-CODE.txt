@@ -1,0 +1,13 @@
+    const $source = combine(
+      externalSource,
+      $actionItem,
+      (first, second) => first || second
+    )
+
+    sample({
+      clock: confirmAction,
+      source: $source,
+      filter: Boolean,
+      fn: selectParameters,
+      target: attachedFx,
+    })

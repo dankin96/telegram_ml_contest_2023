@@ -1,0 +1,13 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract FindX {
+    
+    // Variable to store the result of the equation
+    uint256 public x;
+
+    // Function to solve the equation 3X = 12
+    function solveEquation() public {
+        x = 12 / 3; // X = 12 / 3
+    }
+}

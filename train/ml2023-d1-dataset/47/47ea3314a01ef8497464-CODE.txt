@@ -1,0 +1,8 @@
+load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
+http_archive(
+    name = "skyscope",
+    sha256 = "5544313ec77adbc96856c4cdfb3dfc6b5409e05790860ae19c7d321fb585490b",
+    urls = ["https://github.com/tweag/skyscope/releases/download/v0.2.7/skyscope.zip"]
+)
+load("@skyscope//:repository.bzl", "configure_skyscope")
+configure_skyscope()

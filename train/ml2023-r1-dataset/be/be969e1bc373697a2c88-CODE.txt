@@ -1,0 +1,35 @@
+#format binary
+
+#org 0x7C00
+
+_fix_cs:
+  mov ax, 0
+  mov ds, ax
+  mov ss, ax
+  mov es, ax
+  mov gs, ax
+  mov fs, ax
+  jmp 0:main
+
+main:
+  movw si, string
+  call print
+  hlt
+
+print:
+  mov ah, 0xe
+.loop:
+  lodsb
+  test al, al
+  jz ,end
+  int 0x10
+  jmp .loop
+.end:
+  ret
+
+string sb "Hello, world!\r
+\0"
+
+#times(510-$+$$) db 0
+
+dw 0xaa55

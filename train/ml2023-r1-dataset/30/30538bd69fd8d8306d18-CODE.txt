@@ -1,0 +1,31 @@
+
+#include 
+#include 
+
+// Структура для хранения информации о карманном казахе
+struct Kazakh {
+    std::string color;
+    int size;
+};
+
+int main() {
+    std::vector kazakhs; // Вектор для хранения карманных казахов
+
+    // Ввод информации о каждом карманном казахе
+    for (int i = 0; i < 5; i++) {
+        Kazakh kazakh;
+        std::cout << "Введите цвет карманного казаха #" << i+1 << ": ";
+        std::cin >> kazakh.color;
+        std::cout << "Введите размер карманного казаха #" << i+1 << ": ";
+        std::cin >> kazakh.size;
+        kazakhs.push_back(kazakh);
+    }
+
+    // Вывод информации о всех карманных казахах
+    std::cout << "Информация о карманных казахах:" << std::endl;
+    for (const Kazakh& kazakh : kazakhs) {
+        std::cout << "Цвет: " << kazakh.color << ", Размер: " << kazakh.size << std::endl;
+    }
+
+    return 0;
+}

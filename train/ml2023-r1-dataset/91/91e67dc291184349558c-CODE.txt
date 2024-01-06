@@ -1,0 +1,8 @@
+ neighbor 0.0.0.0/0 remote-as route-map Leaves_AS_Numbers, где
+
+# show route-map Leaves_AS_Numbers
+route-map Leaves_AS_Numbers, permit, sequence 10 
+  Match clauses:
+    as-number: 65001-65098 
+  Set clauses:
+

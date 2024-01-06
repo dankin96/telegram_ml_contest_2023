@@ -1,0 +1,2 @@
+fastboot flash boot boot.img
+ fastboot flash vendor_boot vendor_boot.img

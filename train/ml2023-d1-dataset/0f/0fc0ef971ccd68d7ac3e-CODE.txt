@@ -1,0 +1,3 @@
+(macrolet ((foo () 10))
+  (tmlet (foo () `(+ 1 (,foo)))
+    (foo)))

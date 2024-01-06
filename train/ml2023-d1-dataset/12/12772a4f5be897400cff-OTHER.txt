@@ -1,0 +1,4 @@
+h3://unfiltered.adguard-dns.com/dns-query
+h3://open.dns0.eu/dns-query
+tls://dns3.digitalcourage.de
+

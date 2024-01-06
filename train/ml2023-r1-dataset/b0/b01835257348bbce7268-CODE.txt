@@ -1,0 +1,3 @@
+static const MaterialColor myColor = MaterialColor(
+...
+)

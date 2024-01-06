@@ -1,0 +1,83 @@
+import requests
+import pandas as pd
+import os
+import sys
+import re
+import pytz
+import json
+
+abs_path = os.path.dirname(__file__)
+if abs_path == '/opt/airflow/dags':
+    abs_path = '/opt/airflow/Python-Project'
+else:
+    pass
+# /Python-Project'
+main_cwd = re.sub('Python-Project.*','Python-Project',abs_path)
+os.chdir(main_cwd)
+sys.path.append(main_cwd)
+
+
+json_file = './service_account.json'
+spreadsheet = 'Sport_betting'
+
+from hook.pygsheets_class import pygsheets_googlesheet
+from datetime import datetime
+from tqdm import tqdm
+import time
+from datetime import datetime, timedelta
+from dateutil.relativedelta import relativedelta
+import pytz
+import pygsheets
+
+from hook.sport_188bet import selenium_188bet as b
+
+googlesheet_instance = pygsheets_googlesheet(spreadsheet, json_file)
+
+df = googlesheet_instance.Read_all_record('188bet_ingame_history')
+
+# Function to parse the list column into multiple columns
+def convert_to_list(string):
+    strip_string = string.strip('[]').split(',')
+    return [str(i) for i in strip_string]
+# Apply the function and concatenate the result with the original DataFrame
+# df_parsed = df['main_market'].apply(convert_to_list)
+
+import json
+
+# Function to parse the JSON string and normalize it into columns
+def parse_json_string(json_string):
+    # Load the JSON string into a list of dictionaries
+    data_list = json.loads(json_string)
+    # Use pandas.json_normalize to create columns from the nested dictionaries
+    return pd.json_normalize(data_list[0]) if data_list else pd.Series()
+
+# Apply the function and concatenate the result with the original DataFrame
+df_normalized = pd.concat([df['id'], df['main_market'].apply(parse_json_string)], axis=1)
+
+# Resulting DataFrame
+print(df_normalized)
+
+
+
+# Function to parse the JSON list and normalize it into columns
+def parse_json_list(json_list):
+    # Load the JSON string into a list of dictionaries
+    data_list = json.loads(json_list)
+    # Use pandas.json_normalize to create columns from the nested dictionaries
+    return pd.json_normalize(data_list)
+
+# Apply the function and concatenate the result with the original DataFrame
+df_normalized = pd.concat([df['id'], df['main_market'].apply(parse_json_list)], axis=1)
+
+# Resulting DataFrame
+print(df_normalized)
+
+
+# Rename the new columns if needed
+# df_parsed.columns = [f'Value_{i+1}' for i in range(len(df_parsed.columns))]
+
+# # Concatenate the original DataFrame's 'ID' column with the parsed columns
+# df_final = pd.concat([df['id'], df_parsed], axis=1)
+
+# # Resulting DataFrame
+# print(df_final)

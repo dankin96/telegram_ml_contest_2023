@@ -1,0 +1,16 @@
+
+$code = 'enum Mega {';
+for ($i = 0; $i < 60_000; ++$i) {
+    $code .= "case C{$i};";
+}
+$code .= '}';
+eval($code);
+unset($code);
+
+var_dump(memory_get_usage() / 1024 / 1024); // 14.9
+
+for ($i = 0; $i < 60_000; ++$i) {
+    constant("Mega::C{$i}");
+}
+
+var_dump(memory_get_usage() / 1024 / 1024); // 13.1 😳

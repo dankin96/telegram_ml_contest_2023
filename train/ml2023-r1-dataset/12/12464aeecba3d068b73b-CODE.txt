@@ -1,0 +1,20 @@
+
+(use-package evil
+
+  :init
+
+  (setq evil-want-keybinding nil)
+
+  (evil-mode t)
+
+  :bind
+
+  (:map evil-insert-state-map
+
+ ("C-c" . evil-force-normal-state)
+
+ ("C-h" . evil-delete-backward-char-and-join))
+
+  :config
+
+  (evil-set-undo-system 'undo-redo))

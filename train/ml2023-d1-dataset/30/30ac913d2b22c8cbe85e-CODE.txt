@@ -1,0 +1,39 @@
+{
+  "update_id": 982731879,
+  "message": {
+    "message_id": 80668,
+    "from": {
+      "id": 5331978591,
+      "is_bot": false,
+      "first_name": "Dr. Kelvin Alaneme",
+      "username": "Kelvin_Alaneme_1"
+    },
+    "chat": {
+      "id": -1001613691130,
+      "title": "International Students - U.K 2023",
+      "username": "InternationalstudentsofUK",
+      "type": "supergroup"
+    },
+    "date": 1697170425,
+    "new_chat_participant": {
+      "id": 5331978591,
+      "is_bot": false,
+      "first_name": "Dr. Kelvin Alaneme",
+      "username": "Kelvin_Alaneme_1"
+    },
+    "new_chat_member": {
+      "id": 5331978591,
+      "is_bot": false,
+      "first_name": "Dr. Kelvin Alaneme",
+      "username": "Kelvin_Alaneme_1"
+    },
+    "new_chat_members": [
+      {
+        "id": 5331978591,
+        "is_bot": false,
+        "first_name": "Dr. Kelvin Alaneme",
+        "username": "Kelvin_Alaneme_1"
+      }
+    ]
+  }
+}

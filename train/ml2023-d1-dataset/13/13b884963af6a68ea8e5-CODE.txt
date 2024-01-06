@@ -1,0 +1,42 @@
+  a64() { echo -n "${1:-$s}" | base64 -w0; echo; }
+
+  b64()
+  {
+    local -- s=${1:-$s}
+    local -i i=0 j a e M L
+    while ((i<${#s}))
+    do
+      for ((j=0;j<=3;j++))
+      {
+           ((j)) || L=0
+        ((3==j)) || printf -va %d "'${s:i++:1}"
+        e=4**j
+        M='a/(4*e)'
+        printf ${d[L+M]}
+        L='a%(4*e)*16/e'
+      }
+    done
+    echo
+  }
+
+
+
+  d=( {A..Z} {a..z} {0..9} + / )
+
+  s='71108441  8.192 -rw-rw-r--  1 arkanon lsd  7.502 2023/10/12 Thu 04:59:20 -03 README.md'
+
+  a64; b64
+  # NzExMDg0NDEgIDguMTkyIC1ydy1ydy1yLS0gIDEgYXJrYW5vbiBsc2QgIDcuNTAyIDIwMjMvMTAvMTIgVGh1IDA0OjU5OjIwIC0wMyBSRUFETUUubWQ=
+  # NzExMDg0NDEgIDguMTkyIC1ydy1ydy1yLS0gIDEgYXJrYW5vbiBsc2QgIDcuNTAyIDIwMjMvMTAvMTIgVGh1IDA0OjU5OjIwIC0wMyBSRUFETUUubWQA
+
+  . <(curl -ksL bit.ly/benshmark-v5)
+  alias bm=benshmark-v5
+
+  free -m; echo 3 | sudo tee /proc/sys/vm/drop_caches; free -m
+
+  bm 2000 a64 b64 %
+  # a64  00:03,909
+  # b64  00:03,154
+  #
+  # 1º  b64
+  # 2º  a64/b64  23,937 % mais lenta

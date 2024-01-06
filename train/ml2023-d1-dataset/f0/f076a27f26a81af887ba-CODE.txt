@@ -1,0 +1,9 @@
+val customJar by tasks.registering(Jar::class) {
+    from(file("src/main/java/com/example/extrajar"))
+
+    destinationDirectory.set(layout.buildDirectory)
+    archiveFileName.set("custom.jar")
+}
+
+
+project.getDependencies().add("runtimeOnly", project.files(customJar))

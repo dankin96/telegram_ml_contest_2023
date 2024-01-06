@@ -1,0 +1,25 @@
+func (this *Wrap) Connect(addr string) error {
+  conn, err := amqp.Dial(addr)
+  if err != nil {
+    return err
+  }
+
+  this.connection.Store(conn)
+
+  go func() {
+    <-ch.NotifyClose(make(chan *amqp.Error))
+                if this.Connect(addr) != nil {
+                     time.AfterFunc(time.Second*3, func() {
+                         if this.Connect(addr) != nil {
+                             time.AfterFunc(time.Second*10, func() {
+                                 if this.Connect(addr) != nil {
+                                     // report a error?
+                                 }
+                             })
+                         }
+                     })
+                 }
+  }()
+
+  return nil
+}

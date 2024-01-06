@@ -1,0 +1,28 @@
+ 
+fn eval_dynamic(st:&str) -> Result<Vec<u8>, Box<dyn std::error::Error>> {
+    std::fs::write("/tmp/eval.rs",format!("
+    #[no_mangle]fn eval() -> Vec<u8> {{ 
+        let my_vec_1:Vec<u8> = vec![1,2,3];
+        let my_vec_2 = vec![3,4,5];
+        let my_vec_200 = vec![6,7,8];
+
+        { }}}",st))?;
+    ::std::process::Command::new("rustc")
+        .args(&[
+            "-o","/tmp/eval.so",
+            "--crate-type","dylib",
+            "/tmp/eval.rs"
+        ]).spawn()?.wait_with_output()?;
+    unsafe {
+        let lib = libloading::Library::new("/tmp/eval.so")?;
+        let func: libloading::Symbol<unsafe extern fn() -> Vec<u8>> = lib.get(b"eval")?;
+        Ok(func())
+    }
+}
+fn main() -> Result<(),Box<dyn std::error::Error>>{
+
+    let name = "my_vec_2";
+    let v = eval_dynamic(name)?;
+    assert_eq!(vec![3,4,5],v);
+    Ok(())
+}

@@ -1,0 +1,31 @@
+
+import time
+from telethon.sync import TelegramClient
+from telethon.tl.functions.messages import EditMessageRequest
+
+# مشخصات کلاینت تلگرام را وارد کنید
+api_id = 'YOUR_API_ID'
+api_hash = 'YOUR_API_HASH'
+phone_number = 'YOUR_PHONE_NUMBER'
+
+# مشخصات متن و اطلاعات کانال را وارد کنید
+channel_username = 'YOUR_CHANNEL_USERNAME'
+message_id = 'YOUR_MESSAGE_ID'
+
+# ساعت فعلی را دریافت کنید
+current_time = time.strftime('%H:%M:%S')
+
+with TelegramClient(phone_number, api_id, api_hash) as client:
+    # ویرایش پیام در کانال
+    client(EditMessageRequest(
+        peer=channel_username,
+        id=message_id,
+        message='متن جدید'
+    ))
+
+    # اضافه کردن ساعت به متن
+    client(EditMessageRequest(
+        peer=channel_username,
+        id=message_id,
+        message=f'متن جدید - {current_time}'
+    ))

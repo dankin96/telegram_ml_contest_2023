@@ -1,0 +1,12 @@
+class ListingSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Listing
+        fields = ('field1', 'field2', 'field3')
+
+class AgentSerializer(serializers.ModelSerializer):
+    listing = ListingSerializer(fields=('field1', 'field2'), many=False, read_only=True)
+
+    class Meta:
+        model = Agent
+        fields = '__all__'
+

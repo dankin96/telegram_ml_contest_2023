@@ -1,0 +1,3 @@
+import globalStylesLocal from './lib/app.scss?inline';
+
+export const globalStyles = globalStylesLocal;

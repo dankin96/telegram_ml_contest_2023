@@ -1,0 +1,1 @@
+select count(*), max(period) as period from table where period < date(now()) and period > 'XXXX-XX-XX'

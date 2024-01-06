@@ -1,0 +1,6 @@
+var items = await repo.Get10kItemsAsync();
+foreach (var item in items)
+{
+    var bullshit = await repo.GetItemAdditionalBullshit(item);
+    items.Bullshit = bullshit;
+}

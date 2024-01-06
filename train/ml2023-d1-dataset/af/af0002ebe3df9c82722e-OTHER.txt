@@ -1,0 +1,4 @@
+vless://68be0e8f-8f83-42dd-9846-f47aa75db308@iran.woman-life-freedom.top:8080?encryption=none&flow=xtls-rprx-vision&security=reality&sni=server-53651.prod.hosts.ooklaserver.net&fp=edge&pbk=acuvk7n2mwhPWQo4qLPHP_3RyqMnbfAy4Dz52kj7q0I&sid=dcbdb85e&spx=%2F&type=tcp&headerType=none#%F0%9F%87%A9%F0%9F%87%AA-%40deli_servers
+
+
+

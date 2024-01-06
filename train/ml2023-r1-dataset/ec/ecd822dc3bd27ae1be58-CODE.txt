@@ -1,0 +1,3 @@
+  rules: {
+    'vue/attributes-order': ["error"],
+  }

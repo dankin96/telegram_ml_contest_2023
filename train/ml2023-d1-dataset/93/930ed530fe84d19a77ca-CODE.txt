@@ -1,0 +1,33 @@
+from datetime import date
+
+def get_date_range(start, end):
+
+    my_list = []
+    total_day = start.day
+    total_month = start.month
+    total_year = start.year
+
+    while start < end:
+
+        total_day += 1
+        if total_day > 29:
+            
+            if total_month > 1:
+                total_year += 1
+                start = start.replace(year=total_year)
+                total_month = 1
+
+            total_month += 1
+            start = start.replace(month=total_month)
+            total_day = 1
+
+        start = start.replace(day=total_day)
+        my_list.append(start)
+    
+    return my_list
+
+date1 = date(2021, 10, 1)
+date2 = date(2022, 10, 5)
+
+print(*get_date_range(date1, date2), sep='
+')

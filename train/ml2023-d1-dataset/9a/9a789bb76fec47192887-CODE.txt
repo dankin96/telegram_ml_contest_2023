@@ -1,0 +1,18 @@
+import React, { useState } from 'react';
+
+function MyComponent() {
+  const [time, setTime] = useState(null);
+
+  function handleClick() {
+    import('moment').then(moment => {
+      setTime(moment().format('MMMM Do YYYY, h:mm:ss a'));
+    });
+  }
+
+  return (
+    <div>
+      <button onClick={handleClick}>Show Time</button>
+      {time && <p>The current time is {time}</p>}
+    </div>
+  );
+}

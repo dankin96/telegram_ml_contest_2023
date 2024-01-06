@@ -1,0 +1,21 @@
+import geocoder
+
+def get_lat_lon_by_ip(ip_address):
+    g = geocoder.ip(ip_address)
+    if g.latlng:
+        latitude, longitude = g.latlng
+        return latitude, longitude
+    else:
+        return None
+
+# Example usage
+ip_address = "123.456.789.0"  # Replace with the IP address you want to get the location for
+location = get_lat_lon_by_ip(ip_address)
+if location:
+    latitude, longitude = location
+    print(f"Latitude: {latitude}, Longitude: {longitude}")
+else:
+    print("Unable to get the location for the provided IP address.")
+
+
+

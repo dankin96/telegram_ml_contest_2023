@@ -1,0 +1,6 @@
+2023-10-03T10:26:36.620Z [ERROR] agent.http: Request error: method=GET url="/v1/kv/path/to/env/admin/LOG_LEVEL?index=71354420&stale=&wait=60000ms" from=172.XX.XX.XX:40422 error="rpc error making call: EOF"
+2023-10-03T10:26:36.619Z [WARN]  agent.client: Retrying RPC to server: method=Catalog.ListServices server=172.XX.YY.ZZZ:8300 error="rpc error making call: EOF"
+2023-10-03T10:26:36.620Z [INFO]  agent.http: Request cancelled: method=GET url=/v1/catalog/services?index=91812490 from=172.AA.BB.CC:45630 error="rpc error making call: EOF"
+2023-10-03T10:26:36.623Z [INFO]  agent: Waiting for endpoints to shut down
+2023-10-03T10:26:36.623Z [INFO]  agent: Endpoints down
+2023-10-03T10:26:36.623Z [INFO]  agent: Exit code: code=0

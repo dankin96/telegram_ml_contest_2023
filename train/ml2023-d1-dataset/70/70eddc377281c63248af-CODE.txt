@@ -1,0 +1,3 @@
+# Set title
+set -g set-titles on
+set -g set-titles-string '#{pane_title}'

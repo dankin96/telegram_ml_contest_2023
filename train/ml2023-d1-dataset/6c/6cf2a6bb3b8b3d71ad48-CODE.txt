@@ -1,0 +1,39 @@
+{
+ "update_id": 935488947,
+ "message": {
+  "message_id": 2,
+  "from": {
+   "id": 323220650,
+   "is_bot": false,
+   "first_name": "Sergey",
+   "language_code": "ru"
+  },
+  "chat": {
+   "id": -1001650078445,
+   "title": "МИАЦ Тест Бота",
+   "username": "rkc_tyumen",
+   "type": "supergroup"
+  },
+  "date": 1697105690,
+  "new_chat_participant": {
+   "id": 285793787,
+   "is_bot": true,
+   "first_name": "Show Json Bot",
+   "username": "ShowJsonBot"
+  },
+  "new_chat_member": {
+   "id": 285793787,
+   "is_bot": true,
+   "first_name": "Show Json Bot",
+   "username": "ShowJsonBot"
+  },
+  "new_chat_members": [
+   {
+    "id": 285793787,
+    "is_bot": true,
+    "first_name": "Show Json Bot",
+    "username": "ShowJsonBot"
+   }
+  ]
+ }
+}

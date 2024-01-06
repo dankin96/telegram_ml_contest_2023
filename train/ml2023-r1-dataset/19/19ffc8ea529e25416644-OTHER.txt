@@ -1,0 +1,2 @@
+
+6420 ppm = (cantidad de molibdeno / 0.3 L) * 10^6

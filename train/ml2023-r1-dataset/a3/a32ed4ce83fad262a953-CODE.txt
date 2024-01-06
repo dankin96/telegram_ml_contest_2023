@@ -1,0 +1,4 @@
+@php
+    $sidebarExcludedPosts = [$post->id];
+@endphp
+

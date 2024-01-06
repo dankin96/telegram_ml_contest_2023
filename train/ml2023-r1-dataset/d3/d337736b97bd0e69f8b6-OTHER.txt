@@ -1,0 +1,32 @@
+Exchange KDABTC 1h Binance
+Price:0.00001677|0.00001678|0.00001667
+Vol:       770|     261|   2,722
+ATR: 0.00000016
+
+✅OBV:  52.1 K|  52.8 K|  52.6 K
+⚪RSI:   50.88|   51.28|   46.92
+⚪MFI:   32.63|   29.88|   30.35
+⚪CCI:  140.82|  210.38|  -14.71
+⚪WR%:  -17.86|  -11.11|  -41.67
+⚪ADX:    23.72|   23.38|   22.83
+
+⚪MOM: No Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+❌PSAR: Bearish
+
+Support And Resistance
+S: 0.00001649
+R: 0.00001688
+
+Volatility is average
+
+EXPERIMENTAL 🧪
+🐻RSI: bearish divergence
+🐻MFI: Bearish divergence
+🐻FVE: Bearish divergence
+🐻Volume: Bearish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

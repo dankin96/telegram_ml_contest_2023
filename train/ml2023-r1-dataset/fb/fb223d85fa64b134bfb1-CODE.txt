@@ -1,0 +1,40 @@
+{
+ "update_id": 935453402,
+ "message": {
+  "message_id": 274971,
+  "from": {
+   "id": 6273664060,
+   "is_bot": false,
+   "first_name": "🍸Foxy 🦊",
+   "last_name": "ʚïɞ 🇫🇷",
+   "username": "Crystal_Holy_Sister"
+  },
+  "chat": {
+   "id": -1001368631428,
+   "title": "Inside Tech",
+   "username": "yazanmaroufchat",
+   "type": "supergroup"
+  },
+  "date": 1696762707,
+  "new_chat_participant": {
+   "id": 285793787,
+   "is_bot": true,
+   "first_name": "Show Json Bot",
+   "username": "ShowJsonBot"
+  },
+  "new_chat_member": {
+   "id": 285793787,
+   "is_bot": true,
+   "first_name": "Show Json Bot",
+   "username": "ShowJsonBot"
+  },
+  "new_chat_members": [
+   {
+    "id": 285793787,
+    "is_bot": true,
+    "first_name": "Show Json Bot",
+    "username": "ShowJsonBot"
+   }
+  ]
+ }
+}

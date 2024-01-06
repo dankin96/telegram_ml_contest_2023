@@ -1,0 +1,5 @@
+<ItemGroup Condition="'$(DesignTimeBuild)'!='true'>
+    <MacroCs Include="@(Compile)" Condition="%(Compile.Identity.EndsWith('.macro.cs')" />
+    <Compile Remove="@(MacroCs)" />
+    <AdditionalFiles Include="@MacroCs" />
+</ItemGroup>

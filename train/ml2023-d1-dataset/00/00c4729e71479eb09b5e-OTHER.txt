@@ -1,0 +1,33 @@
+Exchange CREAMBTC 1h Kucoin
+Price:0.00054390|0.00054580|0.00054580
+Vol:         1|       0|       9
+ATR: 0.00000774
+
+✅OBV:    30.9|    32.4|    32.4
+⚪RSI:   34.02|   35.21|   35.21
+⚪MFI:   48.70|   49.20|   49.19
+⚪CCI: -132.46| -136.39| -127.30
+❌WR%: -100.00| -100.00| -100.00
+❌ADX:   19.70|   19.76|   19.07
+
+❌MOM: Bearish Momentum
+❌SMA: Price Below SMA Bearish
+❌ADI: -DI > +DI Bearish
+❌MACD: Bearish
+❌PSAR: Bearish
+
+Support And Resistance
+R: 0.00054390
+R: 0.00056640
+R: 0.00057590
+
+Volatility is average
+
+EXPERIMENTAL 🧪
+🐻RSI: bearish divergence
+🐂MFI: Bullish divergence
+⚪FVE: No divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

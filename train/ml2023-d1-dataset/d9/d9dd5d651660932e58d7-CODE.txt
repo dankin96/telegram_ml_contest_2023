@@ -1,0 +1,7 @@
+
+   User::whereExists(function ($query) {
+       $query->select(DB::raw(1))
+           ->from('orders')
+           ->whereColumn('users.id', 'orders.user_id');
+   })->get();
+   

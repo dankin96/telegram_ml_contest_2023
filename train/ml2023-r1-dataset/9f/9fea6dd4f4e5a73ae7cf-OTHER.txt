@@ -1,0 +1,5 @@
+miles 95 | 1.724 EUR | Kurbada iela 8
+milesPLUS 98 | 1.774 EUR | Kurbada iela 8
+miles D | 1.714 EUR | Brīvības iela 265, Kurbada iela 8
+milesPLUS D | 1.814 EUR | Brīvības iela 265, Kurbada iela 8
+Autogāze | 0.685 EUR | Vienības gatve 105

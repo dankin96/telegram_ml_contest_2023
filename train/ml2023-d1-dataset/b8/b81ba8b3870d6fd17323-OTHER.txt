@@ -1,0 +1,6 @@
+My Xiaomi Mi 8 SE won't turn off.
+
+context:
+I tried to install LineageOS 18.1, and it bootlooped, I tried to turn off the phone, but it turns on automatically on the Mi screen. I can't get back to the Fastboot screen or the TWRP screen. need help
+
+(the cell phone does not recognize it on the PC)

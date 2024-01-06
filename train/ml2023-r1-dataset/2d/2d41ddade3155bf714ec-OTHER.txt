@@ -1,0 +1,3 @@
+Coingecko Market cap rank : 333
+Current Supply : 72515597 DNX
+Fully Supply : 110000000 DNX

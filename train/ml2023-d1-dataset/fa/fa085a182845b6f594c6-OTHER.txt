@@ -1,0 +1,34 @@
++----------------------------+------------+------------+
+|         Games Loss         | 2023-10-10 | 2023-10-09 |
++----------------------------+------------+------------+
+| Screw Master: Pin Pu (and) |  -2086.49  |  -970.37   |
+| Take Off: Nuts & Bol (and) |  -688.13   |  -1283.14  |
+| com.xd.rainbow.find. (ios) |  -658.87   |  -416.33   |
+| com.abi.take.off.nut (ios) |  -605.32   |  -300.42   |
+| com.fashion.catwalk. (ios) |  -394.45   |  -1123.81  |
+| com.find.em.cat_ios_ (ios) |  -252.36   |  -518.69   |
+| com.monster.transfor (ios) |  -219.85   |  -253.27   |
+| Taser Gun Prank Simu (and) |  -175.54   |  -161.44   |
+| Survival City - Idle (and) |  -167.97   |  -236.04   |
+| Word Office: Docx Re (and) |  -158.78   |  -189.52   |
+| Craft School: Monste (ios) |  -144.26   |  -150.49   |
+|    Skubydy Series (and)    |   -136.8   |  -156.89   |
+| Toilet Monster Mix T (and) |  -131.17   |   -94.3    |
+|    AI Mix Animal (and)     |  -114.69   |   32.95    |
+| Emojimix: Christmas  (and) |   -96.78   |    0.07    |
+| Amanda Prank Video C (and) |   -96.05   |   -84.02   |
+| Hide And Seek: Who i (and) |   -86.19   |  -165.07   |
+| Bros World: Run Game (and) |   -85.41   |  -149.56   |
+| com.fennik.rollingba (ios) |   -79.82   |  -272.47   |
+| Merge Cannon - Idle  (and) |   -71.16   |  -130.08   |
+| Nuts Master: Screw t (and) |   -70.92   |   -35.46   |
+| Animal Sort - Cute P (and) |   -65.17   |   -44.34   |
+| Run Up 3D: Epic Sky  (and) |   -63.68   |   -40.94   |
+| Banana Run: Number M (and) |   -59.48   |    1.3     |
+| com.fennik.diy.cake. (ios) |   -51.7    |   -56.62   |
+| Emoji Clinic: Makeov (and) |   -46.21   |   -45.84   |
+| Horror Call & Scary  (and) |   -42.42   |   -57.12   |
+| Fashion Blox Star: D (and) |   -40.77   |   -62.9    |
+| Smurf Cat Video Call (and) |   -39.73   |   -41.38   |
+| com.abi.world.jouney (ios) |   -39.72   |   -43.79   |
++----------------------------+------------+------------+

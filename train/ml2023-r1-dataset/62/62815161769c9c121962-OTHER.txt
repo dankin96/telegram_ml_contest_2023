@@ -1,0 +1,3 @@
+Assertion message:  
+D:\Github\TrinityCore\src\common\Cryptography\ARC4.cpp:31 in Trinity::Crypto::ARC4::ARC4 ASSERTION FAILED: 
+  result == 1 

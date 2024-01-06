@@ -1,0 +1,93 @@
+#include "stm32f4xx_hal.h"
+#include "stm32f4xx_hal_can.h"
+#include "stm32f4xx_hal_uart.h"
+
+// Motor control commands
+#define MOTOR_1_SPEED_CMD 0x01
+#define MOTOR_2_SPEED_CMD 0x02
+
+// CAN message structure
+typedef struct {
+  uint8_t command;
+  uint8_t data;
+} CANMessage;
+
+// Initialize CAN bus
+void CAN_Init(void) {
+  CAN_HandleTypeDef hcan;
+  
+  // CAN bus initialization code here
+  // Configure the CAN bus settings (baud rate, filters, etc.)
+  
+  // Start the CAN bus
+  HAL_CAN_Start(&hcan);
+}
+
+// Send command to control motor via CAN bus
+void Motor_SetSpeed(uint8_t motorId, uint8_t speed) {
+  CAN_HandleTypeDef hcan;
+  CANMessage message;
+  
+  // Prepare CAN message
+  message.command = motorId;
+  message.data = speed;
+  
+  // Send CAN message
+  uint32_t txMailbox;
+  HAL_CAN_AddTxMessage(&hcan, &message, &txMailbox);
+}
+
+// Initialize UART for data transfer
+void UART_Init(void) {
+  UART_HandleTypeDef huart;
+  
+  // UART initialization code here
+  // Configure UART settings (baud rate, parity, etc.)
+  
+  // Start UART
+  HAL_UART_Receive_IT(&huart, &data, 1);
+}
+
+// Send data via UART
+void UART_SendData(uint8_t data) {
+  UART_HandleTypeDef huart;
+  
+  // Send data via UART
+  HAL_UART_Transmit(&huart, &data, 1, HAL_MAX_DELAY);
+}
+
+// Receive data via UART interrupt handler
+void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
+  uint8_t receivedData;
+  
+  // Process received data
+  if (huart->Instance == USART1) {
+    // Process received data from UART1
+    // Do something with the received data
+  }
+  
+  // Start UART receive again
+  HAL_UART_Receive_IT(huart, &receivedData, 1);
+}
+
+int main(void) {
+  // Initialize peripherals
+  HAL_Init();
+  CAN_Init();
+  UART_Init();
+  
+  // Control motors using CAN bus
+  Motor_SetSpeed(MOTOR_1_SPEED_CMD, 50);
+  Motor_SetSpeed(MOTOR_2_SPEED_CMD, 75);
+  
+  // Transfer data via UART
+  UART_SendData(0xAA);
+  
+  while (1) {
+    // Main loop
+    // Other code here
+    
+    // Delay or do other tasks
+    HAL_Delay(100);
+  }
+}

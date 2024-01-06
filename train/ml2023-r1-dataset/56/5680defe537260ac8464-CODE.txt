@@ -1,0 +1,1 @@
+adb shell cmd package bg-dexopt-job

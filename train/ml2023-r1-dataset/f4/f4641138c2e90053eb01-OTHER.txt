@@ -1,0 +1,18 @@
+Digital M5:
+EURGBP-OTC 89% 🔴  ⚪  ⚪  🔴 
+EURJPY-OTC 89% ⚪  ⚪  🔴! 🔴!
+EURUSD-OTC 89% 🟢! 🟢! 🟢! 🟢!
+GBPJPY-OTC 89% ⚪  🟢  🔴  🔴 
+GBPUSD-OTC 89% 🟢! 🟢! 🟢! 🟢!
+NZDUSD-OTC 89% 🔴  ⚪  🟢! 🟢!
+USDCHF-OTC 89% 🔴  ⚪  ⚪  🔴!
+USDZAR-OTC 89% ⚪  ⚪  ⚪  ⚪ 
+
+Binárias M5:
+AUDCAD-OTC 86% ⚪  🟢! 🟢! 🟢!
+EURGBP-OTC 86% 🔴  ⚪  ⚪  🔴 
+EURJPY-OTC 86% ⚪  ⚪  🔴! 🔴!
+EURUSD-OTC 86% 🟢! 🟢! 🟢! 🟢!
+GBPUSD-OTC 86% 🟢! 🟢! 🟢! 🟢!
+NZDUSD-OTC 86% 🔴  ⚪  🟢! 🟢!
+USDCHF-OTC 86% 🔴  ⚪  ⚪  🔴!

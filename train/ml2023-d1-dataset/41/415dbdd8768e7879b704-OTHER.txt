@@ -1,0 +1,11 @@
+
+
+＊index:filebeat-dym-fit-log-2023.10.10
+
+＊hostname:<MISSING VALUE>
+
+＊type:<elastalert.ruletypes.FrequencyRule object at 0x7f3f7bcf6950>
+
+＊message:2023/10/10 23:46:12 [error] 122389#0: *401882909 FastCGI sent in stderr: "Primary script unknown" while reading response header from upstream, client: 194.169.175.167, server: testfit.co.kr, request: "GET /wp-content/themes/twenty/twenty.php HTTP/1.1", upstream: "fastcgi://unix:/var/run/php-fpm/testfit.sock:", host: "testfit.co.kr"
+
+＊count:9

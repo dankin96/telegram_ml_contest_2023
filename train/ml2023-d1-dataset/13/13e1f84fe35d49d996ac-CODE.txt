@@ -1,0 +1,20 @@
+version: "2.2"
+
+services:
+#   watchTower
+  watchtower:
+    image: containrrr/watchtower
+    hostname: ASUSTOR
+    container_name: watchtower
+    labels:
+      com.centurylinklabs.watchtower.enable: "true"
+    environment:
+      - TZ=America/Monterrey
+      - WATCHTOWER_LIFECYCLE_HOOKS=1 
+      - WATCHTOWER_NOTIFICATIONS=shoutrrr
+      - WATCHTOWER_NOTIFICATION_URL=telegram://123:bot-token@telegram/?channels=-123-chat-de-telegram
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/localtime:/etc/localtime:ro
+    command: --schedule "0 45 4 1,15 *" --cleanup --label-enable
+    restart: unless-stopped

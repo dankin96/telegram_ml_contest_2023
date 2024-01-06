@@ -1,0 +1,30 @@
+{
+ "update_id": 935427684,
+ "message": {
+  "message_id": 1622,
+  "from": {
+   "id": 1087968824,
+   "is_bot": true,
+   "first_name": "Group",
+   "username": "GroupAnonymousBot"
+  },
+  "sender_chat": {
+   "id": -1001825392409,
+   "title": "Stark's movies 🎥",
+   "username": "starks_movies",
+   "is_forum": true,
+   "type": "supergroup"
+  },
+  "chat": {
+   "id": -1001825392409,
+   "title": "Stark's movies 🎥",
+   "username": "starks_movies",
+   "is_forum": true,
+   "type": "supergroup"
+  },
+  "date": 1696516135,
+  "message_thread_id": 228,
+  "forum_topic_closed": {},
+  "is_topic_message": true
+ }
+}

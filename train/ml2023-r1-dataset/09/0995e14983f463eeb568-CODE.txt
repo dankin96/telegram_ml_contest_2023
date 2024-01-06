@@ -1,0 +1,4 @@
+sudo iptables -t nat -A PREROUTING -p tcp --dport 8580 -j DNAT --to-destination 0.0.0.0:8580
+sudo iptables -t nat -A PREROUTING -p tcp --dport 8581 -j DNAT --to-destination 0.0.0.0:8581
+sudo iptables -t nat -A PREROUTING -p tcp --dport 8547 -j DNAT --to-destination 0.0.0.0:8547
+

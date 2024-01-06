@@ -1,0 +1,19 @@
+version: "2.1"
+services:
+    #   https://hub.docker.com/r/jlesage/jdownloader-2
+    jdownloader:
+        image: jlesage/jdownloader-2
+        container_name: jdownloader
+        environment:
+            - USER_ID=1000
+            - GROUP_ID=1000
+            - TZ=America/Monterrey
+            - MYJDOWNLOADER_DEVICE_NAME=rPi04
+            - MYJDOWNLOADER_PASSWORD=password
+            - DARK_MODE=1
+        ports:
+            - 5800:5800
+            - 3129:3129
+        volumes:
+            - /tu ruta de configuracion/jdownloader:/config
+            - /tu ruta de descarga/jdownloader:/output

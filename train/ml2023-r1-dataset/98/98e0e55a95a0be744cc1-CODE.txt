@@ -1,0 +1,12 @@
+
+MoveValue:
+      type: object
+      description: An enum of the possible Move value types
+      anyOf:
+      - type: integer
+        format: uint8
+…
+      - type: array
+        items:
+          $ref: '#/components/schemas/MoveValue'
+...

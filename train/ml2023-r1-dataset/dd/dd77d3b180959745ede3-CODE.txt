@@ -1,0 +1,3 @@
+
+// Limit the number of RPC calls to 100 per second.
+processor.setDataSource({chain: {url: 'https://', rateLimit: 100}})

@@ -1,0 +1,6 @@
+const getComponentData = <T,> (Component: ...) => {
+  return {
+  Component: Component,
+  props: ... // пропсы переданного в параметр компонента
+ }
+}

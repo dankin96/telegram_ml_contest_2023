@@ -1,0 +1,5 @@
+$ BTC_price_all_market_cap
+
+At block 810797 and date: Thursday, 05-Oct-2023 22:56 
+The bitcoin supply is of 19504768.03492465 bitcoins
+If all crypto market cap of 1118485553480.6653 USD has alone in bitcoin, 1 bitcoin would had the value of 57344.21 USD

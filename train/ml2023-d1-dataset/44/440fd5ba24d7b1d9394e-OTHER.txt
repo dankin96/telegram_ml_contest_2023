@@ -1,0 +1,8 @@
+👀 SPAM Score detected:
+###
+Добрый день!
+###
+
+Reason: Администратор запретил пересылку сообщений
+Action: deleteMessage
+Bot response: Successful ✅

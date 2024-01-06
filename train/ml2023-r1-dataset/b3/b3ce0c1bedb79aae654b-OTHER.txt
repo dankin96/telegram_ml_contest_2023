@@ -1,0 +1,34 @@
++----------------------------+------------+------------+
+|         Games Loss         | 2023-10-05 | 2023-10-04 |
++----------------------------+------------+------------+
+| Galaxy Attack: Shoot (and) |  -3156.79  |   970.73   |
+| Take Off: Nuts & Bol (and) |  -1255.09  |  -1297.34  |
+| Draw Fun: One Part M (ios) |  -467.12   |   555.25   |
+| Hide And Seek: Who i (and) |  -326.34   |  -394.57   |
+|    Skubydy Series (and)    |  -284.31   |   -248.2   |
+| Word Office: Docx Re (and) |  -235.03   |  -303.52   |
+| Haircut prank, air h (and) |  -222.04   |  -997.96   |
+| DIY Makeover: ASMR M (and) |   -210.8   |   -70.33   |
+| Survival City - Idle (and) |  -178.84   |  -228.06   |
+| Galaxy Shooter: Air  (and) |  -103.26   |  -135.36   |
+| PhotoArt: AI Remove  (ios) |   -99.92   |  -107.76   |
+| Extreme Car Sounds S (and) |   -91.79   |  -143.36   |
+| Toilet Monster Craft (and) |   -89.8    |   -123.6   |
+| Mix Toilet Monster M (and) |   -81.45   |   -43.84   |
+|     Santa Call 2 (and)     |   -77.15   |   12.86    |
+| Merge Cannon - Idle  (and) |   -67.65   |   -97.46   |
+| Cat Choices: Virtual (and) |   -66.61   |   80.38    |
+| Skibd Shooter: Toile (and) |   -61.17   |   -66.15   |
+| Lightsaber - Gun 3D  (and) |   -60.58   |   -20.07   |
+| Otamatune Chat & Vid (and) |   -54.44   |   -7.51    |
+| Pony Dress Up: Princ (and) |   -46.36   |    0.35    |
+| Tile Cat 3 - Puzzle  (and) |   -46.31   |   -63.85   |
+| Taser Gun Prank Simu (and) |   -46.01   |   -78.48   |
+| Brain Test: Fruit St (and) |   -42.83   |   -42.42   |
+| Sushi Cat Cafe: Idle (and) |   -42.44   |   -40.34   |
+| Talking Joe - Kick E (and) |   -34.92   |   -5.79    |
+| com.elite.sting.the. (ios) |   -24.78   |   55.68    |
+| Mino's World - Run n (and) |   -23.26   |    -9.6    |
+| Smurf Cat Video Call (and) |   -22.34   |    0.07    |
+|    Alien Survivor (and)    |   -21.79   |   -11.82   |
++----------------------------+------------+------------+

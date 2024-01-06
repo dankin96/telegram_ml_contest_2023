@@ -1,0 +1,5 @@
+$ cat ~/.ssh/config
+Host helios
+  HostName helios.se.ifmo.ru
+  Port 2222
+  User s311741

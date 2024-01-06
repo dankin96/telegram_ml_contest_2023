@@ -1,0 +1,6 @@
+Open Caveats for Cisco IOS XE Cupertino 17.9.4
+
+From this release, the list of caveats is displayed using BST tool. When you click the BST link, it opens a separate window and lists the bugs sorted by severity. You can filter it further using the options in the tool.
+
+Click on the following link to view the Open Caveats: BST Link
+

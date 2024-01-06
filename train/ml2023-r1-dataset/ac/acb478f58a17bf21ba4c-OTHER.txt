@@ -1,0 +1,5 @@
+I created 100 dynamic list view each list view having four element like A,B, C, D, E 
+And i also have a globallist having 100 index values 
+When any list view selection done i want to store the listview selectio in to the list having 100 index values… Means if dynamic list view 1 after selection the selection value is replaced in global list index 1 
+For example global list items are 1,2,3,4,5 
+Wh...

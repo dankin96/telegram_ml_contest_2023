@@ -1,0 +1,2 @@
+ 
+F-statistic = variance between groups / variance within groups 

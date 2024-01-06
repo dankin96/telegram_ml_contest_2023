@@ -1,0 +1,10 @@
+        public static T GetSingleton<T>(this EntityManager entityManager) where T : unmanaged, IComponentData
+        {
+            var query = entityManager.CreateEntityQuery(new EntityQueryDesc()
+            {
+                All = new []{ComponentType.ReadOnly<T>()},
+                Options = EntityQueryOptions.Default | EntityQueryOptions.IncludeSystems
+            });
+            var entity = query.GetSingletonEntity();
+            return entityManager.GetComponentData<T>(entity);
+        }

@@ -1,0 +1,34 @@
+@command.desc("Test Internet speed")
+@command.alias("stest")
+async def cmd_speedtest(self, ctx: command.Context) -> str:
+    before = util.time.usec()
+
+    st = await util.run_sync(speedtest.Speedtest)
+    status = "Selecting server..."
+
+    await ctx.respond(status)
+    server = await util.run_sync(st.get_best_server)
+    status += f" {server['sponsor']} ({server['name']})
+"
+    status += f"Ping: {server['latency']:.2f} ms
+"
+
+    status += "Performing download test..."
+    await ctx.respond(status)
+    dl_bits = await util.run_sync(st.download)
+    dl_mbit = dl_bits / 1000 / 1000
+    status += f" {dl_mbit:.2f} Mbps
+"
+
+    status += "Performing upload test..."
+    await ctx.respond(status)
+    ul_bits = await util.run_sync(st.upload)
+    ul_mbit = ul_bits / 1000 / 1000
+    status += f" {ul_mbit:.2f} Mbps
+"
+
+    delta = util.time.usec() - before
+    status += f"
+Time elapsed: {util.time.format_duration_us(delta)}"
+
+    return status

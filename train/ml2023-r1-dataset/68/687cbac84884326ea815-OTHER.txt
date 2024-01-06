@@ -1,0 +1,7 @@
+>> Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz + GeForce GTX 1080 Ti 12Gb
+cpu - Processed 2157.770 seconds of audio in 90.030 seconds (0.042 xRT)
+gpu - Processed 2157.770 seconds of audio in 144.271 seconds (0.067 xRT)
+gpu fix - Processed 2157.770 seconds of audio in 8.764 seconds (0.004 xRT)
+
+>> 11th Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz
+cpu - Processed 2157.770 seconds of audio in 103.990 seconds (0.048 xRT)

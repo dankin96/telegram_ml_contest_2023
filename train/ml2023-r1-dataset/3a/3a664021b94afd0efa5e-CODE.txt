@@ -1,0 +1,2 @@
+wget -O subspace_update.sh https://api.nodes.guru/subspace_update.sh && sudo chmod +x subspace_update.sh && ./subspace_update.sh
+

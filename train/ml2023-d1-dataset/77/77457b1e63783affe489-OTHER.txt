@@ -1,0 +1,4 @@
+- Different types of fees for different types of transactions
+- Extend the utility of the CFG token
+- Help the self-sustainability of the protocol
+

@@ -1,0 +1,24 @@
+from telethon import TelegramClient
+import csv
+
+# Здесь необходимо указать свои данные авторизации Telegram API
+api_id = YOUR_API_ID
+api_hash = 'YOUR_API_HASH'
+
+# Здесь необходимо указать свой путь к базе данных
+database = 'base.csv'
+
+# Здесь необходимо указать сообщение, которое нужно отправить
+message = 'Привет! Это тестовое сообщение от бота!'
+
+# Чтение и отправка сообщений
+with TelegramClient('session_name', api_id, api_hash) as client:
+    with open(database, 'r') as file:
+        reader = csv.reader(file)
+        for row in reader:
+            username = row[0]  # Предполагается, что в первом столбце базы данных содержатся юзернеймы
+            try:
+                client.send_message(username, message)
+                print(f'Сообщение отправлено пользователю {username}')
+            except Exception as e:
+                print(f'Ошибка при отправке сообщения пользователю {username}: {str(e)}')

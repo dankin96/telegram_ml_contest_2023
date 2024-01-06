@@ -1,0 +1,8 @@
+pitch_qa_error
+
+@timestamp: 2023-10-13T11:29:18
+_id: Qv7dJosBQB6yy9oI63ri
+_index: filebeat-sri-pitch-log-2023.10.13
+message: [2023-10-13 11:29:16,719] [ERROR j.a.u.w.f.UnauthorizedEntryPoint http-nio-8083-exec-2] Responding with unauthorized error. Message - Full authentication is required to access this resource
+num_hits: 3
+num_matches: 3

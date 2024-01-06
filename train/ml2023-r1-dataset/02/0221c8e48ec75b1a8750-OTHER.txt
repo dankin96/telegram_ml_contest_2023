@@ -1,0 +1,21 @@
+
+java.lang.IllegalArgumentException: serviceId is NO_SERVICE_ID
+ at org.schabi.newpipe.util.ExtractorHelper.checkServiceId(ExtractorHelper.java:74)
+ at org.schabi.newpipe.util.ExtractorHelper.suggestionsFor(ExtractorHelper.java:105)
+ at org.schabi.newpipe.fragments.list.search.SearchFragment.getRemoteSuggestionsObservable(SearchFragment.java:728)
+ at org.schabi.newpipe.fragments.list.search.SearchFragment.lambda$initSuggestionObserver$13(SearchFragment.java:759)
+ at org.schabi.newpipe.fragments.list.search.SearchFragment.$r8$lambda$pBDX-0z_WT5AfgQUUvGxZ1y-jHc(SearchFragment.java:0)
+ at org.schabi.newpipe.fragments.list.search.SearchFragment$$ExternalSyntheticLambda13.apply(R8$$SyntheticClass:0)
+ at io.reactivex.rxjava3.internal.operators.observable.ObservableSwitchMap$SwitchMapObserver.onNext(ObservableSwitchMap.java:112)
+ at io.reactivex.rxjava3.internal.operators.observable.ObservableConcatMap$ConcatMapDelayErrorObserver$DelayErrorInnerObserver.onNext(ObservableConcatMap.java:500)
+ at io.reactivex.rxjava3.observers.SerializedObserver.onNext(SerializedObserver.java:114)
+ at io.reactivex.rxjava3.internal.operators.observable.ObservableDebounceTimed$DebounceTimedObserver.emit(ObservableDebounceTimed.java:156)
+ at io.reactivex.rxjava3.internal.operators.observable.ObservableDebounceTimed$DebounceEmitter.run(ObservableDebounceTimed.java:181)
+ at io.reactivex.rxjava3.internal.schedulers.ScheduledRunnable.run(ScheduledRunnable.java:65)
+ at io.reactivex.rxjava3.internal.schedulers.ScheduledRunnable.call(ScheduledRunnable.java:56)
+ at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+ at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:301)
+ at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+ at java.lang.Thread.run(Thread.java:919)
+

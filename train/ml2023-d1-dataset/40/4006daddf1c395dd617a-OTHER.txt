@@ -1,0 +1,21 @@
+Fri Oct 06 2023 23:38:26     The system board Pfault fail-safe voltage is outside of range.    
+          Fri Oct 06 2023 23:38:12     The system board 12V PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:50     The system board 12V PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:50     CPU 2 VSA PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:50     CPU 1 VSA PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:49     The system board 3.3V B voltage is outside of range.    
+          Fri Oct 06 2023 23:37:49     CPU 2 MEM345 VPP PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:49     CPU 2 MEM012 VPP PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:49     CPU 2 MEM345 VTT PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:49     CPU 2 MEM345 VDDQ PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:49     CPU 2 MEM012 VTT PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:49     CPU 2 MEM012 VDDQ PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:49     CPU 2 VCORE PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:48     CPU 1 MEM345 VPP PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:48     CPU 1 MEM012 VPP PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:48     CPU 1 MEM345 VTT PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:48     CPU 1 MEM345 VDDQ PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:48     CPU 1 MEM012 VTT PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:48     CPU 1 MEM012 VDDQ PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:48     CPU 1 VCORE PG voltage is outside of range.    
+          Fri Oct 06 2023 23:37:47     CPU 1 has a thermal trip (over-temperature) event.

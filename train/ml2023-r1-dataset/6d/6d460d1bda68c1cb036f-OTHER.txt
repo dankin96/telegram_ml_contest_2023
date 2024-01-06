@@ -1,0 +1,10 @@
+Background:  Snow
+Costume:     Rhino
+Eyes:        Hollow
+Hands:       Claws
+Mouth:       Smile
+Neck:        Christmas Lights
+Skin_base:   Orange
+ 
+RS: 3487
+RS Burn: 1883

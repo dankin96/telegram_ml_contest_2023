@@ -1,0 +1,2 @@
+
+ml_model = fields.ForeignKeyField('models.FirstModel', to_field='ml_model_id', related_name='second_models')

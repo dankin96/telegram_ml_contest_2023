@@ -1,0 +1,40 @@
+transaction1 {
+  inputs: [
+    // ...
+  ],
+  outputs: ]
+    // output0 (genesis category 1)
+    // output1 (utxo for next genesis category/tx)
+  ]
+}
+
+transaction2 {
+  inputs: [
+    transaction1:output1
+  ],
+  outputs: [
+    // output0 (genesis category 2)
+    // output1 (utxo for next genesis category/tx)
+  ]
+}
+
+transaction3 {
+  inputs: [
+    transaction2:ouput1
+  ]
+  outputs: [
+    // output0 (genesis category 3)
+  ]
+}
+
+mintTransaction {
+  inputs: [
+    // Three genesis categories
+    transaction1:output0,
+    transaction2:output0,
+    transaction3:output0
+  ],
+  outputs: [
+    // Mint three tokens
+  ]
+}

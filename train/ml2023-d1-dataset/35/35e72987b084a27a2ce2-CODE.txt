@@ -1,0 +1,35 @@
+c
+lexer_t *tokenize(const char *src) {
+    LASSERT(src, "No expression given!
+");
+    lexer_t *tokens = new_lexer(strlen(src));
+
+  for(; *src; ++src) {
+      switch(*src) {
+    case '
+': continue;
+    case ' ':  continue;
+    case '+':  insert_token(tokens, (token_t) { .value = 0, .type = ADD_OP} );     break;
+    case '-':  insert_token(tokens, (token_t) { .value = 0, .type = SUB_OP} );     break;
+    case '*':  insert_token(tokens, (token_t) { .value = 0, .type = MUL_OP} );     break;
+    case '/':  insert_token(tokens, (token_t) { .value = 0, .type = DIV_OP} );     break;
+    case '^':  insert_token(tokens, (token_t) { .value = 0, .type = POWER_OF});    break;
+    case '(':  insert_token(tokens, (token_t) { .value = 0, .type = LEFT_PAREN});  break;
+    case ')':  insert_token(tokens, (token_t) { .value = 0, .type = RIGHT_PAREN}); break;
+    case '0'...'9': {
+      int size = 0;
+      insert_token(tokens, (token_t) { .value = scan_number(src, &size), .type = INT });
+
+      src += size - 1;
+      break;
+    }
+
+    default: printf("{%c} is an invalid token!
+", *src); exit(0);
+  }
+    }
+
+    insert_token(tokens, (token_t) { .value = 0, .type = EOE });
+ 
+    return tokens;
+}

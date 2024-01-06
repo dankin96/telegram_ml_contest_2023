@@ -1,0 +1,4 @@
+: cirle-area ( F: r.radius -- r.area )
+  float{  3.14159 2.0 * *  }
+;
+

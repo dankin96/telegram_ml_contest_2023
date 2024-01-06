@@ -1,0 +1,66 @@
+timeframe: Daily
+direction: LONG
+trend: NORMAL UP
+task: BUSUR BAWAH
+move: DOWN
+range_before: 185.9
+range_now: 144.65
+suggest_high: 1889.285
+suggest_low: 1866.57
+delta_volume: -33537
+ob: 1860.46
+hb: 1877.27
+lb: 1858.68
+cb: 1874.055
+tb: 2023-10-10T21:00:00.000000000Z
+vb: 144528
+on: 1874.055
+hn: 1885.16
+ln: 1870.695
+cn: 1872.085
+tn: 2023-10-11T21:00:00.000000000Z
+vn: 110991
+fibo_pivot:
+  pivot: 1870.002
+  r1: 1877.103
+  r2: 1881.491
+  r3: 1888.592
+  s1: 1862.901
+  s2: 1858.513
+  s3: 1851.412
+fibo_pivot_touch:
+  pivot: False
+  r1: True
+  r2: True
+  r3: False
+  s1: False
+  s2: False
+  s3: False
+coptah_pivot:
+  pivot: 1868.902
+  s1: 1860.534
+  s2: 1850.312
+  s3: 1841.944
+  s4: 1833.576
+  r1: 1879.124
+  r2: 1887.492
+  r3: 1897.714
+  r4: 1907.936
+coptah_pivot_touch:
+  pivot: False
+  s1: False
+  s2: False
+  s3: False
+  s4: False
+  r1: True
+  r2: False
+  r3: False
+  r4: False
+demark_pivot:
+  pivot: 1871.819
+  s1: 1866.368
+  r1: 1884.958
+demark_pivot_touch:
+  pivot: True
+  s1: False
+  r1: True

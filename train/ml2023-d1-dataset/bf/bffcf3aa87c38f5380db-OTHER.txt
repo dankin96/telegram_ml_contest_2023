@@ -1,0 +1,2 @@
+ticker  price volume Amt(M) TransferTime
+   VXX  22.77   399K  9.08M  10-12 16:19

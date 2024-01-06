@@ -1,0 +1,2 @@
+'categories' => 'required|array',
+'categories.*' => 'required|string|exists:question_categories,id',

@@ -1,0 +1,25 @@
+for _, ip := range ips { 
+
+parsed := net.IPAddress(ip) 
+
+if parsed != nil { 
+
+
+parsedIPs = append(parsedIPs, parsed.IP()) 
+
+} 
+
+if ip.To4() != nil { 
+
+
+ipv4 = append(ipv4, ip) 
+
+} 
+
+if ip.To16() != nil { 
+
+
+ipv6 = append(ipv6, ip) 
+
+} 
+} 

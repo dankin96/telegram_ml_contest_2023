@@ -1,0 +1,21 @@
+ `Anonymous`
+
+*Comment:*```\*Author:\* \Anonymous\
+
+\*Comment:\*\\\\*Author:\* \`Anonymous\`
+
+\*Comment:\*\`\`\`\\*Author:\\* \\Anonymous\\
+
+\\*Comment:\\*\\\\\\\\*Author:\\* \\`Anonymous\\`
+
+\\*Comment:\\*\\`\\`\\`\\`\\`\\`
+
+\\[Visit the Meme Dump\\]\\(https://t\\.me/the\\_meme\\_dump\\)\\\\\\
+
+\\[Visit the Meme Dump\\]\\(https://t\\.me/the\\_meme\\_dump\\)\`\`\`
+
+\[Visit the Meme Dump\]\(https://t\.me/the\_meme\_dump\)\\\
+
+\[Visit the Meme Dump\]\(https://t\.me/the\_meme\_dump\)```
+
+[Visit the Meme Dump](https://t.me/the_meme_dump)

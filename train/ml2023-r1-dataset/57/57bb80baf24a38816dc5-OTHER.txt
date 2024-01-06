@@ -1,0 +1,3 @@
+Hello. 
+Recently, I bought a new gpu and I noticed something weird while playing games. It seems to be frameskipping happening while gaming. It didn’t happen on my previous gpu. The frame rate remains 60fps but the game is clearly not running smooth. It doesn’t happen all the time but it’s quite frequent. I’ve tried other distros but it keeps happening. I also tried running games on Windows and the issue is not present on that system. I post this thread in GNOME because that’s the desktop I wanna use. 
+Any idea how to fix this issue?

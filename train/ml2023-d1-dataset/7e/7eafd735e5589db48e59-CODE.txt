@@ -1,0 +1,10 @@
+{
+  "id": "c5119fb5-2e31-ab54-8584-323bab1dc88a",
+  "is_3DSathenticated": false,
+  "payment_transaction_id": null,
+  "message": null,
+  "payment_status": null,
+  "reference_no": null,
+  "timestamp": "2023-10-10T17:18:01.998\u002B00:00",
+  "signature": "88a57e356bcde8241a08125a4758ff4974f1442f1a8293f96fbf8c8b1d65ec022d793f3e2048e1ae2d453145d8d2e940db6784f67563228f3566654486d01198"
+}

@@ -1,0 +1,13 @@
+                                                                                  
+Curve ETH MATIC-f Factory yVault 0.4.6  0x63c5c0604Ec410130C69C958aCab81794f7a622F
+Strategy Address                        0x652f4684102d9bbd3ffA4668b4Bb5A509ECA5425
+Last Report                                                          21d, 7hr, 35m
+Gain                                                                  0.00 | $0.00
+Loss                                                                  0.00 | $0.00
+Treasury Fee                                                          0.00 | $0.00
+Debt Paid                                                             0.00 | $0.00
+Debt Added                                                            0.00 | $0.00
+Total Debt                                                          3.95 | $527.34
+Debt Ratio                                                                   10000
+Pre-fee APR                                                                  0.00%
+Post-fee APR                                                                 0.00%

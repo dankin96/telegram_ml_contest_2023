@@ -1,0 +1,2 @@
+html
+<button><img src="path_to_image.jpg" alt="Image"></button>

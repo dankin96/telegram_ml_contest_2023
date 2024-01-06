@@ -1,0 +1,5 @@
+
+LexR: 'le';
+AnR: LexR '$_';
+
+par_r: LexR 'gsh';

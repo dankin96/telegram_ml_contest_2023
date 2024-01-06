@@ -1,0 +1,3 @@
+const tokenboundClient = new TokenboundClient({ signer: wallet, chainId: 5 });
+
+const xmtp = await Client.create(tokenboundClient.signer);

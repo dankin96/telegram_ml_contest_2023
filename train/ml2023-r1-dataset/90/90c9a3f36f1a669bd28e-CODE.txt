@@ -1,0 +1,3 @@
+object Form1: TForm1
+  object ap: TButton
+  object BitBtn1: TBitBtn

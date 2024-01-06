@@ -1,0 +1,8 @@
+void havecontext() {
+  nocontext(false);
+}
+
+void nocontext(bool m) {
+  int *q = 0;
+  setOneIf (q, m);
+}

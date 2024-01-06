@@ -1,0 +1,13 @@
+- 5 hari : 4.500
+- 10 hari : 7.000
+- 15 hari : 9.000
+- 30 hari : 17.000
+- 90 hari : 35.000
+- 180 hari : 60.000
+- 360 hari : 110.000
+
+MASA AKTIF KARTU AXIS
+- 14 hari : 6.000
+
+MASA AKTIF KARTU TRI
+- 4 bulan : 10.000

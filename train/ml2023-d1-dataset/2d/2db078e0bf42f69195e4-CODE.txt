@@ -1,0 +1,5 @@
+ var newEntity = state.EntityManager.Instantiate(prefab.ValueRO.PlayerPrefab);
+                
+ state.EntityManager.SetComponentData(newEntity, LocalTransform.FromPosition(prefab.ValueRO.SpawnPosition));
+
+

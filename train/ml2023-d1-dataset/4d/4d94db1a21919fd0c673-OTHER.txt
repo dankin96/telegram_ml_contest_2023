@@ -1,0 +1,6 @@
+Problem started at 11:27:07 on 2023.10.11
+Problem name: Unavailable by ICMP ping
+Host: Router Vodafone Oficina Tralusa Santiago - 10.7.0.1
+Severity: High
+Operational data: Down (0)
+Original problem ID: 99011

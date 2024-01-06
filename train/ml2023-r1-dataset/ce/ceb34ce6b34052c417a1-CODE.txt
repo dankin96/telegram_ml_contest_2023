@@ -1,0 +1,9 @@
+
+kubectl apply -f -<<EOF
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: game-demo
+data:
+  script: bash -c "echo $myname"
+EOF

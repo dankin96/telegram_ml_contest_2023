@@ -1,0 +1,15 @@
+✅ 00:30 • 🇪🇺 EUR/JPY 🇯🇵 • ABAIXO
+✅ 01:30 • 🇦🇺 AUD/USD 🇺🇸 • ABAIXO
+❌ 02:30 • 🇦🇺 AUD/USD 🇺🇸 • ABAIXO
+✅ 03:30 • 🇺🇸 USD/CAD 🇨🇦 • ABAIXO
+❌ 04:30 • 🇬🇧 GBP/USD 🇺🇸 • ACIMA
+✅ 06:30 • 🇪🇺 EUR/GBP 🇬🇧 • ACIMA
+✅ 07:30 • 🇦🇺 AUD/JPY 🇯🇵 • ACIMA
+✅ 08:30 • 🇦🇺 AUD/JPY 🇯🇵 • ABAIXO
+✅ 09:30 • 🇦🇺 AUD/JPY 🇯🇵 • ABAIXO
+✅ 10:30 • 🇦🇺 AUD/USD 🇺🇸 • ACIMA
+✅ 12:30 • 🇺🇸 USD/CHF 🇨🇭 • ABAIXO
+✅ 13:30 • 🇺🇸 USD/CAD 🇨🇦 • ABAIXO
+✅ 14:30 • 🇪🇺 EUR/GBP 🇬🇧 • ABAIXO
+✅ 15:30 • 🇬🇧 GBP/USD 🇺🇸 • ABAIXO
+✅ 16:30 • 🇬🇧 GBP/JPY 🇯🇵 • ABAIXO

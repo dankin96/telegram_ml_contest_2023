@@ -1,0 +1,105 @@
+user@debian:~$ cat ~/dospro/main2.asm 
+org 100h
+
+main:
+        mov ax, num
+        call print_number_nw
+        mov ax, 228
+        call print_number_nw
+        mov ax, 666
+        call print_number_nw
+
+        mov ax, 12
+        call print_number_nw
+        call print_dos_version
+        call exit
+
+; al - number
+; ah - number after dot
+print_float_nw:
+        call print_float
+        call print_newline
+        ret
+
+; al - number
+; ah - number after dot
+print_float:
+        ; print number before dot
+        push ax
+        mov al, ah
+        xor ah, ah
+        call print_number
+        ; print dot
+        mov ah, 2h
+        mov dl, '.'
+        int 21h
+        ; restore ax and print number after dot
+        pop ax
+        xor ah, ah
+        call print_number
+
+        ret
+
+print_dos_version:
+        mov ah, 9h
+        mov dx, dosver_str
+        int 21h
+
+        mov ah, 30h
+        int 21h
+
+        xchg ah, al
+
+        call print_float_nw
+        ret
+
+exit:
+        xor ah, ah
+        int 21h
+        ret
+
+print_number_nw:
+        call print_number
+        call print_newline
+        ret
+
+print_newline:
+        push ax
+        push dx
+        mov ah, 2h
+        mov dl, 0ah
+        int 21h
+        mov dl, 0dh
+        int 21h
+        pop dx
+        pop ax
+        ret
+
+print_number:
+        push cx
+        push bx
+        push dx
+        xor cx, cx
+_print_number:
+        mov bl, 10
+        div bl
+        add ah, '0'
+        xor dx, dx
+        mov dl, ah
+        push dx
+        inc cx
+        xor ah, ah
+        cmp ax, 0
+        jne _print_number
+__print_number:
+        pop dx
+        mov ah, 2h
+        int 21h
+        loop __print_number
+        pop dx
+        pop bx
+        pop cx
+        ret
+
+num: equ 1243
+dosver_str: db 'Dos version: ', '$'

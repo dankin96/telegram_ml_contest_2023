@@ -1,0 +1,3 @@
+This proposal is aimed to send 25,000 USDC, 62,368 axlUSDC claimed by MIP-94 along with $50k worth of MNTA (+15% in case of price volatility) to the MantaDAO ops wallet. These funds will be used to purchase wETH and build the $100k wETH/MNTA and wETH/USK POL according the execution plan, described here: https://t.me/MantaDAO/1/24082 (update: https://t.me/MantaDAO/1/24708). The revised proposal's change list is here: https://t.me/MantaDAO/22203/25080. Also this proposal will refund 100 USK to Vladimir_GG’s address, because these funds are stuck in not-executable MIP-95.
+
+

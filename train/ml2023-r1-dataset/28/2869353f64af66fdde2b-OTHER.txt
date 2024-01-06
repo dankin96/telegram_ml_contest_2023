@@ -1,0 +1,5 @@
+Exchange: Pair:     Price:    
+Binance   BTC/KRW   37,901,074
+Upbit     BTC/KRW   37,977,000
+US Dollar USD/KRW   1353.0    
+USDT      Tether    1355.71   

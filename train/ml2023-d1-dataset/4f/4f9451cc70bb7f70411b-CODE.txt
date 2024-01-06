@@ -1,0 +1,6 @@
+
+function getRandomValue(a,b) {
+  const x = Math.random();
+  const y = Math.random();
+  return (x > y ? a : b);
+}

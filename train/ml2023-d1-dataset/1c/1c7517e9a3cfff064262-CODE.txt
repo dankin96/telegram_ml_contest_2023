@@ -1,0 +1,34 @@
+   int xona, son, index;
+    string son1;
+
+
+
+      cout<<"Necha xonali son kiritmoqchisiz? (1-9)";
+       cin>>xona;
+
+       cout<<"Sonni kiriting: ";
+       cin>>son1;
+
+       cout<<"Nechinchi xona? ";
+       cin>>index;
+
+       /*
+           876543210
+       son=789123567 =>
+       xona=9
+       index=4
+
+
+       */
+        son=son%(int)pow(10,xona-index+1);//123567
+
+        son=son/pow(10,xona-index);
+
+        cout<<son<<endl;
+
+
+        //cout<<son1[index-1];
+
+
+
+    return 0;

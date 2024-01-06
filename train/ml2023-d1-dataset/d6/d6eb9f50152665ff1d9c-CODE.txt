@@ -1,0 +1,10 @@
+class Person {
+public:
+    string name;
+    int age;
+    
+    void printInfo() {
+        cout << "Name: " << name << endl;
+        cout << "Age: " << age << endl;
+    }
+};

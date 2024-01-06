@@ -1,0 +1,8 @@
+    public static function mapToKardCategory(string $category): string
+    {
+        $category = MerchantCategoryEnum::from($category);
+
+        $kardCategory = constant(ApiMerchantCategoryEnum::class . '::' . $category->name);
+
+        return $kardCategory->value;
+    }

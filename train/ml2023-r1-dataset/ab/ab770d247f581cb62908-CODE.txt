@@ -1,0 +1,3 @@
+handler = TypeHandler(Update, callback) # Making a handler for the type Update
+app.add_handler(handler, -1)
+

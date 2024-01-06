@@ -1,0 +1,1 @@
+I use Box::leak sometimes, but only to dynamically create read only statistics..

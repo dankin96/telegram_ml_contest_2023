@@ -1,0 +1,3 @@
+* app/models/stock_exit.rb:274:in `send_email!'
+* app/jobs/stock_exit_job.rb:8:in `send_email'
+* app/jobs/stock_exit_job.rb:4:in `perform'

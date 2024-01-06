@@ -1,0 +1,7 @@
+Weather report: Albayda
+
+      \   /     Clear
+       .-.      12 °C          
+    ― (   ) ―   ↖ 7 km/h       
+       `-’      10 km          
+      /   \     0.0 mm

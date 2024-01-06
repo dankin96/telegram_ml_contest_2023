@@ -1,0 +1,2 @@
+ Order symbol=BTCGBP amount=-125.49 
+ signal=56% imbalance=-125.4920

@@ -1,0 +1,6 @@
+[task-number] Deleted todo code.
+
+pr changes:
+---
++ ;; TODO: position on left & right
+---

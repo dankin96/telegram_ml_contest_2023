@@ -1,0 +1,38 @@
+[
+{
+"synonym": "Питание",
+"similarity": 0.95
+},
+{
+"synonym": "Обед",
+"similarity": 0.85
+},
+{
+"synonym": "Ужин",
+"similarity": 0.8
+},
+{
+"synonym": "Бутерброд",
+"similarity": 0.75
+},
+{
+"synonym": "Обеденный стол",
+"similarity": 0.7
+},
+{
+"synonym": "Трапеза",
+"similarity": 0.65
+},
+{
+"synonym": "Питание",
+"similarity": 0.6
+},
+{
+"synonym": "Обеденный стол",
+"similarity": 0.55
+},
+{
+"synonym": "Трапеза",
+"similarity": 0.5
+}
+]

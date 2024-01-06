@@ -1,0 +1,11 @@
+ Collateral: 25,000 WGR
+ Cost: $69.46
+ ROI: 8.63% (annual)
+ Monthly income: $0.50
+ First reward: 31+ hrs
+ Reward cycle: 12+ hrs
+ Oracle reward: every Sunday
+ Masternodes (enabled): 711
+ Masternodes (total): 714
+ WGR collateralized: Infinity%
+ Updated: 04:23:48 UTC

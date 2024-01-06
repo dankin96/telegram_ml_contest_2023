@@ -1,0 +1,33 @@
++------------------------------+
+|      Trade Information       |
++-----------------+------------+
+| Key             | Value      |
++-----------------+------------+
+| Buy Limit       | XAUUSD     |
+| Entry           | 1821.0     |
+|                 |            |
+| Stop Loss       | 60 pips    |
+| TP 1            | (30 pips)  |
+| TP 2            | (60 pips)  |
+| TP 3            | (90 pips)  |
+| TP 4            | (120 pips) |
+|                 |            |
+|                 |            |
+| Stop Loss       | 1815.0     |
+| TP 1            | 1824.0     |
+| TP 2            | 1827.0     |
+| TP 3            | 1830.0     |
+| TP 4            | 1833.0     |
+|                 |            |
+| Risk Factor     | 9 %        |
+| Position Size   | 0.27       |
+|                 |            |
+| Current Balance | $ 1,855.51 |
+| Potential Loss  | $ 162.00   |
+| TP 1 Profit     | $ 20.25    |
+| TP 2 Profit     | $ 40.50    |
+| TP 3 Profit     | $ 60.75    |
+| TP 4 Profit     | $ 81.00    |
+|                 |            |
+| Total Profit    | $ 202.50   |
++-----------------+------------+

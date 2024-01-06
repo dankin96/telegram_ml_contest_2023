@@ -1,0 +1,3 @@
+result = await self.interface.send_message(context, 'Hello! I am a real estate agent assistant. How can I help you?')
+print(f"RESULT: {result}")
+

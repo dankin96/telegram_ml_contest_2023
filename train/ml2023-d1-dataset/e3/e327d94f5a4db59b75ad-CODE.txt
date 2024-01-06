@@ -1,0 +1,7 @@
+m = -20.1;
+a = 20;
+a = deg2rad(a); 
+
+natija = 1/12 * (m^3*cos(a))/((sin(a) + cos(a))^3);
+fprintf('%.4e
+', natija)

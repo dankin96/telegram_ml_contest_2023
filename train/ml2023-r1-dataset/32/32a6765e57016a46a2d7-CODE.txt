@@ -1,0 +1,7 @@
+{
+  networkMode: false,
+  broker: 'Binance',
+  pair: 'BTCUSDT',
+  timeFrame: '1h',
+  customRange: [ '2021-09-30T09:59:00.000Z', '2021-12-30T09:59:00.000Z' ]
+}

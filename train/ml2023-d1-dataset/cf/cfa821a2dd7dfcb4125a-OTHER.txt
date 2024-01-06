@@ -1,0 +1,13 @@
+Threat Detected @ 10-Oct-2023 || 18:16 (UTC)
+
+Microsoft Message Queuing Remote Code Execution Vulnerability
+
+CVE: CVE-2023-35349
+Attack Complexity: LOW
+Privileges Required: NONE
+User Interaction: NONE
+CVSS3 Score: 9.8
+
+Advisory: https://nvd.nist.gov/vuln/detail/CVE-2023-35349
+
+Sign up for www.vullnerability.com to receive all alerts or filter your custom products.

@@ -1,0 +1,3 @@
+SELECT *
+FROM tasks_by_type(tsrange({{from}}, {{to}})) tbt
+

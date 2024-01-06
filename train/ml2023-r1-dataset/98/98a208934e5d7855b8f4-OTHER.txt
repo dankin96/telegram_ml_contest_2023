@@ -1,0 +1,7 @@
+v10.1.1.0 (20420) Play Store fa/en
+samsung SM-A105F android 11
+ROM: RP1A.200720.012.A105FDDS9CWD2
+Performance: LOW
+Cache: ۱٫۳۱ GB
+Database: ۴۳۰٫۰ MB
+Free: ۲٫۵۶ GB

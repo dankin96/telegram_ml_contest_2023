@@ -1,0 +1,8 @@
+15M ./fptglobalth
+13M ./beefrankie
+55M ./demoen
+16M ./eliteenergythai
+1.9M ./FPTGlobalTH
+19M ./odoo
+80M ./demo
+197M .

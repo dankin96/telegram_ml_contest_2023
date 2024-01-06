@@ -1,0 +1,8 @@
+Uncharted     : 0:40 🟡
+Stampida      : 0:20 🟢
+Silver River  : 0:20 🟢
+Grand Canyon  : 0:00 🟢
+Wild Buffalos : 0:00 🟢
+Crazy Barrels : 0:00 🟢
+VolPaiute     : 0:00 🟢
+Carousel      : 0:00 🟢

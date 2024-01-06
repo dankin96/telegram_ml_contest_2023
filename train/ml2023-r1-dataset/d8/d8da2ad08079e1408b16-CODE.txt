@@ -1,0 +1,2 @@
+yum makecache && yum update -y v2ray-plugin && v2ray-plugin -version
+

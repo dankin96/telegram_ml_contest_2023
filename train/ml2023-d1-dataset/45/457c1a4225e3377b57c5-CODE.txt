@@ -1,0 +1,1 @@
+adb logcat *:W > log_warning.txt

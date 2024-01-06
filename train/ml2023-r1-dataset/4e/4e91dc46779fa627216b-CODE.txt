@@ -1,0 +1,5 @@
+   vim-cmd vmsvc/getallvms
+   vim-cmd vmsvc/snapshot.get <虚拟机ID>
+   less /var/log/vmware/vpx/vpxa.log
+   less /var/log/vmware/hostd.log
+   

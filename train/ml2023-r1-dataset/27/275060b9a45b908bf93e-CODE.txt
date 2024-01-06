@@ -1,0 +1,12 @@
+function scrapeWebsite() {
+  var url = "https://example.com"; // آدرس صفحه‌ی مورد نظر را در اینجا وارد کنید.
+  var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet(); // انتخاب برگه‌ی فعال در گوگل شیت
+
+  var response = UrlFetchApp.fetch(url); // دریافت محتوای صفحه‌ی وب
+  var html = response.getContentText(); // تبدیل محتوا به متن
+
+  var titleRegex = /<title>(.*?)<\/title>/; // عبارت منظم برای یافتن عنوان صفحه
+  var title = html.match(titleRegex)[1]; // استخراج عنوان صفحه
+
+  sheet.getRange(1, 1).setValue(title); // ذخیره‌ی عنوان در سلول A1 برگه‌ی فعال
+}

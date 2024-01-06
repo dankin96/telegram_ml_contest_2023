@@ -1,0 +1,4 @@
+
+Disallow: /wiki/特殊:
+Disallow: /wiki/用户:
+Disallow: /wiki/模板:

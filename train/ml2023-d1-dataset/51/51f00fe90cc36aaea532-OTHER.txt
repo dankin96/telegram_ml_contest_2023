@@ -1,0 +1,6 @@
+ProbabilisticScorer's internal models have been substantially improved,
+including better decaying (#1789), a more granular historical channel
+liquidity tracker (#2176) and a now-default option to make our estimate for a
+channel's current liquidity nonlinear in the channel's capacity (#2547). In
+total, these changes should result in improved payment success rates at the
+cost of slightly worse routefinding performance.

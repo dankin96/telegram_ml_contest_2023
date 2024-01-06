@@ -1,0 +1,26 @@
+import nltk
+
+def calculate_text_difficulty(text):
+    # تحليل النص وتجزئته إلى كلمات وجمل
+    words = nltk.word_tokenize(text)
+    sentences = nltk.sent_tokenize(text)
+    
+    # حساب عدد الكلمات والجمل
+    word_count = len(words)
+    sentence_count = len(sentences)
+    
+    # حساب متوسط طول الكلمة ومتوسط عدد الكلمات في الجملة
+    avg_word_length = sum(len(word) for word in words) / word_count
+    avg_words_per_sentence = word_count / sentence_count
+    
+    # حساب درجة الصعوبة
+    text_difficulty = avg_word_length + avg_words_per_sentence
+    
+    return text_difficulty
+
+# النص التجريبي
+text = "العلم نور ينير الطريق إلى الحياة الأفضل."
+
+# استدعاء الدالة وطباعة نتيجة درجة الصعوبة
+difficulty = calculate_text_difficulty(text)
+print("درجة صعوبة النص:", difficulty)

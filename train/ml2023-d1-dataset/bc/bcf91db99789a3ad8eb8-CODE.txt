@@ -1,0 +1,2 @@
+resolve(UrlGenerator::class)->forceScheme('https');
+            Url::forceScheme('https');

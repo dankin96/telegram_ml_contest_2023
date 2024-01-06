@@ -1,0 +1,1 @@
+中文|汉化===((tg|TG|telegram|Telegram|电报|纸飞机|软件)[\s\S]*(汉化|中文))|^汉化|^中文===点击按钮切换语言&&btns=简体中文$$https://t.me/setlanguage/zhcncc$$繁體中文$$https://t.me/setlanguage/hongkong$$正體中文$$https://t.me/setlanguage/encha

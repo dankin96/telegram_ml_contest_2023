@@ -1,0 +1,10 @@
+php
+$imagePath = 'path/to/image.jpg'; // مسیر فایل تصویر را در اینجا قرار دهید
+
+// بدست آوردن ابعاد تصویر
+$imageSize = getimagesize($imagePath);
+$width = $imageSize[0]; // عرض
+$height = $imageSize[1]; // ارتفاع
+
+// نمایش ابعاد تصویر
+echo "ابعاد تصویر: $width x $height";

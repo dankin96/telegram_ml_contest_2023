@@ -1,0 +1,14 @@
+git config --global user.name "name"
+git config --global user.email "email"
+# --local option as well
+
+git diff  # diff of working tree and staging area
+git diff --cached  # diff of staging area and latest commit
+git diff --name-only
+git diff --stat
+
+git rm filename  # remove a file from the working tree and the staging area
+git reset HEAD filename  # retrieve a file from the latest commit into the staging area
+
+git checkout (commit hash) filename  # retrieve a file from a previous commit
+git checkout -- filename  # retrieve a file from the staging area into the working tree

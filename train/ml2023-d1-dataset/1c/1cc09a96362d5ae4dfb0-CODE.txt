@@ -1,0 +1,4 @@
+const router = useRouter()
+
+router.push() / router.replace() / router.go
+

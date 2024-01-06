@@ -1,0 +1,4 @@
+CEK HARGA : CH.KODE
+CONTOH    : CH.PLN
+
+

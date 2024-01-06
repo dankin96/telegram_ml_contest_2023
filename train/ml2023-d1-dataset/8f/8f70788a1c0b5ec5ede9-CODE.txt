@@ -1,0 +1,2 @@
+d:\win95\setup.exe /C /im /id /is
+

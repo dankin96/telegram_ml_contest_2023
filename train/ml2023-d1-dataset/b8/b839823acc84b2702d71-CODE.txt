@@ -1,0 +1,4 @@
+var exportedSheetsScanner = multithreadedExport 
+    ? ExportedFilesScanner.Create(exportParams.exportFlags, ImageOptionsFilePath, null, /*phSheets.Child(1 - mt_setSheetDataScale, "Sheets")*/
+        () => { return phSheets.Child(1 - MT_SetSheetDataProgressScale, phSheets.Message); }, allViewsCount, exportParamsState) 
+    : null;

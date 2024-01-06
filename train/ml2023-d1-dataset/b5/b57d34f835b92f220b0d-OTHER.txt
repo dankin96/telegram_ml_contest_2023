@@ -1,0 +1,8 @@
+LETS-TOP2 스케줄생성 완료
+
+@timestamp: 2023-10-13T09:43:11
+_id: 5Ep8JosBLhXj_6aTwsbM
+_index: filebeat-sri-lets-2023.10.13
+message: [2023-10-13 09:43:05,981] [INFO  i.s.l.a.a.process.SummaryProcess lets-avatar-summary.container-0-C-1] TOP2 Campaign run completed. Finalize processing - Summary id : 63710, total : 172418, success : 2442, filtered : 169254, missing : 0, induceSuccess : 0, error: 722
+num_hits: 1
+num_matches: 1

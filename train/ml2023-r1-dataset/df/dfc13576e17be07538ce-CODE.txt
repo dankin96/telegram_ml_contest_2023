@@ -1,0 +1,58 @@
+const wrapper = document.querySelector('.wrapper')
+
+const container = document.querySelector('.container')
+
+const btntotal = document.querySelector('.button__total')
+
+const like = document.querySelector('.like')
+
+btntotal.textContent = 0
+
+let total = 0
+
+pokemons.map((item, index) => {
+  const card = document.createElement('div')
+  card.setAttribute('class', 'card')
+
+
+  const card_img = document.createElement('div')
+
+  const img = document.createElement('img')
+  img.setAttribute('src', item.img)
+
+  const name = document.createElement('h3')
+
+  name.textContent = item.name
+
+  const type = document.createElement('p')
+  type.textContent = item.type.join()
+    
+  const button = document.createElement('button')
+  button.setAttribute('class', 'btn')
+    
+    let isLikes = false
+
+  button.addEventListener('click', () => {
+    if (!isLikes) {
+           total++
+       isLikes = true
+       button.style.background = 'red'
+    }else {
+      total--
+      isLikes = false
+      button.style.background = '#f0f0f0'
+    }
+    btntotal.textContent = `${total}`
+  })
+
+
+  card_img.appendChild(img)
+  card.appendChild(card_img)
+  card.appendChild(name)
+  card.appendChild(type)
+  card.appendChild(button)
+
+  container.appendChild(card)
+    
+  
+})

@@ -1,0 +1,6 @@
+@csrf_exempt
+def add_new_contact(requests):
+     if requests.method == 'POST':
+         return JsonResponse({'success': True, 'data': requests.POST})
+     return JsonResponse({'success': False, 'data': requests.POST})
+

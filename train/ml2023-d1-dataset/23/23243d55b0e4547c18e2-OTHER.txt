@@ -1,0 +1,1 @@
+[-] Template viosl2.yml is missing, so device will not appear in list when adding a new node

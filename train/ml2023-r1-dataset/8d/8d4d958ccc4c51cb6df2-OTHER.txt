@@ -1,0 +1,2 @@
+Level, (Time (Only in Level 0), Date, Reason (Only in Level 0), Code (Only in Level 0))
+

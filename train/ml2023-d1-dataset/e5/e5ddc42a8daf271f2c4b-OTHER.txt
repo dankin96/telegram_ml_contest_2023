@@ -1,0 +1,6 @@
+Zamówienie (model 1razóweki, smaki)
+Kod paczkomatu: 
+Nr telefonu:
+E-mail:
+Kwota (prosze doliczyc koszt wysylki 20zl przy 2 sztukach wysylka jest darmowa)
+

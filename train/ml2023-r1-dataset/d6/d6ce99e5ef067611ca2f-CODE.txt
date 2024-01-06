@@ -1,0 +1,28 @@
+{
+ "update_id": 935426121,
+ "message": {
+  "message_id": 3794,
+  "from": {
+   "id": 784217724,
+   "is_bot": false,
+   "first_name": "Роман",
+   "username": "supafrukt",
+   "language_code": "ru"
+  },
+  "chat": {
+   "id": -1001664800359,
+   "title": "Моя Группа",
+   "username": "allayavbarsegodnyatochno",
+   "type": "supergroup"
+  },
+  "date": 1696501968,
+  "forward_from": {
+   "id": 6247940041,
+   "is_bot": false,
+   "first_name": "Алексей",
+   "last_name": "Шиховцов"
+  },
+  "forward_date": 1682304190,
+  "text": "Привет, сейчас проходит набор в команду, для удаленной работы. Заработок от 1000$ в неделю. Кому интересно пишите в личку"
+ }
+}

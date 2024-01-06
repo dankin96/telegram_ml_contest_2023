@@ -1,0 +1,34 @@
+Partita: Lazio - Atalanta
+Risultati vincenti: 
+['1', 'Over 2,5', 'Goal']
+
+Vincitori 🏆: 
+Mauro          Over 2,5
+GiorgioM       Goal
+Dak75          1
+Luk74          Goal
+Camilla        Goal
+Gigirriva      Goal
+Stefano        1
+cris           1
+Manuel         Over 2,5
+Antonio        Goal
+mattia         Over 2,5
+Maurizio       Goal
+Castedduuuuuuu Over 2,5
+Mirko          Goal
+Salvo          1
+Antonio        Goal
+Lorenzo        Goal
+NicoSollai     Goal
+Luca Hiroshi   Goal
+MANNE          Over 2,5
+Sardo          Over 2,5
+Lillo          Goal
+Cesco          Over 2,5
+Sergio         Goal
+Lucas          Over 2,5
+nick           Over 2,5
+A              Goal
+GP             1
+Alessio        Goal

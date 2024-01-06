@@ -1,0 +1,3 @@
+
+data = TypedData.from_dict(typed_data)
+message_hash = data.message_hash(account.address)

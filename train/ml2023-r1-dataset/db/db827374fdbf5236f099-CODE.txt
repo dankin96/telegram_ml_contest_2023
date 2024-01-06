@@ -1,0 +1,37 @@
+php
+<?php
+
+function sendSalomToGroup($chatId, $message) {
+    // Bot ma'lumotlari
+    $botToken = 'Your_Bot_Token';
+    $base_url = 'https://api.telegram.org/bot' . $botToken . '/';
+    
+    // Salom xabarni yuborish
+    $url = $base_url . 'sendMessage';
+    $data = array(
+        'chat_id' => $chatId,
+        'text' => $message
+    );
+    $options = array(
+        'http' => array(
+            'method' => 'POST',
+            'header' => 'Content-Type: application/x-www-form-urlencoded',
+            'content' => http_build_query($data)
+        )
+    );
+    $context = stream_context_create($options);
+    $result = file_get_contents($url, false, $context);
+    
+    // Javobni qaytarish
+    return $result;
+}
+
+// Grupga salom yuborish uchun funksiyani chaqirish
+$groupId = 'Your_Group_Id';
+$message = 'Assalomu alaykum';
+$response = sendSalomToGroup($groupId, $message);
+
+// Javobni ekranga chiqarish
+echo $response;
+
+?>

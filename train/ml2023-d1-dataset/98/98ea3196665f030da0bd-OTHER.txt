@@ -1,0 +1,6 @@
+💰Mint          💠  $16
+💰List          💠  $16
+💰Change Price  💠  $2
+💰Make Bid      💠  $4
+💰Claim         💠  $6
+💰Burn          💠  $3

@@ -1,0 +1,28 @@
+
+# معالج لعملية التحميل
+def process_download(message):
+    chat_id = message.chat.id
+    url = message.text
+
+    try:
+        # تحميل الفيديو باستخدام pytube
+        video = YouTube(url)
+        if video.length > 1800:  # للتحقق من نصف ساعة (30 دقيقة = 1800 ثانية)
+            bot.reply_to(message, "هذا الفيديو أطول من الـ 30 دقيقة.")
+            return
+        
+        # استخراج كل جودات الفيديو المتاحة
+        available_formats = video.streams.filter(only_audio=True).order_by('abr').desc()
+
+        # تحويل الفيديو إلى ملف صوتي بتنسيق MP3 وحفظه
+        filepath = os.path.join(DOWNLOAD_PATH, f"{video.title}.mp3")
+        video.download(output_path=DOWNLOAD_PATH, filename=video.title)
+
+        # إرسال الملف الصوتي عبر البوت
+        with open(filepath, "rb") as audio:
+            bot.send_audio(chat_id, audio)
+
+        # حذف الملف المؤقت بعد الإرسال
+        os.remove(filepath)
+    except Exception as e:
+        bot.reply_to(message, "حدث خطأ أثناء تحميل الفيديو. يرجى المحاولة مرة أخرى.")

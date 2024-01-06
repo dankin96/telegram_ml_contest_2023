@@ -1,0 +1,37 @@
+
+import telebot
+import datetime
+
+# توکن ربات تلگرام خود را اینجا قرار دهید
+TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
+
+# ساخت شی ربات با استفاده از توکن
+bot = telebot.TeleBot(TOKEN)
+
+# ویرایش پیام و اضافه کردن ساعت به آن
+def edit_message_with_time(chat_id, message_id):
+    # به دست آوردن ساعت فعلی
+    now = datetime.datetime.now().strftime("%H:%M:%S")
+    
+    try:
+        # خواندن پیام از کانال
+        message = bot.get_chat_member(chat_id, message_id).user.username
+        text = f'{message} - {now}'
+        
+        # ویرایش و ارسال پیام جدید
+        bot.edit_message_text(chat_id=chat_id, message_id=message_id, text=text)
+        
+    except Exception as e:
+        print(e)
+
+# فراخوانی تابع edit_message_with_time و انتقال پیام به آن
+@bot.message_handler(func=lambda m: True)
+def handle_message(message):
+    chat_id = message.chat.id
+    message_id = message.message_id
+    
+    # انتقال پیام به تابع ویرایش
+    edit_message_with_time(chat_id, message_id)
+
+# اجرای ربات
+bot.polling()

@@ -1,0 +1,10 @@
+Background:  Bat
+Tool:        Bat
+Skin:        Bat
+Cloth:       Bat
+Headset:     Bat
+Eye:         Bat
+Mouth:       Bat
+1-1:         Bat
+
+Rank: 2

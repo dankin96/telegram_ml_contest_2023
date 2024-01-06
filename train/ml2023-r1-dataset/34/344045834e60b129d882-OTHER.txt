@@ -1,0 +1,17 @@
+Survey ID:
+Points:
+Time Taken To Complete Survey:
+City:
+Age:
+Gender:
+Education:
+Occupation:
+Household Items:
+
+Survey Related to:
+Focus on:
+
+Other Important Answers:
+
+Credit: Your Name (Date) Any Emojis
+

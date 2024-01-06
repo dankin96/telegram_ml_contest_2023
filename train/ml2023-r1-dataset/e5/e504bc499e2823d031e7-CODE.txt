@@ -1,0 +1,1 @@
+shell appops set "packagename" REQUEST_INSTALL_PACKAGES allow

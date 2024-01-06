@@ -1,0 +1,39 @@
+Exception: Java.Lang.IllegalStateException Source: mscorlib Message: Not allowed to start service Intent 
+{ cmp=com.UploadBackgroundService (has extras) }: 
+app is in background uid UidRecord{30e107b u0a366 LAST bg:+1m6s44ms idle change:idle|procstate procs:0 seq(22951659,22950798)}
+Stack Trace:
+
+at Java.Interop.JniEnvironment+InstanceMethods.CallNonvirtualObjectMethod (Java.Interop.JniObjectReference instance, Java.Interop.JniObjectReference type, Java.Interop.JniMethodInfo method, Java.Interop.JniArgumentValue* args) [0x0008e] in <448162cbb29549a59fe23ce4d7265d0b>:0 
+  at Java.Interop.JniPeerMembers+JniInstanceMethods.InvokeVirtualObjectMethod (System.String encodedMember, Java.Interop.IJavaPeerable self, Java.Interop.JniArgumentValue* parameters) [0x00088] in <448162cbb29549a59fe23ce4d7265d0b>:0 
+  at Android.Content.ContextWrapper.StartService (Android.Content.Intent service) [0x00031] in <349ed2d495bf42eb91ac59859503640e>:0 
+  at Droid.Presentation.Activities.DetailsStepTwoActivity.OnPhotoUploadMessage (System.Collections.Generic.List`1[T] filesToUpload) [0x000fa] in <029e3628424b468c97cd21f8725f2143>:0 
+  --- End of managed Java.Lang.IllegalStateException stack trace ---
+android.app.BackgroundServiceStartNotAllowedException: Not allowed to start service Intent { cmp=UploadBackgroundService (has extras) }: app is in background uid UidRecord{30e107b u0a366 LAST bg:+1m6s44ms idle change:idle|procstate procs:0 seq(22951659,22950798)}
+  at android.app.ContextImpl.startServiceCommon(ContextImpl.java:1981)
+  at android.app.ContextImpl.startService(ContextImpl.java:1927)
+  at android.content.ContextWrapper.startService(ContextWrapper.java:834)
+  at android.content.ContextWrapper.startService(ContextWrapper.java:834)
+  at crc64ef14e2f23c1a435d.DetailsBuilderPhotosFragment.n_onActivityResult(Native Method)
+  at crc64ef14e2f23c1a435d.DetailsBuilderPhotosFragment.onActivityResult(DetailsBuilderPhotosFragment.java:96)
+  at androidx.fragment.app.FragmentManager$9.onActivityResult(FragmentManager.java:2905)
+  at androidx.fragment.app.FragmentManager$9.onActivityResult(FragmentManager.java:2885)
+  at androidx.activity.result.ActivityResultRegistry.doDispatch(ActivityResultRegistry.java:392)
+  at androidx.activity.result.ActivityResultRegistry.dispatchResult(ActivityResultRegistry.java:351)
+  at androidx.activity.ComponentActivity.onActivityResult(ComponentActivity.java:647)
+  at androidx.fragment.app.FragmentActivity.onActivityResult(FragmentActivity.java:164)
+  at android.app.Activity.dispatchActivityResult(Activity.java:8951)
+  at android.app.ActivityThread.deliverResults(ActivityThread.java:5987)
+  at android.app.ActivityThread.performResumeActivity(ActivityThread.java:5348)
+  at android.app.ActivityThread.handleResumeActivity(ActivityThread.java:5444)
+  at android.app.servertransaction.ResumeActivityItem.execute(ResumeActivityItem.java:54)
+  at android.app.servertransaction.ActivityTransactionItem.execute(ActivityTransactionItem.java:45)
+  at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:176)
+  at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+  at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2574)
+  at android.os.Handler.dispatchMessage(Handler.java:106)
+  at android.os.Looper.loopOnce(Looper.java:226)
+  at android.os.Looper.loop(Looper.java:313)
+  at android.app.ActivityThread.main(ActivityThread.java:8757)
+  at java.lang.reflect.Method.invoke(Native Method)
+  at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+  at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1067)

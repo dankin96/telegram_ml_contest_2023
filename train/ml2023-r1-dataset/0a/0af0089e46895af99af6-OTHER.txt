@@ -1,0 +1,31 @@
+cs 
+UzG-TanK overall statistic. 
+#99. UzG-TanK. 1652 pts. Games:451 Win:204 Lose:247 Winrate:45%. 
+Average opponents rating:1502 
+-------------------------------------------------------------- 
+Player   vs Player(Rating)        Games      Score    Winrate     
+-------------------------------------------------------------- 
+UzG-TanK vs TumStep(2296) ------- G:2         0-2     Win:  0% 
+UzG-TanK vs StaZzz(2008) -------- G:2         0-2     Win:  0% 
+UzG-TanK vs GNX(1956) ----------- G:3         0-3     Win:  0% 
+UzG-TanK vs THEGAME🏅(1895) ----- G:5         1-4     Win: 20% 
+UzG-TanK vs mp3a(1878) ---------- G:8         3-5     Win: 38% 
+UzG-TanK vs Nur(1829) ----------- G:9         0-9     Win:  0% 
+UzG-TanK vs -House-(1821) ------- G:1         0-1     Win:  0% 
+UzG-TanK vs EirkKk(1756) -------- G:10        3-7     Win: 30% 
+UzG-TanK vs ^GoRiLa^(1754) ------ G:1         0-1     Win:  0% 
+UzG-TanK vs asur(1681) ---------- G:4         2-2     Win: 50% 
+UzG-TanK vs -Ralph^^(1666) ------ G:7         3-4     Win: 43% 
+UzG-TanK vs fenic(1659) --------- G:8         2-6     Win: 25% 
+UzG-TanK vs REVENGER(1658) ------ G:13        0-13    Win:  0% 
+UzG-TanK vs Anubis105(1631) ----- G:15        3-12    Win: 20% 
+UzG-TanK vs MaRs(1631) ---------- G:2         0-2     Win:  0% 
+UzG-TanK vs ~ImBa^SiZe^(1623) --- G:2         0-2     Win:  0% 
+UzG-TanK vs azest(1623) --------- G:11        3-8     Win: 27% 
+UzG-TanK vs LOSHADKA(1616) ------ G:38       23-15    Win: 61% 
+UzG-TanK vs Dragg(1605) --------- G:1         1-0     Win:100% 
+UzG-TanK vs TJK(1603) ----------- G:5         1-4     Win: 20% 
+UzG-TanK vs [HoD]SyRaX^(1602) --- G:3         0-3     Win:  0% 
+UzG-TanK vs killer26276(1600) --- G:1         0-1     Win:  0% 
+UzG-TanK vs DarK_NINJA(1599) ---- G:2         0-2     Win:  0% 
+UzG-TanK vs -MhmD^(1589) -------- G:6         1-5     Win: 17%

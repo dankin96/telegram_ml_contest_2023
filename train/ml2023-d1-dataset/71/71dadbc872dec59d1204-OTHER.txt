@@ -1,0 +1,8 @@
+👀 SPAM Score detected:
+###
+https://www.spb.kp.ru/online/news/1782756/
+###
+
+Reason: Наличие ссылок
+Action: deleteMessage
+Bot response: Successful ✅

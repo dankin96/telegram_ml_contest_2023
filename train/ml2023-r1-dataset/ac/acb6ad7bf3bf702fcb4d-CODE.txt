@@ -1,0 +1,8 @@
+import pandas as pd
+import requests
+import io
+url = 'https://github.com/yandex/geo-reviews-dataset-2023/raw/master/geo-reviews-dataset-2023.tskv'
+response = requests.get(url)
+data = response.content
+interviews_df = pd.read_csv(io.BytesIO(data), delimiter='
+', encoding='utf-8-sig', header=None)

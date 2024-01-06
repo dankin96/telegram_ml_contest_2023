@@ -1,0 +1,12 @@
+> perftest remove_publication 10 1000000 100;1000;10000;100000;1000000
+Timeout for each N is 10 sec. 
+For each N perform 1000000 random command(s) from:
+remove_publication 
+
+      N ,    add (sec) ,   cmds (sec) ,  total (sec)
+    100 ,    0.0003858 ,    0.0613314 ,    0.0617172
+   1000 ,    0.0028761 ,    0.0626938 ,    0.0655699
+  10000 ,    0.0293409 ,    0.0773689 ,      0.10671
+ 100000 ,     0.294496 ,     0.311754 ,      0.60625
+1000000 ,      3.27681 ,      2.33089 ,       5.6077
+

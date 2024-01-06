@@ -1,0 +1,5 @@
+Contract: KAVAUSDT
+Price: $0.6023
+24H High: $0.6033
+24H Low: $0.6023
+24H Volume: 4938616.7 KAVA

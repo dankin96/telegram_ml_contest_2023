@@ -1,0 +1,4 @@
+SELECT
+ *
+FROM artists
+WHERE SIMILARITY(name,'Claud Monay') > 0.4 ;

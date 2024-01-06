@@ -1,0 +1,15 @@
+(use-package c++-ts-mode
+    :ensure nil ;; emacs built-in
+    :preface
+    (defun my/c-ts-indent-style()
+        `(;; do not indent namespace children
+          ((parent-is "namespace_definition") parent-bol 0)
+
+          ;; append to bsd style
+          ,@(alist-get 'bsd (c-ts-mode--indent-styles 'cpp))))
+    :bind (:map c++-ts-mode-map
+                ("M-<up>" . treesit-beginning-of-defun)
+                ("M-<down>" . treesit-end-of-defun))
+    :config
+    (setq c-ts-mode-indent-offset 4)
+    (setq c-ts-mode-indent-style #'my/c-ts-indent-style))

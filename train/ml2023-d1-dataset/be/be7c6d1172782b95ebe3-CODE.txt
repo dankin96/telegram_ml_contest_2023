@@ -1,0 +1,26 @@
+$products = ['Apple iPhone 15 pro', 'B&D X100'];
+$labels = ['phone', 'drill'];
+$dataset = new Labeled($products, $labels);
+
+$wordCountVectorizer = new WordCountVectorizer(10000, 0.00008, 0.8);
+
+$tfIdfTransformer = new TfIdfTransformer();
+
+$dataset->apply(new TextNormalizer())
+    ->apply($wordCountVectorizer)
+    ->apply($tfIdfTransformer)
+    ->apply(new L2Normalizer());
+
+[$train, $test] = $dataset->stratifiedSplit(0.8);
+
+$estimator = new GaussianNB();
+
+$estimator->train($train);
+$predictions = $estimator->predict($test);
+
+$data = new Unlabeled([$request->query->get('key')]);
+$data->apply(new TextNormalizer())
+    ->apply($wordCountVectorizer)
+    ->apply($tfIdfTransformer)
+    ->apply(new L2Normalizer());
+$results = $estimator->predict($data);

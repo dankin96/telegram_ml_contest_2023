@@ -1,0 +1,6 @@
+eventType:WARNING
+ area:DVA
+ shortMessage:Dva Hedging Gateway Fix Client Disconnected
+ sourceId:
+ sourceAddOn: 
+ longMessage: Dva Hedging Gateway Fix Client Disconnected this will cause the Algorithms to stop if running. Please check state of components

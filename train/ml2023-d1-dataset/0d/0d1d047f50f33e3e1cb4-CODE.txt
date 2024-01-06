@@ -1,0 +1,18 @@
+private fun revokeAllDangerousPermissions() {
+        val context = InstrumentationRegistry.getInstrumentation().targetContext
+        val packageName = context.packageName
+        val packageInfo = context.packageManager.getPackageInfo(packageName, PackageManager.GET_PERMISSIONS)
+
+        packageInfo.requestedPermissions?.forEach { permission ->
+            try {
+                val permissionInfo = context.packageManager.getPermissionInfo(permission, 0)
+                if ((permissionInfo.protection == PermissionInfo.PROTECTION_DANGEROUS) &&
+                    ContextCompat.checkSelfPermission(context, permission) == PackageManager.PERMISSION_GRANTED) {
+                    val uiAutomation: UiAutomation = InstrumentationRegistry.getInstrumentation().uiAutomation
+                    uiAutomation.revokeRuntimePermission(packageName, permission)
+                }
+            } catch (e: PackageManager.NameNotFoundException) {
+                // Permission not found
+            }
+        }
+    }

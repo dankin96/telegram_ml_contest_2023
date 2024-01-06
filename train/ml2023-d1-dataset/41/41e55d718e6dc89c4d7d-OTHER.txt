@@ -1,0 +1,2 @@
+
+Put 6 skeletons on a transport and let them run out of energy there. The next 6 things built by you or anyone else will get cloned on the transport (this includes buildings.) Then you can disembark them just like you would guys and the buildings will be instantly built. Note that they may be built on top of each other.

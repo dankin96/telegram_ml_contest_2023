@@ -1,0 +1,5 @@
+Buy at      | 388.99
+Sell at     | 367.02
+24hr Low    | 366.08
+24hr High   | 389.99
+24Hr Volume | 54.96

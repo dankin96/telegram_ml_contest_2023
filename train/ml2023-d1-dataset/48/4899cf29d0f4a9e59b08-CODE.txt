@@ -1,0 +1,1 @@
+discount_percentage = total_without_trees > 0  ? total_without_trees * 0.9 : 0.0

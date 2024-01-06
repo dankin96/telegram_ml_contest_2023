@@ -1,0 +1,1 @@
+=MAP(sort(unique(filter(temp!A:A;temp!A:A<>""))); LAMBDA(_art; {_art\ TRANSPOSE(FILTER(temp!B:B; temp!A:A = _art))}))

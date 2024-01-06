@@ -1,0 +1,16 @@
+php
+<?php
+// Ключ для шифрования
+$key = 'my_secret_key';
+
+// Строка для шифрования
+$data = 'Hello, World!';
+
+// Шифрование данных
+$encryptedData = openssl_encrypt($data, 'aes-256-cbc', $key, OPENSSL_RAW_DATA, '1234567890123456');
+echo 'Зашифрованные данные: ' . base64_encode($encryptedData) . PHP_EOL;
+
+// Дешифрование данных
+$decryptedData = openssl_decrypt($encryptedData, 'aes-256-cbc', $key, OPENSSL_RAW_DATA, '1234567890123456');
+echo 'Расшифрованные данные: ' . $decryptedData . PHP_EOL;
+?>

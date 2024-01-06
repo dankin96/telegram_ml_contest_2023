@@ -1,0 +1,5 @@
+  "status": "ok",
+  "epoch": 441,
+  "epochNonce": "ab4e907213396d82f6dc3139cf31fa65ee18d3ec79ffeff9fac3f892b73f9378",
+  "epochSlots": 5,
+  "epochSlotsIdeal": 3.96,

@@ -1,0 +1,39 @@
+MODULE GeometricalFigure;
+
+TYPE
+  Rectangle =POINTER TO RectangleDesc;
+
+  PSetLength = PROCEDURE (r: Rectangle; n: INTEGER);
+  PArea = PROCEDURE (r: Rectangle): INTEGER;
+  RectangleDesc = RECORD
+    length-, width-: INTEGER;
+    SetLength: PSetLength;
+    SetWidth: PSetLength;
+    Area: PArea;
+  END;
+
+PROCEDURE Create*(r: Rectangle);
+BEGIN
+  r.length := 1;
+  r.width := 1;
+  r.SetLength := SetLength;
+  r.SetWidth := SetLength;
+  r.Area := Area;
+END Create;
+
+PROCEDURE SetLength*(r: Rectangle; n: INTEGER);
+BEGIN
+  r.length := n;
+END SetLength;
+
+PROCEDURE SetWidth*(r: Rectangle; n: INTEGER);
+BEGIN
+  r.width := n;
+END SetWidth;
+
+PROCEDURE Area*(r: Rectangle; ): INTEGER;
+BEGIN
+  RETURN r.length * r.width;
+END Area;
+
+END GeometricalFigure.

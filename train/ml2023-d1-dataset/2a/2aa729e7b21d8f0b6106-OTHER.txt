@@ -1,0 +1,14 @@
+╔══════════════════════╗
+║ HKrA_v2.4 / Komutlar;
+╠══════════════════════╣
+║ /aile -tc *
+╠══════════════════════╣
+║ HKrA'yı kullanırken;
+║ * Simgeli yerlere, 
+║ bulmak istediğiniz
+║ Aile hakkında geçerli 
+║ herhangi bir TCKN,
+║ girmeniz gereklidir.
+╠══════════════════════╣
+║ /Aile -tc 12345678901
+╚══════════════════════╝

@@ -1,0 +1,34 @@
+
+@startuml
+
+class User {
+  - name: string
+  - email: string
+  + getName(): string
+  + getEmail(): string
+  + setName(name: string): void
+  + setEmail(email: string): void
+}
+
+class Product {
+  - name: string
+  - price: decimal
+  + getName(): string
+  + getPrice(): decimal
+  + setName(name: string): void
+  + setPrice(price: decimal): void
+}
+
+class Order {
+  - user: User
+  - products: List<Product>
+  + getUser(): User
+  + getProducts(): List<Product>
+  + setUser(user: User): void
+  + addProduct(product: Product): void
+}
+
+User --> Order
+Product --> Order
+
+@enduml

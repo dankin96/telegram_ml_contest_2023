@@ -1,0 +1,48 @@
+rust
+#[derive(PartialEq, Eq, Clone, Debug)]
+pub struct ListNode {
+    pub val: i32,
+    pub next: Option<Box<ListNode>>,
+}
+
+
+pub fn reverse_between(
+    mut head: Option<Box<ListNode>>,
+    left: i32,
+    right: i32,
+) -> Option<Box<ListNode>> {
+    let mut cur = &mut head;
+    let left = left - 1;
+    for _ in 0..left {
+        if let Some(node) = cur {
+            cur = &mut node.next;
+        } else {
+            return head;
+        }
+    }
+    let mut sub_head = None;
+    let mut sub_rest = cur.take();
+    for _ in left..right {
+        if let Some(mut node) = sub_rest {
+            sub_rest = node.next;
+            node.next = sub_head;
+            sub_head = Some(node);
+        }
+    }
+    *cur = sub_head;
+    for _ in left..right {
+        if let Some(node) = cur {
+            cur = &mut node.next;
+        }
+    }
+    *cur = sub_rest;
+    head
+}
+
+fn main() {
+    let list = make_list(&vec![1, 2, 3, 4, 5]);
+    let new_list = reverse_between(list, 2, 4);
+    let vec = list_to_vec(&new_list);
+    assert_eq!(vec, vec![1, 5, 4, 3, 2]);
+}
+

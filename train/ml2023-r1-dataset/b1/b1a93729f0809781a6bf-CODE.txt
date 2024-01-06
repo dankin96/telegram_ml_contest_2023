@@ -1,0 +1,2 @@
+    m_activeWindow = Glib::make_refptr_for_instance(get_window_by_id(id_bondsForm));
+    m_activeWindow->set_visible(true);

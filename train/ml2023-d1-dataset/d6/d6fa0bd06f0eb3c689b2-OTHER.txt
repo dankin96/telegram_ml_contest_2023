@@ -1,0 +1,23 @@
+ 
+🟠  2023-10-10 05:43:21
+
+Complete handle ironSource Mediation Groups. 
+
+packageName: com.relaxing.puzzle.color.dot.connect.em.all
+adFormat: banner
+appKey: 1bd61b93d
+
+
++----------------------+------------+------------+
+| Network              |  Success   |   Failed   |
++----------------------+------------+------------+
+| PANGLE_BIDDING       |            |     X      |
+| GAM                  |     X      |            |
+| UNITY                |     X      |            |
+| MINTEGRAL_BIDDING    |     X      |            |
+| VUNGLE_BIDDING       |     X      |            |
+| APPLOVIN             |     X      |            |
+| ADMOB                |     X      |            |
+| SMAATO_BIDDING       |     X      |            |
+| ADCOLONY_BIDDING     |     X      |            |
++----------------------+------------+------------+

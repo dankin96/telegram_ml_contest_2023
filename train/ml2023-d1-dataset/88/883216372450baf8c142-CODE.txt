@@ -1,0 +1,60 @@
+const scriptableWebView = new WebView();
+await scriptableWebView.loadURL("https://www.example.com");
+
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID"
+};
+
+firebase.initializeApp(firebaseConfig);
+
+const login = async (email, password) => {
+  try {
+    await firebase.auth().signInWithEmailAndPassword(email, password);
+    console.log("Đăng nhập thành công!");
+  } catch (error) {
+    console.log("Sai tài khoản hoặc mật khẩu, hãy nhập lại!");
+  }
+};
+
+const html = `
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { display: flex; justify-content: center; align-items: center; height: 100vh; }
+    form { display: flex; flex-direction: column; }
+    input { margin-bottom: 10px; }
+  </style>
+</head>
+<body>
+  <form id="loginForm">
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Mật khẩu" required />
+    <button type="submit">Đăng nhập</button>
+  </form>
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", (event) => {
+      event.preventDefault();
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+      window.webkit.messageHandlers.login.postMessage({ email, password });
+    });
+  </script>
+</body>
+</html>
+`;
+
+await scriptableWebView.loadHTML(html);
+scriptableWebView.evaluateJavaScript("document.title");
+
+scriptableWebView.onMessage("login", (message) => {
+  const { email, password } = message;
+  login(email, password);
+});
+
+await scriptableWebView.present();

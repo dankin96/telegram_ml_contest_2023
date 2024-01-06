@@ -1,0 +1,19 @@
+FPC 0
+  PFE #0
+      Plane 0: Plane enabled
+      Plane 1: Plane enabled
+      Plane 2: Plane enabled
+      Plane 3: Plane enabled
+      Plane 4: Plane enabled
+      Plane 5: Links ok
+      Plane 6: Plane enabled
+      Plane 7: Links ok
+  PFE #1
+      Plane 0: Plane enabled
+      Plane 1: Plane enabled
+      Plane 2: Plane enabled
+      Plane 3: Plane enabled
+      Plane 4: Plane enabled
+      Plane 5: Links ok
+      Plane 6: Plane enabled
+      Plane 7: Links ok

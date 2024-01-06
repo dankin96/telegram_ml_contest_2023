@@ -1,0 +1,6 @@
+SerasaContatos::join('srs_enderecos as e', 'SRS_CONTATOS.CONTATOS_ID', '=', 'e.CONTATOS_ID')
+        ->where('SRS_CONTATOS.CBO', '225127')
+        ->where('e.UF', 'PR')
+        ->where('e.CIDADE', 'LONDRINA')
+        ->select('SRS_CONTATOS.*')
+        ->get();

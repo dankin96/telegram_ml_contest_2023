@@ -1,0 +1,11 @@
+                   Fractus
+Cores                    2
+Threads                  4
+EPS                    240
+RAM                   8 GB
+Storage            9200 GB
+Disk Write Speed   80 MB/s
+Internet Speed    100 Mbps
+Public IP                1
+Max nodes per IP         8
+Ubuntu 20.04         Linux

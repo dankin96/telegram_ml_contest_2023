@@ -1,0 +1,17 @@
+fantan 02:43 KWOK 2/3 ✅
+fantan 02:52 KWOK 3/4 ✅
+fantan 02:57 KWOK 2/3 ✅¹
+fantan 03:04 KWOK 1/2 ✅¹
+fantan 03:12 KWOK 1/2 ✅²
+fantan 03:37 KWOK 3/4 ❌
+fantan 04:20 KWOK 1/2 ✅
+fantan 05:08 KWOK 3/4 ✅
+fantan 05:23 KWOK 2/3 ✅
+fantan 05:31 KWOK 1/2 ✅
+fantan 06:10 KWOK 1/2 ✅
+fantan 06:37 KWOK 1/2 ✅
+fantan 06:45 KWOK 3/4 ✅²
+fantan 07:06 KWOK 3/4 ✅¹
+fantan 07:39 KWOK 1/2 ✅
+fantan 07:52 KWOK 3/4 ❌
+fantan 08:20 KWOK 3/4 ⏰

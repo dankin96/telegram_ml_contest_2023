@@ -1,0 +1,1 @@
+vless://644e7f5a-cbd9-45f5-81ed-4e9699ae8be2@x.istnets.site:2053?type=ws&path=%2F&security=tls&fp=&alpn=http%2F1.1%2Ch2#A-free_net

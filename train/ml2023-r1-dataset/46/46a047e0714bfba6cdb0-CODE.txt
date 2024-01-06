@@ -1,0 +1,1 @@
+/interface lte at-chat lte1 wait=yes input="AT!GMEAS"

@@ -1,0 +1,5 @@
+Zeph:ZephUSD=1:400       不能zeph不能动，有奖励
+
+Zeph:ZephUSD=1:(401-799) 可以zeph换rsv，有奖励
+
+Zeph:ZephUSD=1:800       不可以zeph换rsv，无奖励

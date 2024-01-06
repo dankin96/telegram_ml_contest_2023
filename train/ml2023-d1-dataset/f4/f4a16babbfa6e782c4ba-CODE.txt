@@ -1,0 +1,6 @@
+# Install custom python package if requirements.txt is present
+if [[ -f "/bitnami/python/requirements.txt" ]]; then
+    . /opt/bitnami/airflow/venv/bin/activate
+    pip install -r /bitnami/python/requirements.txt
+    deactivate
+fi

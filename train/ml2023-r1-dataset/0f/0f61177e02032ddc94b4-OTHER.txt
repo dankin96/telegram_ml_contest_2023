@@ -1,0 +1,3 @@
+RTP100 = 97.500
+Naik Harga sudah berlaku
+

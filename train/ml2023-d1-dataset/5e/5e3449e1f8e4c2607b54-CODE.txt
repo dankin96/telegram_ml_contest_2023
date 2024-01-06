@@ -1,0 +1,33 @@
+{
+    "text": "Алёна права!",
+    "ai_result": {
+        "flagged": false,
+        "categories": {
+            "sexual": false,
+            "hate": false,
+            "harassment": false,
+            "self-harm": false,
+            "sexual\/minors": false,
+            "hate\/threatening": false,
+            "violence\/graphic": false,
+            "self-harm\/intent": false,
+            "self-harm\/instructions": false,
+            "harassment\/threatening": false,
+            "violence": false
+        },
+        "category_scores": {
+            "sexual": 0.0005585795152001083,
+            "hate": 0.005481704603880644,
+            "harassment": 0.000962677993811667,
+            "self-harm": 2.4308037609444e-6,
+            "sexual\/minors": 0.0001384925126330927,
+            "hate\/threatening": 8.059452738962136e-6,
+            "violence\/graphic": 7.737481837466476e-7,
+            "self-harm\/intent": 4.253871793480357e-6,
+            "self-harm\/instructions": 2.2479614472104004e-6,
+            "harassment\/threatening": 0.00012144572247052565,
+            "violence": 6.59884317428805e-5
+        }
+    },
+    "time_stamp": "2023-10-13 15:01:04"
+}

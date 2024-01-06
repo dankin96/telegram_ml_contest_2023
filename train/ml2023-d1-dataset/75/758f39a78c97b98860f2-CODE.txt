@@ -1,0 +1,57 @@
+
+// Definición de los indicadores
+
+EMA20 = EMA(close, 20);
+EMA50 = EMA(close, 50);
+ATR = ATR(close, 14);
+
+// Definición de las reglas de trading
+
+def reglas() {
+  // Zona de movimiento lateral
+  if (ATR < 5) {
+    showMessage("Zona de movimiento lateral", "red");
+
+    // Desactivar compras y ventas
+    trend = 0;
+    color = "black";
+  } else {
+    showMessage("Zona de tendencia", "green");
+
+    // Activar compras y ventas
+    trend = 1;
+    color = "green";
+  }
+
+  // BOS alcista
+  if (trend == 1 && close > EMA20 && close > EMA50 && close > high[1]) {
+    // Dibujar fibo desde soporte a resistencia
+    fibo = Fibonacci(high[1], low[1], high[1], close);
+
+    // Dibujar bloque desde el 25 a 0
+    block = drawBar(25, 0, color);
+
+    // Abrir orden de compra si el precio llega al 25% del fibo
+    if (close <= fibo * 0.25) {
+      buy(1);
+    }
+  }
+
+  // BOS bajista
+  if (trend == -1 && close < EMA20 && close < EMA50 && close < low[1]) {
+    // Dibujar fibo desde máximos a mínimos
+    fibo = Fibonacci(high[1], low[1], low[1], close);
+
+    // Dibujar bloque desde el 25 a 0
+    block = drawBar(25, 0, color);
+
+    // Abrir orden de venta si el precio llega al 25% del fibo
+    if (close >= fibo * 0.25) {
+      sell(1);
+    }
+  }
+}
+
+// Ejecución del EA
+
+onTick(reglas);

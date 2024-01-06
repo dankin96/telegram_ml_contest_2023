@@ -1,0 +1,19 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+// Importing OpenZeppelin's ERC20 contract
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+// Importing OpenZeppelin's SafeMath library
+import "@openzeppelin/contracts/utils/math/SafeMath.sol";
+
+// Contract MyToken is an instance of the ERC20 contract
+contract MyToken is ERC20 {
+    // Using SafeMath for uint256 to prevent overflow and underflow
+    using SafeMath for uint256;
+
+    // Constructor that gives msg.sender all of existing tokens.
+    constructor() ERC20("MyToken", "MTKN") {
+        _mint(msg.sender, 10000 * (10 ** uint256(decimals())));
+    }
+}

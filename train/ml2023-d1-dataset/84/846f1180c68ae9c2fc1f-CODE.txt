@@ -1,0 +1,23 @@
+    public function testExample(): void
+    {
+        $client = static::createClient();
+
+        $container = $client->getContainer();
+
+        /** @var $tokenGenerator UriSafeTokenGenerator */
+        $tokenGenerator = $container->get('security.csrf.token_generator');
+        $token = $tokenGenerator->generateToken();
+
+        $session = $container->get('session.factory')->createSession();
+        $session->set('_csrf/example', $token);
+        $session->save();
+
+        $cookie = new Cookie($session->getName(), $session->getId());
+        $client->getCookieJar()->set($cookie);
+
+        $client->request('POST', '/example', [
+            '_token' => $token
+        ]);
+
+        $this->assertResponseIsSuccessful();
+    }

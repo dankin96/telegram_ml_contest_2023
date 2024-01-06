@@ -1,0 +1,2 @@
+We are looking for a Senior Data Scientist to join our Data Science team to deliver the next generation of Conversational AI (CAI), including the latest in Generative AI/Foundation Model technology. In this role, you will work with one of the world’s largest goal-oriented conversational data sets to push the boundaries of conversational AI at scale. In addition to a world-class data set, you’ll also have a >300K population of expert data annotators (contact center agents) to help drive investigation and learning.
+

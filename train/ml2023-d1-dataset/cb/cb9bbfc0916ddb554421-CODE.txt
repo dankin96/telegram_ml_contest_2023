@@ -1,0 +1,2 @@
+volume.vacuum -garbageThreshold=0
+volume.deleteEmpty -force -quietFor=0

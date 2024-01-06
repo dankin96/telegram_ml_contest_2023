@@ -1,0 +1,4 @@
+Related: [url=http://www.bitfellas.org/e107_plugins/artcity/index.php?a=show&id=4165]4165[/url]
+
+This gigascreen consists from two pictures:
+1st is a mix of Daemons ([url=http://artcity.bitfellas.org/index.php?a=show&id=8406]8406[/url]) and Melange logo ([url=http://artcity.bitfellas.org/index.php?a=show&id=19764]19764[/url]), 2nd is just Melange logo. So at realmachine logo will not blink and everything around it is dark blinking background.

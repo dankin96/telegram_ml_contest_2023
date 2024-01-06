@@ -1,0 +1,4 @@
+pkill screen
+apt install screen
+screen -S roller
+roller run

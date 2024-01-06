@@ -1,0 +1,21 @@
+@chat_labeler.message(text=["<call> Убрать фон"])
+async def rembg(message: Message, call):
+    print("tuta")
+    if await User.is_user_in_process(user_id=message.from_id):
+        await message.reply("Вы уже выбрали параметр! Пришлите фотографию")
+    else:
+        await message.reply("Пришлите нужную фотографию для добавления вас в очередь")
+        user = User(user_id=message.from_id, command=6)
+        user_collection.append(user)
+
+@chat_labeler.message(text=["<call> Улучшить качество <arg>"])
+async def command_picture_quality(message: Message, arg):
+    if int(arg) <= 0 or int(arg) > 5:
+        await message.reply("Параметр должен быть в диапазоне от 1 до 5")
+    else:
+        if await User.is_user_in_process(user_id=message.from_id):
+            await message.reply("Вы уже выбрали параметр! Пришлите фотографию")
+        else:
+            await message.reply("Пришлите нужную фотографию для добавления вас в очередь")
+            user = User(user_id=message.from_id, command=arg)
+            user_collection.append(user)

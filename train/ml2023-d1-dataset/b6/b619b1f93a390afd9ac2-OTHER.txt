@@ -1,0 +1,3 @@
+prediction dimension: 3
+numeric feature count: 12
+categoric feature count: 0

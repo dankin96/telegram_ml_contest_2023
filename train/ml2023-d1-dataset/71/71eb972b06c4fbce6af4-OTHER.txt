@@ -1,0 +1,9 @@
+- Bugfix: Fixed an issue where cold wallets could be used to create accounts but then couldn't be used to log in. 
+- Bugfix: When creating an OAuth account, if you didn't add a wallet, you couldn't log out
+- UI: improved the wording in the "new users" drop-down when signing in
+- New feature (WIP): Added a new user settings page. Functionality will be added later, including the ability to delete your account, check your whitelist status, and complete your user profile
+
+Planned features: 
+- Allow users to give wallets unique names
+- Add support for Ledger and SAFEW (they will not be able to be used to sign in to an account, but can be used to stake, contribute, and redeem vested tokens)
+- Add Google Auth support for OAuth accounts

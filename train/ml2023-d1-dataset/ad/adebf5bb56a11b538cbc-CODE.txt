@@ -1,0 +1,22 @@
+#include &LTiostream>
+#include &LTthread>
+#include &LTmutex>
+#include &LTcondition_variable>
+#include &LTvector>
+
+class MyClass {
+public:
+    MyClass(int num_conds) : conds_(num_conds), mutexes_(num_conds) {
+    }
+
+private:
+    std::vector&LTstd::condition_variable> conds_;
+    std::vector&LTstd::mutex> mutexes_;
+};
+
+int main() {
+    int num_conds = 5;
+    MyClass my_class(num_conds);
+
+    return 0;
+}

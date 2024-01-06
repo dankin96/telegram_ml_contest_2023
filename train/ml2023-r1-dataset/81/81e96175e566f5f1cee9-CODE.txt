@@ -1,0 +1,4 @@
+#some page.vue
+<Component>
+    <template #item.username>...</template>
+</Component>

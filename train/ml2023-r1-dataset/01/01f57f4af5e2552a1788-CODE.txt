@@ -1,0 +1,8 @@
+function dd(mixed $data, bool $exit = true): void{
+    echo  '<pre>';
+    print_r($data);
+    echo  '</pre>';
+    if ($exit){
+        exit;
+    }
+}

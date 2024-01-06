@@ -1,0 +1,10 @@
+rg -i kdm
+etc/init.d/fly-dm
+58:  KDMRC=/etc/X11/fly-dm/fly-dmrc
+62:  if [ ! -s $KDMRC ]; then
+63:    echo "Файл  ${KDMRC} не существует ли нулевого размера. Будет создан сейчас."
+
+usr/bin/fly-dm-prepare.sh
+21:  KDMRC=/etc/X11/fly-dm/fly-dmrc
+25:  if [ ! -s $KDMRC ]; then
+26:    echo "Файл  ${KDMRC} не существует или нулевого размера. Будет создан сейчас."

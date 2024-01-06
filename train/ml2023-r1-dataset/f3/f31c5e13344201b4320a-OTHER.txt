@@ -1,0 +1,10 @@
+PS C:\kotlin\gui_compose> ./gradlew createDistributable
+> Task :checkRuntime FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':checkRuntime'.
+> Failed to check JDK distribution: 'jlink.exe', 'jpackage.exe' are missing
+  JDK distribution path: C:\Program Files\Eclipse Adoptium\jre-11.0.20.101-hotspot
+

@@ -1,0 +1,4 @@
+TX fee
+Fast:   6 sat/vB ($0.23)
+1/2 Hr: 6 sat/vB ($0.23)
+1 Hr:   6 sat/vB ($0.23)

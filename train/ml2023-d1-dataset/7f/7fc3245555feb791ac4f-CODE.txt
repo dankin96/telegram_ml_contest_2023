@@ -1,0 +1,19 @@
+console.log(Math.Pi);
+let Pi = 0;
+let a = 1;
+let b = 3;
+let counter = 0;
+
+myPi();
+
+function myPi() {
+    Pi +=(4/a) - (4/b);
+    a = a+4;
+    b = b+4;
+    console.log(Pi);
+    counter ++;
+    if (counter > 1000) return 0;
+   console.log('first')
+    setTimeout(myPi);
+console.log('second')
+}

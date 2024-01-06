@@ -1,0 +1,1 @@
+Just for fun, check the Rust version - do you think Rust is good for big maintainable projects with junior developers?

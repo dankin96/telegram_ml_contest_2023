@@ -1,0 +1,1 @@
+4411042523900121|08|2027|461 | v1 = incorrect_cvc | Result Code = card_error | f2 = Your card's security code is incorrect. | s32 = Payment Unsuccessful

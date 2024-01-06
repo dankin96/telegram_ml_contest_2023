@@ -1,0 +1,19 @@
+
+// example language: Go https://golang.org/
+// this could be a blocks hash
+exampleHash := "b94d27b9934d3e08a52e52d7da7dabfac484efe37a5380ee9088f7ace2efcde9"
+// this could be mining difficulty target
+hashTarget := "0000000735c16a71b6fc56e84ddb8193e3a6d1ef0b7e958d77e78fc039a5d04e"
+
+hashValue := new(big.Int)
+targetValue := new(big.Int)
+
+hashValue.SetString(exampleHash, 16)
+targetValue.SetString(targetHash, 16)
+
+// checking if hash is less than target
+if hashValue.lte(targetHash) {
+    fmt.Println("Hash satisfies target")
+}
+
+            

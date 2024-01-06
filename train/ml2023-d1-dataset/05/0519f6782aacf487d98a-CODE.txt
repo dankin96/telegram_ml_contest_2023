@@ -1,0 +1,23 @@
+
+def is_valid_credit_card(number):
+    # Reverse the credit card number and convert it to a list of integers
+    digits = list(map(int, str(number)))[::-1]
+
+    # Double every second digit
+    doubled_digits = [(digit * 2) if index % 2 == 1 else digit for index, digit in enumerate(digits)]
+
+    # Subtract 9 from any results that are greater than 9
+    subtracted_digits = [digit - 9 if digit > 9 else digit for digit in doubled_digits]
+
+    # Sum all the digits
+    total = sum(subtracted_digits)
+
+    # Check if the sum is divisible by 10
+    return total % 10 == 0
+
+# Test the function
+credit_card_number = input("Enter a credit card number: ")
+if is_valid_credit_card(credit_card_number):
+    print("Valid credit card number")
+else:
+    print("Invalid credit card number")

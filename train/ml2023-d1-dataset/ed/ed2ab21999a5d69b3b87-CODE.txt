@@ -1,0 +1,2 @@
+serie_populacao2019 = serie_populacao2018 + 50_000
+dataframe['2019'] = serie_populacao2019

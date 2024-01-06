@@ -1,0 +1,3 @@
+  if(optUser.isPresent()){
+            return optUser.get();
+        } else return null;

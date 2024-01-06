@@ -1,0 +1,3 @@
+Destination        Gateway            Flags     Netif Expire
+default            A.B.C.D             UGS      vtnet0
+default            A.B.C.D             UG1      vtnet0

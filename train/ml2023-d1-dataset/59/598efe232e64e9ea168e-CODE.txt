@@ -1,0 +1,12 @@
+java
+   import com.eviware.soapui.tools.SoapUITestCaseRunner;
+
+   public class SoapUITestNGExample {
+       @Test
+       public void runSoapUITestCase() throws Exception {
+           SoapUITestCaseRunner runner = new SoapUITestCaseRunner();
+           runner.setProjectFile("path/to/your/SoapUI/project.xml");
+           runner.run();
+       }
+   }
+   

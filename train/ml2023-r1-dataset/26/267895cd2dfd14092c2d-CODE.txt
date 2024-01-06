@@ -1,0 +1,2 @@
+ "payment_mode": "standard2_3ds", 
+ "issuer_name": "KAPITAL BANK JSB"

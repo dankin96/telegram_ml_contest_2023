@@ -1,0 +1,1 @@
+=IF(Sheet4!A1<>"",Sheet4!A1,IF(Sheet3!A1<>"",Sheet3!A1,IF(Sheet2!A1<>"",Sheet2!A1,IF(Sheet1!A1<>"",Sheet1!A1,"Data Nama Kosong"))))

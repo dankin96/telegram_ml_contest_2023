@@ -1,0 +1,11 @@
+2023-10-11
+
+REST
+
+    Account Endpoints IP Weight Update:
+        GET /fapi/v1/income/asyn: 5->1000
+        GET /fapi/v1/order/asyn: 5->1000
+        GET /fapi/v1/trade/asyn: 5->1000
+        GET /fapi/v1/income/asyn/id: 5->10
+        GET /fapi/v1/order/asyn/id: 5->10
+        GET /fapi/v1/trade/asyn/id: 5->10

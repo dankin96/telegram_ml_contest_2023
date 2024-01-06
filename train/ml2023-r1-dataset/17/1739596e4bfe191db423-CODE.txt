@@ -1,0 +1,11 @@
+void a(int x) {
+ printf("x is %d", x);
+ fflush(stdout); 
+}
+
+void b(int y) {
+    printf("before a
+);
+    fflush(stdout);
+    a(x);
+}

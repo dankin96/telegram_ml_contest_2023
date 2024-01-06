@@ -1,0 +1,2 @@
+
+ResponseError: Method not found: chain_getHead

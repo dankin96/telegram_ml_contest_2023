@@ -1,0 +1,8 @@
+
+BOOT:     2023-10-05 12:54:42
+CPU:      3.3% (4) 2.0GHz
+RAM:      7.7G, 5.4G available
+SWAP:     2.0G, 0.0%
+DISK:     5.4G / 1006.9G (0.6%)
+DISK I/O: R 1.8G | W 150.5M
+NET I/O:  TX 185.5M | RX 298.4M

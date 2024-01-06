@@ -1,0 +1,2 @@
+> kpipewire-9999.r380.c14c83f6-1-x86_64.pkg.tar.zst
+> kpipewire-9999.r380.c14c83f6-1-x86_64.pkg.tar.zst.sig

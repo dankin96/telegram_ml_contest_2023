@@ -1,0 +1,5 @@
+wall.post: {
+  "error": {
+    "error_code": 17,
+    "error_msg": "Validation required: please open redirect_uri in browser",
+…

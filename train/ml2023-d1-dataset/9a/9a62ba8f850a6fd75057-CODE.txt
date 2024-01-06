@@ -1,0 +1,9 @@
+from rembg import remove
+from PIL import Image
+
+input_photo = 'logobee.png'
+output_photo = 'output_5.png'
+
+input = Image.open(input_photo)
+output = remove(input)
+output.save(output_photo)

@@ -1,0 +1,34 @@
+python
+import socket
+import threading
+from colorama import init, Fore
+
+init()
+
+target = "example.com"
+port = 80
+
+def send_requests():
+    while True:
+        try:
+            client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            client.connect((target, port))
+            request = b"GET / HTTP/1.1\r
+Host: " + target.encode() + b"\r
+\r
+"
+            client.send(request)
+            response = client.recv(4096)
+            if b"200 OK" in response:
+                print(Fore.GREEN + "Request sent successfully!")
+            client.close()
+        except Exception as e:
+            print(Fore.RED + "Error sending request:", e)
+
+def start_threads(num_threads):
+    for _ in range(num_threads):
+        thread = threading.Thread(target=send_requests)
+        thread.start()
+
+num_threads = 10  # تعداد نخ‌ها برای ارسال درخواست‌ها
+start_threads(num_threads)

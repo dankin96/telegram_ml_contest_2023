@@ -1,0 +1,7 @@
+js
+  const file = DriveApp.getFileById(fileId);
+  const folder = DriveApp.getFolderById(folderId);
+  const date = Utilities.formatDate(new Date(), Session.getTimeZone(), 'yyyy-MM-dd - HH:mm:ss');
+  const copy = file.makeCopy(`${file.getName()}.BACKUP - ${date}`, folder);
+  if (copy.getMimeType() === 'application/vnd.google-apps.script')
+    copy.moveTo(folder);

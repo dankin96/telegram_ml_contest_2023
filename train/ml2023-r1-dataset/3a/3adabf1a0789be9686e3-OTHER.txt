@@ -1,0 +1,1 @@
+TF: PERIOD_M15, STC: 3.12, RSI: 41.73, RSIOL: false 

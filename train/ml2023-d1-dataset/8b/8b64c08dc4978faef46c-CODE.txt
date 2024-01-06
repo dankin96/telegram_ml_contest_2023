@@ -1,0 +1,5 @@
+def maker(f, args, kwargs):
+    return 1 + f(*args, **kwargs)
+m1 = maker(lambda a, b: a + b, (5, ), {"b": 2})
+m2 = maker(lambda a, b: a * b, [4, 5], {})
+print(m1 + m2)

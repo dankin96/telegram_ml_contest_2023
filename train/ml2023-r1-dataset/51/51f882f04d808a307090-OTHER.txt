@@ -1,0 +1,5 @@
+The following 38 NEW packages are going to be installed:
+... obs-service-cargo
+
+The following 27 packages are going to be REMOVED:
+...  obs-service-cargo_audit obs-service-cargo_vendor

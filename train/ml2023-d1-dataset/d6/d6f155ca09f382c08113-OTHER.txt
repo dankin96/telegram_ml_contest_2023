@@ -1,0 +1,13 @@
+=============================
+🔸 Open Order:  21
+📊 Symbol    :  SP
+📶 Signal    :  🔵BUY
+⚠ Action    :  CLOSED
+📋 Price     :  4416.75
+✨ Close     :  4391
+🕑 Time      :  2023.10.10 19:11
+♻ Lots      :  0.10
+💵 TakeProfit:  0
+☕ StopLoss  :  0
+🔥 Profit    :  -128.75 USD
+=============================

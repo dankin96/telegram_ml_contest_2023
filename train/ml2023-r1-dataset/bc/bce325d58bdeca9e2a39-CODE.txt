@@ -1,0 +1,13 @@
+ IconButton(
+            modifier = Modifier
+                .size(40.dp)
+                .clip(CircleShape)
+                .background(color = colorResource(id = R.color.black)),
+            onClick = onCloseClick,
+            content = {
+                Icon(
+                    painter = painterResource(id = R.drawable.ic_close),
+                    tint = Color.Black,
+                )
+            }
+        )

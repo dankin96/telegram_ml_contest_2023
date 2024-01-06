@@ -1,0 +1,2 @@
+<button class="btn f-btn  button-md btn-success" onclick="ltShowModalBlock('номер')" style="margin:20px auto; display:block; color:red; background-color:#fff; border-radius: 25px!important; ">Вторая кнопка</button>
+

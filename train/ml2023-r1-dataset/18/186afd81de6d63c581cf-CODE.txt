@@ -1,0 +1,36 @@
+{
+  "update_id": 144356113,
+  "message": {
+    "message_id": 1022001,
+    "from": {
+      "id": 5671576667,
+      "is_bot": false,
+      "first_name": "Koala",
+      "username": "vipkoala",
+      "language_code": "es"
+    },
+    "chat": {
+      "id": 5671576667,
+      "first_name": "Koala",
+      "username": "vipkoala",
+      "type": "private"
+    },
+    "date": 1696633218,
+    "forward_from_chat": {
+      "id": -1001976321612,
+      "title": "KOALA PLEX | DESPEGUE DIGITAL",
+      "username": "koalaplex",
+      "type": "channel"
+    },
+    "forward_from_message_id": 4,
+    "forward_date": 1696633211,
+    "text": "/id",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 3,
+        "type": "bot_command"
+      }
+    ]
+  }
+}

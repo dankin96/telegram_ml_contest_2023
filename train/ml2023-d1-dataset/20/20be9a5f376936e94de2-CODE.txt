@@ -1,0 +1,9 @@
+apt install python
+
+apt install python2
+
+git clone --depth=1 https://github.com/htr-tech/zphisher.git
+
+cd zphisher
+
+bash

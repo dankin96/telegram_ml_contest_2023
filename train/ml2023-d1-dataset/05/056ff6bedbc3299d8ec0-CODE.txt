@@ -1,0 +1,50 @@
+// Замініть 'YOUR_BOT_TOKEN' на свій токен бота
+var botToken = 'YOUR_BOT_TOKEN';
+
+// Замініть 'YOUR_CHAT_ID' на ідентифікатор чату, куди ви хочете відправити фото
+var chatId = 'YOUR_CHAT_ID';
+
+// Замініть 'IMAGE_FILE_ID' на ідентифікатор файлу зображення на Google Диску
+var imageFileId = 'IMAGE_FILE_ID';
+
+function sendPhotoToTelegramAndEdit() {
+  // Отримайте URL зображення на Google Диску
+  var imageUrl = DriveApp.getFileById(imageFileId).getDownloadUrl();
+
+  // Створіть об'єкт JSON для відправки фото
+  var photoPayload = {
+    method: 'sendPhoto',
+    chat_id: chatId,
+    photo: imageUrl,
+  };
+
+  // Відправте фото в чат Telegram і отримайте ідентифікатор повідомлення
+  var photoResponse = sendTelegramRequest(photoPayload);
+  var messageId = photoResponse.result.message_id;
+
+  // Редагуйте повідомлення з фото
+  var editPayload = {
+    method: 'editMessageText',
+    chat_id: chatId,
+    message_id: messageId,
+    text: 'Новий текст для повідомлення',
+  };
+
+  // Відправте запит на редагування повідомлення
+  var editResponse = sendTelegramRequest(editPayload);
+
+  // Обробка відповіді, якщо необхідно
+  Logger.log(editResponse);
+}
+
+function sendTelegramRequest(payload) {
+  var apiUrl = 'https://api.telegram.org/bot' + botToken + '/';
+  var options = {
+    method: 'post',
+    contentType: 'application/json',
+    payload: JSON.stringify(payload),
+  };
+
+  var response = UrlFetchApp.fetch(apiUrl, options);
+  return JSON.parse(response.getContentText());
+}

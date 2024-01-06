@@ -1,0 +1,1 @@
+Invalid element state [By.xpath: //button[@data-test-id='button__add-cart']]: element click intercepted: Element <button data-v-a72a970e="" data-test-id="button__add-cart" class="ui-component ui-button primary-violet large fill">...</button> is not clickable

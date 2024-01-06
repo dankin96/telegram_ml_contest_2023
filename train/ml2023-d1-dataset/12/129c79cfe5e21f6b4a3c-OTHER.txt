@@ -1,0 +1,5 @@
+However, notice that this still leaves room for three types of attacks from the validator:
+
+- Frontrunning, which we cover in another page
+- Gaming the input
+- Refusing to mine the block.

@@ -1,0 +1,8 @@
+<div>
+     <input
+      id="checkbox"
+      type="checkbox"
+      v-model="model"
+    />
+    <label for="checkbox"> {{ label }} </label>
+</div>

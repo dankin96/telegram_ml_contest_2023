@@ -1,0 +1,1 @@
+dpkg --force-overwrite --force-confold --skip-same-version --install $(find /var/cache/apt/archives/*.deb)

@@ -1,0 +1,16 @@
+OAS Rank:None
+Marketcap: $0
+FDV: ???
+Available Supply: 0
+Max Supply:  10,000,000,000
+USD: $0.0440
+BTC: 0.00000158₿
+ETH: 0.00002685Ξ
+24h Low & High
+$0.0435|$0.0443
+0.00000156₿| 0.00000159₿
+Vol: $412,841
+ATH : $0.1301
+ATL : $0.0428
+24h: 0.9%  | 7d: 2.0%
+30d: -7.3% || 1y: NA%

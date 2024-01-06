@@ -1,0 +1,11 @@
+
+           entall  
+         +----------+
+ubestemt | lodd     |
+ bestemt | lodden   |
+         +----------+
+           flertall
+         +----------+
+ubestemt | lodder   |
+ bestemt | loddene  |
+         +----------+

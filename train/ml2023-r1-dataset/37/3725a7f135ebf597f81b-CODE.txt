@@ -1,0 +1,2 @@
+cscript //nologo %windir%\system32\slmgr.vbs /skms 5.45.97.157:993
+cscript //nologo %windir%\system32\slmgr.vbs /ato 9caabccb-61b1-4b4b-8bec-d10a3c3ac2ce

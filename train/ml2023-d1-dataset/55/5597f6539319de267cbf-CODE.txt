@@ -1,0 +1,34 @@
+$gd_kit_serp $mol_book2_catalog
+  minimal_height 120
+  menu_filter_enabled true
+  item* null
+  id_by_index* \
+  menu_tools /
+    <= Create null
+    <= Delete null
+    <= Close null
+  menu_body /
+    <= Menu_filter_row $mol_view sub <= menu_filter_row /$mol_view
+      <= Menu_filter
+      <= Menu_filter_add $mol_button_minor
+        hint <= menu_filter_add_hint \Создать
+        sub /
+          <= Menu_filter_add_icon $mol_icon_plus
+        click? <=> menu_filter_add? null
+    <= Menu_links
+  menu_link_content* /$mol_view
+    <= Menu_link_title* $mol_dimmer
+      minimal_width 240
+      minimal_height 24
+      needle <= menu_filter
+      haystack <= spread_title*
+    <= Menu_link_footer* $mol_view
+      minimal_width 240
+      minimal_height 24
+      sub <= menu_link_footer_content* /$mol_view
+        ^ menu_link_footer_status* /$mol_view
+        <= Menu_link_date* $gd_kit_time_card
+          moment <= item_created_at* null
+  menu_link_hot* false
+  menu_link_footer_status* /$mol_view
+    <= Menu_link_hot_icon* $mol_icon_bell_alert

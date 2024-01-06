@@ -1,0 +1,5 @@
+
+Generated using viem getEventSelector(getAbiItem( ... NewAuction abi item from gist ))
+In ABI -> "0xc69ac16aafc5d003ca3cdef209195685e0212fb1b3a7dbb4597dd2a3048c2741"
+
+Actual -> "0xc04e70ae90764fd9186e71dc14056ada1cd1e2f34cc2d6476eb22ff60efb40c8"

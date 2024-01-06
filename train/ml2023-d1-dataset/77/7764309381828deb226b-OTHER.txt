@@ -1,0 +1,2 @@
+vless://742b5d27-afd6-4471-e72c-dfa2b95dcb34@kh1ir.megasvr.website:2095?type=tcp&path=%2F&host=divarcdn.com&headerType=http#Melli-%40v2ray_ir_vpn
+

@@ -1,0 +1,16 @@
+export const RequireAnonymous = ({ children }: IProps) => {
+  const [isAuth, setIsAuth] = useState(true);
+  const router = useRouter();
+  const accessToken = Cookies.get(AUTH_ITEMS.ACCESS_TOKEN);
+  useEffect(() => {
+    if (!accessToken) {
+      setIsAuth(false)
+    }
+  }, [setIsAuth, accessToken]);
+  if (isAuth && accessToken) {
+    router.push('/feed');
+    return null;
+  } else {
+    return children
+  }
+};

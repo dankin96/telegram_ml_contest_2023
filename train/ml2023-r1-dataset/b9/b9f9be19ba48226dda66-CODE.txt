@@ -1,0 +1,49 @@
+{
+ "_": "Message",
+ "id": 10,
+ "peer_id": {
+  "_": "PeerChannel",
+  "channel_id": 1804157000
+ },
+ "date": "2022-12-23T21:44:08+00:00",
+ "message": "User#5369426036
+Big vouch @GloNJJ highly recommended and the carts,xans,buds are killllaaaa don't miss this opportunity rush now playas",
+ "out": false,
+ "mentioned": false,
+ "media_unread": false,
+ "silent": false,
+ "post": true,
+ "from_scheduled": false,
+ "legacy": false,
+ "edit_hide": false,
+ "pinned": false,
+ "noforwards": false,
+ "from_id": null,
+ "fwd_from": null,
+ "via_bot_id": null,
+ "reply_to": null,
+ "media": null,
+ "reply_markup": null,
+ "entities": [
+  {
+   "_": "MessageEntityMentionName",
+   "offset": 0,
+   "length": 15,
+   "user_id": 5369426036
+  },
+  {
+   "_": "MessageEntityMention",
+   "offset": 26,
+   "length": 7
+  }
+ ],
+ "views": 6,
+ "forwards": 4,
+ "replies": null,
+ "edit_date": null,
+ "post_author": null,
+ "grouped_id": null,
+ "reactions": null,
+ "restriction_reason": [],
+ "ttl_period": null
+}

@@ -1,0 +1,1 @@
+Payment for booking NBPIVQ7K error. Error code: -1, message: Заблокирована попытка оплаты бронировки со статусом ISSUE_PENDING 

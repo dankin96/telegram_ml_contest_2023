@@ -1,0 +1,9 @@
+
+[AMAYAK Georgia] SUMMARY 24h
+
+                                  order_count    perc(%)
+geo_cargo_cancel_ask_flg                    5     0.1411
+geo_cargo_bad_loading_flg                   2     0.0564
+geo_cargo_wrong_direction_flg               2     0.0564
+geo_cargo_damaged_package_flg               1     0.0282
+geo_cargo_language_problem_flg              1     0.0282

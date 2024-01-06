@@ -1,0 +1,118 @@
+import React, { useRef } from "react";
+import {
+  Button,
+  FullscreenControl,
+  Map,
+  Placemark,
+  TypeSelector,
+  YMaps,
+  ZoomControl,
+} from "react-yandex-maps";
+
+const CustomerMap = ({
+  coordinate,
+  setCoordinate,
+  setAddressMap,
+  isEdit = false,
+  addressMap,
+}) => {
+  const ref = useRef(null);
+  const ymaps = useRef(null);
+
+  const getAddress = async (coords) => {
+    await ymaps.current.ymaps.api.geocode(coords).then((res) => {
+      let firstGeoObject = res.geoObjects.get(0);
+      let address = [
+        firstGeoObject.getLocalities().length
+          ? firstGeoObject.getLocalities()
+          : firstGeoObject.getAdministrativeAreas(),
+      ]
+        .filter(Boolean)
+        .join(", ");
+
+      !isEdit && setAddressMap(address);
+      setCoordinate(
+        isEdit
+          ? { ...coordinate, coordinate: coords, address: address }
+          : coords
+      );
+      // console.log(firstGeoObject.getAddressLine()); /// kerakli
+    });
+  };
+
+  console.log("salllala");
+
+  return (
+    <div>
+      <YMaps
+        query={{
+          lang: "uz_UZ",
+          apikey: "fb2e7742-e365-43f2-97d2-2364feaccfc3",
+          load: "geocode",
+        }}
+        ref={ymaps}
+      >
+        <div className="card overflow-hidden w-full relative">
+          {/* <div className="absolute top-5 left-5 z-10 px-2 bg-gray-50 rounded-lg bg-opacity-75 font-medium italic cursor-pointer block">
+            {addressMap}
+          </div> */}
+          <Map
+            onClick={(e) => {
+              const coords = e.get("coords");
+              getAddress(coords);
+            }}
+            defaultState={{
+              center: isEdit
+                ? coordinate.coordinate
+                  ? coordinate.coordinate
+                  : [40.120607, 67.828055]
+                : coordinate
+                ? coordinate
+                : [40.120607, 67.828055],
+              zoom: isEdit ? (coordinate.coordinate ? 16 : 9) : 9,
+            }}
+            width={"100%"}
+          >
+            <TypeSelector options={{ float: "right" }} />
+            <ZoomControl options={{ float: "right" }} />
+            <FullscreenControl />
+            {addressMap && <Button
+              options={{
+                maxWidth: 600,
+              }}
+              data={{
+                content: addressMap,
+              }}
+              defaultState={{
+                selected: true,
+              }}
+              state={{selected: true}}
+            />}
+            
+            {coordinate && (
+              <Placemark
+                // modules={["geoObject.addon.balloon"]}
+                instanceRef={ref}
+                geometry={isEdit ? coordinate.coordinate : coordinate}
+                iconCaption="Searching.."
+                options={{
+                  // iconLayout: "default#image",
+                  // iconImageHref: placemarkIcon,
+                  // iconImageSize: [32, 32],
+                  preset: "islands#redPersonIcon",
+                  draggable: true,
+                }}
+                onDragEnd={() => {
+                  const coords = ref.current.geometry._coordinates;
+                  getAddress(coords);
+                }}
+              />
+            )}
+          </Map>
+        </div>
+      </YMaps>
+    </div>
+  );
+};
+
+export default CustomerMap;

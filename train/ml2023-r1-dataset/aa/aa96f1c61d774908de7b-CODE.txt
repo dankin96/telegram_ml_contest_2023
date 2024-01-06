@@ -1,0 +1,27 @@
+class Solution
+{
+    public:
+Node* reverseK(struct Node* head,int k){
+        Node* curr = head;
+        int cnt = 0;
+        Node* prev = NULL;
+        Node* forward  = NULL;
+        while(curr!=NULL && cnt<k){
+            forward = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = forward;
+            cnt++;
+        }
+        
+        if(forward!=NULL){
+            head->next = reverseK(forward,k);
+        }
+        return prev;
+    }
+    Node* pairWiseSwap(struct Node* head) 
+    {
+        // The task is to complete this method
+        return reverseK(head,2);
+    }
+};

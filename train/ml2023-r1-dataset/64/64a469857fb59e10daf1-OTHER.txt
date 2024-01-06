@@ -1,0 +1,8 @@
+v10.1.1.0 (20421)  uk
+OnePlus LE2101 android 13
+ROM: LE2101_13.1.0.582(EX01)
+Accounts: 2
+Performance: HIGH
+Cache: 8,77 GB
+Database: 45,4 MB
+Free: 89,85 GB

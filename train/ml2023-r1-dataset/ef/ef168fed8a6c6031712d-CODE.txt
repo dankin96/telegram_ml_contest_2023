@@ -1,0 +1,12 @@
+
+[profile.default]
+optimizer = true
+via_ir = true
+optimizer_runs = 10_000_000
+
+[profile.default.optimizer_details]
+constantOptimizer = true
+yul = true
+
+[profile.default.optimizer_details.yulDetails]
+stackAllocation = true

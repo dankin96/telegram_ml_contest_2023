@@ -1,0 +1,4 @@
+server: BUGCDN
+skip-cert-verify: false
+sni: SERVER AKUN
+Host: SERVER AKUN

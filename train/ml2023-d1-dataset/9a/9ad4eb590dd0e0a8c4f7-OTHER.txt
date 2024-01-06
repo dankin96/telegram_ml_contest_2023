@@ -1,0 +1,2 @@
+googledns: 'tcp+udp://dns.google.com:53'
+domain(full: dns.google.com) -> proxy

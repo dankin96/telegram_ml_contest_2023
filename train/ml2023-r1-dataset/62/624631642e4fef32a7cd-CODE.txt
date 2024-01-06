@@ -1,0 +1,6 @@
+$arr = [ ... ];
+$res= [];
+
+array_walk_recursive($arr, function($val) use (&$res) {
+    $res[] = $val;
+});

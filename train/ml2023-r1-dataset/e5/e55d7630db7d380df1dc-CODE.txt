@@ -1,0 +1,21 @@
+function tiklaVeYinele() {
+    var allButtons = document.querySelectorAll('button');
+
+    allButtons.forEach(function(button) {
+        if (button.textContent === "Follow") {
+            button.click();
+        }
+    });
+
+    var targetButtonXPath = '#pushable > div > main > div > div.jss128.jss128--mounting > div.css-1lquc0o > div.css-1j3tzjq.paginationContainer > div.pageSelectorContainer > div > button:nth-child(3)';
+
+    var targetButton = document.querySelector(targetButtonXPath);
+
+    if (targetButton) {
+        // Düğme bulundu, şimdi bu düğmeye tıklamak veya başka bir işlem yapmak için kullanabilirsiniz.
+        targetButton.click(); // Düğmeye tıklamak için
+    }
+}
+
+// Kodu belirli aralıklarla tekrar etmesi için setInterval kullanalım
+setInterval(tiklaVeYinele, 6000); // 6000 milisaniye (6 saniye) aralıklarla fonksiyonu tekrar çağırır

@@ -1,0 +1,5 @@
+let entry_after = regex_captures!(
+     r#format!("(?s)#dispatch ... {}", 123), // тут регекс
+     shader
+)
+

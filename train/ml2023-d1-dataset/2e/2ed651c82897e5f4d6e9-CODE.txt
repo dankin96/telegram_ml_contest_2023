@@ -1,0 +1,2 @@
+roller migrate
+roller run

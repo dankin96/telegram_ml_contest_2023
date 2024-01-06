@@ -1,0 +1,9 @@
+kotlin
+
+    val cache = mutableMapOf<Int, Int>()
+    fun integerBreak(n: Int, canTake: Boolean = false): Int = 
+      if (n == 0) 1 else cache.getOrPut(n) {
+        (1..if (canTake) n else n - 1).map {
+          it * integerBreak(n - it, true)
+        }.max()
+      }

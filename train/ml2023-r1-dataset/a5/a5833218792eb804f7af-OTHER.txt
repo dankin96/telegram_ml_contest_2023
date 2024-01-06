@@ -1,0 +1,2 @@
+QObject: Cannot create children for a parent that is in a different thread. 
+(Parent is QTextDocument(0x1b8500a4f40), parent's thread is QThread(0x1b84d41b7e0), current thread is QSGRenderThread(0x1b85017dd00)

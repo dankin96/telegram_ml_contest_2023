@@ -1,0 +1,52 @@
+Stage CHATBOT warning
+
+At least 1 events occurred between 2023-10-05 00:00 UTC and 2023-10-05 04:00 UTC
+
+@timestamp: 2023-10-05T04:00:04.017Z
+@version: 1
+_id: oq7-_YoBL0jxnycbIvfk
+_index: filebeat-2023.10.05
+_type: _doc
+agent: {
+    "ephemeral_id": "37e01dd6-171e-46d9-b487-f3821bef3036",
+    "hostname": "946d0afeceb0",
+    "id": "735bcec4-3e66-456a-8be7-227b99014eca",
+    "type": "filebeat",
+    "version": "7.6.2"
+}
+ecs: {
+    "version": "1.4.0"
+}
+fields: {
+    "application": "13chats-chatbot-api-service",
+    "env": "stage"
+}
+host: {
+    "name": "946d0afeceb0"
+}
+input: {
+    "type": "log"
+}
+log: {
+    "file": {
+        "path": "/var/www/symfony/var/log/symfony-2023-10-05.json"
+    },
+    "offset": 28190550
+}
+num_hits: 22
+num_matches: 22
+payload: {
+    "channel": "app",
+    "context": {
+        "user_id": 83
+    },
+    "datetime": "2023-10-05T04:00:03.262461+00:00",
+    "extra": [],
+    "level": 300,
+    "level_name": "WARNING",
+    "message": "The refresh token is invalid.Token has expired"
+}
+tags: [
+    "backend_log",
+    "beats_input_codec_plain_applied"
+]

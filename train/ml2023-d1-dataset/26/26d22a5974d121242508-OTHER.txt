@@ -1,0 +1,8 @@
+
+
+*timestamp:2023-10-13 16:33:04,466
+*log-level:ERROR
+*classpath: j.c.g.error.GlobalExceptionHandler http-nio-8083-exec-18
+*exception: handleBusinessException
+*multilineException: jumpit.core.global.error.exception.BusinessException: 인증번호가 올바르지 않습니다. 다시 확인해주세요.
+*service: user2.jumpit.host

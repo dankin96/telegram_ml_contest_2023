@@ -1,0 +1,4 @@
+AP0NOD-6  (pp-3.13t)  1m   CB0SAW    (pp-3.14t)  1s   DNT040    (pp-3.14t)  1s
+Halle1    (pp-3.13t)  1m   Halle2    (pp-3.13t)  1s   Hamburg   (pp-3.13t)  1m
+dksnod    (pp-3.14t)  1s
+***

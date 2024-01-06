@@ -1,0 +1,10 @@
+import random
+
+
+def passwordgenerating(length):
+    characters = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()/*?."
+    password = "".join(random.sample(characters, length))
+    return password
+
+passwordlength = int(input("Enter the password length: "))
+print("Your password is:", passwordgenerating(passwordlength))

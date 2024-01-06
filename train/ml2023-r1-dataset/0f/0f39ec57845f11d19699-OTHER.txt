@@ -1,0 +1,6 @@
+[INFO] 07-Oct-23 15:33:21 - Uploading file of 39033 bytes in 1 chunks of 131072
+[INFO] 07-Oct-23 15:42:56 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 07-Oct-23 15:42:57 - Uploading file of 78273 bytes in 1 chunks of 131072
+[INFO] 07-Oct-23 15:55:30 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 07-Oct-23 15:55:31 - Uploading file of 39024 bytes in 1 chunks of 131072
+[INFO] 07-Oct-23 16:05:09 - Starting direct file download in chunks of 131072 at 0, stride 131072

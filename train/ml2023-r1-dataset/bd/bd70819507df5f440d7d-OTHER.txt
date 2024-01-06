@@ -1,0 +1,6 @@
+       Pair  Price  Funding
+    CVCUSDT 0.0764     0.01
+1000XECUSDT 0.0247     0.01
+   ASTRUSDT 0.0460     0.01
+   QTUMUSDT 2.2566     0.01
+   IOTAUSDT 0.1544     0.01

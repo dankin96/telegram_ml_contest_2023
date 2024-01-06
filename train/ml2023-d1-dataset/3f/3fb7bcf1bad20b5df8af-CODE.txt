@@ -1,0 +1,3 @@
+ "payment_mode": "standard2_3ds", 
+ "card_level": "REWARDS", 
+ "processing": "Payture: PAYBOX"

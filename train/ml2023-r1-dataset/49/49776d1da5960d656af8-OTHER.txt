@@ -1,0 +1,7 @@
+Introduction
+In the first installment of this series, we explored the basics of passive reconnaissance, covering domain information, website and infrastructure analysis, and subdomain discovery using a variety of tools and techniques. 
+We are halfway through our passive recon stages: 
+✅ 🌐 Initial Domain Information 
+✅ 🔧 Website and Infrastructure Analysis 
+✅ 🔗 Subdomains and Related Domains 
+⬜ 🕵 D...

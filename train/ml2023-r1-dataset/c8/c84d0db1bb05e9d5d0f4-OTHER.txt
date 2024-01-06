@@ -1,0 +1,4 @@
+v10.1.1.1 (20457) Play Store ru
+realme RMX3151 android 12
+ROM: RMX3151_11_C.19
+Performance: AVERAGE

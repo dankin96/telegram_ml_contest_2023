@@ -1,0 +1,1 @@
+  const choices = ['/topMonth', '/hot', '/new', '/active', '/controversialAll', '/topAll'];

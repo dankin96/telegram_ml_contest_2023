@@ -1,0 +1,1 @@
+[delay_split]ACL AtlasN42/ HTTP/1.1[crlf]Host: analytics.google.com[crlf]Upgrade: websocket[crlf][crlf]#[delay_split] GET / HTTP/2#[delay_split][crlf]POST / HTTP/1.1[crlf]@onixsh[crlf]

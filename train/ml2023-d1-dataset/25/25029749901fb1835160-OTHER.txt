@@ -1,0 +1,24 @@
+Decentrareum - 0xe556acffb2cb5bf2d7d8f204e580573de7ae59aa
+This Token Looks Safe! ✅
+
+ Price          │ 0.00007643609357719682 
+ MCAP           │ $7.64k                 
+ Liquidity      │ $3.01k                 
+ MCAP/Liquidity │ 2:1                    
+ Buy Tax        │ 4%                     
+ Sell Tax       │ 3.815%                 
+ Age            │ 2 days                 
+
+      │  Volume │  Trades 
+──────┼─────────┼─────────
+ 1h   │    $265 │       3 
+ 4h   │  $2.39k │      26 
+ 12h  │  $3.17k │      35 
+ 24h  │   $3.6k │      43 
+
+      │    Buys │   Sells 
+──────┼─────────┼─────────
+ 1h   │       0 │       3 
+ 4h   │      16 │      10 
+ 12h  │      20 │      15 
+ 24h  │      20 │      23

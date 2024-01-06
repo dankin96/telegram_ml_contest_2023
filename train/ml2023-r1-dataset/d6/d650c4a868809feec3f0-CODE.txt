@@ -1,0 +1,27 @@
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+
+class Solution:
+    def sortedInsert(self, head, data):
+        newNode = Node(data)
+    
+        # Base case: if linked list is empty or the new data is smaller than the head of the list.
+        if not head or data < head.data:
+            newNode.next = head
+            return newNode
+    
+        # Traverse the linked list to find the insertion position.
+        current = head
+        while current.next is not None and current.next.data < data:
+            current = current.next
+    
+        # Insert the new node after the current node.
+        newNode.next = current.next
+        current.next = newNode
+    
+        return head
+
+

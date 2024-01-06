@@ -1,0 +1,33 @@
+1 MINUTES:-
+
+15:38, EURJPY, CALL ✅
+16:05, EURGBP, CALL 🔻
+16:07, EURJPY, PUT  ✅
+16:48, EURUSD, PUT  ✅•
+17:09, GBPUSD, CALL ✅•
+
+5 MINUTES:-
+
+15:45, GBPUSD, CALL ✅•
+16:20, USDJPY, CALL ✅
+16:30, USDJPY, CALL ✅
+16:55, USDJPY, CALL ✅
+17:05, USDJPY, CALL 🔻
+
+15 MINUTES:-
+
+17:15, USDJPY, CALL ✅•
+19:30, USDJPY, CALL ✅•
+20:15, EURGBP, CALL ✅•
+23:30, USDJPY, PUT  ✅
+
+══════════════════════════
+ █▀█ █▀▀ █▀ █ █ █  ▀█▀ █▀
+ █▀▄ ██▄ ▄█ █▄█ █▄▄ █  ▄█
+
+ Date          : 06-10-2023
+ Total Signal  : 14
+ Win Non-mg    : 6
+ Win Mg        : 6
+ Loss          : 2
+ Total Win/Loss: 12/2

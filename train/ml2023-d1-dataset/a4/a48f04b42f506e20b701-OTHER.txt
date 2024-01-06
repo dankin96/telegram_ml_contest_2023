@@ -1,0 +1,5 @@
+Speed:      GWI:  Price($USD):
+🚗 Low       5     0.47  
+🏍 Normal    5     0.47  
+🏎 Fast      5     0.47  
+

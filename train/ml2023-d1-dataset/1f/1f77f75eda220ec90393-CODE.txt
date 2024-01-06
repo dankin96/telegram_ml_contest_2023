@@ -1,0 +1,5 @@
+stage => stage
+debugId => 46e21ae8-b6fa-4373-9bc8-262644b3aa86
+consumerName => ez_webinar_process_sessions
+body => {"webinarId":"01d980d8-4970-4315-8c61-b157d982a0e6","options":{"generateNew":true,"generateNewScheduled":true}}
+message => Call to a member function format() on null

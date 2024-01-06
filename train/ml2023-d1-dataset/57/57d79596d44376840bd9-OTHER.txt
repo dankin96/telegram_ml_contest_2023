@@ -1,0 +1,17 @@
+Leech By         : User Session
+Leech To         : -1001768073587
+Leech Type       : MEDIA
+Leech Prefix     : None
+Leech Split Size : 4194304000
+Equal Splits     : Enabled
+Media Group      : Enabled
+Custom Thumbnail : Not Exists
+Rclone Config    : Not Exists
+Rclone Path      : JAGOAN MASAMBA
+Gdrive Token     : Not Exists
+Gdrive ID        : 1Xij_o6potDk2nKU7J7d8u3hsNPbfn_Gb
+Index Link       : None
+Stop Duplicate   : Enabled
+Default Upload   : Gdrive API
+Excluded Ext     : ['aria2', '!qB', 'html', 'htm', 'json', 'txt', 'php', 'gif', 'lnk', 'torrent', 'url', 'xml', 'xhtml']
+YT-DLP Options   : None

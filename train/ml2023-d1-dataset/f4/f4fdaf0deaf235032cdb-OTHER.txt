@@ -1,0 +1,1 @@
+I normally connected my metamask to the maxxswap org website. I swapped some PWR for MAXX, added liquidity to the farm, entered the maxxswap org farms tab, but it doesn't connect to the metamask. I accessed the sites connected to metamask and it appears, but nothing happens when clicking the "connect" or "unlock wallet" button

@@ -1,0 +1,4 @@
+if instanceof(version, Ok):
+    print(f"working with version: {version.v!r}")
+elif instanceof(version, Error):
+    print(f"error: {version.e!r}")

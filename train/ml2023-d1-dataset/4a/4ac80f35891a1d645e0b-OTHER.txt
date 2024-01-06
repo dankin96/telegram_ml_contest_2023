@@ -1,0 +1,6 @@
+info - aws-bucket-service - http://assets.stctv.com - 
+info - aws-bucket-service - http://media.jawwy.tv - 
+info - aws-cloudfront-service - http://assets.stctv.com - 
+info - options-method - http://careers.intigral.net - 
+info - options-method - https://careers.intigral.net - 
+info - xss-deprecated-header - http://careers.intigral.net -

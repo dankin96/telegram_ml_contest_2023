@@ -1,0 +1,12 @@
+DARA - Immutable
+$0.004283132
+Network: BSC
+H|L: 0.00|0.00428229
+1h:  0.0%      😏       
+24h: -1.3%     😑       
+7d:  -12.6%    😢       
+Vol: $1.2 K
+Liq: $41.4 K
+Circ Mcap: 179.9 K
+FDV 179.9 K
+CA: 0x0255af6c9f86f6b0543357bacefa262a2664f80f

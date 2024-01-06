@@ -1,0 +1,2 @@
+
+"C:\Program Files\Directory Opus\dopus.exe" /cmd Go NEWTAB=findexisting,openindual

@@ -1,0 +1,1 @@
+ kernel: [160205.882902] traps: mongod[351803] trap invalid opcode ip:55792206296c sp:7ffe50ca4c30 error:0 in mongod[55791ded1000+425c000]

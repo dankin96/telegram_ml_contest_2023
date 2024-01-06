@@ -1,0 +1,17 @@
+ 15582936807
+cns: 708208176567548
+nome: ISABEL CRISTINA FURLAN
+nascimento: 14/02/1966
+sexo: F
+raca_cor: BRANCA
+falecido: 0
+mae: ISABEL GASPARINI FURLAN
+pai: ANTENOR FURLAN
+telefone: 551145382436
+rua: OLYMPIA DA SILVEIRA FRANCO
+numero: 193
+complemento: NA
+bairro: JD ARIZONA
+cidade: Itatiba
+estado: São Paulo
+cep: 13253400

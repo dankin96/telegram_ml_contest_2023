@@ -1,0 +1,24 @@
+cpp
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+int main() {
+    char input;
+    cout << "Enter a character: ";
+    cin >> input;
+
+    if (isalpha(input)) {
+        cout << "It's an alphabet." << endl;
+    } else if (isdigit(input)) {
+        if ((input - '0') % 2 == 0) {
+            cout << "It's an even digit." << endl;
+        } else {
+            cout << "It's an odd digit." << endl;
+        }
+    } else {
+        cout << "Wrong input (not an alphabet or digit)." << endl;
+    }
+
+    return 0;
+}

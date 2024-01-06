@@ -1,0 +1,26 @@
+
+{
+  "Name": "Search and Replace",
+  "Commands": [
+    {
+      "Command": "store",
+      "Target": "kata yang ingin dicari",
+      "Value": "searchText"
+    },
+    {
+      "Command": "store",
+      "Target": "kata pengganti",
+      "Value": "replaceText"
+    },
+    {
+      "Command": "executeScript_Sandbox",
+      "Target": "return document.body.innerHTML.replace(/${searchText}/g, '${replaceText}')",
+      "Value": "result"
+    },
+    {
+      "Command": "echo",
+      "Target": "${result}",
+      "Value": ""
+    }
+  ]
+}

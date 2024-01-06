@@ -1,0 +1,9 @@
+ DEPURACION DEL PARQUE MVNO
+===========================
+20231007_22:08:03
+ARCHIVO ORIGINAL:
+ 2858004 /reportes/requerimientos/salidasmanual/Req89208/datos/PARQUE_MVNO.txt
+ARCHIVO FINAL:
+ 2858004 /reportes/requerimientos/salidasmanual/Req89208/datos/PARQUE_MVNO.txt
+20231007_22:08:12
+ubiteldb

@@ -1,0 +1,5 @@
+I wouldn’t really use these bindings inside widgets. They are called every frame (when widget is visible) and 99.99% of the time, you don’t need something to be called every frame. In such a simple example it doesn’t matter, but once you build your game more and more, the 0.001ms per tick will add up.
+
+But to answer your question, simply create a binding function and inside that function check inside if your textbox is empty.
+
+Better way would be to create a binding when text changes and update if the button is enabled based on that, this way, the execution is done only when player uses input.

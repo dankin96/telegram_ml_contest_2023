@@ -1,0 +1,3 @@
+test@osboxes:~$ ./script6.sh
+Test
+

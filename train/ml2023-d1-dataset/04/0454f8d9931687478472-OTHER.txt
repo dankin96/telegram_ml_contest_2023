@@ -1,0 +1,12 @@
+[INFO]  Found 1 sources
+[INFO]  No changes found, skip compilation
+[INFO]  factorySource generated
+[INFO]  EverWallet is used as a giver, the giver balance is: 335.126826726 ever
+Error: Signer not found
+    at AccountsStorageContext.getSigner (/Users/confucian/Airdrop-Hunter/Venom/demo/node_modules/everscale-standalone-client/client/AccountsStorage/index.js:32:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at EverWalletAccount.prepareMessage (/Users/confucian/Airdrop-Hunter/Venom/demo/node_modules/everscale-standalone-client/client/AccountsStorage/EverWallet.js:45:24)
+    at sendMessage (/Users/confucian/Airdrop-Hunter/Venom/demo/node_modules/everscale-standalone-client/client/index.js:935:31)
+    at ProviderRpcClient.sendMessage (/Users/confucian/Airdrop-Hunter/Venom/demo/node_modules/everscale-inpage-provider/dist/index.js:723:33)
+    at Deployer.deployContract (/Users/confucian/Airdrop-Hunter/Venom/demo/node_modules/locklift/internal/factory/deployer.js:11:13)
+    at main (/Users/confucian/Airdrop-Hunter/Venom/demo/scripts/1-deploy-sample.ts:3:36)

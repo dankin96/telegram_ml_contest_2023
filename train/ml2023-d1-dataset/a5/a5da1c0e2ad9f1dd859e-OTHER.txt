@@ -1,0 +1,18 @@
+╔═══════════════╦══════════════╗
+║   HKrA_v2.4   ║  K. Bilgiler ║
+╠═══════════════╬══════════════╣
+║ Tarih-Saat:   ║ 11/10/23 21:26:57
+║ Chat tipi:    ║ supergroup
+║ Chat_UID:     ║ -1001873346137
+║ Chat İsim:    ║ BEDAVA SORGU 👾
+║ Chat K.Isim:  ║ bedavasorguyap
+╠═══════════════╬══════════════╣
+║ K. TgUID:     ║ 6241467847
+║ K. Etiket:    ║ @Bulunamadı.
+║ K. TgLink:    ║ https://t.me/Bulunamadı.
+║ K. Isim:      ║ Hxhxhxhd
+║ K. Soy_Isim:  ║ Xjxjjsjdd
+║ K. Is_Bot?:   ║ Hayır.
+║ K. Dil_Kodu:  ║ Bulunamadı.
+║ K. Premium_?: ║ Bulunamadı.
+╚═══════════════╩══════════════╝

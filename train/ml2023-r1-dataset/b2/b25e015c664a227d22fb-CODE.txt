@@ -1,0 +1,5 @@
+TrayItemBubbleWindow trayItemBubble = new TrayItemBubbleWindow();
+trayItemBubble.Text = "Bubble text";
+trayItemBubble.Title = "Bubble title";
+TrayItem trayItem = new TrayItem();
+trayItem.ShowBubbleWindow(trayItemBubble);

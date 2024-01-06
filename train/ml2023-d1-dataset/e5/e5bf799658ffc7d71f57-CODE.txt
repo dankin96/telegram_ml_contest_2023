@@ -1,0 +1,4 @@
+add action=mark-connection chain=prerouting comment=Ukrtelecom connection-mark=no-mark in-interface=PPPOE_c_ukrtelecom new-connection-mark=ukrtelecom passthrough=yes
+add action=mark-routing chain=output connection-mark=ukrtelecom new-routing-mark=ukrtelecom passthrough=yes
+add action=mark-routing chain=prerouting connection-mark=ukrtelecom new-routing-mark=ukrtelecom passthrough=yes src-address=192.168.156.0/22
+

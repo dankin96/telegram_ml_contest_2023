@@ -1,0 +1,9 @@
+document.addEventListener('DOMContentLoaded', function () {
+  const links = document.querySelectorAll('.link-to-modal a');
+  links.forEach(link => {
+    if (link.hash.length) {
+      link.removeAttribute('uk-scroll');
+      link.setAttribute('uk-toggle', 'target:' + link.hash);
+    }
+  });
+}); 

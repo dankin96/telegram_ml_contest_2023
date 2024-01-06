@@ -1,0 +1,6 @@
++ You can search for the book description on Goodreads. For this long press on the book in the Library window and choose "Search description on Goodreads".
++ Added Play/Pause and Rewind buttons to the Bookmarks and Characters windows.
++ Rewind and Fast forward buttons will be shown on Wear OS watches if you have a phone with Android 13 or newer.
++ Added Settings--Full version settings--Convert MP3 to Opus button.
+It allows you to reduce the size of the library several times.
+

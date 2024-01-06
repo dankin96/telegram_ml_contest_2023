@@ -1,0 +1,2 @@
+selenium.common.exceptions.JavascriptException: Message: javascript error: foo is not defined
+  (Session info: headless chrome=115.0.5790.170)

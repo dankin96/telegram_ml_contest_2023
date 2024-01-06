@@ -1,0 +1,5 @@
+This proposal asks that the incentives program migrates from incentivizing WBTC.axl pools to the equivalent IBC native WBTC pairings. 
+Background
+With Proposal 604, Osmosis governance has recognized IBC native WBTC minted on Osmosis as the canonical version of WBTC. 
+This status comes with the promise that the canonical status of WBTC will receive higher incentives than the non-canonical version. 
+...

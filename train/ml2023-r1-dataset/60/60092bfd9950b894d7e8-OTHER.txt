@@ -1,0 +1,5 @@
+Source    : PAS_GROUP1.SUHU_PACKING_POWDER 
+Quantity  : HASIL SUHU PACKING POWDER 
+Area      : SUHU PP1 
+Nilai     : 25.2 
+Nilai Max : 25

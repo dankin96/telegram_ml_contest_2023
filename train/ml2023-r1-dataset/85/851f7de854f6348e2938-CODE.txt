@@ -1,0 +1,9 @@
+    HttpServer::new(move || {
+        App::new()
+            .app_data(web::Data::new(MyAppData::with_config(Arc::clone(&config))))
+            .wrap(middleware::NormalizePath::default())
+            .default_service(web::to(not_found))
+            .service(/* ... */)
+
+    })
+    .bind(("127.0.0.1", 8080))?

@@ -1,0 +1,12 @@
+WBGL - Wrapped BGL
+$0.0874
+Network: BSC
+H|L: 0.09|0.08
+1h:  0.8%      😏       
+24h: 1.9%      😄       
+7d:  -7.6%     😰       
+Vol: $5.3 K
+Liq: $13.1 K
+Circ Mcap: 249.0 K
+FDV 249.0 K
+CA: 0x2ba64efb7a4ec8983e22a49c81fa216ac33f383a

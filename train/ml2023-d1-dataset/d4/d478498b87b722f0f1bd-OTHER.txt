@@ -1,0 +1,5 @@
+OK: DB [meta]: Number of locks is too high (over 100 in 5m)
+Host: meta_pgsql_slave 10.10.80.87 - time 13:07:51
+Trigger: DB [meta]: Number of locks is too high (over 100 in 5m)
+Trigger status: OK
+Trigger severity: Warning

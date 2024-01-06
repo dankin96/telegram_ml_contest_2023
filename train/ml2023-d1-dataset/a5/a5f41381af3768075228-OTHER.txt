@@ -1,0 +1,9 @@
+[context3]
+Name=IMS
+AccessPointName=
+Username=
+Password=
+AuthenticationMethod=any
+Type=ims
+Protocol=ip
+Preferred=false

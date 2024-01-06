@@ -1,0 +1,6 @@
+session, _ := client.StartSession()
+callback := func(ctx mongo.SessionContext)   
+   (interface{}, error) {
+      ...
+   }
+result, _ := session.WithTransaction( _, func(ctx mongo.SessionContext) (interface{}, error)

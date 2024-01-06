@@ -1,0 +1,4 @@
+Triggered take profit: 1842.20
+Next take profit: 1852.85
+New stop loss: 1836.88
+Trade id: XAUUSDb1996910

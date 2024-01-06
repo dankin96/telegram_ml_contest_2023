@@ -1,0 +1,9 @@
+ Collateral: 1000 FIRO
+ Cost: $1473.04
+ ROI: 16.06% (annual)
+ Monthly income: $19.72
+ Reward cycle: 7.1 days
+ Masternodes (enabled): 4083
+ Masternodes (total): 4558
+ FIRO collateralized: 35.38%
+ Updated: 13:31:48 UTC

@@ -1,0 +1,4 @@
+# for i in sys dev proc; do $(mount --rbind /$i /mnt/$i && mount --make-rslave /mnt/$i); done
+```
+4.- entras el chroot
+``` 

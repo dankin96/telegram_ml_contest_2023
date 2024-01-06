@@ -1,0 +1,1 @@
+kernel: reject v3 and v3.1 signature scheme for manager verification

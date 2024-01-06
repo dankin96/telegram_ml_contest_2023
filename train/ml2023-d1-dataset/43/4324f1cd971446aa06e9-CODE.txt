@@ -1,0 +1,1 @@
+su -c pm grant com.tribalfs.gmh android.permission.WRITE_SECURE_SETTINGS

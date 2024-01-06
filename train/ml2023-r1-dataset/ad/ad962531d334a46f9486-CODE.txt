@@ -1,0 +1,2 @@
+-                 if (cur->security_level == TUNABLE_SECLEVEL_SXID_ERASE)
++                 if (cur->security_level != TUNABLE_SECLEVEL_SXID_ERASE)

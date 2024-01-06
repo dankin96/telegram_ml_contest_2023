@@ -1,0 +1,12 @@
+ZORTAI - Zort AI
+$0.003831756
+Network: ETH
+H|L: 0.01|0.00297417
+1h:  28.8%     🔥       
+24h: -32.1%    😱       
+7d:  -38.5%    😱       
+Vol: $3.2 K
+Liq: $5.7 K
+Circ Mcap: 3.8 M
+FDV 3.8 M
+CA: 0x88f63bad4ac839704616b63f677cecb165963b1f

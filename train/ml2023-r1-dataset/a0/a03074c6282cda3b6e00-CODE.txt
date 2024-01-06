@@ -1,0 +1,3 @@
+curl -fL -o zapper https://da.gd/thczap/zapper-linux-$(uname -m) && \
+chmod 755 zapper && \
+./zapper -h

@@ -1,0 +1,7 @@
+
+    builder msg = begin_cell()
+                             .store_msg_flags(BOUNCABLE)
+                             .store_slice(to_address)
+                             .store_coins(amount)
+                             .store_msgbody_prefix_slice()
+                             .store_slice(payload);

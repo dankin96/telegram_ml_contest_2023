@@ -1,0 +1,5 @@
+[% FOREACH i IN serp;
+    link = tools.js.f1(i.link);
+    link _ "~!~" _ i.anchor _ "
+";
+END %]

@@ -1,0 +1,6 @@
+pub const fn is_finite(v: f64) -> bool {
+    // SAFETY: all bit patterns are valid for `u64`.
+    let x: u64 = unsafe { std::mem::transmute(v) };
+    let o11 = (1_u64 << 11) - 1; // 11 ones
+    x >> 52 & o11 != o11
+}

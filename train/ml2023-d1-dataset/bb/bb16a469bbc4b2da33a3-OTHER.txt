@@ -1,0 +1,3 @@
+Ho iniziato a documentare il protocollo di dialogo tra PC e flasher, per vedere di riuscire ad arrivare a dialogare con il TAG per debug qui: 
+https://wiki.mittelab.org/progetti/epaper-2.9#protocollo_dialogo_con_il_flasher 
+Sembra entrare in modalità PassThrough (ho aggiunto lampeggi del LED extra e leggendo la seriale mentre mando il comando vedo i print del firmware del flasher, ma poi il TAG no...

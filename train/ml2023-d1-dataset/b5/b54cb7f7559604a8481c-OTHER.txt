@@ -1,0 +1,1 @@
+PING CRITICAL - Packet loss = 37%, RTA = 53.38 ms

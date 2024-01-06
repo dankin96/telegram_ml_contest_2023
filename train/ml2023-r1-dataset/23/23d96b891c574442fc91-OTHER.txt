@@ -1,0 +1,1 @@
+DATA CMB FLEX 1.5GBNas+Lkl(0.5-2.5GB)+5Mnt Tlp30hr

@@ -1,0 +1,15 @@
+Audacious is opening whenever a drive is added; seems to be a known issue; happens on every system after setting folders to be opened by Audacious. ~ mount - Why opening a folder via a shortcut makes Audacious to start? - Ask Ubuntu 
+Dolphin is also having issues removing drives; takes a really long time; closing the window seems to speed it up so could be a memory leak issue. 
+Much appreciated. 
+System:
+Kernel: 6.5.7-hardened1-1-hardened arch: x86_64 bits: 64 compiler: gcc
+v: 13.2.1 clocksource: tsc available: hpet,acpi_pm parameters: pti=on
+page_alloc.shuffle=1 BOOT_IMAGE=/@/boot/vmlinuz-linux-hardened
+root=UUID=ee9d8e46-88f6-40bb-a345-3b374ebb4edb rw rootflags=subvol=@
+quiet rd.luks.uuid=5d766ada-bbea-4479-b984-c5950293753b quiet
+rd.udev.log_priority=3 vt.global_cursor_default=0 loglevel=3 ibt=off
+Desktop: KDE Plasma v: 5.27.8 tk: Qt v: 5.15.11 wm: kwin_x11 vt: 2
+dm: SDDM Distro: Garuda Linux base: Arch Linux
+Machine:
+Type: Desktop Mobo: ASUSTeK model: A88XM-PLUS v: Rev X.0x
+serial:...

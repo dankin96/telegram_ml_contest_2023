@@ -1,0 +1,5 @@
+/ip firewall layer7-protocol add name=ea.lan regexp=ea.lan
+/ip firewall mangle add chain=prerouting dst-address=172.16.0.1 layer7-protocol=ea.lan action=mark-connection new-connection-mark=ea.lan-forward protocol=tcp dst-port=53
+/ip firewall mangle add chain=prerouting dst-address=172.16.0.1 layer7-protocol=ea.lan action=mark-connection new-connection-mark=ea.lan-forward protocol=udp dst-port=53
+/ip firewall nat add action=dst-nat chain=dstnat connection-mark=ea.lan-forward to-addresses=172.16.0.103
+/ip firewall nat add action=masquerade chain=srcnat connection-mark=ea.lan-forward

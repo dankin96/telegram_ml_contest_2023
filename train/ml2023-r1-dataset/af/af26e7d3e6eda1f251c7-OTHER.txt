@@ -1,0 +1,7 @@
+response_text = f"✧══════• ༺༻ •══════✧
+
+┗➤ Stk Momo : 0365377467 
+┗➤ Tên Tài Khoản : Phạm Thị Cầm [ PHAM THI CAM ] 
+┗➤ Thông Tin Chuyển Khoản : key{call.from_user.id}
+
+✧══════• ༺༻ •══════✧"

@@ -1,0 +1,24 @@
+| ------------ | ------- | ------- |
+|     Phone    |  Rule   |  Brand  |
+| ------------ | ------- | ------- |
+
+|  9508088138  |  ABAB*   |  Tnt    |
+|  9913747979  |  ABAB    |  Dito   |
+|  9914215353  |  ABAB    |  Dito   |
+|  9094563030  |  ABAB*   |  Tnt    |
+|  9186869022  |  ABAB*   |  Smart  |
+|  9657557577  |  ABAB*   |  Globe  |
+|  9152171702  |  ABAB*   |  Globe  |
+|  9424874848  |  ABAB    |  Sun    |
+|  9609085855  |  ABAB*   |  Smart  |
+|  9694258580  |  ABAB*   |  Smart  |
+|  9273520209  |  ABAB*   |  Globe  |
+|  9696147010  |  ABAB*   |  Smart  |
+|  9696147117  |  ABAB*   |  Smart  |
+|  9696147004  |  ABAB*   |  Smart  |
+|  9696147007  |  ABAB*   |  Smart  |
+|  9696147020  |  ABAB*   |  Smart  |
+|  9696147077  |  ABAB*   |  Smart  |
+|  9696147005  |  ABAB*   |  Smart  |
+|  9696146988  |  ABAB*   |  Smart  |
+|  9696147006  |  ABAB*   |  Smart  |

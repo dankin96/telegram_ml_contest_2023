@@ -1,0 +1,6 @@
+match msg.reply_to_message() {
+        Some(replied) => {
+            bot.kick_chat_member(
+                msg.chat.id,
+                replied.from().expect("Must be MessageKind::Common").id,
+            )

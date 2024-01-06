@@ -1,0 +1,1 @@
+PHP Notice:  md5_file(): Read of 8192 bytes failed with errno=21 Is a directory in /var/www/site.com/frontend/web/antibot/adm/update.php on line 126

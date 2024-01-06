@@ -1,0 +1,9 @@
+lifecycleScope.launch{
+  val io = async(Dispatchers.IO){
+    //网络请求
+    //IO线程
+  }
+  io.await()
+  //主线程
+  //刷新UI
+}

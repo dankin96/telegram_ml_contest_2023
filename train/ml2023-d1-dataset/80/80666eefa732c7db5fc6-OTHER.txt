@@ -1,0 +1,10 @@
+Estafador de Zelle que dice cambio x cant de usd vía zelle por MCL o por CUP, dependiendo del caso.
+
+Teléfono: 55137689
+
+History for 5953668845
+Names
+1. [05/07/23 15:48:06] Noel Zamalea
+Usernames
+1. [05/07/23 15:48:06] @Brininoit20
+2. [26/04/23 02:36:43] (empty)

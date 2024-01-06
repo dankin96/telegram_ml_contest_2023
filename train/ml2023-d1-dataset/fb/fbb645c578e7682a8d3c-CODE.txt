@@ -1,0 +1,7 @@
+for (int i = 0; i < lines.size(); i++) {
+    QString line = lines.at(i);
+    if (line.contains("不需要的数据")) {
+        lines.removeAt(i);
+        i--;
+    }
+}

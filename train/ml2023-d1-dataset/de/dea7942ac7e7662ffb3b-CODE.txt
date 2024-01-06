@@ -1,0 +1,1 @@
+print(reply.from_user.is_deleted)

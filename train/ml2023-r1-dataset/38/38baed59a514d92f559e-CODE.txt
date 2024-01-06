@@ -1,0 +1,31 @@
+import random
+
+questions = [
+    "Какой самый большой океан?",
+    "Кто написал 'Война и мир'?",
+    "Какая планета ближе всего к Солнцу?",
+    "Какой элемент имеет атомный номер 1?",
+    "Какой газ преобладает в атмосфере Земли?"
+]
+
+answers = [
+    "Тихий",
+    "Толстой",
+    "Меркурий",
+    "Водород",
+    "Азот"
+]
+
+def game():
+    score = 0
+    for i in range(5):
+        question = random.choice(questions)
+        answer = input(question + "n")
+        if answer.lower() == answers[questions.index(question)].lower():
+            print("Верно!")
+            score += 1
+        else:
+            print("Неверно! Правильный ответ: " + answers[questions.index(question)])
+    print("Ваш счет: " + str(score))
+
+game()

@@ -1,0 +1,21 @@
+#!/bin/bash
+#
+sleep 2
+#
+# Nothing to do if it is already running.
+#
+a=$(/usr/bin/pidof rigctld)
+if [ "$a" != "" ]; then
+/usr/bin/date >> /tmp/start.log
+echo "Already running." >> /tmp/start.log
+else
+/usr/bin/date >> /tmp/start.log
+# Comando para arrancar el CAT del ICOM IC-7300
+/usr/bin/rigctld -m 3073 -r /dev/tty_CI-V -t 4532 -s 19200 &
+
+# Comando para arrancar el CAT del Yaesu FT-818ND
+/usr/bin/rigctld -m 1020 -r /dev/tty_818nd -t 4534 -s 4800 &
+
+echo "Started." >> /tmp/start.log
+fi
+echo "-----------------------" >> /tmp/start.log

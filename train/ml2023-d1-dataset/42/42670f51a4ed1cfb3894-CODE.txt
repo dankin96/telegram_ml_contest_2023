@@ -1,0 +1,2 @@
+mknod -m 666 /dev/dev_name c 1 3
+

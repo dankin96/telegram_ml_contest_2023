@@ -1,0 +1,11 @@
+|----- Client - Status ------|
+|------|----------|----------|
+| Slot |  Symbol  | Status   |
+|------|----------|----------|
+| 27   | BTC_USDT | idle  
+| 32   | BTC_USDT | idle  
+| 32   | ETH_USDT | idle  
+| 27   | ETH_USDT | idle  
+| 31   | BTC_USDT | idle  
+| 31   | ETH_USDT | waiting  
+|----------------------------|

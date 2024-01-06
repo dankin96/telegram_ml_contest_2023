@@ -1,0 +1,31 @@
+while IFS="" read -r line
+    IFS=","
+    # tokenize line
+    arecord=($line)
+
+    # ===========
+    # (why??)
+    # ===========
+        echo "Displaying the contents of array mapped from csv file:"
+        ncol=0
+        ncolmax="${#arecord[@]}"
+        while [[ $ncol -lt $ncolmax ]] ; do
+            colvalue=${arecord[$ncol]}
+            ((ncol++))
+
+            echo "Record at index-${ncol} : $colvalue"
+        done
+    # ===========
+
+    colA=7
+    colB=9
+    colA=${arecord[$colA]}
+    colB=${arecord[$colB]}
+
+    # now do something with two values colA and colB
+    # bla bla bla
+    # sudo aws ... $colA .... $colB
+done < dev_hostnameid.csv
+
+# remember to always reset IFS: leaving it unchanges is a VERY BAD IDEA
+unset IFS

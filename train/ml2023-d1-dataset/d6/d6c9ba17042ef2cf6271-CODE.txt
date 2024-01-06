@@ -1,0 +1,4 @@
+user.create (само событие создания пользователя, его слушает user-service)
+user.created (событие когда пользователь был создан)
+user.send-email-notification
+user.activated

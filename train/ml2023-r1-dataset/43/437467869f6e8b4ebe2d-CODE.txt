@@ -1,0 +1,3 @@
+gradient: {
+      'custom-gradient': 'linear-gradient(135deg, #3490dc 0%, #f43f5e 100%)',
+    },

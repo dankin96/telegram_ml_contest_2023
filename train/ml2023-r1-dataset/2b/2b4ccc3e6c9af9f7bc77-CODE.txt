@@ -1,0 +1,4 @@
+bash
+   echo "/bin/vpn-dns.sh" | sudo tee /etc/profile.d/vpn-dns.sh
+   
+

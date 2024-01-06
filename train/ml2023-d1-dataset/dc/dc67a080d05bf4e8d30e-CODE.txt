@@ -1,0 +1,24 @@
+ LatticeWeightTable = {
+    Armour = {
+        APC = 5,
+        IFV = 20,
+        MBT = 60,
+        SPATGM = 20,
+        SPG = 20,
+        Scout = 3,
+        Tank = LatticeWeightTable.Armour.MBT,
+    },
+    Artillery = {
+        Mortar = 5,
+        MRL = 15,
+    },
+    Infantry = {
+        ALL = 1
+    },
+    AirDefence = {
+        MANPADS = 1,
+        AAA = 2,
+        SPAAA = 8,
+        AllOthers = 1,
+    }
+}

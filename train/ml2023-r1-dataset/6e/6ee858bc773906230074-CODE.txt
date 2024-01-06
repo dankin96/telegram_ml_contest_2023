@@ -1,0 +1,1 @@
+response.body.tap{ |r| r.instance_variable_set :@last_response, response }

@@ -1,0 +1,1 @@
+Device in normal condition on UP with last evaluated data : 20.833333333333332

@@ -1,0 +1,3 @@
+    <router-outlet name="deposit">
+      <app-deposit-form></app-deposit-form>
+    </router-outlet>

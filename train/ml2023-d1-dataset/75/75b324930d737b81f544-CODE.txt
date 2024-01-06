@@ -1,0 +1,11 @@
+1. sudo ufw enable
+2. sudo vi /etc/default/ufw
+  DEFAULT_FORWARD_POLICY="ACCEPT"
+3. sudo vi /etc/ufw/before.rules
+  *nat
+  :PREROUTING ACCEPT [0:0]
+  -A PREROUTING -p tcp --dport 514 -j REDIRECT --to-port 5555
+  COMMIT
+4. sudo ufw disable
+ sudo ufw enable
+

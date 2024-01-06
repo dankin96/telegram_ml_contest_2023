@@ -1,0 +1,8 @@
+cpanel.physiopolis.gr
+cpcalendars.physiopolis.gr
+cpcontacts.physiopolis.gr
+mail.physiopolis.gr
+webdisk.physiopolis.gr
+webmail.physiopolis.gr
+
+

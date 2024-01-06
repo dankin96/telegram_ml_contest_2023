@@ -1,0 +1,10 @@
+li t1, (1<<LED)
+  li t2, 0
+  li t0, PORTB_OCTL
+  
+  csrr t3, mcycle
+    sw t1, 0(t0)
+    sw t2, 0(t0)
+  csrr a0, mcycle
+  sub a0, a0, t3
+ret

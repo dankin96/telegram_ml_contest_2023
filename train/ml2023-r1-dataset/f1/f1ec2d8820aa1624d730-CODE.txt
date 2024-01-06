@@ -1,0 +1,4 @@
+    [ index in keyof Tasks ]: index extends number
+      ? ReturnType< Tasks[ index ] >
+      : Tasks[ index ]
+

@@ -1,0 +1,12 @@
+PASTA - Pastafarian
+$0.000005875
+Network: ETH
+H|L: 0.00|0.00000279
+1h:  2.2%      😀       
+24h: 110.8%    ✨       
+7d:  0.0%      😏       
+Vol: $88.6 K
+Liq: $67.4 K
+Circ Mcap: 2.5 M
+FDV 2.5 M
+CA: 0x04e3a2932bfe7b669c9f18df44b2b0a0ee681c19

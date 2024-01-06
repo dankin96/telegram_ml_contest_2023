@@ -1,0 +1,10 @@
+TDHPM1   TRI Happy 1,5GB 24Jam 1 Hari
+TDHPM2   TRI Happy 2,5GB 24Jam 1 Hari
+TDHPM3   TRI Happy   5GB 24Jam 1 Hari
+TDHPM4   TRI Happy   5GB 24Jam 3 Hari
+TDHPM5   TRI Happy   3GB 24Jam 3 Hari
+TDHPM6   TRI Happy 3.5GB 24Jam 5 Hari
+TDHPM7   TRI Happy   6GB 24Jam 5 Hari
+TDHPM8   TRI Happy   5GB 24Jam 7 Hari
+TDHMP9   TRI Happy 1,5GB 24Jam 7 Hari
+

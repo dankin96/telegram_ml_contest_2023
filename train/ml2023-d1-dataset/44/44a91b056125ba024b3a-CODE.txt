@@ -1,0 +1,6 @@
+pacman -Fl apache-openrc
+apache-openrc etc/
+apache-openrc etc/conf.d/
+apache-openrc etc/conf.d/httpd
+apache-openrc etc/init.d/
+apache-openrc etc/init.d/httpd

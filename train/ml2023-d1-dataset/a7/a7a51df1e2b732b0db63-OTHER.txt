@@ -1,0 +1,1 @@
+Failed in building transaction: Error: Insufficient token ALPHAYIN, expected at least 500.0, got 0.0

@@ -1,0 +1,8 @@
+[...]
+  let clientResponse = ClientResponse(
+   status: .ok,
+   headers: headers,
+   body: response.body
+  )
+  
+  return req.eventLoop.makeSucceededFuture(clientResponse)

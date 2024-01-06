@@ -1,0 +1,5 @@
+=LET(
+  _data;IR();
+  _col2;CHOOSECLO(_data;2);
+  FILTER(_data;_col2='Маруся')
+)

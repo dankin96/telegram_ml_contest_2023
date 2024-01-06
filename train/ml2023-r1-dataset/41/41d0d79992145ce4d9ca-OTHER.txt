@@ -1,0 +1,3 @@
+Error during unshare(CLONE_NEWUSER): Operation not permitted
+ERRO[0000] parsing PID "": strconv.Atoi: parsing "": invalid syntax
+ERRO[0000] (Unable to determine exit status)

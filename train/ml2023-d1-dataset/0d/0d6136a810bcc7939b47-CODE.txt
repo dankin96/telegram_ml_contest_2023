@@ -1,0 +1,13 @@
+class MetaVariable {
+  private Type t = null;
+
+  boolean equals(Object o) {
+    if (typeof o == MetaVariable.class) throw new Exception("Can't unify");
+    var to = (Type)o;
+    if (t == null) {
+      t = to;
+      return true;
+    }
+    return t.equals(to);
+  }
+}

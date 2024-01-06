@@ -1,0 +1,13 @@
+                                                             
+WBTC yVault 0.4.3  0xd817A100AB8A29fE3DBd925c2EB489D67F758DA9
+Strategy Address   0x36e2FC0Bc2457719770196B5ad40bceEEF2EefE0
+Last Report                                       2d, 0hr, 2m
+Gain                                             0.00 | $0.00
+Loss                                             0.00 | $0.00
+Treasury Fee                                     0.00 | $0.00
+Debt Paid                                        0.00 | $0.00
+Debt Added                                       0.00 | $0.00
+Total Debt                                       0.00 | $0.01
+Debt Ratio                                                  0
+Pre-fee APR                                             0.00%
+Post-fee APR                                            0.00%

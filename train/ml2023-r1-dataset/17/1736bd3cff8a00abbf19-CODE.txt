@@ -1,0 +1,1 @@
+pm disable com.google.android.gms/.chimera.GmsIntentOperationService

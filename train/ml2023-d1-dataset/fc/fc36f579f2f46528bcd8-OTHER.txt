@@ -1,0 +1,8 @@
+libbpf0:
+  Installé : 1:0.3-2
+  Candidat : 1:0.7.0-2~bpo11+1
+ Table de version :
+     1:0.7.0-2~bpo11+1 100
+        100 http://deb.debian.org/debian bullseye-backports/main amd64 Packages
+ *** 1:0.3-2 100
+        100 /var/lib/dpkg/status

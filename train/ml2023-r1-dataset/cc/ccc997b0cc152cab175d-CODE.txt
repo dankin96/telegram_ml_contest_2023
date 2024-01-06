@@ -1,0 +1,5 @@
+  nixpkgs.config = {
+    packageOverrides = pkgs: {
+      unstable = import pkgs.unstablepackage {
+        config = config.nixpkgs.config;
+      };

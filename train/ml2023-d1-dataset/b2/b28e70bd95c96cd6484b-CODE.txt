@@ -1,0 +1,28 @@
+
+const fs = require('fs-extra');
+const path = require('path');
+
+const sourcePath = '/المسار-الرئيسي';
+const destinationPath = '/مسار-التنزيل';
+
+async function copyFiles(source, destination) {
+    const files = await fs.readdir(source);
+
+    for (const file of files) {
+        const currentFilePath = path.join(source, file);
+        const targetFilePath = path.join(destination, file);
+
+        const stats = await fs.lstat(currentFilePath);
+
+        if (stats.isDirectory()) {
+            await fs.ensureDir(targetFilePath);
+            await copyFiles(currentFilePath, targetFilePath);
+        } else {
+            await fs.copy(currentFilePath, targetFilePath);
+        }
+    }
+}
+
+copyFiles(sourcePath, destinationPath)
+    .then(() => console.log('تم النسخ بنجاح!'))
+    .catch((error) => console.error('حدث خطأ أثناء عملية النسخ', error));

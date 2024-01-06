@@ -1,0 +1,10 @@
+
+ 
+ 
+Код ошибки:  
+E_FAIL (0x80004005) 
+Компонент:  
+SessionMachine 
+Интерфейс:  
+ISession {c0447716-ff5a-4795-b57a-ecd5fffa18a4} 
+

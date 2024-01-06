@@ -1,0 +1,2 @@
+user@user-noris ~ [1]> ls /boot/grub/
+fonts  gfxblacklist.txt  grubenv  locale  unicode.pf2  x86_64-efi

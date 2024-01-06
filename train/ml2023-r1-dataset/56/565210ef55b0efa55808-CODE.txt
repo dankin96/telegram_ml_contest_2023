@@ -1,0 +1,12 @@
+...
+  digitalWrite(LED, HIGH);
+  delay(100);
+  digitalWrite(LED, LOW);
+
+  while (Serial.available()) // Flushing UART
+    Serial.read();
+
+  Serial.write("ZBS
+");
+  delay(100);
+}

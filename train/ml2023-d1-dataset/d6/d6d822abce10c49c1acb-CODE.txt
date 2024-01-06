@@ -1,0 +1,2 @@
+  console.log(emp1.hasOwnProperty('company')); // false
+

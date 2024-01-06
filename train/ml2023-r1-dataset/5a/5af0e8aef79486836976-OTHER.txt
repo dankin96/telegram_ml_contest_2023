@@ -1,0 +1,15 @@
+ Rain
+Known user in group   : 773
+User meet requirement : 8
+Random selected users : 4
+Fee´s                 : 6.00 KLV
+Assets to distribute  : 4.00 PMD-2U7V
+Send 1.000000 PMD-2U7V to 4 Users.
+(Active in the last 24hour.)
+
+Receiver             Amount
+Erimeu               1.0000
+Thathsi              1.0000
+nico_cryptoarg       1.0000
+PandemicGamesAdmin   1.0000
+ 

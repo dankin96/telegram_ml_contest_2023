@@ -1,0 +1,5 @@
+ Error: Get records from Airtable table - [Google Calendar] failed.
+    at Object.getRecords (/app/src/services/airtable-service.js:144:26)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async processEmployeesStatistic (/app/src/jobs/employee-call-statistic.js:89:49)
+    at async Object.employeeCallStatistic [as func] (/app/src/jobs/employee-call-statistic.js:21:9)

@@ -1,0 +1,13 @@
+[CmdletBinding()] param ( [Parameter(Position=0)][string]$RelativeTo=$null ) if($null -eq $RelativeTo) { '$null' } else { "[$($RelativeTo.GetType())]($RelativeTo)"; $RelativeTo }
+
+% Get-RelatesTo
+[string]()
+
+> Get-RelatesTo $null
+[string]()
+
+> Get-RelatesTo -RelativeTo $null
+[string]()
+
+> Get-RelatesTo -RelativeTo ""
+[string]()

@@ -1,0 +1,4 @@
+[INFO] 2023/10/12 21:03:40 pp.go:117: on connect
+[INFO] 2023/10/12 21:03:40 download_slice.go:180: ReqDownloadSlice &{13 0xc0016a26e0 0xc00303c398 0xc00105d710 0xc00105d770 0xc004a61680 0xc004a616e0 {0 0} 54.65.107.0:53474 1697141020150278574 11 [149 113 25 7 115 114 89 180 233 204 197 220 61 149 130 159 225 253 74 140 181 58 86 7 15 112 221 85 248 153 176 69] stsds1hc8cnqzm3a9mtwjcr8a5f32svyla53kfpf4z35 54.65.107.0:18099 0xc001c7aac0 0x11067e0 [] true}
+[ERROR] 2023/10/12 21:03:40 download_task.go:242: Failed getting slice data  open /home/rsnode/storage/v05ahm52/ha/v05ahm52hadr038gasu2f5qn8q941jdak17bk3n0: no such file or directory
+[ERROR] 2023/10/12 21:06:37 terminal.go:30: dial unix /home/rsnode/.stratos_sds/sds.ipc: connect: connection refused

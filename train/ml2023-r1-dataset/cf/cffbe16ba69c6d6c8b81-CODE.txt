@@ -1,0 +1,2 @@
+$ ldd /usr/lib/chromium/chromium  | grep libdav
+  libdav1d.so.7 => /usr/lib/libdav1d.so.7 (0x00007f3945424000)

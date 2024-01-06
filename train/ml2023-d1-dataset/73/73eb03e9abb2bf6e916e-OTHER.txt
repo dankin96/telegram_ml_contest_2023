@@ -1,0 +1,6 @@
+Host:     MHC-123.30.186.150
+Alias:    MHC-123.30.186.150
+Address:  123.30.186.150
+Service:  CPU load
+Event:    OK -> WARN
+Output:   WARN - 15 min load 166.83 at 32 Cores (5.21 per Core),  (warn/crit at 160.00/320.00)

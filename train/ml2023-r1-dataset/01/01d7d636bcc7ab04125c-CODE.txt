@@ -1,0 +1,28 @@
+{
+  "update_id": 438255222,
+  "message": {
+    "message_id": 266,
+    "from": {
+      "id": 505735768,
+      "is_bot": false,
+      "first_name": "Faizie",
+      "last_name": "Zain",
+      "username": "FaiZiEee"
+    },
+    "chat": {
+      "id": -1001855149611,
+      "title": "Kochi Vibes❤️",
+      "is_forum": true,
+      "type": "supergroup"
+    },
+    "date": 1696733061,
+    "text": "/start@OpDLBot",
+    "entities": [
+      {
+        "offset": 0,
+        "length": 14,
+        "type": "bot_command"
+      }
+    ]
+  }
+}

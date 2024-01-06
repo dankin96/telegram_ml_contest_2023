@@ -1,0 +1,18 @@
+struct ContentView: View {
+    @State var path = NavigationPath()
+    
+    var body: some View {
+        NavigationStack(path: $path) {
+            Button("Push") {
+                path.append("some string")
+            }
+            .navigationDestination(for: String.self) { _ in
+                Button("Pop") {
+                    path.removeLast()
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(.red)
+            }
+        }
+    }
+}

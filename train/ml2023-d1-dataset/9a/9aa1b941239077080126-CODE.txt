@@ -1,0 +1,4 @@
+  if (affiliateTotalAmount) {
+    res.values.push(`${affiliateTotalAmount}`);
+    condition += ` AND "affiliateTotalAmount" = $${res.values.length}`;
+  }

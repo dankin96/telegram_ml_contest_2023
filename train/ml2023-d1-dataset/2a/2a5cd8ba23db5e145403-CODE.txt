@@ -1,0 +1,27 @@
+  spec = merge(
+    {
+      providerRef            = { name = "default" }
+      ttlSecondsUntilExpired = 864000 # restart nodes every 10 days
+
+      requirements = [{
+        key    = "karpenter.sh/capacity-type", operator = "In"
+        values = var.default_capacity_type
+        }, {
+        key    = "karpenter.k8s.aws/instance-category", operator = "In"
+        values = var.default_instance_category
+      }]
+
+      limits = { resources = {
+        cpu    = var.default_cpu_limit
+        memory = var.default_memory_limit
+      } }
+      consolidation = var.default_consolidation_enabled
+    },
+
+    var.default_consolidation_enabled ?
+    {}
+    :
+    {
+      ttlSecondsAfterEmpty = 300
+    },
+  )

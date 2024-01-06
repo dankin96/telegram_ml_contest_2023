@@ -1,0 +1,6 @@
+if (!selected) {
+  e.preventDefault();
+  setSelected(true);
+
+  return true;
+}

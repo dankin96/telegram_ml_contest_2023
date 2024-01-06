@@ -1,0 +1,12 @@
+cubie:~# service nfs start
+ * Exporting NFS directories ...
+exportfs: /etc/exports [2]: Neither 'subtree_check' or 'no_subtree_check' specified for export "10.0.0.2:/mnt/media".
+  Assuming default behaviour ('no_subtree_check').
+  NOTE: this default has changed since nfs-utils version 1.0.x
+                                                                                               [ ok ]
+ * Starting NFS mountd ...                                                                     [ ok ]
+ * Starting NFS daemon ...
+rpc.nfsd: Unable to access /proc/fs/nfsd errno 2 (No such file or directory).
+Please try, as root, 'mount -t nfsd nfsd /proc/fs/nfsd' and then restart rpc.nfsd to correct the problem                                                                                            [ !! ]
+ * Starting NFS smnotify ...                                                                   [ ok ]
+ * ERROR: nfs failed to start

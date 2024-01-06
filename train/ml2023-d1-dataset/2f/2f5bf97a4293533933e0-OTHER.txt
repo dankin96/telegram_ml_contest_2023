@@ -1,0 +1,3 @@
+Section "Monitor"    Identifier             "DVI-D-0"
+    DisplaySize             286 179    # In millimeters
+EndSection

@@ -1,0 +1,4 @@
+ MAC   : B2:53:5D:39:F9:9E
+ IP    : 192.168.142.179
+ Name  : Galaxy-S23-Ultra
+ Bound : 1

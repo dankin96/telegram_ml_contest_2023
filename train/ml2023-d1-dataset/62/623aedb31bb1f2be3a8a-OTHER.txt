@@ -1,0 +1,3 @@
+x="طرد e3s مطلب"
+for i in range(50):
+       print(x)

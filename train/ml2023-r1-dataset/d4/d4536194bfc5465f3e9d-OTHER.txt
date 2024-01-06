@@ -1,0 +1,33 @@
+Exchange GALABTC 1h Binance
+Price:0.00000053|0.00000053|0.00000052
+Vol:    41,728|   2,911| 233,881
+ATR: 0.00000001
+
+❌OBV: -23.1 M| -23.1 M| -23.1 M
+⚪RSI:   55.30|   55.30|   46.88
+✅MFI:   80.28|   54.59|   54.55
+⚪CCI:   42.42|   56.91|  -18.67
+❌WR%:  -50.00|  -50.00| -100.00
+❌ADX:   19.73|   19.09|   18.41
+
+⚪MOM: No Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+✅PSAR: Bullish
+
+Support And Resistance
+S: 0.00000051
+R: 0.00000053
+R: 0.00000054
+
+Volatility is low
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+🐻Volume: Bearish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

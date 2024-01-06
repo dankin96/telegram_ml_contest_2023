@@ -1,0 +1,14 @@
+$gd_kit_form $mol_form_draft
+  message_done \Сохранено
+  bid_required* \требуется
+  bid_short* \> 5 символов
+  bid_long* \< 200 символов
+  buttons /
+    <= Submit $mol_button_major
+      title <= result \Сохранить
+      click? <=> submit?
+      enabled <= submit_allowed
+    <= Reset $mol_button_minor
+      title \Сбросить
+      click? <=> reset?
+      enabled <= changed

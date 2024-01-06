@@ -1,0 +1,19 @@
+EVER
+change:  -7.63
+volume:  2263882.55
+
+FLATQUBE-LP-WEVER-USDT
+change:  +0.0
+volume:  747974.46
+
+QUBE
+change:  +1217.31
+volume:  1217.31
+
+USDT
+change:  +35335.54
+volume:  35335.54
+
+WEVER
+change:  -40.78
+volume:  2263819.24

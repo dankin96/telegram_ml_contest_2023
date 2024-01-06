@@ -1,0 +1,39 @@
+
+from kivy.app import App
+from kivy.uix.boxlayout import BoxLayout
+from kivy.uix.button import Button
+from kivy.uix.label import Label
+
+
+class MyApp(App):
+    def build(self):
+        layout = BoxLayout(orientation='vertical')
+        self.word_label = Label(text='Enter a word:')
+        self.word_input = TextInput(multiline=False)
+        self.result_label = Label(text='')
+        self.start_button = Button(text='Start', on_press=self.show_results)
+        self.stop_button = Button(text='Stop', on_press=self.stop_results)
+
+        # Add the UI elements to the layout
+        layout.add_widget(self.word_label)
+        layout.add_widget(self.word_input)
+        layout.add_widget(self.result_label)
+        layout.add_widget(self.start_button)
+        layout.add_widget(self.stop_button)
+
+        return layout
+
+    def show_results(self, instance):
+        input_word = self.word_input.text
+        # Perform your desired action with the input word
+        self.result_label.text = f'Results: {input_word}'
+    
+    def stop_results(self, instance):
+        # Stop the action you are performing, if needed
+        self.result_label.text = ''
+
+# Run the app
+if name == 'main':
+    MyApp().run()
+
+with th

@@ -1,0 +1,30 @@
+{
+ "update_id": 935478682,
+ "message": {
+  "message_id": 2594,
+  "from": {
+   "id": 68363220,
+   "is_bot": false,
+   "first_name": "Алексей",
+   "last_name": "Овсянников",
+   "username": "InsanusMokrassar",
+   "language_code": "en",
+   "is_premium": true
+  },
+  "chat": {
+   "id": -1001404250801,
+   "title": "Test Group",
+   "username": "inmo_test_group",
+   "type": "supergroup"
+  },
+  "date": 1697008621,
+  "text": "@it_is_my_own_temporal_bot",
+  "entities": [
+   {
+    "offset": 0,
+    "length": 26,
+    "type": "mention"
+   }
+  ]
+ }
+}

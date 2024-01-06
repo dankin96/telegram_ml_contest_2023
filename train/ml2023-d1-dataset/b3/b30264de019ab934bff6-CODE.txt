@@ -1,0 +1,18 @@
+pub fn f(comptime T: anytype, c: []T) void {
+    if (T(c[0], c[1])) {
+        //
+    }
+}
+pub fn main() void {
+    const S = struct {
+        pub fn asc(x: u8, y: u8) bool {
+            return x > y;
+        }
+    };
+
+    const g: *const fn (comptime b: fn (u8, u8) bool, []const u8) void = f;
+    const h: *const fn (comptime b: fn (u8, u8) bool, *const [5]u8) void = f;
+
+    g.*(S.asc, "write");
+    h.*(S.asc, "write");
+}

@@ -1,0 +1,25 @@
+import timeit
+
+
+def text1(var):
+    if var >= 5:
+        return
+
+    return
+
+
+def text2(var):
+    if 5 > var-1:
+        return
+
+    return
+
+
+x = 6
+time1 = timeit.timeit(lambda: text1(x), number=100000)
+time2 = timeit.timeit(lambda: text2(x), number=100000)
+
+print(f'x = {x}')
+print(f"Time for '5 >= {x}': {time1}")
+print(f"Time for '5 > {x}-1': {time2}")
+print(f'faster {time1/time2}')

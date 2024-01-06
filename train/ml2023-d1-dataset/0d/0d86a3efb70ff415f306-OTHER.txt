@@ -1,0 +1,26 @@
+ADDRESS:      0xe1f09bc205Dd966C0C56B42D0068de842D12391e
+PAIR:         0x4124dffEB44F04737153E0Ec2D23D55Ba59dc147
+NAME:         XBT
+SYMBOL:       XBT
+SUPPLY:       21000000
+PRICE:        $0.00237634676478
+LIQUIDITY:    $9,886
+24H CHANGE:   3101%
+24H VOLUME:   $694,288
+INITIAL MC:   $1,561
+CURRENT MC:   $52,543
+ATH MC:       $196,836
+BUY TAX:      0%
+SELL TAX:     0%
+RENOUNCED:    ✅
+LP BURNED:    ✅ 100% of lp tokens burnt
+VERIFIED:     ✅
+WHALES:       3.9133%, 2.7240%, 2.1174%, 2.0808%, 2.0155%
+
+✅✅✅✅✅ PASSED ✅✅✅✅✅
+⚠️ NO MAX BUY ⚠️
+
+🤗🤗🤗🤗🤗 SOCIALS 🤗🤗🤗🤗🤗
+https://x.com/xbtworldwide\r
+https://t.me/XBTWORLDWIDE\r
+https://www.xbtworldwide.com/\r

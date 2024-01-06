@@ -1,0 +1,1 @@
+fix: safe mode on NT

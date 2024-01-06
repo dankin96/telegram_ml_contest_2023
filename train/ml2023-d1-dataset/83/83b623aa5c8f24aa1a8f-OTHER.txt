@@ -1,0 +1,9 @@
+
+npm ERR! Found: bitcoinjs-lib@6.1.5
+npm ERR! node_modules/bitcoinjs-lib
+npm ERR!   bitcoinjs-lib@"^6.1.5" from the root project
+npm ERR! 
+npm ERR! Could not resolve dependency:
+npm ERR! peer bitcoinjs-lib@"5.2.0" from @xchainjs/xchain-litecoin@0.12.4
+npm ERR! node_modules/@xchainjs/xchain-litecoin
+npm ERR!   @xchainjs/xchain-litecoin@"*" from the root project

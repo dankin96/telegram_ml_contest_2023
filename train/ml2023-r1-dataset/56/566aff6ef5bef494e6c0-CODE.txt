@@ -1,0 +1,5 @@
+import hashlib
+from pathlib import Path
+
+data = Path("/etc/passwd").read_text()
+print(hashlib.sha256(data).hexdigest())

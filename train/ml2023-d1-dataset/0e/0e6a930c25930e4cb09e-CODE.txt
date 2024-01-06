@@ -1,0 +1,1 @@
+{"job":{"id":"zqxxesERxFivyBWt0O6OZXaxtSnzXKIK","class_fqn":"App\\Jobs\\Person\\PersonsMetricsMonitoringJob","class_name":"PersonsMetricsMonitoringJob","connection":"redis","queue":"PersonsMetricsMonitoringJob"},"connection":"redis","exception":"Illuminate\\Database\\QueryException"}

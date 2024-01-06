@@ -1,0 +1,10 @@
+Cycle ID    : 0410202300007 
+MID         : 30002179 
+Material    : INNER OIL MIE SUKSES KA 1W 
+UOM         : ROL 
+
+Qty All            : 10 
+Qty Kedatangan     : 10 
+Sisa Belum Datang  : 0 
+
+Receive By  : Akhmad Toha 

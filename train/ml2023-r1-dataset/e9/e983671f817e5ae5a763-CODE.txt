@@ -1,0 +1,14 @@
+
+data = pd.read_csv('result/директ.csv')
+data['Город'] = data['Ссылка'].replace('https://www.avito.ru/', '', regex=True).str.split('/').str[0]
+data['id продавца'] = data['Ссылка на продавца'].str.split('=').str[-1]
+data[['Просмотров', 'Просмотров сегодня']] = data[['Просмотров', 'Просмотров сегодня']].replace('-', float('NaN')).astype(float)
+data.dropna(subset=['Просмотров сегодня'], inplace=True)
+# data[['Просмотров', 'Просмотров сегодня', 'Рейтинг продавца', 'Количество оценок у продавца']] = data[['Просмотров', 'Просмотров сегодня', 'Рейтинг продавца', 'Количество оценок у продавца']].replace('-', float('NaN')).astype(float)
+
+data['Просмотров сегодня'] = data.groupby('Ссылка')['Просмотров сегодня'].transform('max')
+# display(data.info())
+data = data.drop_duplicates(subset='Ссылка')
+
+display(data.head(10))
+display(data.info())

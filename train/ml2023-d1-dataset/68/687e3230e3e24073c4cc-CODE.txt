@@ -1,0 +1,6 @@
+[prune]
+block_interval = 5
+
+[prune.parts]
+account_history = { distance = 10064 }
+storage_history = { distance = 10064 }

@@ -1,0 +1,42 @@
+"Hello there": {
+    "prefix": "css",
+    "body": [
+      "* {"
+        "   margin: 0;",
+        "   padding: 0;",
+        "   box-sizing: border-box;",
+      "}",
+      " "
+      "body {",
+        "   font-family: sans-serif;",
+      "}"
+      " "
+      "ul {"
+        "   list-style: none;"
+      "}"
+      " "
+      "a {"
+        "   display: inline-block;"
+        "   text-decoration: none;"
+      "}"
+      " "
+      "img {"
+        "   display: inline-block;"
+      "}"
+      " "
+      "span {"
+        "   display: inline-block;"
+      "}"
+      " "
+      "button {"
+        "   cursor: pointer;"
+      "}"
+      " "
+      ".container {"
+        "   width: 1150px;",
+        "   margin: 0 auto;",
+        "   padding: 0 20px;",
+      "}"      
+    ],
+    "description": "Log output to console"
+  },

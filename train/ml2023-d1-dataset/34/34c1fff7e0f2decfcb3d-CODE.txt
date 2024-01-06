@@ -1,0 +1,11 @@
+let!(:ext_rus){ create :mango_extension_number, mango_abonent_id: "11234", number:"112", enabled:true, priority:3 }
+    let!(:ext_kaz){ create :mango_extension_number, mango_abonent_id: "11235", number:"110", enabled:true, priority:1 }
+    let!(:rus_user){ create(:user, name: "Operator somewhere in Russia", mango_extension: ext_rus.id, office: create(:office, jurisdiction_isoa3: "RUS")) }
+    let!(:kaz_user){ create(:user, name: "Operator somewhere in Kazakhstan", mango_extension: ext_kaz.id, office: create(:office, jurisdiction_isoa3: "KAZ")) }
+
+    let(:kaz_and_rus_groups_result) do
+      [
+        {id: ext_rus.mango_abonent_id, name:"Somewhere in Russia", extension: ext_rus.number, priority:3, order:1},
+        {id: ext_kaz.mango_abonent_id, name:"Somewhere in Kazakhstan", extension: ext_kaz.number, priority:1, order:2}
+      ]
+    end

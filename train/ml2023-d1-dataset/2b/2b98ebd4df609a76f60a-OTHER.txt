@@ -1,0 +1,28 @@
+error 
+ Can't get recommendNews typeRequest news_4u from ml bigdata for guid 1509518141984318107, uid -1 with error PegaNew DataML GetStream4u return no data in recommend: http://172.18.5.44:8000/mlbigdata/alg-manager?domain=pega&boxid=1006&guid=1509518141984318107&uid=-1 
+ peganews/internal/common/log.(*Logger).errorf
+ /app/internal/common/log/logger.go:86
+peganews/internal/common/log.Errorf
+ /app/internal/common/log/global.go:26
+peganews/internal/services.(*NewsService).GetNews
+ /app/internal/services/news_service.go:72
+peganews/api/controllers.(*NewsController).GetNews
+ /app/api/controllers/news_controller.go:75
+github.com/gin-gonic/gin.(*Context).Next
+ /go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+ /go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+ /go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+ /go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+ /go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+ /go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+ /go/pkg/mod/github.com/gin-gonic/gin@v1.9.0/gin.go:576
+net/http.serverHandler.ServeHTTP
+ /usr/local/go/src/net/http/server.go:2916
+net/http.(*conn).serve
+ /usr/local/go/src/net/http/server.go:1966

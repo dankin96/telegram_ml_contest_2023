@@ -1,0 +1,8 @@
+[dmz@minipig:~/w/hbs2]$ cat hbs2-git/reposync/examples/config
+
+rpc unix "/tmp/hbs2-rpc.socket"
+
+[ repo   "/home/dmz/.local/share/hbs2-reposync/repo/hbs2"
+  (reflog "BTThPdHKF8XnEq4m6wzbKHKA6geLFK4ydYhBXAqBdHSP")
+]
+

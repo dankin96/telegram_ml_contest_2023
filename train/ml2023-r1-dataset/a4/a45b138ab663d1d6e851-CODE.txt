@@ -1,0 +1,8 @@
+
+import pandas as pddata = pd.read_csv("data.csv", sep=",")
+a = "путешествует_с_детьми"b = "общая_оценка_качества_предоставленной_услуги"
+grouped_data = data.groupby([a, b])[a].count().reset_index(name="count")combinations = pd.MultiIndex.from_product([data[a].unique(), data[b].unique()], names=[a, b])
+grouped_data = grouped_data.set_index([a, b]).reindex(combinations, fill_value=0).reset_index()totals = grouped_data.groupby(a)["count"].sum()
+grouped_data["доля"] = (grouped_data["count"] / totals[grouped_data[a]].values) * 100grouped_data["доля"] = grouped_data["доля"].round(1)
+result_df = grouped_data[[a, b, "доля"]]result_df = result_df.sort_values(by=[a, b])
+print(result_df.to_string(index=False))

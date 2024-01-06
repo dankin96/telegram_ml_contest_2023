@@ -1,0 +1,2 @@
+vless://73d4bcbc-cb7f-424f-a1bc-0435b2de68b6@turk.ramshop.sbs:2087?type=ws&path=%2F%3Fed%3D2048&security=tls&fp=chrome&alpn=h3%2Ch2%2Chttp%2F1.1&sni=PUBG-shop1.ramshop.sbs#RamVPN-Free
+

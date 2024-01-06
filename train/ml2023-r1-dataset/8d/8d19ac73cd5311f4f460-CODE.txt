@@ -1,0 +1,16 @@
+function getChangedValue(control: AbstractControl): unknown {
+  if(control instanceof FormGroup) {
+    return Object
+      .entries(form.controls) 
+      .reduce((v, [k,c]) => c.dirty ? { ...v, [k]: getChangedValue(c) } : v, {})
+  }
+  if(control instanceof FormArray) {
+    return form.controls 
+      .reduce((v, c) => [...v, c.dirty ? getChangedValue(c) : undefined], [])
+  }
+  return c.value;
+}
+
+form.valueChanges.pipe(
+  map(() => getChangedValue(form))
+).subscribe(c => console.log('changes', c))

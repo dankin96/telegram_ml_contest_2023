@@ -1,0 +1,5 @@
+bot.copy_message(
+  msg.from().unwrap().id,
+  ChatId(message_row.author_id),
+  MessageId(message_row.message_id as i32)
+);

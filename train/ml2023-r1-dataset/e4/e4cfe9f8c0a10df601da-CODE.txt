@@ -1,0 +1,12 @@
+import tokenize
+import io
+
+code = """
+x = []
+while len(x) !=5:
+    x.append(len(x))
+print(x[x.index(x[-1])-1])
+"""
+tokens = list(tokenize.tokenize(io.BytesIO(code.encode('utf-8')).readline))
+for token in tokens:
+    print(token)

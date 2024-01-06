@@ -1,0 +1,36 @@
+{
+  "update_id": 256247932,
+  "chat_member": {
+    "chat": {
+      "id": -1001818289494,
+      "title": "ASTRONOT MOD OFFICIAL",
+      "username": "astronotmod",
+      "type": "channel"
+    },
+    "from": {
+      "id": 5065199935,
+      "is_bot": false,
+      "first_name": "`Zacky",
+      "last_name": "[NC]"
+    },
+    "date": 1696675329,
+    "old_chat_member": {
+      "user": {
+        "id": 5065199935,
+        "is_bot": false,
+        "first_name": "`Zacky",
+        "last_name": "[NC]"
+      },
+      "status": "member"
+    },
+    "new_chat_member": {
+      "user": {
+        "id": 5065199935,
+        "is_bot": false,
+        "first_name": "`Zacky",
+        "last_name": "[NC]"
+      },
+      "status": "left"
+    }
+  }
+}

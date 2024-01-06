@@ -1,0 +1,3 @@
+[ErrorException] E_COMPILE_ERROR
+Declaration of Bitrix\Main\Diag\Logger::log($level, Stringable|string $message, array $context = []): void must be compatible with Psr\Log\LoggerInterface::log($level, $message, array $context = []) (0)
+/var/www/b*****/data/www/*******.ru/bitrix/modules/main/lib/diag/logger.php:59

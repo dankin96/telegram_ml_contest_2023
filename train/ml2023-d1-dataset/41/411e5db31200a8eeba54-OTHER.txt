@@ -1,0 +1,21 @@
+`FORMAT JASTIP @Anggelastore
+
+idt pemilik ( id kamu ) ::
+jenis akun ( rp/rl ) ::
+akun Instagram bekas :: 
+Usn akun Instagram ::
+password akun Instagram ::
+Sudah pembersihan/belum:
+jumlah followers :: 
+pembuatan tahun ::
+minus akun ( jika ada ) ::
+folls hasil apa ::
+price akun Instagram :: 
+bisa nego atau tidak ( max nego brp ) ::
+Pernah tertaut email?::
+Dapat email ?(jika tertaut email)::
+Idt yg bisa di hubungi::
+Payment:dana
+No dana yg ingin di tf ketika akun sudah sold:
+Done subs:
+@Anggelastore?

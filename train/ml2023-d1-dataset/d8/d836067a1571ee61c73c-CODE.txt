@@ -1,0 +1,2 @@
+npm install telegraf-i18n —force
+

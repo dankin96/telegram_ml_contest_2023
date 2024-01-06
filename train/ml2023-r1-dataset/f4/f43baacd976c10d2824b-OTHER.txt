@@ -1,0 +1,7 @@
+  OS: Windows 10 (version 1809)/Windows Server 2019 (version 1809)
+  OS Build: 10.0.17763
+  Target Name: WIN-JG1E0O7FSBS
+  NetBIOS Domain Name: WIN-JG1E0O7FSBS
+  NetBIOS Computer Name: WIN-JG1E0O7FSBS
+  DNS Domain Name: WIN-JG1E0O7FSBS
+  FQDN: WIN-JG1E0O7FSBS

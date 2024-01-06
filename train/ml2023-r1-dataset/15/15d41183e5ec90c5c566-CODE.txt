@@ -1,0 +1,2 @@
+// free the memory occupied by the с data structure and release the reference to the java object
+int32_t dxfg_JavaObjectHandler_release(graal_isolatethread_t *thread, dxfg_java_object_handler* handler);

@@ -1,0 +1,3 @@
+trait Trait<T> {}
+fn foo<'a>(_b: Box<dyn Trait<&'a usize>>) {}
+fn bar(_b: Box<dyn for<'a> Trait<&'a usize>>) {}

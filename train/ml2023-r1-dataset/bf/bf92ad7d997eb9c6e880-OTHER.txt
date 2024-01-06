@@ -1,0 +1,2 @@
+Failed to join
+MatrixError: [403] M_FORBIDDEN: Event is not authorized. (https://matrix-client.matrix.org/_matrix/client/v3/join/!N8slhBFeWcBDNqW0ic%3Aixit.cz?server_name=ixit.cz)

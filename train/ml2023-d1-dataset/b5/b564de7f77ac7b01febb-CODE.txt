@@ -1,0 +1,2 @@
+iptables -m statistic --mode random --probability 0.5
+

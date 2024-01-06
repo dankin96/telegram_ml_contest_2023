@@ -1,0 +1,8 @@
+👀 SPAM Score detected:
+###
+@ZV5396 вы лучше на спам жалуйтесь
+###
+
+Reason: Наличие ссылок
+Action: deleteMessage
+Bot response: Successful ✅

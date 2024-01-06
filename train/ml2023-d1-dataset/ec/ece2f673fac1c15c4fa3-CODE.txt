@@ -1,0 +1,3 @@
+const/4 v0, 0x1
+
+iput-boolean v0, p0, Lcom/ab/cd/ef/gh/Ij;->yourKey:Z

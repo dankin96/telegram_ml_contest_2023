@@ -1,0 +1,2 @@
+def funcaoQualquer():
+     print('Oi, mundo')

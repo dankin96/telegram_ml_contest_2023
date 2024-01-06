@@ -1,0 +1,34 @@
+WinGo 5 minute
+NO.181 Bet:Small  1
+NO.181 Bet:Small  1
+NO.181 Bet:Small  1
+
+WinGo 5 minute
+NO.182 Bet:Small  3
+NO.182 Bet:Small  3
+NO.182 Bet:Small  3
+
+WinGo 5 minute
+NO.183 Bet:Big    8
+NO.183 Bet:Big    8
+NO.183 Bet:Big    8
+
+WinGo 5 minute
+NO.184 Bet:Big    24
+NO.184 Bet:Big    24
+NO.184 Bet:Big    24
+
+WinGo 5 minute
+NO.185 Bet:Small  72
+NO.185 Bet:Small  72
+NO.185 Bet:Small  72
+
+WinGo 5 minute
+NO.186 Bet:Big    216
+NO.186 Bet:Big    216
+NO.186 Bet:Big    216
+
+WinGo 5 minute
+NO.187 Bet:Small  648
+NO.187 Bet:Small  648
+NO.187 Bet:Small  648

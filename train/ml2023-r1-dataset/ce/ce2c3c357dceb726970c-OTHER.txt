@@ -1,0 +1,1 @@
+SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry `38907-2232` for key `user_id_recipe_id` (Connection: mysql, SQL: insert into `user_recipe` (`recipe_id`, `user_id`) values (2232, 38907))

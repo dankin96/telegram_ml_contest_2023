@@ -1,0 +1,32 @@
+Exchange ETHUSDT 4h Binance
+Price:1,543.31|1,552.06|1,559.32
+Vol:    46,360|  58,020|  20,879
+ATR: 17.3654
+
+❌OBV:-311.4 K|-265.1 K|-207.0 K
+❌RSI:   28.95|   31.85|   34.52
+❌MFI:   11.88|   16.25|   22.72
+⚪CCI: -174.85| -145.89|  -54.28
+❌WR%:  -74.84|  -49.71|  -62.48
+✅ADX:   47.32|   46.59|   45.81
+
+❌MOM: Bearish Momentum
+❌SMA: Price Below SMA Bearish
+❌ADI: -DI > +DI Bearish
+❌MACD: Bearish
+❌PSAR: Bearish
+
+Support And Resistance
+R: $1,543.310
+R: $1,590.650
+
+Volatility is average
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

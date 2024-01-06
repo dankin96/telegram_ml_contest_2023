@@ -1,0 +1,3 @@
+cvai0apcf1012vp
+Bootstrap
+ERROR task bootstrap for curve: HKD3M - Missing discount (ZeroCurve) for: HKDOIS

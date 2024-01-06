@@ -1,0 +1,8 @@
+{ #ALSY - TELEPREM } 
+
+〝 Id username :: 
+〝 brp bulan/setahun :: 
+〝 Payment ::
+〝 Total payment :: tng / spay
+〝 Note admin :: mabel 
+〝 Sudah subs @ailomosy ? ::

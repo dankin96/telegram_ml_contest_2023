@@ -1,0 +1,8 @@
+let add a:Int b:Int=
+    funct a:Int b:Int==>a+b
+
+let sub a:Int b:Int=
+    funct a:Int b:Int==>a-b
+
+let test a:Int b:Int=
+    sub add a b

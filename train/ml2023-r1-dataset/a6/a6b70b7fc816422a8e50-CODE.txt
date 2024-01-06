@@ -1,0 +1,9 @@
+lua
+local character = script.Parent -- Персонаж, которого нужно отслеживать
+local player = game.Players.LocalPlayer -- Игрок, за которым персонаж должен следовать
+-- Функция для обновления позиции персонажа
+local function updateCharacterPosition()
+character:MoveTo(player.Character.HumanoidRootPart.Position)
+end
+-- Обновление позиции персонажа каждую секунду
+game:GetService("RunService").Heartbeat:Connect(updateCharacterPosition)

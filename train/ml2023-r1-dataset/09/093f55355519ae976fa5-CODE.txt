@@ -1,0 +1,3 @@
+
+     IIF(ISNULL(updated_on_dt), NULL, updated_on_dt)
+     

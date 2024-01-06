@@ -1,0 +1,1 @@
+gpcheckperf -S 20Gb -f hostlist_singlenode -d /home/viktor.kovalev/data1 -d /home/viktor.kovalev/data2 -r ds

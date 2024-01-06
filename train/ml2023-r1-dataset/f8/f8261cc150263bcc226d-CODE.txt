@@ -1,0 +1,12 @@
+%%SELECTOR%% button {
+  align-items: center;
+  gap: 8px;
+}
+
+%%SELECTOR%% button::before {
+  content: 'MENU';
+}
+
+%%SELECTOR%% button::after {
+  content: '😃';
+}

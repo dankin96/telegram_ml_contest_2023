@@ -1,0 +1,2 @@
+var responseErrorProperty = response.GetType().GetProperty("isError");
+bool isError = (bool)responseErrorProperty.GetValue(response);

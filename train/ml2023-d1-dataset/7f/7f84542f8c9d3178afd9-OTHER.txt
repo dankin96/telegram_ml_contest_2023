@@ -1,0 +1,49 @@
+MGDCEK   Cek ID Mobile Legend                 0   
+        
+MLGW     Promo Weekly Pass (Misi + 100)  23.295 
+        
+MLG5     ML Promo (5 + 0 Bonus)           1.400 
+MLG11    ML Promo (10 + 1 Bonus)          2.580 
+MLG14    ML Promo (13 + 1 Bonus)          3.270 
+MLG22    ML Promo (20 + 2 Bonus)          5.160 
+MLG28    ML Promo (26 + 2 Bonus)          6.650 
+MLG42    ML Promo (38 + 4 Bonus)          8.998 
+MLG47    ML Promo (43 + 4 Bonus)         10.390 
+MLG56    ML Promo (51 + 5 Bonus)         12.900 ⬆️
+MLG70    ML Promo (64 + 6 Bonus)         14.995 ⬆️
+MLG81    ML Promo (74 + 7 Bonus)         17.570 ⬆️
+MLG84    ML Promo (76 + 8 Bonus)         17.999 ⬆️
+MLG85    ML Promo (78 + 7 Bonus)         18.970 ⬆️
+MLG86    ML Promo (79 + 7 Bonus)         18.985 ⬆️
+MLG112   ML Promo (102 + 10 Bonus)       23.995 ⬆️
+MLG140   ML Promo (127 + 13 Bonus)       29.980 ⬆️
+MLG154   ML Promo (140 + 14 Bonus)       32.985 ⬆️
+MLG172   ML Promo (156 + 16 Bonus)       37.400 ⬆️
+MLG173   ML Promo (157 + 16 Bonus)       37.400 ⬆️
+MLG223   ML Promo 223 Diamonds           51.550 ⬆️
+MLG257   ML Promo (234 + 23 Bonus)       55.400 ⬆️
+MLG284   ML Promo (254 + 30 Bonus)       59.975 ⬆️
+MLG300   ML Promo (269 + 31 Bonus)       63.950 ⬆️
+MLG336   ML Promo 336 Diamonds           73.660 ⬆️
+MLG344   ML Promo (309 + 35 Bonus)       73.680 ⬆️
+MLG345   ML Promo (310 + 35 Bonus)       74.955 ⬆️
+MLG355   ML Promo (317 + 38 Bonus)       77.302 
+MLG429   ML Promo (383 + 46 Bonus)       89.935
+MLG515   ML Promo (462 + 53 Bonus)      108.900 
+MLG570   ML Promo 570 Diamonds          128.810 ⬆️
+MLG610   ML Promo (546 + 64 Bonus)      128.900 
+MLG706   ML Promo (630 + 76 Bonus)      149.864 ⬆️
+MLG710   ML Promo (634 + 76 Bonus)      149.900 ⬆️
+MLG878   ML Promo (780 + 98 Bonus)      184.980
+MLG968   ML Promo (862 + 106 Bonus)     203.800 ⬆️
+MLG1000  ML Promo (887 + 113 Bonus)     209.950 ⬆️
+MLG1432  ML Promo (1266 + 166 Bonus)    299.775 ⬆️
+MLG1446  ML Promo (1279 + 167 Bonus)    303.100 ⬆️
+MLG2148  ML Promo (1899 + 249 Bonus)    449.750 ⬆️
+MLG2195  ML Promo (1860 + 335 Bonus)    460.100 ⬆️
+MLG2976  ML Promo (2501 + 475 Bonus)    626.100 ⬆️
+MLG3688  ML Promo (3099 + 589 Bonus)    776.114 ⬆️
+MLG5532  ML Promo (4649 + 883 Bonus)  1.165.600 ⬆️
+MLG7502  ML Promo (6252 + 1250 Bonus) 1.559.000 ⬆️
+MLG9288  ML Promo (7740 + 1548 Bonus) 1.933.100 ⬆️
+

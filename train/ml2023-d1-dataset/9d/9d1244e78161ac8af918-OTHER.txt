@@ -1,0 +1,3 @@
+Error code 40774
+orderType: 'market',
+side: 'sell_single'

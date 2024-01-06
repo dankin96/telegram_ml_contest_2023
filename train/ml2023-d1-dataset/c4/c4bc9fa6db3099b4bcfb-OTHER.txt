@@ -1,0 +1,1 @@
+ An error has occured MoveNext Exception C:\BuildAgent\work\6a6a1b6d0a9a763c\DriveUploader.Service\TechnoStorageUploader.cs 1019362b14c61970be91c85ff9e55141

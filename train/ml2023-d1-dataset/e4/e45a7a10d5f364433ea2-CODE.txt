@@ -1,0 +1,27 @@
+
+
+                texts = []
+                for desc in event.findall(".//short_event_descriptor"):
+                    texts.append(desc.find("text").text)
+                for desc in event.findall(".//extended_event_descriptor"):
+                    texts.append(desc.find("text").text)
+                for word in words:
+                    for text in texts:
+                        if text and word in text:
+                            keyword_errors.append(f"На {service['name']} (ID: {service_id}) найдено ключевое слово '{word}' в событии {event.find('.//short_event_descriptor/event_name').text}
+")
+
+        if epg_errors:
+            epg_error_message = "
+".join(epg_errors)
+            send_email("Отсутствует расписание", epg_error_message, recipients)
+
+        if schedule_errors:
+            schedule_error_message = "
+".join(schedule_errors)
+            send_email("Расписание не обновляется", schedule_error_message, recipients)
+
+        if keyword_errors:
+            keyword_error_message = "
+".join(keyword_errors)
+            send_email("Обнаружено ключевое слово", keyword_error_message, recipients)

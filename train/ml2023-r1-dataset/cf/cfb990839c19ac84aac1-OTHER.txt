@@ -1,0 +1,2 @@
+Harden-Runner provides runtime security for GitHub-hosted and self-hosted environments
+

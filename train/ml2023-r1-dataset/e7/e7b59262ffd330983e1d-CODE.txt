@@ -1,0 +1,12 @@
+    await exchange.loadMarkets()
+    symbol = "BTC/USDT:USDT"
+    market = exchange.market(symbol)
+    params = {
+        "category": "linear",
+        "symbol": market["id"],
+        "takeProfit": 50000,
+        "stopLoss": 10000,
+        "trailingStop": 100,
+        "positionIdx": 0,  # 0 One-Way Mode, 1 Buy-side, 2 Sell-side
+    }
+    response = await bybit.privatePostV5PositionTradingStop(params)

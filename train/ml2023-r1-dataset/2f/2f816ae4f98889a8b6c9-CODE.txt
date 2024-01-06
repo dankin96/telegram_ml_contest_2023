@@ -1,0 +1,19 @@
+python
+import datetime
+
+def get_today():
+    # Получаем текущую дату
+    today = datetime.date.today()
+    
+    # Определяем название месяца
+    months = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря']
+    month_name = months[today.month - 1]
+    
+    # Форматируем дату в нужном формате
+    formatted_date = today.strftime("%d {0} %Y года").format(month_name)
+    
+    # Возвращаем отформатированную дату
+    return formatted_date
+
+# Пример использования функции
+print(get_today())

@@ -1,0 +1,7 @@
+Format Cnit :
+
+Nama + username :
+Id cnit :
+Take berapa :
+Payment : 
+Scan dimana (Jika menggunakan qris) : 

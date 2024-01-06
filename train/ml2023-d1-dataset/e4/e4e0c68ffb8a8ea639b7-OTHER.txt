@@ -1,0 +1,7 @@
+Username :
+Jenis : famplan / indplan
+Durasi :
+Email : (Jika akun buyer)
+Pass : (Jika akun buyer)
+Payment :
+

@@ -1,0 +1,2 @@
+vless://aaa21e87-474c-47d0-a4c1-aae608caa404@65.109.194.107:2222?encryption=none&security=reality&sni=wasabiwallet.io&fp=firefox&pbk=zkgtB5UV9rmo-UFoHHq7FbsDIEUs53XV66vMOk4VBD8&sid=01ee09d2&spx=%2FTelegram-id-DarkVPNpro-Telegram-id-DarkVPNpro-Telegram-id-DarkVPNpro-Telegram-id-DarkVPNpro-Telegram-id-DarkVPNpro-Telegram-id-DarkVPNpro-Telegram-id-DarkVPNpro-Telegram-id-DarkVPNpro-Telegram-id-DarkVPNpro-Telegram-id-DarkVPNpro-Telegram-id-DarkVPNpro-Telegram-id-DarkVPNpro&type=tcp&headerType=http&host=subscene.com%F0%9F%87%AB%F0%9F%87%AEt.me-DarkVPNpro
+

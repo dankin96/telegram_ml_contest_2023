@@ -1,0 +1,14 @@
+PING www.starlink.com (151.101.38.133): 56 data bytes
+64 bytes from 151.101.38.133: icmp_seq=0 ttl=56 time=1.010 ms
+64 bytes from 151.101.38.133: icmp_seq=1 ttl=56 time=1.060 ms
+64 bytes from 151.101.38.133: icmp_seq=2 ttl=56 time=1.090 ms
+64 bytes from 151.101.38.133: icmp_seq=3 ttl=56 time=1.040 ms
+64 bytes from 151.101.38.133: icmp_seq=4 ttl=56 time=1.040 ms
+64 bytes from 151.101.38.133: icmp_seq=5 ttl=56 time=1.080 ms
+64 bytes from 151.101.38.133: icmp_seq=6 ttl=56 time=1.200 ms
+64 bytes from 151.101.38.133: icmp_seq=7 ttl=56 time=0.981 ms
+64 bytes from 151.101.38.133: icmp_seq=8 ttl=56 time=1.200 ms
+64 bytes from 151.101.38.133: icmp_seq=9 ttl=56 time=1.310 ms
+--- www.starlink.com ping statistics ---
+10 packets transmitted, 10 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 0.981/1.101/1.310/0.098 ms

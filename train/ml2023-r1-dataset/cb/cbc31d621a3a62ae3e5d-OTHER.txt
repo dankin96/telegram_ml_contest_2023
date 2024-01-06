@@ -1,0 +1,33 @@
+Exchange LTCUSDT 4h Binance
+Price:   64.62|   64.73|   64.52
+Vol:    12,331|  36,217|  26,752
+ATR: 0.7852
+
+❌OBV:-954.4 K|-942.0 K|-978.3 K
+⚪RSI:   42.58|   43.68|   40.98
+⚪MFI:   25.77|   31.61|   31.40
+⚪CCI:  -21.33|  -23.60|  -40.16
+❌WR%:  -26.60|  -12.61|  -31.53
+✅ADX:   27.31|   27.02|   26.76
+
+❌MOM: Bearish Momentum
+❌SMA: Price Below SMA Bearish
+❌ADI: -DI > +DI Bearish
+❌MACD: Bearish
+✅PSAR: Bullish
+
+Support And Resistance
+S: $63.970
+R: $66.680
+R: $67.590
+
+Volatility is moderately low
+
+EXPERIMENTAL 🧪
+🐂RSI: Bullish divergence
+🐻MFI: Bearish divergence
+🐂FVE: Bullish divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

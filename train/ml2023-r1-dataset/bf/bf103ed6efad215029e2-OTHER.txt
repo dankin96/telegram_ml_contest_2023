@@ -1,0 +1,4 @@
+  File "/app/resolveUsername.py", line 216, in endpoint
+    names, bio, chat_type = await website(user_name, session=session)
+  File "/app/resolveUsername.py", line 97, in website
+    raise RegexFailedError

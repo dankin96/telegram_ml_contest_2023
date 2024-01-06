@@ -1,0 +1,10 @@
+Cycle ID    : 1010202300004 
+MID         : 50001808 
+Material    : FLAVOUR OIL MI SUKSESS AYAM GEPREK 
+UOM         : MIX 
+
+Qty All            : 2 
+Qty Kedatangan     : 2 
+Sisa Belum Datang  : 0 
+
+Receive By  : Sapuanto 

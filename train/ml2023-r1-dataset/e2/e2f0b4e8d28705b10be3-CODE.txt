@@ -1,0 +1,106 @@
+python
+import telebot
+from telebot import types
+
+# Botni yaratish
+bot = telebot.TeleBot("TOKEN")
+
+# Testlar uchun global o'zgaruvchilar
+tests = {}
+current_test = {}
+
+# Start komandasi uchun javob
+@bot.message_handler(commands=['start'])
+def send_welcome(message):
+    # Foydalanuvchi nomini olish
+    user_name = message.from_user.first_name
+
+    # Klaviaturalarni yaratish
+    markup = types.ReplyKeyboardMarkup()
+
+    if message.from_user.id == ADMIN_USER_ID:
+        markup.row('Statistica', 'Xabar yuborish')
+        markup.row('Test tuzish')
+    else:
+        markup.row('Savol yuborish', 'Test ishlash')
+
+    # Javobni yuborish
+    bot.reply_to(message, f"Salom, {user_name}!", reply_markup=markup)
+
+# Savol yuborish komandasiga javob
+@bot.message_handler(func=lambda message: message.text == "Savol yuborish")
+def send_question(message):
+    # Savol matnini olish
+    question_text = "Savolingizni yuboring:"
+    bot.reply_to(message, question_text)
+
+# Test tuzish komandasiga javob
+@bot.message_handler(func=lambda message: message.text == "Test tuzish")
+def create_test(message):
+    # Test tuzish jarayonida bo'lgan testni tozalash
+    tests.clear()
+    current_test.clear()
+
+    admin_id = message.from_user.id
+    if admin_id != ADMIN_USER_ID:
+        bot.reply_to(message, "Kechirasiz, siz test tuzish huquqiga ega emassiz.")
+        return
+
+    bot.reply_to(message, "Test tuzishni boshladik. Test uchun savollar va javoblarni yuboring.")
+
+    # Test tuzish jarayoniga kirish
+    bot.register_next_step_handler(message, process_create_test)
+
+def process_create_test(message):
+    # Test savolini olish
+    question = message.text
+
+    if message.content_type == 'text':
+        # Test savolini saqlash
+        current_test['question'] = question
+
+        # Test javoblari uchun klaviaturalarni yaratish
+        markup = types.ReplyKeyboardMarkup()
+        markup.row('Variant A', 'Variant B')
+        markup.row('Variant C', 'Variant D')
+
+        # Javoblarni kiritishni so'raymiz
+        bot.send_message(message.chat.id, "Testning javob variantlarini kiriting:", reply_markup=markup)
+        bot.register_next_step_handler(message, process_create_test_answers)
+    else:
+        bot.send_message(message.chat.id, "Testning savolini matn shaklida yuboring.")
+        bot.register_next_step_handler(message, process_create_test)
+
+def process_create_test_answers(message):
+    # Test javoblarni olish
+    answers = []
+
+    if message.content_type == 'text':
+        answers.append(message.text)
+
+    markup = types.ReplyKeyboardMarkup()
+    markup.row('Variant A', 'Variant B')
+    markup.row('Variant C', 'Variant D')
+
+    # Javob variantlarini qabul qilish
+    for i in range(3):
+        bot.send_message(message.chat.id, f"Variant {chr(65 + i + 1)}:", reply_markup=markup)
+        answer = bot.register_next_step_handler(message, process_create_test_answers)
+        answers.append(answer.text)
+
+    # Testni saqlash
+    current_test['answers'] = answers
+    tests[len(tests) + 1] = current_test.copy()
+
+    # Test tuzish jarayonini to'xtatish
+    current_test.clear()
+
+    bot.send_message(message.chat.id, "Test muvaffaqiyatli tuzildi.")
+
+# Test ishlash komandasiga javob
+@bot.message_handler(func=lambda message: message.text == "Test ishlash")
+def take_test(message):
+    user_id = message.from_user.id
+    if user_id == ADMIN_USER_ID:
+        bot.reply_to(message, :
+

@@ -1,0 +1,12 @@
+
+
+2023-10-13T13:38:54 에 HTTP 4xx 응답 발생 
+ * URL : http://saram.in/s/etJ1aS5mG2/chrome.apk (head)  
+ * 서버 : shorturl-api-0 
+ * UserAgent Name : Chrome Mobile, 
+ * UserAgent OS/Device : Android (Samsung SM-G977N), 
+ * Referrer : [''], 
+ * ResponseLocation : <MISSING VALUE>, 
+ * Full UserAgent : Mozilla/5.0 (Linux; Android 10; SM-G977N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.101 Mobile Safari/537.36 
+ 생성자 : <MISSING VALUE> 
+ 생성일 : <MISSING VALUE>

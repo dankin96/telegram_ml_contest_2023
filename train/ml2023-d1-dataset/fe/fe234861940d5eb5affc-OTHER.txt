@@ -1,0 +1,1 @@
+Whenever you make an Inertia request you should get an Inertia response (which is JSON). If you need your own JSON data separately from Inertia, then do not make an Inertia request, and do not send an Inertia response

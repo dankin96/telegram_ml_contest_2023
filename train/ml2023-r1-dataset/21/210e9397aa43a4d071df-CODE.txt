@@ -1,0 +1,12 @@
+def calculate_honey_spheres(n, k, p, m):    sum_gp = n * (1 - 2**k) / (1 - 2)
+    sum_loss = (-m) * (p-1)
+    total_spheres = sum_gp + sum_loss
+    return int(total_spheres)
+ 
+n = 24
+k = 19
+p = 5
+m = 6
+ 
+result = calculate_honey_spheres(n, k, p, m)
+print(result)

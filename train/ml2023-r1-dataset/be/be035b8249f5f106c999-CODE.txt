@@ -1,0 +1,13 @@
+lua
+while true do
+    local coin = game.Workspace:FindFirstChild("Coin")
+    local player = game.Players.LocalPlayer
+
+    if coin and player and player.Character then
+        local torso = player.Character:FindFirstChild("HumanoidRootPart") or player.Character:FindFirstChild("Torso")
+        if torso then
+            coin.CFrame = CFrame.new(torso.Position + Vector3.new(0, 0, 0))
+        end
+    end
+    wait(0.1)
+end

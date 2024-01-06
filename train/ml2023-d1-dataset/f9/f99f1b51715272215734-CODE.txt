@@ -1,0 +1,2 @@
+- @payment.checks.each do |check|
+  = check.created_at

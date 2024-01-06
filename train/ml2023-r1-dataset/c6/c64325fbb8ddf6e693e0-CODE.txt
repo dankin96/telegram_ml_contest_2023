@@ -1,0 +1,1 @@
+fastboot flash boot <name of recovery file here>

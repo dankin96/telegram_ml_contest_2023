@@ -1,0 +1,30 @@
+<script lang="ts" setup>
+  import { reactive } from 'vue'; 
+
+  interface Todo {
+    id: string;
+    title: string;
+    isCompleted: boolean;
+  }
+
+  const todos = reactive<Todo[]>([
+    {
+      id: '1',
+      title: 'hello',
+      isCompleted: false,
+    }
+  ]);
+
+  const onSetIsCompleted = (id: string, isCompleted: boolean) => {
+    const todoIndex = todos.findIndex((todo) => todo.id === id);
+
+    todos[todoIndex].isCompleted = isCompleted;
+  };
+</script>
+
+<template>
+  <div v-for="todo of todos" :key="todo.id">
+    {{ todo.title }} {{ todo.isCompleted ? 'completed' : 'not completed' }}
+    <input type="checkbox" @input="(e) => onSetIsCompleted(todo.id, (e.target as HTMLInputElement).checked)" :checked="todo.isCompleted" >
+  </div>  
+</template>

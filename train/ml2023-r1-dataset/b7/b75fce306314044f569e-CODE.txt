@@ -1,0 +1,9 @@
+[Unit]
+Description=Custom Firewall Setup
+
+[Service]
+Type=oneshot
+ExecStart=/путь/к/вашему/скрипту.sh
+
+[Install]
+WantedBy=multi-user.target

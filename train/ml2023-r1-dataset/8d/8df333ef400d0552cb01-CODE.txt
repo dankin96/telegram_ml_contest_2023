@@ -1,0 +1,19 @@
+function u() {
+ document.querySelectorAll('...').forEach(h)
+}
+
+function h() {
+ this.addEventListener('click', handleClick)
+}
+
+function handleClick(e) {
+ e.preventDefault()
+
+ // elemento clicado
+ const self = this // equvalente a  `e.target`
+
+ // element-pai do elemento clicado
+ const parent = self.closest('...')
+
+ // faz algo ...
+}

@@ -1,0 +1,23 @@
+Вот configure.ac:
+# Process this file with autoconf to produce a configure script.
+
+AC_PREREQ([2.69])
+
+AC_INIT([*****], [***], [*********])
+
+AM_INIT_AUTOMAKE([-Wall -Werror subdir-objects])
+
+AM_PROG_AR
+
+LT_INIT
+
+AC_CONFIG_FILES([MakeFile
+     tests/Makefile
+      example/Makefile
+      ])
+
+
+# Checks for programs.
+AC_PROG_CXX
+
+AC_OUTPUT

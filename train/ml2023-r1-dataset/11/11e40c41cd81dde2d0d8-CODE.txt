@@ -1,0 +1,3 @@
+sudo  yum update docker -y
+ sudo systemctl restart docker
+ sudo systemctl restart ecs

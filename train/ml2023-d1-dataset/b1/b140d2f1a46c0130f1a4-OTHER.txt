@@ -1,0 +1,12 @@
+- Jika user masih memiliki paket lain seperti yelow dan paket kecil yang masih aktif, 
+a. user akan mendapat sms konfirmasi pengisian dari 363
+b. Ketik OK paket akan aktif , dan paket sebelumnya  hangus.
+c. Jika 30 menit tidak ada konfirmasi dari user maka pengisian paket akan otomatis gagal.
+
+-  Jika user masih memiliki paket lain Freedom, Combo, Unlimited, Sensasi 
+a. Pengisian paket akan gagal, karena masih terdapat paket aktif
+b. Non aktifkan paket sebelumnya dengan UNREG kirim ke 363
+c. Ulangi pembelian yang GAGAL setelah paket sebelumnya di UNREG
+- Jika tidak terdapat paket lain yang masih aktif, otomatis paket ini akan aktif.
+- Paket bisa diperpanjang otomatis jika pulsa mencukupi
+

@@ -1,0 +1,5 @@
+cd .\DOCS_GIT
+git pull
+call gitsync s -uЌ„Ќ  tcp://dev-1c-01/Docs .\Src\
+git push
+call sonar-scanner

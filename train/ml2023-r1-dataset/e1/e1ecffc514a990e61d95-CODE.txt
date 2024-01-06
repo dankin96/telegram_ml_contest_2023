@@ -1,0 +1,10 @@
+android {
+    // ...
+    externalNativeBuild {
+        cmake {
+            // Specify desired clang version
+            arguments "-DANDROID_TOOLCHAIN=clang-x.y"  // Replace x.y with the desired version number
+        }
+    }
+    // ...
+}

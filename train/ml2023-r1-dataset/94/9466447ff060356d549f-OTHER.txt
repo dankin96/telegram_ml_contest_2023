@@ -1,0 +1,6 @@
+Host:     MHC-123.30.186.133
+Alias:    MHC-123.30.186.133
+Address:  123.30.186.133
+Service:  Check_MK
+Event:    OK -> CRIT
+Output:   (Service Check Timed Out)

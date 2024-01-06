@@ -1,0 +1,6 @@
+git switch dev
+git pull --ff-only origin dev
+git switch -c my-cool-feature
+git add some-files
+git commit
+git push origin my-cool-feature

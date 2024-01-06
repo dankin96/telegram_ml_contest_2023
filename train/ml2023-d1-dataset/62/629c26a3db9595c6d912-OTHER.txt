@@ -1,0 +1,5 @@
+* url : https://194.67.67.20/
+* http_method : GET
+* ip_address : 185.180.143.141
+* parameters : {"controller"=>"devise/sessions", "action"=>"new"}
+* timestamp : 2023-10-11 18:17:09 +0900

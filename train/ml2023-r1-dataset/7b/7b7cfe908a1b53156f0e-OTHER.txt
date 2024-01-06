@@ -1,0 +1,11 @@
+
+------------ 
+OS: Alpine Linux v3.18 aarch64 
+Host: KVM Virtual Machine virt-4.2 
+Kernel: 5.10.0-22-arm64 
+Uptime: 98 days, 21 hours, 25 mins 
+Packages: 59 (apk) 
+Shell: ash 
+Resolution: 1024x768 
+CPU: (4) 
+Memory: 2170MiB / 24003MiB

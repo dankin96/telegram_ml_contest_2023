@@ -1,0 +1,8 @@
+👀 SPAM Score detected:
+###
+Карандаши
+###
+
+Reason: Не правильный ввод капчи
+Action: deleteUser
+Bot response: Successful ✅

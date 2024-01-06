@@ -1,0 +1,2 @@
+for index, point in enumerate((point for point in self.points for _ in range(0, self._repetitions))):
+    print(f"{index}. {point}")

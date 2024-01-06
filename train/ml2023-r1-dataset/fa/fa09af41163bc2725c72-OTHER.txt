@@ -1,0 +1,1 @@
+ERROR: Post "https://api.paymee.com.br/v1.1/checkout/transparent": dial tcp: lookup api.paymee.com.br on 127.0.0.11:53: server misbehaving | FILE: /go/src/bitbucket.org/eucatur/api-pagamento/pay/paymee/paymee.go:185 | LINE: 185 | FUNCTION: bitbucket.org/eucatur/api-pagamento/pay/paymee.requestGateway | HOSTNAME: api-pagamento-producao-61

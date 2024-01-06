@@ -1,0 +1,8 @@
+Quote Rfq Min Delta
+
+Threshold violation, avg:metric.value 31586.2102102 (min: 0.0 max : 10000.0) 
+
+@timestamp: 2023-10-13T07:13:01.276668Z
+metric_metric.value_avg: 31586.2102102
+num_hits: 333
+num_matches: 1

@@ -1,0 +1,10 @@
+Sends used: 80
+Sends fee: 2,005 UPX
+Treasure count: 41
+Treasure amount: 14,968 UPX
+Spark chest count: 2
+Spark amount: 0.04
+Spawn fee: 7,715 UPX
+Profit: 5,248 UPX
+Sends per treasure: 1.95
+Spark ratio: 0.05

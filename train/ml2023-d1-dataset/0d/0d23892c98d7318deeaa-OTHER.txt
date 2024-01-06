@@ -1,0 +1,5 @@
+Numero de Cedula
+Nombres y Apellidos
+Fecha de Nacimiento
+Foto (de preferencia fondo blanco)
+Estado Civil (soltero, casado o viudo)

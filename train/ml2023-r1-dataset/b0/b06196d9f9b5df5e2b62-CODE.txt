@@ -1,0 +1,5 @@
+  const bufferStream = new ReadableStreamBuffer();
+  bufferStream.put(stdout);
+  bufferStream.stop();
+
+  return bufferStream;

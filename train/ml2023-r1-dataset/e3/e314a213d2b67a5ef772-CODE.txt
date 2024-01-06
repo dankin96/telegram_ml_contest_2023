@@ -1,0 +1,2 @@
+re.findall(pattern, string, flags=0)
+

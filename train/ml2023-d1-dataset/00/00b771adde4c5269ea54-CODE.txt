@@ -1,0 +1,1 @@
+etcdctl --endpoints=<IP>:2379 get /vitastor/config/osd/1

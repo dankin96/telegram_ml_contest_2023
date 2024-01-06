@@ -1,0 +1,2 @@
+some_integer: '0'
+c: ''

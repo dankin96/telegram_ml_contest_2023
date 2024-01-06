@@ -1,0 +1,13 @@
+public readonly struct MyStruct
+{
+  public readonly List<int> myStuff 
+   = new List<int>() { 1, 2 };
+
+  public MyStruct() {}
+
+  public void Mutate()
+  {
+    myStuff[0] = 3;
+  }  
+}
+

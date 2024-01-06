@@ -1,0 +1,1 @@
+int* arr = __builtin_alloca(n*sizeof *arr);

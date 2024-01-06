@@ -1,0 +1,11 @@
+The efficiency of the code is very low: it requires a full scan of
+the bucket index every single day. Depending on the traversal order
+(unordered listing helps), this might mean it takes a very long time to
+find the items that can be deleted, and even when it gets to them, it's
+bound by the deletion time, which is also slow (that the head of the
+objects is a synchronous deletion in many cases, while the tails are
+async garbage-collected).
+
+Fixing this isn't trivial: either you have to scan the entire bucket, or
+you have to maintain a secondary index in insertion-order for EACH
+prefix in a lifecycle policy.

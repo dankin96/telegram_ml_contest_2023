@@ -1,0 +1,12 @@
+HI;
+Starting next week the transition process will change.
+
+Francesco is released from the business; @Ramaglia, Francesco please share the calendar/plans of those you have in mind.
+
+- IT bper engages us in the transition back by sharing the documents. @Monzo, Michela supervises and collects all the back transitions we receive day by day
+- IDC carries out the review and compiles the attached Excel which it shares with me/Vittorio and Marra.
+- If from the summary that emerges from the checklist we are faced with a Business Critical Release it will be supervised directly by Me/Vittorio or deputy correctly identified by us
+- If the release is not business critical we will have the KT done directly by the L1/L2 area contact
+
+If you have any doubts, let's talk after the first transition back.
+Pasquale

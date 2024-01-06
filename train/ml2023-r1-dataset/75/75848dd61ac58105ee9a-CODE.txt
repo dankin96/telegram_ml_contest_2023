@@ -1,0 +1,19 @@
+const $combinedCtx = combine<AppContext>({
+    apiClient: apolloClientModel.$client,
+    router: combine<Session>({
+         instance: routerModel.$instance,
+         state: routerModel.$state,
+         navigate: createStore(routerModel.navigate),
+    }),
+    session: combine<Credentials>({
+      clear: createStore(tokenStorageModel.clearToken),
+      update: createStore(tokenStorageModel.updateToken),
+      token: tokenStorageModel.$token,
+    }),
+   ....
+});
+
+sample({
+    clock: $combinedCtx,
+    target: $ctx
+});

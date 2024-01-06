@@ -1,0 +1,12 @@
+
+if m.x < 0 {
+    m.x = 0
+} else if m.x >= monitorWidth {
+ m.x = monitorWidth
+}
+if m.y < 0 {
+ m.y = 0
+} else if m.y >= monitorHeight {
+ m.y = monitorHeight
+}
+ebiten.SetWindowPosition(m.x, m.y)

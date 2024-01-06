@@ -1,0 +1,2 @@
+2023-10-10 08:13:04.328 | INFO  | starting nchat v3.86  (main.cpp:215)
+2023-10-10 08:13:04.338 | INFO  | entering ui loop  (ui.cpp:83)

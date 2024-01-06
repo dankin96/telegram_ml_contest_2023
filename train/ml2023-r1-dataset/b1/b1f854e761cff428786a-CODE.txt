@@ -1,0 +1,7 @@
+lua
+local speedIncreaseAmount = 5 -- Количество единиц увеличения скорости каждую секунду
+local character = game:GetService("Players").LocalPlayer.Character
+while wait(1) do
+-- Увеличение скорости персонажа
+character.Humanoid.WalkSpeed = character.Humanoid.WalkSpeed + speedIncreaseAmount
+end

@@ -1,0 +1,6 @@
+last_wellcome = None
+
+def wellcome():
+    if last_wellcome and  last_wellcome+timedelta(minutes=1) > datetime.now(): return
+    reply('wellcome')
+    last_wellcome = datetime.now()

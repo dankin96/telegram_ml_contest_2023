@@ -1,0 +1,10 @@
+//@version=5
+indicator("Conditional Plots",overlay=true)
+ma=ta.sma(close,30)
+longerma=ta.sma(close,150)
+
+plotline = input.bool(true, title="Show Moving Average")  
+
+if plotline
+    plot(ma)
+else

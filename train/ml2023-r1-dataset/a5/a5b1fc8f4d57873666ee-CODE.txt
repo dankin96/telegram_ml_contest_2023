@@ -1,0 +1,31 @@
+{bad_pass,#{bindings => #{action => <<"new">>},
+                          body_length => 50,cert => undefined,
+                          charset => undefined,has_body => true,
+                          headers =>
+                              #{<<"accept">> =>
+                                    <<"application/json, text/plain, */*">>,
+                                <<"accept-encoding">> => <<"gzip, deflate">>,
+                                <<"accept-language">> => <<"en-US,en;q=0.5">>,
+                                <<"authorization">> => <<"443585">>,
+                                <<"connection">> => <<"keep-alive">>,
+                                <<"content-length">> => <<"50">>,
+                                <<"content-type">> =>
+                                    <<"application/json;charset=utf-8">>,
+                                <<"host">> => <<"192.168.0.101">>,
+                                <<"origin">> => <<"http://192.168.0.101">>,
+                                <<"referer">> => <<"http://192.168.0.101/">>,
+                                <<"user-agent">> =>
+                                    <<"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0">>},
+                          host => <<"192.168.0.101">>,host_info => undefined,
+                          media_type => {<<"text">>,<<"html">>,[]},
+                          method => <<"POST">>,path => <<"/users/new">>,
+                          path_info => undefined,
+                          peer => {{192,168,0,218},41052},
+                          pid => <0.1505.0>,port => 80,qs => <<>>,
+                          ref => 23918219,
+                          resp_headers =>
+                              #{<<"content-type">> =>
+                                    [<<"text">>,<<"/">>,<<"html">>,<<>>]},
+                          scheme => <<"http">>,
+                          sock => {{192,168,0,101},80},
+                          streamid => 1,version => 'HTTP/1.1'}}

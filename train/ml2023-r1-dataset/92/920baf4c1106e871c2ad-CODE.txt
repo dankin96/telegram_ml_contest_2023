@@ -1,0 +1,7 @@
+{
+  "name": "Rest api palestra",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  }
+}

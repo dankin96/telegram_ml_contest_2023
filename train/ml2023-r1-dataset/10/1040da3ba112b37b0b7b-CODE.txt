@@ -1,0 +1,29 @@
+const { Cluster } = require('puppeteer-cluster');
+
+(async () => {
+  const cluster = await Cluster.launch({
+    concurrency: Cluster.CONCURRENCY_BROWSER,
+    maxConcurrency: 5, // Максимальное количество одновременных браузеров
+  });
+
+  await cluster.task(async ({ page, data }) => {
+    // Ваш код с использованием Puppeteer
+
+    // Пример получения URL-адреса и порта WebSocket
+    const browserWSEndpoint = await cluster.getWorkerById(data.workerId).browser().wsEndpoint();
+
+    console.log(`Browser running with workerId ${data.workerId}`);
+    console.log(`WebSocket endpoint: ${browserWSEndpoint}`);
+
+    // Здесь вы можете отправлять дополнительные запросы на этот адрес WebSocket, если необходимо
+
+  });
+
+  // Запустите задание с передачей данных, включая идентификаторы workerId
+  cluster.queue({ workerId: 'xxx' });
+
+  // Добавьте другие задания, как необходимо
+
+  await cluster.idle();
+  await cluster.close();
+})();

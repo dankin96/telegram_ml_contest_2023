@@ -1,0 +1,12 @@
+num=int(input("enter ur number:"))
+
+if num>0:
+     print("num is greater then zero")
+else:
+      print("num is less than zero or zero")
+
+#example 1
+num=5
+
+#example 2
+num=-5

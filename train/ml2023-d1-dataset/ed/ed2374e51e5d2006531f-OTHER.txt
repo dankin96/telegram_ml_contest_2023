@@ -1,0 +1,8 @@
+
+$ host test.duckdns.org 8.8.8.8
+Using domain server:
+Name: 8.8.8.8
+Address: 8.8.8.8#53
+Aliases:
+
+Host test.duckdns.org not found: 2(SERVFAIL)

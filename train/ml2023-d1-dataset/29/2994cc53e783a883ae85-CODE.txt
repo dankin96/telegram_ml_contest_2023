@@ -1,0 +1,10 @@
+{
+    "fromIPAddress": "172.18.0.19",
+    "code": "852",
+    "sender": "MSG14570503",
+    "campId": "5811c77e-974d-4115-a234-347086f246e1",
+    "mobile": "98889898",
+    "telecom": "",
+    "body": "Test MOBILE +852 98889898
+predef choice: 11 月"
+}

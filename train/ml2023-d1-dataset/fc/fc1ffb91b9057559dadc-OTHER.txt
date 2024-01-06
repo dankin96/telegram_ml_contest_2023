@@ -1,0 +1,32 @@
+Model: S19 82/86/90/95T(MIXED)
+Power: 34.5W/Th
+Price: $5/Th
+Available qty:Around 2,000 units
+Lead time: Ready stock and test completed
+Available qty:Around 6,000 units
+Lead time: Mid-October
+
+Model: S19J PRO 88/92/96/100/104T(MIXED)
+Power: 29.5W/Th
+Price: $9/Th
+Available qty: Around 2,500 units
+Lead time: Mid-October
+
+Model: S19 PRO 110T
+Power: 29.5W/Th
+Price: $10/Th
+Available qty: Around 800 units
+Lead time: Mid-October
+
+Model: M30S 84/86/88/90/92T(MIXED)
+Power: 38W/Th
+Price: $4.5/Th
+Available qty:182 units
+Lead time: Ready stock and test completed
+
+Model: M31S+ 76/78/80/82T(MIXED)
+Power: 42W/Th
+Price: $4/Th
+Available qty:320 units
+Lead time: Ready stock and test completed
+

@@ -1,0 +1,5 @@
+ "type": "set", 
+ "name_prefix": "uid_card_id_orders", 
+ "value_type": "count", 
+ "period": "w", 
+ "channel": "acquiring_beru"

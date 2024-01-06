@@ -1,0 +1,42 @@
+Date 2023-10-12
+
+Network: Mintegral
+AffectedCampaigns: 1
+NewPairs: 3
+StoppedPairs: 0
+NewVideos: 3
+NewPlayables: 0
+NewEndcards: 0
+NewImages: 0
+Errors: 0
+ShouldRetry: 0
+
+Network: Google
+AffectedCampaigns: 191
+NewPairs: 693
+StoppedPairs: 0
+NewVideos: 693
+NewPlayables: 0
+NewEndcards: 0
+NewImages: 0
+Errors: 43
+ShouldRetry: 0
+RunTommorow: 204
+
+Network: Unity
+AffectedCampaigns: 20
+NewPairs: 14
+StoppedPairs: 13
+NewVideos: 10
+NewPlayables: 12
+NewEndcards: 0
+NewImages: 2
+Errors: 2
+ShouldRetry: 0
+
+Executed from 2 attempt count: 54
+Google 2 Should Retries
+Total: 882
+Success: 693
+Failed: 43
+ShouldRetries: 146

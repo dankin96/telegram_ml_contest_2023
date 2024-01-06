@@ -1,0 +1,3 @@
+
+Auth::user()->clearPersistCode();
+Auth::login(Auth::user(), true);

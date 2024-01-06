@@ -1,0 +1,5 @@
+OK: Service YII-Queue-Flashcall2 DOWN!
+Host: php-service01.dc.plusofon.ru 10.10.80.126 - time 06:09:27
+Trigger: Service YII-Queue-Flashcall2 DOWN!
+Trigger status: OK
+Trigger severity: High

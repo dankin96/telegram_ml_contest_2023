@@ -1,0 +1,20 @@
+BACK TEST:
+
+Exchange        = Bybit
+Market          = BTC/USDT
+Timeframe       = 4h
+From date       = 18.12.2022
+From time       = 07:00:00
+To date         = 30.09.2023
+To time         = 23:00:00
+Fee spot %      = 0.17
+Fee futures %   = 0.05
+Stop loss %     = 0.0
+Long trade      = True
+Long on market  = futures
+Short trade     = True
+Reinvestment    = True
+Deposit $       = 10 000
+Common profit $ = 11 983.82
+Common profit % = 119.84
+Max profit $    = 12 076.5

@@ -1,0 +1,1 @@
+$Folders = Get-MailboxFolder -Identity "ivanov@domain.ru" -GetChildren -MailFolderOnly

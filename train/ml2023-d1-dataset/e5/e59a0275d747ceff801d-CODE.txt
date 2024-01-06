@@ -1,0 +1,14 @@
+php
+add_filter( 'manage_edit-product_columns', 'add_weight_column_to_admin' );
+function add_weight_column_to_admin( $columns ) {
+    $columns['weight'] = __( 'Вага', 'woocommerce' );
+    return $columns;
+}
+
+add_action( 'manage_product_posts_custom_column', 'show_weight_data_in_admin', 10, 2 );
+function show_weight_data_in_admin( $column, $post_id ) {
+    if ( 'weight' === $column ) {
+        $product = wc_get_product( $post_id );
+        echo $product->get_weight() ? $product->get_weight() : '—';
+    }
+}

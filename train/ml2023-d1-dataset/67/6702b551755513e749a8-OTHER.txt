@@ -1,0 +1,1 @@
+androidx.test.espresso.PerformException: Error performing 'scroll to' on view 'view holder at 0 position of recycler view: (view.getId() is <2131362542/ru.polyphone...:id/categories_list>)'.

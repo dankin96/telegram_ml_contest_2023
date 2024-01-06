@@ -1,0 +1,13 @@
+<script setup>
+
+getArticle();
+
+async function getArticle() {
+
+let articleHtml = await fetchArticle(route.path);
+
+useMeta(() => { return {
+     title: article.value.info?.title
+   }});
+}
+

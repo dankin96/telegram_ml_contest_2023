@@ -1,0 +1,3 @@
+
+FastUpToDate: This project has enabled build acceleration, but not all referenced projects produce a reference assembly. Ensure projects producing the following outputs have the 'ProduceReferenceAssembly' MSBuild property set to 'true': 'C:\Users\Andrii\Dev\GitHub\FSharp.Data.GraphQL\src\FSharp.Data.GraphQL.Shared\bin\Debug
+etstandard2.0\FSharp.Data.GraphQL.Shared.dll'.

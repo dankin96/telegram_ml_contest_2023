@@ -1,0 +1,11 @@
+
+    <service>
+      <id>windowsServiceId</id> <!-- Buni o'zgartiring -->
+      <name>Readable name of the windows service</name><!-- Buni o'zgartiring -->
+      <description>Description of the windows service</description><!-- Buni o'zgartiring -->
+      <workingdirectory>%BASE%\\</workingdirectory>
+      <logpath>%BASE%\\logs</logpath>
+      <executable>java</executable>
+      <arguments>-jar my-application.jar</arguments><!-- Buni o'zgartiring -->
+    </service>
+    

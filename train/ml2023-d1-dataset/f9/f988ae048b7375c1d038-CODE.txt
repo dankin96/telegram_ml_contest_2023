@@ -1,0 +1,2 @@
+printn(list.subList(0, 2) // 0 - inclusive, 2 - exclusive 
+println(list[0])

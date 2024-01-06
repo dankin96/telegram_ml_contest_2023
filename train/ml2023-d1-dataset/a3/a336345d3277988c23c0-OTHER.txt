@@ -1,0 +1,9 @@
+
+Numeric PAR_3(4.25); 
+Numeric PAR_4(32);     
+Numeric PAR_5(2);  
+Numeric PAR_6(1);   
+Numeric PAR_7(86);  
+NumericPAR_8(6);   
+Numeric PAR_9(930);      
+Numeric PAR_10(1400);    

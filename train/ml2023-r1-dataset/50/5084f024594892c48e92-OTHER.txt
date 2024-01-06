@@ -1,0 +1,15 @@
+[INFO] 06-Oct-23 15:20:44 - File lives in another DC
+[INFO] 06-Oct-23 15:20:44 - Uploading file of 79867 bytes in 1 chunks of 131072
+[INFO] 06-Oct-23 15:21:34 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 06-Oct-23 15:21:35 - File lives in another DC
+[INFO] 06-Oct-23 15:21:35 - Uploading file of 79954 bytes in 1 chunks of 131072
+[INFO] 06-Oct-23 15:22:39 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 06-Oct-23 15:22:40 - File lives in another DC
+[INFO] 06-Oct-23 15:22:40 - Uploading file of 133984 bytes in 2 chunks of 131072
+[INFO] 06-Oct-23 15:23:45 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 06-Oct-23 15:23:46 - File lives in another DC
+[INFO] 06-Oct-23 15:23:46 - Uploading file of 78659 bytes in 1 chunks of 131072
+[INFO] 06-Oct-23 15:24:35 - Starting direct file download in chunks of 131072 at 0, stride 131072
+[INFO] 06-Oct-23 15:24:36 - File lives in another DC
+[INFO] 06-Oct-23 15:24:36 - Uploading file of 28475 bytes in 1 chunks of 131072
+[INFO] 06-Oct-23 15:25:03 - Starting direct file download in chunks of 131072 at 0, stride 131072

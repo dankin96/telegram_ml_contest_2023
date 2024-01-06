@@ -1,0 +1,5 @@
+integer variables x, y[i], z[i];
+x.prior=1;
+y.prior('3')=2;
+z.prior(i)=3;
+

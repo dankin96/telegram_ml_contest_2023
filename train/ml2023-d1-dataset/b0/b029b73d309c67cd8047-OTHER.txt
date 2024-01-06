@@ -1,0 +1,12 @@
+drm0: =======================================================
+drm0: This code is deprecated.
+drm0: =======================================================
+drm0: Deprecated code (to be removed in FreeBSD 13): drm drivers
+drm0: =======================================================
+drm0: This code is deprecated.
+drm0: =======================================================
+drm0: Deprecated code (to be removed in FreeBSD 13): drm drivers
+drm0: <VIA P4M900 / VN896> on vgapci0
+info: [drm] AGP at 0xf0000000 128MB
+info: [drm] Initialized via 2.11.1 20070202
+vgapci0: Boot video device

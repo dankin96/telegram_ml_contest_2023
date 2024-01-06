@@ -1,0 +1,18 @@
+@RunWith(SpringRunner.class)
+@SpringBootTest(classes = YourApplication.class)
+public class TestYourApplication {
+
+    @Test
+    public void test() {
+        WebApplicationContext context = new AnnotationConfigWebApplicationContext();
+        TestWebApplicationInitializer initializer = new TestWebApplicationInitializer();
+        try {
+            initializer.onStartup(context);
+        } catch (ServletException e) {
+            // Обработка ошибок
+        }
+        // Ваш код тестов
+    }
+}
+
+

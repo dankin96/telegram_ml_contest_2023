@@ -1,0 +1,1 @@
+PATCH triggercampaign.adobe.com HTTP/1.1[crlf]Host: triggercampaign.adobe.com [crlf]Connection: upgrade, Keep-Alive[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+ http://www.google.com/bot.html)[crlf]Referenciador : http://www.google.com [crlf]

@@ -1,0 +1,5 @@
+
+#[cfg_attr(feature = "yadda", derive(Yadda))]
+struct Foo<Bar> {
+bar: Bar
+}

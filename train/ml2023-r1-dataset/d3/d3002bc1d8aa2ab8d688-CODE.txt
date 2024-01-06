@@ -1,0 +1,31 @@
+// search.component.ts
+import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
+import { SearchService } from '../search.service';
+
+@Component({
+  selector: 'app-search',
+  templateUrl: './search.component.html',
+  styleUrls: ['./search.component.css']
+})
+export class SearchComponent implements OnInit {
+  // A form control that binds to the input value of the search box
+  query = new FormControl('');
+
+  // An array that stores the search results
+  results: any[] = [];
+
+  // Inject the search service as a dependency in the constructor
+  constructor(private searchService: SearchService) { }
+
+  ngOnInit(): void {
+    // Subscribe to the value changes of the query form control
+    this.query.valueChanges.subscribe(query => {
+      // Call the search method of the service with the query value and subscribe to the observable of results
+      this.searchService.search(query).subscribe(results => {
+        // Update the results array with the new results
+        this.results = results;
+      });
+    });
+  }
+}

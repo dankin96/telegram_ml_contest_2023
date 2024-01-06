@@ -1,0 +1,3 @@
+ "payment_mode": "standard2", 
+ "card_level": "WORLD", 
+ "processing": "Sberbank(Direct)"

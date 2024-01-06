@@ -1,0 +1,11 @@
+ip tunnel add 6to4tun mode sit remote [Remote IPv4] local [Your IPv4]
+ip -6 addr add [Your IPv6]/Prefix dev 6to4tun
+ip link set 6to4tun mtu 1480
+ip link set 6to4tun up
+ip -6 tunnel add GRE6Tun mode ip6gre remote [Remote IPv6] local [Your IPv6]
+ip addr add 172.16.1.2/30 dev GRE6Tun_IR
+ip link set GRE6Tun mtu 1436
+ip link set GRE6Tun up
+ip route add default via 172.16.1.2 table 120
+ip rule add from 172.16.24.0/24 table 120
+ping -c 4 172.16.1.1

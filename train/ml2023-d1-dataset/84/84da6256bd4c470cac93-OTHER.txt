@@ -1,0 +1,1 @@
+Oct 10 12:14:02.274 [FATAL] zmap: Could not open device zc:enp2s0f0 for TX. [Socket type not supported]

@@ -1,0 +1,7 @@
+w1 = self.w.copy()
+        grad_basic = np.transpose(X_batch) @ (predictions - y_batch)
+        
+        grad_l1 = self.l1_coef * w1
+        grad_l2 = 2 * self.l2_coef * w1
+        grad_l1[0] = 0
+        grad_l2[0] = 0

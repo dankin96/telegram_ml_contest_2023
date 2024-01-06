@@ -1,0 +1,4 @@
+BUG, last update
+
+Calls. 2-5 seconds and automatic reset.
+Incoming-outgoing..

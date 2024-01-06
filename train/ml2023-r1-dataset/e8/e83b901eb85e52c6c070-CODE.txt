@@ -1,0 +1,2 @@
+
+cursor: hexToBigInt(toHex(`${score}${id}`)),

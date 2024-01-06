@@ -1,0 +1,5 @@
+Min           :  10
+Max           :  100K
+Refill        :  30 Days
+Per link      :  3K/Daily
+Price         :  $0.80

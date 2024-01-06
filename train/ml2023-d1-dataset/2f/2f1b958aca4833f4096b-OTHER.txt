@@ -1,0 +1,5 @@
+1 pill : 15 CHF
+3 pills : 40 CHF
+5 pills : 70 CHF
+10 pills : 120 CHF
+

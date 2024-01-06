@@ -1,0 +1,1 @@
+Step.objects.select_related('users_responsible', 'users_inspecting'). prefetch_related('users_look').only('name', 'users_responsible', 'users_inspecting')

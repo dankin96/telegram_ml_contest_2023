@@ -1,0 +1,12 @@
+macro_rules! create_async {
+    ($body:block) => {
+        async $body
+    };
+}
+
+macro_rules! create_try {
+    ($body:block) => {
+        try $body
+    };
+}
+

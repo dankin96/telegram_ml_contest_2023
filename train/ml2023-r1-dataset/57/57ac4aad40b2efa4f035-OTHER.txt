@@ -1,0 +1,11 @@
+KanchiLUG’s Monthly Meeting - Oct 08, 2023
+Hi everyone, 
+KanchiLUG’s Monthly meet is scheduled as online meeting this week on Sunday, Oct 08, 2023 16:00 - 17:00 IST 
+Meeting Link 
+Can join with any browser or JitSi android app. 
+All the Discussions are in Tamil. 
+Talk Details 
+Talk 0: 
+Topic : Introduction to scapy 
+Description : Scapy - packet sniffing and packet generation tool 
+Duration : 1 hr ...

@@ -1,0 +1,6 @@
+DIAHJ1  Freedom 1.5GB 2H          5.865
+DIAHJ2  Freedom 2.5GB 5H         11.431
+DIAHJ5  Freedom 5GB 5H           16.202
+DIAHJ7  Freedom 7GB 7H           20.973
+DIAHJ15 Freedom 15GB 3H          26.639
+

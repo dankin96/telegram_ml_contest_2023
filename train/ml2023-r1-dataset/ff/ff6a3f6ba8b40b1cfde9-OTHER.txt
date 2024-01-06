@@ -1,0 +1,11 @@
+👑 captcha + rate limit 👑
+Statistics end
+
+⬇️The statistics are as follows⬇️
+Total requests: 0
+Total IP: 0
+IP Region (show top 10):
+No
+
+You are not currently in an invisible state, the statistics will be displayed in the leaderboard according to the ranking of the data
+Thanks for using this service

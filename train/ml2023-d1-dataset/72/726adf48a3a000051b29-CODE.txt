@@ -1,0 +1,9 @@
+bot.buildBehaviourWithLongPolling(
+        defaultExceptionsHandler = { e ->
+            if (e is CancellationException) {
+                logger.debug(e) { "Ignorable job cancellation" }
+                return@buildBehaviourWithLongPolling
+            }
+            logger.error(e) { "Exception in behaviour" }
+        }
+    ) {...}

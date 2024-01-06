@@ -1,0 +1,1 @@
+monthNamesShort: $.datepicker.regional["en"].monthNames

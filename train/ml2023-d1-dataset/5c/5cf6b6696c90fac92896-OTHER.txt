@@ -1,0 +1,1 @@
+> no valid specialization, ignoring static_assert-declarations that fail ([dcl.pre]), can be generated for a templated entity or a substatement of a constexpr if statement ([stmt.if]) within a templated entity and the innermost enclosing template is not instantiated, or

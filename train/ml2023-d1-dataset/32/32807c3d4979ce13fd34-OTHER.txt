@@ -1,0 +1,9 @@
+v10.1.1.1 (20470) Play Store en
+TECNO TECNO KE5k android 10
+ROM: KE5k-H6122CD-Q-OP-220822V236
+Keep original name: true
+Accounts: 2
+Performance: AVERAGE
+Cache: 633.2 MB
+Database: 763.5 MB
+Free: 3.02 GB

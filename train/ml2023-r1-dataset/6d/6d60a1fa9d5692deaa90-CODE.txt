@@ -1,0 +1,3 @@
+grep ascii2addr ObsoleteFiles.inc
+# 20070301: remove addr2ascii and ascii2addr
+OLD_FILES+=usr/share/man/man3/ascii2addr.3.gz

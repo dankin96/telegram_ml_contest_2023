@@ -1,0 +1,15 @@
+Coin         Close($)   Rank        
+--------------------------------
+YGGUSDT      0.259999   3  3.0
+EOSUSDT      0.578000   3  3.0
+CHRUSDT      0.097300   4  4.0
+KAVAUSDT     0.624000   5  5.0
+BALUSDT      3.309000   5  5.0
+XRPUSDT      0.523699   4  4.0
+DENTUSDT     0.000612   5  5.0
+CYBERUSDT    4.946000   4  4.0
+OXTUSDT      0.064199   5  5.0
+KEYUSDT      0.005413   2  2.0
+ONEUSDT      0.009490   4  4.0
+TLMUSDT      0.010010   3  3.0
+CKBUSDT      0.002795   2  2.0

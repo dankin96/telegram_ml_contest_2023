@@ -1,0 +1,20 @@
+javascript
+(function () {
+  // Lista de páginas web para excluir
+  var excludedPages = [
+    "https://private-shiny-hardhat.glitch.me/",
+    "https://example.com/",
+    "https://example.net/"
+  ];
+
+  // Verificar si la página actual está en la lista de exclusiones
+  var currentPage = window.location.href;
+  if (excludedPages.some(function (page) {
+    return currentPage.includes(page);
+  })) {
+    return;
+  }
+
+  // Resto del código aquí
+
+})();

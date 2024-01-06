@@ -1,0 +1,3 @@
+sudo -i
+cd /System/Volumes/Data
+du -g -d 1

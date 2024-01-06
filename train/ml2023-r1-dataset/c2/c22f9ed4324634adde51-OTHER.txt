@@ -1,0 +1,8 @@
+┌─────────────────────────┐
+     • VMESS INFORMATION •
+└─────────────────────────┘
+┌─────────────────────────┐
+  ISP      : ID-RWEB
+  Username : rumahweb_hidessh
+  Status   : Deleted account
+└─────────────────────────┘

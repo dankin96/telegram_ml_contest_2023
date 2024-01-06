@@ -1,0 +1,3 @@
+this.AllParentFunctions[0] = this.function01;
+this.AllParentFunctions[1] = this.function02;
+this.AllParentFunctions[2] = this.function03;

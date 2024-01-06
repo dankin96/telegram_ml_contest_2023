@@ -1,0 +1,5 @@
+GM_addStyle(`[data-testid=like] [data-testid=app-text-transition-container],
+[data-testid=retweet] [data-testid=app-text-transition-container],
+a[href$="/analytics"] [data-testid=app-text-transition-container]
+{ display: none !important; }
+`)

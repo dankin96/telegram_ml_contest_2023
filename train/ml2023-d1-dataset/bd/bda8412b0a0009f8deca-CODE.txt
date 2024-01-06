@@ -1,0 +1,27 @@
+trait CanDouble {
+    fn double(self: Self) -> Self;
+}
+
+impl CanDouble for i32 {
+    fn double(self: i32) -> i32 {
+        self * 2
+    }
+}
+
+impl CanDouble for String {
+    fn double(self: String) -> String {
+        self.repeat(2)
+    }
+}
+
+fn main() {
+    let a = 5;
+    let b = String::from("ABC");
+
+    println!("{}", double(a));
+    println!("{}", double(b));
+}
+
+fn double<T: CanDouble>(number: T) -> T {
+    number.double()
+}

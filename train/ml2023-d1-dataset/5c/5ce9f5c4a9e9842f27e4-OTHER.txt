@@ -1,0 +1,2 @@
+This role is one of our general tracks. Apply here for all engineering teams at Canonical who work on low-level system technology and embedded systems, across all seniority levels. We have several teams that focus on open source for embedded environments. We hire outstanding Linux and RTOS software engineers with a passion for open source, innovation, cutting-edge hardware and software technologies in general. You will be expected to make significant contributions through high-quality design and code, and to develop your technical leadership.
+

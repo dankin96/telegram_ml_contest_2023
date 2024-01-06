@@ -1,0 +1,3 @@
+Obj obj = ...;
+await ctx.Entry(obj).Reference(o => o.Some).LoadAsync();
+

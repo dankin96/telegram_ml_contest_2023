@@ -1,0 +1,12 @@
+𖤍 format ordering wtb/jastip/bundle
+
+i. name, username account:
+ii. username channel:
+iii. jenis paket yang dipesan:
+iv. item/divisi yang dipromosikan:
+v. durasi pemesanan:
+vi. start from: (ex: 20 september at 09.00)
+vii. wording promosi: buyer (langsung cantumkan) /seller +1k
+viii. additional request:
+ix. payment: DANA/QRISS/SPAY/GOPAY (luar dana with fee 50p-150p)
+x. note for @amaytip:

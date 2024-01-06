@@ -1,0 +1,6 @@
+    Pair  Price  Funding
+ CVCUSDT 0.0736     0.01
+ BTSUSDT 0.0091     0.01
+LINKBUSD 7.2457     0.01
+SANDBUSD 0.2817     0.01
+ASTRUSDT 0.0429     0.01

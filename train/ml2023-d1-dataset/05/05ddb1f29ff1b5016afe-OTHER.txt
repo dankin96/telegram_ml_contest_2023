@@ -1,0 +1,8 @@
+Dopamine 15.0 to 15.4.1 (A12+ devices)
+PaleRa1n iOS 15 - 16.7 (A8 - A11 Devices)
+Unc0ver 14 to 14.3 (Most iPhones/iPad Devices).
+Unc0ver/Fugu 14.4 to 14.5.1 (A12 to A14 Devices). 
+Unc0ver 14.6 to 14.8 (A12 to A13 Devices - iPads not supported).
+Checkra1n 14 to 14.8.1 (A11 devices and below).
+Taurine 14 to 14.8.1 (Most iPhones/iPad Devices).
+

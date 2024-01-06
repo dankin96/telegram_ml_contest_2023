@@ -1,0 +1,15 @@
+Dockerfile
+InsaneMusic
+MusicBot.session
+MusicBot.session-journal
+__pycache__
+assets
+cache
+config.py
+downloads
+logs.txt
+logs.txt.10
+requirements.txt
+start
+strings
+unknown_errors.txt

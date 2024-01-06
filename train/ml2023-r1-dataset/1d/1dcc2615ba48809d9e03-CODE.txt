@@ -1,0 +1,14 @@
+#if 4
+#include<iostream>
+using namespace std;
+int main()
+{
+  int a, b, c, soni;
+  cout << "a ="; cin >> a;
+  cout << "b ="; cin >> b;
+  cout << "c ="; cin >> c;
+  if(a > 0) soni++;
+  if(b > 0) soni++;
+  if(c > 0) soni++;
+  cout << "Musbat sonlar soni" << soni << " ta";
+}

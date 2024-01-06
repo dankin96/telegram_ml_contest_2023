@@ -1,0 +1,7 @@
+07-10-2023 09:31:41 
+ 
+Url : http://localhost/mangassosz-panel/app/
+ 
+IP : ::1 | User : Not found 
+ 
+lvl: 8 | msg:Undefined index: logo | file:C:\xampp\htdocs\mangassosz-panel\config\functions.php | ln:1051

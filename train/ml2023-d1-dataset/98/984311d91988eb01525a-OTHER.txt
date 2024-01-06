@@ -1,0 +1,1 @@
+ • CSS • JS - Русскоговорящее сообщество","username":"russian_frontend","type":"supergroup"},"date":1697143861,"text":"\/test@GPTmodelsChat_bot","entities":[{"type":"bot_command","offset":0,"length":23}]}

@@ -1,0 +1,9 @@
+Switch#config
+
+Switch_config#gpon profile onu-vlan Profile_Name
+
+Switch-gpon-profile#gpon-profile vlan mode tag
+
+Switch-gpon-profile#gpon-profile vlan pvid 1000
+
+

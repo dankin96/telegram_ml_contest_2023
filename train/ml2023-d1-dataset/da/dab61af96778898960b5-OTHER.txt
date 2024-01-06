@@ -1,0 +1,9 @@
+Elaboration latency over threshold for curve AUD1M. Max: 14742.0 ms
+
+Threshold violation, max:metric.value 14742.0 (min: 0 max : 5000) 
+
+@timestamp: 2023-10-12T06:01:00Z
+metric.name.keyword: AUD1M
+metric_metric.value_max: 14742.0
+num_hits: 6211
+num_matches: 35

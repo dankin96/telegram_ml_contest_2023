@@ -1,0 +1,6 @@
+const keys = ["name", "password", "age"];
+interface myType {
+  name: any;
+  password: any;
+  age: any;
+}

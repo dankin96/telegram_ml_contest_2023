@@ -1,0 +1,2 @@
+vless://telegram-id-ArV2ray@135.181.31.243:13?type=grpc&serviceName=@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray,@ArV2ray&security=reality&fp=chrome&pbk=hWJ0EufJQDDTKAGDf7GHpcwCLWr1E-IS_4ZxYoPOb04&sni=gsmarena.com&sid=2f092c0d#Reality2-All%20%7C%20%40ArV2ray
+

@@ -1,0 +1,13 @@
+import cv2
+
+# خواندن تصویر
+image = cv2.imread('image.jpg')
+
+# اعمال فیلتر میانه برای حذف نویز
+filtered_image = cv2.medianBlur(image, 5)
+
+# نمایش تصویر اصلی و تصویر پس از حذف نویز
+cv2.imshow('Original Image', image)
+cv2.imshow('Filtered Image', filtered_image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()

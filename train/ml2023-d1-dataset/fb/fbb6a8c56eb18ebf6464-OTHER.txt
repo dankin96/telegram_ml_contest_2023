@@ -1,0 +1,6 @@
+
+   @PollBot: What's your favorite color? 
+   Red
+   Blue
+   Green
+   

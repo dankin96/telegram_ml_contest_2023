@@ -1,0 +1,3 @@
+type result = string
+var v result := ...
+print(string(v))   // тут преобразование за 0 операций?

@@ -1,0 +1,8 @@
+INFO: processed block:  18009560(       0)  in      1 ms per block
+INFO: processed block:  18009561(       0)  in      0 ms per block
+INFO: processed block:  18009562(       0)  in    802 ms per block
+INFO: Rewinding
+INFO: processed block:  18009561(      -2)  in      0 ms per block
+INFO: processed block:  18009562(      -1)  in    802 ms per block
+INFO: processed block:  18009563(       0)  in      0 ms per block
+INFO: processed block:  18009564(       0)  in      0 ms per block

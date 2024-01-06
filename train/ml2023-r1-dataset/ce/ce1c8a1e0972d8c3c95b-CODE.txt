@@ -1,0 +1,75 @@
+python
+import numpy as np
+
+def funct(x):
+   return np.exp(np.cos(x)) - 3 * np.sin(x)
+
+def gfunct(x):
+   return np.cos(x)
+
+def functprime(x):
+   return -np.exp(np.cos(x)) * np.sin(x) - 3 * np.cos(x)
+
+def newton_raphson(f, fprime, x0, maxit, tol, wa, wf):
+   x = x0
+   k = 0
+   err = tol + 1
+   while err > tol and k < maxit:
+       xold = x
+       fx = f(x)
+       fpx = fprime(x)
+       x = x - fx / fpx
+       err = wa * abs(x - xold) + wf * abs(fx)
+       k += 1
+   if err > tol and k == maxit:
+       raise RuntimeError("Error in maximum iterate and/or tolerance!")
+   return np.array([x, k, err])
+
+def steffensen(f, x0, maxit, tol, wa, wf):
+   x = x0
+   k = 0
+   err = tol + 1
+   while err > tol and k < maxit:
+       xold = x
+       fx = f(x)
+       x = x - (fx ** 2) / (f(x + fx) - fx)
+       err = wa * abs(x - xold) + wf * abs(fx)
+       k += 1
+   if err > tol and k == maxit:
+       raise RuntimeError("Error in maximum iterate and/or tolerance!")
+   return np.array([x, k, err])
+
+def fixpoint(g, x0, maxit, tol):
+   x = x0
+   k = 0
+   err = tol + 1
+   while err > tol and k < maxit:
+       xold = x
+       x = g(x)
+       err = abs(x - xold)
+       k += 1
+   if err > tol and k == maxit:
+       raise RuntimeError("Error in maximum iterate and/or tolerance!")
+   return np.array([x, k, err])
+
+# Define the parameters
+x0 = 1.0
+maxit = 1000
+tol = 1e-10
+wa = 0.5
+wf = 0.5
+
+# Newton-Raphson Method
+n_newton = newton_raphson(funct, functprime, x0, maxit, tol, wa, wf)
+print('Method: Newton-Raphson')
+print_format('xnew', n_newton, funct)
+
+# Steffensen Method
+f_steffensen = steffensen(funct, x0, maxit, tol, wa, wf)
+print('Method: Steffensen')
+print_format('xnew', f_steffensen, funct)
+
+# Picard Fix Point Method
+fp = fixpoint(gfunct, x0, maxit, tol)
+print('Method: Picard Fix Point')
+print_format('xnew', fp, funct)

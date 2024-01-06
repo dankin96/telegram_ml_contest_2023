@@ -1,0 +1,6 @@
+div {
+  height: 453px;
+  background: linear-gradient(45deg, rgba(103, 0, 31, .8), rgba(34, 101, 163, .5)), url(...); 
+  background-size: cover;
+}
+

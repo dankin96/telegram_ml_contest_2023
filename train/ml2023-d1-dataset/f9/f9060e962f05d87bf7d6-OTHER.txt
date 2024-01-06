@@ -1,0 +1,31 @@
+[INFO] 2023/10/12 21:52:56 sp_message.go:29: SendMessage(conn, req, header.ReqRegister) to SP
+[INFO] 2023/10/12 21:52:57 register_to_sp.go:21: get RspRegister &{34.23.79.144:8888 {0x1cd4ee0 0x1cd4fe0 0x1cd5b40 0x1cd4f60 100 false false true 11 stsds1wfv42apd65kjh3gduzqajdvza6zhy8lc20zh43 [0 0 0 0 0 0 0 0 0 0 255 255 149 102 156 231] 18082 [{{PPServerKey} 0xc00026e000} {{PpNetworkKey} 0xc000316240}]} 0 0xc0001180a0 0xc0025220e0 0xc0025220f0 0xc002552720 0xc002552780 {0 0} 34.23.79.144:8888 [] 0xc0000ec720 0x11067e0 [0xc0012a8070] 499 1178 0xc002522068 0xc002522070 1038 0xc002522078 509 0xc002522090 1178 0xc002522098 509 0xc0025220b0 false [141 199 180 125 139 124 140 107 8 253 79 237 169 195 64 12 40 195 198 74 155 209 34 41 231 248 46 198 46 87 84 125] stsds129ffpumtwpnm25s2h63gfc9tc3ywl3srgg5mt7 [] true}
+[INFO] 2023/10/12 21:52:57 register_to_sp.go:30: target.RspRegister stsds1wfv42apd65kjh3gduzqajdvza6zhy8lc20zh43
+[INFO] 2023/10/12 21:52:57 register_to_sp.go:46: Register successful 
+[INFO] 2023/10/12 21:52:57 register_to_sp.go:80: start mining
+[INFO] 2023/10/12 21:53:00 report_node_status.go:45: #pp_in_list:[11], #pp_connected:[0]
+[INFO] 2023/10/12 21:53:11 ipc.go:20: Accepted RPC connection conn @
+[ERROR] 2023/10/12 21:53:12 get_pp_status.go:42: failed getting PP status, too frequently
+[INFO] 2023/10/12 21:53:12 get_pp_status.go:49: failed to query node status, please retry later
+[INFO] 2023/10/12 21:54:00 get_pp_status.go:130: *** current node status ***
+Activation: Active | Registration Status: Registered | Mining: ONLINE | Initial tier: 2 | Ongoing tier: 2 | Weight score: 1936 | Meta node: stsds129ffpumtwpnm25s2h63gfc9tc3ywl3srgg5mt7 (34.23.79.144:8888)
+[INFO] 2023/10/12 21:57:58 report_node_status.go:45: #pp_in_list:[11], #pp_connected:[0]
+[INFO] 2023/10/12 21:59:55 client.go:56: on close 135.181.63.105:18081
+[INFO] 2023/10/12 21:59:56 client.go:56: on close 222.209.95.90:18081
+[INFO] 2023/10/12 21:59:56 client.go:56: on close 34.138.4.98:18109
+[INFO] 2023/10/12 21:59:57 client.go:56: on close 130.211.85.179:18096
+[INFO] 2023/10/12 21:59:57 client.go:56: on close 35.164.138.226:18106
+[INFO] 2023/10/12 21:59:57 client.go:56: on close 104.233.210.97:28081
+[INFO] 2023/10/12 21:59:57 client.go:56: on close 65.21.22.150:18082
+[INFO] 2023/10/12 21:59:58 client.go:56: on close 84.2.58.13:18086
+[INFO] 2023/10/12 21:59:58 client.go:56: on close 90.119.139.183:18083
+[INFO] 2023/10/12 21:59:58 client.go:56: on close 94.53.41.120:18082
+[INFO] 2023/10/12 21:59:58 client.go:56: on close 94.53.41.30:18082
+[INFO] 2023/10/12 22:02:58 report_node_status.go:45: #pp_in_list:[11], #pp_connected:[0]
+[INFO] 2023/10/12 22:05:57 client.go:56: on close 34.138.4.98:18109
+[INFO] 2023/10/12 22:07:58 report_node_status.go:45: #pp_in_list:[11], #pp_connected:[0]
+[INFO] 2023/10/12 22:11:58 client.go:56: on close 222.209.95.90:18081
+[INFO] 2023/10/12 22:12:38 pp.go:117: on connect
+[INFO] 2023/10/12 22:12:38 download_slice.go:180: ReqDownloadSlice &{15 0xc0001ecf20 0xc0001a26b0 0xc0026fe380 0xc0026fe450 0xc001e9f920 0xc001e9f980 {0 0} 54.65.107.0:52922 1697145157712892763 11 [119 67 255 232 52 9 101 162 155 94 195 57 97 25 55 60 38 159 251 146 43 123 12 94 54 143 90 120 229 39 183 119] stsds1hc8cnqzm3a9mtwjcr8a5f32svyla53kfpf4z35 54.65.107.0:18099 0xc0006ba200 0x11067e0 [] true}
+[ERROR] 2023/10/12 22:12:38 download_task.go:242: Failed getting slice data  open /home/rsnode/storage/v05ahm56/ih/v05ahm56ihqqhcsvkbasseeelibail1fnfhqmqc8: no such file or directory
+[ERROR] 2023/10/13 04:35:54 terminal.go:30: dial unix /home/rsnode/.stratos_sds/sds.ipc: connect: connection refused

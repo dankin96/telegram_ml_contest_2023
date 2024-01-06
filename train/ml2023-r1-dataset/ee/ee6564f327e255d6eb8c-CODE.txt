@@ -1,0 +1,35 @@
+{
+ "update_id": 935440745,
+ "message": {
+  "message_id": 23,
+  "from": {
+   "id": 5578872160,
+   "is_bot": false,
+   "first_name": "Md Mustak"
+  },
+  "chat": {
+   "id": -1001987839218,
+   "title": "Fake Followers Uz",
+   "username": "fake_followers_uz",
+   "type": "supergroup"
+  },
+  "date": 1696638798,
+  "new_chat_participant": {
+   "id": 5578872160,
+   "is_bot": false,
+   "first_name": "Md Mustak"
+  },
+  "new_chat_member": {
+   "id": 5578872160,
+   "is_bot": false,
+   "first_name": "Md Mustak"
+  },
+  "new_chat_members": [
+   {
+    "id": 5578872160,
+    "is_bot": false,
+    "first_name": "Md Mustak"
+   }
+  ]
+ }
+}

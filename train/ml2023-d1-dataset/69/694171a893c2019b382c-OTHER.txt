@@ -1,0 +1,8 @@
+
+Error 3070002: Runtime Error Processing WASM
+Error Details:
+access violation
+pending console output:
+Stack Trace:
+executor.cpp:257 execute
+apply_context.cpp:124 exec_one

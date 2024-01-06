@@ -1,0 +1,5 @@
+> ldd /usr/local/lib/atomvm/AtomVM 
+/usr/local/lib/atomvm/AtomVM:
+  /usr/lib/libSystem.B.dylib (compatibility version 1.0.0, current version 1311.0.0)
+  /usr/lib/libz.1.dylib (compatibility version 1.0.0, current version 1.2.11)
+  /usr/local/opt/openssl@3/lib/libcrypto.3.dylib (compatibility version 3.0.0, current version 3.0.0)

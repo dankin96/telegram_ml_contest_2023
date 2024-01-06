@@ -1,0 +1,4 @@
+
+Message = "Response status code does not indicate success: 500 (Internal Server Error)."
+Headers = "Server": "SeaweedFS Filer 30GB 3.53"
+Content = "{\"error\":\"rpc error: code = Unknown desc = no free volumes left for {\\\"replication\\\":{},\\\"ttl\\\":{\\\"Count\\\":0,\\\"Unit\\\":0}}\"}"

@@ -1,0 +1,2 @@
+audioread.audio_open(path)
+

@@ -1,0 +1,13 @@
+async execute(input: Input): Promise<Output> {
+      return new Promise(async (resolve, reject) => {
+        try {
+          const entity = await Promise.resolve(
+            this.userRepository.findById(input.id),
+          );
+
+          resolve(UserOutputMapper.toOutput(entity));
+        } catch (error) {
+          reject({ message: error.message, status: error.status });
+        }
+      });
+    }

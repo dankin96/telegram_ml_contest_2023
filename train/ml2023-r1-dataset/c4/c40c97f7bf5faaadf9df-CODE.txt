@@ -1,0 +1,1 @@
+if ($h && $h->some && $h->some->foo && $h->some->foo->bar) {}

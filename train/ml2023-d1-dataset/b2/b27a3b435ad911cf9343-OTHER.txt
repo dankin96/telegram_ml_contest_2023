@@ -1,0 +1,18 @@
+[APM-F1-ORDER] 1분동안의 Transaction 건수 급증(3배이상)
+
+An abnormal number (2414) of events occurred around 2023-10-10 14:10 UTC.
+Preceding that time, there were only 733 events within 0:01:00
+
+@timestamp: 2023-10-10T14:10:17
+_id: NCr-F4sB3oLyE9GcQIax
+_index: es-2nd:apm-f1_order_service-7.3.2-transaction-001187
+num_hits: 4396
+num_matches: 1
+reference_count: 733
+service: {
+    "name": "f1_order_service"
+}
+spike_count: 2414
+transaction: {
+    "name": "IfSalesDepositController#insertErpDeposit"
+}

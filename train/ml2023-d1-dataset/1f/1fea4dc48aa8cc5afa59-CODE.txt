@@ -1,0 +1,9 @@
+local eggs = workspace.Egg
+
+if #eggs:GetChildren() > 0 then
+for i, x in pairs(eggs:GetChildren()) do
+   print("-Ls")
+   game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = x.CFrame
+   task.wait(1)
+end
+end

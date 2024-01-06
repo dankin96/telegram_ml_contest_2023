@@ -1,0 +1,2 @@
+failed to update local proxy configuration copy: unexpected field "host_inventory.type"
+ received configuration data from server at "<zabbix server host>", datalen 14643

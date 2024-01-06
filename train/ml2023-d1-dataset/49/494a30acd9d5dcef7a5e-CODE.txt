@@ -1,0 +1,15 @@
+class CustomFilter {
+    constructor(private filter: any) {
+    }
+    json() {
+        return this.filter;
+    }
+}
+
+async function test(): Promise<void> {
+    const apps = await Namespace.app.doc.search()
+        .where(f => new CustomFilter({"and":[{"tf":{"child_apps":{"func":"null"}}}]}))
+        .size(1000)
+        .all()
+}
+

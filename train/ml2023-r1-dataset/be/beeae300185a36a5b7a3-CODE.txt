@@ -1,0 +1,1 @@
+[...document.getElementsByClassName('HeaderDesktopNavigation-Tab')].map(i => i.onclick = () => {...})

@@ -1,0 +1,15 @@
+Sometimes Windows slow down due to registry issues and junk overload. To fix all the basic issues, Windows Repair is the best tool with all the necessary options and a friendly user interface.
+
+Lightweight and user-friendly tool
+Wizard-based interface
+Fix all the basic windows issues
+Windows Firewall
+Windows Update
+HOST files and IE
+Proxy Settings
+Remove temporary files
+Manage startup items
+Backing-up feature
+Unhide non-system data
+Fix Registry issues and much more
+

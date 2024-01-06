@@ -1,0 +1,5 @@
+CPU Intel Xeon E5-2680v4
+RAM 32GB HP DDR4×4
+SSD EVO
+Power
+DVD-RW

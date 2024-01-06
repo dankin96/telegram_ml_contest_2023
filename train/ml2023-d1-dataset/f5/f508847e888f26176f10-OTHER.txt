@@ -1,0 +1,2 @@
+binder: 1467 has pending async transaction, but still adding a new transaction to todo list (gbinder bug workaround)
+binder: 2976 has pending async transaction, but still adding a new transaction to todo list (gbinder bug workaround)

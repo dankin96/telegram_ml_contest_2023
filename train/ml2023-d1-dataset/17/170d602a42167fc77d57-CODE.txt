@@ -1,0 +1,2 @@
+*/1 * * * DISPLAY=:0 echo $DISPLAY > display.txt
+

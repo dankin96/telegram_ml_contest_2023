@@ -1,0 +1,11 @@
+
+           entall  
+         +----------+
+ubestemt | torg     |
+ bestemt | torget   |
+         +----------+
+           flertall
+         +----------+
+ubestemt | torg     |
+ bestemt | torga    |
+         +----------+

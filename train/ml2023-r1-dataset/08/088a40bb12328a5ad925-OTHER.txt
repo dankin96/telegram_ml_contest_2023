@@ -1,0 +1,15 @@
+[temperature_fan electronics_bay]
+pin: PB11
+sensor_type: Generic 3950
+sensor_pin:PF7
+target_temp: 55
+kick_start_time: 0.5
+min_speed: 0.15
+max_speed: 1.0
+min_temp: 0
+max_temp: 100
+control:pid
+off_below: 0.30
+pid_Kp: 5
+pid_Ki: 0.5
+pid_Kd: 0.5

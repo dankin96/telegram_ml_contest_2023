@@ -1,0 +1,3 @@
+embeddings_id = check_embedding(detected_embedding, known_embeddings)
+
+embeddings_id

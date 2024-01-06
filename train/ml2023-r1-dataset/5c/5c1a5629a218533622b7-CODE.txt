@@ -1,0 +1,26 @@
+
+# Import the required libraries
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+# Load the dataset
+# Replace 'X' and 'y' with your actual dataset variables
+X = ...
+y = ...
+
+# Split the dataset into training and testing sets
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Initialize the Gradient Boosting Classifier
+gbt = GradientBoostingClassifier()
+
+# Train the model
+gbt.fit(X_train, y_train)
+
+# Make predictions on the test set
+predictions = gbt.predict(X_test)
+
+# Evaluate the model's accuracy
+accuracy = accuracy_score(y_test, predictions)
+print("Accuracy:", accuracy)

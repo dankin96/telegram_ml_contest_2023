@@ -1,0 +1,22 @@
+char *
+get_line ()
+{
+  int alloc_size = 1000;
+  char *line_ptr = realloc (NULL, sizeof (char) * alloc_size);
+  int character;
+  int index;
+  for (index = 0; ((character = getchar ()) != '
+') && (character != EOF);
+       ++index)
+    {
+      if (index == alloc_size)
+        {
+          alloc_size += 100;
+          line_ptr = realloc (line_ptr, sizeof (char) * alloc_size);
+        }
+      line_ptr[index] = character;
+    }
+  line_ptr = realloc (line_ptr, (index) * sizeof (char));
+  line_ptr[index] = 0;
+  return line_ptr;
+}

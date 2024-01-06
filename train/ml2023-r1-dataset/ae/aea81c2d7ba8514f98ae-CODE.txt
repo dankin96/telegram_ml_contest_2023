@@ -1,0 +1,3 @@
+ status code is not 200-399
+  VALUE = 0
+  LABELS = map[__name__:probe_http_status_code instance:https://nullpex.ru job:blackbox]

@@ -1,0 +1,9 @@
+Quantizator(std::initializer_list<T> list)
+    {
+        m_boundaries[0] = MIN < *list.begin() ? MIN : *list.begin();
+        for (auto it = list.begin() + 1; it != list.end(); ++it)
+        {
+            m_boundaries[std::distance(list.begin(), it)] = *(it - 1) + (*it - *(it - 1)) / 2;
+        }
+        m_boundaries[NUM] = MIN < *(list.end() - 1) ? MAX : *(list.end() - 1);
+    }

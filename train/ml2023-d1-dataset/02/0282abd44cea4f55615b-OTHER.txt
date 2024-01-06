@@ -1,0 +1,2 @@
+alias vmshare='sudo smbd -s /home/user/smb.conf'
+

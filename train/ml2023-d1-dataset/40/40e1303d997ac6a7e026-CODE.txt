@@ -1,0 +1,6 @@
+import redis
+from redis.sentinel import Sentinel
+sentinels = [('rfs-redis-my-service', 26379)]
+sentinel = Sentinel(sentinels, socket_timeout=1)
+redis_master = sentinel.master_for('mymaster', socket_timeout=1, decode_responses=True)
+redis_master.set('test_key', 'Hello, Redis!')

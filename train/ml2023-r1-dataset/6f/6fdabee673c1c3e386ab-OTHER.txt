@@ -1,0 +1,4 @@
+# this is a comment for some reason
+and_this := is a variable but i dont need quotation marks for somereason
+this-is-my-so-called-target: And__I__Need__This__Dependency__For__My__Target
+<TAB>echo Some command goes here and $@ will contain target name and $? will contain dependencies

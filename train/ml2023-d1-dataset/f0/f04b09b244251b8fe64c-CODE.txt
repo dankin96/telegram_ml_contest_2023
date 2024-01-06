@@ -1,0 +1,17 @@
+public class FilterRequest extends PageParam {
+
+    @Schema(description = "Arguments")
+    private String searchBy;
+}
+
+public class PageParam {
+
+    @Min(0)
+    @Schema(description = "Page number")
+    private Integer page = 1;
+
+    @Min(1)
+    @Schema(description = "Page size")
+    private Integer size = 15;
+
+}

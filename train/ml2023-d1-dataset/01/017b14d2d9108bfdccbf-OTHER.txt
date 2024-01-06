@@ -1,0 +1,3 @@
+Cek Harga = CH.KODE
+CONTOH    = CH.T
+

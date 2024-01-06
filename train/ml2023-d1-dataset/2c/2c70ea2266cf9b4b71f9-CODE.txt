@@ -1,0 +1,2 @@
+getprop ro.boot.hwc
+getprop ro.boot.hwversion

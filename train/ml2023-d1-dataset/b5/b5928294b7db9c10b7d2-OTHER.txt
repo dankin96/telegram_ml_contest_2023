@@ -1,0 +1,11 @@
+Tiempo del centro de México
+   Fecha:  2023-10-11   hora:  05:00:12
+   Fecha:  2023-10-11
+   Hora:  05:00:12
+   Magnitud:  3.5
+   Epicentro
+   Latitud, longitud:  19.38°, -103.88°
+   Latitud:  19.38°
+   Longitud:  -103.88°
+   Localización:  19 km al NOROESTE de  VILLA DE ALVAREZ, COLIMA
+   Profundidad:  12.2 km

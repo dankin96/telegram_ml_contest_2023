@@ -1,0 +1,6 @@
+Changelog
+- chore: exclude .venv
+- style: format code
+- feat: more comprehensive status
+- chore: exclude .venv in pyright
+- feat: umnos refresh

@@ -1,0 +1,2 @@
+vless://f1ce35f0-d53c-47fc-d7d9-e1784c91c23f@server2.domainse33rvveerr900.online:37304?type=grpc&serviceName=&security=reality&pbk=z7V1kvhdctpSd6DKjTefzIo0yH8q4wAlddGSa4hgvjk&fp=chrome&sni=zula.ir&sid=845c5a21&spx=%2F#telegram%3A%3A%40hdv2ray-%D9%87%D9%85%D9%87%20%D8%A7%DB%8C%D9%86%D8%AA%D8%B1%D9%86%D8%AA%20%D9%87%D8%A7%20%D8%A8%D8%AC%D8%B2%20%D9%88%D8%A7%DB%8C%20%D9%81%D8%A7%DB%8C
+

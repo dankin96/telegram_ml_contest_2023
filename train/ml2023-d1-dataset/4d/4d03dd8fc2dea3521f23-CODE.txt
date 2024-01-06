@@ -1,0 +1,3 @@
+def validated_total_amount?
+  order.outstanding_balance >= payment.amount
+end

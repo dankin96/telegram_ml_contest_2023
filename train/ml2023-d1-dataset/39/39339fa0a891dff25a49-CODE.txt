@@ -1,0 +1,13 @@
+
+"errorInfo": {
+    "systemErrorInfo": {
+      "clientStack": "core83.dll:0x0000000000085BE8 rserver.dll:0x0000000000171971 rserver.dll:0x00000000002D5D49 rserver.dll:0x00000000002F7C7B backend.dll:0x000000000074E916 rserver.dll:0x0000000000268E13 rserver.dll:0x000000000026A2DE rserver.dll:0x000000000026B01E rscalls.dll:0x000000000000E593 rscalls.dll:0x000000000000EAE5 core83.dll:0x00000000002B256B core83.dll:0x00000000002B259C core83.dll:0x0000000000178BAF unknown:0x0000000000000000 unknown:0x0000000000000000 KERNEL32.DLL:0x0000000000000000 unknown:0x0000000000000000 ",
+      "clientStackHash": "319396601C0E33A77D3B5252A7F5248C"
+    },
+    "applicationErrorInfo": {
+      "errors": [
+        [
+          "Информационная база не обнаружена",
+          [],
+          "",
+          ""

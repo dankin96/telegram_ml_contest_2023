@@ -1,0 +1,6 @@
+/proc/1700/maps
+7f31d6c43000-7f31d6c54000 r--p 00000000 00:1f 2518007                    /nix/store/bhmynyjwzc2r6iqf7fhc3yzjcv3paiwa-curl-8.3.0/lib/libcurl.so.4.8.0
+7f31d6c54000-7f31d6cd4000 r-xp 00011000 00:1f 2518007                    /nix/store/bhmynyjwzc2r6iqf7fhc3yzjcv3paiwa-curl-8.3.0/lib/libcurl.so.4.8.0
+7f31d6cd4000-7f31d6cf8000 r--p 00091000 00:1f 2518007                    /nix/store/bhmynyjwzc2r6iqf7fhc3yzjcv3paiwa-curl-8.3.0/lib/libcurl.so.4.8.0
+7f31d6cf8000-7f31d6cfc000 r--p 000b4000 00:1f 2518007                    /nix/store/bhmynyjwzc2r6iqf7fhc3yzjcv3paiwa-curl-8.3.0/lib/libcurl.so.4.8.0
+7f31d6cfc000-7f31d6cff000 rw-p 000b8000 00:1f 2518007                    /nix/store/bhmynyjwzc2r6iqf7fhc3yzjcv3paiwa-curl-8.3.0/lib/libcurl.so.4.8.0

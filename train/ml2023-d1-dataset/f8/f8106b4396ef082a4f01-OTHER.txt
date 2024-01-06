@@ -1,0 +1,2 @@
+Ryzen and Threadripper processors have CSTATE 6 that needs to be disabled, when running Linux. Look into your BIOS/UEFI settings and find something similar like: "Power idle control" and set it to "Typical current idle" (or normal, high, something that is not an equivalent of low). You may find this settings somewhere in Power, Misc, or even in CPU settings. Different brands might name it a little different. Search how to disable CSTATE 6 for your mainboard.
+Your crashes will disappear. Known issue since Kernel 5.10 or even earlier.

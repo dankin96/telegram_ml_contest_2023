@@ -1,0 +1,32 @@
+Exchange EGLDBTC 1h Binance
+Price:0.00087200|0.00087000|0.00087200
+Vol:         1|      52|      60
+ATR: 0.00000408
+
+❌OBV:  -561.1|  -562.3|  -510.6
+⚪RSI:   47.76|   44.56|   47.25
+⚪MFI:   55.71|   76.25|   71.53
+⚪CCI:   27.05|  -44.55|   11.67
+❌WR%:  -40.00|  -66.67|  -33.33
+❌ADX:   12.71|   13.62|   14.33
+
+⚪MOM: No Momentum
+❌SMA: Price Below SMA Bearish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+✅PSAR: Bullish
+
+Support And Resistance
+S: 0.00086600
+R: 0.00087900
+
+Volatility is moderately low
+
+EXPERIMENTAL 🧪
+🐂RSI: Bullish divergence
+🐂MFI: Bullish divergence
+⚪FVE: No divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

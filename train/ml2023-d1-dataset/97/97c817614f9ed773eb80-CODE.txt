@@ -1,0 +1,6 @@
+post('/api/setScore', {
+    data: curData,
+    score: 100
+}, (result) => {
+    console.log(result)
+}, () => {})

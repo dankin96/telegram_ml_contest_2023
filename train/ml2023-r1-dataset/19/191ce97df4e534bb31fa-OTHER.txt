@@ -1,0 +1,22 @@
+
+Client is already connected
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pyrogram/dispatcher.py", line 242, in handler_worker
+    await self.loop.run_in_executor(
+  File "/usr/lib/python3.8/concurrent/futures/thread.py", line 57, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "promiscue.py", line 35, in copy_messages
+    elif message_type == "file" and msg.document:
+  File "/usr/local/lib/python3.8/dist-packages/pyrogram/client.py", line 302, in __enter__
+    return self.start()
+  File "/usr/local/lib/python3.8/dist-packages/pyrogram/sync.py", line 78, in async_to_sync_wrap
+    return asyncio.run_coroutine_threadsafe(coroutine, main_loop).result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 439, in result
+    return self.__get_result()
+  File "/usr/lib/python3.8/concurrent/futures/_base.py", line 388, in __get_result
+    raise self._exception
+  File "/usr/local/lib/python3.8/dist-packages/pyrogram/methods/utilities/start.py", line 58, in start
+    is_authorized = await self.connect()
+  File "/usr/local/lib/python3.8/dist-packages/pyrogram/methods/auth/connect.py", line 38, in connect
+    raise ConnectionError("Client is already connected")
+ConnectionError: Client is already connected

@@ -1,0 +1,72 @@
+Domain Name: BAIRESTREETS.COM
+Registry Domain ID: 2815959178_DOMAIN_COM-VRSN
+Registrar WHOIS Server: whois.no-ip.com
+Registrar URL: http://www.noip.com/whois/
+Updated Date: 2023-09-21T23:14:23+00:00
+Creation Date: 2023-09-21T23:14:23+00:00
+Registrar Registration Expiration Date: 2024-09-21T23:14:23+00:00
+Registrar: Vitalwerks Internet Solutions, LLC / No-IP.com
+Registrar IANA ID: 1327
+Registrar Abuse Contact Email: abuse@noip.com
+Registrar Abuse Contact Phone: +1.7758531883
+Domain Status: clientTransferProhibited http://www.icann.org/epp#clientTransferProhibited
+Registrant Name: Cavieres, Pablo
+Registrant Organization: Dovux Online
+Registrant Street: La Urbina
+Registrant City: Caracas
+Registrant State/Province: NA
+Registrant Postal Code: 1010
+Registrant Country: VE
+Registrant Phone: 4241556756
+Registrant FAX: 
+Registrant Email: paboxc@gmail.com
+Admin Name: Cavieres, Pablo
+Admin Street: La Urbina
+Admin City: Caracas
+Admin State/Province: NA
+Admin Postal Code: 1010
+Admin Country: VE
+Admin Phone: 4241556756
+Admin FAX: 
+Admin Email: paboxc@gmail.com
+Tech Name: Cavieres, Pablo
+Tech Organization: Dovux Online
+Tech Street: La Urbina
+Tech City: Caracas
+Tech State/Province: NA
+Tech Postal Code: 1010
+Tech Country: VE
+Tech Phone: 4241556756
+Tech FAX: 
+Tech Email: paboxc@gmail.com
+Billing Name: Cavieres, Pablo
+Billing Organization: Dovux Online
+Billing Street: La Urbina
+Billing City: Caracas
+Billing State/Province: NA
+Billing Postal Code: 1010
+Billing Country: VE
+Billing Phone: 4241556756
+Billing FAX: 
+Billing Email: paboxc@gmail.com
+Name Server: STATIC-1.NO-IP.COM
+Name Server: STATIC-2.NO-IP.COM
+Name Server: STATIC-3.NO-IP.COM
+DNSSEC: unsigned
+URL of the ICANN WHOIS Data Problem Reporting System: http://wdprs.internic.net/
+
+NOTICE: Access to No-IP.com WHOIS information is provided to assist persons in
+determining the contents of a domain name registration record in the No-IP.com
+registrar database. The data in this record is provided by No-IP.com for
+informational purposes only, and No-Ip.com does not guarantee its accuracy.
+This service is intended only for query-based access.  You agree that you will
+use this data only for lawful purposes and that, under no circumstances will
+you use this data to: (a) allow, enable, or otherwise support the transmission
+by e-mail, telephone, or facsimile of mass unsolicited, commercial advertising
+or solicitations to entities other than the data recipient's own existing
+customers; or (b) enable high volume, automated, electronic processes that send
+queries or data to the systems of Registry Operator or any ICANN-Accredited
+Registrar, except as reasonably necessary to register domain names or modify
+existing registrations.  All rights reserved. Public Interest Registry reserves
+the right to modify these terms at any time. By submitting this query, you
+agree to abide by this policy.

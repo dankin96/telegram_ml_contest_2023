@@ -1,0 +1,3 @@
+Low Coupling - слабое зацепление
+High Cohesion - сильная связность
+

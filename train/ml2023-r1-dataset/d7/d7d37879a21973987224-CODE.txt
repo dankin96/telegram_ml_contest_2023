@@ -1,0 +1,10 @@
+    some() {
+      return Promise.resolve('bla')
+    }
+
+    @ $mol_action
+    draft_send() {
+      $mol_wire_sync(this).some()
+      this.$.$mol_wait_timeout(100)
+      debugger // сюда никогда не попадет
+    }

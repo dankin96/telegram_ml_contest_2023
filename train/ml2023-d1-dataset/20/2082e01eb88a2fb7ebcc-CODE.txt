@@ -1,0 +1,29 @@
+
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Запрос строки у пользователя
+        Console.Write("Введите строку: ");
+        string input = Console.ReadLine();
+
+        // Запрос разделителя у пользователя
+        Console.Write("Введите разделитель: ");
+        string delimiter = Console.ReadLine();
+
+        // Разбиение строки на подстроки
+        string[] substrings = input.Split(new string[] { delimiter }, StringSplitOptions.None);
+
+        // Вывод подстрок на экран
+        Console.WriteLine("Подстроки:");
+        foreach (string substring in substrings)
+        {
+            Console.WriteLine(substring);
+        }
+
+        // Задержка перед закрытием окна консоли
+        Console.ReadLine();
+    }
+}

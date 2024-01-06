@@ -1,0 +1,11 @@
+{
+  "orderId": "144589669",
+  "pair": "ETH_USDT",
+  "price": 1613.77,
+  "origQty": 0.006,
+  "executedQty": 0,
+  "side": "SELL",
+  "type": "LIMIT",
+  "status": "NEW",
+  "fee": 0
+}

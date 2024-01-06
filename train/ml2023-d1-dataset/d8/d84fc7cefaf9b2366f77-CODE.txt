@@ -1,0 +1,12 @@
+//The paltform trait
+trait Platform {
+    fn open_limit_order();
+    fn close_limit_order();
+    fn open_market_order();
+    fn close_limit_order();
+    fn check_order_status();
+}
+
+
+impl Platform for Binance {}
+impl Platform for Uniswap {}

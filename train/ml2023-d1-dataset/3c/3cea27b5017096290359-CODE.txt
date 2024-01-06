@@ -1,0 +1,43 @@
+import time
+
+def print_heart(color):
+    heart = [
+        "  ❤️️  ",
+        " ❤️️️❤️️ ",
+        "❤️️️️️️️️️️❤️️️️",
+        "❤️️️️️️️️️️❤️️️️",
+        " ❤️️️❤️️ ",
+        "  ❤️️  "
+    ]
+    
+    # ANSI escape codes for colors
+    colors = {
+        "red": "\033[91m",
+        "green": "\033[92m",
+        "yellow": "\033[93m",
+        "blue": "\033[94m",
+        "magenta": "\033[95m",
+        "cyan": "\033[96m",
+        "white": "\033[97m"
+    }
+    
+    # ANSI escape code for blinking
+    blink = "\033[5m"
+    
+    # ANSI escape code to reset formatting
+    reset = "\033[0m"
+    
+    # Print the heart design with the specified color and blinking effect
+    print(f"{colors[color]}{blink}")
+    for line in heart:
+        print(line)
+    print(reset)
+    
+# List of colors to blink with
+colors = ["red", "green", "yellow", "blue", "magenta", "cyan", "white"]
+
+# Blink the heart design with different colors
+while True:
+    for color in colors:
+        print_heart(color)
+        time.sleep(0.5)

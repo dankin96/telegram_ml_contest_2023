@@ -1,0 +1,20 @@
+(ssh)root@kronya [ tmp ] # cat test.S 
+.text
+.balign 256
+func1:
+la.global $a0,exit
+nop
+nop
+nop
+
+.balign 256
+func2:
+la.global $a0,exit
+nop
+nop
+nop
+(ssh)root@kronya [ tmp ] # as test.S -o test.o
+(ssh)root@kronya [ tmp ] # nm test.o
+                 U exit
+00000000000000fc t func1
+000000000000020c t func2

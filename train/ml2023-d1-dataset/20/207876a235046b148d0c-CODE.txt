@@ -1,0 +1,6 @@
+    <ControlTheme x:Key="{x:Type RadioButton}" TargetType="RadioButton">
+        <Style Selector="^.MenuItem:checked TextBlock">
+            <Setter Property="FontWeight" Value="DemiBold" />
+            <Setter Property="Foreground" Value="{DynamicResource SukiPrimaryColor}" />
+        </Style>
+    </ControlTheme>

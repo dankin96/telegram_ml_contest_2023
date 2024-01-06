@@ -1,0 +1,11 @@
+instance (KnownNat (RecordSize fs), RecFromJSON (GetFieldsRequired fs) 0) =>
+    FromJSON (Rec fs) where
+        parseJSON = withObject "Record" $ \obj -> do
+            f <- recFromJSON (Proxy @(GetFieldsRequired fs)) (Proxy @0) obj
+            pure $ runST $ ST $ \(s# :: State# s0) ->
+                let !(# s'#, arr# #) = newSmallArray# size# undefined s#
+                    s''# = f arr# s'#
+                    !(# s'''#, a# #) = unsafeFreezeSmallArray# arr# s''#
+                in (# s'''#, Rec a# #)
+          where !(I# size#) = fromIntegral $ natVal (Proxy @(RecordSize fs))
+

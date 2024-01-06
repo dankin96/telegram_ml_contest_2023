@@ -1,0 +1,10 @@
+faylnomi = 'text.txt'# ochilayotgan (yaratilayotgan) fayl nomi
+with open(faylnomi,'a') as fayl:
+    fayl.write('Hamidjon
+') # faylga yozilayotgan ma'lumot
+    fayl.write('Mehroj
+')
+    fayl.write('Umid
+')
+
+print(fayl)

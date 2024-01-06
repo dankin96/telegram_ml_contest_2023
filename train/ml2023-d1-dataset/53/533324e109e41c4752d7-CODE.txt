@@ -1,0 +1,14 @@
+class Coin:
+    def __init__(self):
+        self.name = "Coin"
+        self.valueInDollars = "float"
+        self.datetime = None
+
+
+lista = []
+for _ in range(10):
+    lista.append(Coin())
+
+for l in lista:
+    print(l.name)
+

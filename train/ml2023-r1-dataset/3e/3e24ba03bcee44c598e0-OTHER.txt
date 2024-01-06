@@ -1,0 +1,13 @@
+бот            сегодня    вчера
+test             -3550    -1062
+gustos             110     -367
+invest           -2527    -1171
+huobi               29     -160
+busd_test           10        0
+bush               118     -359
+busd                74      177
+m_ob_long           -4       -9
+m_ob_short           0        0
+mer_pf_long          0        7
+newhuobi             2        3
+total            -5738    -2941

@@ -1,0 +1,1 @@
+    registered_at = Column(TIMESTAMP, default=datetime.utcnow, nullable=False)

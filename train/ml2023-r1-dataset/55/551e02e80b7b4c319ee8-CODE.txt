@@ -1,0 +1,38 @@
+% Delayed Unit Sample Sequence with a delay of 11 samples
+n = -20:20;
+x1 = [zeros(1, 11), 1, zeros(1, 8)];
+
+% Delayed Unit Step Sequence with an advance of 7 samples
+x2 = [zeros(1, 7), ones(1, length(n) - 7)];
+
+% Exponential Sequence with a = 1.2
+a = 1.2;
+x3 = a .^ n;
+
+% Sinusoidal Sequences of frequencies 0.9, 1.5, and 3
+frequencies = [0.9, 1.5, 3];
+x4 = zeros(length(frequencies), length(n));
+for i = 1:length(frequencies)
+    x4(i, :) = cos(2 * pi * frequencies(i) * n);
+end
+
+% Display the sequences
+figure;
+
+subplot(2, 2, 1);
+stem(n, x1);
+title('Delayed Unit Sample Sequence');
+
+subplot(2, 2, 2);
+stem(n, x2);
+title('Delayed Unit Step Sequence');
+
+subplot(2, 2, 3);
+stem(n, x3);
+title('Exponential Sequence');
+
+subplot(2, 2, 4);
+plot(n, x4(1, :), n, x4(2, :), n, x4(3, :));
+title('Sinusoidal Sequences');
+legend('0.9 Hz', '1.5 Hz', '3 Hz');
+

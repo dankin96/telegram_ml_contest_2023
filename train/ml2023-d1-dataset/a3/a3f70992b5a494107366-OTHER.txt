@@ -1,0 +1,3 @@
+ Try -> is used when u expect an error/exception might occur ( You have to decide which LOC based on ur feature need to put under try catch blocks)
+catch -> is used to handle that error/exception
+throws-> it is an keyword used in method declaration indicating that the method can throw a specific type of  exception

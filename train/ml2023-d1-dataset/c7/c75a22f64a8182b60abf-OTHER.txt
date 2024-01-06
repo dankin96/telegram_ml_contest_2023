@@ -1,0 +1,39 @@
+NAME                                          READY   STATUS    RESTARTS      AGE
+cilium-4nxv9                                  1/1     Running   0             17d
+cilium-fs8f4                                  1/1     Running   0             17d
+cilium-jw87v                                  1/1     Running   1 (23h ago)   17d
+cilium-operator-597877f8d4-5mkpx              1/1     Running   6 (23h ago)   42d
+cilium-operator-597877f8d4-mb6s4              1/1     Running   3 (23h ago)   42d
+cilium-pq9zt                                  1/1     Running   0             17d
+cilium-x7bp5                                  1/1     Running   0             17d
+cilium-x7f2q                                  1/1     Running   0             17d
+coredns-7f64494cfd-8rvtc                      1/1     Running   0             42d
+coredns-7f64494cfd-vxdfl                      1/1     Running   0             42d
+dns-autoscaler-7d85876df8-vc6dt               1/1     Running   0             42d
+kube-apiserver-ip-vm-kube-m01                 1/1     Running   8 (23h ago)   42d
+kube-apiserver-ip-vm-kube-m02                 1/1     Running   2             42d
+kube-apiserver-ip-vm-kube-m03                 1/1     Running   2             42d
+kube-controller-manager-ip-vm-kube-m01        1/1     Running   4             42d
+kube-controller-manager-ip-vm-kube-m02        1/1     Running   6 (23h ago)   42d
+kube-controller-manager-ip-vm-kube-m03        1/1     Running   6 (23h ago)   42d
+kube-proxy-jhrvb                              1/1     Running   0             30d
+kube-proxy-lztsk                              1/1     Running   0             30d
+kube-proxy-rfxst                              1/1     Running   0             30d
+kube-proxy-s2k7p                              1/1     Running   0             30d
+kube-proxy-znd57                              1/1     Running   0             30d
+kube-proxy-zwqjj                              1/1     Running   0             30d
+kube-scheduler-ip-vm-kube-m01                 1/1     Running   3 (23h ago)   42d
+kube-scheduler-ip-vm-kube-m02                 1/1     Running   5 (23h ago)   42d
+kube-scheduler-ip-vm-kube-m03                 1/1     Running   4 (23h ago)   42d
+kubernetes-dashboard-6c8687bf79-jrw7c         1/1     Running   1 (17d ago)   42d
+kubernetes-metrics-scraper-66dcbb88fc-6ccx9   1/1     Running   0             42d
+metrics-server-6c8b76dbd4-cwpjm               1/1     Running   0             42d
+nginx-proxy-ip-vm-kube-w01                    1/1     Running   0             42d
+nginx-proxy-ip-vm-kube-w02                    1/1     Running   0             42d
+nginx-proxy-ip-vm-kube-w03                    1/1     Running   0             42d
+nodelocaldns-2cfvl                            1/1     Running   0             42d
+nodelocaldns-9mmx4                            1/1     Running   0             42d
+nodelocaldns-hcrnq                            1/1     Running   0             42d
+nodelocaldns-jd6w7                            1/1     Running   0             42d
+nodelocaldns-qbmwr                            1/1     Running   0             42d
+nodelocaldns-qj9tb                            1/1     Running   0             42d

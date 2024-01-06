@@ -1,0 +1,2 @@
+IFC4 CHANGE The entity is marked as deprecated for instantiation - will be made ABSTRACT in future releases.
+

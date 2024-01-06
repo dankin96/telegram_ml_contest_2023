@@ -1,0 +1,3 @@
+Host: api.amazon.com
+Request->SetHeader("Host","api.amazon.com");
+

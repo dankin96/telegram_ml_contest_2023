@@ -1,0 +1,14 @@
+#include <Servo.h>
+
+Servo myservo;  // ساخت یک شیء سروو
+
+void setup() {
+  myservo.attach(9);  // وصل کردن سروو به پین 9
+}
+
+void loop() {
+  myservo.write(0);   // چرخاندن سروو به زاویه 0 درجه
+  delay(1000);        // تاخیر 1 ثانیه
+  myservo.write(90);  // چرخاندن سروو به زاویه 90 درجه
+  delay(1000);        // تاخیر 1 ثانیه
+}

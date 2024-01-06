@@ -1,0 +1,2 @@
+    umask(007);
+    fcitx::StandardPath::global().syncUmask();

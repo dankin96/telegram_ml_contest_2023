@@ -1,0 +1,8 @@
+v10.1.1.1 (20470) Play Store uz/ru
+TECNO TECNO KG5m android 11
+ROM: KG5m-H6125C-RGo-RU-230510V615
+Accounts: 4
+Performance: LOW
+Cache: 3,90 GB
+Database: 76,9 MB
+Free: 4,51 GB

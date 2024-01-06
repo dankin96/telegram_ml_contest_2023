@@ -1,0 +1,8 @@
+ if (header.index === header.column.getSortIndex()) {
+                              searchParams.set(
+                                "sortby",
+                                ${header.id}.${header.column.getIsSorted()}
+                              );
+                              setSearchParams(searchParams);
+                            }
+

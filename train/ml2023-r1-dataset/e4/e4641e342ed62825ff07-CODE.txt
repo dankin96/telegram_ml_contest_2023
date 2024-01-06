@@ -1,0 +1,38 @@
+
+class Rectangle:
+
+    def __init__(self, a, c):
+        self.a = (min(a[0], c[0]), max(a[1], c[1]))
+        self.c = (max(a[0], c[0]), min(a[1], c[1]))
+
+    def perimeter(self):
+        return round(2 * (round(abs(self.c[0] - self.a[0]), 2) + round(abs(self.a[1] - self.c[1]), 2)), 2)
+
+    def area(self):
+        return round(round(abs(self.c[0] - self.a[0]), 2) * round(abs(self.a[1] - self.c[1]), 2), 2)
+
+    def get_pos(self):
+        return self.a
+
+    def get_size(self):
+        return (round(abs(self.c[0] - self.a[0]), 2), round(abs(self.a[1] - self.c[1]), 2))
+
+    def move(self, dx, dy):
+        self.a = (round(self.a[0] + dx, 2), round(self.a[1] + dy, 2))
+        self.c = (round(self.c[0] + dx, 2), round(self.c[1] + dy, 2))
+
+    def resize(self, width, height):
+        self.c = (round(self.a[0] + width, 2), round(self.a[1] - height, 2))
+
+    def turn(self):
+        a = (self.a[1], -self.a[0])
+        c = (self.c[1], -self.c[0])
+        self.a = (min(a[0], c[0]), max(a[1], c[1]))
+        self.c = (max(a[0], c[0]), min(a[1], c[1]))
+
+    def scale(self, factor):
+        width, height = self.get_size()
+        delta_width = round(round(factor * width, 2) - width, 2)
+        delta_height = round(round(factor * height, 2) - height, 2)
+        self.a = (round(self.a[0] - round(delta_width / 2, 2), 2), round(self.a[1] + round(delta_height / 2, 2), 2))
+        self.c = (round(self.c[0] + round(delta_width / 2, 2), 2), round(self.c[1] - round(delta_height / 2, 2), 2))

@@ -1,0 +1,1 @@
+curl -X POST -H 'Content-type: application/json' --data '{"text":"Erro na rotina, ${NOME_EMPRESA}"}' YOUR_WEBHOOK_URL

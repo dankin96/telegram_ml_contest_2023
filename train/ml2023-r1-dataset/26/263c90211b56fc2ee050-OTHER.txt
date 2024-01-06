@@ -1,0 +1,15 @@
+## Circle Progress 1.2.3 (October 07, 2023)
+
+### Added
+ 
+- masonry pack mode
+- parallax justify, start and end options
+- progress font-family option
+
+### Fixed
+
+- cumulative layout shift (CLS)
+
+### Changed
+
+- minimum YOOtheme Pro version requirement: 4.1

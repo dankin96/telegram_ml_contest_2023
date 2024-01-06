@@ -1,0 +1,2 @@
+Some packages in nixos repository need build without any warning or more information.
+

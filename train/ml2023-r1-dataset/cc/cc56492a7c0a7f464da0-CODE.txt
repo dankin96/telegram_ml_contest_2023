@@ -1,0 +1,11 @@
+{
+  "cpf": "294.914.778-03",
+  "name": "GALANT & SILVA ADVOGADOS",
+  "slug": "galantesilvaadv",
+  "email": "gustavogalant@ad.oabsp.org.br",
+  "document": "72.233.664/0001-01",
+  "userName": "GUSTAVO HENRIQUE GALANT PEREIRA",
+  "nectarId": "18064206",
+  "quotiBaseUrl": "https://api.quoti.cloud/api/v1",
+  "jusapiBaseUrl": "https://api.jusapi.com/api/v2"
+}

@@ -1,0 +1,4 @@
+Kubernetes: версия 1.26.8+rk2k14 (RKE2)
+Cilium
+Oracle Linux Server 8.8
+5.15.0-104.119.4.2.el8uek.x86_64

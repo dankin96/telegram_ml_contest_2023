@@ -1,0 +1,41 @@
+EBRI20   =    20.150
+EBRI50   =    50.150
+EBRI100  =   100.150
+EBRI150  =   150.150
+EBRI200  =   200.150
+EBRI300  =   300.150
+EBRI400  =   400.150
+EBRI500  =   500.150
+EBRI1000 = 1.000.150
+
+
+CARA UPDATE di HP via BRIMO :
+1. Download aplikasi BRImo terbaru dari 
+   Google Play Store. 
+2. Buka aplikasinya kemudian Belum Punya 
+   Akun. 
+3. Selanjutnya pilih menu BRIZZI. 
+4. Tempelkan kartu e-money BRI ke bagian 
+   belakanng HP. 
+5. Lihat pada bagian paling atas dengan 
+   keterangan “Saldo BRIZZI yang belum 
+   aktif” kemudian tap Aktifkan. 
+6. Tempelkan kembali kartu Brizzi ke 
+   bagian pemindai NFC yang biasanya 
+   ada di bagian belakang HP dekat
+   kamera. 
+7. Tunggu sampai update saldo Brizzi 
+   selesai dan bertambah. 
+
+CARA UPDATE via ATM BRI : 
+1. Pastikan kamu menggunakan perangkat 
+   Android NFC (Near-Field 
+   Communication) yang aktif. 
+2. Pilih Menu BRIZZI pada halaman depan 
+   (sebelum login). 
+3. Pilih Menu Update Saldo. 
+4. Tempel kartu BRIZZI di belakang 
+   handphone. 
+5. Tahan posisi kartu sampai proses 
+   update saldo BRIZZI berhasil.
+

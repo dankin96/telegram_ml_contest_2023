@@ -1,0 +1,54 @@
+u57129@c2717af1-5c88-482b-82d7-2364e4ef274b 
+------------------------------------------- 
+OS: Ubuntu 22.04.3 LTS x86_64 
+Kernel: 5.15.0-1045-aws 
+Uptime: 4 days, 6 hours, 29 mins 
+Packages: 833 (dpkg) 
+Shell: bash 
+CPU: Intel Xeon Platinum 8375C (8) @ 3.499GHz 
+GPU: 00:03.0 Amazon.com, Inc. Device 1111 
+Memory: 35637MiB / 63276MiB 
+
+
+CPU
+Cores        : 4
+Logical      : 8
+Frequency    : 3500
+[■■■■■■■■■□] 99.0%
+
+RAM 
+Terpakai     : 34.65GB
+Tersedia     : 26.30GB
+Total        : 61.79GB
+[■■■■■□□□□□] 57.4%
+
+Penyimpanan 
+Terpakai     : 136.31GB
+Tersedia     : 214.84GB
+Total        : 370.02GB
+[■■■□□□□□□□] 38.8%
+
+Jaringan
+Total Unduh  : 64.31MB
+Total Unggah : 1.15MB
+
+Versi
+Aria2c       : v1.36.0
+FFMPEG       : v4.4.2
+Google Api   : v2.102.0
+MegaSDK      : v4.8.0
+P7Zip        : v16.02
+Pyro         : v2.3.7
+Rclone       : v1.64.0
+Qbittorrent  : v4.5.5
+YT-DLP       : v2023.09.24
+
+Lainnya
+Username     : @em_p_tybot
+Waktu Bot    : 4m30s
+Waktu Mesin  : 4d6h29m36s
+Diperbarui   : 2023-10-08 From 5 minutes ago
+
+Quotes       : 
+"Little pig, little pig ... let me in."
+=>  The Walking Dead

@@ -1,0 +1,7 @@
+docker run --name mikopbx -p 80:80 \
+           -v /Users/alexeyportnov/Documents/docker-mikopbx/cf:/cf \
+           -v /Users/alexeyportnov/Documents/docker-mikopbx/storage:/storage \
+           -e SSH_PORT=23 \
+           -e ID_WWW_USER="$(id -u www)" \
+           -e ID_WWW_GROUP="$(id -g www)" \
+           -it -d --restart always ghcr.io/mikopbx/mikopbx-x86-64

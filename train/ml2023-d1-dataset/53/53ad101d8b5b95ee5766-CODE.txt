@@ -1,0 +1,6 @@
+services:
+  test:
+    image: node:20.4.0-alpine3.17
+    environment:
+      - ENV_TEST=${URL#https://}
+    command: -c "echo ENV_TEST"

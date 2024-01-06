@@ -1,0 +1,2 @@
+--Werhidx
+game.Players.LocalPlayer.leaderstats.Time.Value = 1080

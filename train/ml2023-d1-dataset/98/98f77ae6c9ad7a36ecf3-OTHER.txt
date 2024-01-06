@@ -1,0 +1,7 @@
+Should Entities Even Know About Domain Services?
+In the previous example, you saw how domain events preclude injecting domain services
+into entities, whereas each of the other patterns goes in the opposite direction and tries to
+find a way to make the dependency feasible. The latter is a fairly contentious approach within
+the DDD community; many practitioners argue that it’s just a bad idea. Ultimately, you need
+to use context, personal preferences, and your experience to decide which option you like the
+best.

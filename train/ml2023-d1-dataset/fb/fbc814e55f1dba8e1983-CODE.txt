@@ -1,0 +1,1 @@
+SELECT substring(column_default, 2, length(column_default) - 8) FROM information_schema.columns WHERE (table_schema, table_name) = ('public', 'test') and column_name = 'test'

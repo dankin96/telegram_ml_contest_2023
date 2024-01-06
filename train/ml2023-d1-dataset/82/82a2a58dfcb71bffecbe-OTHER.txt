@@ -1,0 +1,20 @@
+✅ 00:30 • 🇺🇸 USD/CHF 🇨🇭 OTC • UP
+❌ 01:30 • 🇺🇸 USD/CHF 🇨🇭 OTC • UP
+✅ 02:30 • 🇬🇧 GBP/USD 🇺🇸 OTC • UP
+✅ 03:30 • 🇪🇺 EUR/GBP 🇬🇧 OTC • UP
+✅ 04:30 • 🇪🇺 EUR/GBP 🇬🇧 • LOW
+✅ 06:30 • 🇪🇺 EUR/USD 🇺🇸 • UP
+✅ 07:30 • 🇪🇺 EUR/JPY 🇯🇵 • UP
+✅ 08:30 • 🇦🇺 AUD/USD 🇺🇸 • LOW
+✅ 09:30 • 🇦🇺 AUD/USD 🇺🇸 • LOW
+❌ 10:30 • 🇺🇸 USD/CAD 🇨🇦 • UP
+✅ 12:30 • 🇬🇧 GBP/JPY 🇯🇵 • UP
+✅ 13:30 • 🇬🇧 GBP/USD 🇺🇸 • UP
+✅ 14:30 • 🇦🇺 AUD/JPY 🇯🇵 • UP
+✅ 15:30 • 🇦🇺 AUD/CAD 🇨🇦 • UP
+✅ 16:30 • 🇦🇺 AUD/CAD 🇨🇦 • UP
+✅ 18:30 • 🇦🇺 AUD/JPY 🇯🇵 • UP
+✅ 19:30 • 🇦🇺 AUD/USD 🇺🇸 • UP
+✅ 20:30 • 🇪🇺 EUR/JPY 🇯🇵 • LOW
+✅ 21:30 • 🇦🇺 AUD/CAD 🇨🇦 • UP
+✅ 22:30 • 🇪🇺 EUR/JPY 🇯🇵 • UP

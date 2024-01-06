@@ -1,0 +1,11 @@
+
+| Protocol Name   | Notional Volume | Premium Volume |
+|-----------------|----------------:|---------------:|
+| Aevo            |         11.3mm  |        145.3k  |
+| Hegic           |        170.9k   |          9.0k  |
+| Lyra            |         1.1mm   |         18.1k  |
+| Premia V2       |           0.6k  |           9.8  |
+| Premia V3       |         184.5k  |         10.8k  |
+| Rysk Finance    |          99.7k  |          1.0k  |
+| Thales          |          90.9k  |         48.6k  |
+| Typus Finance   |          13.3k  |          0.1k  |

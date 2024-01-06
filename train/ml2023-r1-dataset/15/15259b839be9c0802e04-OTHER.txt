@@ -1,0 +1,8 @@
+v10.1.1.0 (20420) Play Store uz
+Infinix Infinix X6816C android 11
+ROM: X6816C-ST683SBCDS-R-GL-221222V13
+Accounts: 2
+Performance: AVERAGE
+Cache: 2,39 GB
+Database: 28,8 MB
+Free: 28,83 GB

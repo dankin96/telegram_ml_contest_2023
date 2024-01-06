@@ -1,0 +1,5 @@
+Hi all 👋, 
+SCRT Labs is seeking feedback on a proposed a new design for the consensus seed sealing mechanism on Secret Network. This design would move away from using MRSIGNER for sealing the consensus seed to using MRENCLAVE. The goal of this change is to further decentralize Secret Network. 
+Background
+MRENCLAVE
+The MRENCLAVE (Measurement of Enclave) in SGX is calculated using a SHA-256 hash of ...

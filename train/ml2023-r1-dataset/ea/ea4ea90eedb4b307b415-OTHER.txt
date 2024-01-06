@@ -1,0 +1,2 @@
+            Last_SQL_Errno: 1942
+                Last_SQL_Error: Error during COMMIT: failed to update GTID state in mysql.gtid_slave_pos: 1062: Duplicate entry '0-67' for key 'PRIMARY'

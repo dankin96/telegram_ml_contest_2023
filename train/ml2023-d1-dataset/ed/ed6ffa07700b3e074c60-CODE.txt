@@ -1,0 +1,20 @@
+from pydantic import BaseModel
+
+
+class TestCase(BaseModel):
+    isAutotest: bool
+    name: str
+
+
+input_dict = {
+    "name": "Промокоды_и_скидки Покупка",
+    "isAutotest": True,
+    "lastModifiedTime": 1696498876355,
+    "createdTime": 1649721236289,
+    "id": 67
+}
+
+print(input_dict['name'])
+print(input_dict['isAutotest'])
+
+tc = TestCase.parse_obj(input_dict)

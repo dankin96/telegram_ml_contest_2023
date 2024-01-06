@@ -1,0 +1,20 @@
+    dhw_temperature:
+      name: "DHW temperature"
+      filters:
+      - lambda: |-
+          if (x > 0) return x;
+          else return {};
+    boiler_temperature:
+      name: "boiler temperature"
+      filters:
+      - lambda: |-
+          if (x < 110) return x;
+          else return {};
+    return_temperature:
+      name: "return temperature"
+    outside_temperature:
+      name: "outside temperature"
+      filters:
+      - lambda: |-
+          if (x < 80) return x;
+          else return {};

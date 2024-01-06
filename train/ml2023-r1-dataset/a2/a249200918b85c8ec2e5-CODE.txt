@@ -1,0 +1,6 @@
+def linear_search_max(arr):
+    max_val = float('-inf')  # Используем отрицательную бесконечность
+    for item in arr:
+        if item > max_val:
+            max_val = item
+    return max_val

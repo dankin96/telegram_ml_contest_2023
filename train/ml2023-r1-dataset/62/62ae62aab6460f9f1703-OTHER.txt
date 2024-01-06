@@ -1,0 +1,8 @@
+v10.1.1.1 (20471)  en
+Redmi 2201116TG android 13
+ROM: TP1A.220624.014
+Keep original name: true
+Performance: AVERAGE
+Cache: 1.51 GB
+Database: 117.7 MB
+Free: 40.75 GB

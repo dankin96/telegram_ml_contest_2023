@@ -1,0 +1,3 @@
+ip a
+ip l
+ip r

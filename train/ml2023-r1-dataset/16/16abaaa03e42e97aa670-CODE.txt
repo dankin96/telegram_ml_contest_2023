@@ -1,0 +1,4 @@
+import requests as r
+import json
+      
+json.dumps(r.get('https://jaki.jakarta.go.id/jakpenda/api/v1/pkb-detail', params={'source':'jaki', 'nop': 'B 2566 BZP'}, headers={'User-Agent': 'okhttp/4.10.0'}).json(), indent=5)

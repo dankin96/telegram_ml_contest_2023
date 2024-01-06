@@ -1,0 +1,12 @@
+USSD - Autonomous Secure Dollar
+$0.93
+Network: BSC
+H|L: 0.95|0.93
+1h:  0.0%      😏       
+24h: -1.2%     😑       
+7d:  -8.9%     😰       
+Vol: $132.0
+Liq: $9.7 K
+Circ Mcap: 10.8 K
+FDV 10.8 K
+CA: 0x19a23fea27b1d845a334dfaadb5e54fad7cdce74

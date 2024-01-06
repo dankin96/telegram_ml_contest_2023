@@ -1,0 +1,2 @@
+[mipi]
+lane_id = 0|1|-1|-1|-1|-1|-1|-1|          ;lane_id: -1 - disable

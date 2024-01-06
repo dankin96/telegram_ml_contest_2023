@@ -1,0 +1,7 @@
+ON-CHAIN BALANCE
+CONFIRMED         UNCONFIRMED       TOTAL           
+----------------  ----------------  ----------------
+      39560 sats       217941 sats       257501 sats
+ 0.00039560 BTC    0.00217941 BTC    0.00257501 BTC
+         15 %              84 %             100 %
+

@@ -1,0 +1,10 @@
+type=peer
+username=2345
+host=sipserver.mysipprovider.com
+fromuser=2345
+fromdomain=fwd.pulver.com
+canreinvite=no
+insecure=invite,port
+qualify=yes
+nat=yes
+context=from-mysipprovider ; this section will be defined in extensions.conf

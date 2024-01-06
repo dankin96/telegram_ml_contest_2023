@@ -1,0 +1,2 @@
+async for x in bot.iter_messages(572621020, limit=5):
+  await x.click(0)

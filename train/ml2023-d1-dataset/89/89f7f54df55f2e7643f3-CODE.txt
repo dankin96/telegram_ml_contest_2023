@@ -1,0 +1,6 @@
+{
+  "blockchainHeight": 3859263,
+  "stateHeight": 3859263,
+  "updatedTimestamp": 1696993441893,
+  "updatedDate": "2023-10-11T03:04:01.893Z"
+}

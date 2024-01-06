@@ -1,0 +1,7 @@
+(Zaxby's with Payment NO CVV) - $5
+(250 - 500 | Points) - $0.50
+(500 - 750 | Points) - $1.25
+(750 - 900 | Points) - $2.50
+(900 - 1250 | Points) - $4
+(1950+ | Points) - $6
+

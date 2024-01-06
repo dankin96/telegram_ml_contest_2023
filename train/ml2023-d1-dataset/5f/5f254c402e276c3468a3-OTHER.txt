@@ -1,0 +1,1 @@
+ERROR: Tempo limite de 40s execedido | FILE: /go/src/bitbucket.org/eucatur/api-pagamento/pay/eucard/eucard.go:59 | LINE: 59 | FUNCTION: bitbucket.org/eucatur/api-pagamento/pay/eucard.Post | HOSTNAME: api-pagamento-producao-61

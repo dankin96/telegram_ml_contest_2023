@@ -1,0 +1,41 @@
+
+import pgzrun
+
+WIDTH = 500
+
+HEIGHT = 500
+
+x = 250
+
+y = 250
+
+r = 50
+
+dx = 5
+
+dy = 5
+
+def update():
+
+    global x, y, dx, dy
+
+    x += dx
+
+    y += dy
+
+    if x + r > WIDTH or x - r < 0:
+
+        dx = -dx
+
+    if y + r > HEIGHT or y - r < 0:
+
+        dy = -dy
+
+def draw():
+
+    screen.fill("white")
+
+    screen.draw.circle((x, y), r, "red")
+
+pgzrun.go()
+

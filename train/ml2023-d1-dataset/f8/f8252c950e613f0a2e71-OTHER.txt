@@ -1,0 +1,6 @@
+WestCoast - gs.playnex.ru:30102
+EastCoast - gs.playnex.ru:30103
+Jungle - gs.playnex.ru:30104
+Utah - gs.playnex.ru:30105
+Valley - gs.playnex.ru:30106
+Italy - gs.playnex.ru:30107

@@ -1,0 +1,3 @@
+init gpio...
+gpiochip_add: registered GPIOs 0 to 63 on device: gk-gpio0
+Unable to handle kernel paging request at virtual address f000530c

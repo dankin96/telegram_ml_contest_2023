@@ -1,0 +1,10 @@
+Cycle ID    : 1110202300009 
+MID         : 30002253 
+Material    : INNER SEASONING OIL SOTO 1W 
+UOM         : ROL 
+
+Qty All            : 20 
+Qty Kedatangan     : 20 
+Sisa Belum Datang  : 0 
+
+Receive By  : Budi Gunawan 

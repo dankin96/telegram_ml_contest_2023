@@ -1,0 +1,11 @@
+VAR
+threads: POINTER TO ARRAY OF RenderThread;
+...
+nThreads := Machine.NumberOfProcessors();
+IF threads = NIL THEN
+  NEW(threads, nThreads);
+  VAR iThread: SIGNED32;
+  FOR iThread := 0 TO nThreads - 1 DO
+    NEW(threads^[iThread], SELF)
+  END;
+END;

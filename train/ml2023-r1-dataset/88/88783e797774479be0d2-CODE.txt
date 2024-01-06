@@ -1,0 +1,10 @@
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto 1fr;
+    grid-template-rows: auto minmax(50px,auto) auto minmax(50px,auto);
+    grid-template-areas:
+        "msg msg msg"
+        "header header header"
+        "mainNav subNav main"
+        "mainNav subNav footer";

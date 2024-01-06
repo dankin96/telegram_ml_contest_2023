@@ -1,0 +1,25 @@
+#include <GL/glut.h>
+
+void display(void) {
+    /* Código de renderização aqui */
+}
+
+int main(int argc, char **argv) {
+    glutInit(&argc, argv);
+    glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+    glutInitWindowSize(500, 500);
+    glutInitWindowPosition(100, 100);
+
+    int windowID = glutCreateWindow("Janela Inicial");
+    glutDisplayFunc(display);
+
+    /* Alterando o título da janela */
+    glutSetWindowTitle("Novo Título da Janela");
+
+    /* Alterando o título do ícone */
+    glutSetIconTitle("Novo Título do Ícone");
+
+    glutMainLoop();
+
+    return 0;
+}

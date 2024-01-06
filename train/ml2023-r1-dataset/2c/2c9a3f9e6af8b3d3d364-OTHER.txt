@@ -1,0 +1,12 @@
+Kotlinter 4.0.0 + Ktlint 1.0.0 (#943)
+
+* Update plugin kotlinter to v4
+
+* Apply intellij_idea style
+
+* Disable ktlint_standard_property-naming rule
+
+---------
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Co-authored-by: Goooler <wangzongler@gmail.com>

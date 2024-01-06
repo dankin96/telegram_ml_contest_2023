@@ -1,0 +1,4 @@
+nix-repl> contrib = pkgs.fetchFromGitHub { owner = "opencv"; repo = "opencv_contrib"; rev = "4.7.0"; sha256 = "sha256-meya0J3RdOIeMM46e/6IOVwrKn3t/c0rhwP2WQaybkE="; }
+
+nix-repl> contrib.outPath
+"/nix/store/waxy3npgw9g39wsnixk34kghg0hgh4kh-source"

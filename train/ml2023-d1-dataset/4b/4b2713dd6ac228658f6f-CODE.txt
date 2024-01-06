@@ -1,0 +1,21 @@
+let
+    Source = Excel.CurrentWorkbook(){[Name = "Таблица2"]}[Content],
+    Transform = Table.TransformColumns(
+        Source,
+        {
+            {
+                "Маршрут",
+                each
+                    let
+                        a = List.Buffer(Text.Split(_, "."))
+                    in
+                        List.Transform(List.Zip({List.RemoveLastN(a, 1), List.Skip(a)}), each Text.Combine(_, ".")),
+                type {
+                    text
+                }
+            }
+        }
+    ),
+    Expand = Table.ExpandListColumn(Transform, "Маршрут")
+in
+    Expand

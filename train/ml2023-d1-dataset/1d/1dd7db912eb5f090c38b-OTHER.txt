@@ -1,0 +1,3 @@
+
+Rule 이름 : <MISSING VALUE> 
+ 발생 오류 : Could not load rule /opt/elastalert/rules/sri_kafka_lag_status.yaml: A rule with the name SRI_KAFKA_LAG_STATUS already exists

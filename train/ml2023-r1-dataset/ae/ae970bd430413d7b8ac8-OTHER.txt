@@ -1,0 +1,10 @@
+
+------------ 
+OS: Alpine Linux v3.18 x86_64 
+Host: Google Compute Engine 
+Kernel: 6.1.0-12-cloud-amd64 
+Uptime: 7 days, 15 hours, 50 mins 
+Packages: 59 (apk) 
+Shell: ash 
+CPU: Intel Xeon (2) @ 2.199GHz 
+Memory: 493MiB / 973MiB

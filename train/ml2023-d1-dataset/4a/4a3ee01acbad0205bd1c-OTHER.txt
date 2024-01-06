@@ -1,0 +1,4 @@
+
+Do not add artificial delays. (They make broadcasting slower.)
+
+Do not ignore 429 errors. (This could lead to a ban.)

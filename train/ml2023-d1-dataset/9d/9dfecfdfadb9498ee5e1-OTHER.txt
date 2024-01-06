@@ -1,0 +1,7 @@
+Date: 10/10/2023
+Symbol         | PIPS
+----------------------
+YM - Dow Jones | -31 💸
+ES - SP500     | -1  💸
+NQ - Nasdaq    | 85  🤑
+Total          | 53  🤑

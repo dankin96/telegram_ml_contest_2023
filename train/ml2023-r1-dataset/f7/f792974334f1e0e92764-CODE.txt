@@ -1,0 +1,6 @@
+class Spam:
+    def broken_ins_method():
+
+s = Spam()
+
+s.broken_ins_method()

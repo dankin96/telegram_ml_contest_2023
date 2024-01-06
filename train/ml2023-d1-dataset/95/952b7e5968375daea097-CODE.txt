@@ -1,0 +1,2 @@
+Copy(IDispatchInvoke(CreateOleObject('Scriptlet.TypeLib'),false,'Guid',[]),2,36)
+

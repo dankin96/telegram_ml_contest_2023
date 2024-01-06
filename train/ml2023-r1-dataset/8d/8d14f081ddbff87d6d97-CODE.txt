@@ -1,0 +1,7 @@
+javascript
+// Code JavaScript pour le site e-learning
+
+// Exemple de fonctionnalité JavaScript
+document.addEventListener('DOMContentLoaded', function() {
+  // Code à exécuter lorsque la page est chargée
+});

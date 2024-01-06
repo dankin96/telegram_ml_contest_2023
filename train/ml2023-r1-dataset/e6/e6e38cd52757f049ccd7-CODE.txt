@@ -1,0 +1,3 @@
+if not str.isidentifier(filename) or filename not in os.listdir("/resources"):
+    return HttpResponseBadRequest()
+

@@ -1,0 +1,1 @@
+const subVerifierInfoArray = [ { verifier: subVerifier, idToken: session.idToken, },];const tmpProvider = await web3authSfa.connect({ verifier, verifierId: session.user.sub, idToken: session.idToken, subVerifierInfoArray,});if (tmpProvider) { setProvider(tmpProvider)}

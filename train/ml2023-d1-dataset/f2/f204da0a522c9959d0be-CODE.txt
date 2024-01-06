@@ -1,0 +1,10 @@
+fn main() {
+    let x: i32 = 132;
+    let y: String = format!("{x}");
+    let z: String = x.to_string();
+    let h: &str = z.as_str();
+    println!("`String`: {y} или {z}");
+    println!("`&str`: {h}");
+
+    // str::parse(x) <- не работает, ибо у `i32` нет `&str: From<i32>`
+}

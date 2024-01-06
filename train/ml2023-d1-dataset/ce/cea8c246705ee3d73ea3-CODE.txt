@@ -1,0 +1,18 @@
+---
+apiVersion: "cilium.io/v2"
+kind: CiliumClusterwideNetworkPolicy
+metadata:
+  name: "allow-from-spec-ips-to-node"
+spec:
+  description: "Policy specific ip+cluster all ip addresses to all cluster"
+  nodeSelector:
+    {}
+  ingress:
+  - fromEntities:
+    - cluster
+    - remote-node
+    - health
+    - kube-apiserver
+  - fromCIDR:
+    - xx.xx.xx.xx/32
+    - xx.xx.xx.xx/32

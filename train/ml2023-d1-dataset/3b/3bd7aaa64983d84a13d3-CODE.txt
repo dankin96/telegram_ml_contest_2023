@@ -1,0 +1,87 @@
+
+/* 首页我的媒体 封面隐藏 */
+.verticalSection.verticalSection-cards.section0.focusable.emby-scrollbuttons-scroller  button.itemAction.cardContent-button.cardContent.cardImageContainer.cardContent-shadow.cardContent-bxsborder-fv.coveredImage.cardScalable.cardPadder-backdrop {
+    display: none !important;
+}
+
+
+/* 首页我的媒体只显示文字 */
+
+.verticalSection.verticalSection-cards.section0.focusable.emby-scrollbuttons-scroller .backdropCard:not(.detailImageContainerCard) {
+  width: 80px !important;
+}
+
+/* 首页我的媒体 鼠标hover不显示菜单 */
+.verticalSection.verticalSection-cards.section0.focusable.emby-scrollbuttons-scroller .cardOverlayContainer.itemAction.cardScalable.cardPadder-backdrop.cardPadder-margin {
+    display: none;
+}
+
+/* 首页我的媒体文字置顶 */
+.verticalSection.verticalSection-cards.section0.focusable.emby-scrollbuttons-scroller {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    -webkit-backdrop-filter: saturate(1) blur(3em);
+    backdrop-filter: saturate(1) blur(3em);
+    background: #ffffff15 !important;
+    border-radius: 0;
+    border-bottom: 1px solid #ffffff15;
+    color: #fff;
+    padding: 0;
+    box-shadow: 0px 2px 5px rgb(0 0 0 / 20%);
+}
+
+.verticalSection.verticalSection-cards.section0.focusable.emby-scrollbuttons-scroller.hidden {
+  transform: translateY(-100%);
+}
+
+
+
+
+/* 我的媒体文字Hover特效 下方出现一条从左往右的线 */
+.verticalSection.verticalSection-cards.section0.focusable.emby-scrollbuttons-scroller .cardBox:hover {
+    transform: scale(1)!important;
+}
+
+.verticalSection.verticalSection-cards.section0.focusable.emby-scrollbuttons-scroller .cardBox::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 3px;
+  
+    background-color: #ffa500;
+  background: linear-gradient(45deg, transparent, #33FF57);
+    transition: width 0.5s ease; 
+}
+
+.verticalSection.verticalSection-cards.section0.focusable.emby-scrollbuttons-scroller .cardBox:hover::before {
+    width: 100%; 
+}
+
+
+/* 卡片hover反光效果 */
+.cardOverlayContainer.itemAction::before {
+    content: "";
+    position: absolute;
+    top: -120%;
+    left: -120%;
+    width: 320%;
+    height: 320%;
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0) 80%);
+    transform: rotate(45deg);
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.cardOverlayContainer.itemAction:hover::before {
+    top: -10%;
+    left: -10%;
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+/* 首页封面选中放大特效一丢丢 */
+[data-type="home"] .cardBox{transition:all 0.5s;}
+[data-type="home"] .cardBox:hover {transform:scale(1.01);transition:all 0.5s;}

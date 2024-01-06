@@ -1,0 +1,5 @@
+list_1 = list(range(11))
+list_2 = list(range(10))
+
+for element1, element2 in zip(list_1, list_2):
+    print(element1 * element2)

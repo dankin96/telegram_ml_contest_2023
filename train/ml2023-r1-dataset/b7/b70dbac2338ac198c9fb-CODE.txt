@@ -1,0 +1,1 @@
+last(/GW/net.if.status[ifOperStatus.3])=2 and (last(/GW/net.if.status[ifOperStatus.3],#1)<>last(/GW/net.if.status[ifOperStatus.3],#2))

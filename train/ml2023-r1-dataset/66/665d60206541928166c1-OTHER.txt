@@ -1,0 +1,2 @@
+lrwxrwxrwx 1 root root 39 ноя 10  2022 /usr/bin/python -> '/etc/alternatives/links/|usr|bin|python'
+

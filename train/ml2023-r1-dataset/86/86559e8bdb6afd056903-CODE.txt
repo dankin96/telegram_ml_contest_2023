@@ -1,0 +1,25 @@
+
+from pyrogram import Client, filters
+
+# Create a Pyrogram Client
+api_id = "YOUR_API_ID"
+api_hash = "YOUR_API_HASH"
+bot_token = "YOUR_BOT_TOKEN"
+
+app = Client("my_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
+
+# Define a command handler
+@app.on_message(filters.command("start"))
+async def start_command(client, message):
+    # Send a welcome message
+    await message.reply("Hello! This is your bot. Type /help for assistance.")
+
+# Define a help command handler
+@app.on_message(filters.command("help"))
+async def help_command(client, message):
+    # Send a help message
+    await message.reply("This is a simple bot. You can use /start to get started and /help for assistance.")
+
+# Run the bot
+if __name__ == "__main__":
+    app.run()

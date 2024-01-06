@@ -1,0 +1,61 @@
+class Booking(BaseModel):
+    """Бронирования"""
+
+    __tablename__ = "booking"
+
+    employee_id = Column(
+        BigInteger,
+        nullable=False,
+    )
+
+    car_id = Column(
+        BigInteger,
+        ForeignKey("booking_car.id"),
+        nullable=True,
+    )
+    car = relationship("BookingCar", back_populates="booking_cars")
+
+    parking_spot_id = Column(
+        BigInteger,
+        ForeignKey("booking_parking_spot.id"),
+        nullable=True,
+    )
+    parking_spot = relationship(
+        "BookingParkingSpot", back_populates="booking_car_spots"
+    )
+
+    workplace_id = Column(
+        BigInteger,
+        ForeignKey("booking_workplace.id"),
+        nullable=True,
+    )
+    workplace = relationship("BookingWorkplace", back_populates="booking_workplaces")
+
+    booking_all_day = Column(Boolean)
+    booking_time_start = Column(DateTime)
+    booking_time_end = Column(DateTime)
+    options = Column(Text)
+
+    __table_args__ = (
+        CheckConstraint(
+            "(car_id IS NOT NULL AND parking_spot_id IS NULL AND workplace_id IS NULL) OR "
+            "(parking_spot_id IS NOT NULL AND car_id IS NULL AND workplace_id IS NULL) OR "
+            "(workplace_id IS NOT NULL AND car_id IS NULL AND parking_spot_id IS NULL)",
+            name="check_single_not_null",
+        ),
+    )
+
+class BookingParkingSpot(BaseModel):
+    """Парковочное место"""
+
+    __tablename__ = "booking_parking_spot"
+
+    company_id = Column(
+        BigInteger,
+        nullable=True,
+        comment="Идентификатор компании",
+    )
+    parking_spot_num = Column(Integer)
+
+    booking_car_spots = relationship("Booking", back_populates="parking_spot")
+    ready_for_book = Column(Boolean, default=True)

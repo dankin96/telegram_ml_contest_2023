@@ -1,0 +1,21 @@
+with open(r"D:\Загрузки\01.txt", encoding="utf-8") as file, open(r"D:\Загрузки\02.txt", 'w', encoding="utf-8") as filew:
+    k = file.read().split('
+')
+    mylist = []
+    for i in range(len(k)):
+        if i < len(k):
+            if ord(k[i][0]) > 122:
+                k[i-1] = k[i-1] + k[i]
+                mylist.append(i)
+        else:
+            break
+    while mylist != []:
+        for i in range(len(k)):
+            if i in mylist:
+                del k[i]
+                del mylist[0]
+                for q in mylist:
+                    q -= 1
+                break
+    for n in k:
+        print(n)

@@ -1,0 +1,4 @@
+v10.1.1.1 (20471)  fa
+Redmi M2101K7AG android 12
+ROM: SKQ1.210908.001 test-keys
+Performance: AVERAGE

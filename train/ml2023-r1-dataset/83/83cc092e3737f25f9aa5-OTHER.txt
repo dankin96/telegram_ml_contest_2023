@@ -1,0 +1,11 @@
+Ведущие подкаста 'Data Coffee' обсуждают новости и делятся своими мыслями!
+
+Shownotes:
+0:40 Swift и MacOS в облаке
+9:18 Боль от MacOS
+11:34 Microsoft скрепочка на стероидах
+18:39 Microsoft web apps
+23:14 Python 3.12
+31:56 Миграция между версиями
+35:03 chatgpt whiteboard coding
+37:10 chatgpt-[...]

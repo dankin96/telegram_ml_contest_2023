@@ -1,0 +1,14 @@
+
+fun getNftItemInit(item_index: Int): StateInit {
+        let data: Cell = beginCell().storeUint(item_index,64).storeSlice(self.nFTContractAddress.asSlice()).endCell();
+        let itemInit: StateInit = StateInit{
+            data: data,
+            code: self.nftItemCode
+        }; 
+        return itemInit;
+    }
+
+
+    get fun getNftAddressByIndex(item_index: Int): Address {
+        return contractAddress(self.getNftItemInit(item_index));        
+    }

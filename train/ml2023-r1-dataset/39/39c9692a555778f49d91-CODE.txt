@@ -1,0 +1,14 @@
+# ********************
+# pip install colorama
+# https://github.com/tartley/colorama
+# ********************
+from colorama import Fore, Back
+
+print(f"{Fore.RED}Hello, World (1)!")
+print(f"{Fore.YELLOW}Hello, World (2)!{Fore.RESET}")
+print(f"{Back.GREEN}Hello, World (3)!{Back.RESET}")
+print(f"{Fore.MAGENTA}Hello, World (4)!")
+print(f"Hello, World (5)!")
+print(f"{Fore.RESET}Hello, World (6)!")
+# ********************
+

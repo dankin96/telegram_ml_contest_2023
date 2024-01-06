@@ -1,0 +1,1 @@
+"A minimum font-size of 12px is set for Chrome users with a special, foreign UI locale (language) - e.g. Chinese, Korean, Japanese, Thai etc. If however, the font-size for any content on your website is set to a value that is less than 12px, it will automatically be resized to 12px"

@@ -1,0 +1,31 @@
+    const openRandomIndividualVerifiedEscortProfile = (trueOrFalse) => {
+      const matchUglyCondition =
+        (trueOrFalse) =>
+        ({ accountHasVerifiedEscortOrEmptyEscorts, isAgency }) =>
+          accountHasVerifiedEscortOrEmptyEscorts === trueOrFalse && !isAgency;
+
+      cy.request(`${Cypress.env("API")}/v1/`)
+        .its("body.list")
+        .as("list");
+
+      cy.wrap(_.range(30)).each((num, i, array) => {
+        const randomAcc =
+          this.list[Math.floor(Math.random() * this.list.length)];
+        cy.request({
+          url: `${Cypress.env("API")}/v2/escorts/${randomAcc.id}`,
+          failOnStatusCode: false,
+        })
+          .its("body")
+          .then(matchUglyCondition(trueOrFalse))
+          .then((matches) => {
+            if (matches) {
+              cy.visit(
+                `${Cypress.env("URL")}${
+                  randomAcc.locations["0"].url
+                }/female-escorts/${randomAcc.id}`
+              );
+              return false;
+            }
+          });
+      });
+    };

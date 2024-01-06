@@ -1,0 +1,13 @@
+class Solution:
+    def guessNumber(self, n: int) -> int:
+        start = 0
+        finish = n
+        while start <= finish:
+            num = start + (finish - start)//2
+            answer = guess(num)
+            if answer == -1:
+                finish = num
+            elif answer == 1:
+                start = num + 1
+            elif answer == 0:
+                return num

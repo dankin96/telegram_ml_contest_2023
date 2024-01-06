@@ -1,0 +1,32 @@
+Exchange ARBTC 1h Binance
+Price:0.00014570|0.00014570|0.00014600
+Vol:        41|     415|     469
+ATR: 0.00000073
+
+❌OBV:  -7.0 K|  -7.0 K|  -6.6 K
+⚪RSI:   42.50|   42.50|   44.47
+⚪MFI:   26.56|   40.94|   37.46
+⚪CCI:   20.75|   44.41|   68.51
+❌WR%:  -76.92|  -76.92|  -43.75
+✅ADX:   48.50|   50.35|   52.34
+
+⚪MOM: No Momentum
+❌SMA: Price Below SMA Bearish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+❌PSAR: Bearish
+
+Support And Resistance
+S: 0.00014490
+R: 0.00014710
+
+Volatility is low
+
+EXPERIMENTAL 🧪
+🐻RSI: bearish divergence
+🐻MFI: Bearish divergence
+🐻FVE: Bearish divergence
+🐻Volume: Bearish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

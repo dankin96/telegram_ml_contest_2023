@@ -1,0 +1,2 @@
+vless://7e7f8099-77b0-42d1-f05f-b3d33751e32a@[2606:4700:83b2::1]:2087?type=grpc&serviceName=snapp.ir&mode=multi&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1%2Ch3&allowInsecure=1&sni=join.cl0udflar3.com#%E2%9C%8C%F0%9F%8F%BBvpnv2rayspeed%E2%9C%8C%F0%9F%8F%BB-hho244ek-Host
+

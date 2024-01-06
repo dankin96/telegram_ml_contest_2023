@@ -1,0 +1,2 @@
+Match User app-xyz
+    AuthorizedKeysFile /home/admin-1/.ssh/authorized_keys /home/admin-2/.ssh/authorized_keys

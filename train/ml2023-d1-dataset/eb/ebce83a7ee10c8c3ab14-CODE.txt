@@ -1,0 +1,26 @@
+function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+  
+  // Этот код будет выполняться при каждой смене маршрута (например, при смене языка)
+  useEffect(() => {
+    // Получите текущие параметры запроса
+    const { query } = router;
+    
+    // Перенаправьтесь на ту же страницу с языковыми параметрами
+    // и текущими параметрами запроса
+    router.push(
+      {
+        pathname: router.pathname,
+        query: {
+          ...query,
+          lang: 'your-new-language', // Замените 'your-new-language' на нужный вам язык
+        },
+      },
+      undefined, // Сохраняйте этот параметр как undefined, чтобы обновить текущий URL
+    );
+  }, [router.pathname]); // Вызывайте этот эффект при изменении маршрута
+
+  return <Component {...pageProps} />;
+}
+
+export default MyApp;

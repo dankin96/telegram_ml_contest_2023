@@ -1,0 +1,7 @@
+
+# postgrest.ex
+If Application.fetch_env(:supabase, :postgrest) do
+  defmodule do
+    # implementação
+  end
+end

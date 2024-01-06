@@ -1,0 +1,9 @@
+Selected flight type:Recreational - Video/Photographic Flight - VLOS
+Information for point:
+402632.879107N 0034639.207149W
+Calculated on 10/7/2023, 9:45:02 AM
+
+ALERT: Prohibited area. LEP118 . The flight of RPAS is prohibited.
+CAUTION: This map only depicts airspace up to 120m AGL, it shall only be used to plan drone flights.NOTAM hour are in UTC
+
+Horarios de NOTAM en UTC. Consulte Sistema de referencia temporal en la AIP, GEN 2.1, para más información.

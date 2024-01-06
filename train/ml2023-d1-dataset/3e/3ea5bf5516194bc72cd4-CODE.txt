@@ -1,0 +1,7 @@
+mkdir node_app
+cd node_app
+nano package.json
+
+sudo groupadd docker
+sudo usermod -aG docker username
+docker build . -t nodeproject

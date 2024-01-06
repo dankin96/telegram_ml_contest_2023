@@ -1,0 +1,17 @@
+Please check operator VPN and routing to it
+
+At least 1 events occurred between 2023-10-11 18:12 UTC and 2023-10-11 18:22 UTC
+
+@timestamp: 2023-10-11T18:22:45Z
+EndPoint: JAVNA_159.8.46.196_9912
+Level: INFO
+Message: None
+Route: BOTH
+Status: NOK
+_id: axv6H4sBMpmHyLOhHJTm
+_index: oper-routing-2023-10
+_type: oper-routing
+host: dtr-haproxy-1
+num_hits: 44
+num_matches: 14
+type: oper-routing

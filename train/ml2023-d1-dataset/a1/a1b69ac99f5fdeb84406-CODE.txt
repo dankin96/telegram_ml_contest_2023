@@ -1,0 +1,5 @@
+apt clean
+apt update
+apt full-upgrade -y
+reboot now
+

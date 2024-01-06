@@ -1,0 +1,2 @@
+Total: 1784 packages (5 upgrades, 1779 reinstalls, 942 binaries), Size of downloads: 18941546 KiB
+Fetch Restriction: 1 package (1 unsatisfied)

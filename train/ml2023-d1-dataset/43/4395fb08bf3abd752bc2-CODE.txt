@@ -1,0 +1,7 @@
+fn fill_matrix(general: [[i32; 3]; 3], free: [i32; 3], side: FillSide) -> [[i32; 3]; 3] {
+    let mut matrix = general;
+
+    ...
+
+    matrix
+}

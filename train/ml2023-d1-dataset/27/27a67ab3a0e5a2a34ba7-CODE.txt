@@ -1,0 +1,9 @@
+let anActivity = Java.use('android.app.Activity');
+
+anActivity.onCreate.overload('android.os.Bundle').implementation = function(bundle){
+  console.log('[+] Activity created: '+this.getComponentName()+ ' from '+this.getCallingActivity());
+  if (this.getComponentName() == "ComponentInfo{com.pkg/com.pkg.a.b}"){
+    console.log("currently in b activity ")
+  }
+  return this.onCreate(bundle);
+}

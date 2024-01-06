@@ -1,0 +1,3 @@
+
+   yersinia 2>&1 | tee yersinia.log
+   

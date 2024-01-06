@@ -1,0 +1,15 @@
+for i in 1 11 22; do
+  export COMPRESS="${i}"
+  echo -e "
+Level = ${COMPRESS}
+"
+  start_time=$(date +%s.%N)
+  time getfacl -R / 2> /dev/null | zstd -${COMPRESS} -o /root/perms.acl-compress-${COMPRESS}.zst &> /dev/null
+  end_time=$(date +%s.%N)
+  elapsed_time=$(echo "$end_time - $start_time" | bc)
+  file_size=$(du -sch /root/perms.acl-compress-${COMPRESS}.zst | head -1 | awk '{print $1}')
+  speed=$(echo "scale=2; $file_size / $elapsed_time" | bc)
+  echo -e "Size: $file_size"
+  echo -e "Speed: ${speed}MB/s"
+  echo -e "##################################"
+done

@@ -1,0 +1,32 @@
+Exchange CFXBTC 1h Binance
+Price:0.00000464|0.00000464|0.00000464
+Vol:         0|       0|   4,552
+ATR: 0.00000002
+
+❌OBV:-262.5 K|-262.5 K|-262.5 K
+⚪RSI:   42.48|   42.48|   42.48
+⚪MFI:   30.51|   35.96|   36.25
+⚪CCI: -107.05| -134.17| -150.30
+❌WR%:  -75.00|  -83.33|  -83.33
+⚪ADX:    22.69|   21.98|   21.21
+
+❌MOM: Bearish Momentum
+❌SMA: Price Below SMA Bearish
+❌ADI: -DI > +DI Bearish
+❌MACD: Bearish
+❌PSAR: Bearish
+
+Support And Resistance
+S: 0.00000462
+R: 0.00000470
+
+Volatility is low
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

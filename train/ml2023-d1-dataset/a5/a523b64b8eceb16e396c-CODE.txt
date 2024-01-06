@@ -1,0 +1,10 @@
+S = input()
+
+result = {char: 0 for char in "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"}
+
+for char in S:
+    if char.isalpha():
+        result[char] += 1
+
+for char, count in result.items():
+    print(f"{char} {count}")

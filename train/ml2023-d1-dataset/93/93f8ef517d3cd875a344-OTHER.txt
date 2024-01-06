@@ -1,0 +1,1 @@
+jdbc:postgresql://cyzt-sVMAWcl7SyWYnfWF1vQRsQ@psqlgw.local.cyolo.io:15432/postgres?sslmode=require

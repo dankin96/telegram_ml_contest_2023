@@ -1,0 +1,6 @@
+TLS.Certificate.ExpirationDate(*) STRING "Expiration date (YYYY-MM-DD) of X.509 certificate of remote TLS service"
+TLS.Certificate.ExpirationTime(*) UINT64 "Expiration time of X.509 certificate of remote TLS service"
+TLS.Certificate.ExpiresIn(*) INT "Days until expiration of X.509 certificate of remote TLS service"
+TLS.Certificate.Issuer(*) STRING "Issuer of X.509 certificate of remote TLS service"
+TLS.Certificate.Subject(*) STRING "Subject of X.509 certificate of remote TLS service"
+TLS.Certificate.TemplateID(*) STRING "Template ID of X.509 certificate of remote TLS service"

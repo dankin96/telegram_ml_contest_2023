@@ -1,0 +1,15 @@
+# Official Termux Stable repository
+deb https://termux.com/pkg stable main
+
+# Official Termux Unstable repository
+# deb https://termux.com/pkg unstable main
+
+# Additional Termux repositories
+# deb [arch=all,arm] https://dl.bintray.com/termux/termux-packages-24 stable main
+# deb [arch=all,arm] https://dl.bintray.com/termux/termux-packages-24-sudo stable main
+
+# Science repositories
+# deb [arch=all,arm] https://dl.bintray.com/termux/science-packages-24 science stable main
+
+# Game repositories
+# deb [arch=all,arm] https://dl.bintray.com/termux/game-packages-24 games stable main

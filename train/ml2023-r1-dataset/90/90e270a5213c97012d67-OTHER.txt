@@ -1,0 +1,10 @@
+Cycle ID    : 0610202300008 
+MID         : 20001282 
+Material    : ONION FLAKE 
+UOM         : KG 
+
+Qty All            : 1470 
+Qty Kedatangan     : 490 
+Sisa Belum Datang  : 0 
+
+Receive By  : Anton 

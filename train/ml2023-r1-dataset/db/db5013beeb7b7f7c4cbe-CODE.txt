@@ -1,0 +1,1 @@
+sudo docker exec -it lnd.embassy lncli --rpcserver=lnd.embassy listchannels

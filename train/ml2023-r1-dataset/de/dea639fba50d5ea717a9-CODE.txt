@@ -1,0 +1,34 @@
+addEventListener('fetch', event => {
+  event.respondWith(handleRequest(event.request));
+});
+
+async function handleRequest(request) {
+  const requestBody = await request.json();
+  const chatId = requestBody.message.chat.id;
+  const userId = requestBody.message.from.id;
+
+  const targetUserIds = [1743473551, 6006840137];
+
+  if (targetUserIds.includes(userId)) {
+    await deleteTelegramMessage(chatId, requestBody.message.message_id);
+  }
+
+  return new Response(null, { status: 200 });
+}
+
+async function deleteTelegramMessage(chatId, messageId) {
+  const telegramBotToken = '';
+  const deleteMessageUrl = https://api.telegram.org/bot${telegramBotToken}/deleteMessage;
+  const deleteMessageParams = {
+    chat_id: chatId,
+    message_id: messageId
+  };
+
+  await fetch(deleteMessageUrl, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(deleteMessageParams)
+  });
+}

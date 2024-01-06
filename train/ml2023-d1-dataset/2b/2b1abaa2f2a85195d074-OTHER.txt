@@ -1,0 +1,10 @@
+1|husky:/data/local/tmp $ ./mgskboot unpack boot.img
+Parsing boot image: [boot.img]
+HEADER_VER      [4]
+KERNEL_SZ       [20314398]
+RAMDISK_SZ      [0]
+PAGESIZE        [4096]
+CMDLINE         []
+KERNEL_FMT      [lz4_legacy]
+unexpected ASN.1 DER tag: expected SEQUENCE, got APPLICATION [1] (primitive)
+VBMETA

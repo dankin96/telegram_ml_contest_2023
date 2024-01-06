@@ -1,0 +1,12 @@
+const servers = {
+  server1: true,
+  server2: false,
+  server3: false,
+  server4: false
+};
+let activeServer = 'server1';
+const setActiveServer = (name) => {
+  servers[activeServer] = false;
+  servers[name] = true;
+  activeServer = name;
+};

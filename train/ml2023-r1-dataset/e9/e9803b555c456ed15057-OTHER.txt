@@ -1,0 +1,9 @@
+Expired On : 2023-10-22
+Remarks : Poxaca
+Domain : rtrw.poxaca.my.id
+Port : 999
+Id : 746729b1-f771-4570-91b2-8e53928f2ef7
+Encryption : none
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Link Vmess Grpc : vmess://ICAgICAgewogICAgICAidiI6ICIwIiwKICAgICAgInBzIjogIlBveGFjYSIsCiAgICAgICJhZGQiOiAicnRydy5wb3hhY2EubXkuaWQiLAogICAgICAicG9ydCI6ICI5OTkiLAogICAgICAiaWQiOiAiNzQ2NzI5YjEtZjc3MS00NTcwLTkxYjItOGU1MzkyOGYyZWY3IiwKICAgICAgImFpZCI6ICIwIiwKICAgICAgIm5ldCI6ICJncnBjIiwKICAgICAgInBhdGgiOiAiR3VuU2VydmljZSIsCiAgICAgICJ0eXBlIjogIm5vbmUiLAogICAgICAiaG9zdCI6ICJjdGVjaC5tZSIsCiAgICAgICJ0bHMiOiAidGxzIgp9Cg==
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

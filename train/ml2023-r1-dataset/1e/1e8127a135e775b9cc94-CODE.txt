@@ -1,0 +1,2 @@
+argf=(rec,f=rec((...a)=>f(...a)))=>Object.assign(f, {of(F){f=F}})
+argf(f=>x=> x?f(x-1)+1 : 0)(10)

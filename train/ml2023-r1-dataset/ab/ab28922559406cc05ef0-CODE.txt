@@ -1,0 +1,9 @@
+while (TryDoSmth()) {}
+
+while (TryDoSmth()) { continue; }
+
+for (; TryDoSmth();) {}
+
+while (true) {
+    if (!TryDoSmth()) break;
+}

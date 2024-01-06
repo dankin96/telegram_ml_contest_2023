@@ -1,0 +1,4 @@
+anton-j@hotmail.com:Kingfotboll99 | 2FA = False | Number Of Games = 3 | Platforms = [PC, PC, PC] | Games List = [For Honor /  Shooter /  Rainbow Six® Siege /  Games for everyone /  UNO]
+sayies1234@gmail.com:Quentin669 | 2FA = False | Number Of Games = 2 | Platforms = [PS4, PC] | Games List = [Shooter /  Rainbow Six® Siege /  Shooter /  Rainbow Six® Siege]
+natansk12@mail.ru:34frokserg | 2FA = False | Number Of Games = 4 | Platforms = [PC, PC, PC, PC] | Games List = [Action /  Assassins's Creed archives /  Featured Games /  Assassin's Creed® Unity /  Shooter /  Rainbow Six® Siege /  Sports /  Steep /  RPG /  Tom Clancy's The Division]
+523442103@qq.com:zsq1986830 | 2FA = False | Number Of Games = 5 | Platforms = [PC, PC, PC, PC, PC] | Games List = [For Honor /  Ghost Recon® Breakpoint /  Shooter /  Ghost Recon® Wildlands /  Shooter /  Rainbow Six® Siege /  RPG /  Tom Clancy's The Division]

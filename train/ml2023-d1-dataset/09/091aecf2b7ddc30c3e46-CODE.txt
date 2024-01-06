@@ -1,0 +1,8 @@
+python
+     set1 = {1, 2, 3}
+     set2 = {3, 4, 5}
+     union = set1 | set2  # Union
+     intersection = set1 & set2  # Intersection
+     difference = set1 - set2  # Difference
+     sym_diff = set1 ^ set2  # Symmetric Difference
+     

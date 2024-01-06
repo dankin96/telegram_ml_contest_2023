@@ -1,0 +1,3 @@
+Merge pull request #6825 from lumarogit/github-cli
+
+github-cli : upgrade to 2.36.0

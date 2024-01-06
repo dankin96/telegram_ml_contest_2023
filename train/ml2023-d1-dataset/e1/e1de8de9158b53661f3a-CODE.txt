@@ -1,0 +1,12 @@
+javascript
+// Old method call
+bot.on('callback_query', (query) => {
+  bot.answerCallbackQuery(query.id);
+});
+
+// Updated method call
+bot.on('callback_query', (query) => {
+  bot.answerCallbackQuery({
+    callback_query_id: query.id
+  });
+});

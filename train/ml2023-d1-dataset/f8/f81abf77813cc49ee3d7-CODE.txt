@@ -1,0 +1,5 @@
+try {
+    process = spawn(...)
+} finally {
+    _ = process.kill()
+}

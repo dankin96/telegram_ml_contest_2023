@@ -1,0 +1,9 @@
+ssh into umbrel
+docker container ps
+docker exec -it <container-id> /bin/bash
+method 1:
+  apt update && sudo apt install vim-common
+  cd root/.lightning/bitcoin 
+  xxd hsm_secret
+method 2:
+  lightning-hsmtool getcodexsecret /root/.lightning/bitcoin/hsm_secret <id>

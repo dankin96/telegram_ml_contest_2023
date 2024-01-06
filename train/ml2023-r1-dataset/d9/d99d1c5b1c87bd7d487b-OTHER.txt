@@ -1,0 +1,13 @@
+
+| usuario           |   horas |
+|:------------------|--------:|
+| jflorez           |    1589 |
+| gcp               |    1038 |
+| ximena.caporale   |    1038 |
+| rbertolotto       |     992 |
+| emilia.fuentefria |     828 |
+| diego.almansa     |     720 |
+| eolico            |     535 |
+| mirurtia          |     484 |
+| victoria.pardinas |     469 |
+| brunolop          |     437 |

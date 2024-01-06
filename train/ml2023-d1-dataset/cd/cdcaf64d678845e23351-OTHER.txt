@@ -1,0 +1,12 @@
+trojan://telegram-id-privatevpns@35.179.30.8:22222?security=tls&sni=trj.rollingnext.co.uk&alpn=http%2F1.1&type=tcp&headerType=none#%F0%9F%90%B1%20%7C%20%40GorbeOnline
+
+vless://05519058-d2ac-4f28-9e4a-2b2a1386749e@52.19.65.90:22222?encryption=none&security=tls&sni=telegram-channel-vlessconfig.sohala.uk&type=ws&host=telegram-channel-vlessconfig.sohala.uk&path=%2Ftelegram-channel-vlessconfig-ws#%F0%9F%90%B1%20%7C%20%40GorbeOnline
+
+trojan://telegram-id-directvpn@3.76.67.58:22222?security=tls&sni=trj.rollingnext.co.uk&alpn=http%2F1.1&type=tcp&headerType=none#%F0%9F%90%B1%20%7C%20%40GorbeOnline
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@series-a1.samanehha.co:443#%F0%9F%90%B1%20%7C%20%40GorbeOnline
+
+vless://f39f56ac-014b-4c90-a112-fc9f7f813bfc@ar.mehd.cfd:57082?encryption=none&security=none&type=tcp&headerType=http&host=fast.com#%F0%9F%90%B1%20%7C%20%40GorbeOnline
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB@www.outline.network.ak1887.fr8678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743bkwqeikvdyufr.cyou:443#%F0%9F%90%B1%20%7C%20%40GorbeOnline
+

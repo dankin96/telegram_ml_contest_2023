@@ -1,0 +1,10 @@
+Dear Professor [Professor's Last Name],
+I hope this message finds you well. I am reaching out to express my interest in pursuing a PhD in Computer Science at [University Name] for the fall 2024 semester and to discuss the possibility of working under your guidance.
+I would like to highlight my research interests which lie in Algorithms Design, specifically focusing on Graph Algorithms and Randomized Algorithms. I have had the privilege of teaching these subjects at an IOI level and have even designed algorithmic problems for online coding competitions.
+Currently, I am a Computer Science student at the Sharif University of Technology in Iran, on track to graduate next year with a GPA of 3.83 out of 4.00 (equivalent to 18.69 out of 20.00). Furthermore, in 2019, I had the honor of securing a gold medal at the International Olympiad in Informatics, ranking 8th overall. I have also won gold and bronze medals at the Iranian National Olympiad in Informatics.
+During a summer internship at the Institute of Science and Technology Austria, I worked on a research project focused on developing a new value-iteration-based method for the verification of Markov Decision Processes, under the guidance of Professor Krishnendu Chatterjee. This research is currently in the submission process for publication.
+I have reviewed your recent publications on your website and found them closely aligned with my research interests. I am excited about the possibility of joining your research efforts.
+If you believe a meeting would be beneficial, I am readily available at your convenience. For your reference, I have attached my CV and academic transcript to this email.
+Thank you for taking the time to consider my application.
+Best regards,
+Mahdi JafariRaviz

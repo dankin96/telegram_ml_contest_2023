@@ -1,0 +1,4 @@
+$build['content'] = [
+      '#type' => 'table',
+      '#rows' => $rows,
+    ];

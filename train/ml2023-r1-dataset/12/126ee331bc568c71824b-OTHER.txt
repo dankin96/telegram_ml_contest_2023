@@ -1,0 +1,3 @@
+I’ve just tested it out, it works fine with one critical exception:
+Deep sleep uses 700uA.
+The nice!nano uses about 20uA.

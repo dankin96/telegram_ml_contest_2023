@@ -1,0 +1,8 @@
+Uncharted     : 1:10 🔴
+Stampida      : Abre 12:00
+Silver River  : Abre 11:30
+Grand Canyon  : 0:00 🟢
+Wild Buffalos : 0:00 🟢
+Crazy Barrels : 0:00 🟢
+VolPaiute     : X    ⭕
+Carousel      : 0:00 🟢

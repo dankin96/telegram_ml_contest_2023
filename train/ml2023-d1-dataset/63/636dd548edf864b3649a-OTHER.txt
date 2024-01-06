@@ -1,0 +1,7 @@
+ERROR:    recovery:  footer is wrong
+ERROR:    recovery:  Signature verification failed
+ERROR:    recovery:  error: 21
+
+Install from ADB completed with status 2.
+Installation aborted.
+

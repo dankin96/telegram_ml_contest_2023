@@ -1,0 +1,39 @@
+{
+  "update_id": 982731576,
+  "message": {
+    "message_id": 170927,
+    "from": {
+      "id": 6298349398,
+      "is_bot": false,
+      "first_name": "Amrita",
+      "username": "Light_35h"
+    },
+    "chat": {
+      "id": -1001636994005,
+      "title": "International Students - Australia 2023",
+      "username": "InternationalstudentsofAustralia",
+      "type": "supergroup"
+    },
+    "date": 1696567647,
+    "new_chat_participant": {
+      "id": 6298349398,
+      "is_bot": false,
+      "first_name": "Amrita",
+      "username": "Light_35h"
+    },
+    "new_chat_member": {
+      "id": 6298349398,
+      "is_bot": false,
+      "first_name": "Amrita",
+      "username": "Light_35h"
+    },
+    "new_chat_members": [
+      {
+        "id": 6298349398,
+        "is_bot": false,
+        "first_name": "Amrita",
+        "username": "Light_35h"
+      }
+    ]
+  }
+}

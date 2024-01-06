@@ -1,0 +1,6 @@
+word black body: kasyn
+email: wysylkanewsletter@newsletterpwn.pl
+domains: ['snrlink-page.com', 'campaign.synerise.com', 'd15k2d11r6t6rl.cloudfront.net', 'psychologia.pwn.pl', 'ksiegarnia.pwn.pl', 'emp-scs.img-osdw.pl', 'o.ibuk.pl', 'synerise.emaillabs.info.pl']
+emails: []
+box: op_ania
+time: 2023-10-10 17:20:22

@@ -1,0 +1,5 @@
+x = 0
+async for c in bot.iter_dialogs():
+    x += 1
+    await bot.send_read_acknowledge(c)
+p(x)

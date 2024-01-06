@@ -1,0 +1,2 @@
+bash
+scp /home/seu_usuario/arquivo.txt usuario_windows@ip_do_windows:/caminho/para/o/diretorio

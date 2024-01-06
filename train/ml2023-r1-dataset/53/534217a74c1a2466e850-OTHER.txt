@@ -1,0 +1,7 @@
+
+/help            显示此帮助信息
+/create          创建抽奖 
+/draw            强制开奖（创建者和管理可用）
+/listlottery     查看抽奖列表
+/deletelottery   删除抽奖（创建者和管理可用）
+/id              获取用户/群组/频道的 ID

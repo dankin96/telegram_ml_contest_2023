@@ -1,0 +1,4 @@
+>>> from factory import fuzzy
+>>> email = fuzzy.FuzzyText(prefix="test-")
+>>> type(email)
+<class 'factory.fuzzy.FuzzyText'>

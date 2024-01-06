@@ -1,0 +1,116 @@
+ACEH         Bank Aceh
+ALADINS      Bank Aladin Syariah
+ALLO         Bank ALLO
+ALTO         Alto Pay
+ALTOCASH     Alto Cash
+ALTOREMIT    ALTO REMIT
+AMAR         Amar Bank
+ANTAR        Bank Antar Daerah
+ANZ          BANK ANZ INDONESIA
+ARTHA        BANK ARTHA GRAHA
+ATMB         ATMB Plus
+ATMPRIMA     ATM Prima
+BALI         BPD Bali
+BANTEN       Bank Banten
+BCA          BANK BCA
+BCAD         BANK BCA Digital
+BCAS         BANK  BCA SYAR
+BENGKULU     Bank Bengkulu
+BJB          Bank BJB
+BJBS         Bank BJB Syariah 
+BNI          BANK BNI
+BOCI         Bank of China Indonesia 
+BPRKS        BPR KS
+BPRSUPRA     BPR SUPRA
+BRI          BANK BRI
+BSG          Bank BSG
+BSI          BANK BSI
+BTN          BANK BTN
+BTPN         Bank BTPN
+BTPNS        Bank BTPN Syariah
+BUKOPIN      BANK BUKOPIN
+BUKOPINS     Bank Bukopin Syariah
+BUMI         Bank Bumi Arta Indonesia
+CCB          BANK CCB
+CIMB         BANK CIMB NIAGA
+CITIB        BANK CITIBANK
+DANAMON      BANK DANAMON
+DBS          DBS
+DIY          BPD DIY
+DKI          Bank DKI
+EKA          Bank EKA
+FINNET       Finnet
+GANESHA      Bank Ganesha
+HANA         Bank Hana
+HSBC         BANK HSBC INDONESIA
+IBK          Bank IBK
+ICBC         Bank ICBC
+IMKAS        IMkas
+INA          BANK INA
+INDEX        BANK INDEX
+INDIA        Bank India (Swadesi)
+INTIDANA     KOP Intidana
+ISO          ISO Remit
+JAGO         BANK JAGO
+JAKARTA      Bank Jasa Jakarta
+JAMBI        Bank Jambi
+JATENG       Bank Jateng
+JATIM        Bank Jawa Timur
+JATNIKA      BPR Jatnika
+JTRUST       Bank JTrust
+KALBAR       Bank Kalimantan Barat
+KALSEL       Bank Kalsel
+KALTENG      Bank Kalteng
+KALTIMTARA   Bank Kaltimtara
+KRYJATNIKA   BPR KRYJATNIKA SDY
+LAMPUNG      Bank Lampung
+LINKAJA      LinkAja
+MALUKU       Bank Maluku 
+MANDIRI      BANK MANDIRI
+MANDIRIT     BANK MANDIRI TASPEN
+MASPION      Bank Maspion
+MAYAPADA     Bank Mayapada
+MAYBANK      BANK MY BANK
+MAYORA       BANK MAYORA
+MEGA         BANK MEGA
+MEGAS        BANK MEGA SYAR
+MESTIKA      Bank Mestika Dharma
+MNC          Bank MNC
+MUAMALAT     Bank Muamalat
+MULTIARTA    Bank Multiarta Sentosa
+NAGARI       Bank Nagari
+NC           Bank Neo Commerce
+NEO          Bank Neo Commerce
+NOBU         Bank Nobu
+NTB          Bank NTB
+NTT          Bank NTT
+OCBC         BANK OCBC NISP
+OKE          OKE Bank
+PANIN        BANK PANIN
+PANINS       BAnk Panin Dubai Syariah
+PAPUA        Bank Papua
+PDS          Bank Panin Dubai Syariah
+PERMATA      BANK PERMATA
+PRIMA        Bank Prima Master
+QNB          Bank QNB Indonesia
+RAYA         BANK RAYA INDONESIA
+RIAU         Bank Riau
+SAHABAT      Bank Sahabat Sampoerna
+SBI          BANK SBI INDONESIA 
+SEABANK      BANK SEABANK
+SGOD         SGOD Pay
+SHINHAN      Bank Shinhan
+SINARMAS     Bank Sinarmas
+STANDARD     Standard Chartered
+SULSELBAR    Bank Sulselbar
+SULTENG      Bank Sulteng
+SULTRA       Bank Sultra
+SUMUT        Bank Sumatra Utara
+SUPRA        Bank BPR Supra
+TOKYO        Bank of Tokyo - MItsubishi
+UOB          BANK UOB
+VICTORIA     Bank Victoria Internasional
+VICTORIAS    Bank Victoria Syariah
+WOORI        Bank Woori Bersaudara
+
+

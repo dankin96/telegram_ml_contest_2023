@@ -1,0 +1,17 @@
+
+>>> import random
+>>> 
+>>> first = 0
+>>> second = 0
+>>> cylinder = [0, 0, 0, 1, 0, 0]
+>>> 
+>>> for _ in range(10_000_000):
+...     random.shuffle(cylinder)
+...     first += cylinder[0]
+...     second += cylinder[1]
+... 
+>>> print(first)
+1664512
+>>> print(second)
+1667240
+>>> 

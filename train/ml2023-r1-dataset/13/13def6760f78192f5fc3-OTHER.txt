@@ -1,0 +1,3 @@
+Maximum voltage: 300V
+Maximum current: 5A
+

@@ -1,0 +1,10 @@
+function findNumbers($nums)
+  {
+    $counter = 0;
+    foreach ($nums as $num) {
+      if ((strlen((string)$num) % 2) === 0) {
+        $counter++;
+      }
+    }
+    return $counter;
+  }

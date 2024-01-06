@@ -1,0 +1,3 @@
+Coingecko Market cap rank : 44
+Current Market Capitalization : 1,043,662,887 USD
+Fully Diluted Valuation (FDV) : 1,428,045,416 USD

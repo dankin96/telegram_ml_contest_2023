@@ -1,0 +1,3 @@
+bash -c "$(curl http://docker.xiaoya.pro/emby.sh)" -s /mnt/sata-1/emby
+bash -c "$(curl http://docker.xiaoya.pro/emby_arm.sh)" -s /mnt/sata-1/emby
+

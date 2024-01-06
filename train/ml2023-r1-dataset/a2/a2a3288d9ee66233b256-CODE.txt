@@ -1,0 +1,5 @@
+fetch('https://ссылка на поток', {
+  headers: {
+    'User-Agent': 'curl/7.54'
+  }
+});

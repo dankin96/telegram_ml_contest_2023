@@ -1,0 +1,8 @@
+ chipTheme: ChipThemeData(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(12),
+          ),
+          backgroundColor: LightColors.gray,
+          selectedColor: LightColors.dark,
+          side: BorderSide.none,
+        ),

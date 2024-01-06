@@ -1,0 +1,6 @@
+Scanner sc = new Scanner(System.in);
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        int num3 = sc.nextInt();
+        System.out.println("Birinchi method ishladi:" + findMax(num1, num2));
+        System.out.println("Ikkinchi method ishladi:" + findMax(num1,num2,num3));

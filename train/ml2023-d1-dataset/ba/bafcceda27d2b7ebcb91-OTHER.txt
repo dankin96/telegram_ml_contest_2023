@@ -1,0 +1,10 @@
+Towers grow at: (Times in UTC)
+1:00
+5:00
+10:00
+15:00
+15:36
+20:00
+--
+If a tower would be 48 or 49 floors, it instead acts as a 50 floor tower to players
+If a 50 floor tower would grow, it becomes 16 floors.

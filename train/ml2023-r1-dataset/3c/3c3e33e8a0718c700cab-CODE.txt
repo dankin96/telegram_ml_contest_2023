@@ -1,0 +1,30 @@
+  array [
+      dict entry(
+         string "Status"
+         variant             string "registered"
+      )
+      dict entry(
+         string "Mode"
+         variant             string "auto"
+      )
+      dict entry(
+         string "Technology"
+         variant             string "lte"
+      )
+      dict entry(
+         string "MobileCountryCode"
+         variant             string "208"
+      )
+      dict entry(
+         string "MobileNetworkCode"
+         variant             string "10"
+      )
+      dict entry(
+         string "Name"
+         variant             string "REGLO Mobile"
+      )
+      dict entry(
+         string "Strength"
+         variant             byte 100
+      )
+   ]

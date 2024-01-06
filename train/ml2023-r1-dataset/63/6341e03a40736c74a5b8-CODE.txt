@@ -1,0 +1,5 @@
+select * from user_contracts
+inner join user_contract_balances on code = user_contract_code
+where user_contracts.user_code = ? and user_contracts.user_code is not null
+
+

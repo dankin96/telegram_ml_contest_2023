@@ -1,0 +1,29 @@
+ADDRESS:      0x6cf9788CDa282aeb729477F6BDA9c4dB082B5746
+PAIR:         0x7aC46647B0b6850F445AADeD0B2694C927cB0539
+NAME:         KingdomGame
+SYMBOL:       KINGDOM
+SUPPLY:       10000000
+PRICE:        $0.145105716406
+LIQUIDITY:    $75,540
+24H CHANGE:   136%
+24H VOLUME:   $384,859
+INITIAL MC:   $3,240
+CURRENT MC:   $1,556,855
+ATH MC:       $1,726,342
+BUY TAX:      5%
+SELL TAX:     5%
+RENOUNCED:    ❌
+LP LOCKED:    ✅ Unicrypt: 100% 182.9 days
+VERIFIED:     ✅
+WHALES:       19.1071%, 1.9371%, 1.7428%, 1.7107%, 1.7059%
+
+❌❌❌❌❌ FAILED ❌❌❌❌❌
+NOT RENOUNCED
+
+🤗🤗🤗🤗🤗 SOCIALS 🤗🤗🤗🤗🤗
+https://docs.kingdomgame.live/
+https://t.me/Kingdom_erc20
+https://twitter.com/KINGDOMGAME_ERC
+https://docs.kingdomgame.live/
+https://t.me/Kingdom_erc20
+https://twitter.com/KINGDOMGAME_ERC

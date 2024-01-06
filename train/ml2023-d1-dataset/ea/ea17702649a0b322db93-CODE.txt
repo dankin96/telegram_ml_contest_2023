@@ -1,0 +1,29 @@
+public List<List<Integer>> combine(int n, int k) {
+    List<List<Integer>> res = new ArrayList<>();
+    Solver solver = new Solver(n, k, res);
+    solver.dfs(1, new ArrayList<Integer>());
+    return res;
+}
+
+private record Solver(
+    int maxNumberValue,
+    int numbersCount,
+    List<List<Integer>> res
+){
+    private void dfs(int curNumber, ArrayList<Integer> cur){
+        if(cur.size()==numbersCount){
+            res.add( (List<Integer>) cur.clone() );
+            return;
+        }
+        if(
+            curNumber>maxNumberValue ||
+            cur.size()+maxNumberValue-curNumber+1<numbersCount
+        ){
+            return;
+        }
+        cur.add(curNumber);
+        dfs(curNumber+1, cur);
+        cur.remove(cur.size()-1);
+        dfs(curNumber+1, cur);
+    }
+}

@@ -1,0 +1,4 @@
+{
+    title: 'username',
+    key: 'user.username'
+}

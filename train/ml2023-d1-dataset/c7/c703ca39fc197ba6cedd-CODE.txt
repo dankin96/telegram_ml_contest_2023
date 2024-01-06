@@ -1,0 +1,4 @@
+SELECT users.basic_account, users.actual_address, users.flat_number
+FROM users
+WHERE is_deleted = 0
+AND id IN (SELECT uid FROM users_accounts WHERE account_id = 1006072 AND is_deleted = 0)

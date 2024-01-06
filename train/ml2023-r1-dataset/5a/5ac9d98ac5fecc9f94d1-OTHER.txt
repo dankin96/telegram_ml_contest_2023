@@ -1,0 +1,8 @@
+v10.1.1.0 (20420) Play Store es
+samsung SM-G973U android 12
+ROM: SP1A.210812.016.G973USQU6IVC7
+Accounts: 5
+Performance: HIGH
+Cache: 1,37 GB
+Database: 987,2 MB
+Free: 69,72 GB

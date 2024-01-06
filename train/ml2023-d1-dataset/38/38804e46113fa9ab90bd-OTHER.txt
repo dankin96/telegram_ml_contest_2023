@@ -1,0 +1,11 @@
+Tiempo del centro de México
+   Fecha:  2023-10-13   hora:  04:08:21
+   Fecha:  2023-10-13
+   Hora:  04:08:21
+   Magnitud:  3.8
+   Epicentro
+   Latitud, longitud:  17.01°, -94.96°
+   Latitud:  17.01°
+   Longitud:  -94.96°
+   Localización:  17 km al NORESTE de  MATIAS ROMERO, OAXACA
+   Profundidad:  108.6 km

@@ -1,0 +1,2 @@
+An SSL error, that has occured, 
+Did not allow us make secure connection

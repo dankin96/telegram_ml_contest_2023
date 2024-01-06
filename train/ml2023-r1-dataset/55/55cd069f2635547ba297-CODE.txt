@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/app/YukkiMusic/plugins/devs/dev.py", line 191, in shellrunner
+    process = subprocess.Popen(
+  File "/usr/local/lib/python3.9/subprocess.py", line 951, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+  File "/usr/local/lib/python3.9/subprocess.py", line 1837, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'clean'

@@ -1,0 +1,2 @@
+condition:grade like '%VIP%'  AND is_join = 0 and channel_status ='active' LIMIT 100 
+ command type:#join_channel

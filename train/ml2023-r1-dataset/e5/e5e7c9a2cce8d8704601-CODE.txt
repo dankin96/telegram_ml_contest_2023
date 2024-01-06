@@ -1,0 +1,8 @@
+
+location =/api/v1/query_range {
+    proxy_pass http://$vm_addr:8428;
+}
+
+location =/api/v1/query {
+    proxy_pass http://$vm_addr:8428;
+}

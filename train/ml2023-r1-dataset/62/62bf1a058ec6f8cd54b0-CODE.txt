@@ -1,0 +1,49 @@
+local name1 = 'LatA 500-1' -- mist.DBs.zonesByName returns table with zoneID!!!! "zoneId"
+local name2 = 'LatA 500 BL b' -- marker.get returns table with "markId", might return each SEGMENT of the fucking line?!!! getdrawingbyname returns table of mostly useless data
+local name3 = 'LatA 500-2 AO' -- marker.get returns table with ID!!!!!! "markId"
+local name4 = 'latA 500 Name'
+local name = { name1, name2, name3, name4, }
+
+
+trigger.action.outText( 'starting stupid loops', 40)
+
+
+for x = 4, 4, 1 do
+if mist.DBs.zonesByName[name[x]] then trigger.action.outText(x .. ' zone by name: ' .. mist.DBs.zonesByName[name[x]], 10) end -- mist table of triggerzones
+trigger.action.outText( x .. '.1' , 1)
+if mist.DBs.drawingByName[name[x]] then trigger.action.outText(x .. ' drawing by name: ' .. mist.DBs.drawingByName[name[x]], 10) end -- mist table 1
+trigger.action.outText( x .. '.2' , 1)
+if mist.DBs.markList[name[x]] then trigger.action.outText(x .. ' marklist: ' .. mist.DBs.markList[name[x]], 10) end -- mist table 2 ... why is there two?
+trigger.action.outText( x .. '.3' , 1)
+-- if usedMarks[name[x]] then trigger.action.outText(x .. ' usedmarks: ' .. usedMarks[name[x]], 10) end -- mist local variable test, modify mist to make it public
+trigger.action.outText( x .. '.4' , 1)
+if mist.marker.get(name[x]) then trigger.action.outText(x .. ' marker get: ' .. mist.marker.get(name[x]), 10) end -- should be name or ID
+trigger.action.outText( x .. '.5' , 1)
+--if trigger.action.removeMark(name[x]) then trigger.action.outText(x .. ' remove mark vanilla: ' .. trigger.action.removeMark(name[x]), 10) end -- should not work, docs claim this to be ID - error?
+trigger.action.outText( x .. '.6' , 1)
+--if mist.marker.remove(name[x]) then trigger.action.outText(x .. ' remove mark vanilla: ' .. mist.marker.remove(name[x]), 10) end -- syntax error??
+trigger.action.outText( x .. '.7' , 1)
+trigger.action.outText( 'got through a loop cycle..', 40)
+end
+
+trigger.action.outText( 'got through a full loop.. starting table to string stuff..', 40)
+for x = 2, 4, 1 do
+    if mist.DBs.zonesByName[name[x]] then trigger.action.outText(x .. ' zone by name: ' .. TableToString(mist.DBs.zonesByName[name[x]]), 10) end -- mist table of triggerzones
+    trigger.action.outText( x .. '.1' , 1)
+    if mist.DBs.drawingByName[name[x]] then trigger.action.outText(x .. ' drawing by name: ' .. TableToString(mist.DBs.drawingByName[name[x]]), 10) end -- mist table 1
+    trigger.action.outText( x .. '.2' , 1)
+    if mist.DBs.markList[name[x]] then trigger.action.outText(x .. ' marklist: ' .. TableToString(mist.DBs.markList[name[x]]), 10) end -- mist table 2 ... why is there two?
+    trigger.action.outText( x .. '.3' , 1)
+    -- if usedMarks[name[x]] then trigger.action.outText(x .. ' usedmarks: ' .. TableToString(usedMarks[name[x]]), 10) end -- mist local variable test, modify mist to make it public
+    trigger.action.outText( x .. '.4' , 1)
+    if mist.marker.get(name[x]) then trigger.action.outText(x .. ' marker get: ' .. TableToString(mist.marker.get(name[x])), 10) end -- should be name or ID
+    trigger.action.outText( x .. '.5' , 1)
+    if trigger.action.removeMark(name[x]) then trigger.action.outText(x .. ' remove mark vanilla: ' .. TableToString(trigger.action.removeMark(name[x])), 10) end -- should not work, docs claim this to be ID - error?
+    trigger.action.outText( x .. '.6' , 1)
+    if mist.marker.remove(name[x]) then trigger.action.outText(x .. ' remove mark vanilla: ' .. TableToString(mist.marker.remove(name[x])), 10) end -- syntax error??
+    trigger.action.outText( x .. '.7' , 1)
+    trigger.action.outText( 'got through a loop cycle..', 10)
+
+end
+
+trigger.action.outText( 'got through BOTH entire loops!', 100)

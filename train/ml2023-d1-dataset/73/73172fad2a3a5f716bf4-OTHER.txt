@@ -1,0 +1,4 @@
+
+UUID=9220d61d-f033-4829-b0e1-781432f12e99 /                       ext4    defaults        1 1
+UUID=e5bac73a-d32f-4f6f-9682-fc1954413450 /home                   ext4    defaults        1 2
+UUID=98227a48-5ae6-4b03-8f6b-b10264dfdbe0 none                    swap    defaults        0 0

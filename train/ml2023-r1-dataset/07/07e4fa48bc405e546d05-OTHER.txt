@@ -1,0 +1,6 @@
+TSP5   80 Mnt(Tsel)+5-20 All/1H       4.900
+TSP10  170 Mnt(Tsel)+10-50 All/3H    10.450⬇️
+TSP20  350 Mnt(Tsel)+20-50 All/7H    20.900
+TSP25  550 Mnt(Tsel)+20-50  All/7H   24.900
+TSP50  1000 Mnt(Tsel)+50-100 All/30H 54.500⬇️
+TSP100 2250 Mnt(Tsel)+250 All/30H    99.750

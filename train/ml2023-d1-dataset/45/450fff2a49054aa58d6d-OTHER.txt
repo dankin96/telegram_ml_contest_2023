@@ -1,0 +1,2 @@
+vless://192d8c39-bf8e-4f9c-a7eb-157ab6b5a2ed@free.ownvpn.vip:43766?type=tcp&path=%2F&host=Medium.com&headerType=http&security=none#Own-su5sokqv
+

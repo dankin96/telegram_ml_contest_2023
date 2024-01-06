@@ -1,0 +1,11 @@
+function validateStringError($string, $min = 0, $max = 4096, $regex = '') {
+    if ($string === null) {
+        return 'Значение является обязательным';
+    }
+    if (is_array($string)) {
+        return 'Значение должно быть строкой';
+    }
+    if (mb_strlen($string) < $min) {
+        return 'Значение должно быть не меньше $min символов';
+    }
+}

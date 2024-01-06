@@ -1,0 +1,2 @@
+t = ta.valuewhen(time(timeframe.period, "0915-0916" ), open, 0) 
+plot(t, style = plot.style_stepline)

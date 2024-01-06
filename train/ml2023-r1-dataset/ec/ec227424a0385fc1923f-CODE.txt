@@ -1,0 +1,7 @@
+
+{'chat_id': '-1001947401292',
+ 'protocols': [23, 22, 21],
+ 'stream_id': 12,
+ 'subscriptions_id': 10,
+ 'title': 'Ёжик & YaIncDevBot',
+ 'type': 'supergroup'}

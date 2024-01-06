@@ -1,0 +1,4 @@
+226M    ../../nuke/Nuke14.0v2/libcufft.so
+666M    ../../nuke/Nuke14.0v2/libcusolver.so
+701M    ../../nuke/Nuke14.0v2/libcudnn_cnn_infer.so
+1,2G    ../../nuke/Nuke14.0v2/libtorch_cuda.so

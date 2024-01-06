@@ -1,0 +1,18 @@
+{
+  "success": 0,
+  "pair": "0x0000000000000000000000000000000000000000",
+  "contract": "0x59adc5da907297dd116070e0a663eae4892648d1",
+  "name": "PAIRS",
+  "symbol": "PAIRS",
+  "decimals": 9,
+  "price": 0,
+  "price_human": 0,
+  "mc": 0,
+  "mc_human": 0,
+  "liquidity": 0,
+  "liquidity_human": 0,
+  "liquidity_in_usd": 0,
+  "native": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+  "native_decimals": 6,
+  "amounts_out": 0
+}

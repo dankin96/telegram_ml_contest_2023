@@ -1,0 +1,2 @@
+m_xdgdecoration->setExtensionContainer(this);
+    m_xdgdecoration->initialize();

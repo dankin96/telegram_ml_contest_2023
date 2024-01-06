@@ -1,0 +1,1 @@
+Any eligible TIA amounts presented at genesis.celestia.org or in this blog post are the minimum amount, based on a scenario in which 100% of eligible GitHub accounts or onchain addresses claim. At the conclusion of the Genesis Drop, a portion of unclaimed tokens, up to 45 million TIA, will be allocated to developers and accounts who have submitted addresses.

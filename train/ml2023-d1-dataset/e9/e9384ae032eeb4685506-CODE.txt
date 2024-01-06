@@ -1,0 +1,12 @@
+lazy<int> coro() {
+  int result = 0;
+  while (int v = co_await async_read())
+    result += v;
+  co_return result;
+}
+
+void f() {
+  lazy<int> task = coro(); // Получим объект корутины
+  co_await task; // А теперь наконец ее исполним
+}
+

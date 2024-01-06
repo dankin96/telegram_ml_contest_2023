@@ -1,0 +1,12 @@
+Trying to pull registry.opensuse.org/opensuse/tumbleweed:latest...
+Getting image source signatures
+Copying blob fc18dad756fe done   | 
+Copying config dfaa5b258d done   | 
+Writing manifest to image destination
+dfaa5b258d02e2c4d9d6ae4217aa47e01e1397091897d843e6ebe974e6ee719a
+Creating 'tw' using image registry.opensuse.org/opensuse/tumbleweed      [ OK ]
+Distrobox 'tw' successfully created.
+To enter, run:
+
+distrobox enter tw
+

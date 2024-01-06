@@ -1,0 +1,3 @@
+things = {"a": 1, "b": 2}
+for foo in things:
+    print(foo)

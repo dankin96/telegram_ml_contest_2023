@@ -1,0 +1,14 @@
+class MoonShineServiceProvider extends ServiceProvider
+{
+    public function boot(): void
+    {
+        app(MoonShine::class)->menu([
+            MenuItem::make('Categories', new CategoryPage())
+        ]);
+
+        app(MoonShine::class)->resources([
+            new CategoryResource(),
+        ]);
+
+    }
+}

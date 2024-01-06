@@ -1,0 +1,14 @@
+1. POST /api/login
+// create new StringSession()
+await connect()
+await sendCode(...)
+await disconnect()
+// save session for reuse next time
+
+2. POST /api/login
+// reuse session from (1)
+await connect()  <-- this doesn't return
+await signIn(...)
+await disconnect()
+// store session for reuse next time
+

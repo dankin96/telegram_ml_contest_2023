@@ -1,0 +1,4 @@
+if (controllo utente non loggato + controllo nome utente != pippo) {
+    // redirect header + exit
+}
+

@@ -1,0 +1,4 @@
+Congratulations,
+you rolled 24 with bet UNDER 50.
+You won 6.121851 USDL
+New pool size: 31482.579449 USDL

@@ -1,0 +1,5 @@
+OK: PostgreSQL: Version has changed (new version value received: PostgreSQL 14.8 (Ubuntu 14.8-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit)
+Host: pgsql01 10.10.80.73 - time 03:07:27
+Trigger: PostgreSQL: Version has changed (new version value received: PostgreSQL 14.8 (Ubuntu 14.8-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0, 64-bit)
+Trigger status: OK
+Trigger severity: Information

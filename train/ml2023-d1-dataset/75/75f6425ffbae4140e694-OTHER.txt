@@ -1,0 +1,10 @@
+бот            сегодня    вчера
+test              -654    -5935
+gustos             438    -5608
+invest            -223    -9904
+huobi              -25     -521
+bush               -33     -215
+busd               -10     -378
+merlin_bots          0       11
+newhuobi          -105     -200
+total             -612   -22750

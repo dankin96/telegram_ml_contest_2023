@@ -1,0 +1,4 @@
+{
+  "plugin"
+  config = function() require("plugin").setup() end
+}

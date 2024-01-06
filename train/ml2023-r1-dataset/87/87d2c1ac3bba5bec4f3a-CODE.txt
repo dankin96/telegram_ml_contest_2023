@@ -1,0 +1,27 @@
+from userbot import bot as raider
+from userbot.utils import admin_cmd as choot
+
+x = True
+@raider.on(choot(pattern="mraid"))
+async def d3vilraid(event):
+    while x != False:
+       
+        await event.delete()
+        kek = event.chat_id
+        await raider.send_message(kek, "Otha omala karikulambu nalla illa valapalam tholu un vaila en polu..")
+        await raider.send_message(kek, "Thavidiya paiyala vanthu en polla chapuda...")
+        await raider.send_message(kek, "Dai chappi potha puliyangkota sutha modinu poda")
+        await raider.send_message(kek, "pota kuthi")
+        await raider.send_message(kek, "poda badhu")
+        await raider.send_message(kek, "mandaila masala illaya?...")
+        await raider.send_message(kek, "otha dai ni enna pariya parupa")
+        await raider.send_message(kek, "omala adichu pallalum pathuduvan")
+        await raider.send_message(kek, "vakkam may illam jathi kuda poda nikirrai thu.")
+        await raider.send_message(kek, "poda paithium ..")
+        await raider.send_message(kek, "poda arravarkadu")
+        await raider.send_message(kek, "Onakku annchu sinna vedhu irruku nu kalvipatan unmaiya?..")
+        await raider.send_message(kek, "Nathu naiya othu thu vanthaiyamay")
+        await raider.send_message(kek, "muthal irravula manavi nu nanaichu picchakariya othavan dana ni")
+        await raider.send_message(kek, "unnaku balla la mairru illaya")
+        await raider.send_message(kek, "unna mari pota kita naan time waste panna virumbhala sutha mudinu poda venru")
+        x = False

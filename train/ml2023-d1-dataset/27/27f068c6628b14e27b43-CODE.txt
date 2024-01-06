@@ -1,0 +1,17 @@
+{
+  "message_id": 150904,
+  "from": {
+    "id": 973165344,
+    "is_bot": false,
+    "first_name": "."
+  },
+  "chat": {
+    "id": -1001653086949,
+    "title": "Котятков чат",
+    "username": "chat_ot_kotyat",
+    "type": "supergroup"
+  },
+  "date": 1697068606,
+  "edit_date": 1697068636,
+  "text": "цалую"
+}

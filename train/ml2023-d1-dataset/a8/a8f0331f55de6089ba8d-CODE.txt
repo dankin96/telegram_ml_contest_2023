@@ -1,0 +1,6 @@
+apt install linux-xanmod-x64v1
+
+apt install linux-xanmod-x64v2
+
+apt install linux-xanmod-x64v3
+

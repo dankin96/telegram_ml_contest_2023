@@ -1,0 +1,4 @@
+FROM allinurl/goaccess
+LABEL description="A GoAccess utility image with pre-loaded GeoLite2-city database onboard"
+COPY geoip/GeoLite2-City.mmdb /geoip/GeoLite2-City.mmdb
+ENTRYPOINT ["/bin/goaccess", "--geoip-database", "/geoip/GeoLite2-City.mmdb"]

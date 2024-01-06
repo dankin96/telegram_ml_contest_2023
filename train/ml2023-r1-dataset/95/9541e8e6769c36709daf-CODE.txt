@@ -1,0 +1,20 @@
+class CommonMultiplatformPlugin : Plugin<Project> {
+
+    override fun apply(target: Project) = with(target) {
+        with(pluginManager) {
+            apply(aliasPlugin("for-rustam-aka2"))
+            apply("org.jetbrains.kotlin.multiplatform")
+        }
+        configureSpotless()
+
+        extensions.configure<KotlinMultiplatformExtension>() {
+            configureCommonMultiplatform(this)
+        }
+    }
+}
+
+internal fun Project.aliasPlugin(alias: String): String {
+    return libs.findPlugin(alias).get().get().pluginId
+}
+
+

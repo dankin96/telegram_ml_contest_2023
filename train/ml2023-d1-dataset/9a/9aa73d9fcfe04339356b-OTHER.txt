@@ -1,0 +1,2 @@
+aiogram.exceptions.TelegramNetworkError: HTTP Client says - Request timeout error
+

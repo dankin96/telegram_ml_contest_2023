@@ -1,0 +1,10 @@
+NIFTY 50    19800  🔴  -12   -0.06%
+NIFTY BANK  44588  🟢  71    0.16%
+NIFTY IT    32096  🔴  -452  -1.39%
+NSE PHARMA  15170  🔴  -6    -0.04%
+NIFTY FIN   19932  🟢  2     0.01%
+NIFTY FMCG  52475  🟢  221   0.42%
+NIFTY MNC   22318  🟢  92    0.42%
+NIFTY AUTO  16288  🟢  112   0.69%
+NSE METAL   6866   🟢  54    0.8%
+NSE MEDIA   2345   🟢  66    2.91%

@@ -1,0 +1,10 @@
+(defcustom telega-completing-read-function
+  ;; NOTE: `flex' completion style is essential for telega, because it
+  ;; might prefix completions with the images and user won't be able
+  ;; to complete without `flex' completion style
+  (if (or (and (boundp 'ido-mode) (symbol-value 'ido-mode))
+          (and (eq completing-read-function #'completing-read-default)
+               (not (memq 'flex completion-styles))))
+      'ido-completing-read
+    completing-read-function)
+...

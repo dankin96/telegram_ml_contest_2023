@@ -1,0 +1,8 @@
+loop {
+    match event_receiver.recv().await {
+        Ok(event) => {...}
+        Err(e) => {}
+    }
+}
+
+put them to the tokio::task::JoinSet for example

@@ -1,0 +1,9 @@
+{
+  "success": true,
+  "data": {
+    "module": "hyperactive_css",
+    "version": "v0.1.0",
+    "repository": "feathers-studio/hypercss",
+    "status_url": "https://deno.land/status/4295849f-30e2-4f5e-99de-1008191112c5"
+  }
+}

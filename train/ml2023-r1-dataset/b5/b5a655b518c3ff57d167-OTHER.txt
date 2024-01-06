@@ -1,0 +1,1 @@
+This proposal is aimed to send 37.5k axlUSDC claimed by MIP-94 to the MantaDAO ops wallet. These funds will be used to purchase wBTC for building wBTC/USK POL according the execution plan, described here: https://t.me/MantaDAO/22203/24779

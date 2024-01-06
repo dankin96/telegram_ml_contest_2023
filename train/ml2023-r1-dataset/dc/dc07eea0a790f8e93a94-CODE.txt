@@ -1,0 +1,17 @@
+{
+  "SUCCESS": 1,
+  "DATA": {
+    "REQ_TOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTE0NDUsImlhdCI6MTY5NjUzNTM3NywiZXhwIjoxNjk2NTU2OTc3fQ.rv6b877E-rSCOHjLONiiX09bXvsNhVBGmRi1FhyKmq8",
+    "UID": 11445,
+    "USUARIO_HASH": "10b4049474a7bf5bdce65db10c5c10535476b8443f842a4fea09ee931c11eb88",
+    "NOME": "diego",
+    "EMAIL": "diego@inova.in",
+    "CPF": "047.743.851-23",
+    "NASCIMENTO": "1994-06-21T03:00:00.000Z",
+    "SEXO": "M",
+    "TELEFONE": "(61) 99864-8205",
+    "FORCAR_TROCA_SENHA": "",
+    "GRUPO_ID": 1320841850,
+    "EMAIL_VERIFICADO": 1
+  }
+}

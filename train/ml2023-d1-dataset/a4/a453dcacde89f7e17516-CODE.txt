@@ -1,0 +1,1 @@
+plotshape(mark ? low[2] : na, title='With offset (absolute)', style=shape.triangleup, location=location.absolute, color=color.blue, offset=-2, size=size.auto)

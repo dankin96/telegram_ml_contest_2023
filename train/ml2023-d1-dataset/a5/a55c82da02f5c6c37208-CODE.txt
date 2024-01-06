@@ -1,0 +1,19 @@
+import telebot
+import datetime
+from khayyam import JalaliDatetime
+
+bot = telebot.TeleBot('YOUR_TELEGRAM_BOT_TOKEN')
+
+@bot.message_handler(commands=['start', 'help'])
+def send_welcome(message):
+    bot.reply_to(message, "سلام! برای دریافت تاریخ و ساعت شمسی روی /date کلیک کنید.")
+
+@bot.message_handler(commands=['date'])
+def send_date(message):
+    now = datetime.datetime.now()
+    jalali_date = JalaliDatetime.now().strftime('%Y/%m/%d')
+    jalali_time = JalaliDatetime.now().strftime('%H:%M:%S')
+    bot.reply_to(message, f"تاریخ شمسی: {jalali_date}
+زمان شمسی: {jalali_time}")
+
+bot.polling()

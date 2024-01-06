@@ -1,0 +1,14 @@
+from random import randint, uniform
+from math import sin, cos, radians
+from drawzero import *
+
+for i in range(100):
+    l = uniform(100, 500)
+    l1 = uniform(100, 500)
+    a = uniform(-180, 180)
+    dx = cos(radians(a))
+    dy = sin(radians(a))
+    print(f'{l=} {a=}, {dx=}, {dy=}')
+    while l <= 500:
+        line('red', (500, 500), (500 + l * dx, 500 + l * dy))
+        l += 10

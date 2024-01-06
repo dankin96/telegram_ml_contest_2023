@@ -1,0 +1,7 @@
+GoRouter(
+  routes: [
+    GoRoute(path: '/'),
+    GoRoute(path: '/page1'),
+    GoRoute(path: '/page2'),
+  ],
+);

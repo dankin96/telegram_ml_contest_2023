@@ -1,0 +1,4 @@
+cat <<'EOF' | sed 's/i/ee/g'
+Rich
+Bitch
+EOF

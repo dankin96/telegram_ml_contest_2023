@@ -1,0 +1,7 @@
+def load_and_schedule_tasks():
+    cursor.execute('SELECT task_name, schedule_time FROM scheduled_tasks')
+    tasks = cursor.fetchall()
+
+    for task in tasks:
+        task_name, schedule_time = task
+        schedule.every().day.at(schedule_time).do(run_task, task_name)

@@ -1,0 +1,2 @@
+Interval cek mutasi setiap 600 detik / 10 menit
+

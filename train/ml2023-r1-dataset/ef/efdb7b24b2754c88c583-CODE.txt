@@ -1,0 +1,4 @@
+%comspec% /K "%unk9vvn%\Hack-Center\Red-Team\Credential-Access\DPAPISnoop\DPAPISnoop.exe -h"
+
+
+powershell -NoExit -ExecutionPolicy Bypass -c "cd %unk9vvn%\Hack-Center\Red-Team\Collection\DSInternals; Import-Module .\DSInternals.ps1; DSInternals"

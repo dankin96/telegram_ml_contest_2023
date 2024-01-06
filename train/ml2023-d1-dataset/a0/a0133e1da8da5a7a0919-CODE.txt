@@ -1,0 +1,22 @@
+        int birinchi, ikkinchi, natija;
+        float natija1;
+
+
+
+    birinchi=12;
+    ikkinchi=7;
+
+
+    natija = birinchi%ikkinchi-- + ++ikkinchi;
+    //n     =12%7+7=12
+        //b=12
+        //i=6,7
+
+  //natija = 12*8 ||
+  //x       b- 11,i-8||
+    cout<<natija<<endl;
+    cout<<birinchi<<endl;
+    cout<<ikkinchi<<endl;
+
+
+    return 0;

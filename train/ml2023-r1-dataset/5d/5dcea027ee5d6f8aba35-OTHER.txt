@@ -1,0 +1,18 @@
+xml
+<
+TRADING:
+
+x5 Evo Poseidon (1x S / B+ /B-, 1x B / S / A+, 1x A / A / B+, 1x A / A+ / B+, 1x A+, S, B)
+
+x1 Ice Queen Evo(B / B+ / B-)
+
+x1 Bombietta 
+
+x1 Harribel Evo (B- / B+ / S-)
+
+x2 UnEvo Harribel 
+
+x2 Abdul UnEvo
+
+x2 Kisame UnEvo
+>

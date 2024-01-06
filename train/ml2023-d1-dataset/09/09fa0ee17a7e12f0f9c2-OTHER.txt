@@ -1,0 +1,41 @@
+Using equity 
+SPY
+with strategy:
+InandOut
+during period:
+[2018-10-13, 2023-10-12]
+Stats for portfolio_value from 2018-10-12 20:00:00+00:00 - 2023-10-11 20:00:00+00:00
+Annual risk-free rate considered: 0.00%
+Summary:
+Total Return      Sharpe  CAGR    Max Drawdown
+--------------  --------  ------  --------------
+106.01%             1.17  15.56%  -15.23%
+
+Annualized Returns:
+mtd    3m      6m     ytd     1y      3y      5y      10y    incep.
+-----  ------  -----  ------  ------  ------  ------  -----  --------
+2.06%  -1.03%  7.24%  15.29%  23.77%  12.16%  15.56%  -      15.56%
+
+Periodic:
+        daily    monthly    yearly
+------  -------  ---------  --------
+sharpe  1.17     1.20       1.07
+mean    15.34%   15.72%     15.21%
+vol     13.09%   13.06%     14.23%
+skew    -0.12    -0.15      -1.39
+kurt    4.93     0.34       2.22
+best    5.47%    10.78%     28.10%
+worst   -4.46%   -7.95%     -8.16%
+
+Drawdowns:
+max      avg       # days
+-------  ------  --------
+-15.23%  -1.52%     16.68
+
+Misc:
+---------------  ------
+avg. up month    3.26%
+avg. down month  -2.60%
+up year %        80.00%
+12m up %         80.00%
+---------------  ------

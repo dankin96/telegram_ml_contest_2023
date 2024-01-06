@@ -1,0 +1,7 @@
+SELECT
+    last_event_type,
+    last_event_time
+FROM prot_message_replacing
+WHERE (last_event_type in (15)) -- вернет запись, которое по факту не является последним
+    AND (id=unhex('01440F79E3E54982A5F7D68AA3F0E056000A'))
+LIMIT 0, 100;

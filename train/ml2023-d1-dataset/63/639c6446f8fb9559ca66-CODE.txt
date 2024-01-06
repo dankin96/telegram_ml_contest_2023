@@ -1,0 +1,2 @@
+[2023-10-12 21:52:53]
+{"post-20244-publish":{"before":{"trigger":"rest_after_insert","request_type":"REST_REQUEST"},"form_data":{"send2tg":null,"override_switch":false},"rules":{"apply":true,"sent2tg":""},"image_source":{"send_image":true,"has_image":true,"send_by_url":false,"source":"https:\/\/texno.org\/wp-content\/uploads\/2023\/10\/image-7-1024x559.png"},"finish":{"ok":true,"processed":[20244]},"after":{"result":{"@texno_org":[{"ok":false,"error_code":400,"description":"Bad Request: wrong file identifier\/HTTP URL specified"}]}}}}

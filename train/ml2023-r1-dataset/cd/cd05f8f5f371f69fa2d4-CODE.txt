@@ -1,0 +1,1 @@
+INSERT INTO new_calls_with_new_column FROM (SELECT * FROM calls WHERE create_date >= '2023-09-07 00:00:00' AND create_date < '2023-09-08 00:00:00') a left join (SELECT id, new_column FROM temp_calls) b USING id

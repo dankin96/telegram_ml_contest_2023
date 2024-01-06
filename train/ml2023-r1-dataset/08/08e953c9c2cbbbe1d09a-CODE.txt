@@ -1,0 +1,27 @@
+from telegram.ext import Updater, CommandHandler
+import os
+
+# Fungsi untuk menambahkan akun Linode
+def add_linode_account(update, context):
+    chat_id = update.message.chat_id
+    # Mengambil token Linode dari input pengguna
+    linode_token = context.args[0]
+    # Menyimpan token Linode ke variabel lingkungan
+    os.environ['LINODE_TOKEN'] = linode_token
+    update.message.reply_text('Akun Linode berhasil ditambahkan!')
+
+# Fungsi utama
+def main():
+    # Inisialisasi objek Updater dengan token bot Telegram
+    updater = Updater('YOUR_TELEGRAM_BOT_TOKEN', use_context=True)
+
+    # Menambahkan handler command '/addlinode' untuk menambahkan akun Linode
+    updater.dispatcher.add_handler(CommandHandler('addlinode', add_linode_account))
+
+    # Memulai bot
+    updater.start_polling()
+    updater.idle()
+
+# Menjalankan fungsi utama
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,3 @@
+echo '
+AT+GOOGSETNV="UECAPA_REL10_CA_COMB_NUM",0,"21,07"\r
+' > /dev/umts_router & cat /dev/umts_router

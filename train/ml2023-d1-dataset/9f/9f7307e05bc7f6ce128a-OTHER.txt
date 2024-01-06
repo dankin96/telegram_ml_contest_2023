@@ -1,0 +1,3 @@
+TypeError: Symfony\Component\Mime\Message::setBody(): Argument #1 ($body) must be of type ?Symfony\Component\Mime\Part\AbstractPart, string given, called in
+
+

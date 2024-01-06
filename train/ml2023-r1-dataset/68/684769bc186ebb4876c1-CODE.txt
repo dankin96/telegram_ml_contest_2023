@@ -1,0 +1,3 @@
+
+devenv.exe /debugexe fsc.exe -r:"C:\Users\Andrii\Dev\GitHub\Rezoom.SQL\src\Rezoom.SQL.Provider\bin\Debug
+etstandard2.0\Rezoom.SQL.Provider.dll" SQLite.fsx

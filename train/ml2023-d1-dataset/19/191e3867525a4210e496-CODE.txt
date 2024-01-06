@@ -1,0 +1,70 @@
+  add_filter('wp_handle_upload', 'convertir_imagen_a_webp');
+
+  function convertir_imagen_a_webp($file)
+  {
+    // Ruta del archivo subido
+    $uploaded_file = $file['file'];
+
+    // Obtener la extensión del archivo
+    $extension = pathinfo($uploaded_file, PATHINFO_EXTENSION);
+
+    // Verificar si la extensión es .jpg, .jpeg, .png, o .JPG (mayúsculas)
+    if (in_array(strtolower($extension), array('jpg', 'jpeg', 'png'))) {
+      // Obtener información sobre la imagen
+      list($width, $height, $type) = getimagesize($uploaded_file);
+
+      // Comprobar el tipo de imagen y ajustar la calidad
+      $quality = 60; // Calidad de compresión inicial
+      if ($type === IMAGETYPE_JPEG) {
+        $source_image = imagecreatefromjpeg($uploaded_file);
+      } elseif ($type === IMAGETYPE_PNG) {
+        $source_image = imagecreatefrompng($uploaded_file);
+        $quality = 0; // Valor de calidad para PNG
+      } else {
+        return $file; // No es una imagen compatible, no hacemos nada
+      }
+
+      // Eliminar metadatos EXIF o metadatos de imagen si existen
+      $file['file'] = remove_metadata_from_image($uploaded_file);
+
+      // Ruta para guardar el archivo .webp
+      $webp_file = str_replace($extension, 'webp', $uploaded_file);
+
+      // Convertir y guardar la imagen en formato webp
+      imagewebp($source_image, $webp_file, $quality);
+
+      // Eliminar el archivo original
+      unlink($uploaded_file);
+
+      // Actualizar la información del archivo(SI DESEAS QUE LOS METADATOS DE ANTES PASEN A LA NUEVA IMAGEN)
+      $file['file'] = $webp_file;
+      $file['url'] = wp_get_attachment_url($file['id']);
+    }
+
+    return $file;
+  }
+
+  function remove_metadata_from_image($file)
+  {
+    $image = null;
+
+    $extension = pathinfo($file, PATHINFO_EXTENSION);
+
+    if (in_array(strtolower($extension), array('jpg', 'jpeg'))) {
+      $image = imagecreatefromjpeg($file);
+    } elseif (strtolower($extension) === 'png') {
+      $image = imagecreatefrompng($file);
+    }
+
+    if ($image !== false) {
+      // Guardar la imagen sin metadatos
+      if (in_array(strtolower($extension), array('jpg', 'jpeg'))) {
+        imagejpeg($image, $file, 100);
+      } elseif (strtolower($extension) === 'png') {
+        imagepng($image, $file, 0);
+      }
+      imagedestroy($image);
+    }
+
+    return $file;
+  }

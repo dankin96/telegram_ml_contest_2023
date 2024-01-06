@@ -1,0 +1,8 @@
+ Keyword | Search volume today | Search volume yesterday | Change |
+|---|---|---|---|
+| AI ethics | 100 | 90 | +10% |
+| AI for social good | 95 | 90 | +5% |
+| AI for the future of work | 85 | 90 | -5% |
+| Generative AI | 80 | 80 | 0% |
+| Multimodal AI | 75 | 75 | 0% |
+| Democratization of AI | 70 | 70 | 0% |

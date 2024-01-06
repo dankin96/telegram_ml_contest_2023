@@ -1,0 +1,24 @@
+Coin         Close($)   Rank        
+--------------------------------
+YGGUSDT      0.246500   4  4.0
+SOLUSDT      23.25      2  2.0
+LQTYUSDT     1.200000   3  3.0
+LEVERUSDT    0.001485   4  4.0
+CFXUSDT      0.126300   1  1.0
+ARKUSDT      0.504599   4  4.0
+REEFUSDT     0.001326   4  4.0
+DARUSDT      0.085110   1  1.0
+JOEUSDT      0.256799   4  4.0
+AGLDUSDT     0.583000   3  3.0
+CYBERUSDT    4.961999   4  4.0
+OXTUSDT      0.062899   1  1.0
+MANAUSDT     0.296099   4  4.0
+ONEUSDT      0.009359   2  2.0
+CELRUSDT     0.012470   4  4.0
+TLMUSDT      0.009920   4  4.0
+CKBUSDT      0.002736   4  4.0
+MAVUSDT      0.231399   2  2.0
+ACHUSDT      0.014080   5  5.0
+SUIUSDT      0.438499   4  4.0
+STMXUSDT     0.006663   2  2.0
+ROSEUSDT     0.041049   4  4.0

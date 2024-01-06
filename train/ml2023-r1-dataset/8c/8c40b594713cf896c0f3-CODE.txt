@@ -1,0 +1,40 @@
+int main(int argc, char *argv[])
+{
+    QApplication app(argc, argv);
+    boost::asio::io_context ioContext;
+    Launcher launcher(ioContext);
+    launcher.show();
+    QObject::connect(launcher.timer, &QTimer::timeout, &launcher, &Launcher::startContext);
+    return app.exec();
+}
+
+class Launcher : public QMainWindow
+{
+    Q_OBJECT
+
+public:
+    Launcher(boost::asio::io_context& ioContext);
+    QTimer* timer;
+    boost::asio::io_context& ioContext;
+    Fingerprint fingerprint;
+
+public slots:
+    void startContext();
+    void stopContext();
+};
+
+Launcher::Launcher(boost::asio::io_context& ioContext) : lastBrowser(-1), fingerprint(), ioContext(ioContext) {
+    timer = new QTimer(this);
+    timer->setInterval(1000);
+    timer->start();
+}
+
+void Launcher::startContext() { ioContext.run(); }
+void Launcher::stopContext() { ioContext.stop(); }
+
+void Launcher::doubleClicked(QListWidgetItem* item) {
+    
+    Server server = Server(ioContext, fingerprint.proxy);
+    server.run();
+}
+

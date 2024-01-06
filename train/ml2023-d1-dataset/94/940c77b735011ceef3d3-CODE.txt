@@ -1,0 +1,52 @@
+import requests
+import threading
+from queue import Queue
+
+access_token = ''
+post_id = '311412281500339'
+comment_url = f"https://graph.facebook.com/{post_id}/comments?access_token={access_token}"
+abc = requests.get("http://xn--chton-uqa2g.vn/bugcailon/taokey.php").json()
+timecmt = abc["data"]["time"]
+comment = f'toandz💬
+{timecmt}'
+
+concurrent_threads = 5  # Số luồng đồng thời để gửi bình luận
+total_comments = 10  # Số lượng bình luận cần gửi
+
+comment_queue = Queue()
+completed_comments = 0
+event = threading.Event()
+
+def send_comment(comment_data):
+    global completed_comments
+    try:
+        r = requests.post(comment_url, data=comment_data)
+        if r.status_code == 200:
+            print(f"Bình luận đã được đăng. {timecmt}")
+        else:
+            print("Đã xảy ra lỗi khi đăng bình luận.")
+    finally:
+        completed_comments += 1
+        event.set()
+
+def process_queue():
+    while True:
+        comment_data = comment_queue.get()
+        send_comment(comment_data)
+        comment_queue.task_done()
+
+# Tạo và khởi chạy luồng gửi bình luận
+for _ in range(concurrent_threads):
+    t = threading.Thread(target=process_queue)
+    t.daemon = True
+    t.start()
+
+# Thêm các bình luận vào hàng đợi
+for _ in range(total_comments):
+    comment_data = {"message": comment}
+    comment_queue.put(comment_data)
+
+# Đợi cho tất cả các bình luận hoàn thành
+comment_queue.join()
+
+print(f"Đã gửi thành công {completed_comments} bình luận.")

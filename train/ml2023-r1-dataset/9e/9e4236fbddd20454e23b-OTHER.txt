@@ -1,0 +1,27 @@
+
+SSC Exam Preparation Study Schedule
+
+Morning (8:00 AM - 10:00 AM): 
+- Subject/Topic 1
+
+Break (10:00 AM - 10:15 AM)
+
+Morning (10:15 AM - 12:30 PM): 
+- Subject/Topic 2
+
+Lunch (12:30 PM - 1:30 PM)
+
+Afternoon (1:30 PM - 3:30 PM): 
+- Subject/Topic 3
+
+Break (3:30 PM - 3:45 PM)
+
+Evening (3:45 PM - 5:30 PM): 
+- Subject/Topic 4
+
+Dinner (5:30 PM - 6:30 PM)
+
+Evening (6:30 PM - 8:00 PM): 
+- Subject/Topic 5
+
+Free Time (8:00 PM onwards)

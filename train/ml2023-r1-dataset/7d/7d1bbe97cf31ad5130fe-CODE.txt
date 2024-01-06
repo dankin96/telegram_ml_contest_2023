@@ -1,0 +1,35 @@
+from iota_sdk import Client, create_client
+import json
+
+address = 'iota1qp000000093tu52dxhaqkpp87m69vm49g59f9kww3wxl3n0p5wkngk9g472'
+
+client = Client(client_handle=create_client(json.dumps(
+    {'nodes': ['https://chronicle.stardust-mainnet.iotaledger.net'],
+     "protocolParameters": {
+         "version": 2,
+         "networkName": "iota-mainnet",
+         "bech32Hrp": "iota",
+         "minPowScore": 1500,
+         "belowMaxDepth": 15,
+         "rentStructure": {"vByteCost": 250, "vByteFactorData": 1, "vByteFactorKey": 10},
+         "tokenSupply": "4600000000000000"
+    },
+        'ignoreNodeHealth': True
+    })))
+
+
+res = client.call_plugin_route(
+    'api/explorer/v2', 'GET', '/ledger/updates/by-address/'+address)
+
+for output_data in res['items']:
+    print(output_data['outputId'])
+    output = client.get_output(output_data['outputId'])
+    print(output)
+    # Output created in stardust genesis snapshot
+    if not output.metadata.blockId.startswith('0x000000000000000'):
+        transaction = client.get_included_block(output.metadata.transactionId)
+        print(f'Output was created in {transaction}')
+    if output.metadata.isSpent:
+        spending_transaction = client.get_included_block(
+            output.metadata.transactionIdSpent)
+        print(f'Output was consumed in {spending_transaction}')

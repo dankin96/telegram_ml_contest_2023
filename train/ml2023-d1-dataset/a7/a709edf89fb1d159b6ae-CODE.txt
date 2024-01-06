@@ -1,0 +1,13 @@
+english_words = input("لیست کلمات انگلیسی را وارد کنید (با فاصله): ").split()
+farsi_translations = input("لیست ترجمه کلمات انگلیسی را وارد کنید (با فاصله): ").split()
+
+english_to_farsi_dict = dict(zip(english_words, farsi_translations))
+
+def translate_to_farsi(text):
+    words = text.split()
+    farsi_translation = [english_to_farsi_dict.get(word, word) for word in words]
+    return " ".join(farsi_translation)
+
+user_input = input("لطفاً یک متن انگلیسی وارد کنید: ")
+translated_text = translate_to_farsi(user_input)
+print("ترجمه‌ی لغت به لغت به فارسی: ", translated_text)

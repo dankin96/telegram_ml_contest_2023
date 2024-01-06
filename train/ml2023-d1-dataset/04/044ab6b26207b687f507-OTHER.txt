@@ -1,0 +1,3 @@
+
+Кнопка 1 - http://example1.com
+Кнопка 2 - http://example2.com

@@ -1,0 +1,4 @@
+import pandas as pd
+
+pivot_table = pd.pivot_table(data, values=None, index=None, columns=None, aggfunc='mean', fill_value=None, margins=False, margins_name='All')
+

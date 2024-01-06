@@ -1,0 +1,2 @@
+vless://7e9fd828-238a-488b-833e-294effc8443b@v2bamdad.daveengineer.com:443?security=reality&sni=www.cleanwateraction.org&fp=chrome&pbk=_Ymy4QhWaRD_7kD_avTLt7m8yY9rW3mdJrUYJQNlZUY&sid=7c&type=grpc&serviceName=rlNuMoWzdla9r8e#%E2%9A%A1%EF%B8%8FVIP%7C@V2Bamdad%20%F0%9F%87%A9%F0%9F%87%AA%F0%9F%86%93
+

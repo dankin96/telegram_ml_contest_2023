@@ -1,0 +1,12 @@
+<div class="grid grid-cols-1 md:grid-cols-12 gap-5">
+      <div class="md:col-span-8 lg:col-span-9">
+            <article>
+                   //main content
+            </article>
+      </div>
+      <aside class="md:col-span-4 lg:col-span-3 ">
+            <div class="sticky top-5">
+                  // widget Sidebar
+            </div>
+      </aside>
+</div>

@@ -1,0 +1,2 @@
+sudo rsync -aAXv --delete /home/aganim/backup/etc/ /etc/ 
+

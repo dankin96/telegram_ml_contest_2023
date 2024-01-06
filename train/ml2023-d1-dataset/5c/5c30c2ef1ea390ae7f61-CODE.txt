@@ -1,0 +1,13 @@
+#if 25
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int x, y;
+    cout << "x = "; cin >> x;
+    if(x > 2 or x < -2) y = 2 * x;
+    else y = -3 * x;
+    cout << "y = " << y;
+    return 0;
+}

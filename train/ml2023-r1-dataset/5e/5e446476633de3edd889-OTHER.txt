@@ -1,0 +1,10 @@
+[ 2183.753481] BTRFS: device label DataSSD devid 1 transid 43776 /dev/sdb1 scanned by pool-udisksd (11567)
+[ 2183.761854] BTRFS info (device sdb1): using crc32c (crc32c-intel) checksum algorithm
+[ 2183.761869] BTRFS info (device sdb1): use zstd compression, level 15
+[ 2183.761879] BTRFS info (device sdb1): using free space tree
+[ 2183.768033] BTRFS error (device sdb1): level verify failed on logical 821480292352 mirror 1 wanted 1 found 0
+[ 2183.768404] BTRFS error (device sdb1): level verify failed on logical 821480292352 mirror 2 wanted 1 found 0
+[ 2183.768428] BTRFS warning (device sdb1): failed to read root (objectid=4): -5
+[ 2183.769638] BTRFS error (device sdb1): open_ctree failed
+
+

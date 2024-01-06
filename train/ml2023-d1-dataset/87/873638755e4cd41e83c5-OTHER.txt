@@ -1,0 +1,6 @@
+process_begin: CreateProcess(NULL, mockgen -source=internal/storage/storage.go -destination=internal/storage/mock/mock_storage.go, ...) failed.
+make (e=2): Не удается найти указанный файл.
+make: *** [C:/dev/projects/goland/Lesson_6/Makefile:9: mock] Error 2
+
+
+

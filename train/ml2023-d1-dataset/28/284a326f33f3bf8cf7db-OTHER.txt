@@ -1,0 +1,9 @@
+plan 1:
+Choose a prepaid redo order of 150,000, earn 20%, and withdraw 180,000 rupees after completing the data repair.
+You are not allowed to quit midway, otherwise settlement will not be made.
+Withdraw money together after the repair is completed. You cannot continue working within 7 days. (The data has been generated and cannot be changed)
+
+Plan 2:
+Select 28,000 prepaid redo orders, the system will randomly match 1-2 ladder orders, and the profit will be 50%-80%
+You are not allowed to exit midway, otherwise settlement will not be made. Completing the ladder data repair order is the withdrawal order.
+Withdraw money together after the repair is completed (the data has been generated and cannot be changed)

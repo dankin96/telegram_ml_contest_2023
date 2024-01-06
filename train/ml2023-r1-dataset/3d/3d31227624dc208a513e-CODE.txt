@@ -1,0 +1,1 @@
+ods output sgplot=boxplot_data; proc sgplot data=mylib.calendar; vbox price; run; 

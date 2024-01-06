@@ -1,0 +1,5 @@
+Area => IPV
+Event Type => HEALTH-KO 
+Label => EXTEMPORANEOUS 
+Long Message => Fail: launchjobBondMx3Importer 
+Short Message => IO is CRITICAL

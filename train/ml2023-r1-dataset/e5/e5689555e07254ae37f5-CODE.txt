@@ -1,0 +1,2 @@
+type FetcherFunction = (path: string) => Promise<any>;
+

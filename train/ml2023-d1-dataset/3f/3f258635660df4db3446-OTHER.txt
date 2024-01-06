@@ -1,0 +1,7 @@
+v10.1.1.1 (20470) Play Store uz
+samsung SM-S901N android 13
+ROM: TP1A.220624.014.S901NKSU3CWGI
+Performance: HIGH
+Cache: 1,92 GB
+Database: 16,5 MB
+Free: 119,17 GB

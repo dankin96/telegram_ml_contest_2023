@@ -1,0 +1,41 @@
+import heapq
+
+class Solution:
+    
+    #Function to return the minimum cost to react at bottom
+  #right cell from top left cell.
+  def minimumCostPath(self, grid):
+      
+    n = len(grid)
+    
+        # List to store the cost to reach each cell
+        dist = [[float('inf')] * n for _ in range(n)]
+        
+        # Min heap to get the cell with the smallest cost
+        min_heap = [(grid[0][0], 0, 0)]
+        
+        # Mark the distance of the starting cell
+        dist[0][0] = grid[0][0]
+        
+        # Possible directions to move to the neighboring cells
+        dirs = [(1, 0), (-1, 0), (0, 1), (0, -1)]
+        
+        while min_heap:
+            cost, x, y = heapq.heappop(min_heap)
+            
+            # If this cell's distance is already processed, skip it
+            if cost > dist[x][y]:
+                continue
+                
+            # Check all neighboring cells
+            for dx, dy in dirs:
+                nx, ny = x + dx, y + dy
+                if 0 <= nx < n and 0 <= ny < n:
+                    # If the new path to the neighboring cell is cheaper, update it
+                    if dist[x][y] + grid[nx][ny] < dist[nx][ny]:
+                        dist[nx][ny] = dist[x][y] + grid[nx][ny]
+                        heapq.heappush(min_heap, (dist[nx][ny], nx, ny))
+                        
+        return dist[n-1][n-1]
+
+

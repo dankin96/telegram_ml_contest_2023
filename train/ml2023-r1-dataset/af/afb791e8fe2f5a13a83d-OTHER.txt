@@ -1,0 +1,1 @@
+ | University | Student |Program |student_count| | ----------- | ---------| -------- | ----------- | | University A| Student 1| Program A|2 | | University A| Student 2| Program A|2 | | University A| Student 3| Program B|1 | | University B| Student 4| Program A|1 | | University B| Student 5| Program B|1 |

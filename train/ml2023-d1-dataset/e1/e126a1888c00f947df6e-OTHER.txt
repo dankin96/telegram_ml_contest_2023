@@ -1,0 +1,32 @@
+
+d8-monitoring                monitoring-ping-pclpb                                          1/1     Running   2 (127m ago)    12h
+d8-monitoring                node-exporter-hcbsd                                            3/3     Running   12 (125m ago)   12h
+d8-monitoring                node-exporter-k9stx                                            3/3     Running   8 (125m ago)    12h
+d8-monitoring                prometheus-longterm-0                                          3/3     Running   6 (127m ago)    11h
+d8-monitoring                prometheus-main-0                                              3/3     Running   6 (127m ago)    11h
+d8-monitoring                prometheus-metrics-adapter-866fc99b7f-slj5q                    2/2     Running   4 (126m ago)    11h
+d8-monitoring                trickster-68585f66d5-29vqs                                     2/2     Running   2 (127m ago)    10h
+d8-operator-prometheus       prometheus-operator-84656bf888-tpdjb                           2/2     Running   4 (127m ago)    12h
+d8-pod-reloader              pod-reloader-96bd47b76-m8h2j                                   2/2     Running   4 (127m ago)    12h
+d8-system                    deckhouse-9dfcc5d89-lqmwp                                      2/2     Running   6 (125m ago)    12h
+d8-system                    documentation-56f459f46-j57cs                                  1/1     Running   2 (127m ago)    12h
+d8-system                    documentation-dex-authenticator-6f59dd4f69-kw7cq               2/2     Running   6 (123m ago)    12h
+d8-system                    webhook-handler-85747d96bf-xfn5p                               1/1     Running   2 (126m ago)    12h
+d8-upmeter                   smoke-mini-a-0                                                 1/1     Running   0               63s
+d8-upmeter                   smoke-mini-b-0                                                 1/1     Running   0               2m3s
+d8-upmeter                   smoke-mini-c-0                                                 1/1     Running   0               4s
+d8-upmeter                   smoke-mini-d-0                                                 1/1     Running   0               3m3s
+d8-upmeter                   smoke-mini-e-0                                                 1/1     Running   0               4m3s
+d8-upmeter                   status-6798c94685-tc5q4                                        1/1     Running   2 (127m ago)    12h
+d8-upmeter                   status-dex-authenticator-8584d5c8b5-2xpvr                      2/2     Running   6 (124m ago)    12h
+d8-upmeter                   upmeter-0                                                      2/2     Running   4 (127m ago)    11h
+d8-upmeter                   upmeter-agent-57d26                                            1/1     Running   2 (126m ago)    11h
+d8-upmeter                   upmeter-dex-authenticator-c8666596-zvm62                       2/2     Running   6 (123m ago)    12h
+d8-upmeter                   webui-6cc66877db-2t29j                                         1/1     Running   2 (127m ago)    12h
+d8-user-authn                dex-576558ff5-67v88                                            2/2     Running   4 (127m ago)    12h
+d8-user-authn                kubeconfig-generator-58bc98fdb7-s7cqd                          1/1     Running   5 (125m ago)    12h
+kube-system                  d8-control-plane-manager-b8jmh                                 6/6     Running   0               124m
+kube-system                  d8-kube-dns-784bcff68f-g9pgg                                   2/2     Running   2 (127m ago)    11h
+kube-system                  d8-kube-dns-784bcff68f-zxwbq                                   2/2     Running   0               125m
+kube-system                  etcd-k8s-master01                                              1/1     Running   0               120m
+kube-system                  kube-apiserver-k8s-master01                                    2/2     Running   0               122m

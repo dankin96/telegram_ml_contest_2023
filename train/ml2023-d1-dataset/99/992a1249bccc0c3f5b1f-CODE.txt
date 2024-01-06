@@ -1,0 +1,1 @@
+copy('https://phar.madelineproto.xyz/madeline.php', 'madeline.php');

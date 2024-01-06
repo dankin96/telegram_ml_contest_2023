@@ -1,0 +1,1 @@
+->where('cachepwd', $this->userData['hash'])->first();

@@ -1,0 +1,5 @@
+Failed loading QML component
+qrc:/DefaultStyle.qml:4 module "QtQml.StateMachine" is not installed
+qrc:/DefaultStyle.qml:3 module "Qt5Compat.GraphicalEffects" is not installed
+qrc:/DefaultStyle.qml:4 module "QtQml.StateMachine" is not installed
+qrc:/DefaultStyle.qml:3 module "Qt5Compat.GraphicalEffects" is not installed

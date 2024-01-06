@@ -1,0 +1,11 @@
+cmd_download()
+{
+    cdn='vscode.cdn.azure.cn'
+    orig_url='https://code.visualstudio.com/sha/download?build=stable&os=linux-x64'
+    cur_url=$(curl -ILs -o /dev/null -w '%{url_effective}
+' "$orig_url")
+    echo "$cur_url"
+    new_url=$(sed "s#https://.*/stable#https://$cdn/stable#g" <<< $cur_url)
+    echo "$new_url"
+    wget -c "$new_url"
+}

@@ -1,0 +1,5 @@
+//@version=5
+strategy(title = "simple strategy exit example")
+if open > high[1]
+    strategy.entry("long", strategy.long, 1) // enter long by market if current open great then previous high
+strategy.exit("exit", "long", profit = 10, loss = 5) // generate full exit bracket (profit 10 points, loss 5 points per contract) from entry with name "long"

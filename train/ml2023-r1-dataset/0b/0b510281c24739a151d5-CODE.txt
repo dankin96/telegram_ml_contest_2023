@@ -1,0 +1,1 @@
+id = setInterval(() => $('button').click(), 1000)

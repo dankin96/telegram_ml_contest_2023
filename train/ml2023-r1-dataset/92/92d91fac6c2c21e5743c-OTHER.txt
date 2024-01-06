@@ -1,0 +1,54 @@
+u7539@d2c184e6-98e1-463c-acd4-6b0d68451c4b 
+------------------------------------------ 
+OS: Ubuntu 22.04.3 LTS x86_64 
+Kernel: 5.15.0-1045-aws 
+Uptime: 4 days, 10 hours, 9 mins 
+Packages: 833 (dpkg) 
+Shell: bash 
+CPU: Intel Xeon Platinum 8375C (8) @ 3.499GHz 
+GPU: 00:03.0 Amazon.com, Inc. Device 1111 
+Memory: 21979MiB / 63276MiB 
+
+
+CPU
+Cores        : 4
+Logical      : 8
+Frequency    : 3500
+[■■■■■■■■■■] 100.0%
+
+RAM 
+Terpakai     : 21.28GB
+Tersedia     : 39.65GB
+Total        : 61.79GB
+[■■■□□□□□□□] 35.8%
+
+Penyimpanan 
+Terpakai     : 108.89GB
+Tersedia     : 242.26GB
+Total        : 370.02GB
+[■■■□□□□□□□] 31.0%
+
+Jaringan
+Total Unduh  : 2.30GB
+Total Unggah : 1.62GB
+
+Versi
+Aria2c       : v1.36.0
+FFMPEG       : v4.4.2
+Google Api   : v2.102.0
+MegaSDK      : v4.8.0
+P7Zip        : v16.02
+Pyro         : v2.3.7
+Rclone       : v1.64.0
+Qbittorrent  : v4.5.5
+YT-DLP       : v2023.10.07
+
+Lainnya
+Username     : @ngi_singbot
+Waktu Bot    : 2h17m12s
+Waktu Mesin  : 4d10h9m24s
+Diperbarui   : 2023-10-08 From 2 hours ago
+
+Quotes       : 
+"How you doin'?"
+=>  Friends

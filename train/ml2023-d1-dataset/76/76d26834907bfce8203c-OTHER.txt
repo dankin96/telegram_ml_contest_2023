@@ -1,0 +1,35 @@
+Exchange RUNEBTC 1h Binance
+Price:0.00006151|0.00006167|0.00006148
+Vol:       324|  45,410|   6,921
+ATR: 0.00000077
+
+✅OBV: 204.0 K| 204.4 K| 159.0 K
+✅RSI:   71.35|   73.01|   72.30
+✅MFI:   96.21|   94.05|   93.34
+⚪CCI:   95.73|  128.47|  155.22
+❌WR%:  -32.53|  -17.16|   -5.57
+✅ADX:   49.08|   48.93|   48.69
+
+⚪MOM: No Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+✅PSAR: Bullish
+
+Support And Resistance
+S: 0.00005536
+S: 0.00005718
+S: 0.00005923
+S: 0.00006107
+R: 0.00006167
+
+Volatility is very high
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

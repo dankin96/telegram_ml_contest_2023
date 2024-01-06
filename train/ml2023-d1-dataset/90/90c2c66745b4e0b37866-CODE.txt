@@ -1,0 +1,20 @@
+import os
+import json
+
+directory = 'data/users/'
+
+
+def main():
+    files = os.listdir(directory)
+    for file_name in files:
+        with open(directory + file_name, 'r', encoding='UTF-8') as file:
+            data = json.load(file)
+            data['cake'] += 20
+        
+        with open(directory + file_name, 'w', encoding='UTF-8') as file:
+            json.dump(data, file, indent=4, ensure_ascii=False)
+            print(f'{data["name"]} получил(-а) компенсацию!')
+
+
+if __name__ == '__main__':
+    main()

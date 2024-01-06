@@ -1,0 +1,5 @@
+
+ls -RlA | sort -rnk 5 | awk '{ if(NF>=9) ($1 ~/^d/)? (dir=dir+1) : (file=file+1)(size=size+$5); if(NR&LT6) print NR": "$5" "$9} END{ print "Dir = "dir"
+" "    File = " file"
+" "total = "size}'
+

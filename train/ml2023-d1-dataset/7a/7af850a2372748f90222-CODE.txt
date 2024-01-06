@@ -1,0 +1,6 @@
+proxies: 
+  - { 
+      name: DIRECT-prefer-v6, 
+      ip-version: ipv6-prefer, 
+      type: direct  # for now requires Clash.Meta Alpha 
+    } 

@@ -1,0 +1,1 @@
+void *__fastcall sub_15B0D4(int a1);

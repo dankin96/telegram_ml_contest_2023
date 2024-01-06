@@ -1,0 +1,23 @@
+
+class ExampleModel extends ChangeNotifier {
+  final client = ApiClient();
+  List<String> _data = [];
+  List<String> get data => _data;
+
+  Future<void> loadData() async {
+    final data = await client.getData();
+    _data = data;
+    notifyListeners();
+  }
+}
+
+class ExampleWidget extends StatelessWidget {
+  const ExampleWidget({super.key});
+  @override
+  Widget build(BuildContext context) {
+    final data = context.watch<ExampleModel>().data;
+    return ListView(
+      children: data.map((String text) => ExampleWidgetItem(text: text)),
+    );
+  }
+}

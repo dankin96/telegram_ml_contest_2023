@@ -1,0 +1,1 @@
+[ 85%] LOAD     gnu/tests/telephony.scm

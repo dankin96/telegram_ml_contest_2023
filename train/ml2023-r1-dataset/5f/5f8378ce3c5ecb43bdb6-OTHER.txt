@@ -1,0 +1,18 @@
+ 
+Election changes new epoch 1856
+
+Elected:
+  RT6-2
+  GIZMO
+  PandemicMultiverse
+  CryptoJaeger_#1
+  NODE-NL-V4
+  Staking4All-1
+
+Deelected:
+  Devikins
+  Bran-Stark
+  KFI-REWARDS-3
+  kleverspace
+  all-klever-su...ters
+  Kiyuovia-II

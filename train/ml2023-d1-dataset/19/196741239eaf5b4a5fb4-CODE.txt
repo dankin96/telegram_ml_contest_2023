@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+using namespace std;
+
+
+int main() {
+    bool rgbLight = true;
+    int FPS = 0;
+
+    if (rgbLight == true) {
+        FPS += 100;
+    }
+}

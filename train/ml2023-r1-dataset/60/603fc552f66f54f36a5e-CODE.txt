@@ -1,0 +1,1 @@
+ loyalty_card = request.env['loyalty.card'].search([('partner.id', '>=', 0)], limit=1) 

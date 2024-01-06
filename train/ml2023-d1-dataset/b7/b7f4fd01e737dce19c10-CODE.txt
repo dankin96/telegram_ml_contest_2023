@@ -1,0 +1,21 @@
+#include <Wire.h>
+#include "TLC59108.h"
+
+#define I2C_ADDR TLC59108::I2C_ADDR::BASE
+
+TLC59108 leds(I2C_ADDR);
+
+void setup() {
+  Wire.begin();
+  leds.init();
+}
+
+void loop() {
+  // Установите яркость для всех светодиодов на полную (0xFF)
+  leds.setBrightness(0xFF);
+  delay(1000);
+
+  // Установите яркость для всех светодиодов на половину (0x7F)
+  leds.setBrightness(0x7F);
+  delay(1000);
+}

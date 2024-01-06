@@ -1,0 +1,1 @@
+shalou: 文件系统中存在 /bin （由 filesystem 所有）shalou: 文件系统中存在 /lib （由 filesystem 所有）

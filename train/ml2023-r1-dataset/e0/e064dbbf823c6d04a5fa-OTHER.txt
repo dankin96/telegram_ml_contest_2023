@@ -1,0 +1,5 @@
+Channel Flags  Topic
+        Users
+      0        *********  P a c k e t  R a d i o - D L  C o n v e r s  *********
+        cb7alm:lars fips02:benny d1tne(G) teleg1:Telegram-BOT(@)
+***

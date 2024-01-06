@@ -1,0 +1,27 @@
+lua
+local tableee = {"RZQJAS", "GKLYPT", "HWXNFD", "EBSUVO", "LMDRKG",
+"ZPVIYC", "UONBHX", "FACQSE", "YVTKLX", "JWXRHB",
+"OCYIWD", "PMNLVJ", "DLXZEG", "QVRFAS", "IKGHJP",
+"TSBEMY", "AHJKWZ", "NMOFIR", "PUVCXY", "QHXRLZ",
+"VGZPDS", "FLKJHQ", "XRWYOS", "BMLGKP", "ZDITAS",
+"VHTMRO", "QGWDZK", "CZIEQX", "AFLYSO", "VKJXPH",
+"OZLIGM", "HDXRVB", "JYNEPO", "UTLXGS", "WEYSPC",
+"NXJAHV", "OQDIPZ", "ZPTAQM", "KYFLWB", "JXGHZS",
+"FLUZDB", "MREYVX", "XKSTGJ", "GYDBVW", "QRGSKH",
+"NZMXLR", "PJSUOH", "IHBYDW", "USKRVE", "OWBHXK",
+"JRPYSG", "XSKOIJ", "ZIEBCV", "GUPAFK", "WJERCL",
+"SQZNDP", "KOZSMH", "IHVTXW", "JXYROQ", "TZWBNV",
+"FKGOZX", "AZIPJY", "MOUBXW", "CVTSXP", "JTGWMN",
+"UDLKQV", "RBCYWN", "VYIWJX", "GTMZFO", "CXNRZS",
+"YQXUEK", "SRGLYD", "NFVQPO", "DWPJMQ", "MKVTFZ",
+"HGIZJR", "ABFYXO", "NEQVRZ", "OTRMSK", "XKUEWM",
+"PCOZJR", "MYKGDP", "ZLEQPB", "BGKXVM", "YRVLZA",
+"AXMQJE", "GLXHSF", "RUIHEJ", "YCNQJO", "FKLISZ",
+"QYEPXM", "DKWSYB", "OSJLPT", "ZLBRWI", "AXUKJN"}
+for i,v in pairs(tableee) do
+local args = {
+    [1] = v
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Redeem"):FireServer(unpack(args))
+end

@@ -1,0 +1,5 @@
+{
+    "customerID":"VotreAcheteur",
+    "password":"V0treStrongPasswOrd02ç_"
+}
+

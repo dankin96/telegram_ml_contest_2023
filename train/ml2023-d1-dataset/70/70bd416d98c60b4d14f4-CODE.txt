@@ -1,0 +1,28 @@
+{
+ "update_id": 935472144,
+ "message": {
+  "message_id": 2797129,
+  "from": {
+   "id": 2505806,
+   "is_bot": false,
+   "first_name": "X",
+   "username": "teleX",
+   "language_code": "en",
+   "is_premium": true
+  },
+  "chat": {
+   "id": -1001384407131,
+   "title": "Telegram Offtop",
+   "username": "offtopicgroup",
+   "is_forum": true,
+   "type": "supergroup"
+  },
+  "date": 1696945865,
+  "message_thread_id": 2797129,
+  "forum_topic_created": {
+   "name": "d",
+   "icon_color": 7322096
+  },
+  "is_topic_message": true
+ }
+}

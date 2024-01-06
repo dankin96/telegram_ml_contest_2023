@@ -1,0 +1,8 @@
+Area => TRD-CREDIT
+Event Type => HEALTH-OK
+Label => START
+Long Message => key = BBG, alert = false, description = 
+key = KPOS, alert = false, description = 
+key = ION, alert = false, description = 
+key = DB, alert = false, description = 
+Short Message => All components are ok

@@ -1,0 +1,3 @@
+bash
+sudo iptables -A INPUT -p tcp --dport 25500 -s 127.0.0.1 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 25500 -j DROP

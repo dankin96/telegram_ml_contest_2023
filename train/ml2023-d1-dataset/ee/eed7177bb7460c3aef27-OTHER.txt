@@ -1,0 +1,2 @@
+
+decode config: invalid character 'd' looking for beginning of value: row 1, column 1

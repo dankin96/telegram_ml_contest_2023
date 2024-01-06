@@ -1,0 +1,8 @@
+--------------------------------
+🔸Pagamento Div em 16/10/2023🔸
+--------------------------------
+Sigla  tipo  valor   DivYet
+HPQB34 Div   0,83    %
+BICR11 Amort   36,00    %
+REIT11 Amort   3,80    %
+

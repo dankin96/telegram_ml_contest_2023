@@ -1,0 +1,5 @@
+ERROR ethers_solc::resolver: failed to resolve versions
+Error:
+Encountered invalid solc version in src\MessageReceiver.sol: No solc version exists that matches the version requirement: ^0.8.20
+Encountered invalid solc version in src\MessageSender.sol: No solc version exists that matches the version requirement: ^0.8.20
+Encountered invalid solc version in src\interfaces\IPolygonZkEVMBridge.sol: No solc version exists that matches the version requirement: ^0.8.20

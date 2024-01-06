@@ -1,0 +1,7 @@
+var modules_dictionary = {}
+
+func _init():
+  modules_dictionary[module_name.ENERGY_BALL] = energy_ball_module
+  modules_dictionary[module_name.ENERGY_BALL]].instantiate()
+
+...

@@ -1,0 +1,3 @@
+const counter = useCookie('counter', {
+  maxAge: 3600 * 24,
+});

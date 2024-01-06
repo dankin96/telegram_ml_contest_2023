@@ -1,0 +1,14 @@
+[HttpGet]
+public IActionResult Get([FromRoute] string id)
+{
+  int[] intId = _hashids.Decode(id);
+
+  if (intId.Length == 0) return NotFound();
+
+  var user = _userService.GetUser(intId[0]);
+
+  if (user is null) return NotFound();
+
+  return Ok(user);
+}
+

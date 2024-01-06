@@ -1,0 +1,17 @@
+
+wine: '/mnt/TEMP/SteamLibrary/steamapps/compatdata/1172470/pfx' is not owned by you
+/bin/sh\0-c\0/home/neko/.local/share/Steam/ubuntu12_32/reaper SteamLaunch AppId=1172470 -- /home/neko/.local/share
+/Steam/ubuntu12_32/steam-launch-wrapper -- '/home/neko/.local/share/Steam/steamapps/common/SteamLinuxRuntime_sniper'/_v2-entry-point --verb=waitforexitandrun -- '/home/neko/.local/share/Steam/steamapps/common/Proton - Experiment
+al'/proton waitforexitandrun  '/mnt/TEMP/SteamLibrary/steamapps/common/Apex Legends/EasyAntiCheat_launcher.exe' -steam\0
+chdir "/mnt/TEMP/SteamLibrary/steamapps/common/Apex Legends"
+ERROR: ld.so: object '/home/neko/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be 
+preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/neko/.local/share/Steam/ubuntu12_64/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS64): ignored.
+ERROR: ld.so: object '/home/neko/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be 
+preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/neko/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be preloaded (wrong ELF class: ELFCLASS32): ignored.
+ERROR: ld.so: object '/home/neko/.local/share/Steam/ubuntu12_32/gameoverlayrenderer.so' from LD_PRELOAD cannot be 
+preloaded (wrong ELF class: ELFCLASS32): ignored.
+wineserver: /mnt/TEMP/SteamLibrary/steamapps/compatdata/1172470/pfx is not owned by you
+wine: '/mnt/TEMP/SteamLibrary/steamapps/compatdata/1172470/pfx' is not owned by you
+Uploaded AppInterfaceStats to Steam

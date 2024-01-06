@@ -1,0 +1,3 @@
+/etc/fstab
+---
+UUID=<UUID of the swap partition>  swap  swap  defaults  0  0

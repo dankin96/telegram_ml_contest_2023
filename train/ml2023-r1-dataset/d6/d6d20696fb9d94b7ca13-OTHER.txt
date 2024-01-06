@@ -1,0 +1,1 @@
+Oct 6 05:19:08 vmi1216466 sshd[1426627]: banner exchange: Connection from 103.145.255.201 port 50439: invalid format

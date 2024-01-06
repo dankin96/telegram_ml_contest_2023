@@ -1,0 +1,28 @@
+template <class T>
+struct ExplicitCopy {
+    static T clone(const T &t) {
+        return T(t);
+    }
+
+    static T &clone(const T &t, void *place) {
+        ::new (place) T(t);
+        return *static_cast<T *>(place);
+    }
+};
+
+class TestClass : public ExplicitCopy<TestClass> {
+    friend ExplicitCopy<TestClass>;
+
+public:
+    TestClass() = default;
+    ~TestClass() = default;
+
+protected:
+    TestClass(const TestClass &) = default;
+    TestClass &operator=(const TestClass &) = default;
+};
+
+int main() {
+    TestClass t1;
+    TestClass t2 = TestClass::clone(t1);
+}

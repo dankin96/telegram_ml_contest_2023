@@ -1,0 +1,8 @@
+const addresses=`
+  0x0000000000000000000000000000000000000000
+  0x0000000000000000000000000000000000000001
+`;
+
+const delay=e=>new Promise($=>setTimeout($,e));async function removeAddresses(e){let $=e.trim().split("
+").map(e=>e.trim().toLowerCase()),t=new Set($);console.log(`Provided addresses: ${t.size}`);let l=[],s=document.querySelectorAll(".address-table-row .okui-table-cell");for(let o of s){let d=o.innerHTML.toLowerCase();if(!d.includes("0x"))continue;let a=d.match(/0x[a-fA-F0-9]{40,64}/g)[0]?.toLowerCase();if(!a||!t.has(a))continue;let r=o.parentElement.querySelector(".actions .action:last-child");l.push({address:a,addressCell:d,deleteButton:r})}for(let n of(console.log(`Found addresses: ${l.length}`),l)){console.log(`Remove address: ${n.address}`),n.deleteButton.click(),await delay(400);let i=document.querySelector(".okui-btn.btn-sm.btn-fill-highlight.dialog-btn.double-btn");i.click(),await delay(400)}}removeAddresses(addresses);
+

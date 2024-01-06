@@ -1,0 +1,4 @@
+javascript
+// Импорт объекта из модуля
+// 📁 anotherModule.js
+import { admin } from './admin.js';

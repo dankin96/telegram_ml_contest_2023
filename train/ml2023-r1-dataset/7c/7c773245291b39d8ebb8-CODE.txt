@@ -1,0 +1,11 @@
+{
+  "orderId": "150801212",
+  "pair": "ETH_USDT",
+  "price": 1635.50,
+  "origQty": 0.004,
+  "executedQty": 0.004,
+  "side": "BUY",
+  "type": "LIMIT",
+  "status": "FILLED",
+  "fee": 0.00130840
+}

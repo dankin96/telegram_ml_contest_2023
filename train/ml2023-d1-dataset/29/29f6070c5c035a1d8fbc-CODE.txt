@@ -1,0 +1,17 @@
+  "scripts": {
+    "clean": "rimraf ./dist/",
+    "rnm": "rimraf ./node_modules/",
+    "build-ssr": "cross-env STAND_ENV=server npm run build:server && npm run build:client && sitemap",
+    "build:client": "webpack --config webpack.client.js --progress --hide-modules",
+    "build:server": "webpack --config webpack.server.js --progress --hide-modules",
+    "start-ssr": "cross-env STAND_ENV=server node ./src/server.js",
+    "dev:ssr": "npm run dev:server && npm run dev:client",
+    "dev:client": "webpack --config webpack.client.js --no-progress --hide-modules",
+    "dev:server": "webpack --config webpack.server.js --no-progress --hide-modules",
+    "dev": "cross-env STAND_ENV=development run-p dev-client dev-server nodemon sitemap",
+    "nodemon": "nodemon ./src/nodemon.js",
+    "dev-client": "webpack-dev-server --config webpack.client.js",
+    "dev-server": "webpack -w --config webpack.server.js",
+    "build-dev": "cross-env STAND_ENV=development run-s clean dev:ssr",
+    "sitemap": "cross-env STAND_ENV=server node ./src/utils/generate-sitemap.js"
+  },

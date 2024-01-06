@@ -1,0 +1,8 @@
+final case class JdbcProtocolBuilderConnectionSettingsStep(
+    url: String,
+    username: String,
+    password: String,
+    maximumPoolSize: Int = 10,
+    minimumIdleConnections: Int = 10,
+    connectionTimeout: FiniteDuration = 1.minute,
+)

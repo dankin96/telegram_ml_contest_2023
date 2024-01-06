@@ -1,0 +1,82 @@
+#include <iostream>
+#include <algorithm>
+#include <string>
+#include <vector>
+using namespace std;
+int main(){
+    string str;
+    getline(cin, str);
+    str.erase(remove(str.begin(),str.end(),' '),str.end()); // считали первую строку
+    int x = stoi(string(1, str[0])); // записалли в х кол-во строк
+    int y = stoi(string(1, str[1])); // записалли в у кол-во столбцов
+    int k = stoi(string(1, str[2])); // записали в k кол-во мин
+    unsigned int g = k*2;
+
+    int A[x+2][y+2]; // создаем массив нулей добавляя по периметру запас(его просто не печатаем)
+    for (int i = 0; i < x+2; ++i)
+    {
+        for (int j = 0; j < y+2; ++j)
+        {
+            A[i][j] = 0;
+        }
+    }
+
+    string data;
+    vector<int> vector_int;
+    string vector;
+    while (getline(cin, data) && vector.size() < g) //считываем координаты мин и создаем вектор
+    {
+        data.erase(remove(data.begin(),data.end(),' '),data.end());
+        vector.push_back(data[0]);
+        vector.push_back(data[1]);
+    }
+    
+    for (size_t i = 0; i < vector.size(); ++i) //вектор в числа
+    {
+        vector_int.push_back(stoi(string(1, vector[i])));
+    }
+
+    for (int i = 1; i < x+1; i +=1 ) // проходимся по координатам массива и сравниваем их с координатами мин в векторе, если это мина, то 9 и вокруг добавляем 1
+    {
+        for (int j = 1; j < y+1; j += 1)
+            for (size_t m = 0; m < vector_int.size()-1; m += 2)
+            {
+                if ((i == vector_int[m]) && (j == vector_int[m+1]))
+                {
+                    A[i][j] = 9;
+                    A[i-1][j-1] += 1;
+                    A[i-1][j] += 1;
+                    A[i-1][j+1] += 1;
+                    A[i][j-1] += 1;
+                    A[i][j+1] += 1;
+                    A[i+1][j-1] += 1;
+                    A[i+1][j] += 1;
+                    A[i+1][j+1] += 1;
+                }
+            }
+    }
+
+    for(int i = 1; i < x+1; ++i)
+    {  
+        for(int j = 1; j < y+1; ++j)
+        {
+            if (A[i][j] >= 9) // если это 9, т.е. мина, печатаем *
+            {
+                cout << "*" << " ";
+                if (j == y) // если это крайний элемент, то переходим на следуюющую строчку
+                {
+                    cout << endl;
+                }
+            }
+            else
+            {
+                cout << A[i][j] << " ";
+                if (j == y)
+                {
+                    cout << endl;
+                }
+            }
+        }
+            
+    }
+}

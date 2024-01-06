@@ -1,0 +1,26 @@
+стороне api:
+      struct FVkTextureCreateInfo
+      {
+        vk::Format format{};
+        vk::ImageUsageFlags usageFlags{};
+        vk::ImageAspectFlags aspectFlags{ vk::ImageAspectFlagBits::eColor };
+        vk::Extent3D extent{};
+        vk::ImageLayout layout{};
+
+        uint32_t imageTypeFlags{ 0u };
+
+        uint32_t mipLevelCount{ 1u };
+        uint32_t arrayLayersCount{ 0u };
+
+        vk::SampleCountFlagBits sampleCount{ };
+
+        bool createSampler{ true };
+        vk::Filter filter{ vk::Filter::eLinear };
+        vk::SamplerAddressMode addressMode{};
+        bool enableAnisotropy{ false };
+        bool enableCompareOp{ false };
+
+#ifndef BUILD_WITHOUT_DEBUGGIND
+        std::string name{};
+#endif
+      };

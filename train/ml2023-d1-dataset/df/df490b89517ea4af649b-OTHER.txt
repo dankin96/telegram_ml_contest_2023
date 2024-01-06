@@ -1,0 +1,1 @@
+weights would be recondated within civic lora would be 1.00 and stable diffusion would be between 0.7 and 1.0

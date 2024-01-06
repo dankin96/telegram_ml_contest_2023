@@ -1,0 +1,2 @@
+
+  scriptSection = data:match("local script_section%s?=%s?\"(.+)\"")

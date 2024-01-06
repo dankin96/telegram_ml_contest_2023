@@ -1,0 +1,4 @@
+if (!$locale) {
+  $defaultLocale = config('app.default_locale'); 
+  return redirect("/$defaultLocale" . $request-  >getPathInfo());
+}

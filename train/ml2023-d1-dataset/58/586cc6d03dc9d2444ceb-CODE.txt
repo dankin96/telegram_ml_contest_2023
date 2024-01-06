@@ -1,0 +1,67 @@
+
+import pgzrun
+
+WIDTH = 500
+
+HEIGHT = 500
+
+x = 250
+
+y = 250
+
+r = 50
+
+dx = 5
+
+dy = 5
+
+is_pressed = False
+
+def on_mouse_down(pos, button):
+
+global is_pressed
+
+if button == mouse.LEFT:
+
+is_pressed = True
+
+def on_mouse_up(pos, button):
+
+global is_pressed
+
+if button == mouse.LEFT:
+
+is_pressed = False
+
+def update():
+
+global x, y, dx, dy, is_pressed
+
+if is_pressed:
+
+color = "green"
+
+else:
+
+color = "red"
+
+x += dx
+
+y += dy
+
+if x + r > WIDTH or x - r < 0:
+
+dx = -dx
+
+if y + r > HEIGHT or y - r < 0:
+
+dy = -dy
+
+def draw():
+
+screen.fill("white")
+
+screen.draw.filled_circle((x, y), r, color)
+
+pgzrun.go()
+

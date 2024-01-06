@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Instagram</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fafafa;
+        }
+        
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin: 0 auto;
+            display: block;
+        }
+        
+        .username {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        .post {
+            margin-bottom: 20px;
+        }
+        
+        .post img {
+            width: 100%;
+        }
+        
+        .caption {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img class="profile-pic" src="profile-pic.jpg" alt="Profile Picture">
+            <h1 class="username">Your Username</h1>
+        </div>
+        
+        <div class="post">
+            <img src="post1.jpg" alt="Post 1">
+            <p class="caption">Caption for Post 1</p>
+        </div>
+        
+        <div class="post">
+            <img src="post2.jpg" alt="Post 2">
+            <p class="caption">Caption for Post 2</p>
+        </div>
+        
+        <!-- Add more posts here -->
+        
+    </div>
+</body>
+</html>

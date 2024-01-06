@@ -1,0 +1,9 @@
+python
+import math
+
+S = 0
+term1 = math.factorial(3) / 4
+term2 = math.factorial(1) / 2
+S = term1 - term2
+
+print("S =", S)

@@ -1,0 +1,18 @@
+//@version=5
+indicator("My script")
+var bool new_4_hour_candle = false
+
+int my_timestamp_start = timestamp(2022,12,1,0,0)
+int my_timestamp_stop = timestamp(2022,12,2,0,0)
+
+string htf="240"
+
+if time >= my_timestamp_start and my_timestamp_stop >= time
+    log.info("Before calc: " + str.tostring(new_4_hour_candle)+" "+str.tostring(timeframe.change(htf)))
+    //new_4_hour_candle := timeframe.change(htf)
+    //log.info("After calc (same local scope): " + str.tostring(new_4_hour_candle)+" "+str.tostring(timeframe.change(htf)))
+
+new_4_hour_candle := timeframe.change(htf)
+
+if time >= my_timestamp_start and my_timestamp_stop >= time
+    log.info("After calc: " + str.tostring(new_4_hour_candle)+" "+str.tostring(timeframe.change(htf)))

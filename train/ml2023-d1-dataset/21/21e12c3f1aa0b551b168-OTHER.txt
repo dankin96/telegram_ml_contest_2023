@@ -1,0 +1,12 @@
+KEK - Kekcoin
+$0.000000000
+Network: ETH
+H|L: 0.00|0.00000000
+1h:  12.5%     🎉       
+24h: -52.3%    💣       
+7d:  0.0%      😏       
+Vol: $136.6 K
+Liq: $11.8 K
+Circ Mcap: 33.3 K
+FDV 33.3 K
+CA: 0xe9514a6eba63a0bbbe2faea919e773ebe0f527c1

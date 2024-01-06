@@ -1,0 +1,73 @@
+Validator overview
+
+KVGermany
+ T_Rewards old :  1,576,264
+ T_Rewards now :  1,576,264
+ T_Rewards diff:         0
+ Elected       :        NO
+ Jailed        :        NO
+ Count elected :       338
+ avg.  elected :         5
+ Claimable
+ Staking       :  1,220 KLV
+ Allowance     :  2,274 KLV
+
+KVGermany-II
+ T_Rewards old :   711,784
+ T_Rewards now :   711,784
+ T_Rewards diff:         0
+ Elected       :        NO
+ Jailed        :        NO
+ Count elected :       174
+ avg.  elected :         7
+ Claimable
+ Staking       :  1,220 KLV
+ Allowance     :  2,048 KLV
+
+KVGermany-III
+ T_Rewards old :   619,941
+ T_Rewards now :   619,941
+ T_Rewards diff:         0
+ Elected       :        NO
+ Jailed        :        NO
+ Count elected :       150
+ avg.  elected :         7
+ Claimable
+ Staking       :  1,220 KLV
+ Allowance     :  2,592 KLV
+
+KVGermany-IV
+ T_Rewards old :   629,975
+ T_Rewards now :   629,975
+ T_Rewards diff:         0
+ Elected       :        NO
+ Jailed        :        NO
+ Count elected :       157
+ avg.  elected :         6
+ Claimable
+ Staking       :  1,220 KLV
+ Allowance     :   581 KLV
+
+KVGermany-V
+ T_Rewards old :    90,770
+ T_Rewards now :    90,770
+ T_Rewards diff:         0
+ Elected       :        NO
+ Jailed        :        NO
+ Count elected :        23
+ avg.  elected :        12
+ Claimable
+ Staking       :  1,220 KLV
+ Allowance     :     0 KLV
+
+KVGermany-VI
+ T_Rewards old :     4,150
+ T_Rewards now :     4,151
+ T_Rewards diff:         1
+ Elected       :        NO
+ Jailed        :        NO
+ Count elected :         0
+ avg.  elected :         0
+ Claimable
+ Staking       :  1,679 KLV
+ Allowance     :   371 KLV

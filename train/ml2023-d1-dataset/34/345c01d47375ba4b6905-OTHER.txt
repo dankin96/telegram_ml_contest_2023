@@ -1,0 +1,13 @@
+
+@startuml
+actor User
+participant "Сайт госуслуг" as Website
+participant "Сервер госуслуг" as Server
+
+User -> Website: Открыть страницу госуслуг
+Website -> User: Отобразить страницу госуслуг
+User -> Website: Нажать кнопку "Получить карту"
+Website -> Server: Выполнить запрос GET /kart
+Server -> Website: Вернуть данные карты
+Website -> User: Отобразить данные карты
+@enduml

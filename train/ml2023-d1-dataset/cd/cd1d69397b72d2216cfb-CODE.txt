@@ -1,0 +1,11 @@
+    PrepareRequest(FHTTPRequest);
+    if ASource <> nil then
+    begin
+      ASource.Seek(0, soBeginning);
+      FHTTPRequest.SourceStream := ASource;
+    end;
+  finally
+    TMonitor.Exit(Self);
+  end;
+  LResponse := FHTTPClient.Execute(FHTTPRequest, AResponseContent);
+

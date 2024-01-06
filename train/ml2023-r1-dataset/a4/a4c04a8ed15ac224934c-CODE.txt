@@ -1,0 +1,12 @@
+# دریافت شعاع دایره از کاربر
+radius = float(input("شعاع دایره را وارد کنید: "))
+
+# محاسبه مساحت دایره
+area = 3.14 * radius ** 2
+
+# محاسبه محیط دایره
+circumference = 2 * 3.14 * radius
+
+# چاپ نتایج
+print("مساحت دایره: ", area)
+print("محیط دایره: ", circumference)

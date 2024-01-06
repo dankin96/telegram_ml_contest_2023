@@ -1,0 +1,2 @@
+/select/vmui/*
+/select/logsql/query

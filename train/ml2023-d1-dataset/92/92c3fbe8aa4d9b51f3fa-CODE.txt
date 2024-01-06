@@ -1,0 +1,6 @@
+if(cache()->has("articles")) {
+            $articles = cache('articles');
+        } else {
+            $articles = Article::whereLang($locale)->latest()->take(8)->get();
+            cache(["articles"  => $articles] , Carbon::now()->addMinutes(10));
+        }

@@ -1,0 +1,5 @@
+Problem has been resolved in 1m 0s at 22:31:18 on 2023.10.05
+Problem name: Caída URL's estimaciones SAE Indra
+Host: Zabbix server
+Severity: High
+Original problem ID: 94006

@@ -1,0 +1,5 @@
+substitutions:
+  gate: Gate
+  kettle: RK-xxxxS 
+
+skykettle:

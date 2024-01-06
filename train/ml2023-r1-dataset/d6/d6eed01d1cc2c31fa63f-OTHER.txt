@@ -1,0 +1,15 @@
+Summary--------  2023-10-01 00:00:00
+DAU------------  282768
+MAU (last 30d)-  917623
+Stickness------  30.82
+Daily Installs-  10045
+Android--------  None
+DAU------------  91343
+MAU------------  404698
+Stickness------  22.57
+Installs-------  5611
+iOS------------  None
+DAU------------  191425
+MAU------------  512925
+Stickness------  37.32
+Installs-------  4434

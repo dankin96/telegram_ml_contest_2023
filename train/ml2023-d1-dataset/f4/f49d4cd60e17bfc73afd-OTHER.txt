@@ -1,0 +1,8 @@
+ tlm mined:      1.1824 TLM
+ min:            0.0156 TLM
+ avg:            0.0408 TLM
+ max:            0.0774 TLM
+ count:          29
+ nftpoints:      52.2
+ first mine:     10/12/23, 01:24:53 UTC
+ last mine:      10/13/23, 00:38:52 UTC

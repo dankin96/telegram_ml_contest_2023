@@ -1,0 +1,14 @@
+python
+# 522x + 8x57 = 9xCC
+q = 18
+w = 16
+e = 19
+
+for x in range(e):
+    a = 5*q**3 + 2*q**2 + 2*q**1 + x*q**0
+    b = 8*w**3 + x*w**2 + 5*w**1 + 7*w**0
+    c = 9*e**3 + x*e**2 + 12*e**1 + 12*e**0
+    if a + b == c:
+        print("Значение x:", x)
+        print(c)
+        break

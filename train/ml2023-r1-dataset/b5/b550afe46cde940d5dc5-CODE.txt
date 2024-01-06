@@ -1,0 +1,15 @@
+CREATE TABLE game_ownership
+(
+    username       TEXT NOT NULL,
+    game_id        INTEGER NOT NULL,
+    notes          TEXT, user_id INTEGER NOT NULL DEFAULT 0,
+    UNIQUE (username, game_id),
+    FOREIGN KEY (username)
+      REFERENCES "users" (username) 
+         ON DELETE CASCADE 
+         ON UPDATE CASCADE,
+    FOREIGN KEY (game_id)
+      REFERENCES games (id) 
+         ON DELETE CASCADE 
+         ON UPDATE NO ACTION
+)

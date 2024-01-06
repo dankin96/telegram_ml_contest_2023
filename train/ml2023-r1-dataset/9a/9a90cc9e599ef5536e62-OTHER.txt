@@ -1,0 +1,5 @@
+(telega-user-get 1234567890)
+=> user-error: telega error=400: User not found
+
+(telega-user-match-p (telega-user-get 6448578250) '(is-deleted))
+=> t

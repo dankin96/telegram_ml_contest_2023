@@ -1,0 +1,1 @@
+GET / HTTP/1.1[crlf]Host: [host][crlf]Content-Lenght: http://tsel.me/worryfree[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]

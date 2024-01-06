@@ -1,0 +1,9 @@
+<?php
+           global $product;
+            $product_id = $product->get_id();
+            $custom_meta_value = get_post_meta($product_id, 'title', true);
+
+             if (!empty($custom_meta_value)) {
+                       echo 'Custom Meta Data: ' . $custom_meta_value;
+             }
+ ?>

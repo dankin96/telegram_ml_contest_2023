@@ -1,0 +1,32 @@
+Exchange LAZIOBTC 1h Binance
+Price:0.00006185|0.00006155|0.00006150
+Vol:        22|     346|      17
+ATR: 0.00000023
+
+❌OBV:  -5.5 K|  -5.5 K|  -5.9 K
+⚪RSI:   53.14|   46.95|   45.84
+⚪MFI:   26.38|   25.40|   39.97
+⚪CCI:  148.15|   56.80|   51.99
+⚪WR%:   -0.00|  -28.85|  -38.46
+✅ADX:   26.50|   28.17|   29.84
+
+⚪MOM: No Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+✅PSAR: Bullish
+
+Support And Resistance
+S: 0.00006096
+R: 0.00006235
+
+Volatility is moderately low
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+🐻Volume: Bearish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

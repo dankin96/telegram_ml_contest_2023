@@ -1,0 +1,2 @@
+vless://197385f7-c5a6-4513-9ef3-b659299ccb0d@free.fi.novarasim.cfd:41580?type=tcp&security=none#@rasim.gh%20%7CVLESS%20%F0%9F%87%AB%F0%9F%87%AE%2050GB
+

@@ -1,0 +1,29 @@
+services:
+- name: service-0
+  addr: ":8000"
+  handler:
+    type: auto
+    chain: chain-0
+    metadata:
+      udp: true
+      notls: true
+      bind: true
+  listener:
+    type: tcp
+chains:
+- name: chain-0
+  hops:
+  - name: hop-0
+    nodes:
+    - name: node-0
+      addr: 8.8.8.8:8888
+      connector:
+        type: ssu
+        auth:
+          username: AEAD_CHACHA20_POLY1305
+          password: "12345678"
+      dialer:
+        type: udp
+        metadata:
+          keepalive: true
+          ttl: 30s

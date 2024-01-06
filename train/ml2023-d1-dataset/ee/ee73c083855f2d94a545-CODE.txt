@@ -1,0 +1,3 @@
+from Ayra import ayra_bot
+x = ayra_bot.is_premium
+print(x)

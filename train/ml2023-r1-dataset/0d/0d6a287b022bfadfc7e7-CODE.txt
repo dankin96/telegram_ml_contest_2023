@@ -1,0 +1,1 @@
+~/.config/JetBrains/PyCharm2023.2/pycharm64.vmoptions

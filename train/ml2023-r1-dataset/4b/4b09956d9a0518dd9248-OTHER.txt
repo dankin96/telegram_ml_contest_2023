@@ -1,0 +1,1 @@
+Error response from daemon: Get "https://registry-1.docker.io/v2/": tls: failed to verify certificate: x509: certificate has expired or is not yet valid: current time 2023-10-05T09:28:41Z is after 2023-10-02T23:59:59Z

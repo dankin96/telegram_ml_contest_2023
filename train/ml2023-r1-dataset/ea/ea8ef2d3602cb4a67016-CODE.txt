@@ -1,0 +1,17 @@
+js
+if(!message){return}
+ 
+if(isNaN(parseFloat(message))){ 
+    Api.sendMessage({ 
+        text: "Please send a telegram id!" 
+    }) 
+    return 
+}
+ 
+Bot.run({ 
+    command: "ongetbbid", 
+    user_telegramid: parseFloat(message), 
+    options : { 
+        chat_id: request.chat.id 
+    } 
+})

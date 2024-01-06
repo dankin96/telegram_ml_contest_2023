@@ -1,0 +1,5 @@
+Name+usn :
+take :
+Pay :
+Rekber :
+Harga : 

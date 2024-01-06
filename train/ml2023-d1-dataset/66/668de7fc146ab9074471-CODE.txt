@@ -1,0 +1,9 @@
+SELECT 
+    user_id, COUNT(user_id),
+    message_id, COUNT(message_id)
+FROM
+    chatroom_message_seens
+GROUP BY 
+    user_id, 
+    message_id
+HAVING (COUNT(message_id) > 1) and (COUNT(user_id) > 1);

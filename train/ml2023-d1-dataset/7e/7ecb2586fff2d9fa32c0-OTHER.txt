@@ -1,0 +1,9 @@
+
+Fast-forward
+ Naya/__main__.py          |   4 +-
+ Naya/core/copas.py        |   2 +-
+ Naya/modules/callses.py   | 149 +++++++++++++++++++---------------------------
+ Naya/modules/help.py      |   9 +--
+ Naya/resources/banner.jpg | Bin 541268 -> 88226 bytes
+ Naya/resources/logo.jpg   | Bin 94422 -> 23170 bytes
+ 6 files changed, 66 insertions(+), 98 deletions(-)

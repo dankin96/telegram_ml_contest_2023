@@ -1,0 +1,2 @@
+> plasma-browser-integration-9999.r1502.c7c3678de-1-x86_64.pkg.tar.zst
+> plasma-browser-integration-9999.r1502.c7c3678de-1-x86_64.pkg.tar.zst.sig

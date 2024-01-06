@@ -1,0 +1,1 @@
+TF: PERIOD_H4, STC: 99.22, RSI: 35.72, RSIOL: false

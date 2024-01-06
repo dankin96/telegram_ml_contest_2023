@@ -1,0 +1,6 @@
+Microsoft (R) Visual C# Interactive Compiler version 4.8.0-1.23377.4 ()
+Loading context from 'CSharpInteractive.rsp'.
+Type "#help" for more information.
+> WenceyWang.Age
+9223372036854775807
+>

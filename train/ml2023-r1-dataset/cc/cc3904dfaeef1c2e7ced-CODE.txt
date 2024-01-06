@@ -1,0 +1,4 @@
+@media (max-width: 680px){
+.index-post {
+    width: 50% !important;
+}}

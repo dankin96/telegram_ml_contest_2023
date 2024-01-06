@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/methods/advanced/resolve_peer.py", line 60, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/storage/sqlite_storage.py", line 147, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: -100190659400'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/ReyyYukkiV2/YukkiMusic/plugins/devs/dev.py", line 67, in executor
+    await aexec(cmd, client, message)
+  File "/root/ReyyYukkiV2/YukkiMusic/plugins/devs/dev.py", line 36, in aexec
+    return await locals()["__aexec"](client, message)
+  File "", line 4, in __aexec
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/methods/chats/promote_chat_member.py", line 103, in promote_chat_member
+    channel=await self.resolve_peer(chat_id),
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/methods/advanced/resolve_peer.py", line 87, in resolve_peer
+    peer_type = utils.get_peer_type(peer_id)
+  File "/usr/local/lib/python3.10/dist-packages/pyrogram/utils.py", line 204, in get_peer_type
+    raise ValueError(f"Peer id invalid: {peer_id}")
+ValueError: Peer id invalid: -100190659400

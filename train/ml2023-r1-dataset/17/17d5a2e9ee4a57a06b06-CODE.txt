@@ -1,0 +1,14 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+// Import OpenZeppelin's ERC20 contract
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+
+// Define the contract
+contract MyToken is ERC20 {
+    // Constructor function runs once when the contract is deployed
+    constructor() ERC20("MyToken", "MTK") {
+        // Mint 1 million tokens to the msg.sender (the person who deploys the contract)
+        _mint(msg.sender, 1000000 * 10 ** decimals());
+    }
+}

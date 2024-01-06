@@ -1,0 +1,33 @@
+with exmpl as
+ (select *
+    from table(tt_tbl_row(tr_tbl_row(1,
+                                     tt_dml(tr_dml('NAME', 'Иван'),
+                                            tr_dml('SURNAME', 'Иванов'),
+                                            tr_dml('MIDDLE_NAME', 'Иванович'),
+                                            tr_dml('AGE', '45'),
+                                            tr_dml('GENDER', 'M'))),
+                          tr_tbl_row(2,
+                                     tt_dml(tr_dml('NAME', 'Петр'),
+                                            tr_dml('SURNAME', 'Петров'),
+                                            tr_dml('MIDDLE_NAME', 'Петрович'),
+                                            tr_dml('AGE', '35'),
+                                            tr_dml('GENDER', 'M'))),
+                          tr_tbl_row(3,
+                                     tt_dml(tr_dml('NAME', 'Михаил'),
+                                            tr_dml('SURNAME', 'Иванов'),
+                                            tr_dml('MIDDLE_NAME', 'Михайлович'),
+                                            tr_dml('AGE', '25'),
+                                            tr_dml('GENDER', 'M'))))))
+select *
+  from (select e.id
+              ,v.name
+              ,v.value
+          from exmpl e
+         cross join table(e.t_row_val) v)
+pivot (max(value) for name in('NAME' as name,
+                         'SURNAME' as surname,
+                         'MIDDLE_NAME' as middle_name,
+                         'AGE' as age,
+                         'GENDER' as gender))
+ where upper(surname) like 'ИВАНОВ';
+

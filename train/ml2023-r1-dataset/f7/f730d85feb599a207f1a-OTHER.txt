@@ -1,0 +1,4 @@
+0:
+c.addi ...
+2:
+c.ld ... # page fault

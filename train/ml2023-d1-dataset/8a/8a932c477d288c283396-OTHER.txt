@@ -1,0 +1,114 @@
+ACEH       500  Bank Aceh
+ALADINS    500  Bank Aladin Syariah
+ALLO       500  Bank ALLO
+ALTO       500  Alto Pay
+ALTOCSH    500  Alto Cash
+ALTOREMIT  500  ALTO REMIT
+AMAR       500  Amar Bank
+ANTAR      500  Bank Antar Daerah
+ANZ        500  BANK ANZ INDONESIA
+ARTHA      500  Bank ARTHA
+ATMB       500  ATMB Plus
+ATMPRIMA   500  ATM Prima
+BALI       500  BPD Bali
+BANTEN     500  Bank Banten
+BCA        500  BANK BCA
+BCAD       500  BANK BCA DIGITAL
+BCAS       500  BANK BCA SYARI'AH
+BJB        500  Bank BJB
+BJBS       500  Bank BJB Syariah
+BNI        500  BANK BNI
+BOCI       500  Bank of China Indonesia (BOCI)
+BPRKS      500  BPR KS
+BPRSUPRA   500  BPR SUPRA
+BRI        500  BANK BRI
+BSG        500  Bank BSG
+BSI        500  BANK BSI
+BTN        500  BANK BTN
+BTPN       500  Bank BTPN
+BTPNS      500  Bank BTPN Syariah
+BUKOPIN    500  BANK BUKOPIN
+BUKOPINS   500  Bank Bukopin Syariah
+BUMI       500  Bank Bumi Arta Indonesia
+CCB        500  BANK CCB INDONESIA
+CIMB       500  BANK CIMB NIAGA
+CITI       500  BANK CITIBANK INDONESIA
+CTBC       500  Bank CTBC Indonesia
+DANAMON    500  BANK DANAMON
+DBS        500  DBS
+DIY        500  BPD DIY
+DKI        500  Bank DKI
+EKA        500  Bank EKA
+FINNET     500  FINNET
+GANESHA    500  Bank Ganesha
+HANA       500  Bank Hana
+HSBC       500  BANK HSBC INDONESIA
+IBK        500  Bank IBK
+ICBC       500  Bank ICBC
+IMKAS      500  IMKAS
+INA        500  BANK INA PERDANA
+INDEX      500  BANK INDEX SELINDO
+INDIA      500  Bank India (Swadesi)
+INTIDANA   500  KOP Intidana
+ISO        500  ISO Remit
+JAGO       500  BANK JAGO
+JAKARTA    500  Bank Jasa Jakarta
+JAMBI      500  Bank Jambi
+JATENG     500  Bank Jateng
+JATIM      500  Bank Jawa Timur
+JATNIKA    500  BPR Jatnika
+JTRUST     500  Bank JTrust
+KALBAR     500  Bank Kalimantan Barat
+KALSEL     500  Bank Kalsel
+KALTENG    500  Bank Kalteng
+KALTIMTARA 500  Bank Kaltimtara
+KRYJATNIKA 500  BPR KRYJATNIKA SDY
+LAMPUNG    500  Bank Lampung
+LINKAJA    500  LINKAJA
+MALUKU     500  Bank Maluku
+MANDIRI    500  BANK MANDIRI
+MANDIRIT   500  BANK MANDIRI TASPEN
+MASPION    500  Bank Maspion
+MAYAPDA    500  Bank Mayapada
+MAYBANK    500  BANK MAYBANK
+MAYORA     500  BANK MAYORA
+MEGA       500  BANK MEGA
+MEGAS      500  BANK MEGA SYARI'AH
+MESTIKA    500  Bank Mestika Dharma
+MNC        500  Bank MNC
+MUAMALAT   500  Bank Muamalat
+MUFG       500  BANK MUFG BANK
+MULTIARTA  500  Bank Multiarta Sentosa
+NAGARI     500  Bank Nagari
+NC         500  Bank Neo Commerce
+NEO        500  Bank Neo Commerce
+NOBU       500  Bank Nobu
+NTB        500  Bank NTB
+NTT        500  Bank NTT
+OCBC       500  BANK OCBC NISP
+OKE        500  OKE Bank
+PANIN      500  BANK PANIN
+PANINS     500  Bank Panin Dubai Syariah
+PAPUA      500  Bank Papua
+PDS        500  Bank Panin Dubai Syariah
+PERMATA    500  BANK PERMATA
+PRIMA      500  Bank Prima Master
+QNB        500  Bank QNB Indonesia
+RAYA       500  BANK RAYA Indonesia
+RIAU       500  Bank Riau
+SAHABAT    500  Bank Sahabat Sampoerna
+SBI        500  BANK SBI INDONESIA
+SEABANK    500  BANK SeaBank
+SGOD       500  SGOD Pay
+SHINHAN    500  Bank Shinhan
+SINARMAS   500  Bank Sinarmas
+STANDARD   500  Standard Chartered
+SULSELBAR  500  Bank Sulselbar
+SULTENG    500  Bank Sulteng
+SULTRA     500  Bank Sultra
+SUMUT      500  Bank Sumatra Utara
+SUPRA      500  Bank BPR Supra
+TOKYO      500  Bank of Tokyo - MItsubishi
+UOB        500  BANK UOB
+
+

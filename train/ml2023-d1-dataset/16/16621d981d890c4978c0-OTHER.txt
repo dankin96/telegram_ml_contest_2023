@@ -1,0 +1,14 @@
+ 20668511591
+pai: JOSE PEDRO RAMOS
+mae: SERAPHINA NERES RAMOS
+municipioNasci: ITAMARAJU - BA
+enderecoMuni: ITAMARAJU - BA
+enderecoLogr: SERGIPE
+enderecoNu: 200
+enderecoBa: FATIMA
+enderecoCe: 45.836-000
+rgNumero: 1197426
+rgOrgaoEmi: SSP - SSP - SECRETARIA DE SEGURANCA PUBLICA
+rgUf: ES
+rgDataEmissao: 900298800000
+cns: 704100463019950

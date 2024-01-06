@@ -1,0 +1,9 @@
+lua
+local clickCount = 0  -- Счетчик кликов
+
+local function incrementClickCount()
+    clickCount = clickCount + 1  -- Увеличение счетчика кликов на 1
+    print("Количество кликов:", clickCount)
+end
+
+script.Parent.MouseButton1Click:Connect(incrementClickCount)

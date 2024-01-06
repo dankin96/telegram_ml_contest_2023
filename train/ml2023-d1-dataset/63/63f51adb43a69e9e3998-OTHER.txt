@@ -1,0 +1,5 @@
+jope@o790:/warez/nokia/Logos$ ls
+ 001              BMP           IKLFCGS.BMP   PACMAN.BMP   Sheets      pic03.bmp   pic07.bmp   pic12.bmp   pic16.bmp   pic20.bmp
+ 012             'Good logos'   LEPA.BMP      POOH.BMP     nokia.bmp   pic04.bmp   pic08.bmp   pic13.bmp   pic17.bmp   varimiehet.bmp
+ AMINOO.BMP       HANPPU.BMP    Logos         RK62.BMP     pic01.bmp   pic05.bmp   pic09.bmp   pic14.bmp   pic18.bmp
+ Arabuusimiehet   IHVCFKD.BMP   Oplogo        Sheet        pic02.bmp   pic06.bmp   pic11.bmp   pic15.bmp   pic19.bmp

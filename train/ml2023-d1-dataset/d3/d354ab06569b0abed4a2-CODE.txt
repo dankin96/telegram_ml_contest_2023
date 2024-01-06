@@ -1,0 +1,3 @@
+_serviceProvider
+  .GetRequiredService<AccountServiceContainer>()
+  .GetRequiredService<ILoginService>();

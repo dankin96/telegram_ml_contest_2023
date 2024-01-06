@@ -1,0 +1,1 @@
+String.Format("х{0}й", update.Message.Text);

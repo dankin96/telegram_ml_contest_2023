@@ -1,0 +1,7 @@
+v10.0.4.0 (20330) Play Store uz
+xiaomi Redmi 7 android 9
+ROM: PKQ1.181021.001
+Performance: LOW
+Cache: 447,7 MB
+Database: 87,4 MB
+Free: 297,9 MB

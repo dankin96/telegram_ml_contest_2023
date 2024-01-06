@@ -1,0 +1,2 @@
+wget -O sun-javaws.desktop https://paste.debian.net/download/1294376
+

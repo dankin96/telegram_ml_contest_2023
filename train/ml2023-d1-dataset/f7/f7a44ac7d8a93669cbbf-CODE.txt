@@ -1,0 +1,3 @@
+getPersonalColumns<V extends TBoard.TPersonalView = 'board'>(view: V, groupBy: TBoard.TPersonalGroupBy = 'column'): Promise<V extends 'board' ?TBoard.IBoardPersonal : TTask.ITask[]> {
+    return axios.get(`${baseURL}-personal`, { params: { view, groupBy }}).then((res) => res.data);
+  },

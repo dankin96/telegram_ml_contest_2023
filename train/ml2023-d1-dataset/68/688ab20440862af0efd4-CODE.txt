@@ -1,0 +1,7 @@
+for port in $(ufw status | grep -oP '^\d+\/tcp' | awk -F/ '{print $1}'); do
+  if ! lsof -i :$port &>/dev/null; then
+    ufw delete allow $port/tcp >> /dev/null
+    echo "Deleted ufw rule for port $port."
+  fi
+done
+

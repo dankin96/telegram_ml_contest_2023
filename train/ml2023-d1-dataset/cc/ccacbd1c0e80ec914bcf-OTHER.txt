@@ -1,0 +1,3 @@
+
+
+Ikkinchi rasmga yechim: ```backgroundPosition: "center",

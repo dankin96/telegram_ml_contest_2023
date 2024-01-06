@@ -1,0 +1,5 @@
+stage => production
+debugId => 01b1355a-8f74-42b5-8248-91c5e79219c7
+consumerName => ez_webinar_notifications_send
+body => {"funnelId":"45e9cb05-8fb1-4eb9-8743-d467a376280c"}
+message => An exception occurred in driver: SQLSTATE[HY000] [2006] MySQL server has gone away

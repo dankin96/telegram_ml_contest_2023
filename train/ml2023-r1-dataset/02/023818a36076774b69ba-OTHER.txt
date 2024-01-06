@@ -1,0 +1,1 @@
+NotImplementedError: Database objects do not implement truth value testing or bool(). Please compare with None instead: database is not None

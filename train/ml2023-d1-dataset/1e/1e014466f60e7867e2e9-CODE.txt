@@ -1,0 +1,4 @@
+ if (typeof item === 'object' && item.name in data) {
+    const value: string | object[] | undefined = data[item.name];
+    return value === undefined ? null : value;
+  }

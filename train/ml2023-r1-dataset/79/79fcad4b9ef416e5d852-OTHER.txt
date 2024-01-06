@@ -1,0 +1,2 @@
+
+time="2023-10-05T13:15:29Z" level=error msg="failed to send paloma status update" chain-reference-id=eth-main error="unable to resolve type URL /palomachain.paloma.paloma.MsgAddStatusUpdate: tx parse error [cosmos/cosmos-sdk@v0.47.4/x/auth/tx/decoder.go:42]" message-id=134661 message-type="*types.Message_SubmitLogicCall" msg-id=134661 queue-name=evm/eth-main/evm-turnstone-message queue-type-name=evm/eth-main/evm-turnstone-message x-correlation-id=ckfbdkhc5hfs7387f1n0

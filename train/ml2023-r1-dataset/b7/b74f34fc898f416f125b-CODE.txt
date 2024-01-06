@@ -1,0 +1,8 @@
+#########################################  [Application Options]
+  listen=0.0.0.0:9735
+  externalhosts={vpnDNS}:{vpnPort}
+  
+  [Tor]
+  tor.streamisolation=false
+  tor.skip-proxy-for-clearnet-targets=true
+  #########################################

@@ -1,0 +1,9 @@
+Resultados de la Primitiva
+================================
+Sábado 7 de octubre de 2023
+--------------------------------
+Números: 9, 17, 24, 30, 38, 45
+Complementario: 39
+Reintegro: 4
+Joker: 5 335 989
+--------------------------------

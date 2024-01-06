@@ -1,0 +1,4 @@
+Customer requested to disable L1SS before D3 inform during
+suspend instead of later (existing code).
+L1SS is enabled back during resume (existing code).
+Also added deep sleep related debug prints.

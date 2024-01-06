@@ -1,0 +1,28 @@
+mati@hegemonek:~/Devel/OpenSource/crfa-block-checker$ script/report-blocks --epoch=441
+
+
+EPOCH 441 SUMMARY
+----------------------
+Assigned slots to mint blocks: 26
+Minted blocks: 24
+Lost height battles: 0
+Lost slot battles: 2
+
+
+LOST SLOT BATTLES
+----------------------
+- Block minted on slot 105280725 by pool pool19zz6frugmvm82ecgl5hh5vq3093d4kzr4h2r5vfmt6la7trk929 at 2023-10-09 10:23:36 UTC
+- Block minted on slot 105423757 by pool pool1nyjw0460ww5qjtpukexuywxdz4lzhy6tm7yygn74lnlcc62hnc8 at 2023-10-11 02:07:28 UTC
+
+
+PERFORMANCE STATS
+----------------------
+Minted blocks: 92.31%
+Lost height battles: 0.0%
+Lost slot battles: 7.69%
+
+
+DEVELOPED BY
+----------------------
+CRFA https://cardano.fans
+LACE https://lacepool.com

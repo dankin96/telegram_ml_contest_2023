@@ -1,0 +1,8 @@
+    const binary_string = atob(Context.data.base64!);
+    const length = binary_string.length;
+    const bytes = new Uint8Array(length);
+    for (let i = 0; i < length; i++) {
+        bytes[i] = binary_string.charCodeAt(i)
+    }
+    const fileBuffer = bytes.buffer;
+    Context.data.file = await Context.fields.file.create('File.pdf', fileBuffer)

@@ -1,0 +1,28 @@
+Exchange SNXUSDT 1h Binance
+Price:    2.02|    2.02|    2.00
+Vol:     5,048| 189,373| 626,290
+ATR: 0.0188
+
+❌OBV:  -2.5 M|  -2.6 M|  -2.7 M
+⚪RSI:   53.81|   53.46|   46.76
+⚪MFI:   53.67|   54.53|   50.21
+⚪CCI:   57.05|   26.30|   -7.88
+⚪WR%:  -20.51|  -25.00|  -74.47
+⚪ADX:    20.69|   22.16|   23.75
+
+✅MOM: Bullish Momentum
+✅SMA: Price is Above SMA Bullish
+❌ADI: -DI > +DI Bearish
+✅MACD: Bullish
+✅PSAR: Bullish
+
+Volatility is moderately low
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

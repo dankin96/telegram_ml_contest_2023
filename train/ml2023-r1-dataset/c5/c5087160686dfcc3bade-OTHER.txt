@@ -1,0 +1,2 @@
+Мигрируйте build configuration в репозиторий.
+

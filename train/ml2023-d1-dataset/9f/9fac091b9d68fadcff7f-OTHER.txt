@@ -1,0 +1,12 @@
+
+[AMAYAK Kyrgyzstan] SUMMARY 24h
+
+                                                order_count    perc(%)
+kgz_cargo_cancel_ask_flg                                  9     0.0961
+kgz_cargo_wrong_direction_flg                             5     0.0534
+kgz_cargo_extra_funds_flg                                 2     0.0213
+kgz_cargo_rude_courier_flg                                2     0.0213
+kgz_cancelled_with_payment_communication_flg              1     0.0107
+kgz_cargo_damaged_package_flg                             1     0.0107
+kgz_performer_cancel_communication_flg                    1     0.0107
+kgz_unfair_waiting_communication_flg                      1     0.0107

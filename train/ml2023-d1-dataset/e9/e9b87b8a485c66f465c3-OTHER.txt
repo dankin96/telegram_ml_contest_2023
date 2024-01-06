@@ -1,0 +1,2 @@
+
+Velocity = 100 km/h * 5/18 m/s/km = 27.78 m/s

@@ -1,0 +1,5 @@
+curl --location --request POST 'https://example.ru/lead-api/lead/check-phone' \
+--header 'Authorization: Bearer ***' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'phone=78005553535'
+

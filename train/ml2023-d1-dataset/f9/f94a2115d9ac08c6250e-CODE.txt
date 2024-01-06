@@ -1,0 +1,13 @@
+/**
+ * 定义个被监听的元素
+ * @author jarfly
+ */
+@Data
+@AllArgsConstructor
+public class UserEvent {
+    /**
+     * 用户信息
+     */
+    private final User user;
+
+}

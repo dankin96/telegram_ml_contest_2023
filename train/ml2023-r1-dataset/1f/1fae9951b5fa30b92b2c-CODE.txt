@@ -1,0 +1,36 @@
+PKGS=(
+    $RAID
+    drbd-dkms
+    drbd-utils
+#   drbdtop
+#   elinks
+    ethtool
+#   hddtemp
+    htop
+    i2c-tools
+    iperf3
+    ipmitool
+    ledmon
+    libcrypt-eksblowfish-perl # для входа в контейнеры альт по паролю.
+    linstor-proxmox
+    linstor-satellite
+    lm-sensors
+    lshw
+#   lsof
+    mc
+#   monit
+#   net-tools
+    netdata
+    netdata-web
+    netxms-agent
+#   nginx-light
+#   nslcd
+    openipmi
+#   patch
+    pve-headers
+    snmpd
+    sudo
+    systemd-timesyncd
+    tmux
+#   w3m
+)

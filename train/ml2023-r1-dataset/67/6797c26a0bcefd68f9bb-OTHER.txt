@@ -1,0 +1,19 @@
+ALGO
+Current price
+$0.0993 | 0.00000361₿
+
+ATL in USD 3 years ago
+2020-03-16: 0.127
+ROI: -21.93%
+
+ATL in BTC 2 years ago
+2021-01-08: 0.00001118₿
+ROI: -67.69%
+
+Yearly Lows USD
+2019-09-26: $0.191
+2020-03-16: $0.127
+
+Yearly Lows BTC
+2019-10-27: 0.00002265₿
+2020-12-31: 0.00001149₿

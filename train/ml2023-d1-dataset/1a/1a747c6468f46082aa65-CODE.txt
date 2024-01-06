@@ -1,0 +1,25 @@
+
+z1 = 2 + 3j
+z2 = 4 + 5j
+
+# Addition
+result = z1 + z2  # (2+3j) + (4+5j) = (6+8j)
+
+# Subtraction
+result = z1 - z2  # (2+3j) - (4+5j) = (-2-2j)
+
+# Multiplication
+result = z1 * z2  # (2+3j) * (4+5j) = (-7+22j)
+
+# Division
+result = z1 / z2  # (2+3j) / (4+5j) = (0.5609756097560976+0.0487804878048781j)
+
+# Modulus
+result = abs(z1)  # abs(2+3j) = 3.605551275463989
+
+# Conjugate
+result = z1.conjugate()  # (2+3j).conjugate() = (2-3j)
+
+# Real and Imaginary parts
+real_part = z1.real  # 2
+imaginary_part = z1.imag  # 3

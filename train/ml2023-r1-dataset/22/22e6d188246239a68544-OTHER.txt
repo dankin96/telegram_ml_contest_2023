@@ -1,0 +1,2 @@
+Make Error at src-core/CMakeLists.txt:136 (find_library):
+  Could not find NNG_LIBRARY using the following names: nng

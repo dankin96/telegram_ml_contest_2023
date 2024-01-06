@@ -1,0 +1,14 @@
+Failed to build network-3.1.4.0. The failure occurred during the configure
+step.
+Build log (
+C:\cabal\logs\ghc-9.2.8
+etwork-3.1.4.0-120f999809acd05b40d1a657a2212af8047f0204.log
+):
+Configuring network-3.1.4.0...
+cabal-3.6.0.0.exe: The package has a './configure' script. If you are on
+Windows, This requires a Unix compatibility toolchain such as MinGW+MSYS or
+Cygwin. If you are not on Windows, ensure that an 'sh' command is discoverable
+in your path.
+
+cabal-3.6.0.0.exe: Failed to build network-3.1.4.0 (which is required by
+RedViz-0.3.0.0). See the build log above for details.

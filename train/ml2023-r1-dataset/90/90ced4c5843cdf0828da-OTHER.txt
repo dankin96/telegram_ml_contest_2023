@@ -1,0 +1,6 @@
+      Pair     Price  Funding
+     TUSDT    0.0201  -0.1950
+   ENJUSDT    0.2221  -0.0790
+BTCDOMUSDT 1978.8663  -0.0463
+   DOTUSDT    4.0686  -0.0309
+   WLDUSDT    1.6157  -0.0300

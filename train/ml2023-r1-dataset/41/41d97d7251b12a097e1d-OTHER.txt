@@ -1,0 +1,3 @@
+
+Rule 이름 : [kubernetes sri auth] Pod의 CPU 사용율 부하 발생 
+ 발생 오류 : Error running query: ConnectionTimeout caused by - ReadTimeout(HTTPConnectionPool(host='elasticsearch.heimdall', port=9200): Read timed out. (read timeout=20))

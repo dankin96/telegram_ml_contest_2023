@@ -1,0 +1,31 @@
+{
+ "update_id": 935478688,
+ "message": {
+  "message_id": 890,
+  "from": {
+   "id": 68363220,
+   "is_bot": false,
+   "first_name": "Алексей",
+   "last_name": "Овсянников",
+   "username": "InsanusMokrassar",
+   "language_code": "en",
+   "is_premium": true
+  },
+  "chat": {
+   "id": -1001805225717,
+   "title": "Test Forum",
+   "username": "tgbotapi_test_forum",
+   "is_forum": true,
+   "type": "supergroup"
+  },
+  "date": 1697008670,
+  "text": "hi, @it_is_my_own_temporal_bot",
+  "entities": [
+   {
+    "offset": 4,
+    "length": 26,
+    "type": "mention"
+   }
+  ]
+ }
+}

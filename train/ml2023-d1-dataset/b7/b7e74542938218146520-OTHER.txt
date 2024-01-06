@@ -1,0 +1,4 @@
+- IDF6, IDFI18 & IDF28 via GIFT. Produk lain via MOBO / Mochan.
+-GIFT » Pastikan nomor diisi tidak ada paket aktif yang lain
+-GIFT wajib UNREG paket lama jika diperlukan.
+

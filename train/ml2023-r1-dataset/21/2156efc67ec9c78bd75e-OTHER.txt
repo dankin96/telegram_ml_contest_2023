@@ -1,0 +1,6 @@
+- A52s 5G (SM-A528B) [Officially]
+- A52 4G (SM-A525 F and M) [Unofficially]
+- M52 5G (SM-M526B) [Unofficially]
+- A71 (SM-A715F) [Unofficially]
+
+

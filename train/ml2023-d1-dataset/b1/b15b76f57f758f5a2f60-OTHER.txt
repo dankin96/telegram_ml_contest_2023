@@ -1,0 +1,7 @@
+openvpn-openssl
+
+find ./ -name '*.bin' |grep 841 |xargs -n1 ls -lah
+-rw-r--r-- 1 cent cent 3.5M Oct 12 19:12 ./bin/targets/ath79/tiny/openwrt-ath79-tiny-tplink_tl-wr841-v8-initramfs-kernel.bin
+-rw-r--r-- 1 cent cent 1.3M Oct 12 19:12 ./build_dir/target-mips_24kc_musl/linux-ath79_tiny/tplink_tl-wr841-v8-kernel.bin
+-rw-r--r-- 1 cent cent 3.5M Oct 12 19:12 ./build_dir/target-mips_24kc_musl/linux-ath79_tiny/tmp/openwrt-ath79-tiny-tplink_tl-wr841-v8-initramfs-kernel.bin
+

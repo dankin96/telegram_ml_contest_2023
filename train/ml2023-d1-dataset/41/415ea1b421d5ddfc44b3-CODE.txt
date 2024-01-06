@@ -1,0 +1,1 @@
+const { Nostalgist } = await import('https://esm.run/nostalgist')await Nostalgist.nes('flappybird.nes')

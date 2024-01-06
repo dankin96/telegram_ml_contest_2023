@@ -1,0 +1,57 @@
+#define hny$cast$int(a) ((int)a)
+#define hny$cast$u8(a) ((unsigned char)a)
+#define hny$cast$i8(a) ((signed char)a)
+#define hny$cast$u16(a) ((unsigned short)a)
+#define hny$cast$i16(a) ((signed short)a)
+#define hny$cast$u32(a) ((unsigned long)a)
+#define hny$cast$i32(a) ((signed long)a)
+#define hny$cast$u64(a) ((unsigned long long)a)
+#define hny$cast$i64(a) ((signed long long)a)
+#define hny$cast$char(a) ((char)a)
+#define hny$cast$intptr(a) ((int *)a)
+#define hny$cast$u8ptr(a) ((unsigned char *)a)
+#define hny$cast$i8ptr(a) ((signed char *)a)
+#define hny$cast$u16ptr(a) ((unsigned short *)a)
+#define hny$cast$i16ptr(a) ((signed short *)a)
+#define hny$cast$u32ptr(a) ((unsigned long *)a)
+#define hny$cast$i32ptr(a) ((signed long *)a)
+#define hny$cast$u64ptr(a) ((unsigned long long *)a)
+#define hny$cast$i64ptr(a) ((signed long long *)a)
+#define hny$cast$charptr(a) ((char *)a)
+#define hny$cast$charptrptr(a) ((char **)a)
+#define __$call
+
+int hny$internal$strlen(char *c_str) {
+  int i;
+  for (i = 0; c_str[i]; i++) {}
+  return i;
+}
+
+void ignore(void *data) {data;}
+
+typedef struct {
+  int len;
+  char *c_str;
+} str;
+
+str method$str$$new$charptr(char *c_str) {
+  return (str){hny$internal$strlen(c_str), c_str};
+}
+
+char * video = hny$cast$charptr(0xb8000);
+int  vga_cursor = 0;
+
+char print(str text);
+int main(int argc);
+
+
+char print(str text) {
+    return 'A';
+};
+
+int main(int argc) {
+    video[0] = hny$cast$char(print(method$str$$new$charptr("ratata")));
+le725eb54dcb7f00:
+    goto le725eb54dcb7f00;
+    return 0;
+};

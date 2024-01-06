@@ -1,0 +1,1 @@
+ERROR: ocorreu o seguinte erro ao enviar o voucher do cliente. detalhes: envio do e-mail teve a seguinte resposta: HTTP Code 422 | Body:  | FILE: /go/src/bitbucket.org/eucatur/api-pagamento-link/application/email/service.go:63 | LINE: 63 | FUNCTION: bitbucket.org/eucatur/api-pagamento-link/application/email.(*EmailService).SendTicket | HOSTNAME: api-pagamento-link-producao-61

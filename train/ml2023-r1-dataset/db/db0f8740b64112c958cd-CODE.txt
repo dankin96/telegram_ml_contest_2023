@@ -1,0 +1,5 @@
+ifeq ($(BR2_TARGET_ROOTFS_SQUASHFS),y)
+ifeq ($(BR2_OPENIPC_FLAVOR),"lite")
+  @$(call PREPARE_REPACK,uImage,2048,rootfs.squashfs,5120,nor)
+else ifeq ($(BR2_OPENIPC_FLAVOR),"ultimate")
+  @$(call PREPARE_REPACK,uImage,2048,rootfs.squashfs,8192,nor)

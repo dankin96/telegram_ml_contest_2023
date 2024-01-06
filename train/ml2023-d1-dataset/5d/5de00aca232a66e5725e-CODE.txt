@@ -1,0 +1,7 @@
+ndicator("My script", overlay = true)
+import llost275/Silecer_Full_Library/5 as sam
+
+result = sam.dec_just_1_60min("10" , "15" , 20)
+
+if barstate.islast //output |0955|
+    label.new(bar_index, high, result)

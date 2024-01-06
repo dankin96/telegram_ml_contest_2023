@@ -1,0 +1,51 @@
+from flask import Flask, render_template, request, redirect, url_for, flash
+from flask_sqlalchemy import SQLAlchemy
+
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://admin:skylark@192.168.25.37/your_database_name'
+app.config['SECRET_KEY'] = 'your_secret_key'
+
+db = SQLAlchemy(app)
+
+class Broadcast(db.Model):
+    id_row = db.Column(db.Integer, primary_key=True)
+    date = db.Column(db.String(10), nullable=False)
+    # Остальные поля таблицы Broadcast
+
+class Incident(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    id_broadcast = db.Column(db.String(10), nullable=False)
+    # Остальные поля таблицы Incident
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/broadcasts')
+def broadcasts():
+    broadcasts = Broadcast.query.all()
+    return render_template('broadcasts.html', broadcasts=broadcasts)
+
+@app.route('/incidents')
+def incidents():
+    incidents = Incident.query.all()
+    return render_template('incidents.html', incidents=incidents)
+
+@app.route('/add_broadcast', methods=['POST'])
+def add_broadcast():
+    # Обработка добавления новой трансляции в БД
+    # Используйте request.form для получения данных из формы
+    # Создайте новую запись Broadcast и добавьте ее в БД
+    flash('Трансляция добавлена успешно!', 'success')
+    return redirect(url_for('broadcasts'))
+
+@app.route('/add_incident', methods=['POST'])
+def add_incident():
+    # Обработка добавления нового инцидента в БД
+    # Используйте request.form для получения данных из формы
+    # Создайте новую запись Incident и добавьте ее в БД
+    flash('Инцидент добавлен успешно!', 'success')
+    return redirect(url_for('incidents'))
+
+if __name__ == '__main__':
+    app.run(debug=True)

@@ -1,0 +1,8 @@
+—->
+       <ogc:Function name="numberFormat">
+         <ogc:Literal>#.##</ogc:Literal>
+           <ogc:Function name="area">
+              <ogc:PropertyName>geom</ogc:PropertyName>
+            </ogc:Function>
+       </ogc:Function>
+<—-

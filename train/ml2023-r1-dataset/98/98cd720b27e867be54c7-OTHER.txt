@@ -1,0 +1,1 @@
+vless://ItsLegendaryking@94.228.169.27:443?mode=gun&security=reality&encryption=none&pbk=n4Vm-r5wyNnTNOnU9P1eLNTI9SCrgjd82cyY7tAYvWg&fp=firefox&spx=%2F&type=grpc&serviceName=Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers-Telegram:@LegenderY_Servers&sni=h11.hostdl.com&sid=f07e19f8#Reality+2

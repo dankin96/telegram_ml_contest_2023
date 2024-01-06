@@ -1,0 +1,18 @@
+require 'vendor/autoload.php';
+
+use FFMpeg\FFMpeg;
+use FFMpeg\Format\Video\DefaultVideo;
+use FFMpeg\Coordinate\TimeCode;
+
+function getVideoDurationInSeconds($videoPath) {
+    $ffmpeg = FFMpeg::create();
+    $video = $ffmpeg->open($videoPath);
+
+    // Retrieve the video duration
+    $duration = $video->getStreams()->videos()->first()->getDuration();
+
+    // Convert the duration to seconds
+    $durationInSeconds = $duration->toSeconds();
+
+    return $durationInSeconds;
+}

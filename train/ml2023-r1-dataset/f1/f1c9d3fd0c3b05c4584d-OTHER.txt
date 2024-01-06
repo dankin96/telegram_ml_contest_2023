@@ -1,0 +1,10 @@
+       ==== SIGNAL UPDATE ====
+Symbol      #ETHUSDT (BINANCE)
+Type        crypto
+Time Frame  15 minute
+Trend       Up Trend
+Signal      PUT | CALL TP
+Last Close  1641.3600
+E1          1643.8052
+E2          1637.6285
+Time        2023-10-07 10:00

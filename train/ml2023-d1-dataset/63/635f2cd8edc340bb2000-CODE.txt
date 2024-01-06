@@ -1,0 +1,13 @@
+#if 15
+#include<iostream>
+using namespace std;
+int main()
+{
+  int a, b, c;
+  cout << "a ="; cin >> a;
+  cout << "b ="; cin >> b;
+  cout << "c ="; cin >> c;
+  if(a > c &&b > c) cout << a << " " << b;
+    if(a > b && c > b) cout << a << " " << c; 
+  if(b > a && c > a) cout << b << " " << c; 
+}

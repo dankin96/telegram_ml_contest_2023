@@ -1,0 +1,1 @@
+trojan://460d01a0-6444-11ee-8c58-1239d0255272@th1-trojan.bonds.id:443?security=tls&type=tcp&headerType=none#SL%20Free%20Vpn

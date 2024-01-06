@@ -1,0 +1,32 @@
++----------------------------+
+| Teamabasof-Userbot Plugins |
++-------------+--------------+
+| Autopic     | admin        |
+| afk         | animation    |
+| anime_cf    | antipm       |
+| autoscroll  | broadcast    |
+| carbon      | clone        |
+| create      | dictionary   |
+| dmspam      | emoji        |
+| globals     | google       |
+| info        | invite       |
+| joinleave   | locks        |
+| lyrics      | memify       |
+| mention     | metrics      |
+| music       | paste        |
+| pats        | ping         |
+| profile     | purge        |
+| quotly      | raid         |
+| replyraid   | restart      |
+| sangmata    | screenshot   |
+| spam        | start        |
+| stats       | sticker      |
+| stickers    | sudos        |
+| tag         | tagalert     |
+| tagall      | telegraph    |
+| text        | tiny         |
+| translate   | unsplash     |
+| update      | upload       |
+| vctools     | vulgar       |
+| weather     | None         |
++-------------+--------------+

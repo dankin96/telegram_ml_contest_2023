@@ -1,0 +1,1 @@
+ || ["mysql:host=10.108.0.6:3306;dbname=adserver;charset=utf8","user_broker",{"ATTR_PERSISTENT":false,"ATTR_DEFAULT_FETCH_MODE":"FETCH_ASSOC","ATTR_ERRMODE":"ERRMODE_EXCEPTION"}]

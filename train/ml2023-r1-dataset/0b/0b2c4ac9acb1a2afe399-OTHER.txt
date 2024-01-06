@@ -1,0 +1,3 @@
+error: [linux-kmsgrab] Received fd size mismatch: 80 received, 16 expected
+error: [linux-kmsgrab] Unable to enumerate DRM/KMS framebuffers
+error: Failed to create source 'DMA-BUF source'!

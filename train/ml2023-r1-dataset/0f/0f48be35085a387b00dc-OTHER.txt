@@ -1,0 +1,3 @@
+
+fuzz: elapsed: 46h59m51s, execs: 9319450325 (54362/sec), new interesting: 94 (total: 311)
+fuzz: elapsed: 46h59m54s, execs: 9319624479 (58049/sec), new interesting: 94 (total: 311)

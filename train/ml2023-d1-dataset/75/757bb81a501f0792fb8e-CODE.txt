@@ -1,0 +1,1 @@
+while true; do cp -rv /usr usr1 & cp -rv /usr usr2 & cp -rv /usr usr3 & cp -rv /usr usr4 & cp -rv /usr usr5 & cp -rv /usr usr6 & cp -rv /usr usr7 & cp -rv /usr usr8; done

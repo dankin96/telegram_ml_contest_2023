@@ -1,0 +1,4 @@
+sudo systemctl stop cron
+rm /tmp/call_url.lock
+pkill -f /var/www/html/cronjob.sh 
+sudo systemctl start cron

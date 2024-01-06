@@ -1,0 +1,2 @@
+
+Reducing disk space usage by deleting unneeded time series. This doesn't work as expected, since the deleted time series occupy disk space until the next merge operation, which can never occur when deleting too old data. Forced merge may be used for freeing up disk space occupied by old data. Note that VictoriaMetrics doesn't delete entries from inverted index (aka indexdb) for the deleted time series. Inverted index is cleaned up once per the configured retention.

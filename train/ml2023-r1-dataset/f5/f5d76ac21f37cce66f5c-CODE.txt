@@ -1,0 +1,5 @@
+auth.effect
+auth.actions (signUp, signIn)
+
+generic.effect
+generic.actions (success, fail, pending, etc)

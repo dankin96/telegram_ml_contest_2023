@@ -1,0 +1,24 @@
+# 初始化变量
+sma20 = 0
+sma50 = 0
+sma100 = 0
+sma200 = 0
+position = 0
+
+# 循环遍历每个交易日
+for i in range(200, len(prices)):
+    # 计算SMA
+    sma20 = average(prices[i-20:i])
+    sma50 = average(prices[i-50:i])
+    sma100 = average(prices[i-100:i])
+    sma200 = average(prices[i-200:i])
+    
+    # 判断交易信号
+    if sma20 > sma50 and sma50 > sma100 and sma100 > sma200 and position == 0:
+        # 买入
+        buy()
+        position = 1
+    elif sma20 < sma50 and sma50 < sma100 and sma100 < sma200 and position == 1:
+        # 卖出
+        sell()
+        position = 0

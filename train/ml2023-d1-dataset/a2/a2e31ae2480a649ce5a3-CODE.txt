@@ -1,0 +1,9 @@
+@dataclass(frozen=True, init=False)
+class IntegerInRange(BaseValueObject[int]):
+    min_value: int
+    max_value: int
+
+    @classmethod
+    def _validate(cls, value: int) -> None:
+        if not cls.min_value <= value <= cls.max_value:
+            raise ValueError('value uot of range')

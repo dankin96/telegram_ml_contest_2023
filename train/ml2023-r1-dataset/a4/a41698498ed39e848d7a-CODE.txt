@@ -1,0 +1,3 @@
+struct SomeRepository<'a> {
+    conn: &'a mut PgConnection
+}

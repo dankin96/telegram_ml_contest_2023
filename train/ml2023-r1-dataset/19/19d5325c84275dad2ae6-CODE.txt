@@ -1,0 +1,7 @@
+  a[0] = 1; a_sz = 1;
+  for ( p, d : map) { 
+            L = 0, R = a_sz;
+            for (k = 1..d) {
+               old_sz = a_sz;   
+                 for (i = L..R-1) a[a_sz++] = a[i] * p;
+

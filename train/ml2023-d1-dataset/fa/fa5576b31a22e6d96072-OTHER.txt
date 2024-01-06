@@ -1,0 +1,32 @@
+File | Changes
+----------------
+1. docs/metasploit-framework.wiki/Bundled-Modules-Proposal.md | 4 ++--
+2. docs/metasploit-framework.wiki/GSoC-2020-Project-Ideas.md | 2 +-
+3. docs/metasploit-framework.wiki/GSoC-2021-Project-Ideas.md | 2 +-
+4. docs/metasploit-framework.wiki/GSoC-2022-Project-Ideas.md | 2 +-
+5. docs/metasploit-framework.wiki/Hashes-and-Password-Cracking.md | 4 ++--
+6. .../How-to-Send-an-HTTP-Request-Using-HttpClient.md | 4 ++--
+7. ...se-Metasploit-Framework-Compiler-Windows-to-compile-C-code.md | 4 ++--
+8. docs/metasploit-framework.wiki/How-to-use-command-stagers.md | 2 +-
+9. docs/metasploit-framework.wiki/How-to-use-fetch-payloads.md | 9 +++++----
+10. .../How-to-use-the-Msf-Exploit-Remote-Tcp-mixin.md | 4 ++--
+11. .../How-to-write-a-HTTP-LoginScanner-Module.md | 2 +-
+12. .../How-to-write-a-browser-exploit-using-HttpServer.md | 2 +-
+13. docs/metasploit-framework.wiki/How-to-write-a-check-method.md | 2 +-
+14. docs/metasploit-framework.wiki/MSF6-Feature-Proposals.md | 4 ++--
+15. docs/metasploit-framework.wiki/Metasploit-Guide-LDAP.md | 4 ++--
+16. .../Metasploit-Guide-Post-Gather-Modules.md | 2 +-
+17. docs/metasploit-framework.wiki/Metasploit-Guide-SMB.md | 2 +-
+18. docs/metasploit-framework.wiki/Meterpreter-ExecuteBof-Command.md | 2 +-
+19. .../Meterpreter-Reliable-Network-Communication.md | 2 +-
+20. docs/metasploit-framework.wiki/Meterpreter-Sleep-Control.md | 2 +-
+21. docs/metasploit-framework.wiki/Meterpreter-Stageless-Mode.md | 2 +-
+22. docs/metasploit-framework.wiki/Meterpreter-Timeout-Control.md | 6 +++---
+23. docs/metasploit-framework.wiki/Meterpreter-Transport-Control.md | 2 +-
+24. docs/metasploit-framework.wiki/Meterpreter-Wishlist.md | 2 +-
+25. docs/metasploit-framework.wiki/Oracle-Usage.md | 2 +-
+26. docs/metasploit-framework.wiki/Pivoting-in-Metasploit.md | 2 +-
+27. docs/metasploit-framework.wiki/Python-Extension.md | 4 ++--
+28. ...HTTPS-communications-in-Meterpreter-and-Metasploit-Stagers.md | 4 ++--
+29. docs/metasploit-framework.wiki/Unstable-Modules.md | 2 +-
+30. .../metasploit-framework.wiki/kerberos/service_authentication.md | 4 ++--

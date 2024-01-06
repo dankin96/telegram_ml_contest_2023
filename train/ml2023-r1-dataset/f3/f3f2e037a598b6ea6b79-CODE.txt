@@ -1,0 +1,2 @@
+pg_dumpall -U u0_a431 -h localhost -p 5432 > all_databases_backup.sql
+

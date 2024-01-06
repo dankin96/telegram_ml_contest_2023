@@ -1,0 +1,1 @@
+Wallet card | Friendly Name = Melisha19| Payment Type  = TCH | Last 4 Degit = 2149 | Is Default Payment = true| Primary payment | Name = Melisha Angeloia| Holder Name  = Stephinie Mackman | Expiration = 08/24 | Brand = Visa | Point Balance  = 12644| Last Time = 05/09/2013 | Configs By @Alone_Devilz1

@@ -1,0 +1,1 @@
+ERROR org.apache.hadoop.ha.ActiveStandbyElector: Connection timed out: couldn't connect to ZooKeeper in 10000 milliseconds

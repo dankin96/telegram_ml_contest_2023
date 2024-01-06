@@ -1,0 +1,13 @@
+import ta
+
+df = ...  # جدول قیمت‌های هفتگی شما
+
+# محاسبه شاخص MACD
+df['macd'] = ta.trend.macd(df['Close'])
+df['signal'] = ta.trend.macd_signal(df['Close'])
+
+# ایجاد فیلتر کراس هفتگی MACD
+df['macd_filter'] = (df['macd'] > df['signal']) & (df['macd'].shift() < df['signal'].shift())
+
+# نمایش سیگنال‌های فیلتر شده
+filtered_signals = df.loc[df['macd_filter']]

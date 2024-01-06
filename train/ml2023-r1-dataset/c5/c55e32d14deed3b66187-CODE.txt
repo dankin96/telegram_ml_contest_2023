@@ -1,0 +1,6 @@
+const Car = function (model) {
+ this.model = model
+ function showModel () {
+  console.log(this.model)
+ }
+}

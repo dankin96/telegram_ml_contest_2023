@@ -1,0 +1,12 @@
+Device brand: google
+Device manufacturer: Google
+Device model: Pixel 8 Pro
+Device codename: husky
+Android version: 14
+Android API: 34
+Build fingerprint: google/husky/husky:14/UD1A.230803.041/10808477:user/release-keys
+Build type: husky-user
+Build tags: release-keys
+Security patch: 2023-10-05
+Raw Image Size: 2.70 GiB
+

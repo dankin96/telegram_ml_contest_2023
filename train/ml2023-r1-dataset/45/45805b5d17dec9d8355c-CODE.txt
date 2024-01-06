@@ -1,0 +1,6 @@
+int main(){ 
+//while(something){ 
+while(something){ 
+    do something; 
+    } 
+} 

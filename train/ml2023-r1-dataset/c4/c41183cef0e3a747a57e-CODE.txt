@@ -1,0 +1,4 @@
+
+template <ssize_t Nmax, ssize_t iterations>
+void eval(const std::string &testname,
+          std::function<void(std::vector<uint16_t> &, int64_t)> expression) {

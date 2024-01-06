@@ -1,0 +1,4 @@
+
+
+failed to initialize build cache at /nonexistent/.cache/go-build: mkdir /nonexistent: permission denied
+

@@ -1,0 +1,41 @@
+Nama   Harga Rebound Sector                    
+FIRE*  95    TL      Energy                    
+CFIN   520   TL      Financials                
+CMNT   1015  MA50    Basic Materials           
+MAPA*  835   MA50    Consumer Cyclicals        
+CPRO*  60    MA50    Consumer Non-Cyclicals    
+UNVR*  3710  MA50    Consumer Non-Cyclicals    
+STAA*  875   MA50    Consumer Non-Cyclicals    
+WINE   540   MA50    Consumer Non-Cyclicals    
+JTPE*  288   MA50    Industrials               
+EXCL*  2380  MA50    Infrastructures           
+BALI   830   MA50    Infrastructures           
+JKON*  117   MA50    Infrastructures           
+LAJU   73    MA50    Transportation & Logistic 
+BRMS*  188   DF      Basic Materials           
+MDKA   2650  DF      Basic Materials           
+AUTO*  2890  DF      Consumer Cyclicals        
+MARI   90    DF      Consumer Cyclicals        
+SLIS*  91    DF      Consumer Cyclicals        
+AMRT   2890  DF      Consumer Non-Cyclicals    
+SEMA*  116   DF      Energy                    
+PTRO*  3060  DF      Energy                    
+PTBA*  2740  DF      Energy                    
+HRUM*  1695  DF      Energy                    
+BUMI   131   DF      Energy                    
+TOBA   310   DF      Energy                    
+INDY   2060  DF      Energy                    
+WINS*  545   DF      Energy                    
+BTPS*  1890  DF      Financials                
+BMRI   6025  DF      Financials                
+BFIN   1080  DF      Financials                
+BBRI   5225  DF      Financials                
+BBNI   5150  DF      Financials                
+PRDA*  6425  DF      Healthcare                
+MARK*  615   DF      Industrials               
+ACST*  187   DF      Infrastructures           
+ARKO   715   DF      Infrastructures           
+BDKR*  565   DF      Infrastructures           
+KEEN*  875   DF      Infrastructures           
+MTDL*  498   DF      Technology                
+LQ45   952   DF      Undefined                 

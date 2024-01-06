@@ -1,0 +1,2 @@
+Para habilitar el envió de mensajes, presione el botón
+"No soy un Bot"

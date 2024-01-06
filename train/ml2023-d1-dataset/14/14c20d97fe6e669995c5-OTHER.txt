@@ -1,0 +1,5 @@
+```FORMAT NOKOS.
+Nama +usn :
+take berapa nokos :
+jenis nokos : fns
+payment : (dana/shoopepay/qr

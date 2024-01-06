@@ -1,0 +1,30 @@
+hacktoberfest-frontend-1  | Node.js v20.7.0
+hacktoberfest-frontend-1  | Qwik running on localhost:3000
+hacktoberfest-frontend-1  | RangeError: Maximum call stack size exceeded
+hacktoberfest-frontend-1  |     at Jr (file:///home/app/server/entry.polka.mjs:24:1485)
+hacktoberfest-frontend-1  |     at cs (file:///home/app/server/entry.polka.mjs:25:6179)
+hacktoberfest-frontend-1  |     at file:///home/app/server/entry.polka.mjs:25:6280
+hacktoberfest-frontend-1  |     at Jr (file:///home/app/server/entry.polka.mjs:24:1464)
+hacktoberfest-frontend-1  |     at cs (file:///home/app/server/entry.polka.mjs:25:6179)
+hacktoberfest-frontend-1  |     at file:///home/app/server/entry.polka.mjs:25:6280
+hacktoberfest-frontend-1  |     at Jr (file:///home/app/server/entry.polka.mjs:24:1464)
+hacktoberfest-frontend-1  |     at cs (file:///home/app/server/entry.polka.mjs:25:6179)
+hacktoberfest-frontend-1  |     at file:///home/app/server/entry.polka.mjs:25:6280
+hacktoberfest-frontend-1  |     at Jr (file:///home/app/server/entry.polka.mjs:24:1464)
+hacktoberfest-frontend-1  | node:events:492
+hacktoberfest-frontend-1  |       throw er; // Unhandled 'error' event
+hacktoberfest-frontend-1  |       ^
+hacktoberfest-frontend-1  | 
+hacktoberfest-frontend-1  | Error [ERR_STREAM_WRITE_AFTER_END]: write after end
+hacktoberfest-frontend-1  |     at new NodeError (node:internal/errors:405:5)
+hacktoberfest-frontend-1  |     at ServerResponse.end (node:_http_outgoing:1021:15)
+hacktoberfest-frontend-1  |     at Polka.onError (file:///home/app/node_modules/.pnpm/polka@1.0.0-next.23/node_modules/polka/build.mjs:9:11)
+hacktoberfest-frontend-1  |     at next (file:///home/app/node_modules/.pnpm/polka@1.0.0-next.23/node_modules/polka/build.mjs:83:38)
+hacktoberfest-frontend-1  |     at Array.router (file:///home/app/server/entry.polka.mjs:337:113041)
+hacktoberfest-frontend-1  |     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+hacktoberfest-frontend-1  | Emitted 'error' event on ServerResponse instance at:
+hacktoberfest-frontend-1  |     at emitErrorNt (node:_http_outgoing:857:9)
+hacktoberfest-frontend-1  |     at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+hacktoberfest-frontend-1  |   code: 'ERR_STREAM_WRITE_AFTER_END'
+hacktoberfest-frontend-1  | }
+hacktoberfest-frontend-1  | 

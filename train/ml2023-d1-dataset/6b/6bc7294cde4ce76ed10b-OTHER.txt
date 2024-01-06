@@ -1,0 +1,10 @@
+
+Input/Output
+Process Statement
+  Calculate the position of the person's legs
+  Generate a sequence of shapes that represent the position of the person's legs
+Conditional Statement
+  If the person is moving forward
+    Yes: Generate a sequence of shapes that represent the person's legs moving forward
+    No: Generate a sequence of shapes that represent the person's legs standing still
+Output

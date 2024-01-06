@@ -1,0 +1,39 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+// Importing OpenZeppelin's contract for safe math operations
+import "@openzeppelin/contracts/utils/math/SafeMath.sol";
+
+// Importing OpenZeppelin's ERC20 standard interface
+import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
+
+// Importing OpenZeppelin's contract for access control
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+// Contract starts here
+contract MyContract is Ownable {
+    // Using SafeMath for uint256
+    using SafeMath for uint256;
+
+    // Token details
+    IERC20 public token;
+
+    constructor(IERC20 _token) {
+        // Initializing the token
+        token = _token;
+    }
+
+    // Function to transfer tokens
+    function transferTokens(address recipient, uint256 amount) public onlyOwner {
+        // Requiring the sender to have enough tokens
+        require(token.balanceOf(address(this)) >= amount, "Not enough tokens in contract");
+        // Transferring the tokens
+        token.transfer(recipient, amount);
+    }
+
+    // Function to withdraw all tokens to owner
+    function withdrawAll() public onlyOwner {
+        // Transferring all tokens to owner
+        transferTokens(owner(), token.balanceOf(address(this)));
+    }
+}

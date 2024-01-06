@@ -1,0 +1,1 @@
+если 4 type = 'CONTENT' по guideHisotryId то 4 type = 'BUTTON_SETTINGS'  по тому же самому guideHisotryId

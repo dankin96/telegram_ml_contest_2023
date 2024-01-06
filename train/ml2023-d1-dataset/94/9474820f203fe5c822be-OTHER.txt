@@ -1,0 +1,10 @@
+╔• Anggota : 4.759
+╠• Saldo KAS : Rp.43.754.800
+╠• Saldo BANK : Rp.190.912.489
+╠• Entry Center : 115
+╠• Agt New/Out : 2/3
+╠• Anggota PAR : 2.497
+╠• Pengajuan TPK : 0
+╠• Total TPR : 7
+╠• Total TPK : 1
+╚• Disburse TPK : Rp.4.583.000

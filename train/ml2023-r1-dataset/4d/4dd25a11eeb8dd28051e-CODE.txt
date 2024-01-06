@@ -1,0 +1,97 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+const int n = 3;
+const string draw = "draw!";
+const map<char, string> win {{'x', "Xanifa"}, {'o', "Madina"}};
+
+int main() {
+    char str[n][n];
+    string winner;
+
+    for (int i = 0; i < n; ++i) {
+        for (int k = 0; k < n; ++k) {
+            cin >> str[i][k];
+        }
+    }
+
+    int row = n, column = n, diagonal = n;
+    int j = n - 1;
+    set<char> diag1, diag2;
+    for (int i = 0; i < n; ++i) {
+        set<char> viaColumn {str[0][i], str[1][i], str[2][i]};
+        set<char> viaRow {begin(str[i]), end(str[i])};
+
+        diag1.insert(str[i][i]);
+        diag2.insert(str[i][j]);
+        if (viaColumn.size() == 1) {
+            column = i;
+            break;
+        }
+
+        if (viaRow.size() == 1) {
+            row = i;
+            break;
+        }
+
+        if (j == 0) {
+            if (diag1.size() == 1) {
+                diagonal = i;
+            }
+            if (diag2.size() == 1) {
+                diagonal = j;
+            }
+        }
+
+        j--;
+    }
+
+    if (column == n && row == n && diagonal == n) {
+        winner = draw;
+    }
+
+    if (column < n) {
+        for (int i = 0; i < n; i++) {
+            winner = win.at(str[i][column]);
+            str[i][column] = '-';
+        }
+    }
+
+    if (row < n) {
+        for (int i = 0; i < n; i++) {
+            winner = win.at(str[row][i]);
+            str[row][i] = '-';
+        }
+    }
+
+    if (diagonal < n) {
+        if (diagonal == 0) {
+            j = n - 1;
+            for (int i = 0; i < n; i++) {
+                winner = win.at(str[i][j]);
+                str[i][j] = '-';
+                j--;
+            }
+        }
+
+        if (diagonal == 2) {
+            for (int i = 0; i < n; i++) {
+                winner = win.at(str[i][i]);
+                str[i][i] = '-';
+            }
+        }
+
+    }
+
+    for (int i = 0; i < n; ++i) {
+        for (int k = 0; k < n; ++k) {
+            cout << str[i][k] << " ";
+        }
+        cout << endl;
+    }
+    
+    cout << winner;
+
+    return 1;
+}

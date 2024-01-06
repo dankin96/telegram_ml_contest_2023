@@ -1,0 +1,16 @@
+
+{
+  "Command": "store",
+  "Target": "Teks yang ingin diganti",
+  "Value": "teksAwal"
+},
+{
+  "Command": "storeEval",
+  "Target": "'${teksAwal}'.replace('kataAwal', 'kataBaru')",
+  "Value": "teksAkhir"
+},
+{
+  "Command": "echo",
+  "Target": "${teksAkhir}",
+  "Value": ""
+}

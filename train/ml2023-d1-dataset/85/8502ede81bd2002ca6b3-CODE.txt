@@ -1,0 +1,8 @@
+GET /d/_search
+{
+  "query": {
+    "match_phrase": {
+      "body": "deserunt quas accusantium"
+    }
+  },
+}

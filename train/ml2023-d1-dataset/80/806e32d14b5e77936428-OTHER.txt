@@ -1,0 +1,32 @@
+Exchange KLAYBTC 1h Binance
+Price:0.00000437|0.00000437|0.00000440
+Vol:         0|   4,404|     292
+ATR: 0.00000002
+
+❌OBV: 121.9 K| 121.9 K| 126.3 K
+⚪RSI:   56.60|   56.60|   64.66
+⚪MFI:   44.92|   45.16|   45.87
+⚪CCI:  -16.16|   21.71|   88.10
+❌WR%: -100.00| -100.00|   -0.00
+✅ADX:   25.37|   26.39|   27.50
+
+❌MOM: Bearish Momentum
+✅SMA: Price is Above SMA Bullish
+❌ADI: -DI > +DI Bearish
+✅MACD: Bullish
+❌PSAR: Bearish
+
+Support And Resistance
+S: 0.00000428
+R: 0.00000440
+
+Volatility is average
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+🐻Volume: Bearish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

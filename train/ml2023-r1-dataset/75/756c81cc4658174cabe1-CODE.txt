@@ -1,0 +1,69 @@
+# Рабочая тетрадь 3 группа Бфбо 04 - 23 Хисамов Тимур
+
+import string as st# Импорт str для задание 
+# Задания 1
+class Alphabet:
+    def __init__(self, lang, letters_str): # Конструкор родителя
+        self.__leters = letters_str
+        self.__lang = lang
+    def print(self):#Метод ввывода
+         print(self.__leters)
+    def  letters_num(self):#Метод ввыода кол - во
+        print(len(self.__lang))
+# Задания 2
+class EngAlphabet(Alphabet):
+    __letters_num = 26 # Кол во буквы по умолчанию 
+    def __init__(self, lang , letters_str):
+        super().__init__("eu", st.ascii_uppercase)# Конструкор родителя ребенка с изменноными аргументами 
+    def letters_num(self):
+        return EngAlphabet.__letters_num
+    def is_in_alph(self, letter):
+        if letter.upper() in self.__leters:
+            return True
+        return False
+    @staticmethod# Статический Метод
+    def example():
+        print("This is english")
+# Задания 3
+class RealString:
+    def __init__(self, some_str):
+        self.some_str = str(some_str)
+    
+    def __eq__(self, other):
+        if not isinstance(other, RealString):
+            other = RealString(other)
+        return len(self.some_str) == len(other.some_str)
+    
+    def __lt__(self, other):
+        if not isinstance(other, RealString):
+            other = RealString(other)
+        return len(self.some_str) < len(other.some_str)
+    
+    def __le__(self, other):
+        return self == other or self < other
+
+    
+def test1():
+    a = " а, б, в, г, д, е, ё, ж, з, и, й, к, л, м, н, о, п, р, с, т, у, ф, х, ц, ч, ш, щ, ъ, ы, ь, э, ю, я"
+    b = "ru"
+    abbo = Alphabet(b,a)
+    abbo.letters_num()
+    abbo.print()
+def test2():
+    ege = EngAlphabet()
+    ege.print()
+    print(ege.letters_num())
+    print(ege.is_in_alph("p"))
+    print(ege.is_in_alph("н"))
+    ege.example()
+def test3():
+    str1 = RealString('Молоко')
+    str2 = RealString('Абрикосы растут')
+    str3 = 'Золото'
+    str4 = [1, 2, 3]
+    print(str1 < str4)
+    print(str1 >= str2)
+    print(str1 == str3)
+test1()
+test2()
+test3()

@@ -1,0 +1,12 @@
+from dataclasses import dataclass
+
+@dataclass
+class Entity:
+    health: int
+
+@dataclass
+class Human(Entity):
+    pass
+
+a = Нuman(1)
+print(a.health == 1)

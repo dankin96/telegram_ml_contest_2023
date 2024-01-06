@@ -1,0 +1,8 @@
+python
+    text_processing={
+    "tokenizers" : [{
+        "tokenizer_id": "Space",
+        "separator_type": "BySense",
+        "lowercasing" : "false",
+        "token_types" : ['Word', 'Number', 'Punctuation'],
+    }],

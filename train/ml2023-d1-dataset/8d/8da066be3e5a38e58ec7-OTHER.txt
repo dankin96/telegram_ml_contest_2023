@@ -1,0 +1,7 @@
+HP:       55 ====
+Attack:  130 ==========
+Defense: 115 ========
+Sp. Atk:  50 ===
+Sp. Def:  50 ===
+Speed:    75 =====
+Total:   475

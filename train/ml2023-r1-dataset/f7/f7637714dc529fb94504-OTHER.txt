@@ -1,0 +1,1 @@
+[delay_split]ACL / HTTP/1.1[lf]Host: pop.vivo.com.br[lf]Upgrade: WebSocket[lf]Connection: Upgrade-Insecure-Requests[lf][lf]

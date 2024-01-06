@@ -1,0 +1,18 @@
+public function scopeMeta(Builder $query)
+    {
+
+        return $query
+            ->addSelect([
+                'ProductsCount' => Categorizables::select(DB::raw('count(category_id)'))
+                    ->whereColumn('category_id', 'categories.id'),
+                
+                'SizesCount' => Categorizables::select(DB::raw('sizes.size, count(sizes.size)'))
+                    ->join('products', 'products.id', '=', 'categorizables.categorizable_id')
+                    ->selectSub(function($query) {
+                        $query->selectRaw(`json_table( JSON_EXTRACT(filters, "$.sizes"), '$[*]' columns( size varchar(128) path '$' ) ) as sizes`)
+                            ->groupBy('sizes.size');
+                    }, 'size_counts')
+
+            ]);
+    }
+

@@ -1,0 +1,2 @@
+const predicate = (user) => user.Id === 2 && user.Name === 'Alex';
+

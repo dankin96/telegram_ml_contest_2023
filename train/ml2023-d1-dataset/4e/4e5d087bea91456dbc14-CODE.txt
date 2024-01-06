@@ -1,0 +1,19 @@
+ ChatTable = Table(
+    "chat", meta,
+    Column("id", Integer, primary_key=True)
+)
+
+AccessChatTable = Table(
+    "accesschat", meta,
+    Column("chat_id", Integer, ForeignKey("chat.id")),
+    Column("user_id", Integer, ForeignKey("user.id")),
+)
+
+HistoryChatTable = Table(
+    "historychat", meta,
+    Column("chat_id", Integer, ForeignKey("chat.id")),
+    Column("owner_id", Integer),
+    Column("message", Text),
+    Column("time", Integer),
+    Column("ip", String(20))
+)

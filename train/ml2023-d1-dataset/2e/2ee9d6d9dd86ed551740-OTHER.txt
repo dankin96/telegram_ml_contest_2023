@@ -1,0 +1,6 @@
+[asnvir@asnvir-pc setup-pckgs]$ ./generate-foreignpkglist.sh 
+./generate-foreignpkglist.sh: line 4: setup-pckgs: command not found
+./generate-foreignpkglist.sh: line 5: setup-pckgs: command not found
+./generate-foreignpkglist.sh: line 6: setup-pckgs: command not found
+
+

@@ -1,0 +1,25 @@
+ADDRESS:      0xDd5f72326bf93Cb7563Fe0f30d7f9eC7339E2591
+PAIR:         0x4C9Ab5f4648b77C59EA8501B98231C2642ccf1Bf
+NAME:         Satoshereum
+SYMBOL:       BTC
+SUPPLY:       210800800000
+PRICE:        $0.0000000110261650664
+LIQUIDITY:    $1,716
+24H CHANGE:   18%
+24H VOLUME:   $311
+INITIAL MC:   $1,980
+CURRENT MC:   $2,334
+ATH MC:       $2,487
+BUY TAX:      2%
+SELL TAX:     2%
+RENOUNCED:    ✅
+LP RUGGABLE:  ❌
+VERIFIED:     ✅
+WHALES:       73.8296%, 20.6401%, 1.8429%, 1.4905%, 1.2475%
+
+❌❌❌❌❌ FAILED ❌❌❌❌❌
+LIQUIDITY NOT LOCKED OR BURNED
+
+🤗🤗🤗🤗🤗 SOCIALS 🤗🤗🤗🤗🤗
+https://t.me/Satoshereum
+https://x.com/Satoshereum

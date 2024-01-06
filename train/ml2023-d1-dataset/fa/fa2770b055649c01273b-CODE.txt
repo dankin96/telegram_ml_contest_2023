@@ -1,0 +1,3 @@
+const imageRes = await fetch(imageUrl)
+const blob = await imageRes.blob()
+formData.append('files[]', blob, imageName)

@@ -1,0 +1,3 @@
+Merge pull request #6749 from lumarogit/rust-bin
+
+rust-bin: archived

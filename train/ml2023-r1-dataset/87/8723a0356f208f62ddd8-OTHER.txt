@@ -1,0 +1,23 @@
+Please check if all GWs are working properly.
+
+Threshold violation:
+ - time: 2023-10-07T15:55:34.765686Z
+ - hits: 1410
+ - TotalCpu avg: 111.94750054
+ - TPS: None
+ - MessageInProcess: None
+ - Activity: None
+ - MaxPT4Msg: None
+ - host: stc-dstax-4
+
+Threshold violation, avg:TotalCpu 111.94750054 (min: None max : 75) 
+
+@timestamp: 2023-10-07T15:55:34.765686Z
+Activity: None
+MessageInProcess: None
+PT: None
+Tps: None
+host.keyword: stc-dstax-4
+metric_TotalCpu_avg: 111.94750054
+num_hits: 1410
+num_matches: 1

@@ -1,0 +1,6 @@
+OS : Arch Linux
+Kernel : $(uname -sr)
+Environment : ${DESKTOP_SESSION^}
+Uptime : $(uptime -p | sed 's/up //')
+Packages : $(pacman -Q | wc -l)
+Shell : $(basename $SHELL)

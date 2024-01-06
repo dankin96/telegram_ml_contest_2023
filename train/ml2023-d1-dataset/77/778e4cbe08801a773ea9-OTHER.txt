@@ -1,0 +1,11 @@
+CA configuration failed.
+The ipa-server-install command failed. See /var/log/ipaserver-install.log for more information
+Не удалось установить сервер FreeIPA
+
+RedOS 7.3.3
+
+dd-server-3.2.230907-6
+ 
+Name        : IPA-Server
+Version     : 4.10.1
+

@@ -1,0 +1,7 @@
+
+Hottest token in the past 6H: 
+hello-labs 6H Return :  2%
+Enter at:  0.058859636011505234
+Stop-loss at:  0.05591665421092997  (stop loss percentage:  0.05 )
+Profit-taking at:  0.0618026178120805  (profit taking percentage:  0.05 )
+WARNING: This is not investment advice. Data is for analytics purposes only

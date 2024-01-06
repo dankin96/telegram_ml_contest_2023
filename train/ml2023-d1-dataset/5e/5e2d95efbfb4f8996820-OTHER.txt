@@ -1,0 +1,8 @@
+v10.1.1.1 (20477) Play Store en
+samsung SM-A107F android 9
+ROM: PPR1.180610.011.A107FXXU5ATA9
+Accounts: 2
+Performance: LOW
+Cache: 2.91 GB
+Database: 52.4 MB
+Free: 3.57 GB

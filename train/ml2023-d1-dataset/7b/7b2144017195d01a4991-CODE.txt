@@ -1,0 +1,12 @@
+{ 
+  "routing": { 
+    "domainStrategy": "AsIs", 
+    "rules": [ 
+      { 
+        "type": "field", 
+        "domain": ["full:accounts.google.com/signup"], 
+        "outboundTag": "blocked" 
+      } 
+    ] 
+  } 
+} 

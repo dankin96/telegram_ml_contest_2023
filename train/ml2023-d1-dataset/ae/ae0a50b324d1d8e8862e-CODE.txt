@@ -1,0 +1,6 @@
+$ sudo fastboot flash system system.img 
+
+Sending sparse 'system' 1/5 (786340 KB)            OKAY [ 26.903s]
+Writing 'system'                                   (bootloader) Invalid partition name system
+FAILED (remote: '')
+fastboot: error: Command failed

@@ -1,0 +1,3 @@
+if (company.state == CompanyStates::BAD) {
+for (project in projects) project.opensource();
+}

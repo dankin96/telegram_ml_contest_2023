@@ -1,0 +1,9 @@
+//@version=5
+indicator("plotshape example 1", overlay=true)
+data = close >= open
+plotshape(
+  data ? close + close * 0.001 : na,
+  textcolor  = color.white,
+  style      = shape.labeldown,
+  text       = "data",
+  location   = location.absolute)

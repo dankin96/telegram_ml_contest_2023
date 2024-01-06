@@ -1,0 +1,11 @@
+
+class A
+  def foo = "bar"
+end
+
+class B < A
+  def bar = "foo"
+end
+
+B.instance_methods.grep(/foo|bar/)
+# => [:bar, :foo]

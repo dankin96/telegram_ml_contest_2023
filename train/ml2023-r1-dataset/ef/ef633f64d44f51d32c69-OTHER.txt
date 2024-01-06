@@ -1,0 +1,5 @@
+NIVEL ⚪️: Nivel de Trampa
+
+ZONA 🔴: Cambio Tendencia Bajista
+
+ZONA 🟢: Cambio Tendencia Alcista

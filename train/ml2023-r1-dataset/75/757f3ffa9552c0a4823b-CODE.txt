@@ -1,0 +1,4 @@
+if ($http_user_agent !~ .*(Chrome|MSIE|curl|wget) ) {
+    return 301 https://github.com/macchrome/winchrome;
+}
+

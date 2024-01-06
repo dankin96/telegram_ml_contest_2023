@@ -1,0 +1,6 @@
+_index: logstash_kafka-6.5.3-cb-2023.10.13
+ area:CB
+ eventType:WARNING
+ sourceId:cvai0apcf1012vp
+ error: Contribution Rejected
+ message:  RIC: RESOURCECBTESTUSD_CURVE_FUT3M_Z5 Curve: USD3M Value: 0.957685350588402 Error: [500]: Unknown Item

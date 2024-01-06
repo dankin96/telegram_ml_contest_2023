@@ -1,0 +1,27 @@
+<div class="point">
+<p class="title">3 Пункт</p>
+<p class="explanation">выбрать обязательно</p>
+<div class="radio_button">
+<input type="radio" name="point__3" id="point__3" required value="3 Пункт">
+<label for="point__3">Выбрать обязательно</label>
+</div>
+</div>
+
+<div class="point">
+<p class="title">4 Пункт</p>
+<p class="explanation">можно не выбирать</p>
+<div class="radio_button">
+<input type="radio" name="point__4" id="point__4" value="4 Пункт">
+<label for="point__4">Можно не выбирать</label>
+</div>
+</div>
+
+<div class="point">
+<p class="title">5 Пункт</p>
+<p class="explanation">уже выбрано</p>
+<div class="radio_button">
+<input type="radio" name="point__5" id="point__5" checked value="5 Пункт">
+<label for="point__5">Уже выбрано</label>
+</div>
+</div>
+

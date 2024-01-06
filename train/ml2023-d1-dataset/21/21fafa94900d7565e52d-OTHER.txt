@@ -1,0 +1,24 @@
+ADDRESS:      0xC7C53760375530E5AF29Fded5E13989325299382
+PAIR:         0xc790b0D7291F864244b559B59b30F850A8CFB40d
+NAME:         WORLD PEACE COIN
+SYMBOL:       WPC
+SUPPLY:       8000000000
+PRICE:        $0.0000709883079389
+LIQUIDITY:    $34,486
+24H CHANGE:   32%
+24H VOLUME:   $1,031,664
+CURRENT MC:   $567,906
+BUY TAX:      1%
+SELL TAX:     1%
+RENOUNCED:    ✅
+LP LOCKED     ✅
+VERIFIED:     ✅
+WHALES:       2.4413%, 2.1985%, 2.0400%, 1.9800%, 1.7708%
+
+✅✅✅✅✅ PASSED ✅✅✅✅✅
+⚠️ NO MAX BUY ⚠️
+
+🤗🤗🤗🤗🤗 SOCIALS 🤗🤗🤗🤗🤗
+https://peacecoin.world/
+https://twitter.com/WPCERC20
+https://t.me/WorldPeaceCoin

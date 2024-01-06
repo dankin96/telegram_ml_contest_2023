@@ -1,0 +1,26 @@
+ADDRESS:      0x60bbc4a178E5a05D0298198199E79383Bb23B1Be
+PAIR:         0xB5ec93f692b84c52219b4228418800CFA086b1Cd
+NAME:         Lilith
+SYMBOL:       Lilith
+SUPPLY:       1000000000
+PRICE:        $0.0000557006248421
+LIQUIDITY:    $8,765
+24H CHANGE:   2607%
+24H VOLUME:   $128,034
+INITIAL MC:   $2,066
+CURRENT MC:   $59,077
+ATH MC:       $77,830
+BUY TAX:      0%
+SELL TAX:     0%
+RENOUNCED:    ✅
+LP BURNED:    ✅ 100% of lp tokens burnt
+VERIFIED:     ✅
+WHALES:       9.8512%, 2.4309%, 2.0000%, 2.0000%, 1.9972%
+
+✅✅✅✅✅ PASSED ✅✅✅✅✅
+⚠️ NO MAX BUY ⚠️
+
+🤗🤗🤗🤗🤗 SOCIALS 🤗🤗🤗🤗🤗
+https://lilitherc.com
+https://t.me/LilithERC
+https://twitter.com/LilithERC

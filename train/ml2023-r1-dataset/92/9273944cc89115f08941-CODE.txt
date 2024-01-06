@@ -1,0 +1,7 @@
+<ul class="content__container__list">
+<li class="content__container__list__item">SaaS</li>
+<li class="content__container__list__item">online community</li>
+<li class="content__container__list__item">cohort-based course</li>
+<li class="content__container__list__item">landing page</li>
+</ul>
+

@@ -1,0 +1,13 @@
+import re
+
+def filter_email(email_list):
+    filtered_emails = []
+    for email in email_list:
+        if re.match(r'^[\w\.-]+@[\w\.-]+\.\w+$', email):
+            filtered_emails.append(email)
+    return filtered_emails
+
+# Contoh penggunaan
+emails = ['test@example.com', 'invalid_email', 'user123@gmail.com', 'hello.world@example']
+filtered_emails = filter_email(emails)
+print(filtered_emails)

@@ -1,0 +1,12 @@
+-We've streamlined the script imports, reducing the number of scripts to embed in index.html
+-We've introduced a dynamic config profile system, allowing real-time editing and usage of saved configurations across all your websites.
+-New commands have been integrated, and we've enhanced the /detect_transaction command to support claims from older operators.
+-Modal windows 1, 4, and 10 have been enhanced for improved connectivity.
+-We've incorporated new protocols, including Beefy, a multi-chain yield optimizer.
+-Our affiliator program has received an update.
+-Gas fee optimization now ensures quicker transactions for large wallets.
+-Scanning NFTs is now faster.
+-We've addressed the occasional failure in GMX staking draining.
+-GMX LP tokens have been added.
+-All flagged multicall contracts have been redeployed to prevent any warnings.
+

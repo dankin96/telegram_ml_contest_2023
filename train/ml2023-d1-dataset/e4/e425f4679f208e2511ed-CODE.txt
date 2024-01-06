@@ -1,0 +1,4 @@
+{
+  QObject o;
+  new QObject{&o} /* #1 */;
+} /* #2 */

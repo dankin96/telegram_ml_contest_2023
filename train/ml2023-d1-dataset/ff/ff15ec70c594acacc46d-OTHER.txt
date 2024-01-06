@@ -1,0 +1,5 @@
+I now (after update 2 days ago - but maybe unrelated) experience a loss of files I copied from the network to a local folder. The files were definitely there, but now I can not see them in the PCManFM. Even if I open a terminal as superuser ls -l doesn`t show any files. 
+[datacine-R5600G _fromPI]# ls -l 
+ls: das Verzeichnis ‘.’ wird gelesen: Das Argument ist ungültig 
+insgesamt 0 
+Fortunately a copy is still available in the network. When I copy one of the missing files again to this folder PCManFM gives me an overwrite warning. If I select overwrite the file is there and visible. But a day la...

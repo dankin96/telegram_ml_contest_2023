@@ -1,0 +1,5 @@
+my_dict = dict()
+for k, v in new_values:
+    if k not in my_dict:
+        my_dict[k] = set()
+    my_dict[k].add(v)

@@ -1,0 +1,11 @@
+// We also have a lock file, which is a symlink to a non-existent destination.
+// The destination is a string containing the hostname and process id of
+// chrome's browser process, eg. "SingletonLock -> example.com-9156".  When the
+// first copy of chrome exits it will delete the lock file on shutdown, so that
+// a different instance on a different host may then use the profile directory.
+//
+// If writing to the socket fails, the hostname in the lock is checked to see if
+// another instance is running a different host using a shared filesystem (nfs,
+// etc.) If the hostname differs an error is displayed and the second process
+// exits.  Otherwise the first process (if any) is killed and the second process
+// starts as normal.

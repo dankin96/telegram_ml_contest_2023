@@ -1,0 +1,1 @@
+port -qv installed > myports.txt

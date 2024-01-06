@@ -1,0 +1,5 @@
+class Symbol
+  def to_s
+    self
+  end
+end

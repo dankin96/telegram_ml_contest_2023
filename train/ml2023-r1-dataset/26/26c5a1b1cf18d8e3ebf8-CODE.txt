@@ -1,0 +1,39 @@
+{
+  "update_id": 982731516,
+  "message": {
+    "message_id": 80062,
+    "from": {
+      "id": 6605714685,
+      "is_bot": false,
+      "first_name": "Manpreet",
+      "last_name": "Manpreet"
+    },
+    "chat": {
+      "id": -1001613691130,
+      "title": "International Students - U.K 2023",
+      "username": "InternationalstudentsofUK",
+      "type": "supergroup"
+    },
+    "date": 1696480881,
+    "new_chat_participant": {
+      "id": 6605714685,
+      "is_bot": false,
+      "first_name": "Manpreet",
+      "last_name": "Manpreet"
+    },
+    "new_chat_member": {
+      "id": 6605714685,
+      "is_bot": false,
+      "first_name": "Manpreet",
+      "last_name": "Manpreet"
+    },
+    "new_chat_members": [
+      {
+        "id": 6605714685,
+        "is_bot": false,
+        "first_name": "Manpreet",
+        "last_name": "Manpreet"
+      }
+    ]
+  }
+}

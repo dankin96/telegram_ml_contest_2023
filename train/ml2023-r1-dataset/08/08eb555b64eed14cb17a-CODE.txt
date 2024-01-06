@@ -1,0 +1,37 @@
+
+{
+  result: {
+    status: null,
+    candidate_atomical_id: null,
+    atomical_id: null,
+    candidates: [],
+    type: 'ticker'
+  }
+}
+Payload Encoded:  {
+  'galois.png': {
+    '$ct': 'image/png',
+    '$b': <Buffer 89 50 4e 47 0d 0a 1a 0a 00 00 00 0d 49 48 44 52 00 00 02 d3 00 00 02 d7 08 06 00 00 00 4f 65 cc 27 00 00 0c 6c 69 43 43 50 49 43 43 20 50 72 6f 66 69 ... 305146 more bytes>
+  },
+  args: {
+    mint_amount: 1618,
+    mint_height: 811035,
+    max_mints: 3141,
+    mint_bitworkc: '7400',
+    request_ticker: 'gftk',
+    bitworkc: '5420'
+  },
+  meta: {
+    'meta_gftk.json': {
+      '$ct': 'application/json; charset=utf-8',
+      '$b': <Buffer 7b 0a 20 20 20 20 22 6e 61 6d 65 22 3a 20 22 47 61 6c 6f 69 73 46 69 65 6c 64 20 54 6f 6b 65 6e 22 2c 0a 20 20 20 20 22 64 65 73 63 72 69 70 74 69 6f ... 1581 more bytes>
+    }
+  }
+}
+Operation failed.
+{
+  "success": false,
+  "message": "Error: Insufficient data",
+  "error": {}
+}
+Done in 1.31s.

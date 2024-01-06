@@ -1,0 +1,2 @@
+class SomeAdmin(ModelView, model=SomeORM):
+    async def on_model_change(self, data, model, is_created):

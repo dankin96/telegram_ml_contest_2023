@@ -1,0 +1,6 @@
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not add attachment: no test is running
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not start step: no test case running
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: no step running
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not stop step: no step running
+[Test worker] ERROR io.qameta.allure.AllureLifecycle - Could not update step: step with uuid f681be58-7070-444e-bf66-ca616b1ec773 not found

@@ -1,0 +1,10 @@
+FORMAT 
+
+- username :
+- nickname ml :
+- id ml :
+- server ml :
+- status : po ducati
+- order :
+- payment : 
+

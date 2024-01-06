@@ -1,0 +1,4 @@
+error: DepositHandler: failed to compile Sierra contract to CASM
+
+Caused by:
+    Attempted to merge branches with different bases to align

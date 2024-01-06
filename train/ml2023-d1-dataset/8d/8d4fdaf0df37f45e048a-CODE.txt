@@ -1,0 +1,49 @@
+
+from fastapi import FastAPI
+from pydantic import BaseModel
+from typing import List
+import requests
+from sqlalchemy import create_engine, Column, Integer, String, DateTime
+from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy.orm import sessionmaker
+
+app = FastAPI()
+
+# Определение модели для запроса
+class QuestionRequest(BaseModel):
+    questions_num: int
+
+# Определение модели для сохранения вопроса
+class Question(Base):
+    __tablename__ = 'questions'
+    
+    id = Column(Integer, primary_key=True)
+    question_text = Column(String)
+    answer_text = Column(String)
+    created_at = Column(DateTime)
+
+# Создание подключения к базе данных
+engine = create_engine('postgresql://username:password@localhost:5432/dbname')
+Session = sessionmaker(bind=engine)
+session = Session()
+
+# Обработчик POST запроса
+@app.post('/questions', response_model=List[Question])
+async def create_questions(questions_num: QuestionRequest):
+    # Получение случайных вопросов с публичного API
+    response = requests.get(f'https://jservice.io/api/random?count={questions_num.questions_num}')
+    data = response.json()
+    
+    # Сохранение вопросов в базу данных
+    saved_questions = []
+    for question_data in data:
+        question = Question(
+            question_text=question_data['question'],
+            answer_text=question_data['answer'],
+            created_at=datetime.datetime.now()
+        )
+        session.add(question)
+        session.commit()
+        saved_questions.append(question)
+    
+    return saved_questions

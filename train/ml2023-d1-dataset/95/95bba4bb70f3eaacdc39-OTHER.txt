@@ -1,0 +1,2 @@
+
+In the Jammy repositories of 22.04, cython has been named cython3. So install it with sudo apt update && sudo apt install cython3

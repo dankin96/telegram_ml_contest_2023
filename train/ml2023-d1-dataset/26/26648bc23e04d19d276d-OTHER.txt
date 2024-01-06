@@ -1,0 +1,10 @@
+Cycle ID    : 1310202300001 
+MID         : 30002012 
+Material    : INNER OIL GR EXPORT MALAYSIA NEW 
+UOM         : ROL 
+
+Qty All            : 10 
+Qty Kedatangan     : 10 
+Sisa Belum Datang  : 0 
+
+Receive By  : Heri Kiswanto 

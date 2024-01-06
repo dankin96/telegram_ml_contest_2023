@@ -1,0 +1,7 @@
+What You Will Likely Bring:
+
+Broad knowledge of Python 3, including skills related to performance tuning.
+
+Broad knowledge of *jango, particularly the ORM features, and be able to diagnose and correct issues in that framework.
+
+Experience writing async *jango views, including those that access the ORM layer’s async methods.

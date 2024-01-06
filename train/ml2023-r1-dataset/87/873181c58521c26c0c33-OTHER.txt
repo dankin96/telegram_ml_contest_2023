@@ -1,0 +1,21 @@
+Dart tilini o'rganish uchun quyidagi web sahifalardan foydalanishingiz foydali bo'ladi:
+
+1. **Dart.dev (https://dart.dev):** Dart tilining asosiy manbasi rasmiy veb sahifa bo'lib, siz bu yerda Dartning qo'llanmalarini, ko'rsatkichlarini, yangiliklarini va o'rganish resurslarini topishingiz mumkin.
+
+2. **Flutter.dev (https://flutter.dev):** Flutter, Dart tilini o'rganish uchun juda mos mavzu. Flutter sahifasida, Flutter va Dart tilida ilova yaratishni o'rganish uchun ko'plab qo'llanmalar va ko'rsatkichlar mavjud.
+
+3. **YouTube:** Dart tilini o'rganishning eng yaxshi usuli video darslar yordamida o'rganish bo'lishi mumkin. "Dart tutorial" yoki "Dart programming for beginners" deb qidirishingizda, ko'plab bepul video darslar topasiz.
+
+4. **Udemy, Coursera, va Pluralsight:** Bu onlayn ta'lim platformalari ko'plab Dart va Flutter kurslari taklif qiladi. Bularning ba'zilari to'g'ri beginnerlar uchun dizayn qilingan va amaliy mashg'ulotlarni o'z ichiga oladi.
+
+5. **GitHub (https://github.com/dart-lang):** Dart tilini o'rganishning bir qismini, asosan ko'd yozishni o'rganish, GitHubda Dart tilidagi ochiq manbalarni o'rganish orqali amalga oshirishingiz mumkin. Ko'd yozishning eng yaxshi usuli, bir necha dasturlash loyihalari qo'shilishi yoki qo'shilayotgan bo'lsa ulardan foydalanishdir.
+
+6. **Stack Overflow (https://stackoverflow.com):** Dart va Flutter so'ralgan savollar va javoblar bazasi mavjud. Bu yerda, muammolaringizni yechish va yangi narsalarni o'rganish uchun savollar bering.
+
+7. **Medium va Dev.to:** Bu bloglar platformalari, Dart va Flutter sohasidagi maqolalarni, ilova yaratish jarayonlarini va muhim tushunchalarni o'z ichiga oladi.
+
+8. **DartPad (https://dartpad.dev):** Dart tilini amaliy mashg'ulot qilish uchun ishlab chiqilgan onlayn redaktor. Bu yerda kodlaringizni yozib ko'rish va boshqa insonlar bilan ulashishingiz mumkin.
+
+9. **Dart va Flutter forumlari:** Dart va Flutter forumlarida, muammolaringizni yechish, o'zingizni yaxshi qilish uchun so'raladigan savollar va ko'rsatkichlarni topishingiz mumkin. 
+
+Istalgan mavzu haqida ko'proq ma'lumot olish uchun bu resurslardan foydalanishingiz foydali bo'ladi. Qo'shimcha ravishda, real dunyoda amaliy ish qilish va ilovalar yaratishni o'rganish uchun boshqa dasturlashlar bilan ishlashni tavsiya etaman. Bu sizning tajribangizni oshirish va Dart va Flutter tilini o'rganishda sizga yordam bera olishi mumkin.

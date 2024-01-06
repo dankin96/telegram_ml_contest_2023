@@ -1,0 +1,2 @@
+tasks {    "test"(Test::class) {        testLogging {            events = setOf(TestLogEvent.FAILED, TestLogEvent.PASSED, TestLogEvent.SKIPPED)
+            exceptionFormat = TestExceptionFormat.FULL        }    }}

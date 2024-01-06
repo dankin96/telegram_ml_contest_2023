@@ -1,0 +1,13 @@
+const input = document.querySelector('input[type="file"]');
+
+const formData = new FormData();
+
+formData.append('file', input.files[0]);
+
+fetch('/url', { 
+  method: 'POST',
+  body: formData
+})
+.then(response => response.json())
+.then(data => console.log(data))
+.catch(error => console.error(error));

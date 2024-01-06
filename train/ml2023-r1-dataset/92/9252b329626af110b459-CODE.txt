@@ -1,0 +1,2 @@
+[ExcludeProperties("DnsRecordCreationRequest", new [] { "Id" })]
+public record class DnsRecord(Id, Type, Name, Value, Ttl)

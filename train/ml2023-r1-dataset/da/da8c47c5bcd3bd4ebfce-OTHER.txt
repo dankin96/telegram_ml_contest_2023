@@ -1,0 +1,10 @@
+       ==== SIGNAL UPDATE ====
+Symbol      #BTCUSDT (BINANCE)
+Type        crypto
+Time Frame  15 minute
+Trend       Down Trend
+Signal      HIT E1, Check Signal FOR Call/Put/TP
+Last Close  27489.2700
+E1          27509.8827
+E2          27580.0933
+Time        2023-10-06 09:00

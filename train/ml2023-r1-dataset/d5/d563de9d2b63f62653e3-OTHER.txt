@@ -1,0 +1,16 @@
+ow@njasha:~$ host 89.110.53.202 ns.spbnit.ru
+Using domain server:
+Name: ns.spbnit.ru
+Address: 212.48.192.8#53
+Aliases:
+
+202.53.110.89.in-addr.arpa domain name pointer ppp89-110-53-202.pppoe.avangarddsl.ru.
+ow@njasha:~$ host 89.110.53.202 ns2.spbtlg.ru.
+Using domain server:
+Name: ns2.spbtlg.ru.
+Address: 213.158.0.16#53
+Aliases:
+
+202.53.110.89.in-addr.arpa domain name pointer ppp89-110-53-202.pppoe.avangarddsl.ru.
+ow@njasha:~$
+

@@ -1,0 +1,2 @@
+Offset is a signal offset measured between zero and mean values of the signal. Signal offset with regard to zero (measured in Volt, V).
+

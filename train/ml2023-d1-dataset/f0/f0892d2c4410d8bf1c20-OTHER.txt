@@ -1,0 +1,3 @@
+Having thoroughly gone through the details of these discussion, it is pertinent to have both stablecoins come onboard on Dexter. 
+Dexter is obviously a successful DEX and with just 3 pools (currently), it has amazed the ecosystem with so much TVL. We all wish to have a good bag of liquidity and expose to almost a 1% impermanent loss and thus, with stablecoins, this will be achieved. 
+For bootstrap...

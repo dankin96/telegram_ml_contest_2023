@@ -1,0 +1,25 @@
+from transformers import pipeline, DistilBertTokenizer, DistilBertModel
+import torch
+
+# Creazione del riempitore di maschere
+unmasker = pipeline('fill-mask', model='distilbert-base-uncased')
+
+# Utilizzo del riempitore di maschere
+results = unmasker("Hello I'm a [MASK] model.")
+print(results)
+
+# Caricamento del tokenizer e del modello DistilBERT
+tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
+model = DistilBertModel.from_pretrained("distilbert-base-uncased")
+
+# Testo di esempio
+text = "Ciao Ucce."
+
+# Codifica l'input e ottieni le features
+encoded_input = tokenizer(text, return_tensors='pt')
+output = model(**encoded_input)
+
+# Le features sono nell'oggetto `output`
+# Esempio di accesso ai risultati
+last_hidden_states = output.last_hidden_state
+print(last_hidden_states)

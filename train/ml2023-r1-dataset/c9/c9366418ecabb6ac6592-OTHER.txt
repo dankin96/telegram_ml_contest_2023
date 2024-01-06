@@ -1,0 +1,18 @@
+ 
+Election changes new epoch 1848
+
+Elected:
+  Compass-1
+  VALHALLA-2
+  BlockPort-5
+  Kube2
+  Genesis-02
+  Genesis-13
+
+Deelected:
+  HISPANO
+  EtherealGuardian
+  Klever-Radar
+  KVGermany-III
+  Scuderia Ferrari
+  Genesis-06

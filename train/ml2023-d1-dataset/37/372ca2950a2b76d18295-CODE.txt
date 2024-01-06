@@ -1,0 +1,7 @@
+for (let i = 0; i < Model.SelectionCount; i++) {
+    block = Model.Selections[i]
+
+    if (block instanceof TFurnBlock) {
+        Undo.Changing(block)
+        block.DatumMode = 0
+    }

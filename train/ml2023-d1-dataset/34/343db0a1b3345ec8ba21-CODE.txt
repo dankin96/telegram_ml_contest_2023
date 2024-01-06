@@ -1,0 +1,12 @@
+
+  echo "${value}" # real    0m0,035s
+
+  echo "${value//\"/'\"'}" # real 0m0,056s
+
+  echo "${value}" | perl -pe 's/"/\\"/g' # real    0m1,079s
+
+  echo "${value}"  | jq '. | tostring | gsub("\""; "\"")' # real    0m2,144s
+
+  echo "${value}" | awk '{ gsub(/"/, "\\\""); print $0 }' # real    0m2,290s
+
+  echo "${value}"  | sed 's/"/\\"/g' # real    0m2,743s

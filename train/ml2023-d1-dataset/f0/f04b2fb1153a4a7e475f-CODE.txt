@@ -1,0 +1,11 @@
+{'currency': 'BRISE',
+          'deposit': '0',
+          'name': 'Bitgert',
+          'name_cn': 'Bitgert',
+          'withdraw_amount_mini': '0.1',
+          'withdraw_day_limit': '14425851125216.38',
+          'withdraw_day_limit_remain': '14405563562185.36',
+          'withdraw_eachtime_limit': '14405563562185.36',
+          'withdraw_fix': '7200000',
+          'withdraw_fix_on_chains': {'BRISE': '7200000', 'BSC': '29000000'},
+          'withdraw_percent': '0%'}

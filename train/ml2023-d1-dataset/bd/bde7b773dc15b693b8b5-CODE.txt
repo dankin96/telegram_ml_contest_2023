@@ -1,0 +1,3 @@
+auto obj_1 = userver::formats::json::MakeObject("field1", "one");
+auto obj_2 = userver::formats::json::MakeObject("field2", 2);
+auto obj_3 = obj_1 + obj_2; // ??

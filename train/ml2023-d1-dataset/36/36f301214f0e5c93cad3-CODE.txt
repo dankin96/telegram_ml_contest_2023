@@ -1,0 +1,6 @@
+take,drop,takeWhile,dropWhile,
+firsts(2),firsts(2,[]), firsts(x=>x!=0), firsts(x=>x!=0, all=>[])
+takeLastWhile, startsWith, trimEnd..
+posR.firsts(x=>), str.firsts(">"), abc.posR.firsts("xyz","")
+
+

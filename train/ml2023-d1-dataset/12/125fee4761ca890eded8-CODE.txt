@@ -1,0 +1,31 @@
+php
+use Illuminate\Support\Facades\Storage;
+use Illuminate\Http\Response;
+
+public function getPrivatePDF($filename)
+{
+    // Define el nombre del archivo en S3
+    $path = 'tu/ruta/en/s3/' . $filename;
+
+    // Verifica si el archivo existe
+    if (Storage::disk('s3')->exists($path)) {
+        $stream = Storage::disk('s3')->readStream($path);
+
+        // Configura los encabezados de la respuesta
+        $headers = [
+            'Content-Type' => 'application/pdf',
+            'Content-Disposition' => 'inline; filename="' . $filename . '"',
+        ];
+
+        // Devuelve la respuesta con el archivo
+        return response()->stream(function () use ($stream) {
+            fpassthru($stream);
+            if (is_resource($stream)) {
+                fclose($stream);
+            }
+        }, 200, $headers);
+    }
+
+    // En caso de que el archivo no exista
+    abort(404);
+}

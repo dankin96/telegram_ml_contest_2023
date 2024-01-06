@@ -1,0 +1,20 @@
+class VariantsChannel < ApplicationCable::Channel
+  def subscribed
+    stream_from stream_name
+  end
+
+  def unsubscribed
+    # Any cleanup needed when channel is unsubscribed
+  end
+
+  def receive(data)
+    outcome = ::TourboHotels::Variants.run(data.merge(stream_name: stream_name))
+    ActionCable.server.broadcast(stream_name, outcome.errors) if outcome.errors.any?
+  end
+
+  private
+
+  def stream_name
+    @stream_name ||= "#{params[:variants_socket_key]}_channel"
+  end
+end

@@ -1,0 +1,10 @@
+
+ const realParams = {
+    symbol: 'TRXUSDT_UMCBL',
+    size: 100,
+    marginCoin: Tickers.USDT,
+    productType: ProductType.UMCBL,
+    contractType: 'normal',
+  }
+
+  const data = await openMarketLong(realParams);

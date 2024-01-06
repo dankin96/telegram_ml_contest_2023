@@ -1,0 +1,5 @@
+public class SomeData {
+    @NotNull    @Max(10)
+    private final Integer value;
+    private final String name;
+}

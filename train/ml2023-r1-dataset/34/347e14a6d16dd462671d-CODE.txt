@@ -1,0 +1,10 @@
+val input = "http://evil.com"
+
+val filter = """^(https?)://.*@?evil\..+""".toRegex()
+
+if (filter.matches(input)) {
+  throw MalformedURLException("Banned URL!")
+}
+
+val okhttp = OkHttpClient()
+val req = Request.Builder().url(URL(input)).build()

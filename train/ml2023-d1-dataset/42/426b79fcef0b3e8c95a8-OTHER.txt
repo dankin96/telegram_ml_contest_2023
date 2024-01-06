@@ -1,0 +1,5 @@
+  Command "server:start" is not defined.
+
+  Did you mean one of these?
+      server:dump
+      server:log

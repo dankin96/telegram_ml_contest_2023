@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Codewars</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./main.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="name">Mehrshad</h1>
+      <p class="id">@js_challenges</p>
+      <figure class="img-box">
+        <img src="./blank.png" alt="profile-img" class="img" />
+      </figure>
+      <label for="img-input" class="label">Upload image</label>
+      <input
+        type="file"
+        class="input"
+        id="img-input"
+        accept="image/jpeg, image/png, image/jpg"
+      />
+    </div>
+    <div class="drag-box">
+      <p class="drag-label">Drag here</p>
+    </div>
+  </body>
+</html>
+

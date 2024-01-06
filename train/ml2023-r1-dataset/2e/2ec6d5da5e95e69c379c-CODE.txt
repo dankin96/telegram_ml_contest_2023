@@ -1,0 +1,6 @@
+p3cw = Py3CW(key = 'keyfrom3c' , 
+selfsigned = '''startheader
+                         Private keyline1
+                         Private keyline2... 
+                        endfooter''' 
+)

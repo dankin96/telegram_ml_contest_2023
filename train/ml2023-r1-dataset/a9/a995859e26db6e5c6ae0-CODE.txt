@@ -1,0 +1,2 @@
+ REQUEST:
+<POST https://ex-api-demo-yy.568win.com/web-root/restricted/report/v2/get-bet-list-by-modify-date.aspx,FetchTxRequest(Portfolio=VirtualSports, StartDate=2023-07-14 09:50:00, EndDate=2023-07-14 10:00:00, CompanyKey=ED10B129F7A9403DB84112ACBABB34A7, ServerId=1696553001909),[]>

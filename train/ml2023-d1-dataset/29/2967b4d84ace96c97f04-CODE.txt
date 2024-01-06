@@ -1,0 +1,7 @@
+@router.message(CommandStart())
+async def cmd_start(message: Message, i18n: I18nContext) -> Any:
+    name = message.from_user.mention_html()
+    return message.reply(
+        text=i18n.get("hello", user=name),  # or i18n.hello(user=name)
+        reply_markup=rkb
+    )

@@ -1,0 +1,3 @@
+vrunner xunit list // список тестов
+vrunner xunit execute // выполнить отдельный тест
+vrunner xunit // обычный режим

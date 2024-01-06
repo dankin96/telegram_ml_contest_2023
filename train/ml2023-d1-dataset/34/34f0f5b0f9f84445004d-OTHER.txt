@@ -1,0 +1,10 @@
+Xauusd Buy : 20 Pips 
+Xauusd Buy : 25 Pips
+Xauusd Buy : 40 Pips
+Xauusd Sell: 25 Pips
+Xauusd Sell: 30 Pips 
+Xauusd Buy : 30 Pips
+Xauusd Buy : 50 Pips
+Xauusd Buy : 70 Pips
+Xauusd Buy : 90 Pips
+

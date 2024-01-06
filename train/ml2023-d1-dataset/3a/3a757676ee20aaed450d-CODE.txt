@@ -1,0 +1,9 @@
+python
+Num1 = int(input("Enter a number: "))  # Convert the input to an integer
+Num2 = Num1 - 10
+print("Num1 =", Num1)
+print("Num2 =", Num2)
+s = "Computer science"
+print(s[:7])  # Output: Computer
+for x in 'Computer science':  # Add a colon at the end of the line
+    print(x)

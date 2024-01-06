@@ -1,0 +1,4 @@
+// selected key on
+selectType -animKeyframe true -animBreakdown false; optionVar -intValue keySelectionOn false;
+// selected key off
+selectType -animKeyframe false -animBreakdown false; optionVar -intValue keySelectionOn false;

@@ -1,0 +1,11 @@
+Langkah langkah:
+1.Buka browser
+2.Ketik "unipin"
+3.Pilih game 
+4.Masukan id game 
+5.Pilih nominal top up
+6.Pilih chanel pembayaran "unipin gift card"
+7.Masukan serial & pin
+8.Cek data pembelian 
+9.Pilih konfirmasi
+

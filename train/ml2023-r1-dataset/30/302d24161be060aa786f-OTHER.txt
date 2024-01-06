@@ -1,0 +1,1 @@
+Hello, you must enter "Id" in key and then in value you must put an account ID that takes it from the url in the 360 view of accounts

@@ -1,0 +1,23 @@
+#include <iostream>
+#include <string>
+
+int main(){
+    std::string corr, uncorr;
+    getline(std::cin, corr);
+    getline(std::cin, uncorr);
+
+    int chng = 0, mark = 5;
+    if(corr.size()!=uncorr.size()){
+        chng = abs(corr.size()-uncorr.size());
+        mark -= chng;
+        std::cout<<std::max(2, std::min(5, mark));
+        return 0;
+    }
+
+    for(int i = 0; i < corr.size(); i++){
+        if(corr[i] != uncorr[i]) chng++;
+    }
+    mark -= chng;
+    std::cout<<std::max(2, std::min(5, mark));
+    return 0;
+}

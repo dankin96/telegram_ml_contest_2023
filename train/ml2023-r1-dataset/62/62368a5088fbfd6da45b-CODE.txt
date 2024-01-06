@@ -1,0 +1,15 @@
+TEMPLATES = [
+4    {
+5        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+6        'DIRS': [os.path.join(BASE_DIR,'templates')],
+7        'APP_DIRS': True,
+8        'OPTIONS': {
+9            'context_processors': [
+10                'django.template.context_processors.debug',
+11                'django.template.context_processors.request',
+12                'django.contrib.auth.context_processors.auth',
+13                'django.contrib.messages.context_processors.messages',
+14            ],
+15        },
+16    },
+17]

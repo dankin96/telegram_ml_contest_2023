@@ -1,0 +1,20 @@
+enum ProjectPadding {
+  p1(8),
+  p2(12),
+  p3(14),
+  p4(16),
+  p6(18),
+  p7(20);
+
+  final double value;
+  const ProjectPadding(this.value);
+
+  EdgeInsets get symmetricVertical => EdgeInsets.symmetric(vertical: value);
+  EdgeInsets get symmetricHorizontal => EdgeInsets.symmetric(horizontal: value);
+  EdgeInsets get onlyTop => EdgeInsets.only(top: value);
+  EdgeInsets get onlyBottom => EdgeInsets.only(bottom: value);
+  EdgeInsets get onlyLeft => EdgeInsets.only(left: value);
+  EdgeInsets get onlyRight => EdgeInsets.only(right: value);
+  EdgeInsets get all => EdgeInsets.all(value);
+}
+çağırırken;

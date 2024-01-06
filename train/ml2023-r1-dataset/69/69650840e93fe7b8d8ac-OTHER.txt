@@ -1,0 +1,3 @@
+Min:: $50
+Max:: $999
+10% Referral Bonus

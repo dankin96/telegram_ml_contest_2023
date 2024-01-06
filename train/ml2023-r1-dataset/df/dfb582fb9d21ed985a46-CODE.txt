@@ -1,0 +1,3 @@
+bot.on("callback_query:data").fork().use(ctx => ctx.answerCallbackQuery());
+
+bot.callbackQuery("greeting", ctx => ctx.reply("Hello!"));

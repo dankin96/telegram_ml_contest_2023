@@ -1,0 +1,1 @@
+thread 'main' panicked at 'assertion failed: self.pending_ids.insert(id)', /build/cargo-geiger-0.11.6-vendor.tar.gz/cargo/src/cargo/core/package.rs:708:9

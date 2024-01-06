@@ -1,0 +1,3 @@
+failed to solve: failed to compute cache key: failed to calculate checksum of ref <символы идентификатора>: "/src": not found
+`docker-compose` process finished with exit code 17
+

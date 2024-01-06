@@ -1,0 +1,3 @@
+if(!check_bitrix_sessid()){
+    die("ACCESS_DENIED");
+}

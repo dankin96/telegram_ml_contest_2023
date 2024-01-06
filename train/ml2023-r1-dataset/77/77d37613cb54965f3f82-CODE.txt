@@ -1,0 +1,19 @@
+const createDocument = async (document) => {
+  const client = new MongoClient(url);
+  return new Promise((resolve, reject) => {
+    client
+      .connect()
+      .then(async () => {
+        const db = client.db(dbName);
+        const collection = db.collection("products");
+        const result = await collection.insertOne(document);
+        resolve(result);
+      })
+      .catch((err) => {
+        reject(err);
+      })
+      .finally(() => {
+        client.close();
+      });
+  });
+};

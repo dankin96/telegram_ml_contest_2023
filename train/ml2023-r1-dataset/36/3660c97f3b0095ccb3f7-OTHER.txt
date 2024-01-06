@@ -1,0 +1,5 @@
+ M1: circolazione sospesa su tutta la linea per un problema agli impianti che stiamo risolvendo.
+ Tra Cadorna e Loreto usate M2.
+ Tra Garibaldi e Loreto usate M2.
+ Tra Duomo e Centrale usate M3.
+ Tra Lotto e Garibaldi usate M5.

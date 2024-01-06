@@ -1,0 +1,10 @@
+
+＊cluster:sri
+＊group:group-sri-push
+＊topic:sri-push-suited
+＊partition:0
+＊lag:13053
+＊status:［STOP］
+
+＊time:2023-10-09T07:06:30
+＊num_hits:18

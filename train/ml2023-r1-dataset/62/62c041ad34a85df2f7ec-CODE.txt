@@ -1,0 +1,62 @@
+using SolidWorks.Interop.sldworks;
+using DFMExpressLib;
+
+public void RunDFMExpress()
+{
+    SldWorks swApp = null;
+    ModelDoc2 swModel = null;
+    DFMExpress dfmExpress = null;
+
+    try
+    {
+        // Get the running instance of SolidWorks
+        swApp = (SldWorks)Activator.CreateInstance(Type.GetTypeFromProgID("SldWorks.Application"));
+
+        // Open the active document
+        swModel = swApp.ActiveDoc as ModelDoc2;
+
+        // Create a new instance of DFMExpress
+        dfmExpress = new DFMExpress();
+
+        // Set the active document in DFMExpress
+        dfmExpress.ActiveDocument = swModel;
+
+        // Run DFM Express
+        dfmExpress.RunDFM();
+
+        // Retrieve the DFM Express results
+        DFMExpressResults results = dfmExpress.Results;
+
+        // Display the results
+        foreach (DFMExpressResult result in results)
+        {
+            Console.WriteLine("Feature: " + result.FeatureName);
+            Console.WriteLine("Severity: " + result.Severity);
+            Console.WriteLine("Message: " + result.Message);
+        }
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine("An error occurred: " + ex.Message);
+    }
+    finally
+    {
+        // Clean up resources
+        if (dfmExpress != null)
+        {
+            dfmExpress.Close();
+            dfmExpress = null;
+        }
+
+        if (swModel != null)
+        {
+            swModel = null;
+        }
+
+        if (swApp != null)
+        {
+            swApp.ExitApp();
+            swApp = null;
+        }
+    }
+}

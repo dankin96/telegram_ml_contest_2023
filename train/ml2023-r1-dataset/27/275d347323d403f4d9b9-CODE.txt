@@ -1,0 +1,18 @@
+    private static String formatNumberImpl(double d) {
+        if (d == (double) (int) d)
+            return Integer.toString((int) d);
+        if (d == (double) (long) d)
+            return Long.toString((long) d);
+        double ad = Math.abs(d);
+        if (ad > 1e-9 && ad < 1e12) {
+            NumberFormat nf = NUMBER_FORMATTER.get();
+            if (nf == null) {
+                nf = NumberFormat.getInstance(Locale.US);
+                nf.setMaximumFractionDigits(20);
+                nf.setGroupingUsed(false);
+                NUMBER_FORMATTER.set(nf);
+            }
+            return nf.format(d);
+        }
+        return Double.toString(d);
+    }

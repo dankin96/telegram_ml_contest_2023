@@ -1,0 +1,3 @@
+Building release: main
+Job name: bld-esnsi-1006-122004-937-main
+Projects: server

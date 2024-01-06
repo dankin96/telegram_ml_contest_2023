@@ -1,0 +1,25 @@
+ 
+Epoch 1874 Top3 KDA Statistics
+
+# Asset             Transfers
+1 PMD-2U7V            491 txs
+2 CHIPS-1GZP          359 txs
+3 DVK-34ZH             26 txs
+
+# Asset                Claims
+1 DVK-34ZH             12 txs
+2 BLOCK-31F6            2 txs
+3 DXB-3SBO              1 txs
+
+# Asset               Freezes
+1 DVK-34ZH              4 txs
+2 KFI                   1 txs
+
+# Asset             Unfreezes
+1 KFI                   1 txs
+2 DVK-34ZH              1 txs
+
+# Asset           KDA for fee
+1 PMD-2U7V            511 txs
+2 CHIPS-1GZP          246 txs
+3 KID-36W3              2 txs

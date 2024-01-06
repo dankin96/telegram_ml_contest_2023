@@ -1,0 +1,35 @@
+Ошибка обмена с кассой:
+{
+  requestData: {
+    appName: 'integration-service-production',
+    url: '/api/external-cashbox',
+    method: 'GET',
+    query: {},
+    body: {},
+    params: {}
+  },
+  exception: UnauthorizedException: Unauthorized
+      at PublicApiGuard.canActivate (/var/www/node_modules/vita/jwt-auth/dist/auth/guards/public-api.guard.js:24:19)
+      at GuardsConsumer.tryActivate (/var/www/node_modules/nestjs/core/guards/guards-consumer.js:15:34)
+      at canActivateFn (/var/www/node_modules/nestjs/core/router/router-execution-context.js:134:59)
+      at /var/www/node_modules/nestjs/core/router/router-execution-context.js:42:37
+      at /var/www/node_modules/nestjs/core/router/router-proxy.js:9:23
+      at Layer.handle [as handle_request] (/var/www/node_modules/express/lib/router/layer.js:95:5)
+      at next (/var/www/node_modules/express/lib/router/route.js:144:13)
+      at Route.dispatch (/var/www/node_modules/express/lib/router/route.js:114:3)
+      at Layer.handle [as handle_request] (/var/www/node_modules/express/lib/router/layer.js:95:5)
+      at /var/www/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/var/www/node_modules/express/lib/router/index.js:346:12)
+      at next (/var/www/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/var/www/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+      at Layer.handle [as handle_request] (/var/www/node_modules/express/lib/router/layer.js:95:5)
+      at trim_prefix (/var/www/node_modules/express/lib/router/index.js:328:13)
+      at /var/www/node_modules/express/lib/router/index.js:286:9 {
+    response: {
+      statusCode: 401,
+      message: 'Unauthorized'
+    },
+    status: 401,
+    options: {}
+  }
+}

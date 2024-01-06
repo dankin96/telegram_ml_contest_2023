@@ -1,0 +1,1 @@
+.root/etc/pacman.d/hooks/generate-pkglist.hook

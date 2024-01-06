@@ -1,0 +1,1 @@
+Oct 11 21:18:49 kimiblocks-moeos org.prismlauncher.PrismLauncher.desktop[63412]:    146.136 W | The Wayland connection broke. Did the Wayland compositor die?

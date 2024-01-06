@@ -1,0 +1,7 @@
+let content = <>
+    {`Не найден компонент страницы с ключом ${ps.currentPage}`}</>;
+  if (ps.currentPage === Page.ViewArticle) {
+    //content = <PageViewArticle/>;
+  } else if (ps.currentPage === Page.EditArticle) {
+    content = <PageEditArticle/>;
+  }

@@ -1,0 +1,2 @@
+> flameshot gui | echo $?
+0

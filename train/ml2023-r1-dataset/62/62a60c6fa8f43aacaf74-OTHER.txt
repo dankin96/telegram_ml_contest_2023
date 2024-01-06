@@ -1,0 +1,1 @@
+CRITICAL - load average: 36.01, 53.25, 53.38

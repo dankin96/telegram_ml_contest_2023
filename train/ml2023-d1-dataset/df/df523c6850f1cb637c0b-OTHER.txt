@@ -1,0 +1,6 @@
+https://git.eltc.ru/stb/MTVRC.git 4db4c6e4 1.77.0-505
+6a16a23262a7bc596d2328a80dbd97b17ab3634d Global (1.47.0-247-g6a16a23)
+ 651a802e1a6b3e79b2d0dddf93d5afa3c0be8168 base-player (1.93.0-191-g651a802)
+ 0894d4c96cb07d6d67a09a74510cd314149c6d6d btv_core (1.3.4-174-g0894d4c)
+ ba710ccd4f15cbe71b3b880d17d788477ec2bb8b goodflix_common (1.6.1-692-gba710ccd)
+ 27c38f5409b06110763c2fa84ad4066e032ae54e goodflix_side_menu (1.5.4-58-g27c38f5)

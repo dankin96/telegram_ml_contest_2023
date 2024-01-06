@@ -1,0 +1,7 @@
+    await client.connect()
+    .then(res => {
+        console.log("connect success:",res);
+    })
+    .catch(err => {
+        console.error("connect error:",err);
+    });

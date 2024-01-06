@@ -1,0 +1,25 @@
+character = input("Enter a character: ")
+
+
+vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
+
+if character in vowels:
+    print(f"The character '{character}' is a vowel!")
+else:
+    print(f"The character '{character}' is a consonant!")
+
+count = 1for x in range(5):
+    for y in range(0, x):
+        print(count, end='')
+        count = count +1    print()
+input()
+
+def CheckLeap(Year):
+
+  if((Year % 400 == 0) or     (Year % 100 != 0)):
+    print("Given Year is a leap Year");
+  else:
+
+    print ("Given Year is not a leap Year")
+Year = int(input("Enter the number: "))
+CheckLeap(Year)

@@ -1,0 +1,2 @@
+_images = ProductImageSerializer(read_only=True, many=True)
+

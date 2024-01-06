@@ -1,0 +1,17 @@
+http://vimeo.com/api
+donations.livestream.com
+api.vimeo.com
+vimeo.magisto.com
+vhx.tv
+api.vhx.tv
+http://vimeo.com/create
+checkout.vimeo.com
+staging.magisto.com
+applause1.magisto.com
+magisto.com,www.magisto.com
+vimeopro.com
+embed.vhx.tv
+player.vimeo.com
+www.livestream.com
+http://vimeo.com/ondemand
+www.vimeo.com

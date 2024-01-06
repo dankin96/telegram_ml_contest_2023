@@ -1,0 +1,8 @@
+/etc/systemd/system/dnscrypt-proxy.socket.d/override.conf
+[Socket]
+ListenStream=
+ListenDatagram=
+ListenStream=127.0.2.1:53
+ListenStream=[::1]:53
+ListenDatagram=127.0.2.1:53
+ListenDatagram=[::1]:53

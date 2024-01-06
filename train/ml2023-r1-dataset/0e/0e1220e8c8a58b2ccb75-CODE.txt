@@ -1,0 +1,3 @@
+[root@x6100:/etc]# cat xgradio/man.conf
+[manufacture]
+exec-counter=1

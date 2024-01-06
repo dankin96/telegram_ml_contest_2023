@@ -1,0 +1,61 @@
+add_filter('wp_handle_upload', 'convertir_imagen_a_webp');
+
+  function convertir_imagen_a_webp($file)
+  {
+    // Ruta del archivo subido
+    $uploaded_file = $file['file'];
+
+    // Obtener la extensión del archivo
+    $extension = pathinfo($uploaded_file, PATHINFO_EXTENSION);
+
+    // Verificar si la extensión es .jpg, .jpeg o .png
+    if (in_array($extension, array('jpg', 'jpeg', 'png'))) {
+      // Obtener información sobre la imagen
+      list($width, $height, $type) = getimagesize($uploaded_file);
+
+      // Comprobar el tipo de imagen y ajustar la calidad
+      $quality = 60; // Calidad de compresión inicial
+      if ($type === IMAGETYPE_JPEG) {
+        $source_image = imagecreatefromjpeg($uploaded_file);
+      } elseif ($type === IMAGETYPE_PNG) {
+        $source_image = imagecreatefrompng($uploaded_file);
+        $quality = 6; // Valor de calidad para PNG
+      } else {
+        return $file; // No es una imagen compatible, no hacemos nada
+      }
+
+      // Eliminar metadatos EXIF si existen
+      if (function_exists('exif_read_data') && exif_imagetype($uploaded_file) == IMAGETYPE_JPEG) {
+        $exif = @exif_read_data($uploaded_file);
+        if (!empty($exif)) {
+          $file['file'] = remove_exif_data($uploaded_file);
+        }
+      }
+
+      // Ruta para guardar el archivo .webp
+      $webp_file = str_replace($extension, 'webp', $uploaded_file);
+
+      // Convertir y guardar la imagen en formato webp
+      imagewebp($source_image, $webp_file, $quality);
+
+      // Eliminar el archivo original
+      unlink($uploaded_file);
+
+      // Actualizar la información del archivo
+      $file['file'] = $webp_file;
+      $file['url'] = wp_get_attachment_url($file['id']);
+    }
+
+    return $file;
+  }
+
+  function remove_exif_data($file)
+  {
+    $image = imagecreatefromjpeg($file);
+    if ($image !== false) {
+      // Save the image without EXIF data
+      imagejpeg($image, $file, 100);
+      imagedestroy($image);
+    }
+    return $file;
+  }

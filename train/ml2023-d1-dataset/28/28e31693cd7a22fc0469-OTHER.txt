@@ -1,0 +1,46 @@
+
+Native Memory Tracking:
+
+Total: reserved=8505MB +427MB, committed=5481MB +475MB
+
+-                 Java Heap (reserved=5554MB, committed=3743MB)
+                            (mmap: reserved=5554MB, committed=3743MB)
+
+-                     Class (reserved=1220MB +54MB, committed=221MB +63MB)
+                            (classes #34064 +8776)
+                            (malloc=6MB +2MB #83335 +35190)
+                            (mmap: reserved=1214MB +52MB, committed=215MB +60MB)
+
+-                    Thread (reserved=393MB +37MB, committed=393MB +37MB)
+                            (thread #390 +37)
+                            (stack: reserved=391MB +37MB, committed=391MB +37MB)
+                            (malloc=1MB #1970 +185)
+                            (arena=1MB #779 +74)
+
+-                      Code (reserved=265MB +8MB, committed=129MB +48MB)
+                            (malloc=21MB +8MB #30954 +11754)
+                            (mmap: reserved=244MB, committed=108MB +40MB)
+
+-                        GC (reserved=299MB +8MB, committed=231MB +8MB)
+                            (malloc=60MB +8MB #113255 +59858)
+                            (mmap: reserved=238MB, committed=171MB)
+
+-                  Compiler (reserved=1MB, committed=1MB)
+                            (malloc=1MB #1231 +295)
+
+-                  Internal (reserved=716MB +312MB, committed=716MB +312MB)
+                            (malloc=716MB +312MB #110419 +56157)
+
+-                    Symbol (reserved=36MB +5MB, committed=36MB +5MB)
+                            (malloc=32MB +4MB #352592 +48686)
+                            (arena=4MB #1)
+
+-    Native Memory Tracking (reserved=11MB +3MB, committed=11MB +3MB)
+                            (tracking overhead=11MB +3MB)
+
+-               Arena Chunk (reserved=0MB -1MB, committed=0MB -1MB)
+                            (malloc=0MB -1MB)
+
+-                   Unknown (reserved=11MB, committed=0MB)
+                            (mmap: reserved=11MB, committed=0MB)
+

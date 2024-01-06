@@ -1,0 +1,2 @@
+if Somni().wake_up:
+    print("Hello world!")

@@ -1,0 +1,16 @@
+shell pm uninstall --user 0 com.xiaomi.midrop
+Failure [-1000]
+
+shell pm uninstall com.xiaomi.midrop
+Failure [-1000]
+
+[Error]:failed to uninstall:com.xiaomi.midrop:?
+
+shell pm uninstall --user 0 com.android.soundrecorder
+Failure [-1000]
+
+shell pm uninstall com.android.soundrecorder
+Failure [-1000]
+
+[Error]:failed to uninstall:com.android.soundrecorder:?
+

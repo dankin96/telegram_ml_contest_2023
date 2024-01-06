@@ -1,0 +1,2 @@
+yes|pac -Sy mesa-tkg-git lib32-mesa-tkg-git 
+lwrap /путь/к/FactoryGame.exe

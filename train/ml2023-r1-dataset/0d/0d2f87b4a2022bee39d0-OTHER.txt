@@ -1,0 +1,6 @@
+Problem started at 18:21:28 on 2023.10.07
+Problem name: No SNMP data collection
+Host: Dover ISP Router
+Severity: Warning
+Operational data: Current state: not available (0)
+Original problem ID: 204166

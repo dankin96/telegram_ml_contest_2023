@@ -1,0 +1,6 @@
+enum FuzzyOption<T> {
+  Some(T),
+  ProbablyWith50Percent(T),
+  ProbablyWith25Percent(T),
+  SurelyNone
+}

@@ -1,0 +1,2 @@
+CONTOH : Jika kamu isi saldo sebesar Rp. 100.000, maka yang diterima user adalah 99.000
+

@@ -1,0 +1,31 @@
+{
+ "update_id": 935491869,
+ "message": {
+  "message_id": 8,
+  "from": {
+   "id": 928421566,
+   "is_bot": false,
+   "first_name": "­",
+   "username": "kr1tikk"
+  },
+  "chat": {
+   "id": -1001809733754,
+   "title": "TEST_GROUP_2",
+   "username": "test_group_2_123",
+   "type": "supergroup"
+  },
+  "date": 1697131329,
+  "left_chat_participant": {
+   "id": 1791821438,
+   "is_bot": false,
+   "first_name": "mushlord",
+   "username": "RIBUS_E"
+  },
+  "left_chat_member": {
+   "id": 1791821438,
+   "is_bot": false,
+   "first_name": "mushlord",
+   "username": "RIBUS_E"
+  }
+ }
+}

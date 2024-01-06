@@ -1,0 +1,1 @@
+ error handlers are registered, logging exception.

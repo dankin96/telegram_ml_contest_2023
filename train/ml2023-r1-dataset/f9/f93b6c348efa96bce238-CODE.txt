@@ -1,0 +1,2 @@
+const tenantMiddleware: Middleware<Request & { tenant?: string }> = ...;
+typeof app.use(tenantMiddleware);

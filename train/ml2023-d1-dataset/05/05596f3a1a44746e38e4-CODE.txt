@@ -1,0 +1,5 @@
+rust
+async fn send_hello<T>(sink: T) -> Result<()> {
+  sink.write_all(b"hello world").await?;
+  Ok(())
+}

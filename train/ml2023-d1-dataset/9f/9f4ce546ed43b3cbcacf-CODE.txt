@@ -1,0 +1,10 @@
+import javax.swing.JFrame;
+
+public class MyFrame {
+   public static void main(String[] args) {
+      JFrame frame = new JFrame("My Frame");
+      frame.setSize(400, 300); // Set the dimensions of the frame
+      frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Close the frame on exit
+      frame.setVisible(true); // Make the frame visible
+   }
+}

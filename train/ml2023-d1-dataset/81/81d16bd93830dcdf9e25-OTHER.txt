@@ -1,0 +1,8 @@
+[окт13 02:36] pcmcia_socket pcmcia_socket0: pccard: PCMCIA card inserted into slot 0
+[  +0,000019] pcmcia_socket pcmcia_socket0: cs: memory probe 0x0d0000-0x0d3fff:
+[  +0,000858]  clean
+[  +0,000003] pcmcia_socket pcmcia_socket0: cs: memory probe 0x0dc000-0x0dffff:
+[  +0,000904]  clean
+[  +0,000004] pcmcia_socket pcmcia_socket0: cs: memory probe 0xf8200000-0xf99fffff:
+[  +0,005937]  excluding 0xf8f80000-0xf90fffff
+[  +0,002256] pcmcia 0.0: pcmcia: registering new device pcmcia0.0 (IRQ: 21)

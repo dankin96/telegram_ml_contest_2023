@@ -1,0 +1,5 @@
+HMACSHA256(
+  base64UrlEncode(заголовок/header) + "." +
+  base64UrlEncode(полезная инфа/payload),
+  наш-256-битный-секрет
+)

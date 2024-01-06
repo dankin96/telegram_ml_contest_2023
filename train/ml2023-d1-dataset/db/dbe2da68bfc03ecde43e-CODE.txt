@@ -1,0 +1,3 @@
+RUN addgroup --gid $USER_GID -S $USERNAME  \
+    && adduser -uid $USER_UID -S $USERNAME -G $USERNAME
+USER $USER_UID:$USER_GID

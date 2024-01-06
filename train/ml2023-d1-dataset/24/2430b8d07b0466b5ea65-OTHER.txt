@@ -1,0 +1,8 @@
+@SangMata_beta_bot setconfig
+Tracking: True
+PrivateMode: False
+SilentMode: True
+KickBots: False
+KickAll: False
+Cleaner: False
+Language: en-us

@@ -1,0 +1,7 @@
+🍂࿔ Format
+☆𝆬 ִ ֗  nama + usn     ::
+☆𝆬 ִ ֗  order brpa subs :: 
+☆𝆬 ִ ֗  subs awal ::
+☆𝆬 ִ ֗  subs akhir :: 
+☆𝆬 ִ ֗  id ch ::
+☆𝆬 ִ ֗  payment :: dana / cnit / nokos

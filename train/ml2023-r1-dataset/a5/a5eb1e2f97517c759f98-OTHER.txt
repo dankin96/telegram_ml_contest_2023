@@ -1,0 +1,6 @@
+2023-07-10 16:33:50 /esp8266/2462198-1458270/dstmp69_onError/status {"status":"00 20 20  E   Sensor Ds18b20  Error"}
+2023-07-10 16:34:05 /esp8266/2462198-1458270/dstmp69_onError/status {"status":"00 20 35  E   Sensor Ds18b20  Error"}
+2023-07-10 16:34:20 /esp8266/2462198-1458270/dstmp69_onError/status {"status":"00 20 50  E   Sensor Ds18b20  Error"}
+2023-07-10 16:34:35 /esp8266/2462198-1458270/dstmp69_onError/status {"status":"00 21 05  E   Sensor Ds18b20  Error"}
+
+

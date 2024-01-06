@@ -1,0 +1,9 @@
+public function dispatchExpired(): self
+    {
+        $duration = $this->section->duration;
+        $later = now()->addMinutes($duration)->addSeconds(config('exam.delay'));
+
+        AssessmentExpirationJob::dispatch($this, $later)->delay($later);
+
+        return $this;
+    }

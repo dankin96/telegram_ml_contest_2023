@@ -1,0 +1,7 @@
+function aboba() { // aboba(): void
+    return
+    a + b
+}
+function aboba() { // aboba(): number
+    return a + b
+}

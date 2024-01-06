@@ -1,0 +1,4 @@
+Market      | TRX/INR
+--------    | --------
+Last Traded | 7.6499
+24hr change | + 1.51% ⬆️

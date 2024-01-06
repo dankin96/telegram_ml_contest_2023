@@ -1,0 +1,2 @@
+   dpkg -s libeigen3-dev | grep Version
+   

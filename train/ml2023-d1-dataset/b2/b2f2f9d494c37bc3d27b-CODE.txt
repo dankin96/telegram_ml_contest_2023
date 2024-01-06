@@ -1,0 +1,11 @@
+URL: https://profes.uz/api/
+
+Delete - GET:  {URL}/catsdel/{id}
+
+All - GET: {URL}/catsapi
+
+Add - POST {URL}/catsadd
+data: {"name": string, "descript": string}
+
+Add - POST {URL}/catsupd/{id}
+data: {"name": string, "descript": string}

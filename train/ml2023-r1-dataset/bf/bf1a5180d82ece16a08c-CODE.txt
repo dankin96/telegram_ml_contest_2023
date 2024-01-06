@@ -1,0 +1,1 @@
+mysqli_query($conn, "select * from clients");

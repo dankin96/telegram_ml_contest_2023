@@ -1,0 +1,4 @@
+  GPIOA->MODER |= 0x28980f;
+  GPIOA->OSPEEDR |= 0x14fc00;
+  GPIOA->PUPDR |= 0x1402a0;
+  GPIOA->AFR[1] |= 0x440;

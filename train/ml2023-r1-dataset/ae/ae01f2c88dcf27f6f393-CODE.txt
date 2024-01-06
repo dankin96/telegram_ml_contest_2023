@@ -1,0 +1,1 @@
+ thais.filter(solidary.canJoin, solidary);

@@ -1,0 +1,32 @@
+Exchange BTCUSDT 1h Binance
+Price:27,933.09|27,971.25|28,042.37
+Vol:       874|   1,009|   2,180
+ATR: 190.2613
+
+✅OBV:   9.1 K|  10.0 K|  11.0 K
+⚪RSI:   57.70|   59.55|   63.06
+⚪MFI:   79.38|   82.47|   85.90
+⚪CCI:   42.91|   84.65|  122.14
+❌WR%:  -86.70|  -75.58|  -49.94
+❌ADX:   17.61|   17.34|   16.19
+
+⚪MOM: No Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+❌PSAR: Bearish
+
+Support And Resistance
+S: $27,252.990
+R: $28,042.370
+
+Volatility is very high
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+🐻Volume: Bearish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

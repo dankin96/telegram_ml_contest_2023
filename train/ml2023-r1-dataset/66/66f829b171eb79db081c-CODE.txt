@@ -1,0 +1,7 @@
+includeFromModules(
+  ":paper:mojangapi",
+  ":paper:log4j-plugin",
+  ":bukkit:api",
+  ":minecraft:server",
+)
+

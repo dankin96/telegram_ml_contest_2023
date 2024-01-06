@@ -1,0 +1,4 @@
+(missioncenter:2680): MissionCenter::GPUInfo-CRITICAL **: 22:07:54.513: Failed to get Vulkan information: vkCreateInstance failed (-9)
+missioncenter: ../mission-center-v0.3.2/subprojects/nvtop-be47f8c560487efc6e6a419d59c69bfbdb819324/src/extract_gpuinfo.c:222: gpuinfo_populate_process_info: Assertion `device->processes[j].gpu_memory_percentage <= 100' failed.
+(missioncenter-gatherer:2701): Gatherer::Main-MESSAGE: 22:7:56.000: Main application has disconnected, shutting down
+Aborted (core dumped)

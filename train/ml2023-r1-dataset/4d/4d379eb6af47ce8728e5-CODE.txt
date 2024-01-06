@@ -1,0 +1,14 @@
+def do_something(fn):
+    print("am i executed?")
+    def wrapper():
+        print("or am i executed now?")
+        return "lulz"
+    return wrapper
+
+def fancy(fn):
+    print("lulz")
+    def wrapper():
+        print("who's first?")
+        return "asdasd"
+    return wrapper
+

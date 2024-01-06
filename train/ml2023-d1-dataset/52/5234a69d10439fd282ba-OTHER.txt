@@ -1,0 +1,2 @@
+ArgumentException: System.ArgumentException: System.String Unity.Entities.EntityComponentStore::AppendRemovedComponentRecordError(Unity.Entities.Entity,Unity.Entities.ComponentType)
+This Exception was thrown from a function compiled with Burst, which has limited exception support.

@@ -1,0 +1,24 @@
++----------------------------+------------+------------+
+|        Games Profit        | 2023-10-12 | 2023-10-11 |
++----------------------------+------------+------------+
+| Galaxy Attack: Shoot (and) |   4803.4   |  5920.08   |
+| Pop's World - Runnin (and) |  3951.23   |  1800.52   |
+| Rainbow Grimaze: Hid (and) |  1132.61   |   648.12   |
+| Monster Transformer: (and) |   919.02   |   666.24   |
+| Banana Survival Mast (and) |   908.37   |   166.8    |
+| Pop's World - Runnin (ios) |   885.62   |   402.28   |
+| Screw Master: Pin Pu (and) |   845.7    |  -1820.76  |
+| Extreme Car Sounds S (and) |   753.38   |  -404.65   |
+|     Yoga Workout (ios)     |   695.86   |   284.54   |
+| Fish Story: Save the (and) |   644.57   |   217.99   |
+|     Yoga Workout (and)     |   637.08   |   144.64   |
+| Famous Fashion - Dre (and) |   582.56   |   -34.33   |
+| Mask Mixture: ASMR M (and) |   530.5    |   275.55   |
+| Toilet Prank Call &  (and) |   527.92   |   454.74   |
+| Draw Fun: One Part M (ios) |   525.31   |   215.93   |
+| Celebrity Prank Call (and) |   512.01   |   160.74   |
+| Craft School: Monste (and) |   479.41   |   229.05   |
+| Chat Master: Prank S (and) |   477.0    |   216.26   |
+| Cat Life: Pet Simula (and) |   438.54   |   324.57   |
+| Fashion Show - Catwa (and) |   435.33   |   371.58   |
++----------------------------+------------+------------+

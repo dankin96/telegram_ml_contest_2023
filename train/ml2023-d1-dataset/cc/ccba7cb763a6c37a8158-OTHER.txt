@@ -1,0 +1,2 @@
+vless://10a1d008-d8cd-4ff8-b550-23ab433755f3@worker-white-surf-ae8f.rigise5632.workers.dev:443?path=%2F%3Fed%3D2048&security=tls&encryption=none&host=worker-white-surf-ae8f.rigise5632.workers.dev&fp=chrome&type=ws&sni=worker-white-surf-ae8f.rigise5632.workers.dev#%F0%9F%92%99VIVAIran
+

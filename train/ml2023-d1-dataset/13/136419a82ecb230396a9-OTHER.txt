@@ -1,0 +1,1 @@
+Oct 10 03:50:56 vmi1216466 sshd[3617261]: banner exchange: Connection from 103.147.185.19 port 50168: invalid format

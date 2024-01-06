@@ -1,0 +1,30 @@
+Current changes:
+- Unify terminology, import from RFC9234 and the ASPA draft;
+  Expand definitions.
+- Use peer only in the AS relationship context; Add mutual-upstream 
+  relation.
+- Add note on the (hypothetical) PMTUD attack.
+- Clarify that IXPs decide whether their IXP LAN(s) should be 
+  advertised; Removed IXP example in the Appendix.
+- Noted additional IXP Lan cases (upstream via etc.) and next-hop 
+  filtering
+- Split between dynamic (IRR and down) and (semi) static filter 
+  (bogons etc.) sources
+- Add ASPA and BGP roles/OTC
+- Note use of community-based filtering, also discussing leak-potential
+  of static filters being used.
+- Add large-communities/scrubbing
+- Describe Rulesets more explicitly and in terms of ideal order for 
+  more relationships
+- Emphasize outbound filtering
+- Suggest iBGP filtering (this may be a bridge too far)
+- Add MAY for scrubbing of attributes
+- Add note on ASPATH max-length filtering
+- Reference RFC9319
+- Add max-prefix limits and global limits
+- Add considerations for filter implementation and generation/runtime
+
+Todo:
+- Unify terminology around route/prefix/NLRI, which is currently a bit
+  mixed up.
+- Add note on origin from RFC7454

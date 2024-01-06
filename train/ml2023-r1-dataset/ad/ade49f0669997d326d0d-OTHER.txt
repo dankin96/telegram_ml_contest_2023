@@ -1,0 +1,12 @@
+
+
+2023-10-09T06:36:28 에 HTTP 4xx 응답 발생 
+ * URL : http://saram.in/s/RYi41wJ26Vhttp://saram.in/s/ciKb8yg2wS (get)  
+ * 서버 : shorturl-api-1 
+ * UserAgent Name : FacebookBot, 
+ * UserAgent OS/Device : <MISSING VALUE> (Spider), 
+ * Referrer : [''], 
+ * ResponseLocation : <MISSING VALUE>, 
+ * Full UserAgent : facebookexternalhit/1.1; kakaotalk-scrap/1.0; +https://devtalk.kakao.com/t/scrap/33984 
+ 생성자 : <MISSING VALUE> 
+ 생성일 : <MISSING VALUE>

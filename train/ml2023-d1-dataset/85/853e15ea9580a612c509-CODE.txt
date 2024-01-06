@@ -1,0 +1,12 @@
+export const FilterSlice = createSlice({
+  name: 'filterValues',
+  initialState,
+  reducers: {
+    changeFilterValues: (state, { payload }: PayloadAction<Record<string, string | number>>) => {
+      if (Object.keys(payload)[0] === FilterNames.Page) return { ...state, ...payload };
+      return { ...state, ...payload, [FilterNames.Page]: 0 };
+// dispatch(clearItems())
+    },
+  },
+});
+

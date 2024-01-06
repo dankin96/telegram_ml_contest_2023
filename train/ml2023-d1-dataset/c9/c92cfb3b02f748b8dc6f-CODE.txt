@@ -1,0 +1,1 @@
+embed = disnake.Embed(title=..., description=..., color=0xffffff)

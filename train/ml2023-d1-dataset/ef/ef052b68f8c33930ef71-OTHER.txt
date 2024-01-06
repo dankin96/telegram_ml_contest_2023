@@ -1,0 +1,63 @@
+ 
+Epoch 1869 Network Statistics
+
+KLV (0.00323 USDT) CMC #520
+Circulating       Unit in KLV
+Current         9,084,218,418
+Last epoch      9,084,066,931
+Burned                 10,813
+Difference            151,487
+
+Exchange          Unit in KLV
+Volume IN             427,406
+Volume OUT            766,881
+
+Tot.staked      3,968,380,686
+Difference          1,395,500
+███▓░░░░░ 44% staked
+
+T.delegate      3,134,977,029
+Difference            520,460
+███████▒░ 79% delegated
+
+MarketCap           Unit in $
+Last epoch         29,314,284
+Current            29,342,025
+Difference            +27,742
+
+KFI (1.41778 USDT)                
+Staked            Unit in KFI
+Total               1,770,686
+Difference                441
+▓░░░░░░░░  8% staked
+KLVperKFI         0.00045 KLV
+
+Validators                159
+   Waiting                  4
+    Jailed                 12
+  Inactive                 21
+
+  kApp Fee          796.5 KLV
+Bandw. Fee        1,119.3 KLV
+Burned Fee          559.6 KLV
+
+Volume KLV     51,899,736 KLV
+Volume KFI            442 KFI
+Act.Accounts              219
+Most Active    Pandemic Games
+  TX Active               268
+
+TX Total                1,030
+Max tx count                5
+ at Nonce          10,065,314
+
+Type of Transactions (Most 5)
+Transfer                  589
+Claim                     188
+Buy                        86
+Delegate                   52
+Freeze                     46
+
+KleverTip
+new user             7/20,097
+txs                 10/21,680

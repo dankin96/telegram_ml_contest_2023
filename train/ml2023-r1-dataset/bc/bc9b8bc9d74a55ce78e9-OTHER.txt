@@ -1,0 +1,6 @@
+        Pair    Price  Funding
+FOOTBALLUSDT 360.9131   0.0513
+     BNBBUSD 212.8945   0.0229
+     CVCUSDT   0.0783   0.0100
+     XRPBUSD   0.5223   0.0100
+   CYBERUSDT   4.9311   0.0100

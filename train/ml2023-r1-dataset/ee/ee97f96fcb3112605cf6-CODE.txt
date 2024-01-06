@@ -1,0 +1,21 @@
+python
+# Open the input file
+with open('input.txt', 'r') as file:
+    # Read each line in the file
+    for line in file:
+        # Split the line by the pipe delimiter
+        filenames = line.strip().split('|')
+        # Create a dictionary to store unique filenames without extensions
+        unique_names = {}
+        
+        # Iterate through the filenames
+        for filename in filenames:
+            # Extract the filename without extension
+            name_without_extension = filename.split('.')[0]
+            # Check if the name is already in the dictionary
+            if name_without_extension not in unique_names:
+                # If not, add it to the dictionary
+                unique_names[name_without_extension] = filename
+        
+        # Print the unique filenames as a pipe-separated string
+        print('|'.join(unique_names.values()))

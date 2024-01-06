@@ -1,0 +1,1 @@
+Cannot mix incompatible Qt library (5.15.8) with this library (5.15.10)

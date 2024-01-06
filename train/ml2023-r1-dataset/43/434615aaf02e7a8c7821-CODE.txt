@@ -1,0 +1,4 @@
+val a = 1 // 这里确定a为整型 Int还是Long需要后续分析
+fun foo(num: Long) {}
+foo(a) //确定a为Long类型
+

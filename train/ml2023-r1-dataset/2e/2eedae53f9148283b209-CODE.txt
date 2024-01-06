@@ -1,0 +1,2 @@
+export default boot (async ({ store, router }) => {
+  console.log(router)

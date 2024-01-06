@@ -1,0 +1,9 @@
+     Market|CRYPTO           
+   TRU (15)|🔴❌             
+   Trade No|1                
+    Concept|Bearish Flip Zone
+Profit/Loss|-2009.32USDT     
+         SL|0.03503          
+    Balance|97990.68USDT     
+   Win Rate|0%               
+   Duration|1 day, 6:35:12   

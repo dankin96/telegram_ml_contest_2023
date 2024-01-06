@@ -1,0 +1,34 @@
+ps1
+# Install the WebSocket module if not already installed
+if (-not (Get-Module -ListAvailable -Name YourModule)) {
+    Install-Module -Name YourModule -Force
+}
+
+# Import the WebSocket module
+Import-Module YourModule
+
+# Connect to the secure WebSocket server
+$WebSocket = Connect-WebSocket -Uri "wss://gateway.discord.gg:3000"
+
+# Send a message to the server
+Send-WebSocketMessage -WebSocket $WebSocket -Message "Hello, server!"
+
+# Receive messages from the server
+$WebSocket.OnMessage = {
+    param(
+        [Object]$Sender,
+        [EventArgs]$E
+    )
+    $Message = $E.Message
+    Write-Host "Received: $Message"
+}
+
+# Keep the script running to maintain the WebSocket connection
+try {
+    while ($true) {
+        Start-Sleep -Seconds 1
+    }
+} finally {
+    # Clean up and close the WebSocket connection when done
+    Disconnect-WebSocket -WebSocket $WebSocket
+}

@@ -1,0 +1,119 @@
+"use client";
+import Link from "next/link";
+import { CardBody } from "reactstrap";
+import { Card } from "reactstrap";
+import { showRightSidebarAction, toggleLeftmenu } from "../../store/actions";
+import { connect } from "react-redux";
+import MoreAction from "../MoreAction";
+type FoldersProps = {
+  id: number;
+  name: string;
+  slug: string;
+  createdAtDuration: string;
+  created_at: string;
+  root: boolean;
+  prevParams: any;
+  filesCount: number;
+  showRightSidebar: any;
+  showRightSidebarAction: any;
+  shareWithMe: string;
+  pathname: string;
+};
+
+function Folders({
+  id,
+  name,
+  slug,
+  prevParams,
+  root,
+  createdAtDuration,
+  filesCount,
+  showRightSidebar,
+  showRightSidebarAction,
+  shareWithMe,
+  pathname,
+}: FoldersProps) {
+  return (
+    <>
+      <Card className="bg-white">
+        <CardBody className="p-3">
+          <div className="">
+            <div className="d-flex justify-content-between align-items-center">
+              <Link
+                href={
+                  shareWithMe === "share-with-me"
+                    ? root
+                      ? `/tou/share-with-me/${slug}`
+                      : `/tou/share-with-me/${prevParams.join("/")}/${slug}`
+                    : root
+                    ? `/tou/drives/${slug}`
+                    : `/tou/drives/${prevParams.join("/")}/${slug}`
+                }
+                className="text-body"
+              >
+                <div>
+                  <i className="bx bxs-folder h1 mb-0 text-warning"></i>
+                </div>
+              </Link>
+              <div className="avatar-group">
+                <div className="avatar-group-item">
+                  <MoreAction
+                    showRightSidebar={showRightSidebar}
+                    showRightSidebarAction={showRightSidebarAction}
+                    space_id={id}
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="d-flex">
+              <div className="overflow-hidden me-auto">
+                <h5 className="font-size-15 text-truncate mb-1">
+                  <Link
+                    href={
+                      shareWithMe === "share-with-me"
+                        ? root
+                          ? `/tou/share-with-me/${slug}`
+                          : `/tou/share-with-me/${prevParams.join("/")}/${slug}`
+                        : root
+                        ? `/tou/drives/${slug}`
+                        : `/tou/drives/${prevParams.join("/")}/${slug}`
+                    }
+                    className="text-body"
+                  >
+                    {name}
+                  </Link>
+                </h5>
+                <Link
+                  href={
+                    shareWithMe === "share-with-me"
+                      ? root
+                        ? `/tou/share-with-me/${slug}`
+                        : `/tou/share-with-me/${prevParams.join("/")}/${slug}`
+                      : root
+                      ? `/tou/drives/${slug}`
+                      : `/tou/drives/${prevParams.join("/")}/${slug}`
+                  }
+                  className="text-body"
+                >
+                  <p
+                    className="text-muted text-truncate mb-0"
+                    style={{ fontSize: 12 }}
+                  >
+                    {filesCount}
+                  </p>
+                </Link>
+              </div>
+              <div className="align-self-end mt-2">
+                <Link
+                  href={
+                    shareWithMe === "share-with-me"
+                      ? root
+                        ? `/tou/share-with-me/${slug}`
+                        : `/tou/share-with-me/${prevParams.join("/")}/${slug}`
+                      : root
+                      ? `/tou/drives/${slug}`
+                      : `/tou/drives/${prevParams.join("/")}/${slug}`
+                  }
+                  className="text-body"
+                >
+                  <p className="text-muted mb-0" style

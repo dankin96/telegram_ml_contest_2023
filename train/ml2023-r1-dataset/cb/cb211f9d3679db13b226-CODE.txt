@@ -1,0 +1,19 @@
+
+interface BloatUserDAO
+{
+ public function get($username);
+ 
+ public function create(User $user);
+ 
+ public function update(User $user);
+ 
+ public function delete($username);
+ 
+ public function getUserByLastName($lastName);
+ 
+ public function getUserByEmail($email);
+ 
+ public function updateEmailAddress($username, $email);
+ 
+ public function updateLastName($username, $lastName);
+}

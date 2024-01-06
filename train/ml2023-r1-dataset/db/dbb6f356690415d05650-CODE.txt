@@ -1,0 +1,19 @@
+-- believes this kills all mobs
+for i,v in pairs(workspace:GetChildren()) do
+if v.Name ~= game.Players.LocalPlayer.Name and v:FindFirstChild("Humanoid") then
+v:FindFirstChild("Humanoid").Health = 0
+end
+end
+getgenv().Cummy = true
+while getgenv().Cummy and task.wait() do
+for i,v in pairs(workspace.Coins:GetChildren()) do
+pcall(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.CFrame
+end)
+end
+if print(#workspace.Coins:GetChildren()) == 0 then
+pcall(function()
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(6.41760635, -5.3635416, -30.2809219, 1, 0, 0, 0, 1, 0, 0, 0, 1)
+end)
+end
+end

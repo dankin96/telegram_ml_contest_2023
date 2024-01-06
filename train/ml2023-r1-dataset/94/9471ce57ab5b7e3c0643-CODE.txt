@@ -1,0 +1,19 @@
+export class RegisterEffect {
+  register$ = createEffect(() => {
+    return this.actions$.pipe(
+      ofType(registerAction),
+      switchMap(({request}) => {
+        // логіка 
+      }),
+  })
+  registerSuccess = createEffect(
+    () =>
+      this.actions$.pipe(
+        ofType(registerSuccessAction),
+        tap(() => {
+          // логіка
+        })
+      ),
+    {dispatch: false},
+} 
+

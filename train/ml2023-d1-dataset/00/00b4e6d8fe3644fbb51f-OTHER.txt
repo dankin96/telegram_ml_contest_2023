@@ -1,0 +1,7 @@
+Format             : HEVC
+Codec ID           : hvc1
+Codec ID/Info      : High Efficiency Video Coding
+Color space        : YUV
+Chroma subsampling : 4:2:0
+Bit depth          : 10 bits
+Color primaries    : BT.2020

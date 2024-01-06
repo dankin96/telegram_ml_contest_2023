@@ -1,0 +1,4 @@
+[rob@halftab ~]$ xrandr
+Screen 0: minimum 320 x 200, current 1280 x 800, maximum 4096 x 4096
+LVDS-1 connected primary 1280x800+0+0 right (normal left inverted right x axis y axis) 0mm x 0mm
+   800x1280      58.63*+

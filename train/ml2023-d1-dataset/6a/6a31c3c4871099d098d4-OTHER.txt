@@ -1,0 +1,5 @@
+PROBLEM: Plusofon-Router balance less than 50000
+Host: php-didapi 10.10.80.42 - time 17:10:18
+Trigger: Plusofon-Router balance less than 50000
+Trigger status: PROBLEM
+Trigger severity: Disaster

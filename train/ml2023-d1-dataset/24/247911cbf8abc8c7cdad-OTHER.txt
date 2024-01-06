@@ -1,0 +1,3 @@
+
+Batteries included
+Authentication, asset management, CORS, database ORM, and more can all be included when creating a new Lucky project

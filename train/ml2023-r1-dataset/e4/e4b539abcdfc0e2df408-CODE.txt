@@ -1,0 +1,29 @@
+&LTtemplate>
+  &LTdiv v-if="loading">Loading...&LT/div>
+  &LTdiv v-else-if="error">{{ error.message }}&LT/div>
+  &LTspan v-else>responseData: {{ data }}&LT/span>
+&LT/template>
+
+&LTscript setup>
+import { createAlova, useRequest } from 'alova';
+import VueHook from 'alova/vue';
+import { axiosRequestAdapter } from '@alova/adapter-axios';
+
+const alovaInstance = createAlova({
+  statesHook: VueHook,
+
+  // 设置使用 axios 作为请求工具
+  requestAdapter: axiosRequestAdapter()
+});
+
+const {
+  // 加载状态
+  loading,
+
+  // 响应数据
+  data,
+
+  // 错误信息，请求错误时才有值
+  error
+} = useRequest(alovaInstance.Get('/todoList'));
+&LT/script>

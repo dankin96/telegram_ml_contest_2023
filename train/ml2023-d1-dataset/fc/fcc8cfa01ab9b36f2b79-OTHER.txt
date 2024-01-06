@@ -1,0 +1,9 @@
+👀 SPAM Score detected:
+###
+https://t.me/humansforisrael/
+Зайди и посмотри кого ты поддерживаешь
+###
+
+Reason: Наличие ссылок
+Action: deleteMessage
+Bot response: Successful ✅

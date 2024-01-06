@@ -1,0 +1,12 @@
+Area => TRD-STW
+Event Type => HEALTH-OK
+Label => START
+Long Message => [key = BBG, alert = false, description = 
+key = ION, alert = false, description = 
+key = ION-OTC, alert = false, description = 
+key = Microservice, alert = false, description = 
+key = Engine, alert = false, description = 
+key = MHUB-FIX, alert = false, description = 
+key = MQ, alert = false, description = 
+key = DB, alert = false, description = ]
+Short Message => [All components are ok]

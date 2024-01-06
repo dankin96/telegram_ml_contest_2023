@@ -1,0 +1,3 @@
+$reflection = TyphoonReflector::build()
+            ->reflectClass($phpReflection->getDeclaringClass()->getName())
+            ->getProperty($phpReflection->getName());

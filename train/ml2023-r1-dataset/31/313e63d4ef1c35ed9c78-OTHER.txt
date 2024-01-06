@@ -1,0 +1,3 @@
+scheme@(guile-user)> (string-ref "" -1)
+ice-9/boot-9.scm:1685:16: In procedure raise-exception:
+Value out of range 0 to< 18446744073709551615: -1

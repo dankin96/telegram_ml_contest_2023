@@ -1,0 +1,2 @@
+
+void mythread_detach(mythread_t *t) { t->joined = false; } 

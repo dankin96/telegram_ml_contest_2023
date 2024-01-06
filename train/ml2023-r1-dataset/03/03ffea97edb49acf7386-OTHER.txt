@@ -1,0 +1,12 @@
+peanut3  | [1] 2023/10/08 21:51:20.190323 [INF] Cluster name is peanut
+peanut3  | [1] 2023/10/08 21:51:20.190458 [INF] Listening for route connections on 0.0.0.0:6222
+peanut3  | [1] 2023/10/08 21:51:20.191085 [INF] 85.xx.xx.xx:62221 - rid:5 - Route connection created
+peanut3  | [1] 2023/10/08 21:51:20.191086 [INF] 85.xx.xx.xx:62221 - rid:6 - Route connection created
+peanut1  | [1] 2023/10/08 21:51:20.191348 [INF] 172.19.0.1:33328 - rid:14 - Route connection created
+peanut1  | [1] 2023/10/08 21:51:20.191420 [INF] 172.19.0.1:33312 - rid:15 - Route connection created
+peanut2  | [1] 2023/10/08 21:51:20.192505 [ERR] Error trying to connect to route (attempt 1): dial tcp 172.19.0.1:6222: connect: connection refused
+peanut2  | [1] 2023/10/08 21:51:20.192673 [ERR] Error trying to connect to route (attempt 1): dial tcp 172.19.0.1:6222: connect: connection refused
+peanut3  | [1] 2023/10/08 21:51:20.290993 [INF] 85.xx.xx.xx:62221 - rid:7 - Route connection created
+peanut1  | [1] 2023/10/08 21:51:20.291630 [INF] 172.19.0.1:33332 - rid:16 - Route connection created
+peanut3  | [1] 2023/10/08 21:51:20.317266 [INF] 85.xx.xx.xx:62221 - rid:8 - Route connection created
+peanut1  | [1] 2023/10/08 21:51:20.317455 [INF] 172.19.0.1:33334 - rid:17 - Route connection created

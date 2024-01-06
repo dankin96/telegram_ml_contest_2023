@@ -1,0 +1,18 @@
+{
+  "success": 0,
+  "pair": "0xd2503f9c44574fc6a658e82891f9cdbeaffe77ca",
+  "contract": "0xc27ea4b0f1073f0b12dca3ed39d4b310bbd9a626",
+  "name": "SafeMeme",
+  "symbol": "SAFEMEME",
+  "decimals": 9,
+  "price": 0,
+  "price_human": 0,
+  "mc": 0,
+  "mc_human": 0,
+  "liquidity": 0,
+  "liquidity_human": 0,
+  "liquidity_in_usd": 0,
+  "native": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+  "native_decimals": 18,
+  "amounts_out": 0
+}

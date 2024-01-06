@@ -1,0 +1,3 @@
+python
+n = input('Введите список через пробел: ')
+n = [int(x) for x in n.split()]

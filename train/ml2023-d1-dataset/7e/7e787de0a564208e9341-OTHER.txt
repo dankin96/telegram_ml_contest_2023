@@ -1,0 +1,14 @@
+ll <- list(a = c(aa  =1, ab = 2, id = -1), 
+          b = c(ba = 3, bb = 4, id = 8), 
+          c = c(ca = 1)) 
+
+purrr::transpose(ll)$id
+#> $a
+#> [1] -1
+#> 
+#> $b
+#> [1] 8
+#> 
+#> $c
+#> NULL
+Created on 2023-10-12 with reprex v2.0.2

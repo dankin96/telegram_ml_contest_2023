@@ -1,0 +1,4 @@
+with open("prices.txt") as file:
+    lines = [line.split() for line in file.readlines()]
+    result = sum([int(count)*int(price) for _, count, price in lines])
+    print(result)

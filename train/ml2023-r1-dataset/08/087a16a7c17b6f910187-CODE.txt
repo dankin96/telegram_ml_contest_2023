@@ -1,0 +1,15 @@
+import logger from 'coolLogger';
+
+export interface Logger {
+    info:(...args[]): void;
+    warn(...args[]): void;
+    error(...args[]): void;
+}
+
+export const logger: Logger = {
+    info: (...args[]) => logger.coolLog(...args);
+    warn: (...args[]) => logger.coolWarn(...args);
+    error: (...args[]) => logger.coolError(...args);
+}
+
+

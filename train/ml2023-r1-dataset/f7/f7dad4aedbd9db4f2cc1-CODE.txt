@@ -1,0 +1,16 @@
+fn ask_user(name: &str) -> Result<String, String> {
+    print!("Enter {name}: ");
+
+    io::stdout()
+        .flush()
+        .map_err(|o| o.to_string())?;
+
+    let mut x = String::new();
+
+    io::stdin()
+        .read_line(&mut x)
+        .map_err(|o| o.to_string())?;
+
+    Ok(x.trim().to_string())
+}
+

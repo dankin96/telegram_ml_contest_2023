@@ -1,0 +1,3 @@
+
+surahNo : ayahNo
+1:3

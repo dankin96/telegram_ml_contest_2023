@@ -1,0 +1,10 @@
+       ==== SIGNAL UPDATE ====
+Symbol      #HK50 (PEPPERSTONE)
+Type        index
+Time Frame  15 minute
+Trend       Down Trend
+Signal      Strength turing Down
+Last Close  17233.1000
+E1          17252.8977
+E2          17327.1931
+Time        2023-10-05 15:00

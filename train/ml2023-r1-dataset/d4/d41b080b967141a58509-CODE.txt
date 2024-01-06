@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# 获取磁盘利用率
+disk_usage=$(df -h / | awk '{print $5}' | tail -n 1 | sed 's/%//')
+
+# 判断磁盘利用率是否超过阈值
+if [ $disk_usage -gt 90 ]; then
+  echo "磁盘利用率超过90%！"
+else
+  echo "磁盘利用率正常。"
+fi

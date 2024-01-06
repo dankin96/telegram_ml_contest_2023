@@ -1,0 +1,5 @@
+📌 5x manual ❎✅❎ DC ON
+📌 20x auto ❎✅✅ DC OFF
+📌 50x auto ❎✅❎ DC OFF
+📌 50x auto ✅✅❎ DC ON
+

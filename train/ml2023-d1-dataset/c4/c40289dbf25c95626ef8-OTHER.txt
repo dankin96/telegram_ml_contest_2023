@@ -1,0 +1,5 @@
+Token: MNTUSDT
+Price: $0.345
+24H High: $0.3529
+24H Low: $0.3448
+24H Volume: 46771448.72 MNT

@@ -1,0 +1,129 @@
+cpp
+#include <iostream>
+#include <map>
+using namespace std;
+
+// قاموس لتخزين سجل الطلاب
+map<string, int> students_record;
+
+void add_student() {
+    string student_name;
+    int student_grade;
+    
+    // طلب بيانات الطالب من المستخدم
+    cout << "اسم الطالب: ";
+    cin >> student_name;
+    cout << "درجة الطالب: ";
+    cin >> student_grade;
+    
+    // إضافة بيانات الطالب إلى سجل الطلاب
+    students_record[student_name] = student_grade;
+    cout << "تمت إضافة الطالب بنجاح." << endl;
+}
+
+void print_all_students() {
+    if (students_record.empty()) {
+        cout << "لا يوجد طلاب مسجلين حاليًا." << endl;
+    } else {
+        cout << "سجل الطلاب:" << endl;
+        for (auto it = students_record.begin(); it != students_record.end(); ++it) {
+            cout << "اسم الطالب: " << it->first << " - درجته: " << it->second << endl;
+        }
+    }
+}
+
+void search_student() {
+    string student_name;
+    cout << "اسم الطالب الذي ترغب في البحث عنه: ";
+    cin >> student_name;
+    
+    auto it = students_record.find(student_name);
+    if (it != students_record.end()) {
+        cout << "اسم الطالب: " << it->first << " - درجته: " << it->second << endl;
+    } else {
+        cout << "الطالب غير موجود في سجل الطلاب." << endl;
+    }
+}
+
+void find_highest_grade() {
+    if (students_record.empty()) {
+        cout << "لا يوجد طلاب مسجلين حاليًا." << endl;
+    } else {
+        int highest_grade = 0;
+        for (auto it = students_record.begin(); it != students_record.end(); ++it) {
+            if (it->second > highest_grade) {
+                highest_grade = it->second;
+            }
+        }
+        
+        cout << "أعلى درجة في سجل الطلاب: " << highest_grade << endl;
+        cout << "الطلاب الذين حصلوا على أعلى درجة:" << endl;
+        for (auto it = students_record.begin(); it != students_record.end(); ++it) {
+            if (it->second == highest_grade) {
+                cout << it->first << endl;
+            }
+        }
+    }
+}
+
+void sort_by_grade() {
+    if (students_record.empty()) {
+        cout << "لا يوجد طلاب مسجلين حاليًا." << endl;
+    } else {
+        // إنشاء قائمة مؤقتة لتخزين الطلاب وترتيبهم حسب الدرجة
+        vector<pair<string, int>> sorted_students(students_record.begin(), students_record.end());
+        
+        // ترتيب الطلاب حسب الدرجة باستخدام الفئات
+        sort(sorted_students.begin(), sorted_students.end(), [](const pair<string, int>& a, const pair<string, int>& b) {
+            return a.second > b.second;
+        });
+        
+        cout << "سجل الطلاب مرتبًا حسب الدرجة:" << endl;
+        for (const auto& student : sorted_students) {
+            cout << "اسم الطالب: " << student.first << " - درجته: " << student.second << endl;
+        }
+    }
+}
+
+int main() {
+    while (true) {
+        cout << "اختر العملية التي تود تنفيذها:" << endl;
+        cout << "1. الادخال" << endl;
+        cout << "2. طباعة الكل" << endl;
+        cout << "3. البحث" << endl;
+        cout<< "4. العثور على أعلى درجة" << endl;
+        cout << "5. الترتيب حسب الدرجة" << endl;
+        cout << "6. الخروج" << endl;
+
+        int choice;
+        cout << "اختر رقم العملية: ";
+        cin >> choice;
+
+        switch (choice) {
+            case 1:
+                add_student();
+                break;
+            case 2:
+                print_all_students();
+                break;
+            case 3:
+                search_student();
+                break;
+            case 4:
+                find_highest_grade();
+                break;
+            case 5:
+                sort_by_grade();
+                break;
+            case 6:
+                cout << "تم الخروج من البرنامج. شكرًا لك!" << endl;
+                return 0;
+            default:
+                cout << "رقم العملية غير صالح. يرجى المحاولة مرة أخرى." << endl;
+        }
+
+        cout << endl;
+    }
+
+    return 0;
+}

@@ -1,0 +1,4 @@
+Note :
+-Nomor tujuan = ID Driver sebagai nomor transaksi
+
+-Saldo langsung masuk ke akun Maxim Driver

@@ -1,0 +1,7 @@
+cs
+Awakening Lv55: 
+[Shine Edge Extend]
+
+When using "Shine Edge":
+ - Turns into 2 Hit Magic BRV + HP attack 9 times, and increases total BRV potency by a large amount
+ 

@@ -1,0 +1,71 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+
+class Solution {
+public:
+    bool chek(vector<vector<char>>& board, int i, int j, char number) {
+        
+        for (int y = 0; y < 9; y++) if (board[y].at(j) == number) return 0;//по игрику
+        for (int x = 0; x < 9; x++) if (board[i].at(x) == number) return 0;//по иксу
+
+        for (int y = 0; y < 3; y++) //квадрат
+            for (int x = 0; x < 3; x++) {
+                if (board[i - i % 3 + y].at(j - j % 3 + x) == number) return 0;
+            }
+        return 1;
+    }
+
+    bool Sudoku(vector<vector<char>>& board, int i, int j) {
+
+        //обычная проходка по x , y
+        if (i == 9) return true;
+        if (j == 9) return Sudoku(board, i + 1, 0);
+        if (board[i][j] != '.') return Sudoku(board, i, j + 1);
+
+        for(char ch = '1'; ch<='9';ch++) {
+
+            if (chek(board, i, j, ch)) 
+            {
+                board[i].at(j) = ch;
+                if (Sudoku(board, i , j+1)) return true;
+                board[i].at(j) = '.';
+            }
+        }
+        return 0;
+    }
+
+    void solveSudoku(vector<vector<char>>& board) {
+        Sudoku(board, 0, 0);
+    }
+
+    void Show(vector<vector<char>>& board) {
+        for (int y = 0; y < 9; y++) {
+            for (int x = 0; x < 9; x++) {
+                cout << board[y].at(x) << " ";
+            }
+            cout << "
+";
+        }
+    }
+};
+
+int main()
+{
+    Solution sol;
+    vector<vector<char>> board;
+    board.push_back({ '5', '3', '.', '.', '7', '.', '.', '.', '.' });
+    board.push_back({ '6', '.', '.', '1', '9', '5', '.', '.', '.' });
+    board.push_back({ '.', '9', '8', '.', '.', '.', '.', '6', '.' });
+    board.push_back({ '8', '.', '.', '.', '6', '.', '.', '.', '3' });
+    board.push_back({ '4', '.', '.', '8', '.', '3', '.', '.', '1' });
+    board.push_back({ '7', '.', '.', '.', '2', '.', '.', '.', '6' });
+    board.push_back({ '.', '6', '.', '.', '.', '.', '2', '8', '.' });
+    board.push_back({ '.', '.', '.', '4', '1', '9', '.', '.', '5' });
+    board.push_back({ '.', '.', '.', '.', '8', '.', '.', '7', '9' });
+    sol.solveSudoku(board);
+    sol.Show(board);
+    return 0;
+}

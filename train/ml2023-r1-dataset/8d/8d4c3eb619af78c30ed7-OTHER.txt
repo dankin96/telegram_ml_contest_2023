@@ -1,0 +1,3 @@
+condition:grade='B' and channel_status ='active' 
+ Number of commands:7587
+command type:#get_channel_post

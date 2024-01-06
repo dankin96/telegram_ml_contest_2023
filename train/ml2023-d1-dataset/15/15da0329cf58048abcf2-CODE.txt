@@ -1,0 +1,12 @@
+
+ c.ExcelFile.SetPanes(sheet.Name, &excelize.Panes{
+  Freeze:      true,
+  Split:       false,
+  XSplit:      0,
+  YSplit:      headerRow,
+  TopLeftCell: "A" + fmt.Sprintf("%d", headerRow+1),
+  ActivePane:  "bottomLeft",
+  // Panes: []excelize.PaneOptions{
+  //  {SQRef: "A" + fmt.Sprintf("%d", headerRow+1), ActiveCell: "A" + fmt.Sprintf("%d", headerRow+1), Pane: "bottomLeft"},
+  // },
+ })

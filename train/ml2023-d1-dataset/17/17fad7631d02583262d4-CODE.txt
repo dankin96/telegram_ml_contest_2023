@@ -1,0 +1,5 @@
+try {
+  0();
+} catch (error) {
+  console.log(typeof Object.getPrototypeOf(error));
+}

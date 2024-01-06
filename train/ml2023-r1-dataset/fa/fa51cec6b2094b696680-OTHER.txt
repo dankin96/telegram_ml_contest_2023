@@ -1,0 +1,2 @@
+trojan://MJ1uY6vu1h@tunel2.sadeghilion.sbs:28722?type=tcp&path=%2F&host=all%2Cfast.com&headerType=http&security=none#vaiking_vpn-m8hva411
+

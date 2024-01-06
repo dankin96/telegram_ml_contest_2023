@@ -1,0 +1,6 @@
+https://git.eltc.ru/stb/new_proto_launcher.git db229bcc 6.1.2-576
+6a16a23262a7bc596d2328a80dbd97b17ab3634d Global (1.47.0-247-g6a16a23)
+ fcfb89b4c165beb039d104f4e4062fabea1a85df base-player (1.93.0-183-gfcfb89b)
+ 0894d4c96cb07d6d67a09a74510cd314149c6d6d btv_core (1.3.4-174-g0894d4c)
+ ba710ccd4f15cbe71b3b880d17d788477ec2bb8b goodflix_common (1.6.1-692-gba710ccd)
+ b2507435f3311f62b81af78128a4e9f504ec583e goodflix_side_menu (1.5.4-62-gb250743)

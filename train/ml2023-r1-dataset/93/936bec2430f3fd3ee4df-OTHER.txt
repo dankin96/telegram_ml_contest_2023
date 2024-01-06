@@ -1,0 +1,5 @@
+Then the user will need to open a Mac terminal and type "which python3" without quotes. This will output the python3 path. In my case: /Library/Frameworks/Python.framework/Versions/3.9/bin/python3
+
+This path will then need to be copied into the post processing section of PrusaSlicer, followed by a space, then the path to the python script. My output looks like this:
+
+/Library/Frameworks/Python.framework/Versions/3.9/bin/python3 /Users/scott/Desktop/GCodePreview/PrusaSlicer_JPEG_Preview.py;

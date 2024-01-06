@@ -1,0 +1,11 @@
+Tiempo del centro de México
+   Fecha:  2023-10-08   hora:  05:13:38
+   Fecha:  2023-10-08
+   Hora:  05:13:38
+   Magnitud:  4.9
+   Epicentro
+   Latitud, longitud:  16.32°, -95.15°
+   Latitud:  16.32°
+   Longitud:  -95.15°
+   Localización:  8 km al ESTE de  S BLAS ATEMPA, OAXACA
+   Profundidad:  16.1 km

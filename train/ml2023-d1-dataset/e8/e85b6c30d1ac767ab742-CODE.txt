@@ -1,0 +1,36 @@
+ 
+institute.py 
+----------- 
+...... 
+from .program import Program 
+..... 
+ 
+faculties_programs = Table( 
+    "faculties_programs", 
+    Column("faculties", ForeignKey("faculties.id"), primary_key=True), 
+    Column("programs", ForeignKey("programs.id"), primary_key=True), 
+) 
+ 
+class Faculty(Base): 
+    __tablename__ = "faculties" 
+    name: Mapped[str] 
+    institute: Mapped["Institute"] = relationship( 
+        secondary=institutes_faculties, back_populates="faculties" 
+    ) 
+    programs: Mapped[list["Program"]] = relationship(secondary=faculties_programs, back_populates="faculties") 
+ 
+ 
+program.py 
+------------------ 
+.... 
+from .institute import Faculty, faculties_programs 
+ 
+class Program(Base): 
+ __tablename__ = "programs" 
+    name: Mapped[str] 
+    faculties: Mapped[list["Faculty"]] = relationship(secondary=faculties_programs, back_populates="programs") 
+...
+ 
+File "program.py", line 5, in <module> 
+    from .institute import Faculty, faculties_programs 
+ImportError: cannot import name 'Faculty' from partially initialized module 'abitur.core.models.institute' (most likely due to a circular import) (institute.py)

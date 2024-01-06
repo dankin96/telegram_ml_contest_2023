@@ -1,0 +1,1 @@
+nvidia-smi -ac 1800,{{mempadai_max_bound}}

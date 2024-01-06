@@ -1,0 +1,4 @@
+- name: madrid moving average ribbon
+- info: crossing mma90
+- ohlc: 27634.8-27638.9-27610.7-27610.7
+- volume: 193.987

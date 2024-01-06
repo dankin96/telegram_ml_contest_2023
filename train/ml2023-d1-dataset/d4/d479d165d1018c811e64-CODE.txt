@@ -1,0 +1,17 @@
+{
+    "dedupeOn":"externalCustomerId",
+    "contacts":{
+        "firstName": "{{ firsName }}",
+        "lastname": "{{ lastName }}",
+        "channels": [
+            {
+            "type": "email",
+            "value": "{{ email }}"
+            }
+        ],
+        "externalCustomerId": "{{ userId }}"
+    },
+    "groupNames":[
+        "Smart Sender"
+    ]
+}

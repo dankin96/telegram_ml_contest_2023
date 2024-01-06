@@ -1,0 +1,8 @@
+pitch_qa_error
+
+@timestamp: 2023-10-12T13:27:32
+_id: ZscjIosBYaiKWSl_4UH9
+_index: filebeat-sri-pitch-log-2023.10.12
+message: [2023-10-12 13:27:28,050] [ERROR j.a.c.filter.UnauthorizedEntryPoint http-nio-8081-exec-7] Responding with unauthorized error. Message - Full authentication is required to access this resource
+num_hits: 1
+num_matches: 1

@@ -1,0 +1,5 @@
+NBU                 12210
+SQB                 12200
+Infinbank           12200
+AAB                 12200
+Trastbank           12190

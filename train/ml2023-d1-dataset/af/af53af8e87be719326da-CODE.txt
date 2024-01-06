@@ -1,0 +1,44 @@
+#!/bin/bash
+
+
+function starting_bots {
+
+
+    cd /home/fnixlinix/KuuhakuTeam/LevellingRobot
+
+    screen -d -m -S "levelling" python3 -m levelling
+
+    echo "Starting LevellingRobot."
+
+
+    cd /home/fnixlinix/KuuhakuTeam/UrsosDaSemana
+
+    screen -d -m -S "urso" python3 -m urso
+
+    echo "Starting UrsosDaSemana."
+
+
+    cd /home/fnixlinix/KuuhakuTeam/Useless
+
+    screen -d -m -S "useless" python3 -m useless
+
+    echo "Starting Useless."
+
+
+    cd /home/fnixlinix/KuuhakuTeam/YuunaRobot
+
+    screen -d -m -S "yuuna" python3 -m yuuna
+
+    echo "Starting YuunaRobot."
+
+
+    cd /home/fnixlinix/KuuhakuTeam/BetterBot
+
+    screen -d -m -S "better" python3 -m better
+
+    echo "Starting BetterBot."
+
+}
+
+
+starting_bots

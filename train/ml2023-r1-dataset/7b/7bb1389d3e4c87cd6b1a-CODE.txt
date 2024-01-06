@@ -1,0 +1,7 @@
+isinstance(0, int) # returns True
+isinstance(0, float) # returns False
+isinstance("Hello World", str) # returns True
+isinstance([0, 1, 2], list) # returns True
+isinstance({0: 0, 1: 1}, dict) # returns True
+isinstance({0: 0, 1: 1}, set) # returns False
+isinstance(0, bool) # returns False

@@ -1,0 +1,25 @@
+@login_required
+def upload_table_file(request):
+    if request.method == 'POST': #  если пришел POST-запрос, значит, пользователем уже были отправлены данные
+        form = UploadTableFale(request.POST, request.FILES, instance=request.user) # наполняем форму принятыми значениями
+        if form.is_valid():
+#            form.usr_id = request.user.id
+            print('##########')
+#            print(form.usr_id.id)
+            print('##########')
+            print(form.cleaned_data)
+#            print(form.cleaned_data['usr_id'])
+            print('##########')
+#            print(request.POST['usr_id'])
+            form.save()
+            return redirect('user_page')
+
+#            try:
+                
+#                TableGenotypeFiles.objects.create(**form.cleaned_data)
+#                return redirect('user_page')
+#            except:
+#                form.add_error(None, 'Ошибка добавления файла с генотипом')    
+    else:
+        form = UploadTableFale() # если форма показывается первый раз (идем по else), то она формируется без параметров и отображается с пустыми полями
+    return render(request, 'geneprofile/table_file_upload.html', {'messege': 'Here you can upload the genotype data file', 'title': 'User genotype file upload form', 'form': form})

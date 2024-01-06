@@ -1,0 +1,44 @@
+{
+  "friends": [
+    ".FriendsSuggestionsBlock",
+    "#friends_right_blocks_root",
+    ".page_block.friends_possible_block",
+    ".page_block.feed_friends_recomm:not(.similar_groups_block)",
+    "#profile_friends_recomm"
+  ],
+  "groups": [
+    "#feed_right_blocks_root",
+    "#groups_list_right_blocks_root",
+    ".feed_groups_recomm",
+    ".GroupsRecommendationsBlock",
+    ".right_list_header",
+    "#group_recom_wrap",
+    "a#ui_rmenu_likes.groups_section_likes",
+    "a#ui_rmenu_recommendations"
+  ],
+  "post": ["._post.post.page_block.mark_top_verified.post--with-likes.deep_active"],
+  "clips": [".page_block.ShortVideoFeedBlock"],
+  "video": [".page_block.FeedVideosForYou", "#videos_for_you"],
+  "apps": [
+    ".apps_feedRightAppsBlock__row",
+    ".apps_feedRightAppsBlock",
+    ".apps_feedRightAppsBlock_new_apps",
+    ".NewMiniAppsRightBlock__root",
+    "#bookmark_game"
+  ],
+  "narratives": [".RecommendedNarrativesBlock", ".RecommendedNarrativesBlockBase", "#recommended_narratives"],
+  "ads": [
+    ".page_block.feed_blog_reminder_large",
+    "._ads_block_data_w",
+    ".mailru-visibility-check",
+    "[class^=ads_ads_box]",
+    "#ads_left",
+    ".page_block.apps_feedRightAppsBlock.apps_feedRight…k_single_app.apps_feedRightAppsBlock_single_app--",
+    ".apps_feedRightAppsBlock__row",
+    ".ads_ad_box.ver.repeat_ver.size_site.adaptive_ad",
+    ".profile_rate_warning"
+  ],
+  "postCopyright": [".Post--copyright"],
+  "adsPost": [".post_marked_as_ads", ".post[data-ad-block-uid]"],
+  "services": ["#feed_mini_apps_recomm", ".page_block.feed_mini_apps_recomm"]
+}

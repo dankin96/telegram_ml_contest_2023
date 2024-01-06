@@ -1,0 +1,5 @@
+SELECT A.title, sum(B.number), count(C.id)
+FROM A as A
+JOIN B as B ON A.id = B.refA
+JOIN C as C ON A.id = C.refC
+GROUP BY A.title

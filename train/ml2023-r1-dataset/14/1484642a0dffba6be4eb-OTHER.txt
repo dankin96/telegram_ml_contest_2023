@@ -1,0 +1,8 @@
+Bitcoin 51% Attack
+Mcap:           $543.78 B
+Algo:           SHA-256
+Hashrate:       461,037 PH/s
+Rentable Hash:  76 PH/s
+Ratio Rentable: 0.02%
+Attack $ 1h:    $1,241,649
+Rent $ 1h:      $2,693.16/EH/h

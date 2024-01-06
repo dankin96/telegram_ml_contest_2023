@@ -1,0 +1,1 @@
+adb logcat *:F > log_fatal.txt

@@ -1,0 +1,32 @@
+Exchange BNBBTC 1h Binance
+Price:0.00763600|0.00762800|0.00761300
+Vol:       238|     639|   2,337
+ATR: 0.00002165
+
+✅OBV:   6.6 K|   6.3 K|   5.7 K
+⚪RSI:   45.72|   42.88|   37.18
+⚪MFI:   23.59|   28.68|   33.18
+⚪CCI: -112.13| -154.65| -159.24
+❌WR%:  -51.79|  -68.33|  -95.00
+✅ADX:   27.95|   28.17|   28.41
+
+❌MOM: Bearish Momentum
+❌SMA: Price Below SMA Bearish
+❌ADI: -DI > +DI Bearish
+❌MACD: Bearish
+❌PSAR: Bearish
+
+Support And Resistance
+S: 0.00761300
+R: 0.00771400
+
+Volatility is low
+
+EXPERIMENTAL 🧪
+🐻RSI: bearish divergence
+⚪MFI:No divergence
+🐻FVE: Bearish divergence
+🐂Volume: Bullish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

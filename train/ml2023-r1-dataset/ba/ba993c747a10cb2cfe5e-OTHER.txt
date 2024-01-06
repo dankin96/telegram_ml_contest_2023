@@ -1,0 +1,1 @@
+https://app.uniswap.org/#/swap?chain=eth&outputCurrency=0xe243fd81bfe7465ab43596306d23fd46af216e71

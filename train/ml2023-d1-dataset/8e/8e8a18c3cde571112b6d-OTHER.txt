@@ -1,0 +1,11 @@
+{ #ALSY - UPSUBS MAIN ACC } 
+
+〝 Id username ::
+〝 Jenis upsubs :: ma 
+〝 Oder brp subs ::
+〝 Id channel ::
+〝 Subs awal ::
+〝 Payment :: tng,spay,celcom ( tf/pin ) 
+〝 Total payment ::
+〝 Note admin :: mabel 
+〝 Sudah subs @ailomosy ? ::

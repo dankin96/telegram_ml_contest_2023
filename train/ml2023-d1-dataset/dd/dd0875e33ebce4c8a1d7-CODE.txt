@@ -1,0 +1,4 @@
+SELECT * 
+FROM task_instance ti
+RIGHT JOIN  (SELECT * FROM job
+WHERE  (now() - start_date) > interval '10 days' AND state = 'running') AS a ON ti.job_id = a.id

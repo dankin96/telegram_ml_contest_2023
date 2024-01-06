@@ -1,0 +1,16 @@
+
+Balance
+* [Blades of Finesse] Items that increase the effectiveness of defending in battle will be less effective
+* [Blades of Finesse] Avidity: can no longer proc in the first round of battle
+* [Blades of Finesse] Debilitating status effects (effects that provide less than 50% chance to act) are now much less likely to proc on the first 2 rounds, then half as likely to proc on remaining rounds
+* [Blades of Finesse] Beowulf Auriga's double follower action cannot occur on the first round of battle
+* [Blades of Finesse] Reduced AI controlled opponents' HP in the earlier tiers
+* [PvP/PvE] Introduced the "Timeless Pendant" to the PvP drop pool. It provides immunity to Stasis
+* [PvP/PvE] Added Stasis immunity to: Amadan's Staff, Aegis, True Aegis of Athena
+* [PvP/PvE] Pendulus: No longer 100% chance to delay a turn
+
+Other
+* Kingdom raids limits are now strongly enforced through in-battle damage limits
+* Removed the 5000 on-hand item limit
+* Quests can now accept items under level 10
+* Fixed an issue with guild shop material seeds (this may reset today's materials available to you)

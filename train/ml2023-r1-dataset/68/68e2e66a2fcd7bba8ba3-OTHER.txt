@@ -1,0 +1,4 @@
+rookie here. how do correct it? or fit it… 
+Now i get fresh error, JSON Decode error. 
+Running the code from desktop, not laptop. 
+ [image]

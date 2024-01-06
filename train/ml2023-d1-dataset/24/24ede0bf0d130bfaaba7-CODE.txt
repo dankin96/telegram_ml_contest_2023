@@ -1,0 +1,1 @@
+ ./configure --host aarch64-linux-android --with-pic --disable-shared --with-openssl="/home/alex/android_openssl/build" --with-zlib --prefix=/home/alex/mylib

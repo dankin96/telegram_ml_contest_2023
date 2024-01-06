@@ -1,0 +1,21 @@
+while True:
+    thang = int(input("Nhap thang: "))
+    
+    if thang == 0:
+        print("End program")
+        break
+    
+    quy = 0
+    if 1 <= thang <= 3:
+        quy = 1
+    elif 4 <= thang <= 6:
+        quy = 2
+    elif 7 <= thang <= 9:
+        quy = 3
+    elif 10 <= thang <= 12:
+        quy = 4
+    else:
+        print("Nhap thang sai")
+        continue
+    
+    print("Thang", thang, "thuoc Quy", quy)

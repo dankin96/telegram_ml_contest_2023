@@ -1,0 +1,25 @@
+vsi VPLS-CLIENTE-XXX static
+ pwsignal ldp
+  vsi-id 500
+  peer X.X.X.X (IP DO DATACOM)
+
+interface Virtual-Ethernet0/1/2
+ ve-group 1 l2-terminate
+ statistic enable
+
+interface Virtual-Ethernet0/1/3
+ ve-group 1 l3-access
+ statistic enable
+
+interface Virtual-Ethernet0/1/2.500
+ vlan-type dot1q 500
+ statistic enable
+ l2 binding vsi VPLS-CLIENTE-XXX
+
+interface Virtual-Ethernet0/1/3.500
+ vlan-type dot1q 500
+ ipv6 enable
+ ip address X.X.X.X 255.255.255.0
+ ipv6 address YYYY:ZZZZ:YYYY:ZZZZ::YYY/116
+ ipv6 address auto link-local
+ statistic enable

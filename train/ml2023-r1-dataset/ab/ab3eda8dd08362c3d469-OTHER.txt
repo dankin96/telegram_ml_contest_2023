@@ -1,0 +1,6 @@
+Host:     MHC-123.30.186.234
+Alias:    MHC-123.30.186.234
+Address:  123.30.186.234
+Service:  CPU load
+Event:    WARN -> OK
+Output:   OK - 15 min load 157.75 at 32 Cores (4.93 per Core)

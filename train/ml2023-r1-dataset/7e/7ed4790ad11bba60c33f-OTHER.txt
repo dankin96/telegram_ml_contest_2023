@@ -1,0 +1,13 @@
+# cilium status
+    /¯¯\
+ /¯¯\__/¯¯\    Cilium:             OK
+ \__/¯¯\__/    Operator:           OK
+ /¯¯\__/¯¯\    Envoy DaemonSet:    disabled (using embedded mode)
+ \__/¯¯\__/    Hubble Relay:       disabled
+    \__/       ClusterMesh:        disabled
+
+Deployment             cilium-operator    Desired: 2, Ready: 2/2, Available: 2/2
+DaemonSet              cilium             Desired: 4, Ready: 4/4, Available: 4/4
+Containers:            cilium             Running: 4
+                       cilium-operator    Running: 2
+Cluster Pods:          18/18 managed by Cilium

@@ -1,0 +1,1 @@
+[Compose] Added Healthcheck startup logics

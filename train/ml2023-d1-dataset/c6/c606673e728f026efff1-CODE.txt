@@ -1,0 +1,8 @@
+publishErr := ch.PublishWithContext(ctx,        "",    // exchange      
+  name,  // routing key  
+  false, // mandatory
+  false, // immediate
+  amqp.Publishing{
+    ContentType: "application/json",
+    Body:        []byte(stringJSON),
+})

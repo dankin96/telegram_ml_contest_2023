@@ -1,0 +1,33 @@
+Exchange ZRXBTC 1h Binance
+Price:0.00000679|0.00000684|0.00000677
+Vol:     4,830|  19,243|   5,724
+ATR: 0.00000013
+
+❌OBV:  -1.1 M|  -1.1 M|  -1.1 M
+⚪RSI:   39.41|   41.79|   36.84
+⚪MFI:   71.39|   72.79|   72.74
+⚪CCI:  -60.55|  -39.39|  -90.93
+❌WR%:  -83.33|  -41.67| -100.00
+❌ADX:   11.83|   12.43|   13.32
+
+❌MOM: Bearish Momentum
+❌SMA: Price Below SMA Bearish
+❌ADI: -DI > +DI Bearish
+❌MACD: Bearish
+❌PSAR: Bearish
+
+Support And Resistance
+S: 0.00000677
+R: 0.00000708
+R: 0.00000714
+
+Volatility is moderately low
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+🐂MFI: Bullish divergence
+🐂FVE: Bullish divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

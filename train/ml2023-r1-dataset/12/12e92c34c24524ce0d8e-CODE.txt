@@ -1,0 +1,55 @@
+#restored by @danipulok
+
+from pyrogram import Client
+from pyrogram.errors import RPCError, SessionPasswordNeeded
+from pyrogram.types import User, TermsOfService
+
+
+import logging
+logging.basicConfig(level=logging.INFO)
+
+phone = "+12345678901"
+name = "name"
+
+
+def ooo() -> User:
+
+    # 1. Client initialization ✅
+    app = Client("app", test_mode=False)
+
+    try:
+        # 2. Client connect ✅
+        app.connect()
+
+        # 3. Client send code ✅
+        sent_code = app.send_code(phone)
+        code = input("Code? ")
+
+        # 4. Client sign in ✅
+        try:
+            signed_in = app.sign_in(phone, sent_code.phone_code_hash, code)
+
+            if isinstance(signed_in, User):
+                return signed_in
+
+        # 4.5 In case 2FA is enabled
+        except SessionPasswordNeeded:
+            app.check_password(input('Two-Step Verification password: '))
+
+        # 5. If new user, Client sign up ✅
+        signed_up = app.sign_up(phone, sent_code.phone_code_hash, name)
+
+        # 6. If new user, Client accept terms of service
+        if isinstance(signed_in, TermsOfService):
+            app.accept_terms_of_service(signed_in.id)
+
+        return signed_up
+
+    except RPCError as e:
+        raise e
+    finally:
+        # 7. Client disconnect in case of error
+        app.disconnect()
+
+
+print(ooo())

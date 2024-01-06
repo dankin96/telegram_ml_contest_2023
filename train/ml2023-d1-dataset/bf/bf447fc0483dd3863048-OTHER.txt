@@ -1,0 +1,15 @@
+ID L/S    Pair              Since    Profit (USD)       # Entries
+--------  ----------------  -------  -----------------  -----------
+34 L      BTCDOM/USDT:USDT  1 d      0.00% (0.01)       1/6
+77 S      LIT/USDT:USDT     8 h      -12.72% (-182.57)  1/6
+78 S      CHR/USDT:USDT     8 h      -2.06% (-32.18)    1/6
+79 S      REEF/USDT:USDT    8 h      -10.59% (-154.15)  1/6
+80 S      ONE/USDT:USDT**   8 h      -2.86% (-45.21)    1/6
+90 L      COTI/USDT:USDT    4 h      -1.84% (-26.79)    1/6
+91 S      MTL/USDT:USDT     4 h      -2.11% (-30.73)    1/6
+92 L      SOL/USDT:USDT     2 h      1.40% (17.47)      1/6
+93 L      AVAX/USDT:USDT    2 h      -1.89% (-7.12)     1/6
+94 S      HOT/USDT:USDT     2 h      -0.32% (-0.01)     1/6
+95 L      WLD/USDT:USDT     2 h      0.41% (2.18)       1/6
+--------  ----------------  -------  -----------------  -----------
+Total                                -459.10 USD

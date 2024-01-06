@@ -1,0 +1,14 @@
+import os
+import json
+
+# Получите значение переменной окружения admin_ids
+admin_ids_json = os.getenv("admin_ids")
+
+# Преобразуйте JSON-строку в Python-список
+admin_ids = json.loads(admin_ids_json)
+
+# Теперь admin_ids содержит список ID в виде Python-списка
+if message.from_user.id in admin_ids:
+    # Ваш код для администраторов
+else:
+    # Ваш код для не-администраторов

@@ -1,0 +1,32 @@
+Exchange UNFIBTC 1h Binance
+Price:0.00025240|0.00025200|0.00025600
+Vol:        14|     445|     195
+ATR: 0.00000196
+
+❌OBV:  -5.7 K|  -5.8 K|  -5.3 K
+⚪RSI:   53.11|   52.02|   66.37
+⚪MFI:   79.49|   80.86|   90.24
+⚪CCI:  -51.52|  -21.68|  120.26
+❌WR%:  -86.96|  -92.75|  -35.82
+✅ADX:   36.50|   38.64|   40.96
+
+❌MOM: Bearish Momentum
+✅SMA: Price is Above SMA Bullish
+❌ADI: -DI > +DI Bearish
+❌MACD: Bearish
+❌PSAR: Bearish
+
+Support And Resistance
+S: 0.00024730
+R: 0.00025710
+
+Volatility is very high
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+🐻MFI: Bearish divergence
+🐻FVE: Bearish divergence
+⚪Volume: No Trend or volume confirms trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

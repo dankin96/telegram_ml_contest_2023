@@ -1,0 +1,19 @@
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        print(f"Привет, меня зовут {self.name}!")
+
+class EmailMixin:
+    def send_email(self, recipient, subject, message):
+        print(f"Отправляю электронное письмо на адрес {recipient}:")
+        print(f"Тема: {subject}")
+        print(f"Сообщение: {message}")
+
+class PersonWithEmail(Person, EmailMixin):
+    pass
+
+person = PersonWithEmail("Иван")
+person.greet()
+person.send_email("example@example.com", "Привет!", "Как дела?")

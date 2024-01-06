@@ -1,0 +1,2 @@
+A common question developers new to Go have is “How do I organize my Go project?”, in terms of the layout of files and folders. The goal of this document is to provide some guidelines that will help answer this question.
+

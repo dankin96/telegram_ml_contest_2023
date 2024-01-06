@@ -1,0 +1,2 @@
+isSorted("абвг"); // true
+isSorted("бвга"); // false

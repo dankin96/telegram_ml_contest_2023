@@ -1,0 +1,1 @@
+- service_template: "{{ iif(trigger.to_state.state == 'on', 'switch.turn_on', 'switch.turn_off') }}"

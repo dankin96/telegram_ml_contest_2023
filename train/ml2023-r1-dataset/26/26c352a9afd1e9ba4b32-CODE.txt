@@ -1,0 +1,8 @@
+python
+import requests
+
+requests.packages.urllib3.disable_warnings()
+
+def buscar_dados(id):
+        request = requests.get(f"https://service/api/recurso/{id}", verify=False).json()
+        print(request)

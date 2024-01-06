@@ -1,0 +1,5 @@
+alias "+myjump" "+jump"
+alias "-myjump" "-jump"
+bind "mwheeldown" "+myjump;-myjump"
+bind "mwheelup" "+myjump;-myjump"
+

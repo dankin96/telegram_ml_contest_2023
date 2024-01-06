@@ -1,0 +1,10 @@
+    tokio::spawn(async move {
+        match LoggerService::new::<RabbitClient>(settings.log_settings.clone()).await {
+            Ok(_) => {
+                println!("Started parsing logging");
+            }
+            Err(e) => {
+                println!("Error while creating logging service : {}", e);
+            }
+        }
+    });

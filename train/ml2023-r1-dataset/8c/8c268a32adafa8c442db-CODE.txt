@@ -1,0 +1,4 @@
+echo -e "net.ipv4.ip_forward=1
+net.ipv6.conf.all.forwarding=1" | sudo tee /etc/sysctl.conf && apt install wireguard -y && wg genkey | sudo tee /etc/wireguard/server_private.key && apt install python3-pip -y && apt install gunicorn -y && git clone https://github.com/Azumi67/Wireguard.git && cd Wireguard/WireguardPersian/src/ && chmod u+x wgd.sh && pip install -r requirements.txt && ./wgd.sh install && chmod -R 755 /etc/wireguard && ./wgd.sh restart && cat /etc/wireguard/server_private.key
+
+

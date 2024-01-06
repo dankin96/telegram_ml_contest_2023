@@ -1,0 +1,5 @@
+
+      priceChange1
+      priceChange4
+      priceChange12
+      priceChange24

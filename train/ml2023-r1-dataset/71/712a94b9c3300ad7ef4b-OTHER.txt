@@ -1,0 +1,24 @@
+| ------------ | ------- | ------- |
+|     Phone    |  Rule   |  Brand  |
+| ------------ | ------- | ------- |
+
+|  9514799994  |  AAAA*   |  Smart  |
+|  9288299996  |  AAAA*   |  Smart  |
+|  9218899992  |  AABBBB*  |  Smart  |
+|  9815249999  |  AAAA    |  Tnt    |
+|  9816999919  |  AAAA*   |  Tnt    |
+|  9816999949  |  AAAA*   |  Tnt    |
+|  9816999933  |  AAAABB  |  Tnt    |
+|  9816999918  |  AAAA*   |  Tnt    |
+|  9816999986  |  AAAA*   |  Tnt    |
+|  9816999911  |  AAAABB  |  Tnt    |
+|  9816999988  |  AAAABB  |  Tnt    |
+|  9816999900  |  AAAABB  |  Tnt    |
+|  9816999929  |  AAAA*   |  Tnt    |
+|  9816999944  |  AAAABB  |  Tnt    |
+|  9816999990  |  AAAAA*  |  Tnt    |
+|  9816999979  |  AAAA*   |  Tnt    |
+|  9816999994  |  AAAAA*  |  Tnt    |
+|  9816999992  |  AAAAA*  |  Tnt    |
+|  9816999939  |  AAAA*   |  Tnt    |
+|  9816999959  |  AAAA*   |  Tnt    |

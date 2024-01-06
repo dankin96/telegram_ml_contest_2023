@@ -1,0 +1,2 @@
+$ grep -v '^#' /etc/containerd/config.toml | grep .
+disabled_plugins = ["cri"]

@@ -1,0 +1,1 @@
+filtered_result = result.loc[result[('Просмотров', 'size')] >= 10]

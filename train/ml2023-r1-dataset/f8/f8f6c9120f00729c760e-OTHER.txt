@@ -1,0 +1,2 @@
+GPT4All is an open-source ecosystem of chatbots trained on massive collections of clean assistant data, including code, stories, and dialogue, and is not as powerful as ChatGPT. Nevertheless, it is still a viable alternative and a free playground that runs locally on your system, and you can use it through a Python interface.
+

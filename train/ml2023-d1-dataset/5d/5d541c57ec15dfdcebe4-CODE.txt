@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Based PHP Chat</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div id="chat" style="height:300px;overflow:auto;"></div>
+    <form id="chatForm">
+        <input type="text" name="msg" id="msg" placeholder="Type your message" required>
+        <input type="submit" value="Send">
+    </form>
+    <script>
+        function loadChat() {
+            $.get('chat.txt', function(data) {
+                $('#chat').html(data.replace(/
+/g, '<br>'));
+                var chatDiv = document.getElementById('chat');
+                chatDiv.scrollTop = chatDiv.scrollHeight;
+            });
+        }
+
+        loadChat();
+        setInterval(loadChat, 1000);
+
+        $('#chatForm').submit(function(e) {
+            e.preventDefault();
+            var msg = $('#msg').val();
+            $.post('index.php', {msg: msg}, function() {
+                $('#msg').val('');
+                loadChat();
+            });
+        });
+    </script>
+</body>
+</html>

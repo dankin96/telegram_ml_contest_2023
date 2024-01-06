@@ -1,0 +1,9 @@
+class _DiplomaScreen extends StatelessWidget {
+  // ... existing code ...
+
+  static bool isMobile(BuildContext context) {
+    return MediaQuery.of(context).size.width < 600;
+  }
+
+  // ... existing code ...
+}

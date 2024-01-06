@@ -1,0 +1,6 @@
+✅ 00:35 • 🇪🇺 EUR/CAD 🇨🇦 OTC • ACIMA
+✅ 01:30 • 🇦🇺 AUD/USD 🇺🇸 OTC • ABAIXO
+✅ 02:30 • 🇪🇺 EUR/USD 🇺🇸 OTC • ACIMA
+✅ 03:30 • 🇬🇧 GBP/USD 🇺🇸 OTC • ABAIXO
+✅ 04:30 • 🇺🇸 USD/CNH 🇨🇳 OTC • ACIMA
+✅ 05:30 • 🇨🇦 CAD/CHF 🇨🇭 OTC • ABAIXO

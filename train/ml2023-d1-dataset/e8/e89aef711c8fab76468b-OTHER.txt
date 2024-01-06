@@ -1,0 +1,27 @@
++-------------------------------+
+|       Trade Information       |
++-----------------+-------------+
+| Key             | Value       |
++-----------------+-------------+
+| Buy Limit       | EURUSD      |
+| Entry           | 1.05618     |
+|                 |             |
+| Stop Loss       | 7 pips      |
+| TP 1            | (7 pips)    |
+| TP 2            | (14 pips)   |
+|                 |             |
+|                 |             |
+| Stop Loss       | 1.05547     |
+| TP 1            | 1.05689     |
+| TP 2            | 1.0576      |
+|                 |             |
+| Risk Factor     | 9 %         |
+| Position Size   | 14.53       |
+|                 |             |
+| Current Balance | $ 11,305.76 |
+| Potential Loss  | $ 1,017.10  |
+| TP 1 Profit     | $ 508.55    |
+| TP 2 Profit     | $ 1,017.10  |
+|                 |             |
+| Total Profit    | $ 1,525.65  |
++-----------------+-------------+

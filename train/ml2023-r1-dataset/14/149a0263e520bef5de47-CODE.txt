@@ -1,0 +1,5 @@
+
+window.gtag('event', 'reply', {
+      'event_category': 'interaction',
+      'event_label': `User ${account?.author.shortAddress} replies to c/${comment.shortCid}`
+    });

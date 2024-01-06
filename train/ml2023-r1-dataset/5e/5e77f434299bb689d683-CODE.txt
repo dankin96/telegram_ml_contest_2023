@@ -1,0 +1,7 @@
+class AppSettings(BaseSettings):
+    SOME_VAR = "default value"
+    
+    class Config:
+        env_prefix = "PREFIX_"
+
+settings = AppSettings()

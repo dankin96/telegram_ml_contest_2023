@@ -1,0 +1,21 @@
+@dp.message_handler(content_types=types.ContentType.PHOTO, state=UserState.unic_doc)
+async def handle_albums(message: types.Message):
+    await bot.send_photo(message.chat.id, photo=message.photo[0].file_id)
+
+@dp.message_handler(content_types=types.ContentType.PHOTO, state=UserState.unic_doc)
+async def handle_albums(message: types.Message, album: List[types.Message]):
+    """This handler will receive a complete album of any type."""
+    media_group = types.MediaGroup()
+    for obj in album:
+        if obj.photo:
+            file_id = obj.photo[-1].file_id
+        else:
+            file_id = obj[obj.content_type].file_id
+
+        try:
+            # We can also add a caption to each file by specifying `"caption": "text"`
+            media_group.attach({"media": file_id, "type": obj.content_type})
+        except ValueError:
+            return await message.answer("This type of album is not supported by aiogram.")
+
+    await message.answer_media_group(media_group)

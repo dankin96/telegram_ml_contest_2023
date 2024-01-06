@@ -1,0 +1,2 @@
+Received: from [192.168.ххх.ххх] (account ххх@ххх.ru)
+  by ***.ru (CommuniGate Pro XIMSS)

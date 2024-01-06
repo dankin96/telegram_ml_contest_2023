@@ -1,0 +1,1 @@
+window.dispatchEvent(new CustomEvent('unhandled_cocos_exception', {detail: {message: message.toString()}))

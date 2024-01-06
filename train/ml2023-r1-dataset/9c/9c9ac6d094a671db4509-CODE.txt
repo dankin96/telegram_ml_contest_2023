@@ -1,0 +1,26 @@
+---
+title: "October 07, 2023 | LCB"
+author: "Nome de quem criou a nota"
+dates:
+  - created: "Data de criação da nota no formato MMMM D, YYYY"
+  - modified: "Data de edição/modificação da nota no formato MMMM D, YYYY"
+tags: [" livro_cap_vers temas_correlatos personagens_envolvidos "]
+aliases: ["temas correlatos", ""]
+abstract: "Uma breve descrição do conteúdo dessa nota."
+lang: "pt-BR"
+---
+
+<!-- NOME DA NOTA ~ CRIADO EM YYYY/MM/DD ~ ATUALIZADO EM YYYY/MM/DD -->
+
+# NOME DA NOTA
+
+<p>&nbsp;</p>
+
+> [!info]+ Contexto
+> Uma breve descrição do conteúdo dessa nota.
+
+<p>&nbsp;</p>
+
+Conteúdo da nota
+
+<p>&nbsp;</p>

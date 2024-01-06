@@ -1,0 +1,7 @@
+64 bytes from ya.ru (2a02:6b8::2:242): icmp_seq=1 ttl=55 time=22.9 ms
+64 bytes from ya.ru (2a02:6b8::2:242): icmp_seq=2 ttl=55 time=21.2 ms
+64 bytes from ya.ru (2a02:6b8::2:242): icmp_seq=3 ttl=55 time=20.4 ms
+
+64 bytes from ya.ru (77.88.55.242): icmp_seq=1 ttl=53 time=14.1 ms
+64 bytes from ya.ru (77.88.55.242): icmp_seq=2 ttl=53 time=14.2 ms
+64 bytes from ya.ru (77.88.55.242): icmp_seq=3 ttl=53 time=14.0 ms

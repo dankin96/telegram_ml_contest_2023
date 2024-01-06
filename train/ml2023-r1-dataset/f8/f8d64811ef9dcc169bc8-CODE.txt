@@ -1,0 +1,40 @@
+//@version=5
+indicator("new", overlay = true)
+
+box_fanction(_start,_start_min,_stop,_stop_min) =>
+    customSessionActive = time(timeframe.period,str.tostring(_start) + str.tostring(_start_min) + "-" + str.tostring(_stop) + str.tostring(_stop_min), "America/New_York") and timeframe.isintraday
+    customSession_start = customSessionActive and not customSessionActive[1]
+    var customSessionHigh = 0.0
+    var customSessionLow = 0.0
+    if customSession_start 
+        customSessionHigh := high
+        customSessionLow := low
+    else if customSessionActive
+        customSessionHigh := math.max(customSessionHigh, high)
+        customSessionLow := math.min(customSessionLow, low)
+    var box customSessionBox = na
+    if customSession_start
+        customSessionBox := box.new(left = bar_index, top = na, right = na, bottom = na, border_color = color.blue, border_width = 1, border_style=line.style_dotted, bgcolor = color.rgb(214, 151, 151, 34))
+    if customSessionActive
+        box.set_top(customSessionBox, customSessionHigh)
+        box.set_bottom(customSessionBox, customSessionLow)
+        box.set_right(customSessionBox ,bar_index +1)
+//input example for every Hour = 1030-1320
+int start = 10
+int stop = 15
+int start_min = 30
+int stop_min = 20
+// //output = 1030-1130,1130-1230,1230-1330,1330-1430,1430-1520
+string result2 = ""
+string result = ""
+for i = 0 to stop - start
+    int a = start + i
+    if i < stop - start
+        //result += str.tostring(a) + str.tostring(start_min) + str.tostring(a + 1) + (i == stop - start ? str.tostring(start_min) : str.tostring(stop_min))
+
+        condition = (i == stop - start ? start_min : stop_min)
+        box_fanction(a,start_min,a + 1,condition)
+
+// if barstate.islast
+//     label.new(bar_index, low, result)
+

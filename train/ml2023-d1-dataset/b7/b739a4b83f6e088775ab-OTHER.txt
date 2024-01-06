@@ -1,0 +1,1 @@
+At many companies, “SDET” is used interchangeably with “automated tester.” So in some cases, there is no distinction. However, in other workplaces, there can be differences between the two roles. When this is the case, it’s often because the SDET role is even closer to a regular developer than an automated tester.

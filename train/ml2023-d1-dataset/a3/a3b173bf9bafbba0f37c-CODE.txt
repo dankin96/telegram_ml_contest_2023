@@ -1,0 +1,41 @@
+Table users {
+  id integer [primary key]
+  fullName varchar
+  roles varchar[]
+}
+
+Table products {
+  id integer [primary key]
+  title varchar
+  status varchar
+  category varchar[]
+}
+
+Table product_images {
+  id integer [primary key]
+  url varchar
+}
+
+Table shopping_cart {
+  id integer [primary key]
+  products varchar[]
+}
+
+Table shopping_cart_inventory {
+  id integer [primary key]
+  products varchar[]
+}
+
+Table bills {
+  id integer [primary key]
+  userName varchar
+  price float
+  isPaid boolean
+  listProducts varchar[]
+}
+
+Ref: product_images.id > products.id
+Ref: users.id - shopping_cart.id
+Ref: shopping_cart_inventory.id < products.id
+Ref: shopping_cart.id - shopping_cart_inventory.id
+Ref: users.id < bills.id

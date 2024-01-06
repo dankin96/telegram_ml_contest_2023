@@ -1,0 +1,7 @@
+
+def batch_process(set_of_items): 
+  count = 1
+  for item in set_of_items:
+    item.process()
+    count += 1
+  return count

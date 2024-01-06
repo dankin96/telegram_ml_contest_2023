@@ -1,0 +1,18 @@
+function fight(r1, r2, tac) {
+[r1, r2] = [r1, r2].sort((a,b) => b.speed - a.speed)
+let iter = r1.tactics.length >= r2.tactics.length 
+  ? r1.tactics.length : r2.tactics.length
+  
+  for (let i = 0; i < iter; i++){
+    r2.health -= tac[r1.tactics[i]] || 0
+    r1.health -= tac[r2.tactics[i]] || 0
+    if (r2.health <= 0) return r1.name + ' has won the fight.'
+    if (r1.health <= 0) return r2.name + ' has won the fight.'
+  }
+  
+return r1.health > r2.health 
+     ? r1.name + ' has won the fight.' 
+     : r1.health !== r2.health 
+     ? r2.name + ' has won the fight.'
+     : 'The fight was a draw.' 
+}

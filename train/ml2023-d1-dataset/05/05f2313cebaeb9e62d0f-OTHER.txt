@@ -1,0 +1,8 @@
+👀 SPAM Score detected:
+###
+https://t.me/+WS9B4NK2PcljMWZi
+###
+
+Reason: Наличие ссылок
+Action: deleteMessage
+Bot response: Successful ✅

@@ -1,0 +1,5 @@
+Token: ALGOUSDT
+Price: $0.09409
+24H High: $0.09549
+24H Low: $0.09285
+24H Volume: 840545.91 ALGO

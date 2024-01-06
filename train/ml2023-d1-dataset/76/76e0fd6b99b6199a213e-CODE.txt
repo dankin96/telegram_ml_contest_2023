@@ -1,0 +1,35 @@
+{
+    "Captcha_Chars_Mode": "random",
+    "Captcha_Difficulty_Level": 5,
+    "Captcha_Time": 300,
+    "Enabled": true,
+    "Ignore_List": [],
+    "Language": "PT_BR",
+    "Link": "@Fundosimobiliariosdiscussao",
+    "Poll_A": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "Poll_C_A": 0,
+    "Poll_Q": "",
+    "RM_All_Msg": false,
+    "Restrict_Non_Text": 0,
+    "Rm_Result_Msg": true,
+    "Rm_Welcome_Msg": true,
+    "Title": "Fundos Imobili\u00e1rios - Discuss\u00e3o",
+    "URL_Enabled": true,
+    "Welcome_Msg": "Seja bem vindo ao grupo Fundos Imobili\u00e1rios Discuss\u00e3o\\!
+Mensagens desrespeitosas, de cunho pol\u00edtico ou fora do tema ser\u00e3o apagadas\\.
+Para baixar a planilha se cadastre no formul\u00e1rio do blog 
+
+Https://www\\.victorioamoedo\\.com\\.br
+
+Imediatamente ser\u00e1 enviado um e\\-mail com as \u00faltimas vers\u00f5es \\(uma para cada ano\\) no seu e\\-mail\\!
+
+Seja bem vindo\\!",
+    "Welcome_Time": 60
+}

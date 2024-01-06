@@ -1,0 +1,6 @@
+message List {
+    addr: Address;
+    amount: Int as uint32;
+}
+
+receive(msg: List){

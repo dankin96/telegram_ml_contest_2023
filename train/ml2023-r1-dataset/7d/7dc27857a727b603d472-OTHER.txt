@@ -1,0 +1,26 @@
+C:\Users\cpanel>nslookup google.com
+Server:  reyre-wrt.lan
+Address:  fdd8:cc5c:2691::1
+
+Name:    google.com
+Addresses:  142.250.4.113
+          142.250.4.139
+          142.250.4.102
+          142.250.4.101
+          142.250.4.138
+          142.250.4.100
+
+
+C:\Users\cpanel>nslookup ipinfo.io
+Server:  reyre-wrt.lan
+Address:  fdd8:cc5c:2691::1
+
+DNS request timed out.
+    timeout was 2 seconds.
+*** Request to reyre-wrt.lan timed-out
+
+C:\Users\cpanel>nslookup ipinfo.io
+Server:  reyre-wrt.lan
+Address:  fdd8:cc5c:2691::1
+
+*** reyre-wrt.lan can't find ipinfo.io: Server failed

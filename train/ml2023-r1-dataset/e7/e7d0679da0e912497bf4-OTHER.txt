@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/Guri8837/yukkimusicbot/yukkimusicbot/YukkiMusic/plugins/devs/dev.py", line 67, in executor
+    await aexec(cmd, client, message)
+  File "/home/Guri8837/yukkimusicbot/yukkimusicbot/YukkiMusic/plugins/devs/dev.py", line 36, in aexec
+    return await locals()["__aexec"](client, message)
+  File "", line 4, in __aexec
+TypeError: 'async for' requires an object with __aiter__ method, got coroutine

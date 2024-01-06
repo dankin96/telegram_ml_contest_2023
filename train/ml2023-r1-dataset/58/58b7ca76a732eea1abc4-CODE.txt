@@ -1,0 +1,2 @@
+if TYPE_CHECKING:
+    from app.data.database.models.proxy import Proxy

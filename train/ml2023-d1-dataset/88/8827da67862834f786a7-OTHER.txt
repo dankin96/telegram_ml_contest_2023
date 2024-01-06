@@ -1,0 +1,8 @@
+👀 SPAM Score detected:
+###
+https://t.me/sale_WB_sliv25
+###
+
+Reason: Наличие ссылок
+Action: deleteMessage
+Bot response: Successful ✅

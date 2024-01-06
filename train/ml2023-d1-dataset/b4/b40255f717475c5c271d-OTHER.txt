@@ -1,0 +1,1 @@
+ss://3cbaf436-93cc-4db1-be69-c5353076be15@172.67.1.123:80?path=%2Fgraphql&security=none&encryption=none&host=vr4RlSu.kallepache.store&type=ws#t.me/meysamtech010

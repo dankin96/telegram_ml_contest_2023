@@ -1,0 +1,5 @@
+  if (network === 'testnet') {
+    const connection = new Connection(BchNetwork.TESTNET, url);
+    (globalThis as any).BCH = connection.networkProvider;
+    return await TestNetWallet.fromSeed(mnemonic, path);
+  }

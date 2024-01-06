@@ -1,0 +1,7 @@
+Level (Single) = Level 1
+2Factor (Single) = False
+Currency (Single) = BTC
+Balance (Single) = 0
+Cashout (Single) = 0
+
+

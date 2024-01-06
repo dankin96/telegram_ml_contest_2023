@@ -1,0 +1,5 @@
+function take(a) {/*...*/};
+
+const call = Function.bind.call;
+take(A.constructor);
+take(call(B.constructor, null, 1));

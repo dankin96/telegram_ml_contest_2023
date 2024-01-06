@@ -1,0 +1,2 @@
+ CPU%▽MEM%   TIME+  Command
+101.0  3.0  103h56m /lib/systemd/systemd splash --system --deserialize 77

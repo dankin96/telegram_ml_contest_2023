@@ -1,0 +1,17 @@
+library(tidyverse)
+
+raw_df <- "s:/temp/Vehicles.xlsx" |>
+  readxl::read_excel()
+
+df <- raw_df %>%
+  separate_wider_delim(trip_id, "_", 
+                       names = c("trip_num", "trip_direction"), 
+                       cols_remove = FALSE) %>%
+  drop_na() %>%
+  arrange(label, trip_num, timestamp) %>%
+  mutate_at("trip_direction", as.integer) %>%
+  select(label, timestamp, starts_with("trip")) %>%
+  group_by(label, trip_num) %>%
+  filter(lead(trip_direction) - trip_direction != 0) %>%
+  mutate(delta_t = lead(timestamp) - timestamp) %>%
+  ungroup()

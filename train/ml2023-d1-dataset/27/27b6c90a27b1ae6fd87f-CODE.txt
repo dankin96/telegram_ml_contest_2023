@@ -1,0 +1,13 @@
+import socket
+
+def reverse_ip_lookup(ip_address):
+    try:
+        hostnames = socket.gethostbyaddr(ip_address)
+        return hostnames[0]
+    except socket.herror:
+        return "Tidak dapat menemukan nama host untuk alamat IP tersebut"
+
+# Contoh penggunaan
+ip_address = "192.168.0.1"
+result = reverse_ip_lookup(ip_address)
+print(f"Nama host untuk alamat IP {ip_address}: {result}")

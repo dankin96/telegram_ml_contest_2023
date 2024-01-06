@@ -1,0 +1,9 @@
+$(window).scroll(function() {
+  if($(window).scrollTop() + $(window).height() >= $(document).height()) {
+    var nextPageUrl = 'https://site.ru/katalog/?page=2';
+    $.get(nextPageUrl, function(data) {
+      var products = $(data).find('.product');
+      $('.products').append(products);
+    }
+  }
+});

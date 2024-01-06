@@ -1,0 +1,2 @@
+fn take_tuple(PointTupleXYZ(x, y, _): PointTupleXYZ) {}
+fn take_struct(PointStruct { x, y, .. }: PointStruct) {}

@@ -1,0 +1,10 @@
+
+<VirtualHost *:80>
+    DocumentRoot "C:/caminho/para/projeto1"
+    ServerName projeto1.local
+</VirtualHost>
+
+<VirtualHost *:80>
+    DocumentRoot "D:/caminho/para/projeto2"
+    ServerName projeto2.local
+</VirtualHost>

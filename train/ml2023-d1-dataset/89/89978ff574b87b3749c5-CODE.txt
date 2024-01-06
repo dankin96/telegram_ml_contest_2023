@@ -1,0 +1,7 @@
+$ du -sh `find .lnd/ -name '*.db'`
+5.6M    .lnd/data/chain/bitcoin/mainnet/wallet.db
+24K     .lnd/data/chain/bitcoin/mainnet/macaroons.db
+3.9G    .lnd/data/graph/mainnet/channel.db
+102M    .lnd/data/graph/mainnet/wtclient.db
+1.4G    .lnd/data/graph/mainnet/sphinxreplay.db
+1.9G    .lnd/data/watchtower/bitcoin/mainnet/watchtower.db

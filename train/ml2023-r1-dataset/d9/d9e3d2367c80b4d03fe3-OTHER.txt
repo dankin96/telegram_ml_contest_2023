@@ -1,0 +1,5 @@
+NAME » نام فرد
+GPNAME » نام گروه
+TIME » زمان
+DATE »  تاریخ
+MENTION » منشن کاربر

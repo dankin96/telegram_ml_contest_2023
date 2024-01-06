@@ -1,0 +1,5 @@
+➠ BARANG   : SSH
+➠ ISP      : SG LINODE
+➠ CONFIG   : - 
+➠ PAYMENT  : DANA
+➠ EXPIRED  : 1 BULAN

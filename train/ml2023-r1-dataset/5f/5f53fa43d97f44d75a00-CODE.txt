@@ -1,0 +1,1 @@
+async for message in client.iter_messages(chat_id, limit=MAX_MESSAGES): await message.forward_to(destination_chat_id)

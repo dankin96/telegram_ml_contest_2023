@@ -1,0 +1,32 @@
+A X A
+A X B
+A X At
+A X Ct
+A X Dt
+B X D
+B X Bt
+C X A
+C X B
+C X At
+C X Ct
+C X Dt
+D X A
+D X B
+D X At
+D X Ct
+D X Dt
+At X A
+At X B
+At X At
+At X Ct
+At X Dt
+Bt X A
+Bt X B
+Bt X At
+Bt X Ct
+Bt X Dt
+Ct X C
+Dt X D
+Dt X Bt
+
+30

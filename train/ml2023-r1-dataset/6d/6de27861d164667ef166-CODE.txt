@@ -1,0 +1,6 @@
+var etiqueta = label(na)
+
+if barstate.isrealtime
+    precio = close
+    etiqueta.delete()
+    etiqueta := label.new(argumentos...)

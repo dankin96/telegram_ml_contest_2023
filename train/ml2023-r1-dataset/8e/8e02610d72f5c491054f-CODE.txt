@@ -1,0 +1,1 @@
+<output_color value="#00ff00">

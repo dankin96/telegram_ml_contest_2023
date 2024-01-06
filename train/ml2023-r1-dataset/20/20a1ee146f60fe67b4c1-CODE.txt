@@ -1,0 +1,3 @@
+SELECT SUM(fee_paid) / cast(pow(10, 18) as numeric(60, 18)) as fee_paid,
+       SUM(tip_paid) / cast(pow(10, 18) as numeric(60, 18)) as tip_paid
+FROM public.ledger_transactions

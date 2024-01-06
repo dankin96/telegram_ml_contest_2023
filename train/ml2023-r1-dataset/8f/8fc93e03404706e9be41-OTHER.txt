@@ -1,0 +1,7 @@
+10月 08 13:43:24 JellyCambarus kernel: [drm:amdgpu_job_timedout [amdgpu]] *ERROR* ring gfx timeout, signaled seq=274146, emitted seq=274148
+10月 08 13:43:24 JellyCambarus kernel: [drm:amdgpu_job_timedout [amdgpu]] *ERROR* Process information: process plasmashell pid 6168 thread plasmashel:cs0 pid 6195
+10月 08 13:43:24 JellyCambarus kernel: amdgpu 0000:06:00.0: amdgpu: GPU reset begin!
+10月 08 13:43:24 JellyCambarus kernel: amdgpu 0000:06:00.0: [drm:amdgpu_ring_test_helper [amdgpu]] *ERROR* ring kiq_0.2.1.0 test failed (-110)
+10月 08 13:43:24 JellyCambarus kernel: [drm:gfx_v8_0_hw_fini [amdgpu]] *ERROR* KCQ disable failed
+10月 08 13:43:24 JellyCambarus kernel: amdgpu: cp is busy, skip halt cp
+10月 08 13:43:25 JellyCambarus kernel: amdgpu: rlc is busy, skip halt rlc

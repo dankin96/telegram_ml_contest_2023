@@ -1,0 +1,32 @@
+Exchange MAVBTC 1h Binance
+Price:0.00000817|0.00000814|0.00000813
+Vol:       836|      75|      35
+ATR: 0.00000004
+
+✅OBV:  54.1 K|  53.3 K|  53.2 K
+⚪RSI:   54.58|   51.43|   50.37
+⚪MFI:   75.74|   75.70|   75.75
+⚪CCI:  128.21|   86.08|   73.53
+⚪WR%:   -0.00|  -33.33|  -37.50
+❌ADX:   14.49|   14.88|   15.93
+
+⚪MOM: No Momentum
+✅SMA: Price is Above SMA Bullish
+✅ADI: +DI >DI BULLISH
+✅MACD: Bullish
+✅PSAR: Bullish
+
+Support And Resistance
+S: 0.00000803
+R: 0.00000820
+
+Volatility is moderately low
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+🐻Volume: Bearish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

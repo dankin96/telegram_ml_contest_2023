@@ -1,0 +1,6 @@
+$send = $_REQUEST['send'] ?? false;
+$A = $_REQUEST['A'] ?? 0;
+$B = $_REQUEST['B'] ?? 0;
+$C = $_REQUEST['C'] ?? 0;
+$D = $_REQUEST['D'] ?? 0;
+$accuracy = $_REQUEST['accuracy'] ?? 1;

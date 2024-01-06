@@ -1,0 +1,14 @@
+require("flash").setup({
+  labels = labels,
+  search = {
+    exclude = exclude,
+  },
+  modes = {
+    char = {
+      jump_labels = true
+    },
+    treesitter = {
+      labels = labels
+    }
+  }
+})

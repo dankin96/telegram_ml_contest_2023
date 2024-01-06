@@ -1,0 +1,5 @@
+var ms = User.getProperty("msg")
+Api.sendMessage({ 
+chat_id: parseInt(message),
+text: "" + ms,
+parse_mode: "Markdown"})

@@ -1,0 +1,5 @@
+zeph org_kde_powerdevil[1234]: org.kde.powerdevil: Unsatisfied policies, the action has been aborted
+zeph dbus-daemon[1093]: [system] Activating service name='org.kde.powerdevil.backlighthelper' requested by ':1.37' (uid=1000 pid=1234 comm="/usr/lib/org_kde_powerdevil") (using servicehelper)
+zeph kscreenlocker_greet[999999]: pam_unix(kde:auth): authentication failure; logname=oficsu uid=1000 euid=1000 tty= ruser= rhost=  user=oficsu
+zeph dbus-daemon[1093]: [system] Successfully activated service 'org.kde.powerdevil.backlighthelper'
+zeph kscreenlocker_greet[999999]: pam_faillock(kde:auth): Consecutive login failures for user oficsu account temporarily locked

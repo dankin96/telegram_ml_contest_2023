@@ -1,0 +1,3 @@
+vless://b1a51246-279e-42f1-afb5-3a05993dffd2@cleanmtn.barfak123.eu.org:2087?encryption=none&security=tls&sni=cloud.barfak123.eu.org&fp=chrome&type=grpc&serviceName=%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn%40SnowGuardVpn&mode=gun#%40SnowGuardVpn
+
+

@@ -1,0 +1,7 @@
+  xdg.configFile = {
+    "nvim".source = (builtins.fetchGit {
+      url = "git repo url (private for now)";
+      ref = "master";
+      rev = "3514f353b7c35851020802cdd1aa3776de337989";
+    });
+  };

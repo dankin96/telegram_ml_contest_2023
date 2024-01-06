@@ -1,0 +1,5 @@
+Network name: PowBlocks
+New RPC URL: https://rpc.powblocks.com/
+Chain ID: 12300
+Currency symbol: XPB
+Block explorer URL: https://scan.powblocks.com/

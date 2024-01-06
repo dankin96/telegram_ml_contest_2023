@@ -1,0 +1,67 @@
+   import java.util.ArrayList;
+import java.util.List;
+public class Solution {
+
+    public boolean check(List<List<Character>> board, int i, int j, char number) {
+        for (int y = 0; y < 9; y++) {
+            if (board.get(y).get(j) == number) return false; //по игрику
+        }
+        for (int x = 0; x < 9; x++) {
+            if (board.get(i).get(x) == number) return false; //по иксу
+        }
+
+        for (int y = 0; y < 3; y++) { //квадрат
+            for (int x = 0; x < 3; x++) {
+                if (board.get(i - i % 3 + y).get(j - j % 3 + x) == number) return false;
+            }
+        }
+        return true;
+    }
+
+    public boolean solveSudoku(List<List<Character>> board, int i, int j) {
+        //обычная проходка по x , y
+        if (i == 9) return true;
+        if (j == 9) return solveSudoku(board, i + 1, 0);
+        if (board.get(i).get(j) != '.') return solveSudoku(board, i, j + 1);
+
+        for(char ch = '1'; ch <= '9'; ch++) {
+            if (check(board, i, j, ch)) {
+                board.get(i).set(j, ch);
+                if (solveSudoku(board, i , j+1)) return true;
+                board.get(i).set(j, '.');
+            }
+        }
+        return false;
+    }
+
+    public void solveSudoku(List<List<Character>> board) {
+        solveSudoku(board, 0, 0);
+    }
+
+    public void show(List<List<Character>> board) {
+        for (int y = 0; y < 9; y++) {
+            for (int x = 0; x < 9; x++) {
+                System.out.print(board.get(y).get(x) + " ");
+            }
+            System.out.println();
+        }
+    }
+
+
+    public static void main(String[] args) {
+        Solution sol = new Solution();
+        List<List<Character>> board = new ArrayList<>();
+        board.add(List.of('5', '3', '.', '.', '7', '.', '.', '.', '.'));
+        board.add(List.of('6', '.', '.', '1', '9', '5', '.', '.', '.'));
+        board.add(List.of('.', '9', '8', '.', '.', '.', '.', '6', '.'));
+        board.add(List.of('8', '.', '.', '.', '6', '.', '.', '.', '3'));
+        board.add(List.of('4', '.', '.', '8', '.', '3', '.', '.', '1'));
+        board.add(List.of('7', '.', '.', '.', '2', '.', '.', '.', '6'));
+        board.add(List.of('.', '6', '.', '.', '.', '.', '2', '8', '.'));
+        board.add(List.of('.', '.', '.', '4', '1', '9', '.', '.', '5'));
+        board.add(List.of('.', '.', '.', '.', '8', '.', '.', '7', '9'));
+        sol.solveSudoku(board);
+        sol.show(board);
+    }
+
+}

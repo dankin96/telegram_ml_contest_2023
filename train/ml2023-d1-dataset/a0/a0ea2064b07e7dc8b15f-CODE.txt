@@ -1,0 +1,34 @@
+[
+  {
+    "height": 37146,
+    "tx_hash": "9f2c45a12db0144909b5db269415f7319179105982ac70ed80d76ea79d923ebf",
+    "tx_pos": 0,
+    "value": 45318048
+  },
+  {
+    "height": 41696,
+    "tx_hash": "3d2290c93436a3e964cfc2f0950174d8847b1fbe3946432c4784e168da0f019f",
+    "tx_pos": 0,
+    "value": 919195
+  },
+  {
+    "height": 126184,
+    "token_data": {
+      "amount": "1000000",
+      "category": "8fd6a2f713beaa5907a776b8b3060cddd1c6ff0588554c2364698ae271321ce9",
+      "nft": {
+        "capability": "minting",
+        "commitment": "f00fd00fb33f"
+       }
+    },
+    "tx_hash": "87489c43bae69c297bbaf65276573b0001c20c647a3d54d2842a4425ff87bacc",
+    "tx_pos": 1,
+    "value": 1000000
+  },
+  {
+    "height": 0,
+    "tx_hash": "42f83727115dc7e38b1311aae9c516d9956c16f6017149c9d4a98cc5e738952a",
+    "tx_pos": 7,
+    "value": 99999815
+  }
+]

@@ -1,0 +1,15 @@
+let progress = Arc::new(AtomicUsize::new(0));
+let progress1 = Arc::clone(&progress);
+thread::spawn(move || {
+  for i in 0..100 {
+    thread::sleep(Duration::from_millis(200));
+    progress1.store(i, Ordering::SeqCst));
+  }
+});
+
+loop {
+  let p = progress.load(Orderding::SeqCst);
+  if p >= 100 {
+    break
+  }
+}

@@ -1,0 +1,35 @@
+upstream php-fpm {
+    server pncp-php:9000;
+}
+
+server {
+    listen 80;
+    server_name grou.recife.dev;
+
+    root /var/www/html;
+    index index.php;
+
+    location / {
+        try_files $uri $uri/ /index.php?$query_string;
+    }
+
+    location ~ \.php$ {
+        # include snippets/fastcgi-php.conf;
+        fastcgi_pass php-fpm; # Adjust the PHP-FPM socket path and version
+    }
+
+    location ~ ^/([^/]+)/(.+\.php)$ {
+        try_files $uri =404;
+        fastcgi_pass php-fpm;
+        fastcgi_index index.php;
+        fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+        include fastcgi_params;
+    }
+
+    location ~ /\.ht {
+        deny all;
+    }
+
+    error_log /var/log/nginx/yourdomain.com-error.log;
+    access_log /var/log/nginx/yourdomain.com-access.log;
+}

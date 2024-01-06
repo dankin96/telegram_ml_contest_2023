@@ -1,0 +1,1 @@
+Fixed a bug where users in Germany were incorrectly identified as users in China

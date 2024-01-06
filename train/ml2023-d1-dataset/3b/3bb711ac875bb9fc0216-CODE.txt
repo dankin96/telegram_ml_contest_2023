@@ -1,0 +1,15 @@
+(defface lucius/nerd-icons-purple
+  '((((background dark)) :foreground "#AA759F" :background "#0d0e1c")
+    (((background light)) :foreground "#8940AE" :background "#f6fff9"))
+  "Face for purple icons."
+  :group 'nerd-icons-faces)
+
+(defun tab-bar-format-menu-bar ()
+  "Produce the Menu button for the tab bar that shows the menu bar."
+  `((menu-bar menu-item
+              (format "%s%s%s"
+                      (propertize " " 'face 'lucius/nerd-icons-purple)
+                      (nerd-icons-sucicon "nf-custom-emacs"
+                                          :face 'lucius/nerd-icons-purple)
+                      (propertize "  " 'face 'lucius/nerd-icons-purple))
+              tab-bar-menu-bar :help "Menu Bar”)))

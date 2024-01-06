@@ -1,0 +1,2 @@
+for (Node& i : field) {
+        cout << i.i << ": " << this->operator[](i.i).i << endl;

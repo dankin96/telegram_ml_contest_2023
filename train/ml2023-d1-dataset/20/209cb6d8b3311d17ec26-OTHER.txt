@@ -1,0 +1,1 @@
+TranslateTransition transition = new TranslateTransition(Duration.millis(1000), myTable);

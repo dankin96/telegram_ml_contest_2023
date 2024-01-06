@@ -1,0 +1,2 @@
+ exec("php script.php '$body' > /dev/null 2>&1 &");
+

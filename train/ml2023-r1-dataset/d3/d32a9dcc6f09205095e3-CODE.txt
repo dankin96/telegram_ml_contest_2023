@@ -1,0 +1,18 @@
+// 定义要打开的网址数组
+const urls = ['https://www.google.com', 'https://www.baidu.com', 'https://www.github.com'];
+
+// 定义打开网址的函数
+function openUrl(url) {
+  // 打开网址
+  window.open(url);
+  // 停留5秒
+  setTimeout(function() {
+    // 关闭当前窗口
+    window.close();
+  }, 5000);
+}
+
+// 循环遍历网址数组，依次打开每个网址
+for (let i = 0; i < urls.length; i++) {
+  openUrl(urls[i]);
+}

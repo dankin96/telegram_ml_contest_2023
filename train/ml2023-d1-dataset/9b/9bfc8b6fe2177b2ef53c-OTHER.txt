@@ -1,0 +1,30 @@
+⚔️  Start statistics L4 - 1  ⚔️
+Statistics end
+
+⬇️The statistics are as follows⬇️
+Time: 2023-10-11 18:12:20 in/Gbps: 3.59 in/pps: 187269
+Time: 2023-10-11 18:12:30 in/Gbps: 3.35 in/pps: 184197
+Time: 2023-10-11 18:12:40 in/Gbps: 5.6 in/pps: 257310
+Time: 2023-10-11 18:12:40 in/Gbps: 5.6 in/pps: 257310
+Time: 2023-10-11 18:12:50 in/Gbps: 41.35 in/pps: 1437695
+Time: 2023-10-11 18:13:00 in/Gbps: 486.58 in/pps: 15847587
+Time: 2023-10-11 18:13:00 in/Gbps: 486.58 in/pps: 15847587
+Time: 2023-10-11 18:13:10 in/Gbps: 605.39 in/pps: 19670385
+Time: 2023-10-11 18:13:20 in/Gbps: 640.1 in/pps: 20789207
+Time: 2023-10-11 18:13:20 in/Gbps: 640.1 in/pps: 20789207
+Time: 2023-10-11 18:13:30 in/Gbps: 651.11 in/pps: 21156863
+Time: 2023-10-11 18:13:40 in/Gbps: 641.09 in/pps: 20838604
+Time: 2023-10-11 18:13:40 in/Gbps: 641.09 in/pps: 20838604
+Time: 2023-10-11 18:13:50 in/Gbps: 640.07 in/pps: 20819804
+Time: 2023-10-11 18:13:50 in/Gbps: 640.07 in/pps: 20819804
+Time: 2023-10-11 18:14:00 in/Gbps: 240.07 in/pps: 7850680
+Time: 2023-10-11 18:14:10 in/Gbps: 90.97 in/pps: 3024200
+Time: 2023-10-11 18:14:20 in/Gbps: 78.45 in/pps: 2654699
+Time: 2023-10-11 18:14:20 in/Gbps: 78.45 in/pps: 2654699
+Time: 2023-10-11 18:14:30 in/Gbps: 66.89 in/pps: 2249564
+
+Max Gbps: 651.11
+Max pps: 21156863
+
+You are not currently in an invisible state, the statistics will be displayed in the leaderboard according to the ranking of the data
+Thanks for using this service

@@ -1,0 +1,3 @@
+werf ci-env
+export WERF_FROM=$WERF_REPO
+unset WERF_REPO

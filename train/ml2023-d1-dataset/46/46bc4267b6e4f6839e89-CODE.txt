@@ -1,0 +1,27 @@
+import { setConfig } from "./app/config.ts";
+
+await setConfig({
+  adminUsernames: [
+    "lisku",
+  ],
+  pausedReason: null,
+  maxUserJobs: 1,
+  maxJobs: 100,
+  defaultParams: {
+    batch_size: 1,
+    n_iter: 1,
+    width: 640,
+    height: 768,
+    steps: 30,
+    cfg_scale: 8,
+    sampler_name: "Euler",
+    negative_prompt: "boring_e621_v4, deformityv6",
+  },
+  sdInstances: {
+    "Pinks Laptop": {
+      name: "Pinks Laptop 🇵🇱",
+      api: { url: "http://127.0.0.1:7860/", auth: "Basic zxczxczxc" },
+      maxResolution: 512 * 360,
+    },
+  },
+});

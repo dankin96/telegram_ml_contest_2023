@@ -1,0 +1,2 @@
+vless://f40fe156-08e3-4f4d-a8a4-3cb87fe8c8eb@spain100.setssh.ru:51167?type=grpc&serviceName=Telegram%3A%40set_sshTelegram%3A%40set_sshTelegram%3A%40set_sshTelegram%3A%40set_sshTelegram%3A%40set_sshTelegram%3A%40set_ssh&security=reality&fp=firefox&pbk=nbZZ4OIoa3wbtW01um5I_aJF5oz6nVG4tTAmi-DWKEc&sni=discord.com&sid=7bea7f52&spx=%2F#%40set_ssh(spain-all)-telegram%3A%40set_ssh
+

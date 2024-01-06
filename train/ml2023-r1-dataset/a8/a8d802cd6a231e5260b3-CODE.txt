@@ -1,0 +1,16 @@
+# create a new user
+$ sudo adduser --disabled-password --gecos "" circuitbreaker
+$ sudo adduser circuitbreaker lnd
+
+# symlink lnd datadir
+$ sudo su - circuitbreaker
+$ ln -s /data/lnd /home/circuitbreaker/.lnd
+
+# download git repo and install
+$ git clone https://github.com/lightningequipment/circuitbreaker.git
+$ cd circuitbreaker
+$ go install
+$ go build
+
+# run circuitbreaker
+~/go/bin/circuitbreaker --httplisten "0.0.0.0:9235"

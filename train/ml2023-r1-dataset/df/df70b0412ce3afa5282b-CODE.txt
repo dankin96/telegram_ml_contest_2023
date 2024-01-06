@@ -1,0 +1,7 @@
+let person = {
+    name: "Leonardo"
+};
+Object.freeze(person);
+person.name = "Lima"; // Uncaught TypeError: Cannot assign to read only property 'name' of object
+console.log(person);
+

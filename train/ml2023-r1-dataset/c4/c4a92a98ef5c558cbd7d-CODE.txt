@@ -1,0 +1,128 @@
+Production GATEWAY warning
+
+At least 1 events occurred between 2023-10-06 00:41 UTC and 2023-10-06 04:41 UTC
+
+@timestamp: 2023-10-06T04:41:47.818Z
+@version: 1
+_id: 6qRKA4sBL0jxnycbsoND
+_index: filebeat-2023.10.06
+_type: _doc
+agent: {
+    "ephemeral_id": "180a9b60-5bb4-404a-a8ca-7c282ac7bbc3",
+    "hostname": "a40c1354553d",
+    "id": "b0a8a735-eeb9-44a0-98ff-eb375f64753c",
+    "type": "filebeat",
+    "version": "7.6.2"
+}
+context: {
+    "body": {
+        "data": {
+            "showWidget": {
+                "Widget": null,
+                "result": {
+                    "approval": false,
+                    "code": 403,
+                    "errors": [
+                        {
+                            "field": "tariff option",
+                            "message": "Pricing plan limit has been exceeded. Upgrade your pricing plan."
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "code": 403,
+    "filter_tags": [],
+    "headers": {
+        "Access-Control-Allow-Credentials": [
+            "true"
+        ],
+        "Access-Control-Allow-Headers": [
+            "Content-Type, Access-Control-Allow-Headers, Access-Control-Allow-Origin, Authorization, X-Requested-With"
+        ],
+        "Access-Control-Allow-Methods": [
+            "GET, POST, PUT, PATCH, OPTIONS, DELETE"
+        ],
+        "Access-Control-Allow-Origin": [
+            "*"
+        ],
+        "Cache-Control": [
+            "no-cache, private"
+        ],
+        "Content-Length": [
+            "192"
+        ],
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Fri, 06 Oct 2023 04:41:46 GMT"
+        ],
+        "Permissions-Policy": [
+            "accelerometer=(self), ambient-light-sensor=(self), autoplay=(self), battery=(self), camera=(self), cross-origin-isolated=(self), display-capture=(self), document-domain=*, encrypted-media=(self), execution-while-not-rendered=*, execution-while-out-of-viewport=*, fullscreen=(self), geolocation=(self), gyroscope=(self), magnetometer=(self), microphone=(self), midi=(self), navigation-override=(self), payment=(self), picture-in-picture=*, publickey-credentials-get=(self), screen-wake-lock=(self), sync-xhr=*, usb=(self), web-share=(self), xr-spatial-tracking=(self)"
+        ],
+        "Record-Type": [
+            "application/json; charset=utf-8"
+        ],
+        "Referrer-Policy": [
+            "no-referrer"
+        ],
+        "Set-Cookie": [
+            "session=eyJpdiI6Iml3M0pkWGZDaC9yVXB3Vi92K2tvb1E9PSIsInZhbHVlIjoibFljUFFWanQvN3h1V014UkNpamliWlc3bXFVWnJWbjY5b0RsSk9obng4aWIxL0RRSy9xSHV4dFFieFBheFpxd2NEWlVHSUcyNWY1YktyWVUrTm9Dbyt2blFvVnlQcDVEVjlDc1p5V1JZL1ZYZnlZUzVrMk9WU0JBak9GVGRBZXciLCJtYWMiOiIyMmQ1NjViNTRiZjIyZGJiMzVkYjhkODlkNDQwYzZiMzQxMzFlY2NhNjNmMTk2MjIwMzMxNDNkMzFjODUwNmU5IiwidGFnIjoiIn0%3D; expires=Fri, 06-Oct-2023 06:41:46 GMT; Max-Age=7200; path=/; secure; httponly; samesite=lax"
+        ],
+        "Strict-Transport-Security": [
+            "max-age=31536000"
+        ],
+        "Vary": [
+            "Accept-Encoding"
+        ],
+        "X-Content-Type-Options": [
+            "nosniff"
+        ],
+        "X-Download-Options": [
+            "noopen"
+        ],
+        "X-Frame-Options": [
+            "sameorigin"
+        ],
+        "X-Permitted-Cross-Domain-Policies": [
+            "none"
+        ],
+        "X-Xss-Protection": [
+            "1; mode=block"
+        ]
+    },
+    "method": "POST",
+    "url": "https://app.13chats.com/schema"
+}
+datetime: 2023-10-06 04:41:46.370650542 +0000 UTC
+ecs: {
+    "version": "1.4.0"
+}
+extra: []
+fields: {
+    "application": "13chats-gateway",
+    "env": "production",
+    "type": "response_warning"
+}
+host: {
+    "name": "a40c1354553d"
+}
+input: {
+    "type": "log"
+}
+level: 403
+log: {
+    "file": {
+        "path": "/app/log/response_warning_log_2023-10-06.json"
+    },
+    "offset": 5134441
+}
+message: Response
+num_hits: 18
+num_matches: 2
+tags: [
+    "json_log",
+    "beats_input_codec_plain_applied"
+]

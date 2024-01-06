@@ -1,0 +1,5 @@
+
+$ sysctl hw.battery
+hw.battery.chargemode=1
+hw.battery.chargestart=85
+hw.battery.chargestop=90

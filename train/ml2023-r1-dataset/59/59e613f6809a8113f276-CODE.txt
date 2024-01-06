@@ -1,0 +1,23 @@
+def calculate_enthalpy(U, P, V, h, mass_flow_rate):
+    enthalpy = U + P * V + integrate_enthalpy(h, mass_flow_rate)
+    return enthalpy
+
+def integrate_enthalpy(h, mass_flow_rate):
+    # Here, you would implement the integration of h * dm
+    # based on your specific problem and the available data
+    # You can use numerical integration methods like Simpson's rule or the trapezoidal rule
+    
+    # For demonstration purposes, let's assume a constant mass flow rate
+    integral = h * mass_flow_rate
+    
+    return integral
+
+# Example usage
+U = 1000  # Internal energy of the system
+P = 2  # Pressure of the system
+V = 10  # Volume of the system
+h = 50  # Specific enthalpy of the flowing material
+mass_flow_rate = 5  # Mass flow rate of the material
+
+enthalpy = calculate_enthalpy(U, P, V, h, mass_flow_rate)
+print("The enthalpy of the open system is:", enthalpy)

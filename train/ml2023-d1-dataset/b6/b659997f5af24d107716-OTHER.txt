@@ -1,0 +1,11 @@
+ 12570492671
+pai: NILTON FERREIRA DE ARAUJO
+mae: MARISTELA PEREIRA DOS SANTOS ARAUJO
+municipioNasci: BELO HORIZONTE - MG
+enderecoMuni: BETIM - MG
+enderecoLogr: ITALIA
+enderecoNu: 36
+enderecoBa: PETROVALE
+enderecoCe: 32.668-124
+cns: 700009467670903
+telefone: 31:99390-8708

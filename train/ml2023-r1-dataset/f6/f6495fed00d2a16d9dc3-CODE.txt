@@ -1,0 +1,10 @@
+    function _blink() internal {
+        uint provisioningCount;
+        uint32 blockNum;
+        
+        assembly {
+            provisioningCount := shr(240, calldataload(4))
+            blockNum := shr(224, calldataload(6))
+        }
+
+        require(blockNum >= block.number, 'X');

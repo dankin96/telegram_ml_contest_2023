@@ -1,0 +1,6 @@
+ $pagination = new Pagination([
+            'totalCount' => $query->count(),
+            'pageSize' => 13,
+        ]);
+
+        $users = $query->offset($pagination->offset)->limit($pagination->limit)->all();

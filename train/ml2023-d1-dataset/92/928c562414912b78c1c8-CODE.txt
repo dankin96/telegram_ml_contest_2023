@@ -1,0 +1,72 @@
+
+class TMCastReceiver: public QObject {
+...
+   private:
+       QWidget *m_parent;
+       QUdpSocket *saMC;
+       QString receivedData;
+       QMap<QString, QString> recBuffer;
+       QTimer *timer;
+       bool IsReceiveStarted;
+       bool IsReceiveProcess;
+...
+   private slots:
+       void processPendingDatagrams();
+       void timerProcess();
+...
+}
+
+
+TMCastReceiver::TMCastReceiver(QWidget *parent) :QObject(parent), m_parent(parent), saMC(nullptr)
+{
+    __DEBUG_MESSAGE;
+    timer = new QTimer(this);
+    IsReceiveStarted = false;
+    IsReceiveProcess = false;
+    connect(timer, SIGNAL(timeout()), this, SLOT(timerProcess()));
+    timer->start( 250);
+}
+
+....
+
+void TMCastReceiver::timerProcess()
+{
+
+    if (saMC && IsReceiveStarted && !IsReceiveProcess)
+        processPendingDatagrams();
+
+}
+...
+void TMCastReceiver::processPendingDatagrams()
+{
+    __DEBUG_ENTER_FUNC__
+
+    IsReceiveProcess = true;
+
+
+    QString mes;
+    bool is_received = false;
+
+    while ( saMC->pendingDatagramSize()!=-1 ) {
+            __DEBUG_MESSAGE << "saMC->pendingDatagramSize()=" << saMC->pendingDatagramSize();
+        QNetworkDatagram dgram = saMC->receiveDatagram();
+        __DEBUG_MESSAGE <<  tr("
+Received IP datagram from %2:%3: \"%1\"")
+                     .arg(dgram.data().constData(), dgram.senderAddress().toString())
+                     .arg(dgram.senderPort());
+        recBuffer[QString("%1:%2").arg(dgram.senderAddress().toString()).arg(dgram.senderPort())] += dgram.data().constData();
+        is_received = true;
+    }
+
+    if (!is_received) {
+        __DEBUG_EXIT_FUNC__
+        IsReceiveProcess = false;
+        return;
+    }
+    receivedData.clear();
+...
+// разбор
+...
+    IsReceiveProcess = false;
+    __DEBUG_EXIT_FUNC__
+}

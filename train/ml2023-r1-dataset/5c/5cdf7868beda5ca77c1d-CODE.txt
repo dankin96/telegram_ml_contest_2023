@@ -1,0 +1,5 @@
+@router.delete("/bulk")
+async def delete_items(
+    item_ids:  List[int]
+) -> None:
+    print(item_ids)

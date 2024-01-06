@@ -1,0 +1,8 @@
+xyz= (code) ->
+  [a, b, c | _] = code |> String.graphemes() |> Enum.map(&String.to_integer/1) 
+  ex = calc(a, b)
+  ey = calc(a, c)
+  ez = calc(b, c)
+
+  [ex, ey, ez]
+end

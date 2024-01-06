@@ -1,0 +1,1 @@
+try (ClickHouseClient client = ClickHouseClient.newInstance(ClickHouseProtocol.HTTP)) { ClickHouseResponse response = client.connect(getServer())// or client.connect(endpoints) .format(ClickHouseFormat.RowBinaryWithNamesAndTypes) .query(selectQuery) .executeAndWait(); { return castResult(response); } }

@@ -1,0 +1,25 @@
+import requests
+from bs4 import BeautifulSoup
+
+def filter_coin():
+    url = 'https://www.tse.ir/MarketWatch/SymbolSearch.aspx'
+    params = {
+        'txtSymbol': 'رفاه ملت پارسیان صادرات آینده',  # نام سکه مورد نظر
+        'enSymbol': '',
+        'board': 'All',
+        'sector': 'All',
+        'industry': 'All',
+        'subIndustry': 'All'
+    }
+
+    response = requests.get(url, params=params)
+    soup = BeautifulSoup(response.text, 'html.parser')
+
+    # پردازش و فیلتر کردن اطلاعات
+    # ...
+
+    # نمایش نتایج
+    # ...
+
+# فراخوانی تابع برای فیلتر کردن سکه
+filter_coin()

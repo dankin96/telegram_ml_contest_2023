@@ -1,0 +1,6 @@
+
+Merging configuration from template file "/configmaps/config.template.toml" 
+Token specified trying to verify runner...         
+WARNING: If you want to register use the '-r' instead of '-t'. 
+ERROR: Verifying runner... is removed               runner=77UnZKym
+PANIC: Failed to verify the runner. You may be having network problems. 

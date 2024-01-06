@@ -1,0 +1,6 @@
+_index: logstash_kafka-6.5.3-sli-2023.10.13
+ area:CB
+ eventType:WARNING
+ sourceId:cvai0apcf1009vs.syssede.systest.sanpaoloimi.com
+ error: Contribution Rejected
+ message:  RIC: RESOURCECBTESTAUD3MU4 Curve: AUD3M Value: 0.9563732221263529 Error: [500]: Unknown Item

@@ -1,0 +1,6 @@
+var d = [1, 2, 3];
+var l = false;
+
+var u = l ? (0, r(d[1])) : undefined;
+
+console.log(u); // undefined

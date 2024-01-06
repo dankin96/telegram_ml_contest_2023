@@ -1,0 +1,21 @@
+    firehose-go-ethereum = pkgs.stdenv.mkDerivation rec {
+      pname = "firehose-go-ethereum";
+      version = "1.13.2-fh2.3";
+
+      src = pkgs.fetchurl {
+        url = "https://github.com/streamingfast/go-ethereum/releases/download/geth-v${version}/geth_linux";
+        sha256 = "5e7c857cbb420c7d6f566d8acc6649deac26eaac583baf207ef379d4c8fe8876";
+      };
+
+      nativeBuildInputs = [
+        pkgs.autoPatchelfHook
+      ];
+
+      sourceRoot = ".";
+
+      installPhase = ''
+        cp $src/geth_linux $out/bin/geth
+      '';
+
+      dontUnpack = true;
+    };

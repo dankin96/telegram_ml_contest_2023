@@ -1,0 +1,5 @@
+app.post('/web-data', async (req, res) => {
+  console.log(`object`);
+  const { queryId, products, totalPrice } = req.body;
+
+  console.log(queryId, products, totalPrice

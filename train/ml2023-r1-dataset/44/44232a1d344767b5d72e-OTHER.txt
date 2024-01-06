@@ -1,0 +1,25 @@
+SQL> sho parameter parallel;
+
+NAME                                 TYPE        VALUE
+------------------------------------ ----------- ------------------------------
+fast_start_parallel_rollback         string      LOW
+parallel_adaptive_multi_user         boolean     TRUE
+parallel_automatic_tuning            boolean     FALSE
+parallel_degree_limit                string      CPU
+parallel_degree_policy               string      MANUAL
+parallel_execution_message_size      integer     16384
+parallel_force_local                 boolean     FALSE
+parallel_instance_group              string
+parallel_io_cap_enabled              boolean     FALSE
+parallel_max_servers                 integer     1280
+parallel_min_percent                 integer     0
+
+NAME                                 TYPE        VALUE
+------------------------------------ ----------- ------------------------------
+parallel_min_servers                 integer     0
+parallel_min_time_threshold          string      AUTO
+parallel_server                      boolean     FALSE
+parallel_server_instances            integer     1
+parallel_servers_target              integer     512
+parallel_threads_per_cpu             integer     2
+recovery_parallelism                 integer     0

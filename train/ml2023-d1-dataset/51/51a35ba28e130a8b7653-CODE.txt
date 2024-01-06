@@ -1,0 +1,1 @@
+print("".join(filter(str.isdigit, "строка с цифрами 23902 тут или т3т")))

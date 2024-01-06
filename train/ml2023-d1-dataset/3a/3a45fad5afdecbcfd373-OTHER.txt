@@ -1,0 +1,11 @@
+alerting:
+  node_exporter-cpu-rules.yaml:
+    file: alerting/sudis/node_exporter-cpu-rules.yaml
+  node_exporter-disk-rules.yaml:
+    file: alerting/sudis/node_exporter-disk-rules.yaml
+  node_exporter-memory-rules.yaml:
+    file: alerting/sudis/node_exporter-memory-rules.yaml
+  nginx-ingress-controller-rules.yaml:
+    file: alerting/sudis/nginx-ingress-controller-rules.yaml
+  k8s-resources-rules.yaml:
+    file: alerting/sudis/k8s-resources-rules.yaml

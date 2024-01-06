@@ -1,0 +1,1 @@
+sed -i -n -e :a -e '1,10!{P;N;D;};N;ba' file.txt

@@ -1,0 +1,1 @@
+error 9, NaN not allowed in vector, full error: {'ok': 0.0, 'errmsg': 'NaN not allowed in vector', 'code': 2, 'codeName': 'BadValue'}

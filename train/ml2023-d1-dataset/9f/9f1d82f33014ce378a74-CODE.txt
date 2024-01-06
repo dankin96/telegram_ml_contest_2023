@@ -1,0 +1,12 @@
+python
+import hashlib
+
+stored_hashed_password = "здесь должен быть сохраненный хешированный пароль"
+user_input_password = input("Введите пароль: ")
+
+hashed_input_password = hashlib.sha256(user_input_password.encode()).hexdigest()
+
+if stored_hashed_password == hashed_input_password:
+    print("Пароли совпадают.")
+else:
+    print("Пароли не совпадают.")

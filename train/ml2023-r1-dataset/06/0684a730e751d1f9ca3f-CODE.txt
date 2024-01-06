@@ -1,0 +1,4 @@
+mysql -u root -p
+mysql> CREATE DATABASE your_database_name;
+mysql> quit
+mysql -u root -p your_database_name < /path/to/your/backup/file.sql

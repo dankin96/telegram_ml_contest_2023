@@ -1,0 +1,3 @@
+Host => CVAI0BACF1000VP.sede.corp.sanpaoloimi.com
+Status => down
+Tags => [u'stw', u'batch', u'server']

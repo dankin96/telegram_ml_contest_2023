@@ -1,0 +1,9 @@
+Resultados de la Primitiva
+================================
+Jueves 5 de octubre de 2023
+--------------------------------
+Números: 4, 6, 14, 35, 40, 45
+Complementario: 11
+Reintegro: 2
+Joker: 5 828 177
+--------------------------------

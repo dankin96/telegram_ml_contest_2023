@@ -1,0 +1,5 @@
+switch:
+  - platform: wake_on_lan
+    mac: 34:E8:94:XX:XX:XX
+    name: PC_alex
+    host: 192.168.1.101

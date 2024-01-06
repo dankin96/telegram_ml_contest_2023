@@ -1,0 +1,9 @@
+name: Test runner
+on:
+  push:
+    branches:
+      - development
+      - staging
+      - production
+  pull_request:
+      types: [opened, synchronize, reopened]

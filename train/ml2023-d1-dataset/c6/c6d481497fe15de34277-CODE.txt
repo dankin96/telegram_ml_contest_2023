@@ -1,0 +1,2 @@
+echo $C_INCLUDE_PATH
+/home/hitogava/include/

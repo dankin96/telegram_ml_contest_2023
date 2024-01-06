@@ -1,0 +1,29 @@
+13 October Friday 
+🍽Yemek Listesi🍽 
+
++-----------------+
+| Günlük Menü     |
++-----------------+
+| Etli Nohut      |
+| Pirinç Pilavı   |
+| Yoğurt          |
+| Haşhaşlı Revani |
++-----------------+
+
++-----------------+
+| Vejetaryen Menü |
++-----------------+
+| Nohut Yemeği    |
+| Pirinç Pilavı   |
+| Yoğurt          |
+| Haşhaşlı Revani |
++-----------------+
+
++---------------+
+| Vegan Menü    |
++---------------+
+| Nohut Yemeği  |
+| Pirinç Pilavı |
+| Söğüş         |
+| Tahin Helva   |
++---------------+

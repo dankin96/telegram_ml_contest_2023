@@ -1,0 +1,10 @@
+youtube ad blocker
+
+■ Skip Ads(Auto skip): Skips ads between videos.
+■ Remove Banner Ads(adblock): Blocks network advertisements.
+■ Floating player mode(PIP): Watch the video while doing other tasks.
+■ Lock function: Full screen touch lock
+■ Battery saving: lock the screen and dim the screen to play
+■ Timer: Set the timer
+■ Shortcut: Create a shortcut to the video on the desktop
+

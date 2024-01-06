@@ -1,0 +1,6 @@
+Merge branch 'RM-62569' into 'test'
+Merge branch 'RM-63635' into 'test'
+Merge branch 'RM-63636' into 'test'
+RM-62569 - Изменил формат скачиваемого файла со сведениями для формирования контакрта с pdf на docx
+RM-63635 - Доработка XML
+RM-63636 - BC Math

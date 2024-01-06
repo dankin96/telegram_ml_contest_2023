@@ -1,0 +1,7 @@
+vector P = point(0, "P", @ptnum);
+vector T = point(0, "tangentu", @ptnum);
+float t = chramp("t", @ptnum);
+vector P0 = P - T * t;
+vector P1 = P + T * (1 - t);
+vector Pmid = lerp(P0, P1, 0.5);
+@P = Pmid;

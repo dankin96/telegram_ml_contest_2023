@@ -1,0 +1,4 @@
+(gdb) info symbol 0x22260
+*ABS*+0x89040@plt in section .plt of /home/as/libc-2.28.so
+(gdb) info symbol 0x89040
+mempcpy in section .text of /home/as/libc-2.28.so

@@ -1,0 +1,28 @@
+def convert_number(number, base_from, base_to):
+    """
+    Функция, которая переводит число из одной системы счисления в другую.
+    
+    Параметры:
+    number (str) - число в исходной системе счисления
+    base_from (int) - основание исходной системы счисления
+    base_to (int) - основание целевой системы счисления
+    
+    Возвращает:
+    str - число в целевой системе счисления
+    """
+    decimal_number = int(number, base_from)  # перевод числа в десятичную систему
+    converted_number = ""
+  
+    while decimal_number > 0:
+        remainder = decimal_number % base_to  # остаток от деления
+        converted_number = str(remainder) + converted_number
+        decimal_number = decimal_number // base_to  # целая часть от деления
+
+    return converted_number
+
+# пример использования функции
+number = "101010"  # число в двоичной системе счисления
+base_from = 2
+base_to = 10  # перевод в десятичную систему счисления
+converted_number = convert_number(number, base_from, base_to)
+print(converted_number)

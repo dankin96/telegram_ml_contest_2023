@@ -1,0 +1,4 @@
+> protoc: stdout: . stderr: bilibili/dynamic/common/dynamic.proto:888:5: "VOTE" is already defined in "bilibili.dynamic".
+  bilibili/dynamic/common/dynamic.proto:888:5: Note that enum values use C++ scoping rules, meaning that enum values are siblings of their type, not children of it.  Therefore, "VOTE" must be unique within "bilibili.dynamic", not just within "OpusBizType".
+  bilibili/dynamic/common/dynamic.proto:890:5: "LOTTERY" is already defined in "bilibili.dynamic".
+...

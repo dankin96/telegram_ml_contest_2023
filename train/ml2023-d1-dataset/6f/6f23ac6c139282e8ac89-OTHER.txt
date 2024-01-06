@@ -1,0 +1,5 @@
+Merge branch 'preprod' into 'master'
+Merge branch 'RM-50073' into 'preprod'
+Merge branch 'RM-63540' into test
+RM-50073 - Отключение старого справочника.
+RM-63540 - Разбор, оптимизация счетчика уведомлений.

@@ -1,0 +1,32 @@
+Bitmex XBTUSD
+Shorts Paying Longs
+Nominal -0.0140%
+Daily Rate: -0.0420%
+Next Funding in an hour
+Next predicted: -0.0012%
+Bid/Ask: $28,040.50 / $28,041.00
+Index Price:$28,051.63
+Mark Price: $28,051.63
+Open Interest: $206,612,400
+
+Bitmex ETHUSD
+Longs Paying Shorts
+Nominal 0.0100%
+Daily Rate: 0.0300%
+Next Funding in an hour
+Next predicted: 0.0187%
+Bid/Ask: $1,639.60 / $1,639.65
+Index Price:$1,638.19
+Mark Price: $1,638.19
+Open Interest: $1,007,344
+
+Bitmex XRPUSD
+Longs Paying Shorts
+Nominal 0.0100%
+Daily Rate: 0.0300%
+Next Funding in an hour
+Next predicted: 0.0100%
+Bid/Ask: $0.52 / $0.52
+Index Price:$0.52
+Mark Price: $0.52
+Open Interest: $1,322,385

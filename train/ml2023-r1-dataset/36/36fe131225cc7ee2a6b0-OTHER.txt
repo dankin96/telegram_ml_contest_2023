@@ -1,0 +1,2 @@
+/home/suhr/nlab-content> fd name | wc -l
+18715

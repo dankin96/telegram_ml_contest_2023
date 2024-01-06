@@ -1,0 +1,6 @@
+switch (bool)
+    {
+    case true: X();
+    default: Y();
+    }
+

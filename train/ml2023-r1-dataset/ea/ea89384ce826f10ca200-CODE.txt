@@ -1,0 +1,39 @@
+from PIL import Image, ImageDraw
+
+# Создаем пустое изображение
+image = Image.new('RGB', (400, 400), 'white')
+
+# Создаем объект ImageDraw для рисования на изображении
+draw = ImageDraw.Draw(image)
+
+# Рисуем голову медведя (эллипс)
+head_size = (200, 200)
+head_position = (100, 100)
+draw.ellipse((head_position, (head_position[0] + head_size[0], head_position[1] + head_size[1])), fill='brown')
+
+# Рисуем уши (треугольники)
+ear_size = (50, 100)
+ear_left_position = (head_position[0] - ear_size[0], head_position[1] - ear_size[1] + 50)
+ear_right_position = (head_position[0] + head_size[0], head_position[1] - ear_size[1] + 50)
+draw.polygon([(ear_left_position[0], ear_left_position[1]), (ear_left_position[0] + ear_size[0], ear_left_position[1]), (head_position[0], head_position[1])], fill='brown')
+draw.polygon([(ear_right_position[0], ear_right_position[1]), (ear_right_position[0] - ear_size[0], ear_right_position[1]), (head_position[0] + head_size[0], head_position[1])], fill='brown')
+
+# Рисуем глаза (окружности)
+eye_size = 25
+eye_left_position = (head_position[0] + 60, head_position[1] + 80)
+eye_right_position = (head_position[0] + 140, head_position[1] + 80)
+draw.ellipse((eye_left_position[0] - eye_size, eye_left_position[1] - eye_size, eye_left_position[0] + eye_size, eye_left_position[1] + eye_size), fill='white')
+draw.ellipse((eye_right_position[0] - eye_size, eye_right_position[1] - eye_size, eye_right_position[0] + eye_size, eye_right_position[1] + eye_size), fill='white')
+
+# Рисуем нос (эллипс)
+nose_size = (40, 20)
+nose_position = (head_position[0] + head_size[0] // 2 - nose_size[0] // 2, head_position[1] + 120)
+draw.ellipse((nose_position, (nose_position[0] + nose_size[0], nose_position[1] + nose_size[1])), fill='black')
+
+# Рисуем рот (круг)
+mouth_size = 60
+mouth_position = (head_position[0] + head_size[0] // 2 - mouth_size // 2, head_position[1] + 160)
+draw.ellipse((mouth_position[0], mouth_position[1], mouth_position[0] + mouth_size, mouth_position[1] + mouth_size), fill='black')
+
+# Сохраняем изображение
+image.save('bear.jpg')

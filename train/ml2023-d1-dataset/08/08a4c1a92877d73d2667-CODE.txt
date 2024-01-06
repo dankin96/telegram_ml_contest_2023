@@ -1,0 +1,1 @@
+for i in {0..60}; do sleep 1; yes | sudo pacman -Syyu; done

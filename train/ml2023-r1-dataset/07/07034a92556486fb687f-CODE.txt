@@ -1,0 +1,1 @@
+lspci | grep -e "Network" -e "Ethernet"

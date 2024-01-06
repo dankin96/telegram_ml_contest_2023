@@ -1,0 +1,30 @@
+from tkinter import *
+from tkinter import messagebox
+
+
+
+def start():
+  srver1 = server.get()
+  print(server1)
+
+  
+window = Tk()
+window.title("Anonymous DDOS")
+window.config(bg="white")
+window.geometry("290x300")
+
+Label(window,text="NULL", bg="white", fg="red", font=("Aria",20)).place(x=10, y=10)
+Label(window,text="DDOS", bg="white", fg="red", font=("Aria",20)).place(x=95, y=10)
+Label(window,text="ATACK", bg="white", fg="red", font=("Aria",20)).place(x=190, y=10)
+Label(window,text="server ip :", bg="white", fg="black").place(x=10, y=60)
+Label(window,text="port 80 :", bg="white", fg="black").place(x=10, y=110)
+Label(window,text="turbo 135 :", bg="white", fg="black").place(x=10, y=160)
+Label(window,text="We do not forgive, we do not forget, wait for us", font=("Aria",9)).place(x=0, y=280)
+
+server = Entry(window).place(x=90, y=60)
+port = Entry(window).place(x=90, y=110)
+turbo = Entry(window).place(x=90, y=160)
+
+Button(window, text="Atack", command=start).place(x=115, y=210)
+
+window.mainloop()

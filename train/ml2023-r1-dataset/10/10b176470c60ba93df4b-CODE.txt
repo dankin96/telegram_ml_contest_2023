@@ -1,0 +1,8 @@
+[main]
+use_default_menu: True
+
+[menu __main my_menu_shutdown]
+name: Shutdown
+icon: shutdown
+method: printer.gcode.script
+params: {"script":"SHUTDOWN_MACHINE"}

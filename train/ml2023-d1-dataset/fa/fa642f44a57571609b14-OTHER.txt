@@ -1,0 +1,1 @@
+find . -name f | xargs -P 8 myscript.py

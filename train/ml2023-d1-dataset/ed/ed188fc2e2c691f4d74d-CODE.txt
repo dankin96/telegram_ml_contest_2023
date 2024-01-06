@@ -1,0 +1,33 @@
+<div 
+     class="obj" 
+      data-spped="200"
+      data-delta-x="20"
+      data-delta-y="20"
+     ></div>
+
+     <div 
+     class="obj" 
+      data-spped="400"
+      data-delta-x="40"
+      data-delta-y="40"
+     ></div>
+
+     <div 
+     class="obj" 
+      data-spped="300"
+      data-delta-x="30"
+      data-delta-y="30"
+     ></div>
+
+
+
+const objs = document.querySelectorAll('.obj');
+document.addEventListener('mousemove', parallax);
+const parallax = () => {
+  objs.forEach(elem => {
+    const speed = elem.data.speed;
+    const deltaX = elem.data.deltaX;
+    const deltaY = elem.data.deltaY
+  })
+   
+}

@@ -1,0 +1,13 @@
+
+/help@PterKengBot               显示此帮助信息
+/ping@PterKengBot               查看机器人存活状态
+/stats@PterKengBot           *  查看站点统计信息
+/keng@PterKengBot            *  等价于 stats
+/notice_me@PterKengBot       *  获取坑位通知频道链接
+/flush@PterKengBot           !  强制刷新数据
+/eval@PterKengBot            !  ~~调教 bot 使用的命令~~
+
+/forward_mode on/off       !P  自动转发接下来私聊 BOT 的消息到猫站群
+    /edit <msg_link> <text>    !P  编辑指定消息
+    /delete <msg_link>         !P  删除指定消息
+    /reply <msg_link>          !P  回复指定消息 

@@ -1,0 +1,8 @@
+function init(self)
+  -- Получить ID экземпляра кнопки
+  self.button_instance = go.get_id("button")
+
+  -- Установить позицию кнопки
+  local position = vmath.vector3(1000, 200, 0) -- Указать требуемые координаты
+  go.set_position(position, self.button_instance)
+end

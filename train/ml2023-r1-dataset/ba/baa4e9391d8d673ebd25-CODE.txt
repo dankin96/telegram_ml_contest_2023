@@ -1,0 +1,7 @@
+$term_args = array(
+                        'taxonomy' => 'locations',
+                        'hide_empty' => false,
+                        'fields' => 'all',
+                        'count' => true,
+                    );
+                    $term_query = new WP_Term_Query($term_args);

@@ -1,0 +1,12 @@
+Date 2023-10-04
+
+Network: Applovin
+AffectedCampaigns: 139
+NewPairs: 527
+StoppedPairs: 0
+NewVideos: 406
+NewPlayables: 517
+NewEndcards: 10
+NewImages: 0
+Errors: 26
+ShouldRetry: 0

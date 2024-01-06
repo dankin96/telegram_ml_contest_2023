@@ -1,0 +1,18 @@
+def countStrings(X, Y):
+    # Base cases
+    if X == 0 and Y == 0:
+        return 1
+    if X == 0:
+        return countStrings(X, Y-1)
+    if Y == 0:
+        return countStrings(X-1, Y)
+
+    # Recurrence relation
+    return countStrings(X-1, Y) + countStrings(X, Y-1)
+
+# Example usage:
+X = 3  # Number of 1's
+Y = 2  # Number of 0's
+
+result = countStrings(X, Y)
+print(f"Number of binary strings with {X} 1's and {Y} 0's: {result}")

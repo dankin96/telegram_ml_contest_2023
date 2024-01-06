@@ -1,0 +1,3 @@
+Доступные виды связок обмена:
+USDT/ETH,USDT/BTC,USDT/TRX, ETH/BTC,
+BTC/TRX,USDT/TON.

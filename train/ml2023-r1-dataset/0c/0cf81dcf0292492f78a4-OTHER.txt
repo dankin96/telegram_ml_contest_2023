@@ -1,0 +1,4 @@
+## What's Changed
+
+*   Feature/bumpver202310 by [@theshadowco](https://github.com/theshadowco) in [#424](https://github.com/1c-syntax/mdclasses/pull/424)
+*   Подготовка к 0.12 by [@theshadowco](https://github.com/theshadowco) in [#425](htt...

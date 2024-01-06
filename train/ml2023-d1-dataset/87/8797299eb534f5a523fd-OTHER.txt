@@ -1,0 +1,3 @@
+choosenim devel [--latest]
+    Installs (if necessary) and selects the most recent nightly build of Nim.
+    The '--latest' flag selects and builds the latest commit in the devel branch

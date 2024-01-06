@@ -1,0 +1,11 @@
+SoundPicker
+DeskClock
+ExactCalculator
+Gallery2
+Jelly (Browser)
+Etar (Calendar)
+Recorder
+Contacts
+Dialer
+messaging
+MatLog

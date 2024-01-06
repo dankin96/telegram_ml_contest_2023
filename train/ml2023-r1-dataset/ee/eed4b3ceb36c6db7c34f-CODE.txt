@@ -1,0 +1,7 @@
+var PGC1 = Sistem.PGC(5);
+var PGC2 = Sistem.PGC(8);
+var PGC3 = Sistem.PGC(15);
+
+Sistem.Cizgiler[0].Deger = PGC1 ;
+Sistem.Cizgiler[1].Deger = PGC2 ;
+Sistem.Cizgiler[2].Deger = PGC3 ;

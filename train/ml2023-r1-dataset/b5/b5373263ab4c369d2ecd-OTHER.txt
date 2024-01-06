@@ -1,0 +1,33 @@
+Exchange PIVXBTC 1h Binance
+Price:0.00000659|0.00000667|0.00000660
+Vol:    61,738| 117,211|  33,960
+ATR: 0.00000010
+
+✅OBV:-185.8 K|-124.1 K|-241.3 K
+⚪RSI:   47.23|   52.39|   47.75
+⚪MFI:   22.65|   40.60|   36.76
+⚪CCI:  -95.43|  -46.38|  -84.07
+❌WR%:  -87.50|  -43.75|  -93.55
+✅ADX:   37.45|   37.86|   37.81
+
+❌MOM: Bearish Momentum
+❌SMA: Price Below SMA Bearish
+✅ADI: +DI >DI BULLISH
+❌MACD: Bearish
+❌PSAR: Bearish
+
+Support And Resistance
+S: 0.00000651
+R: 0.00000677
+R: 0.00000689
+
+Volatility is moderately high
+
+EXPERIMENTAL 🧪
+⚪RSI:No divergences
+⚪MFI:No divergence
+⚪FVE: No divergence
+🐂Volume: Bullish Volume Trend
+
+Whale Algo 🐳 
+You need a /pro account to get access

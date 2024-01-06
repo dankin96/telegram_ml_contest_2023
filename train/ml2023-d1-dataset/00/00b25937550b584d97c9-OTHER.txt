@@ -1,0 +1,12 @@
+LUNCH - LunchDao
+$0.000082170
+Network: ETH
+H|L: 0.00|0.00008020
+1h:  2.5%      😀       
+24h: -3.3%     😥       
+7d:  -8.0%     😰       
+Vol: $721.0
+Liq: $19.7 K
+Circ Mcap: 73.2 K
+FDV 73.2 K
+CA: 0x71a28feaee902966dc8d355e7b8aa427d421e7e0

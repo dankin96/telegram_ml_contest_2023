@@ -1,0 +1,1 @@
+Cannot read property 'loadAnimation' of undefined

@@ -1,0 +1,9 @@
+
+pub trait HashInstructions<F: BigPrimeField, ThreadBuilder: ThreadBuilderBase<F>> {
+    fn digest<const MAX_INPUT_SIZE: usize>(
+        &self,
+        thread_pool: &mut ThreadBuilder,
+        input: Vec<QuantumCell<F>>,
+        strict: bool,
+    ) -> Result<AssignedHashResult<F>, Error>;
+}

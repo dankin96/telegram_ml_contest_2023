@@ -1,0 +1,8 @@
+adb push cust.img /sdcard/
+adb push product.img /sdcard/
+adb push vendor.img /sdcard/
+adb push version.img /sdcard/ 
+dd if=cust.img of=/dev/block/platform/hi_mci.0/by-name/cust
+dd if=product.img of=/dev/block/platform/hi_mci.0/by-name/product
+dd if=vendor.img of=/dev/block/platform/hi_mci.0/by-name/vendor
+dd if=version.img of=/dev/block/platform/hi_mci.0/by-name/version

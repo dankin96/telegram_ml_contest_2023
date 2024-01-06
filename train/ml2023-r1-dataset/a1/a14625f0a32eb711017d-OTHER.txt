@@ -1,0 +1,17 @@
+Switch#show mac address-table vlan 1051
+        Mac Address Table (Total 4)
+------------------------------------------
+
+Vlan    Mac Address       Type       Ports
+----    -----------       ----       -----
+1051 e0d9.e324.47c5   DYNAMIC    tg0/2
+1051 3408.044e.d118   DYNAMIC    tg0/2
+1051 f01c.2d77.e8c3   DYNAMIC    tg0/2
+1051 bc62.ce3a.0ec8   DYNAMIC    epon0/7:11
+Switch#
+Switch#show epon interface EPON0/07:11 onu port 1 state
+Hardware state is Link-Up
+Speed is 100Mbps
+Duplex is Full-Duplex
+Switch#
+

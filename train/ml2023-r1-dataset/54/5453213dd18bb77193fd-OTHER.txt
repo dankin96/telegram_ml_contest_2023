@@ -1,0 +1,6 @@
+      Pair     Price  Funding
+   ENJUSDT    0.2218  -0.0955
+  RUNEUSDT    1.9462  -0.0628
+   ACHUSDT    0.0144  -0.0572
+   TRXUSDT    0.0882  -0.0456
+BTCDOMUSDT 1956.0247  -0.0370

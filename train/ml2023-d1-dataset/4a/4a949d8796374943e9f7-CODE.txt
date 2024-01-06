@@ -1,0 +1,42 @@
+js
+function makecaptcha(length) {
+    var result           = [];
+    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    var charactersLength = characters.length;
+    for ( var i = 0; i < length; i++ ) {
+      result.push(characters.charAt(Math.floor(Math.random() * 
+ charactersLength)));
+   }
+   return result.join('');
+}
+
+var captcha = makecaptcha(4)  
+//website support only 4 characters or it will slice to 4 charachers if exceeds
+Api.sendPhoto({
+chat_id: user.telegramid,
+photo: "https://api.ikitz.xyz/captcha/simple/v1?captcha=" + captcha,
+caption: "Enter the captcha for human Verification"
+})
+
+Bot.run({
+command: "/check_captcha",
+options: {captcha: captcha}
+})
+🧩 Command:- /check_captcha
+✅ Wait for reply
+🖥 BJS :
+
+js
+if(!options){return}
+if(!options.captcha){return}
+
+var captcha = options.captcha
+
+if(message != captcha){
+Bot.sendMessage("Wrong Capthca")
+//Bot.runCommand(/captcha) or /Bot.runCommand(/main_menu)
+return
+}
+
+Bot.sendMessage("Verified Succefully")
+//Bot.runCommand(/next_command) 

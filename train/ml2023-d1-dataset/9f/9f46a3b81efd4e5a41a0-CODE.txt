@@ -1,0 +1,4 @@
+            let txt = CString::new(text).map_err(|_| PhoAnnotError::CannotConvertTextToCString)?;
+              let mut txt_ptr = txt.as_ptr() as *const c_void;
+              let txt_ptr_ptr: *mut *const c_void = &mut txt_ptr;
+              let pho = espeak_TextToPhonemes(txt_ptr_ptr, espeakCHARS_UTF8 as i32, 2);

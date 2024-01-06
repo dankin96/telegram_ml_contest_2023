@@ -1,0 +1,5 @@
+interface ButtonProps {
+  children: string;
+  $contained?: any;
+  onClick?: React.ComponentProps<typeof StyledButton>['onClick']
+  type?: "button" | "submit" | "reset" | undefined;

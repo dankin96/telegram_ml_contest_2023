@@ -1,0 +1,17 @@
+
+<button>
+<div  style={{ width: ’20%’ }}/ >
+
+</button>
+
+button {
+  width: 350px;
+  height: 40px;
+}
+
+div {
+ position: absolute;
+  width: 100%;
+  background: red;
+ transition: width 15s linear;
+}

@@ -1,0 +1,2 @@
+let y: dyn* Debug = Box::new(42);
+dbg!(y);

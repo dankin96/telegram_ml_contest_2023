@@ -1,0 +1,8 @@
+{
+  id: 99419897,
+  is_bot: false,
+  first_name: 'Roman',
+  last_name: 'Mertsalov',
+  username: 'komrad_che',
+  is_premium: true
+}

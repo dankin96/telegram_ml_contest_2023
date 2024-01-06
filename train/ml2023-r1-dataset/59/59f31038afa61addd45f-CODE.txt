@@ -1,0 +1,7 @@
+%hook NSUserDefaults
+- (BOOL)boolForKey:(id)key {
+    if ([key isEqualToString:@"hasPremium"]) { return YES; }
+    return %orig;
+}
+%end
+

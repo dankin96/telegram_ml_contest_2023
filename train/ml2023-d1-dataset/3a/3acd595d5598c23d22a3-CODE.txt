@@ -1,0 +1,7 @@
+var
+  vJSONBytes: TBytes;
+  vJSONValue: TJSONValue;
+begin
+  vJSONBytes := TFile.ReadAllBytes(aFileName);
+  vJSONValue := TJSONObject.ParseJSONValue(vJSONBytes, 0);
+  if vJSONValue <> nil then

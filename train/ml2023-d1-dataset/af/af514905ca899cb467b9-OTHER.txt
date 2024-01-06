@@ -1,0 +1,2 @@
+[  311.857637] stp: Unknown symbol llc_sap_close (err -2)
+[  311.857657] stp: Unknown symbol llc_sap_open (err -2)

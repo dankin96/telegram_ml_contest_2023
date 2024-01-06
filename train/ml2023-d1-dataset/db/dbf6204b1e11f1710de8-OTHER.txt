@@ -1,0 +1,32 @@
+🚖 MAXIMD10    11.575
+Isi Saldo MAXIM Driver 10.000
+🚖 MAXIMD15    16.575
+Isi Saldo MAXIM Driver 15.000
+🚖 MAXIMD20    21.575
+Isi Saldo MAXIM Driver 20.000
+🚖 MAXIMD25    26.575 
+Isi Saldo MAXIM Driver 25.000
+🚖 MAXIMD30    31.575
+Isi Saldo MAXIM Driver 30.000
+🚖 MAXIMD35    36.575  
+Isi Saldo MAXIM Driver 35.000
+🚖 MAXIMD40    41.575
+Isi Saldo MAXIM Driver 40.000
+🚖 MAXIMD50    51.575
+Isi Saldo MAXIM Driver 50.000
+🚖 MAXIMD70    71.575  
+Isi Saldo MAXIM Driver 70.000
+🚖 MAXIMD97    98.575
+Isi Saldo MAXIM Driver 97.000
+🚖 MAXIMD100  101.575
+Isi Saldo MAXIM Driver 100.000
+🚖 MAXIMD147  148.575
+Isi Saldo MAXIM Driver 147.000
+🚖 MAXIMD197  198.575
+Isi Saldo MAXIM Driver 197.000
+🚖 MAXIMD247  248.575
+Isi Saldo MAXIM Driver 247.000
+🚖 MAXIMD300  301.575
+Isi Saldo MAXIM Driver 300.000
+
+

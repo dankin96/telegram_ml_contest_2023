@@ -1,0 +1,47 @@
+{
+  "update_id": 982731898,
+  "message": {
+    "message_id": 107310,
+    "from": {
+      "id": 1622708484,
+      "is_bot": false,
+      "first_name": "Digital",
+      "last_name": "Products",
+      "username": "digital_emporium_products",
+      "is_premium": true
+    },
+    "chat": {
+      "id": -1001728379640,
+      "title": "International Students - Canada 2023",
+      "username": "InternationalstudentsofCanada",
+      "type": "supergroup"
+    },
+    "date": 1697170448,
+    "new_chat_participant": {
+      "id": 1622708484,
+      "is_bot": false,
+      "first_name": "Digital",
+      "last_name": "Products",
+      "username": "digital_emporium_products",
+      "is_premium": true
+    },
+    "new_chat_member": {
+      "id": 1622708484,
+      "is_bot": false,
+      "first_name": "Digital",
+      "last_name": "Products",
+      "username": "digital_emporium_products",
+      "is_premium": true
+    },
+    "new_chat_members": [
+      {
+        "id": 1622708484,
+        "is_bot": false,
+        "first_name": "Digital",
+        "last_name": "Products",
+        "username": "digital_emporium_products",
+        "is_premium": true
+      }
+    ]
+  }
+}

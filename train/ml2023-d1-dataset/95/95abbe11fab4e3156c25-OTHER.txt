@@ -1,0 +1,18 @@
+ 
+🟢  2023-10-13 07:30:34
+
+Complete handle Max waterfall. 
+
+ad_unit_id: 67eb38af4bc75913
+packageName: com.falcon.dx3.block.puzzle.brain.games
+adFormat: REWARD
+
+
++----------------------+------------+------------+
+| Network              |  Success   |   Failed   |
++----------------------+------------+------------+
+| GAM                  |     X      |            |
+| UNITY                |     X      |            |
+| IRONSOURCE           |     X      |            |
+| ADMOB                |     X      |            |
++----------------------+------------+------------+

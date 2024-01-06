@@ -1,0 +1,7 @@
+typedef struct {
+  Father f;
+  ...
+} Child;
+
+Child c;
+f(c.f);

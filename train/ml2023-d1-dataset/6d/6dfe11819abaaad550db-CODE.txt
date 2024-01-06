@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+int n;
+string x, prev;
+int main()
+{
+    cin >> n;
+    int sol = 0;
+    while (n--) {
+        cin >> x;
+        if (x != prev) x = prev, sol++;
+    }
+    cout << sol;
+}

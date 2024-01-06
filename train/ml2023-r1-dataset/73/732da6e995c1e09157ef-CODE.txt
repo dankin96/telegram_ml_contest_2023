@@ -1,0 +1,4 @@
+BlocProvider.value(
+  value: BlocProvider.of<BlocName>(context),
+  child: const ScreenB()
+)

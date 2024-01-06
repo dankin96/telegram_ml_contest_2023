@@ -1,0 +1,7 @@
+File A
+type X field1: String
+File B
+type X field2: Int
+File C
+value::X = X field2: 5
+

@@ -1,0 +1,9 @@
+{
+  "buy_order_amount": "5q",
+  "minutes_before_next_buy": 30,
+  "trigger_mode": "Time based",
+  "use_market_entry_orders": true,
+  "use_secondary_entry_orders": false,
+  "use_stop_losses": false,
+  "use_take_profit_exit_orders": false
+}

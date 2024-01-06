@@ -1,0 +1,5 @@
+if (auto res = dialog.result(); res == QDialog::Accepted) {
+        qDebug() << "Everything is fine";
+} else if (res == QDialog::Rejected) {
+        qDebug() << "We are failed";
+}

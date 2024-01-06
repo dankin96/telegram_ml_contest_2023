@@ -1,0 +1,16 @@
+04:00 - EURUSD - ✅
+04:15 - EURJPY - ✅
+04:15 - EURUSD - ✅
+04:30 - EURAUD - ✅
+05:00 - EURGBP - ✅
+07:15 - EURJPY - ✅
+08:45 - EURUSD - ✅
+09:45 - USDCAD - ✅
+10:00 - AUDUSD - ✅
+10:15 - EURAUD - ✅
+11:30 - AUDUSD - ✅
+11:30 - EURAUD - ✅
+13:00 - EURGBP - ✅
+13:30 - AUDJPY - ✅
+
+

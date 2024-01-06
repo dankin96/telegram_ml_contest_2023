@@ -1,0 +1,35 @@
+class Solution:
+    def rearrange(self, head):
+        # Step 1: Extract alternate nodes starting from the second node
+        curr = head
+        even_start = even_end = None
+        while curr and curr.next:
+            if even_start is None:
+                even_start = even_end = curr.next
+            else:
+                even_end.next = curr.next
+                even_end = even_end.next
+    
+            curr.next = curr.next.next
+            curr = curr.next
+            if even_end:
+                even_end.next = None
+    
+        # Step 2: Reverse the extracted nodes
+        prev = None
+        curr = even_start
+        while curr:
+            next_node = curr.next
+            curr.next = prev
+            prev = curr
+            curr = next_node
+        even_start = prev
+    
+        # Step 3: Append the reversed nodes at the end of the original list
+        curr = head
+        while curr.next:
+            curr = curr.next
+        curr.next = even_start
+    
+        return head
+

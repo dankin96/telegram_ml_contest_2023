@@ -1,0 +1,2 @@
+sql
+SELECT LPAD(131, 5, '0');

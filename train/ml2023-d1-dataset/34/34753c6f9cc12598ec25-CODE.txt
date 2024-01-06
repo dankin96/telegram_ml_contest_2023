@@ -1,0 +1,4 @@
+$hlblock = \Bitrix\Highloadblock\HighloadBlockTable::getById($HLBLOCK_ID)->fetch();
+$entity = \Bitrix\Highloadblock\HighloadBlockTable::compileEntity($hlblock);
+$entityDataClass = $entity->getDataClass();
+

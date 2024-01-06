@@ -1,0 +1,2 @@
+rm -rf ~/.config/xfce4
+rm -rf ~/.local/share/xfce4

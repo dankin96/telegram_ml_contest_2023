@@ -1,0 +1,3 @@
+    if (SUCCEEDED(StrRetToBuf(&str, pidlItem, buf, ARRAYSIZE(buf))) &&
+        /* PathIsRoot(buf) */
+        PathGetDriveNumber(buf) >= 0) return S_OK;

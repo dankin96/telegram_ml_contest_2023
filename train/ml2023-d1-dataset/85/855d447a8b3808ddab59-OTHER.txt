@@ -1,0 +1,8 @@
+traceroute to 45.134.88.194 (45.134.88.194), 30 hops max, 60 byte packets
+ 1  noc-gw.laekur.sj (10.5.0.1)  0.283 ms  0.308 ms  0.347 ms
+ 2  gw.laekur.sj (10.100.0.1)  1.263 ms  1.305 ms  1.278 ms
+ 3  85-220-0-1.dsl.dynamic.simnet.is (85.220.0.1)  1.851 ms  3.888 ms  3.999 ms
+ 4  siminn-linx-gw-1.isholf.is (195.66.225.26)  43.478 ms  43.551 ms  43.657 ms
+ 5  et-11-1-0.rt0-hex.ldn.as25369.net (195.66.225.123)  42.439 ms  42.367 ms  42.335 ms
+ 6  ae1.rt0-cr.ldn.as25369.net (5.226.136.10)  42.522 ms  41.998 ms  41.974 ms
+ 7  1-88.134.45.lon.ifog.li (45.134.88.1)  42.102 ms  41.485 ms  41.635 ms

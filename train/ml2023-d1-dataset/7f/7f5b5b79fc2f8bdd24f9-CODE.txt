@@ -1,0 +1,1 @@
+$AGI->set_variable('DIALSTATUS_CW','');

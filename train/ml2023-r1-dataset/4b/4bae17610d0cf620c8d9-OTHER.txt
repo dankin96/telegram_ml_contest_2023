@@ -1,0 +1,5 @@
+Ravnaqbank          12230
+NBU                 12260
+Tengebank           12260
+Ipakyulibank        12260
+AAB                 12260

@@ -1,0 +1,23 @@
+ 
+🟢  2023-10-05 03:45:39
+
+Complete handle ironSource Mediation Groups. 
+
+packageName: com.falcon.ana.triple.tile.match.master.garden.shuffle
+adFormat: banner
+appKey: 1bb2ba005
+
+
++----------------------+------------+------------+
+| Network              |  Success   |   Failed   |
++----------------------+------------+------------+
+| GAM                  |     X      |            |
+| UNITY                |     X      |            |
+| MINTEGRAL_BIDDING    |     X      |            |
+| VUNGLE_BIDDING       |     X      |            |
+| PANGLE_BIDDING       |     X      |            |
+| APPLOVIN             |     X      |            |
+| ADMOB                |     X      |            |
+| SMAATO_BIDDING       |     X      |            |
+| ADCOLONY_BIDDING     |     X      |            |
++----------------------+------------+------------+

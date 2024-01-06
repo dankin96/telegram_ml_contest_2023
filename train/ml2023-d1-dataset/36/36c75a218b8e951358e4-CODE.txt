@@ -1,0 +1,16 @@
+import xml.etree.ElementTree as ET
+
+# 读取XML文件
+tree = ET.parse('data.xml')
+root = tree.getroot()
+
+# 遍历XML并访问数据
+for element in root:
+    print(element.tag, element.text)
+
+# 修改数据
+for element in root.iter('item'):
+    element.text = 'New Value'
+
+# 生成XML
+tree.write('modified_data.xml')

@@ -1,0 +1,13 @@
+  CHK     include/generated/compile.h
+  AR      built-in.a
+  MODPOST vmlinux.o
+WARNING: EXPORT symbol "gsi_write_channel_scratch" [vmlinux] version generation failed, symbol will not be versioned.
+drivers/leds/leds-qpnp-vibrator-ldo.o: In function `qpnp_vib_ldo_enable':
+/home/sirjanh/build-colonel/moto-rhode-2/drivers/leds/leds-qpnp-vibrator-ldo.c:136: undefined reference to `mot_actuator_on_vibrate_stop'
+/home/sirjanh/build-colonel/moto-rhode-2/drivers/leds/leds-qpnp-vibrator-ldo.c:132: undefined reference to `mot_actuator_on_vibrate_start'
+/home/sirjanh/build-colonel/moto-rhode-2/drivers/leds/leds-qpnp-vibrator-ldo.c:136: undefined reference to `mot_actuator_on_vibrate_stop'
+/home/sirjanh/build-colonel/moto-rhode-2/drivers/leds/leds-qpnp-vibrator-ldo.c:136: undefined reference to `mot_actuator_on_vibrate_stop'
+make[1]: *** [/home/sirjanh/build-colonel/moto-rhode-2/Makefile:1184: vmlinux] Error 1
+make[1]: Leaving directory '/home/sirjanh/build-colonel/out2'
+make: *** [Makefile:146: sub-make] Error 2
+My

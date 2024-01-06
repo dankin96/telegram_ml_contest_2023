@@ -1,0 +1,14 @@
+Using equity 
+SPY
+with strategy:
+InandOut
+during period:
+[2018-10-11, 2023-10-10]
+Stats period:
+ Start:10-09-2018 End: 10-06-2023:
+Totals:
+ Cum Returns:99%   CAGR:15%   Max Drawdown:-15
+Returns by period:
+  mtd:0%   3m:-2  6m:6%   1yr:22%   3yr:13%   5yr:15%
+Risk measures:Monthly
+ Sharpe:1.2   Mean:15.3%   Volatility:13.0%

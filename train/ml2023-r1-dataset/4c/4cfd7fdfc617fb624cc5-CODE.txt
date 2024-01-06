@@ -1,0 +1,12 @@
+python
+def camel_to_snack_case(input_string):
+    output_string = ""
+    for i in range(len(input_string)):
+        if i > 0 and input_string[i].isupper():
+            output_string += "_"
+        output_string += input_string[i].lower()
+    return output_string
+
+input_str = "camelCase"
+output_str = camel_to_snack_case(input_str)
+print(output_str) # خروجی: "camel_case"

@@ -1,0 +1,84 @@
+import time
+import logging
+import logging.config
+import os
+
+# from dotenv import load_dotenv, find_dotenv
+
+# load_dotenv(find_dotenv())
+TOKEN = "6448815036:AAFxGMwpEEZwFobX-bQdpQfS3Hv2DLaKCfw"
+
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Poll
+from telegram.ext import (
+    Updater,
+    CommandHandler,
+    MessageHandler,
+    filters,
+    CallbackQueryHandler,
+    PollHandler,
+    Application
+)
+import telegram
+
+from _model import *
+
+async def start_command_handler(update, context):
+    """Send a message when the command /start is issued."""
+    # add_typing(update, context)
+    chat_id  =  update.message.chat.id
+    if  chat_id  in  sessions :
+        await update.message.reply_text ( 'Oops,you could only give quiz once. 
+ In case of technical issue contact dev ' )
+    else :
+        sessions [chat_id] = { 'participants' : {}, 'usernames' : {},'count' : 1,
+                             'is_started' : True , 'can_request' : False }
+        await next_ques(update,context)
+    
+
+async def next_ques(update,context):
+
+    chat_id =  get_chat_id(update,context)
+    if  chat_id  in  sessions :
+        if sessions [chat_id] ['count'] == 1:
+            print(sessions [chat_id] ['count'])
+            sessions [chat_id] ['count'] += 1
+            # add_typing(update, context)
+            quiz_question = QuizQuestion()
+            quiz_question.question = "What tastes better?"
+            quiz_question.answers = ["water", "ice", "chocolate"]
+            quiz_question.correct_answer_position = 2
+            quiz_question.correct_answer = "chocolate"
+
+            await add_quiz_question(update, context, quiz_question)
+        elif sessions [chat_id] ['count'] == 2:
+            print(sessions [chat_id] ['count'])
+            sessions [chat_id] ['count'] += 1
+            # add_typing(update, context)
+            quiz_question = QuizQuestion()
+            quiz_question.question = "What tastes Great?"
+            quiz_question.answers = ["water", "ice", "chocolate"]
+            quiz_question.correct_answer_position = 2
+            quiz_question.correct_answer = "chocolate"
+
+            await add_quiz_question(update, context, quiz_question)
+
+
+async def main_handler(update, context):
+    logging.info(f"update : {update}")
+
+    if update.message is not None:
+        user_input = get_text_from_message(update)
+        logging.info(f"user_input : {user_input}")
+
+        await add_text_message(update, context, f"You said: {user_input}")
+
+
+async def poll_handler(update, context):
+    user_answer = get_answer(update)
+    logging.info(f"correct option {is_answer_correct(update)}")
+
+    await add_text_message(update, context, f"Your answer is {user_answer}")
+    await next_ques(update,context)
+
+async def add_text_message(update, context, message):
+    await context.bot.send_message(chat_id=get_chat_id(update, context), text=message)

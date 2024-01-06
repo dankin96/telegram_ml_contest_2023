@@ -1,0 +1,5 @@
+ethers::contract::abigen!(
+    Erc20,
+    "./erc20.json",
+    event_derives (serde::Deserialize, serde::Serialize);
+);

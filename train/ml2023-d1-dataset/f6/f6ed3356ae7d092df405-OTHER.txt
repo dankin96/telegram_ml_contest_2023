@@ -1,0 +1,5 @@
+It’s not a folder that exists, it’s a branch. (Well, there may be a folder/directory involved somewhere — or maybe not, as references get “packed” and stop existing as files within directories.)
+
+If branch b exists, no branch named b/anything can be created.
+Likewise, if branch dev/b exists, dev/b/c cannot be created.
+This is a git internal limitation. In this particular case, remote origin has a branch named dev/sub(regardless of whether you have it or not, the important thing is whether the remote has it).

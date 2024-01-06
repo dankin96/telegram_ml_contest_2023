@@ -1,0 +1,54 @@
+// 监听 'fetch' 事件，并使用 'handleRequest' 函数的结果来响应请求
+addEventListener('fetch', event => {
+  event.respondWith(handleRequest(event.request))
+})
+
+// 定义 GitHub 和 raw GitHub 域名的常量
+const GITHUB_DOMAIN = 'https://github.com'
+const RAW_GITHUB_DOMAIN = 'https://raw.githubusercontent.com'
+
+// 定义用于匹配 GitHub 和 raw GitHub 内容的允许路径的正则表达式
+const allowedGithubPath = /^\/[^\/]+\/[^\/]+\/releases\/download\/.*/;
+const allowedRawPath = /^\/raw\/[^\/]+\/[^\/]+\/[^\/]+\/.*/;
+
+// 定义 'handleRequest' 函数来处理传入的请求
+async function handleRequest(request) {
+  const url = new URL(request.url)
+  let path = url.pathname
+
+  let githubDomain;
+  // 检查路径是否与允许的 GitHub 内容路径匹配
+  if (allowedGithubPath.test(path)) {
+    githubDomain = GITHUB_DOMAIN;
+  } else if (allowedRawPath.test(path)) {
+    // 如果路径与允许的 raw GitHub 内容路径匹配，使用 raw GitHub 域名，并从路径中移除 '/raw' 前缀
+    githubDomain = RAW_GITHUB_DOMAIN;
+    path = path.replace('/raw', '');
+  } else {
+    // 如果路径无效，返回 '403 Forbidden' 响应
+    return new Response('无效的路径', { status: 403 })
+  }
+
+  // 通过连接域名和路径来构造 GitHub URL
+  const githubUrl = githubDomain + path
+  // 使用 'fetch' 函数获取 GitHub URL 的内容
+  let githubResponse = await fetch(githubUrl, request)
+
+  // 跟随重定向直到获得最终响应
+  while (githubResponse.status >= 300 && githubResponse.status < 400) {
+    const location = githubResponse.headers.get('Location')
+    githubResponse = await fetch(location, request)
+  }
+
+  // 将响应数据作为 ArrayBuffer 获取
+  const data = await githubResponse.arrayBuffer()
+
+  // 使用来自 GitHub 响应的数据构造 'Response' 对象并返回
+  const response = new Response(data, {
+    status: githubResponse.status,
+    statusText: githubResponse.statusText,
+    headers: githubResponse.headers
+  })
+
+  return response
+}

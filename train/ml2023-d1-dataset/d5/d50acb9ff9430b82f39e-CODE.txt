@@ -1,0 +1,6 @@
+
+"application/gpx+xml": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Position"

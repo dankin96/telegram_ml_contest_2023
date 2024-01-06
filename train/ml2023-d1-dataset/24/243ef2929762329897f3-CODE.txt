@@ -1,0 +1,3 @@
+d \windows\system32
+lodctr /R
+

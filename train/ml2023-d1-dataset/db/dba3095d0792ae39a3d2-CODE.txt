@@ -1,0 +1,1 @@
+<ControlledTextArea name="textTest" maxLength={10} control={control} />

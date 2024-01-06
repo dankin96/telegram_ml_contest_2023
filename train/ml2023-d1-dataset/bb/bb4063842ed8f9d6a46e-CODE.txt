@@ -1,0 +1,2 @@
+
+chmod 755 /path/to/account/rubika/code

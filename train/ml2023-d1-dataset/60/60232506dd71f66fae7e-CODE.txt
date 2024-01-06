@@ -1,0 +1,14 @@
+python
+import http.client
+
+# برقراری اتصال با سایت مورد نظر
+conn = http.client.HTTPSConnection("www.example.com")
+
+# ارسال درخواست GET به سایت
+conn.request("GET", "/")
+
+# دریافت پاسخ از سایت
+res = conn.getresponse()
+
+# چاپ محتوای پاسخ
+print(res.read().decode())

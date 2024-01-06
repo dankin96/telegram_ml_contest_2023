@@ -1,0 +1,7 @@
+<Border BoxShadow="inset 2 2 4 LightGray">
+            <Carousel SelectedIndex="{Binding ActiveNavIndex, Mode=TwoWay}">
+                <views:Overview DataContext="{Binding}" />
+                <views:TemperatureChartView DataContext="{Binding TemperatureChartViewModel}" />
+                <views:SettingsUI DataContext="{Binding SettingsUIViewModel}" />
+            </Carousel>
+        </Border>

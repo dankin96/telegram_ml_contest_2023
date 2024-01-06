@@ -1,0 +1,3 @@
+import aio_pika
+self.channel = await self.connection.channel()
+self.channel.declare_exchange(name=self.exchange_dlx, type="direct", durable=True)

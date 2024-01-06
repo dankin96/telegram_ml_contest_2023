@@ -1,0 +1,4 @@
+        let app = createApp(CalculatorShinglas);
+        app.devtools = true;
+        app.mount('#RoofCalculator');
+

@@ -1,0 +1,34 @@
+update = {
+  "update_id": 649293409,
+  "message": {
+    "chat": {
+      "id": -1001944878802,
+      "type": "supergroup",
+      "title": "Boti"
+    },
+    "group_chat_created": false,
+    "message_id": 20,
+    "delete_chat_photo": false,
+    "date": 1696586421,
+    "supergroup_chat_created": false,
+    "left_chat_member": {
+      "is_bot": true,
+      "username": "milc_community_bot",
+      "first_name": "MILC Community Bot",
+      "id": 5872545316
+    },
+    "channel_chat_created": false,
+    "from": {
+      "is_bot": false,
+      "username": "JB_RedV",
+      "first_name": "JB",
+      "id": 6498684864
+    },
+    "left_chat_participant": {
+      "id": 5872545316,
+      "is_bot": true,
+      "first_name": "MILC Community Bot",
+      "username": "milc_community_bot"
+    }
+  }
+}

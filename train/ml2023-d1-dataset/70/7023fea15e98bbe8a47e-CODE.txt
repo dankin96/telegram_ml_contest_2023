@@ -1,0 +1,2 @@
+#let hspace(num) = for _ in range(num) { sym.space.fig }
+

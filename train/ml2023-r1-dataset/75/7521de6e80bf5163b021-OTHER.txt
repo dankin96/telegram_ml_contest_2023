@@ -1,0 +1,16 @@
+
+The usage of “NoSQL” that we recognize today traces back to a meetup on June 11, 2009 in San
+Francisco organized by Johan Oskarsson, a software developer based in London. The example of
+BigTable and Dynamo had inspired a bunch of projects experimenting with alternative data storage,
+and discussions of these had become a feature of the better software conferences around that time.
+Johan was interested in finding out more about some of these new databases while he was in San
+Francisco for a Hadoop summit. Since he had little time there, he felt that it wouldn’t be feasible to
+visit them all, so he decided to host a meetup where they could all come together and present their
+work to whoever was interested.
+Johan wanted a name for the meetup—something that would make a good Twitter hashtag: short,
+memorable, and without too many Google hits so that a search on the name would quickly find the
+meetup. He asked for suggestions on the #cassandra IRC channel and got a few, selecting the
+suggestion of “NoSQL” from Eric Evans (a developer at Rackspace, no connection to the DDD Eric
+Evans). While it had the disadvantage of being negative and not really describing these systems, it did
+fit the hashtag criteria. At the time they were thinking of only naming a single meeting and were not
+expecting it to catch on to name this entire technology trend [Oskarsson].

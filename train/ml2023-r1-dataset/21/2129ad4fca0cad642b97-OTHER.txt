@@ -1,0 +1,3 @@
+vless://139b1f14-1fbf-45f2-b545-49c16a5c6e09@f1.lavincloud.sbs:30763?type=tcp&security=tls&fp=&alpn=#Test%2030GB-LavinCloud
+
+

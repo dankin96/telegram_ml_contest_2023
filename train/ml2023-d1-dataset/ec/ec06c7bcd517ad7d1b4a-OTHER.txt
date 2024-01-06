@@ -1,0 +1,2 @@
+vless://7ca76c33-6b70-4a3d-b2e5-beb7d08185bc@joy.servertoxic.monster:40764?type=ws&path=%2F&security=tls&fp=&alpn=http%2F1.1%2Ch2&sni=yahoo.com%2Cwww.yahoo.com#free2-y1qi6nbq
+

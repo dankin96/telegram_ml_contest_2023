@@ -1,0 +1,12 @@
+ - Upstreamed Multi-gen LRU
+ - Optimized for armv9 + cortex A510
+ - Enabled -O3 Optimization and polly
+ - Upgrade clang to 14.0.6
+ - Import updated versions of strcmp,memcmp,strlen,memcpy memmove memchr
+ - Fix uclamp issues
+ - Fix performance degradations 
+ - Fix latency issues
+ - Enable lazy Rcu
+ - Fix wakeup delays
+ - perf improvements and more...
+

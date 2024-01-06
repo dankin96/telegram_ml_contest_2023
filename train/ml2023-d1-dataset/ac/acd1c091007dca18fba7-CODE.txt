@@ -1,0 +1,18 @@
+ 
+
+import matplotlib.pyplot as plt
+
+# Создайте список цветов
+colors = ["red", "green", "blue"]
+
+# Создайте первый пай-чарт
+plt.pie([1, 2, 3], colors=colors)
+plt.show()
+
+# Создайте второй пай-чарт
+plt.pie([4, 5, 6], colors=colors)
+plt.show()
+
+# Создайте третий пай-чарт
+plt.pie([7, 8, 9], colors=colors)
+plt.show() 

@@ -1,0 +1,6 @@
+
+type DataEntry = {
+  id:  number
+  userId: number | null,
+  [entry: string]: string
+}

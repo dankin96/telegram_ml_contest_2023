@@ -1,0 +1,47 @@
+.product{
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.product-image{
+    margin-left: 10px;
+    flex: 0 0 150px;
+    margin-right: 25px;
+}
+.product-image img {
+    width: 100%;
+    max-width: 150px;
+}
+.product-details{
+    flex: 1;
+}
+.price{
+    font-weight: bold;
+}
+.add-to-cart{
+    background-color: rgb(135, 208, 62);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.remove-from-favorites{
+    background-color: crimson;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.3s;
+}
+.add-to-cart:hover{
+    background-color:  rgb(135, 208, 62);
+    color: white;
+    border-radius: 25px
+}
+
+.remove-from-favorites:hover{
+    background-color: rgb(218, 103, 126) ;
+    color:white;
+    border-radius: 25px;
+}

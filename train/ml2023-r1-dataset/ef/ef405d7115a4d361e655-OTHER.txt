@@ -1,0 +1,23 @@
+PACKAGE Enet ARCHIVE "Enet.zip" SOURCE "EnetSrc.zip" DESCRIPTION "Enet network stack for Minos"
+  EneT.Minos.EnetEnvironment.Mod # переменная для обработчика прерываний и её установка, и другие мелкие элты инфраструктуры
+  EneT.EnetTiming.Mod # таймеры, ожидание (однозадачный режим, ожидание вешает задачу или всё)
+  EneT.EnetUtils.Mod # IntToStr, тип UnalignedInt32, конвертация Endianness
+  EneT.EnetTrace.Mod # Ещё одна трассировка на базе пр-ры отправки, принимающей строку
+  EneT.EnetBase.Mod # тиы данных: ip адреса, пакеты ip, icmp, таблица обработчиков ответов,
+    # сетевые интерфейсы, LinkDevices
+
+  EneT.EnetInterfaces.Mod # инициализация интерфейсов, запуск и останов сетевых интерфейсов, 
+    # пересылка пакетов между интерфейсами, обновление состояния интерфейсов
+  EneT.EnetArp.Mod # кеши Arp, ArpEntry, их выделение подсети, поиск Arp по Ip
+  EneT.EnetIcmp.Mod # ответ на запрос Echo
+  EneT.Minos.EnetStreams.Mod # потоки, работающие через сеть
+  EneT.EnetUdp.Mod # UDP: сокеты, обработчики датаграмм, отправка датаграмм
+  EneT.EnetUdpChannels.Mod # каналы поверх UDP, обеспечивающие обмен с конкретным удалённым узлом
+  EneT.EnetTftp.Mod # протокол TFTP
+  EneT.Enet.Mod # ? более высокий уровень общения с интерфейсами, например, 
+    # позволяет связать интерфейс с LinkDevice
+  EneT.EnetPhy.Mod # Найти и сбросить PHY устройство. PHY - это физический уровень 
+     # (смысл слова может зависеть от контекста)
+  EneT.Zynq.EnetEmacPs7.Mod # похоже на драйвер для Xilinx Processing System 7 Ethernet MAC device
+END
+

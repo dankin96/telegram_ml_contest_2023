@@ -1,0 +1,11 @@
+location /tus-server {
+    try_files $uri $uri/ /tus.php?$query_string;
+}
+
+location ~* (\/api\/) {
+    add_header 'Access-Control-Allow-Origin' 'https://localhost:5173';
+    add_header 'Access-Control-Allow-Methods' 'GET, POST, PUT, DELETE, OPTIONS';
+    add_header 'Access-Control-Allow-Headers' 'DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization,tus-resumable,upload-length,upload-metadata';
+    add_header 'Access-Control-Allow-Credentials' 'true';
+    add_header 'Access-Control-Max-Age' 3600;
+}

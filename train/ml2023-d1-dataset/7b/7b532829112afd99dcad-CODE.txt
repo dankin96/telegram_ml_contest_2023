@@ -1,0 +1,3 @@
+window
+    .matchMedia(this._themeMedia)
+    .addEventListener("change", this._updateThemeStuff);

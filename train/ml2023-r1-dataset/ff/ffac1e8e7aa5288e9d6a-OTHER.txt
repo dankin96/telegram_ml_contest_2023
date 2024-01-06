@@ -1,0 +1,7 @@
+v10.0.5.0 (20351)  fa
+Redmi M2003J15SC android 11
+ROM: RP1A.200720.011
+Performance: AVERAGE
+Cache: ۳۵۹٫۴ MB
+Database: ۸۳٫۹ MB
+Free: ۳۷۲٫۴ MB

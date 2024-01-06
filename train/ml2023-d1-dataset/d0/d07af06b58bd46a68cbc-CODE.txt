@@ -1,0 +1,3 @@
+ "payment_method": "card", 
+ "currency": "KZT", 
+ "processing": "Payture: PAYBOX"

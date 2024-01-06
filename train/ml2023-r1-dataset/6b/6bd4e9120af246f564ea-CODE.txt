@@ -1,0 +1,8 @@
+css
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  /* Styles for Safari */
+}
+
+@media screen and (min-width: 768px) {
+  /* Styles for larger screens */
+}

@@ -1,0 +1,39 @@
+update = {
+  "update_id": 389728204,
+  "chat_member": {
+    "chat": {
+      "id": -1001920815993,
+      "type": "channel",
+      "username": "Official0xBotAI_Ann",
+      "title": "0xBot.AI Official Announcements"
+    },
+    "date": 1696519042,
+    "old_chat_member": {
+      "user": {
+        "is_bot": false,
+        "username": "osakinisiturei",
+        "first_name": "ki",
+        "last_name": "os",
+        "id": 5258202181
+      },
+      "status": "member"
+    },
+    "new_chat_member": {
+      "user": {
+        "is_bot": false,
+        "username": "osakinisiturei",
+        "first_name": "ki",
+        "last_name": "os",
+        "id": 5258202181
+      },
+      "status": "left"
+    },
+    "from": {
+      "is_bot": false,
+      "username": "osakinisiturei",
+      "first_name": "ki",
+      "last_name": "os",
+      "id": 5258202181
+    }
+  }
+}

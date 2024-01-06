@@ -1,0 +1,5 @@
+oAdoc = ThisApplication.ActiveDocument  a = oAdoc.ComponentDefinition.SurfaceBodies.Item(1)
+  MessageBox.Show(a.Faces.Count)
+  For Each oFace In a.Faces
+   MessageBox.Show(oFace.GeometryForm)
+  Next

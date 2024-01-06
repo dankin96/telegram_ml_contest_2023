@@ -1,0 +1,5 @@
+The tint2 coloring looks very promising.  🧙 🙂
+I am currently using two bash scripts to be able to change the color of the tint2 icons and gtk-3 icon theme in a quicker way. Though not that fancy… 
+Created a set of different color gtk icon themes with themix(oomox) to choose from. 
+ [Mabox_20231013-11-17-13] 
+🐦

@@ -1,0 +1,9 @@
+
+***BITRUE***
+SYLUSDT   = 0.000379 (v: 176950.64 USDT)
+
+***LBANK***
+sylmydid_usdt= 0.000383 (v: 81062.44 USDT)
+
+***AVERAGE***
+0.000382 (100.000 SYL = 38.2 USDT)

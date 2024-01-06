@@ -1,0 +1,17 @@
+apic1-newyork:~> bash --version
+GNU bash, version 4.2.46(2)-release (x86_64-redhat-linux-gnu)
+Copyright (C) 2011 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+getfacl /controller/bin/ftriage
+getfacl: Removing leading '/' from absolute path names
+# file: controller/bin/ftriage
+# owner: root
+# group: root
+user::rwx
+group::r-x
+other::r-x
+

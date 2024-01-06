@@ -1,0 +1,1 @@
+[/usr/bin/selenoid: browsers config: read error: open etc/selenoid/browsers.json: no such file or directory]

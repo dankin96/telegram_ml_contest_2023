@@ -1,0 +1,4 @@
+systemctl stop osd.X
+
+ceph-objectstore-tool --data-path /var/lib/ceph/osd/ceph-X --op info --pgid 2.16d
+

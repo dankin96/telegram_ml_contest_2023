@@ -1,0 +1,8 @@
+{
+    "vegetarian": "Spaghetti bolognese (K, M, S, A)",
+    "alacarte": "A la Carte: Wienerschnitzel, anjovis-kaprisvinägrett (L, S, A)",
+    "extra": "",
+    "salad": "Kokos-linssoppa (K, M, G, T, S, A, Veg)",
+    "main": "",
+    "soup": "Gorgonzolasås (K, VL, T, S)"
+}

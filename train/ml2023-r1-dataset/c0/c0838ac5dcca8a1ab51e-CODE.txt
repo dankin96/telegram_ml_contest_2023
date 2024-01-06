@@ -1,0 +1,5 @@
+template <template <typename...> typename T>
+struct Base
+{
+    T<int, char> t;
+};

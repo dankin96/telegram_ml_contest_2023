@@ -1,0 +1,9 @@
+import statistics
+
+L1 = [1,2,3,4,5]
+print(L1)
+print(statistics.pvariance(L1))
+
+L2 = list(map(lambda x:x+5,L1))
+print(L2)
+print(statistics.pvariance(L2))

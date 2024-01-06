@@ -1,0 +1,29 @@
+05 October Thursday 
+🍽Yemek Listesi🍽 
+
++-------------------+
+| Günlük Menü       |
++-------------------+
+| Havuç Çorbası     |
+| Etli Kuru Fasulye |
+| Pirinç Pilavı     |
+| Supangle          |
++-------------------+
+
++-----------------+
+| Vejetaryen Menü |
++-----------------+
+| Havuç Çorbası   |
+| Kuru Fasulye    |
+| Pirinç Pilavı   |
+| Supangle        |
++-----------------+
+
++---------------+
+| Vegan Menü    |
++---------------+
+| Havuç Çorbası |
+| Kuru Fasulye  |
+| Pirinç Pilavı |
+| Tahin Helva   |
++---------------+

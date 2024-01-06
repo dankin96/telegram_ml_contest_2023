@@ -1,0 +1,4 @@
+
+Fast-forward
+ ubot/modules/settings.py | 8 +++-----
+ 1 file changed, 3 insertions(+), 5 deletions(-)

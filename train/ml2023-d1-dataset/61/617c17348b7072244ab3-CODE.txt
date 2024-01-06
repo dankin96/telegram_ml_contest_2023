@@ -1,0 +1,5 @@
+
+yandex_smart_home:
+  entity_config:
+   cover.smart_garage_door_opener_door:
+     type: devices.types.openable

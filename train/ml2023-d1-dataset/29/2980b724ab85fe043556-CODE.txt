@@ -1,0 +1,13 @@
+java
+   WebView webView = findViewById(R.id.minhaWebView); // Substitua "R.id.minhaWebView" pelo ID real da sua WebView
+   webView.getSettings().setJavaScriptEnabled(true); // Ative o JavaScript se necessário
+   webView.setWebViewClient(new WebViewClient() {
+       @Override
+       public void onPageFinished(WebView view, String url) {
+           // Injete código JavaScript para remover anúncios, se possível
+           view.loadUrl("javascript:document.getElementById('seuAnuncio').style.display='none';");
+       }
+   });
+
+   webView.loadUrl("https://seusite.com");
+   

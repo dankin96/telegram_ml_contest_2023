@@ -1,0 +1,57 @@
+#include <bits/stdc++.h>
+#define ll long long
+#define FAST ios_base::sync_with_stdio(false), cin.tie(0), cout.tie(0);
+using namespace std;
+
+ll px, py, ax, ay, bx, by;
+bool func(long double r)
+{
+    bool ok;
+
+    ok = (((ax - 0) * ax + ay * ay <= r * r) && ((px - ax) * (px - ax) + (py - ay) * (py - ay) <= r * r)) || (((bx - 0) * bx + by * by <= r * r) && ((px - bx) * (px - bx) + (py - by) * (py - by) <= r * r));
+    if(ok)
+        return true;
+
+    bool p;
+    p = (ax - bx) * (ax - bx) + (ay - by) * (ay - by) <= 4 * r * r;
+
+    bool ok1, ok2;
+
+    ok1 = (ax * ax + ay * ay <= r * r) || (bx * bx + by * by <= r * r);
+    ok2 = ((ax - px) * (ax - px) + (ay - py) * (ay - py) <= r * r) || ((bx - px) * (bx - px) + (by - py) * (by - py) <= r * r);
+
+    if(ok1 && ok2 && p)
+        return true;
+    else
+        return false;
+}
+
+int main ()
+{
+    FAST
+    ll t = 1;
+    cin >> t;
+    while(t--)
+    {
+
+        cin >> px >> py;
+        cin >> ax >> ay;
+        cin >> bx >> by;
+
+        long double l, r, mid;
+
+        l = 0;
+        r = 1e4;
+
+        while(l + 0.000001 < r)
+        {
+            mid = (l + r) / 2;
+
+            if(func(mid)) r = mid;
+            else l = mid;
+        }
+
+        cout << fixed << setprecision (6) << r << '
+';
+    }
+}

@@ -1,0 +1,1 @@
+The Ebitengine game engine was ported to use only Go on Windows. This enabled cross-compiling to Windows from any other operating system simply by setting GOOS=windows. The purego project was born to bring that same vision to the other platforms supported by Ebitengine.

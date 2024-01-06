@@ -1,0 +1,5 @@
+main.bicep
+|-data/main.bicep
+ \-data/storageAccount.bicep
+|-compute/main.bicep
+ \-webapp.bicep

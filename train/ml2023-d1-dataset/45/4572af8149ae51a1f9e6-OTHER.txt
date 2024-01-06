@@ -1,0 +1,1 @@
+Unable to start activity ComponentInfo: java.lang.NullPointerException: Attempt to invoke virtual method 'java.util.Set com.polar.androidcommunications.api.ble.BleDeviceListener.deviceSessions()' on a null object reference

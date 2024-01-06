@@ -1,0 +1,4 @@
+************************************************************************
+*** WARNING: SUNA & SUNFIRE HAVE BEEN UNSUPPORTED SINCE 1 JUNE 2021. ***
+*** PLEASE USE THE REPLACEMENT SERVERS stf AND stu.                  ***
+************************************************************************

@@ -1,0 +1,7 @@
+let myArr = ['王一', '王二', '王三'];
+
+myArr.forEach((item, index, arr) => {
+    console.log('item:' + item);
+    console.log('index:' + index);
+    console.log('arr:' + JSON.stringify(arr));
+});

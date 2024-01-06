@@ -1,0 +1,4 @@
+Triggered take profit: 26860.09
+Next take profit: 26568.34
+New stop loss: 27005.97
+Trade id: BTCUSDs2002560

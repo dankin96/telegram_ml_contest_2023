@@ -1,0 +1,3 @@
+* app/models/product_email.rb:86:in `deliver_for_order!'
+* app/jobs/order_job.rb:13:in `block in perform'
+* app/jobs/order_job.rb:13:in `perform'

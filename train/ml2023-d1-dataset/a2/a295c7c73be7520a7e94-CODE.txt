@@ -1,0 +1,5 @@
+$fullpath = "C:\\Windows\\System32\\spoolsv.exe"
+$path_list = csv($fullpath, "\\", "")
+
+object.name = $path_list[length($path_list)-1]
+object.path = strip($fullpath, "", object.name)

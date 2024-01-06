@@ -1,0 +1,1 @@
+su -c "pm uninstall --user 0 PACKAGE.NAME"

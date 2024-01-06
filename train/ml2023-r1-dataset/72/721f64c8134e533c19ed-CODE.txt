@@ -1,0 +1,3 @@
+
+   REVOKE DELETE ON table_name FROM user1;
+   

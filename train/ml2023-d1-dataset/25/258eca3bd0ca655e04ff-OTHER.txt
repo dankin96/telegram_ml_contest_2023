@@ -1,0 +1,15 @@
+
+  Reply to a message:
+    Trace      : .trace 👍👎🥰
+    Untrace    : .trace
+  Trace keyword: .trace kw add 👍👎🥰
+  Del keyword  : .trace kw del
+
+  List all   : .trace status
+  Untrace all: .trace clean
+
+  Keep log   : .trace log [true|false]
+  Toggle big : .trace big [true|false]
+
+  Use with caution:
+    Reset all  : .trace resettrace

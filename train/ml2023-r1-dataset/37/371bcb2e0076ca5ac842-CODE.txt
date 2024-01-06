@@ -1,0 +1,30 @@
+csharp
+using UnityEngine;
+
+public class movment : MonoBehaviour
+{
+    public float moveSpeed = 5f; // The speed at which the player moves
+
+    private Rigidbody2D rb; // Reference to the Rigidbody2D component
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody2D>(); // Get the Rigidbody2D component attached to the player
+    }
+
+    private void Update()
+    {
+        // Read input from the horizontal and vertical axes
+        float moveHorizontal = Input.GetAxis("Horizontal");
+        float moveVertical = Input.GetAxis("Vertical");
+
+        // Calculate the movement vector
+        Vector2 movement = new Vector2(moveHorizontal, moveVertical);
+
+        // Normalize the movement vector to ensure consistent speed
+        movement = movement.normalized * moveSpeed * Time.deltaTime;
+
+        // Move the player by applying the movement vector to the Rigidbody2D
+        rb.MovePosition(rb.position + movement);
+    }
+}

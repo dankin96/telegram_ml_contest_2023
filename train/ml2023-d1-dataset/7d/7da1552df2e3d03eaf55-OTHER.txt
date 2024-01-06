@@ -1,0 +1,47 @@
+Date 2023-10-10
+
+Network: Google
+AffectedCampaigns: 194
+NewPairs: 374
+StoppedPairs: 0
+NewVideos: 374
+NewPlayables: 0
+NewEndcards: 0
+NewImages: 0
+Errors: 1
+ShouldRetry: 0
+RunTommorow: 584
+
+Network: Unity
+AffectedCampaigns: 23
+NewPairs: 13
+StoppedPairs: 11
+NewVideos: 13
+NewPlayables: 12
+NewEndcards: 0
+NewImages: 1
+Errors: 4
+ShouldRetry: 0
+
+Network: Mintegral
+AffectedCampaigns: 49
+NewPairs: 118
+StoppedPairs: 0
+NewVideos: 118
+NewPlayables: 0
+NewEndcards: 0
+NewImages: 0
+Errors: 7
+ShouldRetry: 0
+
+Google 2 Should Retries
+Total: 387
+Success: 374
+Failed: 1
+ShouldRetries: 12
+
+Ironsource Should Retries
+Total: 2
+Success: 0
+Failed: 0
+ShouldRetries: 2

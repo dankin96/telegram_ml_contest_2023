@@ -1,0 +1,6 @@
+lista
+  .reduce(
+    ([head, ...tail], item) => head.length === 10 ? [[item], head, ...tail] : [[...head, item], ...tail],
+    [[]]
+  )
+  .reverse()

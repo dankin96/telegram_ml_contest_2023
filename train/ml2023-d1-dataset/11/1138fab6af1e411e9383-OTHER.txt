@@ -1,0 +1,1 @@
+mysql://u:p@tcp(sqlsrv.domain.com:3306)/kav

@@ -1,0 +1,1 @@
+export type NullableKey<T, K extends keyof T> = Omit<T, K> & { id: null | K };

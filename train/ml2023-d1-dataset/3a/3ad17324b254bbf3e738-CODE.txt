@@ -1,0 +1,6 @@
+/**
+ * @brief checks the possibility of updating the firmware on the http server specified in the settings, downloads the new version, checks the amounts.
+ * Switches the partition to the newly loaded one and reboots the system if everything was done successfully.
+ * Returns nothing, use verbose mode for diagnostics.
+ */
+void ota_check_on_server(void);

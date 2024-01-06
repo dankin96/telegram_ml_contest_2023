@@ -1,0 +1,7 @@
+def test(mail: str = "sample@ya.ru"):
+    data = make_simple_request("https://jsonplaceholder.typicode.com/users")
+    new_data = data[randrange(0, 6)]["email"]  # Яндекс ругается на адреса почт из этой выборки, поэтому создаем костыль
+    for addr in ["april.biz", "melissa.tv", "yesenia.net", "kory.org", "annie.ca", "jasper.info", "billy.biz"]:
+        if addr in new_data:
+            mail = new_data.replace(addr, "ya.ru")
+    LoginPageTests().tst_login_page_does_not_authorize_without_password(mail)

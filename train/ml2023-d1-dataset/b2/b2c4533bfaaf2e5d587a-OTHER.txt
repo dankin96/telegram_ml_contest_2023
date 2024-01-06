@@ -1,0 +1,15 @@
+Threat Detected @ 12-Oct-2023 || 12:16 (UTC)
+
+Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Biltay Technology Kayisi allows SQL Injection, Command Line Execution through SQL Injection.This issue affects Kayisi: before 1286.
+
+
+
+CVE: CVE-2023-5045
+Attack Complexity: LOW
+Privileges Required: NONE
+User Interaction: NONE
+CVSS3 Score: 10
+
+Advisory: https://nvd.nist.gov/vuln/detail/CVE-2023-5045
+
+Sign up for www.vullnerability.com to receive all alerts or filter your custom products.

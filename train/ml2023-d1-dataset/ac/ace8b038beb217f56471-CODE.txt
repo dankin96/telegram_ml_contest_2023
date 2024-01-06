@@ -1,0 +1,8 @@
+java
+        var bob = new Pet("Bob", 12);
+        var alice = new Pet("Alice", 23);
+        var set = Set.of(bob, alice);
+        System.out.println(set); // [Pet{name='Bob', age='12'}, Pet{name='Alice', age='23'}]
+        bob.setAge(23);
+        bob.setName("Alice");
+        System.out.println(set); // [Pet{name='Alice', age='23'}, Pet{name='Alice', age='23'}]

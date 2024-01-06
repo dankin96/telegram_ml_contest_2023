@@ -1,0 +1,86 @@
+dart
+import 'package:flutter/material.dart';
+import 'package:shared_preferences/shared_preferences.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: VideoListScreen(),
+    );
+  }
+}
+
+class VideoListScreen extends StatefulWidget {
+  @override
+  _VideoListScreenState createState() => _VideoListScreenState();
+}
+
+class _VideoListScreenState extends State<VideoListScreen> {
+  List<String> videoList = ['Video 1', 'Video 2', 'Video 3']; // REST API dan olingan videolar
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Video List'),
+      ),
+      body: ListView.builder(
+        itemCount: videoList.length,
+        itemBuilder: (context, index) {
+          return ListTile(
+            title: Text(videoList[index]),
+            onTap: () => watchVideo(videoList[index]),
+          );
+        },
+      ),
+    );
+  }
+
+  void watchVideo(String videoTitle) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    
+    if (prefs.containsKey(videoTitle)) {
+      // Foydalanuvchi allaqachon ko'rgan
+      showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: Text('Alert'),
+            content: Text('Siz ushbu videoni bugun allaqachon ko'rdingiz!'),
+            actions: [
+              TextButton(
+                onPressed: () => Navigator.pop(context),
+                child: Text('OK'),
+              ),
+            ],
+          );
+        },
+      );
+    } else {
+      // Foydalanuvchi bu videoni ko'rmagan
+      showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: Text('Alert'),
+            content: Text('Siz ushbu videoni bugun bir marta ko'rasiz!'),
+            actions: [
+              TextButton(
+                onPressed: () {
+                  prefs.setBool(videoTitle, true); // Videoni ko'rganini saqlash
+                  Navigator.pop(context);
+                },
+                child: Text('OK'),
+              ),
+            ],
+          );
+        },
+      );
+    }
+  }
+}

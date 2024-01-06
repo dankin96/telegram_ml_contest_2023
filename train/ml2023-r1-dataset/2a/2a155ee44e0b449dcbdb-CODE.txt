@@ -1,0 +1,7 @@
+#include <wx/settings.h>
+
+int main() {
+  wxColour color = wxSystemSettingsNative::GetColour(wxSYS_COLOUR_WINDOW);
+  // Use the color value to determine whether the system is in day mode or night mode
+  return 0;
+};

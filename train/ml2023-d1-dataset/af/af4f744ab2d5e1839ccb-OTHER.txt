@@ -1,0 +1,18 @@
+
+    Casos Reportados:
+    Total:     7,690,908
+    Ultimo dia:0
+    
+    Muertes Observadas:
+    Total:     334,630
+    Ultimo dia:0
+    
+    Vacunacion
+    Dosis Aplicadas:
+    Total:     - n.d. -
+    Ultimo dia:- n.d. -
+    
+    Poblacion Vacunada:
+    Una dosis: - n.d. -
+    Completa:  - n.d. -
+    

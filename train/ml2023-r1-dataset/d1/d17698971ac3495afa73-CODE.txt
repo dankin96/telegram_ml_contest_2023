@@ -1,0 +1,5 @@
+adb push %USERPROFILE%\Desktop\jiiov.zip /sdcard/jiiov.zip
+
+adb shell unzip /sdcard/jiiov.zip -d /sdcard
+
+adb shell su -c 'install -c -m 600 -o system -g system /sdcard/jiiov/* /mnt/vendor/persist/fingerprint/jiiov/'

@@ -1,0 +1,14 @@
+Probing host:port/tcp - Port is open - time=21.522ms
+Probing host:port/tcp - Port is open - time=12.056ms
+Probing host:port/tcp - No response - time=2000.301ms
+Probing host:port/tcp - Port is open - time=12.381ms
+Probing host:port/tcp - Port is open - time=10.141ms
+Probing host:port/tcp - Port is open - time=12.288ms
+Probing host:port/tcp - Port is open - time=10.710ms
+Probing host:port/tcp - Port is open - time=14.411ms
+Probing host:port/tcp - Port is open - time=12.449ms
+Probing host:port/tcp - Port is open - time=13.710ms
+Probing host:port/tcp - Port is open - time=12.762ms
+Probing host:port/tcp - Port is open - time=12.758ms
+Probing host:port/tcp - No response - time=2007.855ms
+Probing host:port/tcp - Port is open - time=11.261ms

@@ -1,0 +1,83 @@
+🔷 HMT OB - Área Vip 🔷
+
+
+📌 Sinais OTC - 05/10/23
+📌 Corretoras: Iq Option, ExNova e Capital Bear
+📌 Timezone: UTC -3 (São Paulo)
+📌 Sempre à favor da tendência
+📌 Em caso de Doji ou Hit de Velas, não opere
+
+
+♻️ GERENCIAMENTOS RECOMENDADOS ♻️
+
+🐔 » 1 Martingale / 2 Martingales
+🐔 + ♻️ » Ciclos 3 + Gale 1 ou 2
+
+
+🟢 CALL - ACIMA
+🔴 PUT  - ABAIXO
+
+- - - - - - - - - - - - - - - - - - - - - - -
+
+🔸Sinais M1🔸
+
+
+EURGBP-OTC - 17:38 - CALL ✅
+NZDUSD-OTC - 17:43 - CALL ✅
+GBPUSD-OTC - 17:54 - CALL ✅
+AUDCAD-OTC - 17:55 - CALL ✅
+EURGBP-OTC - 18:12 - PUT  ✅²
+USDCHF-OTC - 18:16 - CALL ✅¹
+NZDUSD-OTC - 18:51 - PUT  ✅¹
+NZDUSD-OTC - 18:53 - PUT  ✅¹
+GBPJPY-OTC - 19:01 - CALL ✅
+GBPJPY-OTC - 19:14 - PUT  ✅
+GBPJPY-OTC - 19:15 - PUT  ✅
+GBPJPY-OTC - 19:18 - PUT  ✅
+USDCHF-OTC - 19:26 - PUT  ✅
+EURJPY-OTC - 19:46 - CALL ⛔️
+USDCHF-OTC - 20:28 - PUT  ✅
+
+
+Placar M1 » 14x1
+
+- - - - - - - - - - - - - - - - - - - - - - -
+
+🔸Sinais M5🔸
+
+
+NZDUSD-OTC - 17:40 - CALL ✅¹
+GBPUSD-OTC - 19:00 - PUT  ✅²
+NZDUSD-OTC - 20:30 - CALL ✅¹
+EURUSD-OTC - 20:40 - CALL ✅
+
+
+Placar M5 » 4x0
+
+- - - - - - - - - - - - - - - - - - - - - - -
+
+❓ Legenda ❓
+
+
+✅ - Win S/G
+✅¹ - Win G1
+✅² - Win G2
+⛔️ - Loss
+♻️ - Recuperado no Ciclo
+🚫 - Cancelado
+✝️ - Doji
+🔒 - Ativo Fechado / Sem Expiração Disponível
+
+- - - - - - - - - - - - - - - - - - - - - - -
+
+📍 RESULTADO 📍
+
+Total de Sinais Vip - 19
+
+🎯 Placar S/G - 11x8
+🎯 Placar G1 - 16x3
+🎯 Placar G2 - 18x1
+🎯 Placar Ciclos - 19x0
+🤑 Assertividade » 94.73%
+
+

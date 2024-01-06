@@ -1,0 +1,3 @@
+Merge pull request #6786 from Visone-Selektah/xterm
+
+xterm: upgrade to 386

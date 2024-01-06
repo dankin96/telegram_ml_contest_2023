@@ -1,0 +1,1 @@
+金色财经报道，链上预言机服务Chainlink在社交媒体宣布，已在Arbitrum上整合GNS/USD交易对喂价功能，旨在进一步扩大以Chainlink Price Feed喂价为基础的Web3生态系统并支持围绕Gains Network构建更安全的DeFi市场。

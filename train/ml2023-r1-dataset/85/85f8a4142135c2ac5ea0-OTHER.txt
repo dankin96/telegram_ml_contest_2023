@@ -1,0 +1,9 @@
+User    Nickname Host         Via    Chan.   Idle Personal
+dks384  Sebastia HardTekk     cb0hal     0    35s Sebastian Husum JO44nl
+cb7alm  lars     Halle1       cb0hal     0    37s Lars/Gera/THR/JO60av
+djb381  Jan      Molbergen    dno381     0     5h *** DNO381 / Jan / JO3 (AWAY)
+teleg1@ Telegram AX25N0                  0    14h https://t.me/dlconvers
+fips02  benny    Halle1       cb0hal     0    23h Benjamin*Thr.-Gera-Zeu (AWAY)
+d1tne            Hamburg      cb0hal     0    32h
+
+*** 6 user on channel    0 ***

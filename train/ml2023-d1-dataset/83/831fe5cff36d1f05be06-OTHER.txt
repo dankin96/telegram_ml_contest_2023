@@ -1,0 +1,1 @@
+PING OK - Packet loss = 0%, RTA = 94.86 ms

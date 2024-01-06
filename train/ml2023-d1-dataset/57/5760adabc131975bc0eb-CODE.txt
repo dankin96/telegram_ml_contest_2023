@@ -1,0 +1,4 @@
+struct {
+void(* fn)(void*);
+void* ctx;
+}

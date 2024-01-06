@@ -1,0 +1,15 @@
+[+] CPF OWNDATA;
+[+] CEP SIMPLES;
+[+] VIZINHOS;
+[+] BENEFÍCIOS;
+[+] PARENTES;
+[+] SCORE SPC;
+[+] NOME HYPERIUM;
+[+] TELEFONE HYPERIUM;
+[+] EMAIL HYPERIUM;
+[+] CNPJ HYPERIUM;
+[+] PLACA HYPERIUM;
+[+] RG HYPERIUM.
+
+[-] Credilink removido temporariamente.
+

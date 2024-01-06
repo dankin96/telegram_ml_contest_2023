@@ -1,0 +1,1 @@
+masks = sorted(product((True, False), repeat=len(line)), key=sum)

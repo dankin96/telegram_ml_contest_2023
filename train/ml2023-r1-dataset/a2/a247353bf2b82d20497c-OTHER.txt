@@ -1,0 +1,4 @@
+Is the Packages Storage amount how much usage I have for repository storage?
+The Packages Storage amount indicated on each plan is specifically for GitHub Packages usage. As for regular repository storage, we recommend repositories be kept under 1GB each. Although repositories have a hard size limit of 100GB. See this article to learn more.
+Repository storage limit is the same regardless of which GitHub plan you choose. However, using Git LFS, the maximum file size you can store varies depending on the plan you choose. To learn more go here
+

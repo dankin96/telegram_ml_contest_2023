@@ -1,0 +1,6 @@
+(use-modules (rde-config))
+...
+(rde-config
+ (features
+  (append
+   (list feature-pipewire))))

@@ -1,0 +1,2 @@
+vless://5c80450b-0b8d-43cb-d129-8833b4598380@channel-hajimamadvpn-join-bede.cfz-hajimmad.site:443?type=ws&path=@HAJIMAMADVPN-@HAJIMAMADVPN-@HAJIMAMADVPN-@HAJIMAMADVPN-@HAJIMAMADVPN-@HAJIMAMADVPN-@HAJIMAMADVPN&host=hajimamadvpn.cfz-hajimmad.site&security=tls&fp=chrome&alpn=h2%2Chttp%2F1.1&allowInsecure=1&sni=hajimamadvpn.cfz-hajimmad.site#%40HAJIMAMADVPN-110
+

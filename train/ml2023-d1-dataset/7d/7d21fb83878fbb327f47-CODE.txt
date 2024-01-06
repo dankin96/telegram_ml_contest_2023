@@ -1,0 +1,7 @@
+import requests
+
+token = "<Токен, полученный при создании бота>"
+chat_id = "<ID чата, полученный с помощью @getmyid_bot. Пишется сюда вместе с минусом>"
+text = "Hello! It's test message!"
+
+r = requests.post(f'https://api.telegram.org/bot{token}/sendMessage', data = {'chat_id': chat_id, 'text': text})

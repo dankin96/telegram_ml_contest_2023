@@ -1,0 +1,6 @@
+python
+# in myapp/context_processors.py
+def say_hello (request):
+  return {
+    'greeting': f'Hello, {request.user.username}!'
+  }

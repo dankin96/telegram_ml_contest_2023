@@ -1,0 +1,5 @@
+
+class FlashCategories:
+    message = "message"
+    info = "info"
+    ...

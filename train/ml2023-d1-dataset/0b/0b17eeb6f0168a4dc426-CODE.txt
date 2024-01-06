@@ -1,0 +1,2 @@
+await sensor_id_124(id_sm, happy_event)
+

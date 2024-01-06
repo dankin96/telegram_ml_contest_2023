@@ -1,0 +1,7 @@
+  void _onRecommendedPlace(BuildContext context) {
+    showModalBottomSheet(
+      isScrollControlled: true,
+      context: context,
+      builder: (ctx) => const DetailedPlace(),
+    );
+  }

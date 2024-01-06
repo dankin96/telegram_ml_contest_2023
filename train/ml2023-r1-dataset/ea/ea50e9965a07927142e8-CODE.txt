@@ -1,0 +1,8 @@
+from PIL import Image
+
+def resize_image(image_path, target_width, target_height):
+    image = Image.open(image_path)
+    image.thumbnail((target_width, target_height))
+    image.save('resized_image.jpg')
+
+resize_image('original_image.jpg', 1080, 1080)

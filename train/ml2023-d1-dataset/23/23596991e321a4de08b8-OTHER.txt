@@ -1,0 +1,8 @@
+debug1: Authentications that can continue: publickey,password
+debug1: Trying private key: /home/jek/.ssh/id_ecdsa
+debug1: Trying private key: /home/jek/.ssh/id_ecdsa_sk
+debug1: Trying private key: /home/jek/.ssh/id_ed25519
+debug1: Trying private key: /home/jek/.ssh/id_ed25519_sk
+debug1: Trying private key: /home/jek/.ssh/id_xmss
+debug1: Trying private key: /home/jek/.ssh/id_dsa
+debug1: Next authentication method: password

@@ -1,0 +1,2 @@
+Could not connect to Ledger device.
+Make sure it's connected and unlocked, with no other desktop wallet apps open.

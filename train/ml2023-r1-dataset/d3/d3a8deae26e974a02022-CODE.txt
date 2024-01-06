@@ -1,0 +1,6 @@
+    defaultPref("font.name.sans-serif.x-western", "思源黑体");
+    defaultPref("font.name.serif.x-western", "思源宋体");
+    defaultPref("font.name.monospace.x-western", "思源等宽");
+    defaultPref("font.name.sans-serif.zh-CN", "思源黑体");
+    defaultPref("font.name.serif.zh-CN", "思源宋体");
+    defaultPref("font.name.monospace.zh-CN", "思源黑体")

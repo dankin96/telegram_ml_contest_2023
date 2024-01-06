@@ -1,0 +1,1 @@
+file, err := os.Create(Args[2])

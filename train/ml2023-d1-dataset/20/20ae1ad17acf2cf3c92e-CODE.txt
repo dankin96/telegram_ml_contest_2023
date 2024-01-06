@@ -1,0 +1,73 @@
+from aiogram import Bot, Dispatcher, types
+import requests
+
+API_TOKEN = 'ваш_токен_бота'
+API_KEY = 'ваш_api_ключ'
+SYSTEM_PROMPT = 'ты жопобот'
+IMAGE_PROMPT = 'улучши этот запрос для генерации фото'
+IMAGE_TIPS = """
+1. Describe in detail what you want to see in the image. 
+2. Specify the style and mood of the image.
+3. Describe the composition and angle.
+4. Specify the color palette, lighting and effects.
+5. For landscape images, specify the season, weather and geographic location.
+6. You can add hashtags to indicate style and theme.
+7. Read the prompt before generating to make sure it is correct.
+8. Be creative and experiment!
+9. Have fun and enjoy this creative process!
+Remember, the prompt should be written in English for the best results.
+"""
+
+class MyBot:
+    def __init__(self, token, api_key):
+        self.bot = Bot(token=token)
+        self.dp = Dispatcher(self.bot)
+        self.api_key = api_key
+        self.headers = {'Authorization': self.api_key}
+        self.dp.message_handler(commands=['ai'])(self.ai_command)
+        self.dp.message_handler(commands=['img'])(self.img_command)
+
+    async def ai_command(self, message: types.Message):
+        data = {
+            'model': 'claude-1.3-100k',
+            'messages': [
+                {'role': 'system', 'content': SYSTEM_PROMPT},
+                {'role': 'user', 'content': message.text.split('/ai ', 1)[1]}
+            ]
+        }
+        response_data = self.send_request('https://api.ddosxd.ru/v1/chat', data)
+        if 'reply' in response_data:
+            await message.reply(response_data['reply'])
+        else:
+            await message.reply('Произошла ошибка при обработке запроса.')
+
+    async def img_command(self, message: types.Message):
+        data = {
+            'model': 'claude-2-100k',
+            'prompt': f'{IMAGE_PROMPT} {IMAGE_TIPS} {message.text.split("/img ", 1)[1]}'
+        }
+        response_data = self.send_request('https://api.ddosxd.ru/v1/prompt', data)
+        if 'reply' in response_data:
+            data = {
+                'model': 'sdxl',
+                'prompt': response_data['reply']
+            }
+            response_data = self.send_request('https://api.ddosxd.ru/v1/image', data)
+            if 'url' in response_data:
+                await message.reply_photo(response_data['url'])
+            else:
+                await message.reply('Произошла ошибка при генерации изображения.')
+        else:
+            await message.reply('Произошла ошибка при обработке запроса.')
+
+    def send_request(self, url, data):
+        response = requests.post(url, headers=self.headers, json=data)
+        return response.json()
+
+    def run(self):
+        from aiogram import executor
+        executor.start_polling(self.dp, skip_updates=True)
+
+if __name__ == '__main__':
+    bot = MyBot(API_TOKEN, API_KEY)
+    bot.run()

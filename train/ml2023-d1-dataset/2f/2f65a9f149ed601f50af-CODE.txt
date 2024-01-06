@@ -1,0 +1,11 @@
+python
+def calculate_sum(n):
+    if n <= 0:
+        return 0
+    else:
+        return n + calculate_sum(n - 1)
+
+# مثال: برای محاسبه مجموع اعداد از 1 تا 5
+n = 5
+result = calculate_sum(n)
+print("مجموع اعداد از 1 تا", n, "برابر است با:", result)

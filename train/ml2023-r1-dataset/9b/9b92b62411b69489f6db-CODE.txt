@@ -1,0 +1,89 @@
+{
+ "_": "Message",
+ "id": 505004,
+ "peer_id": {
+  "_": "PeerChannel",
+  "channel_id": 1583597672
+ },
+ "date": "2023-10-07T11:43:35+00:00",
+ "message": "",
+ "out": false,
+ "mentioned": false,
+ "media_unread": false,
+ "silent": false,
+ "post": false,
+ "from_scheduled": false,
+ "legacy": false,
+ "edit_hide": false,
+ "pinned": false,
+ "noforwards": false,
+ "from_id": {
+  "_": "PeerUser",
+  "user_id": 1641895997
+ },
+ "fwd_from": null,
+ "via_bot_id": null,
+ "reply_to": null,
+ "media": {
+  "_": "MessageMediaPhoto",
+  "spoiler": false,
+  "photo": {
+   "_": "Photo",
+   "id": 5836800821315092293,
+   "access_hash": 794145493437852235,
+   "file_reference": "Al5jyGgAB7SsZSFE2OlenQxrcaEUJiz9Z2ZIuaE=",
+   "date": "2023-10-06T13:04:14+00:00",
+   "sizes": [
+    {
+     "_": "PhotoStrippedSize",
+     "type": "i",
+     "bytes": "ASgk2ajIcEkZPp0pnmt6/pTtxwOfSgA+fHf9KXDj+8fxFNkdl6GnhiRkHg0rjsN2seeef9qijavdQT70UXCwHpTGJwAPQU9vu1GWBx9KGCGksy9c1E0M8jkpdNGMfdCgipgFVARj1NMMmydEB+8eR7UirXJYI5I49rymQ5+8QBRUlFAiMjL8Px3oHEuBjGKKKAByNyj14pggAn8z0oooAnzRRRQB"
+    },
+    {
+     "_": "PhotoSize",
+     "type": "m",
+     "w": 290,
+     "h": 320,
+     "size": 21360
+    },
+    {
+     "_": "PhotoSizeProgressive",
+     "type": "x",
+     "w": 548,
+     "h": 604,
+     "sizes": [
+      5464,
+      12601,
+      22431,
+      34150,
+      45314
+     ]
+    }
+   ],
+   "dc_id": 4,
+   "has_stickers": false,
+   "video_sizes": []
+  },
+  "ttl_seconds": null
+ },
+ "reply_markup": null,
+ "entities": [],
+ "views": null,
+ "forwards": null,
+ "replies": {
+  "_": "MessageReplies",
+  "replies": 3,
+  "replies_pts": 919932,
+  "comments": false,
+  "recent_repliers": [],
+  "channel_id": null,
+  "max_id": 505013,
+  "read_max_id": null
+ },
+ "edit_date": null,
+ "post_author": null,
+ "grouped_id": null,
+ "reactions": null,
+ "restriction_reason": [],
+ "ttl_period": null
+}

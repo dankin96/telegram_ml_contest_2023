@@ -1,0 +1,2 @@
+    if (isChanged) window.onbeforeunload = handleUnload;
+    else window.onbeforeunload = null;

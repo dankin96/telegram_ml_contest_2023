@@ -1,0 +1,10 @@
+/help               - Show the current page
+/new | /report      - Create a new report
+/view               - View all my reports
+/show {report}      - View data about a report
+/me                 - View all data about me
+/comment {report}   - Add a new comment on an existing report
+/about {id}         - View info about a user.
+/claim              - Claim a Ban
+/stats              - View bot statistics
+/ticket | /issue    - View bot service web

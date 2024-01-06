@@ -1,0 +1,2 @@
+fn token_uri(self: @TState, token_id: u256) -> felt252
+

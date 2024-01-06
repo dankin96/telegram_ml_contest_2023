@@ -1,0 +1,6 @@
+def project do
+  [
+    app: MyApp,
+    ...
+  ]
+end

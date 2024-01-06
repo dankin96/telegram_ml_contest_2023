@@ -1,0 +1,10 @@
+
+Without stacklevel:
+logger:50 running x
+logger:50 running y
+logger:50 running z
+
+With stacklevel:
+func_x:50 running x
+func_y:100 running y
+func_x:150 running z

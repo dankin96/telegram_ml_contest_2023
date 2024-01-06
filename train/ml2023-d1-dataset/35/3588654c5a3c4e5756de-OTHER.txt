@@ -1,0 +1,3 @@
+Метод теста Tests.ParserTests.ReadTextTest создал исключение: 
+System.UnauthorizedAccessException: Access to the path 'C:\Users\dimap\source\repos\WithLuvBot\Bot\bin\Debug
+et6.0\Commands' is denied..

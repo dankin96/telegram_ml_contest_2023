@@ -1,0 +1,10 @@
+       ==== SIGNAL UPDATE ====
+Symbol      #AAPL (BATS)
+Type        stock
+Time Frame  15 minute
+Trend       Up Trend
+Signal      PUT | CALL TP
+Last Close  173.6000
+E1          173.9251
+E2          173.1697
+Time        2023-10-06 21:30

@@ -1,0 +1,8 @@
+┌─────────────────────────┐
+      • SSH INFORMATION •
+└─────────────────────────┘
+┌─────────────────────────┐
+  ISP      : ID-RWEB
+  Username : fajar_hidessh
+  Status   : Deleted account
+└─────────────────────────┘

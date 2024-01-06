@@ -1,0 +1,103 @@
+Production CONVERSATIONS warning
+
+At least 1 events occurred between 2023-10-06 20:27 UTC and 2023-10-07 00:27 UTC
+
+@timestamp: 2023-10-07T00:27:31.210Z
+@version: 1
+_id: jXSIB4sBL0jxnycbQqpx
+_index: filebeat-2023.10.07
+_type: _doc
+agent: {
+    "ephemeral_id": "dd624c40-1ea8-4350-8419-5178616d0a3c",
+    "hostname": "6d79bb4e7320",
+    "id": "465eb4b5-8af3-4e57-a654-a9ed5c9cfd77",
+    "type": "filebeat",
+    "version": "7.6.2"
+}
+context: {
+    "body": {
+        "data": {
+            "showSubscriber": {
+                "Subscriber": null,
+                "result": {
+                    "approval": false,
+                    "code": 404,
+                    "errors": [
+                        {
+                            "field": "subscriber",
+                            "message": "Subscriber with subscriberId or contactId = 64b14e93ef26004aa0119833 - not found."
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "code": 404,
+    "filter_tags": [],
+    "headers": {
+        "Access-Control-Allow-Credentials": [
+            "true"
+        ],
+        "Access-Control-Allow-Headers": [
+            "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With"
+        ],
+        "Access-Control-Allow-Methods": [
+            "GET, POST, PUT, PATCH, OPTIONS, DELETE"
+        ],
+        "Access-Control-Max-Age": [
+            "1728000"
+        ],
+        "Cache-Control": [
+            "no-cache, private"
+        ],
+        "Content-Length": [
+            "214"
+        ],
+        "Content-Type": [
+            "application/json"
+        ],
+        "Date": [
+            "Sat, 07 Oct 2023 00:27:26 GMT"
+        ],
+        "Vary": [
+            "Accept-Encoding",
+            "Origin",
+            "Accept-Encoding"
+        ],
+        "X-Powered-By": [
+            "PHP/8.0.11"
+        ]
+    },
+    "method": "POST",
+    "url": "https://gateway.13chats.com/schema"
+}
+datetime: 2023-10-07 00:27:26.215562183 +0000 UTC
+ecs: {
+    "version": "1.4.0"
+}
+extra: []
+fields: {
+    "application": "13chats-conversations",
+    "env": "production",
+    "type": "warning_log"
+}
+host: {
+    "name": "6d79bb4e7320"
+}
+input: {
+    "type": "log"
+}
+level: 404
+log: {
+    "file": {
+        "path": "/app/log/response_warning_log_2023-10-07.json"
+    },
+    "offset": 95876
+}
+message: Response
+num_hits: 59
+num_matches: 5
+tags: [
+    "json_log",
+    "beats_input_codec_plain_applied"
+]

@@ -1,0 +1,5 @@
+OK: Nginx status connections active on bl01.runexis.ru > 300
+Host: bl01.runexis.ru 10.10.80.124 - time 05:47:54
+Trigger: Nginx status connections active on bl01.runexis.ru > 300
+Trigger status: OK
+Trigger severity: Warning

@@ -1,0 +1,28 @@
+Partita: Empoli - Udinese
+Risultati vincenti: 
+['x', 'Under 2,5', 'No Goal']
+
+Vincitori 🏆: 
+Mauro          Under 2,5
+GiorgioM       Under 2,5
+Dak75          Under 2,5
+Luk74          Under 2,5
+Gigirriva      x
+Manuel         Under 2,5
+Lorenzo        Under 2,5
+mattia         Under 2,5
+Maurizio       x
+Mike           Under 2,5
+Mirko          Under 2,5
+Salvo          x
+Lorenzo        Under 2,5
+NicoSollai     Under 2,5
+ABAT           x
+Maurizio       Under 2,5
+Lillo          Under 2,5
+Sergio         Under 2,5
+Lucas          Under 2,5
+nick           Under 2,5
+Enrico         Under 2,5
+Vincenzo       x
+Roberto        x

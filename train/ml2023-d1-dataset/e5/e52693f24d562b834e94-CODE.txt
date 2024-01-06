@@ -1,0 +1,15 @@
+[[!pdoPage?
+&elementClass=`modSnippet`
+&element=`pdoResources`
+&depth=`2`
+&limit=`9`
+&tpl=`articleslistTpl2023`
+&includeTVs=`blog-img,HitsPage,tags`
+&sortby=`{"publishedon":"DESC"}`
+&sortdir=`DESC`
+    
+&tvPrefix=`tv.`
+&processTVs=`1`
+&ajaxMode=`button`
+&ajaxTplMore=`@INLINE <div class="uk-width-1-1 more-cards"><a href="#">Показать еще 9 публикаций</a></div>`
+]]

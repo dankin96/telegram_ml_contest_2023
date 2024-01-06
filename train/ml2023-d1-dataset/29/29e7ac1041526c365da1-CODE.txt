@@ -1,0 +1,21 @@
+export const dialogFactory = <R, T>(
+  component: Type<IDialog<R, T>>,
+  options?: Partial<Omit<TuiDialogOptions<T>, 'closeable' | 'data'>>,
+): ((data: T) => Observable<R>) => {
+  const dialogService = inject(TuiDialogService);
+  const pmComponent = new PolymorpheusComponent(component, inject(Injector));
+  const isCloseable$ = new BehaviorSubject<boolean>(true);
+  const isDismissible$ = toObservable(options?.dismissible ?? true);
+  return (data: T) =>
+    dialogService.open(pmComponent, {
+      ...options,
+      closeable: isCloseable$,
+      dismissible: combineLatest([isCloseable$, isDismissible$]).pipe(
+        map(([isCloseable, isDismissible]) => isCloseable && isDismissible),
+      ),
+      data: {
+        ...data,
+        isCloseable$,
+      },
+    });
+};

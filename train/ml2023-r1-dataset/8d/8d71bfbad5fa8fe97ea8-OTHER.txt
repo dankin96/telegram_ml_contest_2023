@@ -1,0 +1,53 @@
+Kucoin - BTC-USDT 27,691.40
+High:   27,891.60
+Low:    27,333.10
+Bid:    27,691.40
+Ask:    27,691.50
+Spread: 0.00%
+Last:   27,691.50
+Vol:    61,866,929 USDT
+
+Bittrex - BTC-USDT 27,692.00
+High:   NA
+Low:    NA
+Bid:    27,692.00
+Ask:    27,732.34
+Spread: 0.15%
+Last:   27,692.00
+Vol:    NA USDT
+
+Huobi - BTC-USDT 27,692.20
+High:   27,895.56
+Low:    27,328.71
+Bid:    27,692.20
+Ask:    27,692.21
+Spread: 0.00%
+Last:   27,692.20
+Vol:    136,005,119 USDT
+
+Binance - BTC-USDT 27,695.82
+High:   27,896.07
+Low:    27,329.85
+Bid:    27,695.82
+Ask:    27,695.83
+Spread: 0.00%
+Last:   27,695.82
+Vol:    702,948,012 USDT
+
+Coinbasepro - BTC-USDT 27,696.95
+High:   NA
+Low:    NA
+Bid:    27,696.95
+Ask:    27,700.77
+Spread: 0.01%
+Last:   27,692.83
+Vol:    NA USDT
+
+Bibox - BTC-USDT 27,710.10
+High:   27,892.30
+Low:    27,347.60
+Bid:    27,710.10
+Ask:    27,711.20
+Spread: 0.00%
+Last:   27,710.10
+Vol:    NA USDT

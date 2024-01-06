@@ -1,0 +1,13 @@
+
+@repository
+def dbtproj():
+    return [
+        with_resources(
+            dbt_assets,
+            resource_defs= {
+                "dbt": dbt_cli_resource.configured({"project-dir": DBT_PROJECT_DIR, "profiles-dir": DBT_PROFILES_DIR})
+            }
+        ), 
+        dbt_asset_job,
+        dbt_schedules
+    ]

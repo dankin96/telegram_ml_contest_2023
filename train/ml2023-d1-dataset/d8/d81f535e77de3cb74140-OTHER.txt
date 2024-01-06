@@ -1,0 +1,7 @@
+Coin Name : KINGS FREE CRYPTO WORLD TOKEN
+Ticker : KFCW
+Standard : TRC20
+Blockchain: TRON
+Total Supply : 7,800,000,000
+Decimals: 8 
+Contract address: TRP2MMWHZ1wzbLrAxMhBkAKYogKJKfGi6p

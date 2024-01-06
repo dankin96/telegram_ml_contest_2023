@@ -1,0 +1,4 @@
+
+# define the domain for dnsmasq
+domain=hwdomain.io
+address=/hwdomain.io/192.168.5.20

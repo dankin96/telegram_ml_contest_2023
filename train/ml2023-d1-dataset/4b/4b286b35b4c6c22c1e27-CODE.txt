@@ -1,0 +1,12 @@
+#include <stdbool.h>
+
+struct hey {
+        bool hello;
+        int there;
+};
+
+struct hey hey () {
+        struct hey hello_there = { true, 10 };
+        return hello_there;
+};
+

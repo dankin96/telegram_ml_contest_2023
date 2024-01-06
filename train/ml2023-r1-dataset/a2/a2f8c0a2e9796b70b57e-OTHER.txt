@@ -1,0 +1,3 @@
+  ID  Pair       Since    Profit (USD)       # Entries
+----  ---------  -------  ---------------  -----------
+  1   ARKM/USDT  2 d      -8.10% (-20.03)            1

@@ -1,0 +1,2 @@
+TELP 250mnt ALL+2250mnt SESAMA 30HR 
+

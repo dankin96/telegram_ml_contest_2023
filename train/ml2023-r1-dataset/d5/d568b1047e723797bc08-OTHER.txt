@@ -1,0 +1,2 @@
+no such file or directory: binary/with/broken/interpreter
+

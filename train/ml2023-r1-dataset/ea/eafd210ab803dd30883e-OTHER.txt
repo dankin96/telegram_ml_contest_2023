@@ -1,0 +1,30 @@
++-------------------------------+
+|       Trade Information       |
++-----------------+-------------+
+| Key             | Value       |
++-----------------+-------------+
+| Buy Limit       | NZDUSD      |
+| Entry           | 0.5891      |
+|                 |             |
+| Stop Loss       | 73 pips     |
+| TP 1            | (17 pips)   |
+| TP 2            | (37 pips)   |
+| TP 3            | (97 pips)   |
+|                 |             |
+|                 |             |
+| Stop Loss       | 0.5818      |
+| TP 1            | 0.5908      |
+| TP 2            | 0.5928      |
+| TP 3            | 0.5988      |
+|                 |             |
+| Risk Factor     | 9 %         |
+| Position Size   | 1.96        |
+|                 |             |
+| Current Balance | $ 15,975.61 |
+| Potential Loss  | $ 1,430.80  |
+| TP 1 Profit     | $ 111.07    |
+| TP 2 Profit     | $ 241.73    |
+| TP 3 Profit     | $ 633.73    |
+|                 |             |
+| Total Profit    | $ 986.53    |
++-----------------+-------------+

@@ -1,0 +1,16 @@
+export default function OutputView({steps,onClickRemove,onClickEdit}){
+        
+    const [alert,newAlert] = useState(false);
+    
+    return (<>
+        <div className="steps_wrapper wrappers">{steps?.map((elem,index)=>
+            <div id={elem.id} key={index} className="steps">        
+                <div className="output_steps date">{elem.date}</div>
+                <div className="output_steps distance">{(!isNaN(elem.distance)) ? elem.distance + 'км' : newAlert(true)}</div>
+                <button onClick={()=>onClickRemove(elem.id)}>X</button>
+                <button onClick={()=>onClickEdit(elem.id)}>E</button>
+            </div>)}
+            <Alert alert={alert}/>
+        </div>
+    </>)
+}

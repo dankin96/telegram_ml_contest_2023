@@ -1,0 +1,11 @@
+--------------------------------
+🔸Pagamento Div em 09/10/2023🔸
+--------------------------------
+Sigla  tipo  valor   DivYet
+H1IG34 Div   1,38    %
+NIKE34 Div   0,11    %
+COCA34 Div   0,25    %
+P1HM34 Div   0,54    %
+COCA34 Div   0,26    %
+P1HM34 Div   0,56    %
+

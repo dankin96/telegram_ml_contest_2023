@@ -1,0 +1,2 @@
+sudo firewall-cmd --permanent --zone=public --add-service=kdeconnect
+

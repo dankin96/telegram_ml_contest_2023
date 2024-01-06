@@ -1,0 +1,12 @@
+let array = ['Amir', 'Sanyok', 'Slava', 'Abdurauf']
+
+for(let d of array){
+  let x =  d.split(d[0][0]).join('X').split()
+    
+    console.log(x);
+}
+
+
+    
+
+// Xamir, Xanyok, Xlava, Xbdurauf

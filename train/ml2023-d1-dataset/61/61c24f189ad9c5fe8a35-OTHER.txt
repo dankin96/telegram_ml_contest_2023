@@ -1,0 +1,22 @@
+ 
+🟢  2023-10-12 07:54:14
+
+Complete handle ironSource Mediation Groups. 
+
+packageName: com.falcon.fasttranslation
+adFormat: rewardedVideo
+appKey: 1bb280785
+
+
++----------------------+------------+------------+
+| Network              |  Success   |   Failed   |
++----------------------+------------+------------+
+| UNITY                |     X      |            |
+| MINTEGRAL_BIDDING    |     X      |            |
+| VUNGLE_BIDDING       |     X      |            |
+| PANGLE_BIDDING       |     X      |            |
+| INMOBI_BIDDING       |     X      |            |
+| APPLOVIN             |     X      |            |
+| ADMOB                |     X      |            |
+| ADCOLONY_BIDDING     |     X      |            |
++----------------------+------------+------------+

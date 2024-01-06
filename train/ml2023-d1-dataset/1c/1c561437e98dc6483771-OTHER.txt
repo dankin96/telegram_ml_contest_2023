@@ -1,0 +1,4 @@
+속도:         GWI:  Price(KRW - 원):
+🚗 Low       6     775.44
+🏍 Normal    6     775.44
+🏎 Fast      6     775.44

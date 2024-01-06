@@ -1,0 +1,1 @@
+iptables -A LOG_ACCEPT -j ACCEPT

@@ -1,0 +1,15 @@
+01.⏹CAD    - GIR    - [0-1]|2
+02.🔄CEL    - GETA   - [0-0]|-
+03.🔄ALAV   - BET    - [0-0]|-
+04.⏹ATHC   - ALME   - [3-0]|1
+05.🔄GRAN   - BCN    - [0-0]|-
+06.⏹R.MAD  - OSA    - [4-0]|1
+07.⏹SEV    - RAYO   - [2-2]|X
+08.⏹VILL   - LASP   - [1-2]|2
+09.⏹LEGA   - OVIE   - [0-0]|X
+10.⏹RACI   - SPOR   - [3-2]|1
+11.🔄ZAR    - ALCO   - [0-0]|-
+12.🔄TEN    - BURG   - [0-0]|-
+13.⏹HUES   - ELD    - [0-1]|2
+14.▶VALL   - MIRA   - [0-0]|X
+15.▶⚽ATMAD - RSOC   - [1-0]|1-0

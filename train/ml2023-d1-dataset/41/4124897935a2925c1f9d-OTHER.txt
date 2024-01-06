@@ -1,0 +1,5 @@
+           24H Return 7D Return 6H Return
+Token name                               
+wbnb               0%       -2%        1%
+long               1%        0%       -3%
+

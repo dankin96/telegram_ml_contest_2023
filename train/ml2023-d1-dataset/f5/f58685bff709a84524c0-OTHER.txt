@@ -1,0 +1,54 @@
+u29475@01a85715-5fb0-40f4-b0ec-6a8231329cea 
+------------------------------------------- 
+OS: Ubuntu 22.04.3 LTS x86_64 
+Kernel: 5.15.0-1047-aws 
+Uptime: 1 day, 9 hours, 26 mins 
+Packages: 833 (dpkg) 
+Shell: bash 
+CPU: Intel Xeon Platinum 8375C (8) @ 2.900GHz 
+GPU: 00:03.0 Amazon.com, Inc. Device 1111 
+Memory: 25195MiB / 63276MiB 
+
+
+CPU
+Cores        : 4
+Logical      : 8
+Frequency    : 2977
+[□□□□□□□□□□] 5.5%
+
+RAM 
+Terpakai     : 24.55GB
+Tersedia     : 36.51GB
+Total        : 61.79GB
+[■■■■□□□□□□] 40.9%
+
+Penyimpanan 
+Terpakai     : 104.18GB
+Tersedia     : 246.98GB
+Total        : 370.02GB
+[■■□□□□□□□□] 29.7%
+
+Jaringan
+Total Unduh  : 30.97MB
+Total Unggah : 16.09MB
+
+Versi
+Aria2c       : v1.36.0
+FFMPEG       : v4.4.2
+Google Api   : v2.102.0
+MegaSDK      : v4.8.0
+P7Zip        : v16.02
+Pyro         : v2.3.7
+Rclone       : v1.64.0
+Qbittorrent  : v4.5.5
+YT-DLP       : v2023.10.07
+
+Lainnya
+Username     : @em_p_tybot
+Waktu Bot    : 11h4m56s
+Waktu Mesin  : 1d9h26m57s
+Diperbarui   : 2023-10-10 From 11 hours ago
+
+Quotes       : 
+"I lost my shoe."
+=>  Supernatural

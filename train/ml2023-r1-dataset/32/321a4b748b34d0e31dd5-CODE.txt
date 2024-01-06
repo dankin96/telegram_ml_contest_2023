@@ -1,0 +1,13 @@
+def is_subset(subset, main_set):
+    for element in subset:
+        if element not in main_set:
+            return False
+    return True
+
+main_set = {1, 2, 3, 4, 5}
+subset = {3, 4}
+
+if is_subset(subset, main_set):
+    print("subset là một tập con của main_set")
+else:
+    print("subset không phải là một tập con của main_set")

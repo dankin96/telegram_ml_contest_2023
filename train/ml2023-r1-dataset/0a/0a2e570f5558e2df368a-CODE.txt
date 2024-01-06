@@ -1,0 +1,2 @@
+opkg remove wget
+/opt/lib/opkg/info/busybox.postinst

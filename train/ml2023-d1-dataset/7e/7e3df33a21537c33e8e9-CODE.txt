@@ -1,0 +1,4 @@
+public function dealer() {
+    return $this->setConnection('mysql_main')
+        ->belongsTo(Dealer::class);
+}

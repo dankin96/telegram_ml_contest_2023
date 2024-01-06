@@ -1,0 +1,15 @@
+starlink.com
+www.starlink.com
+auth.starlink.com
+support.starlink.com
+support-agent.starlink.com
+fulfillment.starlink.com
+admin.starlink.com
+api.starlink.com
+support.starlink.com
+
+151.101.2.133
+151.101.66.133
+151.101.130.133
+151.101.194.133
+

@@ -1,0 +1,8 @@
+👀 SPAM Score detected:
+###
+Сегoдня вeчeром бyдет пpoxодить нecтандаpтнaя мaфия)
+###
+
+Reason: Фильтр SPOOF ABC. Совпадения: сегoдня вeчeром бyдет пpoxодить нecтандаpтнaя мaфия)
+Action: deleteMessage
+Bot response: Successful ✅

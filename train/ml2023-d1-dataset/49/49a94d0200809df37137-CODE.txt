@@ -1,0 +1,3 @@
+
+[dependencies]
+dojo = { git = "https://github.com/dojoengine/dojo.git", tag = "v0.2.3" }

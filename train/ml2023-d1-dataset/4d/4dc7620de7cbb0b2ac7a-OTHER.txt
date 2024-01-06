@@ -1,0 +1,3 @@
+
+   ./d2j-dex2jar.sh [ملف.dex]
+   

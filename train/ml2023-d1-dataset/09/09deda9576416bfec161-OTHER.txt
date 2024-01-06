@@ -1,0 +1,2 @@
+192.168.x.x:/volume1/CARPETA /home/usuario/Montajes/carpeta  nfs  user,nolock,tcp,intr 0 0
+

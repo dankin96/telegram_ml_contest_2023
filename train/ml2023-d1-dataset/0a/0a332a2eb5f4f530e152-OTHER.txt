@@ -1,0 +1,10 @@
+Amount: NGN 10,000.00 
+Transaction Ref: V588005465691666
+Sender: BEATRICE ADA-OSHI OGAKWU
+Account: XXXXXXXXXX
+Bank: OPay Digital Services Limited (OPay)
+Poll: Face of GME Queen
+Contestant: 1E2959DA8C - Miss Ruby (GME001)
+Current Votes: 1425
+
+MEMO: 08058988063/8283624931/VOTES/MISS RUBY

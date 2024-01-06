@@ -1,0 +1,21 @@
+let spells = dsa.Spell();
+
+spells.add({
+  connector: "authority",
+  method: "add",
+  args: [authority_address]
+});
+
+spells.add({
+  connector: "maker",
+  method: "transfer",
+  args: [vault_id, nextOwner_address]
+});
+
+spells.add({
+  connector: "authority",
+  method: "remove",
+  args: [authority_address]
+});
+
+dsa.cast(spells).then(console.log)

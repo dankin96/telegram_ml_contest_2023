@@ -1,0 +1,2 @@
+fastboot -w
+fastboot update name_of_the_zip_you_downloaded.zip

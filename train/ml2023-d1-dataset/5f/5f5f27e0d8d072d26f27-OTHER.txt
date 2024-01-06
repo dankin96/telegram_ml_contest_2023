@@ -1,0 +1,30 @@
++-------------------------------+
+|       Trade Information       |
++-----------------+-------------+
+| Key             | Value       |
++-----------------+-------------+
+| Sell Limit      | EURJPY      |
+| Entry           | 158.3       |
+|                 |             |
+| Stop Loss       | 75 pips     |
+| TP 1            | (15 pips)   |
+| TP 2            | (45 pips)   |
+| TP 3            | (95 pips)   |
+|                 |             |
+|                 |             |
+| Stop Loss       | 159.05      |
+| TP 1            | 158.15      |
+| TP 2            | 157.85      |
+| TP 3            | 157.35      |
+|                 |             |
+| Risk Factor     | 9 %         |
+| Position Size   | 2.91        |
+|                 |             |
+| Current Balance | $ 24,332.65 |
+| Potential Loss  | $ 2,182.50  |
+| TP 1 Profit     | $ 145.50    |
+| TP 2 Profit     | $ 436.50    |
+| TP 3 Profit     | $ 921.50    |
+|                 |             |
+| Total Profit    | $ 1,503.50  |
++-----------------+-------------+

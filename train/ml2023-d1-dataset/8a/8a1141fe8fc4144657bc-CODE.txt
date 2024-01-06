@@ -1,0 +1,8 @@
+  query Publication($publicationId: InternalPublicationId!) {
+    publication(request: { publicationId: $publicationId }) {
+      __typename
+      ... on Post {
+        hasCollectedByMe
+      }
+    }
+  }

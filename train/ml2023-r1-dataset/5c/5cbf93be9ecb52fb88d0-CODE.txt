@@ -1,0 +1,5 @@
+const now: Date = new Date();
+const options: Intl.DateTimeFormatOptions = { timeZone: 'Asia/Kolkata' };
+const formattedDate: string = now.toLocaleString('en-US', options);
+
+console.log(formattedDate);

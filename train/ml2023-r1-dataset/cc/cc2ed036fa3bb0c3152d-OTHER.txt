@@ -1,0 +1,11 @@
+
+
+＊index:filebeat-dym-pvq-log-2023.10.08
+
+＊hostname:<MISSING VALUE>
+
+＊type:<elastalert.ruletypes.FrequencyRule object at 0x7f3f7b97f430>
+
+＊message:ERROR - 2023-10-08 21:26:10 --> 404 Page Not Found: Query/index
+
+＊count:12

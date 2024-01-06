@@ -1,0 +1,1 @@
+print(list(map(lambda n: "xxx" if n == 63 else n, range(1, 101))))

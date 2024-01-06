@@ -1,0 +1,11 @@
+
+somme_ages = 0
+compteur = 0
+
+while compteur < 100:
+    age = int(input("Entrez l'âge de l'élève : "))
+    somme_ages += age
+    compteur += 1
+
+age_moyen = somme_ages / 100
+print("L'âge moyen des élèves est de", age_moyen, "ans.")

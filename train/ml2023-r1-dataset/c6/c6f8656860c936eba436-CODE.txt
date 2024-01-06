@@ -1,0 +1,3 @@
+[data-stage=start] .stage-inner:before {
+  backdrop-filter: none !important;
+}
