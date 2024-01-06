@@ -106,8 +106,9 @@ Check out [this main code](src/tglang.cpp)
 - Accuracy on the test set (Code vs Other): 95% 
 - Accuracy on the test set (Programming or markup language): 75%
 
-**Result of 25/60:**
-<img src="resources/results.png">
+**Result of 25/60 (15th place is the last prize-winning position):**
+
+<p float="left"><img src="resources/results.png" height="260" width="480"></p>
 
 https://contest.com/ml2023-r2/entry5260
 
@@ -135,5 +136,5 @@ $ ./tglang-tester <text.txt>
 ```
 
 ## Credits
-https://github.com/dankin96
-https://github.com/anatolystansler
+[Nikita Danilov](https://github.com/dankin96)
+[Anatoly Stansler](https://github.com/anatolystansler)
