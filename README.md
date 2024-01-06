@@ -56,7 +56,7 @@ for stats and data prep steps.
 
 The prediction task can be split into two parts:
 
-Detecting code snippets vs human language [model 1](resources/v1_code_vs_other_depth11_vocab15000.cbm").
+Detecting code snippets vs human language [model 1](resources/v1_code_vs_other_depth11_vocab15000.cbm).
 If it is a code snippet, detecting the programming or markup language [model 2](resources/v1_languages_depth9_vocab5000.cbm).
 We chose gradient boosting methods because they demonstrate better accuracy compared to classic machine learning classification methods such as Logistic Regression, SVM, Naive Bayes, Random Forest, and KNN. From the libraries that can implement gradient boosting, we selected the Catboost library due to its native support and ability to export models to the C++ language. The competition's requirements emphasize the critical importance of speed, and Catboost provides out-of-the-box support for Tokenization, IDF, and gradient boosting all-in-one."
 
