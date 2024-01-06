@@ -137,4 +137,5 @@ $ ./tglang-tester <text.txt>
 
 ## Credits
 [Nikita Danilov](https://github.com/dankin96)
+
 [Anatoly Stansler](https://github.com/anatolystansler)
