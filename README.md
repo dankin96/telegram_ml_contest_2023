@@ -122,17 +122,15 @@ A funny moment occurred when we didn't participate in round 1 due to being an ho
 
 Go to folder "libtglang-tester-r2" and build it:
 ```shell
-mkdir build
-cd build
-cmake -DCMAKE_BUILD_TYPE=Release ..
-cmake --build .
+cmake CMakeLists.txt
+cmake --build ./
 ```
 
 ### Run
 
 Run on any text file:
 ```shell
-$ ./tglang-tester <text.txt>
+$ ./tglang-tester text.txt
 ```
 
 ## Credits
