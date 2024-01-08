@@ -130,7 +130,7 @@ cmake --build ./
 
 Run on any text file:
 ```shell
-$ ./tglang-tester text.txt
+./tglang-tester text.txt
 ```
 
 ## Credits
